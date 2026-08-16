@@ -5,12 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Senate AI - Debate</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: #0a0a0f;
@@ -20,47 +15,25 @@
             flex-direction: column;
             overflow: hidden;
         }
-
-        /* Animated gradient background */
         .background {
             position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(
-                135deg,
-                #0a0a0f 0%,
-                #1a1a2e 20%,
-                #16213e 40%,
-                #2E5090 55%,
-                #265EF7 70%,
-                #16213e 85%,
-                #0a0a0f 100%
-            );
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 20%, #16213e 40%, #2E5090 55%, #265EF7 70%, #16213e 85%, #0a0a0f 100%);
             background-size: 400% 400%;
             animation: gradientShift 12s ease infinite;
             z-index: 0;
         }
-
         @keyframes gradientShift {
             0% { background-position: 0% 50%; }
             50% { background-position: 100% 50%; }
             100% { background-position: 0% 50%; }
         }
-
-        /* Overlay */
         .overlay {
             position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            top: 0; left: 0; right: 0; bottom: 0;
             background: rgba(10, 10, 15, 0.5);
             z-index: 1;
         }
-
-        /* Main container */
         .container {
             position: relative;
             z-index: 2;
@@ -72,8 +45,6 @@
             padding: 20px;
             gap: 20px;
         }
-
-        /* Header */
         .header {
             display: flex;
             align-items: center;
@@ -84,38 +55,21 @@
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
-
         .header img {
             width: 45px;
             height: 45px;
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(38, 94, 247, 0.4);
         }
-
-        .header-info h1 {
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: #ffffff;
-        }
-
-        .header-info p {
-            font-size: 0.85rem;
-            color: rgba(255, 255, 255, 0.6);
-        }
-
+        .header-info h1 { font-size: 1.3rem; font-weight: 600; color: #fff; }
+        .header-info p { font-size: 0.85rem; color: rgba(255,255,255,0.6); }
         .back-link {
             margin-left: auto;
             color: #8ab4ff;
             text-decoration: none;
             font-size: 0.9rem;
-            transition: color 0.3s;
         }
-
-        .back-link:hover {
-            color: #ffffff;
-        }
-
-        /* Messages */
+        .back-link:hover { color: #fff; }
         .messages {
             flex: 1;
             overflow-y: auto;
@@ -124,7 +78,6 @@
             gap: 15px;
             padding: 10px 0;
         }
-
         .message {
             max-width: 80%;
             padding: 15px 18px;
@@ -133,20 +86,17 @@
             font-size: 0.95rem;
             animation: fadeIn 0.3s ease;
         }
-
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
         }
-
         .message.user {
             align-self: flex-end;
             background: linear-gradient(135deg, #265EF7, #2E5090);
-            color: #ffffff;
+            color: #fff;
             border-bottom-right-radius: 4px;
             box-shadow: 0 4px 15px rgba(38, 94, 247, 0.3);
         }
-
         .message.senate {
             align-self: flex-start;
             background: rgba(255, 255, 255, 0.08);
@@ -154,14 +104,11 @@
             border-bottom-left-radius: 4px;
             backdrop-filter: blur(10px);
         }
-
         .message .meta {
             font-size: 0.75rem;
-            color: rgba(255, 255, 255, 0.5);
+            color: rgba(255,255,255,0.5);
             margin-bottom: 5px;
         }
-
-        /* Typing indicator */
         .typing {
             align-self: flex-start;
             background: rgba(255, 255, 255, 0.08);
@@ -173,7 +120,6 @@
             gap: 5px;
             align-items: center;
         }
-
         .typing-dot {
             width: 8px;
             height: 8px;
@@ -181,16 +127,61 @@
             background: #8ab4ff;
             animation: bounce 1.4s infinite;
         }
-
         .typing-dot:nth-child(2) { animation-delay: 0.2s; }
         .typing-dot:nth-child(3) { animation-delay: 0.4s; }
-
         @keyframes bounce {
             0%, 60%, 100% { transform: translateY(0); }
             30% { transform: translateY(-10px); }
         }
-
-        /* Input area */
+        .login-overlay {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(10, 10, 15, 0.9);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .login-card {
+            text-align: center;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            max-width: 400px;
+        }
+        .login-card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 40px rgba(38, 94, 247, 0.5);
+        }
+        .login-card h2 { color: #fff; margin-bottom: 10px; }
+        .login-card p { color: rgba(255,255,255,0.6); margin-bottom: 25px; font-size: 0.9rem; }
+        .login-btn {
+            padding: 14px 32px;
+            background: linear-gradient(135deg, #265EF7, #2E5090);
+            border: none;
+            border-radius: 12px;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .login-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(38, 94, 247, 0.4);
+        }
+        .device-code {
+            font-size: 1.2rem;
+            color: #8ab4ff;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin: 15px 0;
+        }
         .input-area {
             display: flex;
             gap: 10px;
@@ -200,80 +191,36 @@
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
-
         .input-area input {
             flex: 1;
             padding: 12px 18px;
             background: rgba(255, 255, 255, 0.05);
             border: 1px solid rgba(255, 255, 255, 0.15);
             border-radius: 12px;
-            color: #ffffff;
+            color: #fff;
             font-size: 1rem;
             outline: none;
-            transition: all 0.3s;
         }
-
-        .input-area input::placeholder {
-            color: rgba(255, 255, 255, 0.4);
-        }
-
         .input-area input:focus {
             border-color: #265EF7;
             box-shadow: 0 0 20px rgba(38, 94, 247, 0.2);
         }
-
         .input-area button {
             padding: 12px 24px;
             background: linear-gradient(135deg, #265EF7, #2E5090);
             border: none;
             border-radius: 12px;
-            color: #ffffff;
+            color: #fff;
             font-size: 1rem;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s;
-            white-space: nowrap;
         }
-
-        .input-area button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(38, 94, 247, 0.4);
-        }
-
-        .input-area button:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-            transform: none;
-        }
-
-        /* Scrollbar */
-        .messages::-webkit-scrollbar {
-            width: 6px;
-        }
-
-        .messages::-webkit-scrollbar-track {
-            background: transparent;
-        }
-
-        .messages::-webkit-scrollbar-thumb {
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 3px;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .container {
-                padding: 10px;
-            }
-            
-            .message {
-                max-width: 90%;
-            }
-            
-            .header-info h1 {
-                font-size: 1.1rem;
-            }
-        }
+        .input-area button:hover { transform: translateY(-2px); }
+        .input-area button:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+        .messages::-webkit-scrollbar { width: 6px; }
+        .messages::-webkit-scrollbar-track { background: transparent; }
+        .messages::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 3px; }
     </style>
 </head>
 <body>
@@ -299,27 +246,115 @@
         
         <div class="input-area">
             <input type="text" id="question" placeholder="Ask the Senate..." onkeypress="if(event.key==='Enter') askQuestion()">
-            <button id="askBtn" onclick="askQuestion()">Ask</button>
+            <button id="askBtn" onclick="askQuestion()">Debate</button>
+        </div>
+    </div>
+
+    <!-- Login overlay -->
+    <div class="login-overlay" id="loginOverlay">
+        <div class="login-card">
+            <img src="assets/icon.png" alt="Senate AI">
+            <h2>Login to Senate AI</h2>
+            <p>Connect with GitHub to start debating</p>
+            
+            <div id="loginStep1">
+                <button class="login-btn" onclick="startDeviceFlow()">Login with GitHub</button>
+            </div>
+            
+            <div id="loginStep2" style="display:none;">
+                <p>Enter this code at <a href="https://github.com/login/device" target="_blank" style="color:#8ab4ff;">github.com/login/device</a></p>
+                <div class="device-code" id="deviceCode"></div>
+                <p style="font-size:0.8rem; color:rgba(255,255,255,0.4);">Waiting for authorization...</p>
+            </div>
         </div>
     </div>
 
     <script>
+        const CLIENT_ID = 'Ov23liIwRv0B3uR8v0DY';
+        const REPO = 'pullbot-ai/senateAI';
+        let githubToken = localStorage.getItem('senate_token');
+        let polling = false;
+
+        // Check login state
+        if (githubToken) {
+            document.getElementById('loginOverlay').style.display = 'none';
+        }
+
+        async function startDeviceFlow() {
+            document.getElementById('loginStep1').style.display = 'none';
+            document.getElementById('loginStep2').style.display = 'block';
+            
+            try {
+                // Request device code
+                const response = await fetch('https://github.com/login/device/code', {
+                    method: 'POST',
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        client_id: CLIENT_ID,
+                        scope: 'workflow'
+                    })
+                });
+                
+                const data = await response.json();
+                document.getElementById('deviceCode').textContent = data.user_code;
+                
+                // Poll for token
+                const pollInterval = data.interval || 5;
+                
+                while (true) {
+                    await new Promise(r => setTimeout(r, pollInterval * 1000));
+                    
+                    const tokenResponse = await fetch('https://github.com/login/oauth/access_token', {
+                        method: 'POST',
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            client_id: CLIENT_ID,
+                            device_code: data.device_code,
+                            grant_type: 'urn:ietf:params:oauth:grant-type:device_code'
+                        })
+                    });
+                    
+                    const tokenData = await tokenResponse.json();
+                    
+                    if (tokenData.access_token) {
+                        localStorage.setItem('senate_token', tokenData.access_token);
+                        githubToken = tokenData.access_token;
+                        document.getElementById('loginOverlay').style.display = 'none';
+                        break;
+                    }
+                    
+                    if (tokenData.error === 'access_denied') {
+                        document.getElementById('loginStep1').style.display = 'block';
+                        document.getElementById('loginStep2').style.display = 'none';
+                        alert('Login denied');
+                        break;
+                    }
+                }
+            } catch (e) {
+                console.error('Device flow error:', e);
+                alert('Login failed: ' + e.message);
+            }
+        }
+
         function addMessage(text, type, meta = '') {
             const messages = document.getElementById('messages');
             const msgDiv = document.createElement('div');
             msgDiv.className = `message ${type}`;
-            
             if (meta) {
                 const metaDiv = document.createElement('div');
                 metaDiv.className = 'meta';
                 metaDiv.textContent = meta;
                 msgDiv.appendChild(metaDiv);
             }
-            
             msgDiv.appendChild(document.createTextNode(text));
             messages.appendChild(msgDiv);
             messages.scrollTop = messages.scrollHeight;
-            return msgDiv;
         }
 
         function showTyping() {
@@ -333,8 +368,7 @@
         }
 
         function hideTyping() {
-            const typing = document.getElementById('typing');
-            if (typing) typing.remove();
+            document.getElementById('typing')?.remove();
         }
 
         async function askQuestion() {
@@ -342,38 +376,62 @@
             const button = document.getElementById('askBtn');
             const question = input.value.trim();
             
-            if (!question) return;
+            if (!question || !githubToken) return;
             
             addMessage(question, 'user');
             input.value = '';
             button.disabled = true;
-            
             showTyping();
             
             try {
-                // This will be replaced with actual Senate AI API call
-                const response = await fetch('/api/debate', {
+                // Trigger Senate debate workflow
+                await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/senate_debate.yml/dispatches`, {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ question: question })
+                    headers: {
+                        'Authorization': `Bearer ${githubToken}`,
+                        'Accept': 'application/vnd.github.v3+json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        ref: 'main',
+                        inputs: { question: question }
+                    })
                 });
                 
-                const data = await response.json();
+                // Poll for result
+                for (let i = 0; i < 60; i++) {
+                    await new Promise(r => setTimeout(r, 3000));
+                    
+                    try {
+                        const response = await fetch(`debate_result.json?t=${Date.now()}`);
+                        if (response.ok) {
+                            const data = await response.json();
+                            if (data.consensus) {
+                                hideTyping();
+                                addMessage(
+                                    data.consensus,
+                                    'senate',
+                                    `Confidence: ${(data.confidence * 100).toFixed(1)}% | ${data.senators_involved} senators | ${data.rounds} rounds`
+                                );
+                                button.disabled = false;
+                                input.focus();
+                                return;
+                            }
+                        }
+                    } catch(e) {
+                        // Not ready
+                    }
+                }
                 
                 hideTyping();
+                addMessage('Senate is still debating. Check Actions tab.', 'senate');
+                button.disabled = false;
                 
-                if (data.consensus) {
-                    addMessage(data.consensus, 'senate', `Confidence: ${(data.confidence * 100).toFixed(1)}% | Senators: ${data.senators_involved}`);
-                } else {
-                    addMessage('The Senate could not reach a consensus. Try rephrasing.', 'senate');
-                }
             } catch (e) {
                 hideTyping();
-                addMessage('Error connecting to Senate. Please try again.', 'senate');
+                addMessage('Error: ' + e.message, 'senate');
+                button.disabled = false;
             }
-            
-            button.disabled = false;
-            input.focus();
         }
     </script>
 </body>
