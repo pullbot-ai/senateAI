@@ -14,8 +14,6 @@ jobs:
       NODE_OPTIONS: "--max-old-space-size=4096"
     steps:
       - uses: actions/checkout@v4
-        with:
-          lfs: true
       
       - uses: actions/setup-python@v5
         with:
@@ -23,22 +21,50 @@ jobs:
       
       - run: pip install torch numpy pyyaml
       
-      - run: python src/generate_training_data.py
-      - run: python src/initialize.py
+      - name: Generate training data
+        run: python src/generate_training_data.py
       
-      - name: Setup Git LFS for bundle files
-        run: |
-          git lfs install
-          git lfs track "senate_bundles/bundle_*.pt"
-          git add .gitattributes
+      - name: Initialize senate
+        run: python src/initialize.py
       
       - name: Configure git
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
+          git config http.postBuffer 524288000
+          git config pack.windowMemory "50m"
+          git config pack.packSizeLimit "50m"
+          git config pack.threads "1"
+          git config core.compression 0
       
-      - name: Push everything
+      - name: Push small files first
         run: |
-          git add training_data/ senate_bundles/ .gitattributes
-          git commit -m "Initialize Senate - 4005 senators"
+          git add training_data/ senate_bundles/senate_index.json
+          git commit -m "Add training data and senate index"
           git push
+      
+      - name: Push bundles 5 at a time
+        run: |
+          for i in $(seq 0 5 85); do
+            end=$((i + 4))
+            if [ $end -gt 88 ]; then end=88; fi
+            
+            echo "Pushing bundles $i-$end..."
+            
+            for j in $(seq $i $end); do
+              padded=$(printf "%03d" $j)
+              git add senate_bundles/bundle_${padded}.pt
+            done
+            
+            git commit -m "Bundles $(printf '%03d' $i)-$(printf '%03d' $end)"
+            
+            for attempt in 1 2 3; do
+              if git push; then
+                echo "Success!"
+                break
+              else
+                echo "Attempt $attempt failed, waiting..."
+                sleep 15
+              fi
+            done
+          done
