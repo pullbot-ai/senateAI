@@ -1,6 +1,7 @@
 """
 Senate AI - Topic-Based Training with AI Grading
 Generates fresh AI training data each run, trains senators, grades them with AI.
+Supports --bundle flag to train only senators in a specific bundle.
 """
 
 import torch
@@ -198,7 +199,6 @@ def grade_senator_with_ai(senator, qa_pairs, vocab):
         correct_answer = qa.get('answer', '')
         topic = qa.get('topic', '')
         
-        # Get senator's answer
         input_ids = tokenize_text(question)
         
         with torch.no_grad():
@@ -217,7 +217,6 @@ def grade_senator_with_ai(senator, qa_pairs, vocab):
         
         senator_answer = decode_tokens(torch.tensor(generated), vocab)
         
-        # AI judge grades the answer
         grading_prompt = f"""You are grading an AI senator's answer.
 
 Question: {question}
@@ -288,8 +287,8 @@ def grade_and_update(senator, topics, vocab):
     return {'average_score': avg_score, 'scores': scores}
 
 
-def train_topics(topic_list, epochs=3, lr=0.001):
-    """Train all senators matching topics with fresh AI data + AI grading"""
+def train_topics(topic_list, bundle_id=None, epochs=3, lr=0.001):
+    """Train all senators matching topics, optionally filtered by bundle"""
     
     with open('senate_bundles/senate_index.json') as f:
         index = json.load(f)
@@ -299,6 +298,8 @@ def train_topics(topic_list, epochs=3, lr=0.001):
     print(f"  TOPIC TRAINING - FRESH AI DATA + AI GRADING")
     print(f"{'='*60}")
     print(f"  Topics: {', '.join(sorted(topics))}")
+    if bundle_id is not None:
+        print(f"  Bundle: {bundle_id}")
     sys.stdout.flush()
     
     vocab = build_vocab()
@@ -307,7 +308,8 @@ def train_topics(topic_list, epochs=3, lr=0.001):
     for senator in index['senators']:
         senator_topics = set(senator['specialties'])
         if senator_topics & topics:
-            matching_senators.append(senator)
+            if bundle_id is None or senator['bundle_id'] == bundle_id:
+                matching_senators.append(senator)
     
     print(f"  Matching senators: {len(matching_senators)}")
     sys.stdout.flush()
@@ -331,15 +333,15 @@ def train_topics(topic_list, epochs=3, lr=0.001):
     total_score = 0
     skipped = 0
     
-    for bundle_id, senators in sorted(bundle_groups.items()):
-        bundle_path = f"senate_bundles/bundle_{bundle_id:03d}.pt"
+    for bid, senators in sorted(bundle_groups.items()):
+        bundle_path = f"senate_bundles/bundle_{bid:03d}.pt"
         
         if not Path(bundle_path).exists():
-            print(f"  Bundle {bundle_id} not found, skipping {len(senators)} senators")
+            print(f"  Bundle {bid} not found, skipping {len(senators)} senators")
             skipped += len(senators)
             continue
         
-        print(f"\n  Bundle {bundle_id} ({len(senators)} senators)...")
+        print(f"\n  Bundle {bid} ({len(senators)} senators)...")
         sys.stdout.flush()
         
         bundle = SenateBundle.load(bundle_path)
@@ -404,10 +406,11 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser()
     parser.add_argument('--topics', type=str, required=True, help='Comma-separated topics')
+    parser.add_argument('--bundle', type=int, default=None, help='Only train senators in this bundle')
     parser.add_argument('--epochs', type=int, default=3)
     parser.add_argument('--lr', type=float, default=0.001)
     
     args = parser.parse_args()
     topics = [t.strip() for t in args.topics.split(',')]
     
-    train_topics(topics, epochs=args.epochs, lr=args.lr)
+    train_topics(topics, bundle_id=args.bundle, epochs=args.epochs, lr=args.lr)
