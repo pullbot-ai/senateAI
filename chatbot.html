@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senate AI - Debate</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0f;
+            color: #e0e0e0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* Animated gradient background */
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(
+                135deg,
+                #0a0a0f 0%,
+                #1a1a2e 20%,
+                #16213e 40%,
+                #2E5090 55%,
+                #265EF7 70%,
+                #16213e 85%,
+                #0a0a0f 100%
+            );
+            background-size: 400% 400%;
+            animation: gradientShift 12s ease infinite;
+            z-index: 0;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Overlay */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(10, 10, 15, 0.5);
+            z-index: 1;
+        }
+
+        /* Main container */
+        .container {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .header img {
+            width: 45px;
+            height: 45px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(38, 94, 247, 0.4);
+        }
+
+        .header-info h1 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .header-info p {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .back-link {
+            margin-left: auto;
+            color: #8ab4ff;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        .back-link:hover {
+            color: #ffffff;
+        }
+
+        /* Messages */
+        .messages {
+            flex: 1;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 10px 0;
+        }
+
+        .message {
+            max-width: 80%;
+            padding: 15px 18px;
+            border-radius: 16px;
+            line-height: 1.5;
+            font-size: 0.95rem;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .message.user {
+            align-self: flex-end;
+            background: linear-gradient(135deg, #265EF7, #2E5090);
+            color: #ffffff;
+            border-bottom-right-radius: 4px;
+            box-shadow: 0 4px 15px rgba(38, 94, 247, 0.3);
+        }
+
+        .message.senate {
+            align-self: flex-start;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom-left-radius: 4px;
+            backdrop-filter: blur(10px);
+        }
+
+        .message .meta {
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 5px;
+        }
+
+        /* Typing indicator */
+        .typing {
+            align-self: flex-start;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            border-bottom-left-radius: 4px;
+            padding: 15px 18px;
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+
+        .typing-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #8ab4ff;
+            animation: bounce 1.4s infinite;
+        }
+
+        .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+        .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes bounce {
+            0%, 60%, 100% { transform: translateY(0); }
+            30% { transform: translateY(-10px); }
+        }
+
+        /* Input area */
+        .input-area {
+            display: flex;
+            gap: 10px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .input-area input {
+            flex: 1;
+            padding: 12px 18px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            color: #ffffff;
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        .input-area input::placeholder {
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .input-area input:focus {
+            border-color: #265EF7;
+            box-shadow: 0 0 20px rgba(38, 94, 247, 0.2);
+        }
+
+        .input-area button {
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #265EF7, #2E5090);
+            border: none;
+            border-radius: 12px;
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+
+        .input-area button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(38, 94, 247, 0.4);
+        }
+
+        .input-area button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* Scrollbar */
+        .messages::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .messages::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .messages::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .message {
+                max-width: 90%;
+            }
+            
+            .header-info h1 {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="overlay"></div>
+    
+    <div class="container">
+        <div class="header">
+            <img src="assets/icon.png" alt="Senate AI">
+            <div class="header-info">
+                <h1>Senate AI</h1>
+                <p>4,005 senators ready to debate</p>
+            </div>
+            <a href="index.html" class="back-link">← Back</a>
+        </div>
+        
+        <div class="messages" id="messages">
+            <div class="message senate">
+                <div class="meta">Senate AI</div>
+                Ask me anything. The Senate will debate and reach a consensus.
+            </div>
+        </div>
+        
+        <div class="input-area">
+            <input type="text" id="question" placeholder="Ask the Senate..." onkeypress="if(event.key==='Enter') askQuestion()">
+            <button id="askBtn" onclick="askQuestion()">Ask</button>
+        </div>
+    </div>
+
+    <script>
+        function addMessage(text, type, meta = '') {
+            const messages = document.getElementById('messages');
+            const msgDiv = document.createElement('div');
+            msgDiv.className = `message ${type}`;
+            
+            if (meta) {
+                const metaDiv = document.createElement('div');
+                metaDiv.className = 'meta';
+                metaDiv.textContent = meta;
+                msgDiv.appendChild(metaDiv);
+            }
+            
+            msgDiv.appendChild(document.createTextNode(text));
+            messages.appendChild(msgDiv);
+            messages.scrollTop = messages.scrollHeight;
+            return msgDiv;
+        }
+
+        function showTyping() {
+            const messages = document.getElementById('messages');
+            const typingDiv = document.createElement('div');
+            typingDiv.className = 'typing';
+            typingDiv.id = 'typing';
+            typingDiv.innerHTML = '<div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div>';
+            messages.appendChild(typingDiv);
+            messages.scrollTop = messages.scrollHeight;
+        }
+
+        function hideTyping() {
+            const typing = document.getElementById('typing');
+            if (typing) typing.remove();
+        }
+
+        async function askQuestion() {
+            const input = document.getElementById('question');
+            const button = document.getElementById('askBtn');
+            const question = input.value.trim();
+            
+            if (!question) return;
+            
+            addMessage(question, 'user');
+            input.value = '';
+            button.disabled = true;
+            
+            showTyping();
+            
+            try {
+                // This will be replaced with actual Senate AI API call
+                const response = await fetch('/api/debate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question: question })
+                });
+                
+                const data = await response.json();
+                
+                hideTyping();
+                
+                if (data.consensus) {
+                    addMessage(data.consensus, 'senate', `Confidence: ${(data.confidence * 100).toFixed(1)}% | Senators: ${data.senators_involved}`);
+                } else {
+                    addMessage('The Senate could not reach a consensus. Try rephrasing.', 'senate');
+                }
+            } catch (e) {
+                hideTyping();
+                addMessage('Error connecting to Senate. Please try again.', 'senate');
+            }
+            
+            button.disabled = false;
+            input.focus();
+        }
+    </script>
+</body>
+</html>
