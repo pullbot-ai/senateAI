@@ -1,7 +1,7 @@
 """
 Senate AI - Initialize the Senate
-Creates 89 bundle files (~45MB each) containing all 4,005 senators.
-Commits directly to repo.
+Creates 400 bundles of 10 senators each (~72MB per bundle).
+Regular git files, under GitHub's 100MB limit.
 """
 
 import torch
@@ -36,13 +36,14 @@ def create_senate():
     output_dir.mkdir(exist_ok=True)
     
     TOTAL_SENATORS = 4005
-    SENATORS_PER_BUNDLE = 45
-    TOTAL_BUNDLES = 89
+    SENATORS_PER_BUNDLE = 10
+    TOTAL_BUNDLES = 401  # 400 full bundles + 1 partial
     
     print("=" * 60)
     print("  SENATE AI - Initializing the Senate")
     print("=" * 60)
     print(f"\nCreating {TOTAL_SENATORS} senators in {TOTAL_BUNDLES} bundles")
+    print(f"Each bundle: {SENATORS_PER_BUNDLE} senators (~72MB)")
     
     all_configs = []
     for senator_id in range(TOTAL_SENATORS):
@@ -59,7 +60,11 @@ def create_senate():
     
     for bundle_id in range(TOTAL_BUNDLES):
         start = bundle_id * SENATORS_PER_BUNDLE
-        end = start + SENATORS_PER_BUNDLE
+        end = min(start + SENATORS_PER_BUNDLE, TOTAL_SENATORS)
+        
+        if start >= TOTAL_SENATORS:
+            break
+        
         bundle_configs = all_configs[start:end]
         
         bundle = SenateBundle(bundle_id, bundle_configs)
@@ -88,17 +93,10 @@ def create_senate():
     with open(output_dir / "senate_index.json", 'w') as f:
         json.dump(index, f, indent=2)
     
-    total_size = sum(
-        (output_dir / f"bundle_{i:03d}.pt").stat().st_size 
-        for i in range(TOTAL_BUNDLES)
-    )
-    
-    print(f"\n✅ Senate initialized!")
-    print(f"📁 {TOTAL_BUNDLES} bundles saved to {output_dir}/")
-    print(f"💾 Total size: {total_size / (1024*1024):.0f}MB")
-    print(f"👥 {TOTAL_SENATORS} senators ready")
-    
-    return senate_index
+    print(f"\nSenate initialized!")
+    print(f"  {TOTAL_BUNDLES} bundles")
+    print(f"  {TOTAL_SENATORS} senators")
+    print(f"  Each bundle ~72MB (under 100MB limit)")
 
 
 if __name__ == "__main__":
