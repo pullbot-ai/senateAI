@@ -54,9 +54,6 @@ jobs:
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
       
-      - name: Download bundles
-        run: git lfs pull --include "senate_bundles/*.pt"
-      
       - name: Train topic 1
         run: |
           TOPIC=$(echo "${{ github.event.inputs.topics }}" | cut -d',' -f1)
@@ -119,9 +116,6 @@ jobs:
       
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      
-      - name: Download bundles
-        run: git lfs pull --include "senate_bundles/*.pt"
       
       - name: Train topic 2
         run: |
@@ -186,9 +180,6 @@ jobs:
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
       
-      - name: Download bundles
-        run: git lfs pull --include "senate_bundles/*.pt"
-      
       - name: Train topic 3
         run: |
           TOPIC=$(echo "${{ github.event.inputs.topics }}" | cut -d',' -f3)
@@ -252,9 +243,6 @@ jobs:
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
       
-      - name: Download bundles
-        run: git lfs pull --include "senate_bundles/*.pt"
-      
       - name: Train topic 4
         run: |
           TOPIC=$(echo "${{ github.event.inputs.topics }}" | cut -d',' -f4)
@@ -317,9 +305,6 @@ jobs:
       
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      
-      - name: Download bundles
-        run: git lfs pull --include "senate_bundles/*.pt"
       
       - name: Train topic 5
         run: |
