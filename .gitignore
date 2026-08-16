@@ -1,0 +1,31 @@
+# Senate bundles (large files)
+senate_bundles/
+models/
+gguf_exports/
+
+# Node
+node_modules/
+package-lock.json
+package.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Training data
+training_data/
+critic_training/
+data/
+reports/
+checkpoints/
+optimize_progress.json
+
+# GitHub Actions artifacts
+debate_result.json
+
+# OS
+.DS_Store
+Thumbs.db
