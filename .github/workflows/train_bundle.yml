@@ -635,6 +635,7 @@ jobs:
 
   ping-train-all-and-optimize:
     needs: [train-bundle-0, train-bundle-1, train-bundle-2, train-bundle-3, train-bundle-4, train-bundle-5, train-bundle-6, train-bundle-7, train-bundle-8, train-bundle-9]
+    if: success() || failure()
     runs-on: ubuntu-latest
     steps:
       - name: Continue training loop
