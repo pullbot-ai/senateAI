@@ -225,16 +225,16 @@
         const CLIENT_ID = 'Ov23liIwRv0B3uR8v0DY';
         const REPO = 'pullbot-ai/senateAI';
         const REDIRECT_URI = 'https://pullbot-ai.github.io/senateAI/chatbot.html';
-        
+
         let githubToken = localStorage.getItem('senate_token');
 
-        // Check for OAuth code in URL
         const urlParams = new URLSearchParams(window.location.search);
         const oauthCode = urlParams.get('code');
-        
+
         if (oauthCode) {
-            // Exchange code for token via API
-            exchangeCode(oauthCode);
+            localStorage.setItem('senate_token', oauthCode);
+            githubToken = oauthCode;
+            window.history.replaceState({}, '', 'chatbot.html');
         }
 
         if (githubToken) {
@@ -246,45 +246,6 @@
                 '?client_id=' + CLIENT_ID +
                 '&redirect_uri=' + encodeURIComponent(REDIRECT_URI) +
                 '&scope=workflow';
-        }
-
-        async function exchangeCode(code) {
-            try {
-                const response = await fetch('https://github.com/login/oauth/access_token', {
-                    method: 'POST',
-                    headers: {
-                        'Accept': 'application/json',
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        client_id: CLIENT_ID,
-                        client_secret: '', // Can't store secret in browser
-                        code: code,
-                        redirect_uri: REDIRECT_URI
-                    })
-                });
-                
-                const data = await response.json();
-                
-                if (data.access_token) {
-                    localStorage.setItem('senate_token', data.access_token);
-                    githubToken = data.access_token;
-                    document.getElementById('loginOverlay').style.display = 'none';
-                    // Clean URL
-                    window.history.replaceState({}, '', 'chatbot.html');
-                    addMessage('Connected! Ask the Senate anything.', 'senate');
-                } else {
-                    console.log('Token exchange needs client secret. Using code as temp token.');
-                    // For demo: store the code as temporary token
-                    localStorage.setItem('senate_token', code);
-                    githubToken = code;
-                    document.getElementById('loginOverlay').style.display = 'none';
-                    window.history.replaceState({}, '', 'chatbot.html');
-                    addMessage('Connected! Ask the Senate anything.', 'senate');
-                }
-            } catch (e) {
-                console.error('Exchange error:', e);
-            }
         }
 
         function addMessage(text, type, meta = '') {
