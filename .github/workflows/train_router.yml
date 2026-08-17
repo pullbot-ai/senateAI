@@ -12,8 +12,6 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
-        with:
-          lfs: true
       
       - uses: actions/setup-python@v5
         with:
@@ -34,10 +32,9 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add models/router.pt
           git stash
           git pull --rebase origin main
-          git stash pop
-          git add models/router.pt
+          git stash pop || true
+          git add -f models/router.pt
           git commit -m "Train router model" || echo "No changes"
           git push
