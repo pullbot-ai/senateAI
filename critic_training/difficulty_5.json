@@ -3,16 +3,62 @@
   "examples": [],
   "questions": [
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of physics.",
       "topic": "physics",
+=======
+      "question": "Explain the key concepts of biochemistry.",
+      "topic": "biochemistry",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of history.",
-      "topic": "history",
+      "question": "Explain the key concepts of thermodynamics.",
+      "topic": "thermodynamics",
       "difficulty": 5
     },
     {
+      "question": "Explain the key concepts of literature.",
+      "topic": "literature",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of electromagnetism.",
+      "topic": "electromagnetism",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of ancient_civilizations.",
+      "topic": "ancient_civilizations",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of constitutional_law.",
+      "topic": "constitutional_law",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of music_theory.",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of anatomy.",
+      "topic": "anatomy",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of mathematics.",
+      "topic": "mathematics",
+>>>>>>> Stashed changes
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of neuroscience.",
+      "topic": "neuroscience",
+      "difficulty": 5
+    },
+    {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of computer_science.",
       "topic": "computer_science",
       "difficulty": 5
@@ -45,6 +91,30 @@
     {
       "question": "Explain the key concepts of literature.",
       "topic": "literature",
+=======
+      "question": "Explain the key concepts of calculus.",
+      "topic": "calculus",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of machine_learning.",
+      "topic": "machine_learning",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of behavioral_economics.",
+      "topic": "behavioral_economics",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of economics.",
+      "topic": "economics",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of geometry.",
+      "topic": "geometry",
+>>>>>>> Stashed changes
       "difficulty": 5
     },
     {

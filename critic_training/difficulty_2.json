@@ -3,6 +3,7 @@
   "examples": [],
   "questions": [
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of computer_science.",
       "topic": "computer_science",
       "difficulty": 2
@@ -35,6 +36,15 @@
     {
       "question": "Explain the key concepts of climate_science.",
       "topic": "climate_science",
+=======
+      "question": "Explain the key concepts of cognitive_science.",
+      "topic": "cognitive_science",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of electromagnetism.",
+      "topic": "electromagnetism",
+>>>>>>> Stashed changes
       "difficulty": 2
     },
     {
@@ -43,6 +53,7 @@
       "difficulty": 2
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of calculus.",
       "topic": "calculus",
       "difficulty": 2
@@ -65,6 +76,45 @@
     {
       "question": "Explain the key concepts of medieval_history.",
       "topic": "medieval_history",
+=======
+      "question": "Explain the key concepts of neuroscience.",
+      "topic": "neuroscience",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of poetry.",
+      "topic": "poetry",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of anatomy.",
+      "topic": "anatomy",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of behavioral_economics.",
+      "topic": "behavioral_economics",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of mathematics.",
+      "topic": "mathematics",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of art_history.",
+      "topic": "art_history",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of microbiology.",
+      "topic": "microbiology",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of astrophysics.",
+      "topic": "astrophysics",
+>>>>>>> Stashed changes
       "difficulty": 2
     },
     {
@@ -73,8 +123,23 @@
       "difficulty": 2
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of political_science.",
       "topic": "political_science",
+=======
+      "question": "Explain the key concepts of music_theory.",
+      "topic": "music_theory",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of constitutional_law.",
+      "topic": "constitutional_law",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of world_wars.",
+      "topic": "world_wars",
+>>>>>>> Stashed changes
       "difficulty": 2
     }
   ],

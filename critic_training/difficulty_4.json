@@ -3,8 +3,48 @@
   "examples": [],
   "questions": [
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of microbiology.",
       "topic": "microbiology",
+=======
+      "question": "Explain the key concepts of political_science.",
+      "topic": "political_science",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of calculus.",
+      "topic": "calculus",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of environmental_science.",
+      "topic": "environmental_science",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of biology.",
+      "topic": "biology",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of poetry.",
+      "topic": "poetry",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of anatomy.",
+      "topic": "anatomy",
+>>>>>>> Stashed changes
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of medieval_history.",
+      "topic": "medieval_history",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of psychology.",
+      "topic": "psychology",
       "difficulty": 4
     },
     {
@@ -13,6 +53,7 @@
       "difficulty": 4
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of microeconomics.",
       "topic": "microeconomics",
       "difficulty": 4
@@ -23,21 +64,32 @@
       "difficulty": 4
     },
     {
+=======
+      "question": "Explain the key concepts of ethics.",
+      "topic": "ethics",
+      "difficulty": 4
+    },
+    {
+>>>>>>> Stashed changes
       "question": "Explain the key concepts of constitutional_law.",
       "topic": "constitutional_law",
       "difficulty": 4
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of algebra.",
       "topic": "algebra",
       "difficulty": 4
     },
     {
+=======
+>>>>>>> Stashed changes
       "question": "Explain the key concepts of astrophysics.",
       "topic": "astrophysics",
       "difficulty": 4
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of biology.",
       "topic": "biology",
       "difficulty": 4
@@ -75,6 +127,20 @@
     {
       "question": "Explain the key concepts of quantum_mechanics.",
       "topic": "quantum_mechanics",
+=======
+      "question": "Explain the key concepts of thermodynamics.",
+      "topic": "thermodynamics",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of machine_learning.",
+      "topic": "machine_learning",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of linguistics.",
+      "topic": "linguistics",
+>>>>>>> Stashed changes
       "difficulty": 4
     }
   ],

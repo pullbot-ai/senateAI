@@ -3,6 +3,7 @@
   "examples": [],
   "questions": [
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of constitutional_law.",
       "topic": "constitutional_law",
       "difficulty": 1
@@ -35,14 +36,29 @@
     {
       "question": "Explain the key concepts of networking.",
       "topic": "networking",
+=======
+      "question": "Explain the key concepts of macroeconomics.",
+      "topic": "macroeconomics",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of climate_science.",
-      "topic": "climate_science",
+      "question": "Explain the key concepts of cybersecurity.",
+      "topic": "cybersecurity",
       "difficulty": 1
     },
     {
+      "question": "Explain the key concepts of behavioral_economics.",
+      "topic": "behavioral_economics",
+>>>>>>> Stashed changes
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of networking.",
+      "topic": "networking",
+      "difficulty": 1
+    },
+    {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of medieval_history.",
       "topic": "medieval_history",
       "difficulty": 1
@@ -50,6 +66,20 @@
     {
       "question": "Explain the key concepts of anatomy.",
       "topic": "anatomy",
+=======
+      "question": "Explain the key concepts of physics.",
+      "topic": "physics",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of constitutional_law.",
+      "topic": "constitutional_law",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of geometry.",
+      "topic": "geometry",
+>>>>>>> Stashed changes
       "difficulty": 1
     },
     {
@@ -63,6 +93,7 @@
       "difficulty": 1
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of computer_science.",
       "topic": "computer_science",
       "difficulty": 1
@@ -75,6 +106,35 @@
     {
       "question": "Explain the key concepts of world_wars.",
       "topic": "world_wars",
+=======
+      "question": "Explain the key concepts of geography.",
+      "topic": "geography",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of history.",
+      "topic": "history",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of genetics.",
+      "topic": "genetics",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of philosophy.",
+      "topic": "philosophy",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of ancient_civilizations.",
+      "topic": "ancient_civilizations",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of statistics.",
+      "topic": "statistics",
+>>>>>>> Stashed changes
       "difficulty": 1
     }
   ],
