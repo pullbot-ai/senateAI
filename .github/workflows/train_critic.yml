@@ -12,8 +12,6 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
-        with:
-          lfs: true
       
       - uses: actions/setup-python@v5
         with:
@@ -34,15 +32,14 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add critic_training/
           git stash
           git pull --rebase origin main
           git stash pop || true
-          git add critic_training/
-          git commit -m "Train critic with difficulty levels 1-5" || echo "No changes"
+          git add -f critic_training/
+          git commit -m "Train critic" || echo "No changes"
           git push || {
             git pull --rebase origin main
-            git add critic_training/
+            git add -f critic_training/
             git commit -m "Train critic retry" || echo "No changes"
             git push
           }
