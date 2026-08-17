@@ -3,8 +3,28 @@
   "examples": [],
   "questions": [
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of medieval_history.",
       "topic": "medieval_history",
+=======
+      "question": "Explain the key concepts of climate_science.",
+      "topic": "climate_science",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of engineering.",
+      "topic": "engineering",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of logic.",
+      "topic": "logic",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of ethics.",
+      "topic": "ethics",
+>>>>>>> Stashed changes
       "difficulty": 3
     },
     {
@@ -18,6 +38,7 @@
       "difficulty": 3
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of economics.",
       "topic": "economics",
       "difficulty": 3
@@ -30,6 +51,20 @@
     {
       "question": "Explain the key concepts of environmental_science.",
       "topic": "environmental_science",
+=======
+      "question": "Explain the key concepts of astrophysics.",
+      "topic": "astrophysics",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of literature.",
+      "topic": "literature",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of history.",
+      "topic": "history",
+>>>>>>> Stashed changes
       "difficulty": 3
     },
     {
@@ -38,6 +73,7 @@
       "difficulty": 3
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of epistemology.",
       "topic": "epistemology",
       "difficulty": 3
@@ -50,6 +86,20 @@
     {
       "question": "Explain the key concepts of networking.",
       "topic": "networking",
+=======
+      "question": "Explain the key concepts of genetics.",
+      "topic": "genetics",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of economics.",
+      "topic": "economics",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of epistemology.",
+      "topic": "epistemology",
+>>>>>>> Stashed changes
       "difficulty": 3
     },
     {
@@ -58,6 +108,7 @@
       "difficulty": 3
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of art_history.",
       "topic": "art_history",
       "difficulty": 3
@@ -75,6 +126,15 @@
     {
       "question": "Explain the key concepts of genetics.",
       "topic": "genetics",
+=======
+      "question": "Explain the key concepts of organic_chemistry.",
+      "topic": "organic_chemistry",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of microbiology.",
+      "topic": "microbiology",
+>>>>>>> Stashed changes
       "difficulty": 3
     }
   ],

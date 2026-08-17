@@ -3,6 +3,7 @@
   "examples": [],
   "questions": [
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of neuroscience.",
       "topic": "neuroscience",
       "difficulty": 4
@@ -25,6 +26,10 @@
     {
       "question": "Explain the key concepts of biochemistry.",
       "topic": "biochemistry",
+=======
+      "question": "Explain the key concepts of chemistry.",
+      "topic": "chemistry",
+>>>>>>> Stashed changes
       "difficulty": 4
     },
     {
@@ -33,6 +38,7 @@
       "difficulty": 4
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of political_science.",
       "topic": "political_science",
       "difficulty": 4
@@ -65,6 +71,15 @@
     {
       "question": "Explain the key concepts of constitutional_law.",
       "topic": "constitutional_law",
+=======
+      "question": "Explain the key concepts of neuroscience.",
+      "topic": "neuroscience",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of biochemistry.",
+      "topic": "biochemistry",
+>>>>>>> Stashed changes
       "difficulty": 4
     },
     {
@@ -73,8 +88,58 @@
       "difficulty": 4
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of cybersecurity.",
       "topic": "cybersecurity",
+=======
+      "question": "Explain the key concepts of algorithms.",
+      "topic": "algorithms",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of macroeconomics.",
+      "topic": "macroeconomics",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of world_wars.",
+      "topic": "world_wars",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of machine_learning.",
+      "topic": "machine_learning",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of linguistics.",
+      "topic": "linguistics",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of networking.",
+      "topic": "networking",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of genetics.",
+      "topic": "genetics",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of microbiology.",
+      "topic": "microbiology",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of medicine.",
+      "topic": "medicine",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of engineering.",
+      "topic": "engineering",
+>>>>>>> Stashed changes
       "difficulty": 4
     }
   ],

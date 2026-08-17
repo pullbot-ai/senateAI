@@ -3,6 +3,7 @@
   "examples": [],
   "questions": [
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of linguistics.",
       "topic": "linguistics",
       "difficulty": 2
@@ -35,6 +36,10 @@
     {
       "question": "Explain the key concepts of ancient_civilizations.",
       "topic": "ancient_civilizations",
+=======
+      "question": "Explain the key concepts of genetics.",
+      "topic": "genetics",
+>>>>>>> Stashed changes
       "difficulty": 2
     },
     {
@@ -43,6 +48,7 @@
       "difficulty": 2
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of medieval_history.",
       "topic": "medieval_history",
       "difficulty": 2
@@ -60,6 +66,10 @@
     {
       "question": "Explain the key concepts of medicine.",
       "topic": "medicine",
+=======
+      "question": "Explain the key concepts of organic_chemistry.",
+      "topic": "organic_chemistry",
+>>>>>>> Stashed changes
       "difficulty": 2
     },
     {
@@ -68,14 +78,67 @@
       "difficulty": 2
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of thermodynamics.",
       "topic": "thermodynamics",
+=======
+      "question": "Explain the key concepts of networking.",
+      "topic": "networking",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of calculus.",
+      "topic": "calculus",
+>>>>>>> Stashed changes
       "difficulty": 2
     },
     {
       "question": "Explain the key concepts of chemistry.",
       "topic": "chemistry",
       "difficulty": 2
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "question": "Explain the key concepts of geography.",
+      "topic": "geography",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of thermodynamics.",
+      "topic": "thermodynamics",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of cybersecurity.",
+      "topic": "cybersecurity",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of ancient_civilizations.",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of electromagnetism.",
+      "topic": "electromagnetism",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of biology.",
+      "topic": "biology",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of neuroscience.",
+      "topic": "neuroscience",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of epistemology.",
+      "topic": "epistemology",
+      "difficulty": 2
+>>>>>>> Stashed changes
     }
   ],
   "example_count": 0,

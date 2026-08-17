@@ -3,6 +3,7 @@
   "examples": [],
   "questions": [
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of political_science.",
       "topic": "political_science",
       "difficulty": 5
@@ -25,6 +26,20 @@
     {
       "question": "Explain the key concepts of astrophysics.",
       "topic": "astrophysics",
+=======
+      "question": "Explain the key concepts of microbiology.",
+      "topic": "microbiology",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of political_science.",
+      "topic": "political_science",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of art_history.",
+      "topic": "art_history",
+>>>>>>> Stashed changes
       "difficulty": 5
     },
     {
@@ -33,6 +48,7 @@
       "difficulty": 5
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of psychology.",
       "topic": "psychology",
       "difficulty": 5
@@ -45,6 +61,25 @@
     {
       "question": "Explain the key concepts of machine_learning.",
       "topic": "machine_learning",
+=======
+      "question": "Explain the key concepts of world_wars.",
+      "topic": "world_wars",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of literature.",
+      "topic": "literature",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of astronomy.",
+      "topic": "astronomy",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of medicine.",
+      "topic": "medicine",
+>>>>>>> Stashed changes
       "difficulty": 5
     },
     {
@@ -53,6 +88,7 @@
       "difficulty": 5
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of world_wars.",
       "topic": "world_wars",
       "difficulty": 5
@@ -75,6 +111,35 @@
     {
       "question": "Explain the key concepts of statistics.",
       "topic": "statistics",
+=======
+      "question": "Explain the key concepts of psychology.",
+      "topic": "psychology",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of calculus.",
+      "topic": "calculus",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of genetics.",
+      "topic": "genetics",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of networking.",
+      "topic": "networking",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of algorithms.",
+      "topic": "algorithms",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of logic.",
+      "topic": "logic",
+>>>>>>> Stashed changes
       "difficulty": 5
     }
   ],

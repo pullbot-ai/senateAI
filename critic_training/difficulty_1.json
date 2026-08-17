@@ -3,6 +3,7 @@
   "examples": [],
   "questions": [
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of geometry.",
       "topic": "geometry",
       "difficulty": 1
@@ -55,6 +56,50 @@
     {
       "question": "Explain the key concepts of epistemology.",
       "topic": "epistemology",
+=======
+      "question": "Explain the key concepts of genetics.",
+      "topic": "genetics",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of statistics.",
+      "topic": "statistics",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of quantum_mechanics.",
+      "topic": "quantum_mechanics",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of world_wars.",
+      "topic": "world_wars",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of mathematics.",
+      "topic": "mathematics",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of geography.",
+      "topic": "geography",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of thermodynamics.",
+      "topic": "thermodynamics",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of macroeconomics.",
+      "topic": "macroeconomics",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of neuroscience.",
+      "topic": "neuroscience",
+>>>>>>> Stashed changes
       "difficulty": 1
     },
     {
@@ -63,6 +108,7 @@
       "difficulty": 1
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of biology.",
       "topic": "biology",
       "difficulty": 1
@@ -75,6 +121,30 @@
     {
       "question": "Explain the key concepts of history.",
       "topic": "history",
+=======
+      "question": "Explain the key concepts of medieval_history.",
+      "topic": "medieval_history",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of organic_chemistry.",
+      "topic": "organic_chemistry",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of art_history.",
+      "topic": "art_history",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of cybersecurity.",
+      "topic": "cybersecurity",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of ethics.",
+      "topic": "ethics",
+>>>>>>> Stashed changes
       "difficulty": 1
     }
   ],
