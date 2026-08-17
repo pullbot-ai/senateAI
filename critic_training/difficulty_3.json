@@ -3,68 +3,18 @@
   "examples": [],
   "questions": [
     {
-      "question": "Explain the key concepts of astrophysics.",
-      "topic": "astrophysics",
+      "question": "Explain the key concepts of biochemistry.",
+      "topic": "biochemistry",
       "difficulty": 3
     },
     {
-      "question": "Explain the key concepts of quantum_mechanics.",
-      "topic": "quantum_mechanics",
+      "question": "Explain the key concepts of mathematics.",
+      "topic": "mathematics",
       "difficulty": 3
     },
     {
-      "question": "Explain the key concepts of cognitive_science.",
-      "topic": "cognitive_science",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of engineering.",
-      "topic": "engineering",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of macroeconomics.",
-      "topic": "macroeconomics",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of constitutional_law.",
-      "topic": "constitutional_law",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of climate_science.",
-      "topic": "climate_science",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of logic.",
-      "topic": "logic",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of microbiology.",
-      "topic": "microbiology",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of neuroscience.",
-      "topic": "neuroscience",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of computer_science.",
-      "topic": "computer_science",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of genetics.",
-      "topic": "genetics",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of geography.",
-      "topic": "geography",
+      "question": "Explain the key concepts of medieval_history.",
+      "topic": "medieval_history",
       "difficulty": 3
     },
     {
@@ -73,8 +23,58 @@
       "difficulty": 3
     },
     {
+      "question": "Explain the key concepts of biology.",
+      "topic": "biology",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of psychology.",
+      "topic": "psychology",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of macroeconomics.",
+      "topic": "macroeconomics",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of organic_chemistry.",
+      "topic": "organic_chemistry",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of quantum_mechanics.",
+      "topic": "quantum_mechanics",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of electromagnetism.",
+      "topic": "electromagnetism",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of chemistry.",
+      "topic": "chemistry",
+      "difficulty": 3
+    },
+    {
       "question": "Explain the key concepts of law.",
       "topic": "law",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of networking.",
+      "topic": "networking",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of computer_science.",
+      "topic": "computer_science",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of physics.",
+      "topic": "physics",
       "difficulty": 3
     }
   ],
