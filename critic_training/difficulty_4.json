@@ -3,28 +3,8 @@
   "examples": [],
   "questions": [
     {
-      "question": "Explain the key concepts of philosophy.",
-      "topic": "philosophy",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of algebra.",
-      "topic": "algebra",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of statistics.",
-      "topic": "statistics",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of political_science.",
-      "topic": "political_science",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of climate_science.",
-      "topic": "climate_science",
+      "question": "Explain the key concepts of geography.",
+      "topic": "geography",
       "difficulty": 4
     },
     {
@@ -33,18 +13,8 @@
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of chemistry.",
-      "topic": "chemistry",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of music_theory.",
-      "topic": "music_theory",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of engineering.",
-      "topic": "engineering",
+      "question": "Explain the key concepts of algebra.",
+      "topic": "algebra",
       "difficulty": 4
     },
     {
@@ -53,18 +23,38 @@
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of astrophysics.",
-      "topic": "astrophysics",
+      "question": "Explain the key concepts of biology.",
+      "topic": "biology",
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of organic_chemistry.",
-      "topic": "organic_chemistry",
+      "question": "Explain the key concepts of geometry.",
+      "topic": "geometry",
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of cognitive_science.",
-      "topic": "cognitive_science",
+      "question": "Explain the key concepts of engineering.",
+      "topic": "engineering",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of machine_learning.",
+      "topic": "machine_learning",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of political_science.",
+      "topic": "political_science",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of statistics.",
+      "topic": "statistics",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of epistemology.",
+      "topic": "epistemology",
       "difficulty": 4
     },
     {
@@ -73,8 +63,18 @@
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of medieval_history.",
-      "topic": "medieval_history",
+      "question": "Explain the key concepts of environmental_science.",
+      "topic": "environmental_science",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of quantum_mechanics.",
+      "topic": "quantum_mechanics",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of literature.",
+      "topic": "literature",
       "difficulty": 4
     }
   ],
