@@ -13,9 +13,13 @@ permissions:
   contents: write
 
 jobs:
-  train-bundle-0:
+  train-chunk-0:
     runs-on: ubuntu-latest
     timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        bundle: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     steps:
       - name: Clean disk space
         run: |
@@ -29,6 +33,18 @@ jobs:
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            src/
+            senate_bundles/senate_index.json
+            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            data/wordbank.json
+            config.yaml
+          sparse-checkout-cone-mode: false
+          submodules: false
+          lfs: false
+          show-progress: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
@@ -40,24 +56,23 @@ jobs:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      - uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
-          restore-keys: node-${{ runner.os }}-
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      - name: Train bundle 0
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 0 --epochs 3 --lr 0.001
-      - name: Upload trained bundle
+      - name: Train bundle ${{ matrix.bundle }}
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005
+      - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
-          name: trained-bundle-0
-          path: senate_bundles/bundle_000.pt
+          name: chunk0-bundle-${{ matrix.bundle }}
+          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
 
-  train-bundle-1:
+  train-chunk-1:
     runs-on: ubuntu-latest
     timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        bundle: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
     steps:
       - name: Clean disk space
         run: |
@@ -71,6 +86,18 @@ jobs:
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            src/
+            senate_bundles/senate_index.json
+            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            data/wordbank.json
+            config.yaml
+          sparse-checkout-cone-mode: false
+          submodules: false
+          lfs: false
+          show-progress: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
@@ -82,24 +109,23 @@ jobs:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      - uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
-          restore-keys: node-${{ runner.os }}-
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      - name: Train bundle 1
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 1 --epochs 3 --lr 0.001
-      - name: Upload trained bundle
+      - name: Train bundle ${{ matrix.bundle }}
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005
+      - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
-          name: trained-bundle-1
-          path: senate_bundles/bundle_001.pt
+          name: chunk1-bundle-${{ matrix.bundle }}
+          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
 
-  train-bundle-2:
+  train-chunk-2:
     runs-on: ubuntu-latest
     timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        bundle: [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
     steps:
       - name: Clean disk space
         run: |
@@ -113,6 +139,18 @@ jobs:
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            src/
+            senate_bundles/senate_index.json
+            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            data/wordbank.json
+            config.yaml
+          sparse-checkout-cone-mode: false
+          submodules: false
+          lfs: false
+          show-progress: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
@@ -124,24 +162,23 @@ jobs:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      - uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
-          restore-keys: node-${{ runner.os }}-
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      - name: Train bundle 2
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 2 --epochs 3 --lr 0.001
-      - name: Upload trained bundle
+      - name: Train bundle ${{ matrix.bundle }}
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005
+      - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
-          name: trained-bundle-2
-          path: senate_bundles/bundle_002.pt
+          name: chunk2-bundle-${{ matrix.bundle }}
+          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
 
-  train-bundle-3:
+  train-chunk-3:
     runs-on: ubuntu-latest
     timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        bundle: [30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
     steps:
       - name: Clean disk space
         run: |
@@ -155,6 +192,18 @@ jobs:
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            src/
+            senate_bundles/senate_index.json
+            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            data/wordbank.json
+            config.yaml
+          sparse-checkout-cone-mode: false
+          submodules: false
+          lfs: false
+          show-progress: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
@@ -166,24 +215,23 @@ jobs:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      - uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
-          restore-keys: node-${{ runner.os }}-
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      - name: Train bundle 3
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 3 --epochs 3 --lr 0.001
-      - name: Upload trained bundle
+      - name: Train bundle ${{ matrix.bundle }}
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005
+      - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
-          name: trained-bundle-3
-          path: senate_bundles/bundle_003.pt
+          name: chunk3-bundle-${{ matrix.bundle }}
+          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
 
-  train-bundle-4:
+  train-chunk-4:
     runs-on: ubuntu-latest
     timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        bundle: [40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
     steps:
       - name: Clean disk space
         run: |
@@ -197,6 +245,18 @@ jobs:
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            src/
+            senate_bundles/senate_index.json
+            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            data/wordbank.json
+            config.yaml
+          sparse-checkout-cone-mode: false
+          submodules: false
+          lfs: false
+          show-progress: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
@@ -208,24 +268,23 @@ jobs:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      - uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
-          restore-keys: node-${{ runner.os }}-
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      - name: Train bundle 4
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 4 --epochs 3 --lr 0.001
-      - name: Upload trained bundle
+      - name: Train bundle ${{ matrix.bundle }}
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005
+      - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
-          name: trained-bundle-4
-          path: senate_bundles/bundle_004.pt
+          name: chunk4-bundle-${{ matrix.bundle }}
+          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
 
-  train-bundle-5:
+  train-chunk-5:
     runs-on: ubuntu-latest
     timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        bundle: [50, 51, 52, 53, 54, 55, 56, 57, 58, 59]
     steps:
       - name: Clean disk space
         run: |
@@ -239,6 +298,18 @@ jobs:
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            src/
+            senate_bundles/senate_index.json
+            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            data/wordbank.json
+            config.yaml
+          sparse-checkout-cone-mode: false
+          submodules: false
+          lfs: false
+          show-progress: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
@@ -250,24 +321,23 @@ jobs:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      - uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
-          restore-keys: node-${{ runner.os }}-
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      - name: Train bundle 5
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 5 --epochs 3 --lr 0.001
-      - name: Upload trained bundle
+      - name: Train bundle ${{ matrix.bundle }}
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005
+      - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
-          name: trained-bundle-5
-          path: senate_bundles/bundle_005.pt
+          name: chunk5-bundle-${{ matrix.bundle }}
+          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
 
-  train-bundle-6:
+  train-chunk-6:
     runs-on: ubuntu-latest
     timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        bundle: [60, 61, 62, 63, 64, 65, 66, 67, 68, 69]
     steps:
       - name: Clean disk space
         run: |
@@ -281,6 +351,18 @@ jobs:
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            src/
+            senate_bundles/senate_index.json
+            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            data/wordbank.json
+            config.yaml
+          sparse-checkout-cone-mode: false
+          submodules: false
+          lfs: false
+          show-progress: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
@@ -292,24 +374,23 @@ jobs:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      - uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
-          restore-keys: node-${{ runner.os }}-
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      - name: Train bundle 6
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 6 --epochs 3 --lr 0.001
-      - name: Upload trained bundle
+      - name: Train bundle ${{ matrix.bundle }}
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005
+      - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
-          name: trained-bundle-6
-          path: senate_bundles/bundle_006.pt
+          name: chunk6-bundle-${{ matrix.bundle }}
+          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
 
-  train-bundle-7:
+  train-chunk-7:
     runs-on: ubuntu-latest
     timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        bundle: [70, 71, 72, 73, 74, 75, 76, 77, 78, 79]
     steps:
       - name: Clean disk space
         run: |
@@ -323,6 +404,18 @@ jobs:
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            src/
+            senate_bundles/senate_index.json
+            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            data/wordbank.json
+            config.yaml
+          sparse-checkout-cone-mode: false
+          submodules: false
+          lfs: false
+          show-progress: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
@@ -334,24 +427,23 @@ jobs:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      - uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
-          restore-keys: node-${{ runner.os }}-
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      - name: Train bundle 7
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 7 --epochs 3 --lr 0.001
-      - name: Upload trained bundle
+      - name: Train bundle ${{ matrix.bundle }}
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005
+      - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
-          name: trained-bundle-7
-          path: senate_bundles/bundle_007.pt
+          name: chunk7-bundle-${{ matrix.bundle }}
+          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
 
-  train-bundle-8:
+  train-chunk-8:
     runs-on: ubuntu-latest
     timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        bundle: [80, 81, 82, 83, 84, 85, 86, 87, 88]
     steps:
       - name: Clean disk space
         run: |
@@ -365,6 +457,18 @@ jobs:
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            src/
+            senate_bundles/senate_index.json
+            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            data/wordbank.json
+            config.yaml
+          sparse-checkout-cone-mode: false
+          submodules: false
+          lfs: false
+          show-progress: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
@@ -376,105 +480,46 @@ jobs:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      - uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
-          restore-keys: node-${{ runner.os }}-
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      - name: Train bundle 8
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 8 --epochs 3 --lr 0.001
-      - name: Upload trained bundle
+      - name: Train bundle ${{ matrix.bundle }}
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005
+      - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
-          name: trained-bundle-8
-          path: senate_bundles/bundle_008.pt
-
-  train-bundle-9:
-    runs-on: ubuntu-latest
-    timeout-minutes: 240
-    steps:
-      - name: Clean disk space
-        run: |
-          sudo rm -rf /usr/share/dotnet
-          sudo rm -rf /usr/local/lib/android
-          sudo rm -rf /opt/ghc
-          sudo rm -rf /usr/local/.ghcup
-          sudo rm -rf /usr/local/share/powershell
-          sudo rm -rf /usr/local/share/chromium
-          sudo rm -rf /usr/local/lib/node_modules
-          sudo rm -rf /opt/hostedtoolcache/node
-          sudo apt-get clean
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-      - uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: pip-${{ runner.os }}
-          restore-keys: pip-${{ runner.os }}-
-      - uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
-          restore-keys: node-${{ runner.os }}-
-      - run: pip install torch numpy pyyaml requests
-      - run: npm install @heyputer/puter.js
-      - name: Train bundle 9
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 9 --epochs 3 --lr 0.001
-      - name: Upload trained bundle
-        uses: actions/upload-artifact@v4
-        with:
-          name: trained-bundle-9
-          path: senate_bundles/bundle_009.pt
+          name: chunk8-bundle-${{ matrix.bundle }}
+          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
 
   push-all:
-    needs: [train-bundle-0, train-bundle-1, train-bundle-2, train-bundle-3, train-bundle-4, train-bundle-5, train-bundle-6, train-bundle-7, train-bundle-8, train-bundle-9]
+    needs: [train-chunk-0, train-chunk-1, train-chunk-2, train-chunk-3, train-chunk-4, train-chunk-5, train-chunk-6, train-chunk-7, train-chunk-8]
     if: success() || failure()
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
       - name: Download all trained bundles
         uses: actions/download-artifact@v4
         with:
-          pattern: trained-bundle-*
+          pattern: chunk*-bundle-*
           merge-multiple: true
           path: senate_bundles/
-      
       - name: Push everything
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          
           for attempt in 1 2 3 4 5 6 7 8 9 10; do
             echo "Push attempt $attempt..."
             git stash
             git pull --rebase origin main
             git stash pop || true
-            git add -f senate_bundles/
-            
-            if git commit -m "Train bundles batch" 2>/dev/null; then
-              echo "Committed"
-            else
-              echo "No new changes"
-            fi
-            
+            git add senate_bundles/
+            git commit -m "Train all bundles" 2>/dev/null || echo "No new changes"
             if git push; then
               echo "Push successful!"
               exit 0
             fi
-            
-            echo "Failed, waiting 20 seconds..."
+            echo "Failed, waiting..."
             sleep 20
           done
-          
-          echo "All push attempts failed"
           exit 1
 
   ping-train-all-and-optimize:
@@ -489,7 +534,6 @@ jobs:
             -H "Accept: application/vnd.github.v3+json" \
             "https://api.github.com/repos/${{ github.repository }}/actions/workflows/train_all.yml/dispatches" \
             -d "{\"ref\":\"${{ github.ref_name }}\"}"
-      
       - name: Trigger optimize
         run: |
           curl -X POST \
