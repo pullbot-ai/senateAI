@@ -3,18 +3,28 @@
   "examples": [],
   "questions": [
     {
-      "question": "Explain the key concepts of music_theory.",
-      "topic": "music_theory",
+      "question": "Explain the key concepts of geometry.",
+      "topic": "geometry",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of philosophy.",
-      "topic": "philosophy",
+      "question": "Explain the key concepts of microbiology.",
+      "topic": "microbiology",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of electromagnetism.",
-      "topic": "electromagnetism",
+      "question": "Explain the key concepts of astronomy.",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of biology.",
+      "topic": "biology",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of genetics.",
+      "topic": "genetics",
       "difficulty": 2
     },
     {
@@ -23,23 +33,8 @@
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of epistemology.",
-      "topic": "epistemology",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of cybersecurity.",
-      "topic": "cybersecurity",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of machine_learning.",
-      "topic": "machine_learning",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of geography.",
-      "topic": "geography",
+      "question": "Explain the key concepts of computer_science.",
+      "topic": "computer_science",
       "difficulty": 2
     },
     {
@@ -48,33 +43,38 @@
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of algorithms.",
-      "topic": "algorithms",
+      "question": "Explain the key concepts of physics.",
+      "topic": "physics",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of ethics.",
-      "topic": "ethics",
+      "question": "Explain the key concepts of astrophysics.",
+      "topic": "astrophysics",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of statistics.",
-      "topic": "statistics",
+      "question": "Explain the key concepts of history.",
+      "topic": "history",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of medieval_history.",
-      "topic": "medieval_history",
+      "question": "Explain the key concepts of economics.",
+      "topic": "economics",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of engineering.",
-      "topic": "engineering",
+      "question": "Explain the key concepts of neuroscience.",
+      "topic": "neuroscience",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of art_history.",
-      "topic": "art_history",
+      "question": "Explain the key concepts of microeconomics.",
+      "topic": "microeconomics",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of networking.",
+      "topic": "networking",
       "difficulty": 2
     }
   ],
