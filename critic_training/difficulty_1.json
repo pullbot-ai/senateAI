@@ -3,8 +3,13 @@
   "examples": [],
   "questions": [
     {
-      "question": "Explain the key concepts of astronomy.",
-      "topic": "astronomy",
+      "question": "Explain the key concepts of algorithms.",
+      "topic": "algorithms",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of medicine.",
+      "topic": "medicine",
       "difficulty": 1
     },
     {
@@ -13,23 +18,28 @@
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of climate_science.",
-      "topic": "climate_science",
+      "question": "Explain the key concepts of anatomy.",
+      "topic": "anatomy",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of world_wars.",
-      "topic": "world_wars",
+      "question": "Explain the key concepts of medieval_history.",
+      "topic": "medieval_history",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of ethics.",
-      "topic": "ethics",
+      "question": "Explain the key concepts of history.",
+      "topic": "history",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of psychology.",
-      "topic": "psychology",
+      "question": "Explain the key concepts of organic_chemistry.",
+      "topic": "organic_chemistry",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of physics.",
+      "topic": "physics",
       "difficulty": 1
     },
     {
@@ -38,43 +48,33 @@
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of philosophy.",
-      "topic": "philosophy",
-      "difficulty": 1
-    },
-    {
-      "question": "Explain the key concepts of calculus.",
-      "topic": "calculus",
-      "difficulty": 1
-    },
-    {
-      "question": "Explain the key concepts of logic.",
-      "topic": "logic",
-      "difficulty": 1
-    },
-    {
-      "question": "Explain the key concepts of quantum_mechanics.",
-      "topic": "quantum_mechanics",
-      "difficulty": 1
-    },
-    {
       "question": "Explain the key concepts of biology.",
       "topic": "biology",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of law.",
-      "topic": "law",
+      "question": "Explain the key concepts of poetry.",
+      "topic": "poetry",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of political_science.",
-      "topic": "political_science",
+      "question": "Explain the key concepts of ancient_civilizations.",
+      "topic": "ancient_civilizations",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of cognitive_science.",
-      "topic": "cognitive_science",
+      "question": "Explain the key concepts of microbiology.",
+      "topic": "microbiology",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of macroeconomics.",
+      "topic": "macroeconomics",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the key concepts of music_theory.",
+      "topic": "music_theory",
       "difficulty": 1
     }
   ],
