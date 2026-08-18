@@ -9,52 +9,107 @@ on:
         type: string
 
 permissions:
-  contents: read
+  contents: write
+  actions: read
 
 jobs:
   debate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: Clean disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet
+          sudo rm -rf /usr/local/lib/android
+          sudo rm -rf /opt/ghc
+          sudo rm -rf /usr/local/.ghcup
+          sudo rm -rf /usr/local/share/powershell
+          sudo rm -rf /usr/local/share/chromium
+          sudo rm -rf /usr/local/lib/node_modules
+          sudo rm -rf /opt/hostedtoolcache/node
+          sudo apt-get clean
+      
       - uses: actions/checkout@v4
         with:
-          lfs: true
+          fetch-depth: 1
+          sparse-checkout: |
+            src/
+            senate_bundles/senate_index.json
+            data/wordbank.json
+            config.yaml
+            models/router.pt
+          sparse-checkout-cone-mode: false
+          submodules: false
+          lfs: false
+          show-progress: false
       
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
       
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ runner.os }}
+          restore-keys: pip-${{ runner.os }}-
+      
       - run: pip install torch numpy pyyaml
       
-      - name: Write debate script
+      - name: Run Router to select senators
         run: |
-          cat > debate.py << 'ENDOFPYTHON'
-          import sys
-          sys.path.insert(0, "src")
-          from senate import Senate
-          import os
-          
-          question = os.environ["DEBATE_QUESTION"]
-          
-          senate = Senate()
-          result = senate.ask(question)
-          
-          print()
-          print("=" * 60)
-          print("  SENATE FINAL ANSWER")
-          print("=" * 60)
-          print()
-          print("Question:", question)
-          print("Answer:", result["consensus"])
-          print(f"Confidence: {result['confidence']:.1%}")
-          print("Rounds:", result["rounds"])
-          print("Senators:", result["senators_involved"])
-          print("Topics:", ", ".join(result["topics"]))
-          ENDOFPYTHON
-        env:
-          DEBATE_QUESTION: ${{ github.event.inputs.question }}
+          python -c "
+import sys, json
+sys.path.insert(0, 'src')
+from senate import Senate
+from senate import Senate
+
+senate = Senate()
+question = '''${{ github.event.inputs.question }}'''
+
+relevant_topics = senate.router(question)
+selected = senate.select_senators(relevant_topics, max_senators=25)
+
+# Save selected senator bundle IDs
+bundle_ids = sorted(set(s['bundle_id'] for s in selected))
+with open('selected_bundles.json', 'w') as f:
+    json.dump({'bundle_ids': bundle_ids, 'question': question}, f)
+
+print(f'Selected {len(selected)} senators from {len(bundle_ids)} bundles')
+"
       
-      - name: Run debate
-        env:
-          DEBATE_QUESTION: ${{ github.event.inputs.question }}
-        run: python debate.py
+      - name: Download selected senator bundles
+        run: |
+          python -c "
+import json, subprocess, os
+
+with open('selected_bundles.json') as f:
+    data = json.load(f)
+
+for bid in data['bundle_ids']:
+    bundle_file = f'senate_bundles/bundle_{bid:03d}.pt'
+    subprocess.run(['git', 'sparse-checkout', 'add', bundle_file], check=True)
+    print(f'Downloaded bundle {bid}')
+"
+      
+      - name: Run Senate debate
+        run: |
+          python -c "
+import sys, json
+sys.path.insert(0, 'src')
+from senate import Senate
+
+question = '''${{ github.event.inputs.question }}'''
+senate = Senate()
+result = senate.ask(question)
+
+with open('debate_result.json', 'w') as f:
+    json.dump(result, f)
+"
+      
+      - name: Push result
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -f debate_result.json
+          git commit -m "Debate result" || echo "No changes"
+          git push
