@@ -1,0 +1,154 @@
+name: Train Single Senator
+
+on:
+  workflow_dispatch:
+    inputs:
+      senator_id:
+        description: 'Senator ID to train (0-4004)'
+        required: true
+        type: number
+      epochs:
+        description: 'Number of epochs'
+        required: false
+        default: '50'
+      lr:
+        description: 'Learning rate'
+        required: false
+        default: '0.0001'
+
+permissions:
+  contents: write
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - name: Clean disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet
+          sudo rm -rf /usr/local/lib/android
+          sudo rm -rf /opt/ghc
+          sudo rm -rf /usr/local/.ghcup
+          sudo rm -rf /usr/local/share/powershell
+          sudo rm -rf /usr/local/share/chromium
+          sudo rm -rf /usr/local/lib/node_modules
+          sudo rm -rf /opt/hostedtoolcache/node
+          sudo apt-get clean
+      
+      - name: Get senator's bundle ID
+        id: bundle
+        run: |
+          BUNDLE=$(( ${{ github.event.inputs.senator_id }} / 10 ))
+          echo "bundle_id=$BUNDLE" >> $GITHUB_OUTPUT
+          echo "Senator ${{ github.event.inputs.senator_id }} is in bundle $BUNDLE"
+      
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            src/
+            senate_bundles/senate_index.json
+            senate_bundles/bundle_${{ steps.bundle.outputs.bundle_id }}.pt
+            data/wordbank.json
+            config.yaml
+          sparse-checkout-cone-mode: false
+          submodules: false
+          lfs: false
+          show-progress: false
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ runner.os }}
+          restore-keys: pip-${{ runner.os }}-
+      
+      - run: pip install torch numpy pyyaml requests
+      - run: npm install @heyputer/puter.js
+      
+      - name: Write training script
+        run: |
+          cat > train_single.py << 'EOF'
+          import sys, json
+          sys.path.insert(0, 'src')
+          from model_template import SenateBundle
+          from train import train_senator_on_topics, grade_and_update, generate_training_data, generate_qa_pairs
+          from wordbank import get_wordbank
+          
+          senator_id = ${{ github.event.inputs.senator_id }}
+          epochs = ${{ github.event.inputs.epochs }}
+          lr = ${{ github.event.inputs.lr }}
+          
+          bundle_id = senator_id // 10
+          bundle_path = f'senate_bundles/bundle_{bundle_id:03d}.pt'
+          
+          print(f'Loading bundle {bundle_id}...')
+          bundle = SenateBundle.load(bundle_path)
+          senator = bundle.get_senator(senator_id)
+          
+          if senator is None:
+              print(f'Senator {senator_id} not found!')
+              sys.exit(1)
+          
+          specialties = senator.specialties
+          print(f'Senator {senator_id}: {specialties}')
+          print(f'Epochs: {epochs} | LR: {lr}')
+          
+          wordbank = get_wordbank()
+          
+          # Generate lots of training data
+          all_texts = []
+          for topic in specialties:
+              texts = generate_training_data(topic, num_examples=50)
+              all_texts.extend(texts)
+          
+          print(f'Training data: {len(all_texts)} examples')
+          
+          # Train intensively
+          losses = train_senator_on_topics(senator, specialties, wordbank, epochs=epochs, lr=lr, batch_size=32)
+          
+          # Grade
+          result = grade_and_update(senator, specialties, wordbank)
+          
+          if result:
+              print(f'\nFinal Score: {result["average_score"]:.1f}/100')
+              for s in result['scores'][:5]:
+                  print(f'  [{s["topic"]}] {s["score"]:.1f} - Q: {s["question"][:40]}...')
+          
+          # Save
+          bundle.save(bundle_path)
+          print(f'\nSaved bundle {bundle_id}')
+          EOF
+      
+      - name: Train senator
+        run: python train_single.py
+      
+      - name: Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          
+          for attempt in 1 2 3 4 5; do
+            git add senate_bundles/
+            git stash
+            git pull --rebase origin main
+            git stash pop || true
+            git add senate_bundles/
+            git commit -m "Train senator ${{ github.event.inputs.senator_id }}" || echo "No changes"
+            
+            if git push; then
+              echo "Push successful!"
+              exit 0
+            fi
+            
+            echo "Retrying..."
+            sleep 15
+          done
