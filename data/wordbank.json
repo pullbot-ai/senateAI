@@ -21377,8 +21377,1964 @@
       "first_seen": "Giuseppe Ferrera",
       "has_definition": false,
       "definition": ""
+    },
+    "gastropod": {
+      "token_id": 2536,
+      "first_seen": "Pleurotomella marshalli",
+      "has_definition": true,
+      "definition": "Any member of a class of mollusks (Gastropoda) that includes snails and slugs; univalve mollusk."
+    },
+    "raphitomidae": {
+      "token_id": 7397,
+      "first_seen": "Pleurotomella marshalli",
+      "has_definition": false,
+      "definition": ""
+    },
+    "snail": {
+      "token_id": 4246,
+      "first_seen": "Pleurotomella marshalli",
+      "has_definition": true,
+      "definition": "Any of very many animals (either hermaphroditic or nonhermaphroditic), of the class Gastropoda, having a coiled shell."
+    },
+    "pleurotomella": {
+      "token_id": 6783,
+      "first_seen": "Pleurotomella marshalli",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marshalli": {
+      "token_id": 3815,
+      "first_seen": "Pleurotomella marshalli",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mollusk": {
+      "token_id": 2140,
+      "first_seen": "Pleurotomella marshalli",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ensign": {
+      "token_id": 6944,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": true,
+      "definition": "A badge of office, rank, or power."
+    },
+    "corporal": {
+      "token_id": 7740,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": true,
+      "definition": "Having a physical, tangible body; material, corporeal."
+    },
+    "assigned": {
+      "token_id": 947,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": true,
+      "definition": "To designate or set apart something for some purpose."
+    },
+    "promoted": {
+      "token_id": 3820,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": true,
+      "definition": "To raise (someone) to a more important, responsible, or remunerative job or rank."
+    },
+    "convict": {
+      "token_id": 6516,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": true,
+      "definition": "A person convicted of a crime by a judicial body."
+    },
+    "convicts": {
+      "token_id": 4922,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": true,
+      "definition": "A person convicted of a crime by a judicial body."
+    },
+    "sailed": {
+      "token_id": 3951,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guards": {
+      "token_id": 933,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": true,
+      "definition": "A person who, or thing that, protects or watches over something."
+    },
+    "sussex": {
+      "token_id": 6838,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sergeant": {
+      "token_id": 401,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": true,
+      "definition": "UK army rank with NATO code OR-6, senior to corporal and junior to warrant officer ranks."
+    },
+    "commanding": {
+      "token_id": 4813,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": true,
+      "definition": "To order, give orders; to compel or direct with authority."
+    },
+    "edwards": {
+      "token_id": 5066,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lieutenant": {
+      "token_id": 5838,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": true,
+      "definition": "The lowest Junior Commissioned Officer rank(s) in many military forces, often Army and Marines."
+    },
+    "deptford": {
+      "token_id": 7876,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hastings": {
+      "token_id": 3666,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "detachment": {
+      "token_id": 5130,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "docked": {
+      "token_id": 7952,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": true,
+      "definition": "To cut off a section of an animal's tail, to practise a caudectomy."
+    },
+    "soldiers": {
+      "token_id": 6611,
+      "first_seen": "George Edwards (British Army officer)",
+      "has_definition": true,
+      "definition": "A member of an army, of any rank."
+    },
+    "internal": {
+      "token_id": 1047,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": true,
+      "definition": "Inside of something"
+    },
+    "plastic": {
+      "token_id": 4681,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": true,
+      "definition": "A synthetic, solid, hydrocarbon-based polymer, whether thermoplastic or thermosetting."
+    },
+    "fluids": {
+      "token_id": 239,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": true,
+      "definition": "Any substance which can flow with relative ease, tends to assume the shape of its container, and obeys Bernoulli's principle; a liquid, gas or plasma."
+    },
+    "grenade": {
+      "token_id": 1220,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": true,
+      "definition": "A small explosive device, designed to be thrown by hand or launched from a grenade launcher."
+    },
+    "drain": {
+      "token_id": 1752,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": true,
+      "definition": "A conduit allowing liquid to flow out of an otherwise contained volume; a plughole (UK)"
+    },
+    "surgical": {
+      "token_id": 3314,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": true,
+      "definition": "Of, relating to, used in, or resulting from surgery."
+    },
+    "operative": {
+      "token_id": 281,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cylinder": {
+      "token_id": 6,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": true,
+      "definition": "A surface created by projecting a closed two-dimensional curve along an axis intersecting the plane of the curve."
+    },
+    "connected": {
+      "token_id": 6221,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": true,
+      "definition": "(of an object) To join (to another object): to attach, or to be intended to attach or capable of attaching, to another object."
+    },
+    "bodily": {
+      "token_id": 6557,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": true,
+      "definition": "Of, relating to, or concerning the body."
+    },
+    "suction": {
+      "token_id": 219,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bulb": {
+      "token_id": 4101,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": true,
+      "definition": "Any solid object rounded at one end and tapering on the other, possibly attached to a larger object at the tapered end."
+    },
+    "pratt": {
+      "token_id": 1942,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": false,
+      "definition": ""
+    },
+    "closed": {
+      "token_id": 711,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": true,
+      "definition": "(physical) To remove a gap."
+    },
+    "circular": {
+      "token_id": 4992,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": true,
+      "definition": "Short for circular letter."
+    },
+    "tubing": {
+      "token_id": 5575,
+      "first_seen": "Jackson-Pratt drain",
+      "has_definition": false,
+      "definition": ""
+    },
+    "borough": {
+      "token_id": 6395,
+      "first_seen": "Michelbach, Marburg",
+      "has_definition": true,
+      "definition": "A fortified town."
+    },
+    "ortsbezirk": {
+      "token_id": 792,
+      "first_seen": "Michelbach, Marburg",
+      "has_definition": false,
+      "definition": ""
+    },
+    "michelbach": {
+      "token_id": 5754,
+      "first_seen": "Michelbach, Marburg",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marburg": {
+      "token_id": 5176,
+      "first_seen": "Michelbach, Marburg",
+      "has_definition": false,
+      "definition": ""
+    },
+    "protect": {
+      "token_id": 1162,
+      "first_seen": "The Queen's Green Canopy",
+      "has_definition": true,
+      "definition": "To keep safe; to defend; to guard; to prevent harm coming to."
+    },
+    "urged": {
+      "token_id": 290,
+      "first_seen": "The Queen's Green Canopy",
+      "has_definition": true,
+      "definition": "To press; to push; to drive; to impel; to force onward."
+    },
+    "gift": {
+      "token_id": 5718,
+      "first_seen": "The Queen's Green Canopy",
+      "has_definition": true,
+      "definition": "Something given to another voluntarily, without charge."
+    },
+    "throne": {
+      "token_id": 2985,
+      "first_seen": "The Queen's Green Canopy",
+      "has_definition": true,
+      "definition": "An impressive seat used by a monarch, often on a raised dais in a throne room and reserved for formal occasions."
+    },
+    "honour": {
+      "token_id": 3368,
+      "first_seen": "The Queen's Green Canopy",
+      "has_definition": true,
+      "definition": "Recognition of importance or value; respect; veneration (of someone, usually for being morally upright or successful)"
+    },
+    "initiative": {
+      "token_id": 197,
+      "first_seen": "The Queen's Green Canopy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "canopy": {
+      "token_id": 4895,
+      "first_seen": "The Queen's Green Canopy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "create": {
+      "token_id": 3044,
+      "first_seen": "The Queen's Green Canopy",
+      "has_definition": true,
+      "definition": "To bring into existence; (sometimes in particular:)"
+    },
+    "qgc": {
+      "token_id": 6599,
+      "first_seen": "The Queen's Green Canopy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "elizabeth": {
+      "token_id": 7994,
+      "first_seen": "The Queen's Green Canopy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "increase": {
+      "token_id": 5563,
+      "first_seen": "The Queen's Green Canopy",
+      "has_definition": true,
+      "definition": "An amount by which a quantity is increased."
+    },
+    "jubilee": {
+      "token_id": 2316,
+      "first_seen": "The Queen's Green Canopy",
+      "has_definition": true,
+      "definition": "(Jewish history) A special year of emancipation supposed to be kept every fifty years, when farming was abandoned and Hebrew slaves were set free."
+    },
+    "rugby": {
+      "token_id": 1837,
+      "first_seen": "Agathe Sochat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stade": {
+      "token_id": 7735,
+      "first_seen": "Agathe Sochat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "agathe": {
+      "token_id": 4788,
+      "first_seen": "Agathe Sochat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "delayed": {
+      "token_id": 2060,
+      "first_seen": "Agathe Sochat",
+      "has_definition": true,
+      "definition": "To put off until a later time; to defer."
+    },
+    "bordelais": {
+      "token_id": 6566,
+      "first_seen": "Agathe Sochat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rin": {
+      "token_id": 2643,
+      "first_seen": "Agathe Sochat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ufo": {
+      "token_id": 5140,
+      "first_seen": "The Best of the Rest",
+      "has_definition": true,
+      "definition": "A UFO."
+    },
+    "schenker": {
+      "token_id": 3486,
+      "first_seen": "The Best of the Rest",
+      "has_definition": false,
+      "definition": ""
+    },
+    "focuses": {
+      "token_id": 5045,
+      "first_seen": "The Best of the Rest",
+      "has_definition": false,
+      "definition": ""
+    },
+    "compilation": {
+      "token_id": 7637,
+      "first_seen": "The Best of the Rest",
+      "has_definition": true,
+      "definition": "The act or process of compiling or gathering together from various sources."
+    },
+    "implies": {
+      "token_id": 3310,
+      "first_seen": "The Best of the Rest",
+      "has_definition": true,
+      "definition": "(of a proposition) to have as a necessary consequence"
+    },
+    "roselinda": {
+      "token_id": 4089,
+      "first_seen": "Soipan Tuya",
+      "has_definition": false,
+      "definition": ""
+    },
+    "forestry": {
+      "token_id": 7350,
+      "first_seen": "Soipan Tuya",
+      "has_definition": true,
+      "definition": "The science of planting and growing trees in forests."
+    },
+    "tuya": {
+      "token_id": 4225,
+      "first_seen": "Soipan Tuya",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kenya": {
+      "token_id": 3309,
+      "first_seen": "Soipan Tuya",
+      "has_definition": false,
+      "definition": ""
+    },
+    "environment": {
+      "token_id": 7271,
+      "first_seen": "Soipan Tuya",
+      "has_definition": true,
+      "definition": "The surroundings of, and influences on, a particular item of interest."
+    },
+    "sworn": {
+      "token_id": 1297,
+      "first_seen": "Soipan Tuya",
+      "has_definition": true,
+      "definition": "To take an oath, to promise."
+    },
+    "cabinet": {
+      "token_id": 4374,
+      "first_seen": "Soipan Tuya",
+      "has_definition": true,
+      "definition": "A storage closet either separate from, or built into, a wall."
+    },
+    "climate": {
+      "token_id": 6702,
+      "first_seen": "Soipan Tuya",
+      "has_definition": true,
+      "definition": "An area of the earth's surface between two parallels of latitude."
+    },
+    "soipan": {
+      "token_id": 3356,
+      "first_seen": "Soipan Tuya",
+      "has_definition": false,
+      "definition": ""
+    },
+    "parliamentarian": {
+      "token_id": 6603,
+      "first_seen": "Soipan Tuya",
+      "has_definition": true,
+      "definition": "A member of a parliament, congress or an elected national legislative body of another name."
+    },
+    "kenyan": {
+      "token_id": 6433,
+      "first_seen": "Soipan Tuya",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ruto": {
+      "token_id": 3692,
+      "first_seen": "Soipan Tuya",
+      "has_definition": false,
+      "definition": ""
+    },
+    "change": {
+      "token_id": 4885,
+      "first_seen": "Soipan Tuya",
+      "has_definition": true,
+      "definition": "The process of becoming different."
+    },
+    "latter": {
+      "token_id": 1660,
+      "first_seen": "Let It Die (Ellie Goulding song)",
+      "has_definition": true,
+      "definition": "Relating to or being the second of two items."
+    },
+    "andrea": {
+      "token_id": 4125,
+      "first_seen": "Let It Die (Ellie Goulding song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "target": {
+      "token_id": 7865,
+      "first_seen": "Let It Die (Ellie Goulding song)",
+      "has_definition": true,
+      "definition": "A butt or mark to shoot at, as for practice, or to test the accuracy of a firearm, or the force of a projectile."
+    },
+    "rocha": {
+      "token_id": 7838,
+      "first_seen": "Let It Die (Ellie Goulding song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "polydor": {
+      "token_id": 3492,
+      "first_seen": "Let It Die (Ellie Goulding song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "let": {
+      "token_id": 1546,
+      "first_seen": "Let It Die (Ellie Goulding song)",
+      "has_definition": true,
+      "definition": "The allowing of possession of a property etc. in exchange for rent."
+    },
+    "delirium": {
+      "token_id": 6840,
+      "first_seen": "Let It Die (Ellie Goulding song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mann": {
+      "token_id": 2685,
+      "first_seen": "Let It Die (Ellie Goulding song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "goulding": {
+      "token_id": 7520,
+      "first_seen": "Let It Die (Ellie Goulding song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "heaven": {
+      "token_id": 400,
+      "first_seen": "Let It Die (Ellie Goulding song)",
+      "has_definition": true,
+      "definition": "The sky, specifically:"
+    },
+    "lostboy": {
+      "token_id": 1729,
+      "first_seen": "Let It Die (Ellie Goulding song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fifth": {
+      "token_id": 5404,
+      "first_seen": "Let It Die (Ellie Goulding song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ellie": {
+      "token_id": 7783,
+      "first_seen": "Let It Die (Ellie Goulding song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "naphthoylpyrrole": {
+      "token_id": 1721,
+      "first_seen": "JWH-368",
+      "has_definition": false,
+      "definition": ""
+    },
+    "examine": {
+      "token_id": 4499,
+      "first_seen": "JWH-368",
+      "has_definition": true,
+      "definition": "To observe or inspect carefully or critically"
+    },
+    "receptors": {
+      "token_id": 3465,
+      "first_seen": "JWH-368",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nature": {
+      "token_id": 731,
+      "first_seen": "JWH-368",
+      "has_definition": true,
+      "definition": "The natural world; that which consists of all things unaffected by or predating human technology, production, and design. (Compare ecosystem.)"
+    },
+    "binding": {
+      "token_id": 1278,
+      "first_seen": "JWH-368",
+      "has_definition": true,
+      "definition": "To tie; to confine by any ligature."
+    },
+    "agonist": {
+      "token_id": 7501,
+      "first_seen": "JWH-368",
+      "has_definition": true,
+      "definition": "Someone involved in a contest or battle (as in an agon), protagonist."
+    },
+    "colleagues": {
+      "token_id": 6090,
+      "first_seen": "JWH-368",
+      "has_definition": true,
+      "definition": "A fellow member of a profession, staff, academic faculty or other organization; an associate."
+    },
+    "naphthalen": {
+      "token_id": 7705,
+      "first_seen": "JWH-368",
+      "has_definition": false,
+      "definition": ""
+    },
+    "synthetic": {
+      "token_id": 512,
+      "first_seen": "JWH-368",
+      "has_definition": true,
+      "definition": "A synthetic compound."
+    },
+    "fluorophenyl": {
+      "token_id": 5704,
+      "first_seen": "JWH-368",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jwh": {
+      "token_id": 6045,
+      "first_seen": "JWH-368",
+      "has_definition": false,
+      "definition": ""
+    },
+    "acts": {
+      "token_id": 2797,
+      "first_seen": "JWH-368",
+      "has_definition": true,
+      "definition": "Something done, a deed."
+    },
+    "ligand": {
+      "token_id": 4017,
+      "first_seen": "JWH-368",
+      "has_definition": true,
+      "definition": "An ion, molecule, or functional group that binds to another chemical entity to form a larger complex."
+    },
+    "huffman": {
+      "token_id": 542,
+      "first_seen": "JWH-368",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pentylpyrrol": {
+      "token_id": 6976,
+      "first_seen": "JWH-368",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cannabinoid": {
+      "token_id": 2686,
+      "first_seen": "JWH-368",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stronger": {
+      "token_id": 5800,
+      "first_seen": "JWH-368",
+      "has_definition": true,
+      "definition": "Capable of producing great physical force."
+    },
+    "synthesized": {
+      "token_id": 820,
+      "first_seen": "JWH-368",
+      "has_definition": true,
+      "definition": "To combine two or more things to produce a new product."
+    },
+    "ylmethanone": {
+      "token_id": 2271,
+      "first_seen": "JWH-368",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rcio": {
+      "token_id": 588,
+      "first_seen": "Uni\u00e3o Futebol Com\u00e9rcio e Ind\u00fastria",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ind": {
+      "token_id": 4837,
+      "first_seen": "Uni\u00e3o Futebol Com\u00e9rcio e Ind\u00fastria",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bal": {
+      "token_id": 3139,
+      "first_seen": "Uni\u00e3o Futebol Com\u00e9rcio e Ind\u00fastria",
+      "has_definition": false,
+      "definition": ""
+    },
+    "campeonato": {
+      "token_id": 4273,
+      "first_seen": "Uni\u00e3o Futebol Com\u00e9rcio e Ind\u00fastria",
+      "has_definition": false,
+      "definition": ""
+    },
+    "portugal": {
+      "token_id": 3196,
+      "first_seen": "Uni\u00e3o Futebol Com\u00e9rcio e Ind\u00fastria",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stria": {
+      "token_id": 3213,
+      "first_seen": "Uni\u00e3o Futebol Com\u00e9rcio e Ind\u00fastria",
+      "has_definition": true,
+      "definition": "A stripe, usually one of a set of parallel stripes."
+    },
+    "uni": {
+      "token_id": 3022,
+      "first_seen": "Uni\u00e3o Futebol Com\u00e9rcio e Ind\u00fastria",
+      "has_definition": true,
+      "definition": "University."
+    },
+    "com": {
+      "token_id": 226,
+      "first_seen": "Uni\u00e3o Futebol Com\u00e9rcio e Ind\u00fastria",
+      "has_definition": false,
+      "definition": ""
+    },
+    "club": {
+      "token_id": 6646,
+      "first_seen": "Uni\u00e3o Futebol Com\u00e9rcio e Ind\u00fastria",
+      "has_definition": true,
+      "definition": "An association of members joining together for some common purpose, especially sports or recreation."
+    },
+    "futebol": {
+      "token_id": 4083,
+      "first_seen": "Uni\u00e3o Futebol Com\u00e9rcio e Ind\u00fastria",
+      "has_definition": false,
+      "definition": ""
+    },
+    "peters": {
+      "token_id": 7352,
+      "first_seen": "Dominic Peters",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dominic": {
+      "token_id": 4985,
+      "first_seen": "Dominic Peters",
+      "has_definition": false,
+      "definition": ""
+    },
+    "downes": {
+      "token_id": 1424,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nighy": {
+      "token_id": 6534,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "caribbean": {
+      "token_id": 4960,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "appears": {
+      "token_id": 5793,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": true,
+      "definition": "To come or be in sight; to be in view; to become visible."
+    },
+    "chest": {
+      "token_id": 1792,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": true,
+      "definition": "A box, now usually a large strong box with a secure convex lid."
+    },
+    "movie": {
+      "token_id": 3551,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": true,
+      "definition": "A recorded sequence of images displayed on a screen at a rate sufficiently fast to create the appearance of motion."
+    },
+    "atkin": {
+      "token_id": 3829,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jones": {
+      "token_id": 7031,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": true,
+      "definition": "Heroin."
+    },
+    "briefly": {
+      "token_id": 706,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": true,
+      "definition": "(manner) In a brief manner, summarily."
+    },
+    "tales": {
+      "token_id": 6298,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": true,
+      "definition": "Any of several units of measure used in China and elsewhere in eastern Asia, approximately 40 grams."
+    },
+    "character": {
+      "token_id": 5340,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": true,
+      "definition": "A being involved in the action of a story."
+    },
+    "dead": {
+      "token_id": 7625,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": true,
+      "definition": "(with \"the\", a demonstrative, or a possessive) Those who have died."
+    },
+    "curse": {
+      "token_id": 641,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": true,
+      "definition": "A supernatural detriment or hindrance; a bane."
+    },
+    "pirates": {
+      "token_id": 4098,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": true,
+      "definition": "A criminal who plunders at sea; commonly attacking merchant vessels, though often pillaging port towns."
+    },
+    "robin": {
+      "token_id": 7451,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": true,
+      "definition": "Any of various passerine birds (about 100 species) of the families Muscicapidae, Turdidae and Petroicidae (formerly Eopsaltriidae), typically with a red breast."
+    },
+    "davy": {
+      "token_id": 4204,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tell": {
+      "token_id": 6991,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": true,
+      "definition": "A reflexive, often habitual behavior, especially one occurring in a context that often features attempts at deception by persons under psychological stress (such as a poker game or police interrogation), that reveals information that the person exhibiting the behavior is attempting to withhold."
+    },
+    "pearl": {
+      "token_id": 1393,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": true,
+      "definition": "A shelly concretion, usually rounded, and having a brilliant luster, with varying tints, found in the mantle, or between the mantle and shell, of certain bivalve mollusks, especially in the pearl oysters and river mussels, and sometimes in certain univalves. It is usually due to a secretion of shelly substance around some irritating foreign particle. Its substance is the same as nacre, or mother-of-pearl. Round lustrous pearls are used in jewellery."
+    },
+    "bill": {
+      "token_id": 3507,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": true,
+      "definition": "Any of various bladed or pointed hand weapons, originally designating an Anglo-Saxon sword, and later a weapon of infantry, especially in the 14th and 15th centuries, commonly consisting of a broad, heavy, double-edged, hook-shaped blade, with a short pike at the back and another at the top, attached to the end of a long staff."
+    },
+    "capture": {
+      "token_id": 1878,
+      "first_seen": "Davy Jones (Pirates of the Caribbean)",
+      "has_definition": true,
+      "definition": "An act of capturing; a seizing by force or stratagem."
+    },
+    "scholar": {
+      "token_id": 3867,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": true,
+      "definition": "A student; one who studies at school or college, typically having a scholarship."
+    },
+    "knowledge": {
+      "token_id": 2834,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": true,
+      "definition": "The fact of knowing about something; general understanding or familiarity with a subject, place, situation etc."
+    },
+    "afterwards": {
+      "token_id": 4914,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": true,
+      "definition": "(temporal location) At a later or succeeding time."
+    },
+    "orders": {
+      "token_id": 4452,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": true,
+      "definition": "Arrangement, disposition, or sequence."
+    },
+    "tanner": {
+      "token_id": 3371,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": true,
+      "definition": "A person whose occupation is to tan hides, or convert them into leather by the use of tan."
+    },
+    "entirely": {
+      "token_id": 80,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": true,
+      "definition": "To the full or entire extent."
+    },
+    "declined": {
+      "token_id": 460,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": true,
+      "definition": "To move downwards, to fall, to drop."
+    },
+    "devoted": {
+      "token_id": 3334,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": true,
+      "definition": "To give one's time, focus one's efforts, commit oneself, etc. entirely for, on, or to a certain matter"
+    },
+    "coll": {
+      "token_id": 4889,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": true,
+      "definition": "To hug or embrace."
+    },
+    "learned": {
+      "token_id": 6719,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": true,
+      "definition": "Having much learning, knowledgeable, erudite; highly educated."
+    },
+    "amiens": {
+      "token_id": 2860,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": false,
+      "definition": ""
+    },
+    "basle": {
+      "token_id": 821,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": false,
+      "definition": ""
+    },
+    "professorship": {
+      "token_id": 3092,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": true,
+      "definition": "The office of a professor"
+    },
+    "appointed": {
+      "token_id": 5269,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": false,
+      "definition": ""
+    },
+    "capperonnier": {
+      "token_id": 6101,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": false,
+      "definition": ""
+    },
+    "considerable": {
+      "token_id": 2840,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": true,
+      "definition": "A thing to be considered, consideration."
+    },
+    "montdidier": {
+      "token_id": 4020,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": false,
+      "definition": ""
+    },
+    "studies": {
+      "token_id": 3591,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": true,
+      "definition": "An academic field of study concerning the given subject."
+    },
+    "himself": {
+      "token_id": 1058,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": true,
+      "definition": "(reflexive pronoun) Him; the male object of a verb or preposition that also appears as the subject"
+    },
+    "destitute": {
+      "token_id": 1141,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": true,
+      "definition": "(followed by the preposition \"of\") Lacking something; devoid"
+    },
+    "attained": {
+      "token_id": 7914,
+      "first_seen": "Claude Capperonnier",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coordinator": {
+      "token_id": 5863,
+      "first_seen": "Pilar Garrido Guti\u00e9rrez",
+      "has_definition": true,
+      "definition": "One who coordinates."
+    },
+    "pilar": {
+      "token_id": 6793,
+      "first_seen": "Pilar Garrido Guti\u00e9rrez",
+      "has_definition": false,
+      "definition": ""
+    },
+    "euskadi": {
+      "token_id": 666,
+      "first_seen": "Pilar Garrido Guti\u00e9rrez",
+      "has_definition": false,
+      "definition": ""
+    },
+    "garrido": {
+      "token_id": 2365,
+      "first_seen": "Pilar Garrido Guti\u00e9rrez",
+      "has_definition": false,
+      "definition": ""
+    },
+    "unidas": {
+      "token_id": 1669,
+      "first_seen": "Pilar Garrido Guti\u00e9rrez",
+      "has_definition": false,
+      "definition": ""
+    },
+    "podemos": {
+      "token_id": 1669,
+      "first_seen": "Pilar Garrido Guti\u00e9rrez",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coalition": {
+      "token_id": 7507,
+      "first_seen": "Pilar Garrido Guti\u00e9rrez",
+      "has_definition": true,
+      "definition": "A temporary group or union of organizations, usually formed for a particular advantage."
+    },
+    "gipuzkoa": {
+      "token_id": 5684,
+      "first_seen": "Pilar Garrido Guti\u00e9rrez",
+      "has_definition": false,
+      "definition": ""
+    },
+    "swanepoel": {
+      "token_id": 1351,
+      "first_seen": "Mark Swanepoel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "memphis": {
+      "token_id": 1622,
+      "first_seen": "Hoboken Saturday Night",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barth": {
+      "token_id": 3033,
+      "first_seen": "Hoboken Saturday Night",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hoboken": {
+      "token_id": 3599,
+      "first_seen": "Hoboken Saturday Night",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trust": {
+      "token_id": 6546,
+      "first_seen": "Hoboken Saturday Night",
+      "has_definition": true,
+      "definition": "Confidence in or reliance on some person or quality."
+    },
+    "saturday": {
+      "token_id": 951,
+      "first_seen": "Hoboken Saturday Night",
+      "has_definition": false,
+      "definition": ""
+    },
+    "insect": {
+      "token_id": 7906,
+      "first_seen": "Hoboken Saturday Night",
+      "has_definition": true,
+      "definition": "An arthropod in the class Insecta, characterized by six legs, up to four wings, and a chitinous exoskeleton."
+    },
+    "campania": {
+      "token_id": 379,
+      "first_seen": "Casalbuono",
+      "has_definition": false,
+      "definition": ""
+    },
+    "salerno": {
+      "token_id": 7790,
+      "first_seen": "Casalbuono",
+      "has_definition": false,
+      "definition": ""
+    },
+    "casalbuono": {
+      "token_id": 1748,
+      "first_seen": "Casalbuono",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tadao": {
+      "token_id": 1931,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cross": {
+      "token_id": 5575,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": true,
+      "definition": "A geometrical figure consisting of two straight lines or bars intersecting each other such that at least one of them is bisected by the other."
+    },
+    "architect": {
+      "token_id": 7326,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": true,
+      "definition": "A professional who designs buildings or other structures, or who prepares plans and superintends construction."
+    },
+    "exterior": {
+      "token_id": 6573,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": true,
+      "definition": "The outside part, parts or surface of something."
+    },
+    "residence": {
+      "token_id": 5185,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": true,
+      "definition": "The place where one lives; one's home."
+    },
+    "courtyard": {
+      "token_id": 5892,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": true,
+      "definition": "An area, open to the sky, partially or wholly surrounded by walls or buildings."
+    },
+    "reflecting": {
+      "token_id": 5952,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "osaka": {
+      "token_id": 7444,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "compensate": {
+      "token_id": 6440,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": true,
+      "definition": "To do (something good) after (something bad) happens"
+    },
+    "azuma": {
+      "token_id": 2907,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "feel": {
+      "token_id": 4534,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": true,
+      "definition": "A quality of an object experienced by touch."
+    },
+    "ando": {
+      "token_id": 3569,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "windows": {
+      "token_id": 6758,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": true,
+      "definition": "The inedible parts of a grain-producing plant."
+    },
+    "sumiyoshi": {
+      "token_id": 6097,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "walkway": {
+      "token_id": 4629,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": true,
+      "definition": "A clearly defined path for pedestrians."
+    },
+    "personal": {
+      "token_id": 5033,
+      "first_seen": "Row House in Sumiyoshi",
+      "has_definition": true,
+      "definition": "An advertisement by which individuals attempt to meet others with similar interests."
+    },
+    "neue": {
+      "token_id": 5002,
+      "first_seen": "Christian Lorenz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flake": {
+      "token_id": 273,
+      "first_seen": "Christian Lorenz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rammstein": {
+      "token_id": 2064,
+      "first_seen": "Christian Lorenz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kruspe": {
+      "token_id": 4508,
+      "first_seen": "Christian Lorenz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "keyboardist": {
+      "token_id": 4346,
+      "first_seen": "Christian Lorenz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lorenz": {
+      "token_id": 1227,
+      "first_seen": "Christian Lorenz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "feeling": {
+      "token_id": 99,
+      "first_seen": "Christian Lorenz",
+      "has_definition": true,
+      "definition": "(heading) To use or experience the sense of touch."
+    },
+    "rte": {
+      "token_id": 1058,
+      "first_seen": "Christian Lorenz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "richard": {
+      "token_id": 221,
+      "first_seen": "Christian Lorenz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ericaceae": {
+      "token_id": 4280,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leaf": {
+      "token_id": 5284,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": true,
+      "definition": "The usually green and flat organ that represents the most prominent feature of most vegetative plants."
+    },
+    "elliptic": {
+      "token_id": 4437,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "maritimus": {
+      "token_id": 1393,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flowers": {
+      "token_id": 2733,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": true,
+      "definition": "A colorful, conspicuous structure associated with angiosperms, frequently scented and attracting various insects, and which may or may not be used for sexual reproduction."
+    },
+    "branchlets": {
+      "token_id": 2699,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spreading": {
+      "token_id": 163,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": true,
+      "definition": "To stretch out, open out (a material etc.) so that it more fully covers a given area of space."
+    },
+    "hairy": {
+      "token_id": 7541,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": true,
+      "definition": "Of a person, having a lot of hair on the body."
+    },
+    "ends": {
+      "token_id": 309,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": true,
+      "definition": "The terminal point of something in space or time."
+    },
+    "axils": {
+      "token_id": 7244,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "narrowly": {
+      "token_id": 604,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": true,
+      "definition": "In a narrow manner; without flexibility or latitude."
+    },
+    "leucopogon": {
+      "token_id": 7208,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "erect": {
+      "token_id": 4052,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": true,
+      "definition": "Upright; vertical or reaching broadly upwards."
+    },
+    "low": {
+      "token_id": 6528,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": true,
+      "definition": "Something that is low; a low point."
+    },
+    "shrub": {
+      "token_id": 5755,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": true,
+      "definition": "A woody plant smaller than a tree, and usually with several stems from the same base."
+    },
+    "heath": {
+      "token_id": 1278,
+      "first_seen": "Leucopogon maritimus",
+      "has_definition": true,
+      "definition": "A tract of level uncultivated land with sandy soil and scrubby vegetation; heathland."
+    },
+    "theatres": {
+      "token_id": 6614,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": true,
+      "definition": "A place or building, consisting of a stage and seating, in which an audience gathers to watch plays, musical performances, public ceremonies, and so on."
+    },
+    "fleet": {
+      "token_id": 2888,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": true,
+      "definition": "A group of vessels or vehicles."
+    },
+    "important": {
+      "token_id": 2488,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": true,
+      "definition": "Having relevant and crucial value."
+    },
+    "glorious": {
+      "token_id": 2209,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": true,
+      "definition": "Exhibiting attributes, qualities, or acts that are worthy of or receive glory."
+    },
+    "flagship": {
+      "token_id": 4851,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "estates": {
+      "token_id": 1356,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "croisi": {
+      "token_id": 3563,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "decker": {
+      "token_id": 253,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": true,
+      "definition": "One who, or that which, decks or adorns; a coverer."
+    },
+    "bretagne": {
+      "token_id": 5501,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "european": {
+      "token_id": 4780,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brest": {
+      "token_id": 6291,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "funded": {
+      "token_id": 6648,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "active": {
+      "token_id": 6633,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": true,
+      "definition": "A person or thing that is acting or capable of acting."
+    },
+    "grand": {
+      "token_id": 7639,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": true,
+      "definition": "(plural \"grand\") A thousand of some unit of currency, such as dollars or pounds. (Compare G.)"
+    },
+    "anglo": {
+      "token_id": 7078,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hiver": {
+      "token_id": 4346,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vaisseaux": {
+      "token_id": 5910,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "des": {
+      "token_id": 1471,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grant": {
+      "token_id": 271,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": true,
+      "definition": "The act of granting; a bestowing or conferring; concession; allowance; permission."
+    },
+    "brittany": {
+      "token_id": 68,
+      "first_seen": "French ship Bretagne (1766)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "different": {
+      "token_id": 5314,
+      "first_seen": "National Museum of Modern and Contemporary Art",
+      "has_definition": true,
+      "definition": "The different ideal."
+    },
+    "gwacheon": {
+      "token_id": 7486,
+      "first_seen": "National Museum of Modern and Contemporary Art",
+      "has_definition": false,
+      "definition": ""
+    },
+    "periods": {
+      "token_id": 6053,
+      "first_seen": "National Museum of Modern and Contemporary Art",
+      "has_definition": true,
+      "definition": "A length of time."
+    },
+    "cheongju": {
+      "token_id": 354,
+      "first_seen": "National Museum of Modern and Contemporary Art",
+      "has_definition": false,
+      "definition": ""
+    },
+    "deoksugung": {
+      "token_id": 288,
+      "first_seen": "National Museum of Modern and Contemporary Art",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seoul": {
+      "token_id": 3637,
+      "first_seen": "National Museum of Modern and Contemporary Art",
+      "has_definition": false,
+      "definition": ""
+    },
+    "accommodating": {
+      "token_id": 5772,
+      "first_seen": "National Museum of Modern and Contemporary Art",
+      "has_definition": true,
+      "definition": "To render fit, suitable, or correspondent; to adapt."
+    },
+    "varies": {
+      "token_id": 278,
+      "first_seen": "Fritto misto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "buffet": {
+      "token_id": 4972,
+      "first_seen": "Fritto misto",
+      "has_definition": true,
+      "definition": "A counter or sideboard from which food and drinks are served or may be bought."
+    },
+    "version": {
+      "token_id": 4061,
+      "first_seen": "Fritto misto",
+      "has_definition": true,
+      "definition": "A specific form or variation of something."
+    },
+    "fritto": {
+      "token_id": 6855,
+      "first_seen": "Fritto misto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "plate": {
+      "token_id": 6868,
+      "first_seen": "Fritto misto",
+      "has_definition": true,
+      "definition": "A slightly curved but almost flat dish from which food is served or eaten."
+    },
+    "appetiser": {
+      "token_id": 1774,
+      "first_seen": "Fritto misto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antipasto": {
+      "token_id": 4922,
+      "first_seen": "Fritto misto",
+      "has_definition": true,
+      "definition": "An Italian starter for a meal; normally a cold assortment of salami, cheese, seafood and vegetables."
+    },
+    "regions": {
+      "token_id": 7988,
+      "first_seen": "Fritto misto",
+      "has_definition": true,
+      "definition": "Any considerable and connected part of a space or surface; specifically, a tract of land or sea of considerable but indefinite extent; a country; a district; in a broad sense, a place without special reference to location or extent but viewed as an entity for geographical, social or cultural reasons."
+    },
+    "variants": {
+      "token_id": 3436,
+      "first_seen": "Fritto misto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "misto": {
+      "token_id": 6330,
+      "first_seen": "Fritto misto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dish": {
+      "token_id": 475,
+      "first_seen": "Fritto misto",
+      "has_definition": true,
+      "definition": "A vessel such as a plate for holding or serving food, often flat with a depressed region in the middle."
+    },
+    "savoury": {
+      "token_id": 4940,
+      "first_seen": "Fritto misto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "strips": {
+      "token_id": 5061,
+      "first_seen": "Fritto misto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "saronno": {
+      "token_id": 3743,
+      "first_seen": "Fritto misto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fried": {
+      "token_id": 1701,
+      "first_seen": "Fritto misto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ingredients": {
+      "token_id": 7386,
+      "first_seen": "Fritto misto",
+      "has_definition": true,
+      "definition": "One of the substances present in a mixture, especially food."
+    },
+    "apples": {
+      "token_id": 7434,
+      "first_seen": "Fritto misto",
+      "has_definition": true,
+      "definition": "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates."
+    },
+    "biscuits": {
+      "token_id": 3916,
+      "first_seen": "Fritto misto",
+      "has_definition": true,
+      "definition": "(rare in the US) A small, flat, baked good which is either hard and crisp or else soft but firm: a cookie."
+    },
+    "cut": {
+      "token_id": 5253,
+      "first_seen": "Fritto misto",
+      "has_definition": true,
+      "definition": "The act of cutting."
+    },
+    "cooked": {
+      "token_id": 4636,
+      "first_seen": "Fritto misto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "amaretti": {
+      "token_id": 2995,
+      "first_seen": "Fritto misto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "belarusian": {
+      "token_id": 7861,
+      "first_seen": "Petro Glebka",
+      "has_definition": false,
+      "definition": ""
+    },
+    "petro": {
+      "token_id": 174,
+      "first_seen": "Petro Glebka",
+      "has_definition": false,
+      "definition": ""
+    },
+    "glebka": {
+      "token_id": 3289,
+      "first_seen": "Petro Glebka",
+      "has_definition": false,
+      "definition": ""
+    },
+    "playwright": {
+      "token_id": 5128,
+      "first_seen": "Petro Glebka",
+      "has_definition": true,
+      "definition": "A writer and creator of theatrical plays."
+    },
+    "academic": {
+      "token_id": 2298,
+      "first_seen": "Petro Glebka",
+      "has_definition": true,
+      "definition": "(usually capitalized) A follower of Plato, a Platonist."
+    },
+    "archipelago": {
+      "token_id": 2575,
+      "first_seen": "Les Mamelles",
+      "has_definition": false,
+      "definition": ""
+    },
+    "roche": {
+      "token_id": 3984,
+      "first_seen": "Les Mamelles",
+      "has_definition": false,
+      "definition": ""
+    },
+    "caiman": {
+      "token_id": 595,
+      "first_seen": "Les Mamelles",
+      "has_definition": false,
+      "definition": ""
+    },
+    "victoria": {
+      "token_id": 2736,
+      "first_seen": "Les Mamelles",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mamelles": {
+      "token_id": 3410,
+      "first_seen": "Les Mamelles",
+      "has_definition": false,
+      "definition": ""
+    },
+    "les": {
+      "token_id": 5924,
+      "first_seen": "Les Mamelles",
+      "has_definition": true,
+      "definition": "A homosexual woman, one who is mostly or exclusively sexually or romantically attracted to other women."
+    },
+    "inward": {
+      "token_id": 4412,
+      "first_seen": "Les Mamelles",
+      "has_definition": true,
+      "definition": "(chiefly in the plural) That which is inward or within; the inner parts or organs of the body; the viscera."
+    },
+    "suburban": {
+      "token_id": 7616,
+      "first_seen": "Les Mamelles",
+      "has_definition": true,
+      "definition": "A person who lives in a suburb."
+    },
+    "kilometers": {
+      "token_id": 3815,
+      "first_seen": "Les Mamelles",
+      "has_definition": true,
+      "definition": "(official BIPM spelling, Australian, New Zealand, Irish, Indian and South African spelling) An SI unit of length equal to 103 metres. Symbol: km"
+    },
+    "seychelles": {
+      "token_id": 2729,
+      "first_seen": "Les Mamelles",
+      "has_definition": false,
+      "definition": ""
+    },
+    "confused": {
+      "token_id": 6662,
+      "first_seen": "Les Mamelles",
+      "has_definition": true,
+      "definition": "To puzzle, perplex, baffle, bewilder (somebody)."
+    },
+    "mah": {
+      "token_id": 4155,
+      "first_seen": "Les Mamelles",
+      "has_definition": false,
+      "definition": ""
+    },
+    "murdered": {
+      "token_id": 4417,
+      "first_seen": "Miro Bare\u0161i\u0107",
+      "has_definition": true,
+      "definition": "To deliberately kill (a person or persons) without justification, especially with malice aforethought."
+    },
+    "paraguay": {
+      "token_id": 1139,
+      "first_seen": "Miro Bare\u0161i\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "diplomat": {
+      "token_id": 1802,
+      "first_seen": "Miro Bare\u0161i\u0107",
+      "has_definition": true,
+      "definition": "A person, such as an ambassador, who is accredited to represent a government officially in its relations with other governments or international organisations"
+    },
+    "miro": {
+      "token_id": 2220,
+      "first_seen": "Miro Bare\u0161i\u0107",
+      "has_definition": true,
+      "definition": "The dark, durable, attractive wood of the portia tree Thespesia populnea."
+    },
+    "migr": {
+      "token_id": 4926,
+      "first_seen": "Miro Bare\u0161i\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yugoslav": {
+      "token_id": 7004,
+      "first_seen": "Miro Bare\u0161i\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bare": {
+      "token_id": 1068,
+      "first_seen": "Miro Bare\u0161i\u0107",
+      "has_definition": true,
+      "definition": "(\u2018the bare\u2019) The surface, the (bare) skin."
+    },
+    "croatian": {
+      "token_id": 6245,
+      "first_seen": "Miro Bare\u0161i\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vladimir": {
+      "token_id": 3308,
+      "first_seen": "Miro Bare\u0161i\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rolovi": {
+      "token_id": 6265,
+      "first_seen": "Miro Bare\u0161i\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "acoustic": {
+      "token_id": 1719,
+      "first_seen": "Fundamentalist (album)",
+      "has_definition": true,
+      "definition": "A medicine or other agent to assist hearing."
+    },
+    "russell": {
+      "token_id": 1976,
+      "first_seen": "Fundamentalist (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "singles": {
+      "token_id": 4206,
+      "first_seen": "Fundamentalist (album)",
+      "has_definition": true,
+      "definition": "A 45 RPM vinyl record with one song on side A and one on side B."
+    },
+    "real": {
+      "token_id": 7822,
+      "first_seen": "Fundamentalist (album)",
+      "has_definition": true,
+      "definition": "A commodity; see realty."
+    },
+    "paper": {
+      "token_id": 7350,
+      "first_seen": "Fundamentalist (album)",
+      "has_definition": true,
+      "definition": "A sheet material used for writing on or printing on (or as a non-waterproof container), usually made by draining cellulose fibres from a suspension in water."
+    },
+    "captures": {
+      "token_id": 2780,
+      "first_seen": "Fundamentalist (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fundamentalist": {
+      "token_id": 2776,
+      "first_seen": "Fundamentalist (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thing": {
+      "token_id": 3806,
+      "first_seen": "Fundamentalist (album)",
+      "has_definition": true,
+      "definition": "That which is considered to exist as a separate entity, object, quality or concept."
+    },
+    "eulimidae": {
+      "token_id": 1010,
+      "first_seen": "Aclis maestratii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "maestratii": {
+      "token_id": 6781,
+      "first_seen": "Aclis maestratii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aclis": {
+      "token_id": 1166,
+      "first_seen": "Aclis maestratii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "starting": {
+      "token_id": 5437,
+      "first_seen": "Chester Academy",
+      "has_definition": true,
+      "definition": "To begin, commence, initiate."
+    },
+    "colors": {
+      "token_id": 2243,
+      "first_seen": "Chester Academy",
+      "has_definition": true,
+      "definition": "The spectral composition of visible light"
+    },
+    "ancestor": {
+      "token_id": 2456,
+      "first_seen": "Chester Academy",
+      "has_definition": true,
+      "definition": "One from whom a person is descended, whether on the father's or mother's side, at any distance of time; a progenitor; a forefather."
+    },
+    "hambletonian": {
+      "token_id": 1026,
+      "first_seen": "Chester Academy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "famed": {
+      "token_id": 7634,
+      "first_seen": "Chester Academy",
+      "has_definition": true,
+      "definition": "Having fame; famous or noted."
+    },
+    "harness": {
+      "token_id": 7043,
+      "first_seen": "Chester Academy",
+      "has_definition": true,
+      "definition": "A restraint or support, especially one consisting of a loop or network of rope or straps."
+    },
+    "every": {
+      "token_id": 613,
+      "first_seen": "Chester Academy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "york": {
+      "token_id": 5016,
+      "first_seen": "Chester Academy",
+      "has_definition": true,
+      "definition": "To bowl a yorker at a batsman, especially to get a batsman out in this way."
+    },
+    "nearly": {
+      "token_id": 1223,
+      "first_seen": "Chester Academy",
+      "has_definition": true,
+      "definition": "With great scrutiny; carefully."
+    },
+    "standardbred": {
+      "token_id": 2877,
+      "first_seen": "Chester Academy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "racing": {
+      "token_id": 6761,
+      "first_seen": "Chester Academy",
+      "has_definition": true,
+      "definition": "To take part in a race (in the sense of a contest)."
+    },
+    "mascot": {
+      "token_id": 2849,
+      "first_seen": "Chester Academy",
+      "has_definition": true,
+      "definition": "Something thought to bring good luck"
+    },
+    "horse": {
+      "token_id": 7264,
+      "first_seen": "Chester Academy",
+      "has_definition": true,
+      "definition": "Any of several animals related to Equus ferus caballus."
+    },
+    "quarters": {
+      "token_id": 4720,
+      "first_seen": "Chester Academy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "away": {
+      "token_id": 2045,
+      "first_seen": "Chester Academy",
+      "has_definition": true,
+      "definition": "To depart; to go to another place."
+    },
+    "chester": {
+      "token_id": 1776,
+      "first_seen": "Chester Academy",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 240,
-  "total_words": 3563
+  "total_articles": 270,
+  "total_words": 3889
 }
