@@ -1,31 +1,16 @@
-# Senate bundles (large files)
-senate_bundles/
-models/
-gguf_exports/
-
-# Node
-node_modules/
-package-lock.json
-package.json
-
 # Python
 __pycache__/
 *.pyc
-*.pyo
 venv/
-.env
 
-# Training data
-training_data/
-critic_training/
-data/
-reports/
-checkpoints/
-optimize_progress.json
-
-# GitHub Actions artifacts
-debate_result.json
+# Node
+node_modules/
 
 # OS
 .DS_Store
-Thumbs.db
+
+# Workflow temp files
+debate_result.json
+selected_bundles.json
+router_select.py
+run_debate.py
