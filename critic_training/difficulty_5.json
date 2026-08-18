@@ -3,46 +3,6 @@
   "examples": [],
   "questions": [
     {
-      "question": "Explain the key concepts of neuroscience.",
-      "topic": "neuroscience",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of algorithms.",
-      "topic": "algorithms",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of logic.",
-      "topic": "logic",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of machine_learning.",
-      "topic": "machine_learning",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of networking.",
-      "topic": "networking",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of history.",
-      "topic": "history",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of microbiology.",
-      "topic": "microbiology",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of engineering.",
-      "topic": "engineering",
-      "difficulty": 5
-    },
-    {
       "question": "Explain the key concepts of ethics.",
       "topic": "ethics",
       "difficulty": 5
@@ -53,13 +13,18 @@
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of medicine.",
-      "topic": "medicine",
+      "question": "Explain the key concepts of world_wars.",
+      "topic": "world_wars",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of poetry.",
-      "topic": "poetry",
+      "question": "Explain the key concepts of astronomy.",
+      "topic": "astronomy",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of philosophy.",
+      "topic": "philosophy",
       "difficulty": 5
     },
     {
@@ -68,13 +33,48 @@
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of astrophysics.",
-      "topic": "astrophysics",
+      "question": "Explain the key concepts of music_theory.",
+      "topic": "music_theory",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of cybersecurity.",
-      "topic": "cybersecurity",
+      "question": "Explain the key concepts of computer_science.",
+      "topic": "computer_science",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of microbiology.",
+      "topic": "microbiology",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of law.",
+      "topic": "law",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of electromagnetism.",
+      "topic": "electromagnetism",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of calculus.",
+      "topic": "calculus",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of literature.",
+      "topic": "literature",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of statistics.",
+      "topic": "statistics",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of organic_chemistry.",
+      "topic": "organic_chemistry",
       "difficulty": 5
     }
   ],
