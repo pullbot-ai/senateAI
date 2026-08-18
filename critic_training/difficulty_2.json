@@ -3,13 +3,23 @@
   "examples": [],
   "questions": [
     {
-      "question": "Explain the key concepts of philosophy.",
-      "topic": "philosophy",
+      "question": "Explain the key concepts of geography.",
+      "topic": "geography",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of networking.",
-      "topic": "networking",
+      "question": "Explain the key concepts of computer_science.",
+      "topic": "computer_science",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of physics.",
+      "topic": "physics",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of biology.",
+      "topic": "biology",
       "difficulty": 2
     },
     {
@@ -18,23 +28,8 @@
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of music_theory.",
-      "topic": "music_theory",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of engineering.",
-      "topic": "engineering",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of neuroscience.",
-      "topic": "neuroscience",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of algorithms.",
-      "topic": "algorithms",
+      "question": "Explain the key concepts of constitutional_law.",
+      "topic": "constitutional_law",
       "difficulty": 2
     },
     {
@@ -43,8 +38,23 @@
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of astronomy.",
-      "topic": "astronomy",
+      "question": "Explain the key concepts of cybersecurity.",
+      "topic": "cybersecurity",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of macroeconomics.",
+      "topic": "macroeconomics",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of algebra.",
+      "topic": "algebra",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of algorithms.",
+      "topic": "algorithms",
       "difficulty": 2
     },
     {
@@ -58,23 +68,13 @@
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of biology.",
-      "topic": "biology",
+      "question": "Explain the key concepts of genetics.",
+      "topic": "genetics",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of machine_learning.",
-      "topic": "machine_learning",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of ancient_civilizations.",
-      "topic": "ancient_civilizations",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of climate_science.",
-      "topic": "climate_science",
+      "question": "Explain the key concepts of neuroscience.",
+      "topic": "neuroscience",
       "difficulty": 2
     }
   ],
