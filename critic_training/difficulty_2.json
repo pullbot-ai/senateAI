@@ -3,31 +3,6 @@
   "examples": [],
   "questions": [
     {
-      "question": "Explain the key concepts of environmental_science.",
-      "topic": "environmental_science",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of cybersecurity.",
-      "topic": "cybersecurity",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of political_science.",
-      "topic": "political_science",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of poetry.",
-      "topic": "poetry",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of networking.",
-      "topic": "networking",
-      "difficulty": 2
-    },
-    {
       "question": "Explain the key concepts of geography.",
       "topic": "geography",
       "difficulty": 2
@@ -38,23 +13,13 @@
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of behavioral_economics.",
-      "topic": "behavioral_economics",
+      "question": "Explain the key concepts of literature.",
+      "topic": "literature",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of linguistics.",
-      "topic": "linguistics",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of thermodynamics.",
-      "topic": "thermodynamics",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of macroeconomics.",
-      "topic": "macroeconomics",
+      "question": "Explain the key concepts of biology.",
+      "topic": "biology",
       "difficulty": 2
     },
     {
@@ -63,18 +28,53 @@
       "difficulty": 2
     },
     {
+      "question": "Explain the key concepts of mathematics.",
+      "topic": "mathematics",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of law.",
+      "topic": "law",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of chemistry.",
+      "topic": "chemistry",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of philosophy.",
+      "topic": "philosophy",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of computer_science.",
+      "topic": "computer_science",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of environmental_science.",
+      "topic": "environmental_science",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of cognitive_science.",
+      "topic": "cognitive_science",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of geometry.",
+      "topic": "geometry",
+      "difficulty": 2
+    },
+    {
       "question": "Explain the key concepts of anatomy.",
       "topic": "anatomy",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of quantum_mechanics.",
-      "topic": "quantum_mechanics",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of economics.",
-      "topic": "economics",
+      "question": "Explain the key concepts of behavioral_economics.",
+      "topic": "behavioral_economics",
       "difficulty": 2
     }
   ],
