@@ -1,7 +1,6 @@
 """
 Senate AI - Topic-Based Training with AI Grading
-Generates fresh AI training data each run, trains senators, grades them with AI.
-Supports --bundle flag to train only senators in a specific bundle.
+Uses shared wordbank for tokenization. Intensive training for small bundles.
 """
 
 import torch
@@ -15,34 +14,20 @@ from model_template import SenateBundle
 import random
 from difflib import SequenceMatcher
 from ai_client import call_ai
+from wordbank import get_wordbank
 import re
 
 
 class TopicDataset(Dataset):
-    """Training data for a topic"""
+    """Training data using shared wordbank"""
     
-    def __init__(self, texts, seq_length=64, vocab_size=8000):
+    def __init__(self, texts, wordbank, seq_length=64):
         self.seq_length = seq_length
-        self.vocab_size = vocab_size
-        
-        self.word_to_idx = {'<PAD>': 0, '<UNK>': 1, '<END>': 2}
-        for text in texts:
-            for word in text.lower().split():
-                if word not in self.word_to_idx:
-                    self.word_to_idx[word] = len(self.word_to_idx)
-        
-        self.word_to_idx = dict(list(self.word_to_idx.items())[:vocab_size])
+        self.wordbank = wordbank
         
         self.sequences = []
         for text in texts:
-            tokens = [self.word_to_idx.get(w, 1) for w in text.lower().split()]
-            tokens.append(2)
-            
-            if len(tokens) < seq_length:
-                tokens += [0] * (seq_length - len(tokens))
-            else:
-                tokens = tokens[:seq_length]
-            
+            tokens = wordbank.tokenize(text, max_len=seq_length)
             self.sequences.append(torch.tensor(tokens))
     
     def __len__(self):
@@ -54,7 +39,7 @@ class TopicDataset(Dataset):
         return x, y
 
 
-def generate_training_data(topic, num_examples=15):
+def generate_training_data(topic, num_examples=30):
     """Generate fresh training examples using AI"""
     
     prompt = f"""Generate {num_examples} diverse training sentences for a tiny AI specializing in '{topic}'.
@@ -62,7 +47,7 @@ Each sentence should teach a key concept about {topic}.
 Make them varied: definitions, principles, facts, applications, examples.
 Return as JSON array of strings: ["sentence1", "sentence2", ...]"""
     
-    response = call_ai(prompt, max_tokens=500)
+    response = call_ai(prompt, max_tokens=800)
     
     if response:
         try:
@@ -73,10 +58,10 @@ Return as JSON array of strings: ["sentence1", "sentence2", ...]"""
         except:
             pass
     
-    return [f"{topic} is an important field of study"]
+    return [f"{topic} is an important field of study involving key principles and concepts"]
 
 
-def generate_qa_pairs(topic, num_pairs=5):
+def generate_qa_pairs(topic, num_pairs=8):
     """Generate fresh Q&A pairs for grading"""
     
     prompt = f"""Generate {num_pairs} question-answer pairs about '{topic}'.
@@ -84,7 +69,7 @@ Questions should test understanding of key concepts.
 Answers should be 1-2 sentences, accurate.
 Return as JSON array: [{{"question": "...", "answer": "..."}}, ...]"""
     
-    response = call_ai(prompt, max_tokens=800)
+    response = call_ai(prompt, max_tokens=1000)
     
     if response:
         try:
@@ -98,8 +83,8 @@ Return as JSON array: [{{"question": "...", "answer": "..."}}, ...]"""
     return [{"question": f"What is {topic}?", "answer": f"{topic} is a field of study"}]
 
 
-def train_senator_on_topics(senator, topics, epochs=3, lr=0.001, batch_size=8):
-    """Train a senator on freshly generated topic data"""
+def train_senator_on_topics(senator, topics, wordbank, epochs=15, lr=0.0005, batch_size=16):
+    """Train a senator on freshly generated topic data using wordbank"""
     
     all_texts = []
     for topic in topics:
@@ -110,7 +95,7 @@ def train_senator_on_topics(senator, topics, epochs=3, lr=0.001, batch_size=8):
         return None
     
     random.shuffle(all_texts)
-    dataset = TopicDataset(all_texts)
+    dataset = TopicDataset(all_texts, wordbank)
     dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
     
     optimizer = torch.optim.Adam(senator.parameters(), lr=lr)
@@ -126,70 +111,20 @@ def train_senator_on_topics(senator, topics, epochs=3, lr=0.001, batch_size=8):
             logits = senator(batch_x)
             loss = criterion(logits.permute(0, 2, 1), batch_y)
             loss.backward()
+            torch.nn.utils.clip_grad_norm_(senator.parameters(), 1.0)
             optimizer.step()
             epoch_loss += loss.item()
         
         avg_loss = epoch_loss / len(dataloader)
         losses.append(avg_loss)
+        
+        if (epoch + 1) % 3 == 0 or epoch == 0:
+            print(f"    Epoch {epoch+1}/{epochs} - Loss: {avg_loss:.4f}")
     
     return losses
 
 
-def tokenize_text(text, max_len=32, vocab_size=8000):
-    """Tokenize text for senator inference"""
-    words = text.lower().split()[:max_len]
-    tokens = []
-    for w in words:
-        tokens.append(hash(w) % vocab_size)
-    while len(tokens) < max_len:
-        tokens.append(0)
-    return torch.tensor([tokens])
-
-
-def decode_tokens(token_ids, vocab):
-    """Decode token IDs back to text"""
-    words = []
-    for tid in token_ids:
-        tid = tid.item()
-        if tid == 0:
-            break
-        if tid == 1:
-            words.append('?')
-        elif tid == 2:
-            break
-        elif tid in vocab:
-            words.append(vocab[tid])
-        else:
-            words.append(f'[{tid}]')
-    return ' '.join(words) if words else "..."
-
-
-def build_vocab():
-    """Build reverse vocabulary from all topics"""
-    vocab = {0: '<PAD>', 1: '<UNK>', 2: '<END>'}
-    
-    topics = ['mathematics', 'algebra', 'geometry', 'calculus', 'statistics',
-              'physics', 'chemistry', 'biology', 'astronomy', 'environmental_science',
-              'computer_science', 'algorithms', 'machine_learning', 'cybersecurity', 'networking',
-              'history', 'ancient_civilizations', 'world_wars', 'geography', 'philosophy',
-              'psychology', 'economics', 'political_science', 'law', 'linguistics',
-              'art_history', 'music_theory', 'literature', 'poetry', 'ethics',
-              'medicine', 'anatomy', 'neuroscience', 'genetics', 'microbiology',
-              'quantum_mechanics', 'thermodynamics', 'electromagnetism', 'organic_chemistry', 'biochemistry',
-              'climate_science', 'behavioral_economics', 'cognitive_science', 'epistemology', 'constitutional_law',
-              'microeconomics', 'macroeconomics', 'medieval_history', 'astrophysics', 'engineering']
-    
-    for topic in topics:
-        words = topic.replace('_', ' ').split()
-        for word in words:
-            tid = hash(word) % 8000
-            if tid not in vocab and tid >= 3:
-                vocab[tid] = word
-    
-    return vocab
-
-
-def grade_senator_with_ai(senator, qa_pairs, vocab):
+def grade_senator_with_ai(senator, qa_pairs, wordbank):
     """Grade senator using AI judge"""
     senator.eval()
     scores = []
@@ -199,13 +134,15 @@ def grade_senator_with_ai(senator, qa_pairs, vocab):
         correct_answer = qa.get('answer', '')
         topic = qa.get('topic', '')
         
-        input_ids = tokenize_text(question)
+        # Use wordbank for tokenization
+        tokens = wordbank.tokenize(question, max_len=32)
+        input_ids = torch.tensor([tokens])
         
         with torch.no_grad():
             generated = []
             current = input_ids
             
-            for _ in range(10):
+            for _ in range(15):
                 logits = senator(current)
                 last_logits = logits[0, -1, :]
                 probs = torch.softmax(last_logits / 0.8, dim=-1)
@@ -215,7 +152,7 @@ def grade_senator_with_ai(senator, qa_pairs, vocab):
                 generated.append(next_token)
                 current = torch.cat([current, torch.tensor([[next_token]])], dim=1)
         
-        senator_answer = decode_tokens(torch.tensor(generated), vocab)
+        senator_answer = wordbank.decode(torch.tensor(generated))
         
         grading_prompt = f"""You are grading an AI senator's answer.
 
@@ -254,7 +191,7 @@ Return ONLY a number between 0 and 100."""
     return scores
 
 
-def grade_and_update(senator, topics, vocab):
+def grade_and_update(senator, topics, wordbank):
     """Grade senator on fresh Q&A pairs and update performance"""
     
     all_qa = []
@@ -267,7 +204,7 @@ def grade_and_update(senator, topics, vocab):
     if not all_qa:
         return None
     
-    scores = grade_senator_with_ai(senator, all_qa, vocab)
+    scores = grade_senator_with_ai(senator, all_qa, wordbank)
     
     if not scores:
         return None
@@ -287,7 +224,7 @@ def grade_and_update(senator, topics, vocab):
     return {'average_score': avg_score, 'scores': scores}
 
 
-def train_topics(topic_list, bundle_id=None, epochs=3, lr=0.001):
+def train_topics(topic_list, bundle_id=None, epochs=15, lr=0.0005):
     """Train all senators matching topics, optionally filtered by bundle"""
     
     with open('senate_bundles/senate_index.json') as f:
@@ -295,14 +232,17 @@ def train_topics(topic_list, bundle_id=None, epochs=3, lr=0.001):
     
     topics = set(topic_list)
     print(f"\n{'='*60}")
-    print(f"  TOPIC TRAINING - FRESH AI DATA + AI GRADING")
+    print(f"  TOPIC TRAINING - WORDBANK + AI GRADING")
     print(f"{'='*60}")
     print(f"  Topics: {', '.join(sorted(topics))}")
     if bundle_id is not None:
         print(f"  Bundle: {bundle_id}")
+    print(f"  Epochs: {epochs} | LR: {lr}")
     sys.stdout.flush()
     
-    vocab = build_vocab()
+    wordbank = get_wordbank()
+    print(f"  Wordbank: {len(wordbank.word_to_id):,} words")
+    sys.stdout.flush()
     
     matching_senators = []
     for senator in index['senators']:
@@ -362,7 +302,7 @@ def train_topics(topic_list, bundle_id=None, epochs=3, lr=0.001):
             print(f"    Senator {senator_id} [{', '.join(relevant[:3])}]...", end=' ')
             sys.stdout.flush()
             
-            losses = train_senator_on_topics(senator, relevant, epochs=epochs, lr=lr)
+            losses = train_senator_on_topics(senator, relevant, wordbank, epochs=epochs, lr=lr)
             
             if losses:
                 trained += 1
@@ -373,7 +313,7 @@ def train_topics(topic_list, bundle_id=None, epochs=3, lr=0.001):
                 skipped += 1
                 continue
             
-            grading_result = grade_and_update(senator, relevant, vocab)
+            grading_result = grade_and_update(senator, relevant, wordbank)
             
             if grading_result:
                 score = grading_result['average_score']
@@ -407,8 +347,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--topics', type=str, required=True, help='Comma-separated topics')
     parser.add_argument('--bundle', type=int, default=None, help='Only train senators in this bundle')
-    parser.add_argument('--epochs', type=int, default=3)
-    parser.add_argument('--lr', type=float, default=0.001)
+    parser.add_argument('--epochs', type=int, default=15)
+    parser.add_argument('--lr', type=float, default=0.0005)
     
     args = parser.parse_args()
     topics = [t.strip() for t in args.topics.split(',')]
