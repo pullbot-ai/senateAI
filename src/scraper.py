@@ -20,8 +20,17 @@ DEFINITIONS_PATH = os.path.join(REPO_ROOT, 'data', 'definitions.json')
 
 def load_wordbank():
     if os.path.exists(WORD_BANK_PATH):
-        with open(WORD_BANK_PATH, 'r') as f:
-            return json.load(f)
+        try:
+            with open(WORD_BANK_PATH, 'r') as f:
+                return json.load(f)
+        except (json.JSONDecodeError, UnicodeDecodeError):
+            print("   Wordbank corrupted, backing up and starting fresh")
+            backup = WORD_BANK_PATH + '.corrupted'
+            try:
+                os.rename(WORD_BANK_PATH, backup)
+            except:
+                pass
+            return {"words": {}, "total_articles": 0, "total_words": 0}
     return {"words": {}, "total_articles": 0, "total_words": 0}
 
 
@@ -33,8 +42,12 @@ def save_wordbank(bank):
 
 def load_definitions():
     if os.path.exists(DEFINITIONS_PATH):
-        with open(DEFINITIONS_PATH, 'r') as f:
-            return json.load(f)
+        try:
+            with open(DEFINITIONS_PATH, 'r') as f:
+                return json.load(f)
+        except (json.JSONDecodeError, UnicodeDecodeError):
+            print("   Definitions corrupted, starting fresh")
+            return []
     return []
 
 
@@ -61,7 +74,7 @@ def scrape_article():
         r = requests.get(
             "https://en.wikipedia.org/api/rest_v1/page/random/summary",
             timeout=15,
-            headers={'User-Agent': 'SenateAI/1.0 (https://github.com/pullbot-ai/senate-ai)'}
+            headers={'User-Agent': 'SenateAI/1.0 (https://github.com/pullbot-ai/senateAI)'}
         )
         if r.status_code == 200:
             data = r.json()
@@ -88,12 +101,10 @@ def lookup_definition(word):
 
 
 def get_token_id(word, vocab_size=8000):
-    """Map a word to a token ID using the wordbank"""
-    # Use a stable hash based on the word string
-    # This ensures the same word always maps to the same ID
+    """Map a word to a token ID using stable hash"""
     import hashlib
     hash_val = int(hashlib.md5(word.encode()).hexdigest(), 16)
-    return 3 + (hash_val % (vocab_size - 3))  # Reserve 0,1,2 for special tokens
+    return 3 + (hash_val % (vocab_size - 3))
 
 
 def process_article(text, title, bank, definitions, article_num):
@@ -106,7 +117,6 @@ def process_article(text, title, bank, definitions, article_num):
     
     for word in all_words:
         if word not in bank['words']:
-            # New word! Add it with token ID
             token_id = get_token_id(word)
             bank['words'][word] = {
                 'token_id': token_id,
@@ -118,7 +128,6 @@ def process_article(text, title, bank, definitions, article_num):
         else:
             skipped += 1
     
-    # Look up definitions for new words
     defined_count = 0
     for word in new_words[:20]:
         definition = lookup_definition(word)
