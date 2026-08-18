@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senate AI - Democratic AI Parliament</title>
+    <link rel="icon" type="image/png" href="assets/icon.png">
+    <meta property="og:image" content="https://pullbot-ai.github.io/senateAI/assets/icon.png">
+    <script src="https://unpkg.com/parse@5.0.0/dist/parse.min.js"></script>
+    <style>
+        :root {
+            --bg-primary: #0A0A0F;
+            --bg-card: rgba(255,255,255,0.05);
+            --text-primary: #E8E8F0;
+            --text-secondary: #8A8AA0;
+            --accent: #265EF7;
+            --accent-hover: #3B73FF;
+            --border: rgba(255,255,255,0.1);
+            --glow: #2E5090;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0A0A0F;
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+        .background {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 20%, #16213e 40%, #2E5090 55%, #265EF7 70%, #16213e 85%, #0a0a0f 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 12s ease infinite;
+            z-index: 0;
+        }
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(10,10,15,0.55);
+            z-index: 1;
+        }
+        .content {
+            position: relative;
+            z-index: 2;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+            gap: 30px;
+        }
+        .icon-wrapper {
+            position: relative;
+            width: 180px;
+            height: 180px;
+            animation: float 6s ease-in-out infinite;
+        }
+        .icon-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 22%;
+            position: relative;
+            z-index: 2;
+            box-shadow: 0 0 60px rgba(38, 94, 247, 0.6);
+        }
+        .glow {
+            position: absolute;
+            top: -20px; left: -20px; right: -20px; bottom: -20px;
+            border-radius: 30%;
+            background: radial-gradient(circle, rgba(38,94,247,0.5) 0%, rgba(46,80,144,0.3) 40%, transparent 70%);
+            animation: pulse 3s ease-in-out infinite;
+            z-index: 1;
+        }
+        .glow-2 { animation-delay: 1.5s; }
+        @keyframes pulse {
+            0%, 100% { opacity: 0.6; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.15); }
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+        h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            background: linear-gradient(135deg, #ffffff 0%, #8ab4ff 50%, #265EF7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .tagline {
+            font-size: 1.2rem;
+            color: rgba(255,255,255,0.7);
+            max-width: 600px;
+            text-align: center;
+            line-height: 1.6;
+            font-weight: 300;
+        }
+        .buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .btn {
+            padding: 14px 32px;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: none;
+            font-family: inherit;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #265EF7, #2E5090);
+            color: #fff;
+            box-shadow: 0 8px 32px rgba(38,94,247,0.4);
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 40px rgba(38,94,247,0.6);
+        }
+        .btn-secondary {
+            background: rgba(255,255,255,0.1);
+            color: #fff;
+            border: 1px solid rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+        }
+        .btn-secondary:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+        }
+        .stats {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .stat { text-align: center; }
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #8ab4ff;
+        }
+        .stat-label {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.6);
+            margin-top: 5px;
+        }
+        .login-modal {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0,0,0,0.7);
+            backdrop-filter: blur(10px);
+        }
+        .login-modal.hidden { display: none; }
+        .login-card {
+            background: rgba(20,20,35,0.95);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 40px;
+            width: 400px;
+            max-width: 90vw;
+            text-align: center;
+        }
+        .login-card img {
+            width: 60px;
+            height: 60px;
+            border-radius: 14px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 30px rgba(38,94,247,0.4);
+        }
+        .login-card h2 { margin-bottom: 10px; font-size: 1.5rem; }
+        .login-card p { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 25px; }
+        .login-card input {
+            width: 100%;
+            padding: 12px 16px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: #fff;
+            font-size: 1rem;
+            outline: none;
+            margin-bottom: 12px;
+        }
+        .login-card input:focus { border-color: var(--accent); }
+        .login-card .btn { width: 100%; margin-bottom: 10px; }
+        .login-link {
+            color: var(--accent);
+            cursor: pointer;
+            font-size: 0.85rem;
+            text-decoration: none;
+        }
+        .login-link:hover { text-decoration: underline; }
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            .icon-wrapper { width: 120px; height: 120px; }
+            .tagline { font-size: 1rem; padding: 0 20px; }
+            .stats { gap: 20px; }
+            .stat-number { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="overlay"></div>
+
+    <div class="content">
+        <div class="icon-wrapper">
+            <div class="glow"></div>
+            <div class="glow glow-2"></div>
+            <img src="assets/icon.png" alt="Senate AI">
+        </div>
+
+        <h1>Senate AI</h1>
+
+        <p class="tagline">
+            Where thousands of tiny AI minds debate to find truth.
+            A democratic parliament of specialized models working together.
+        </p>
+
+        <div class="buttons">
+            <button class="btn btn-primary" onclick="openLogin()">Login to Debate</button>
+            <a href="https://github.com/pullbot-ai/senateAI" class="btn btn-secondary">View on GitHub</a>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">4,005</div>
+                <div class="stat-label">Senators</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Specialties</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">400</div>
+                <div class="stat-label">Bundles</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">1.8M</div>
+                <div class="stat-label">Params/Senator</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="login-modal hidden" id="loginModal">
+        <div class="login-card">
+            <img src="assets/icon.png" alt="Senate AI">
+            <h2 id="authTitle">Welcome Back</h2>
+            <p id="authSubtitle">Login to start debating with the Senate</p>
+            <input type="text" id="authUsername" placeholder="Username" autocomplete="off">
+            <input type="password" id="authPassword" placeholder="Password">
+            <button class="btn btn-primary" onclick="handleAuth()" id="authBtn">Login</button>
+            <span class="login-link" onclick="toggleAuthMode()" id="toggleLink">Don't have an account? Sign up</span>
+            <br><br>
+            <button class="btn btn-secondary" onclick="closeLogin()">Cancel</button>
+        </div>
+    </div>
+
+    <script>
+        Parse.initialize("XmMg08Lgp5aB8jEPLEdH9c9sBOaTDuBXkKL4QU5l", "XbZO0p0jhN3OdteFOkVA9Be3jJMH7U0uZNTBrorO");
+        Parse.serverURL = "https://parseapi.back4app.com";
+
+        let authMode = 'login';
+
+        function openLogin() {
+            document.getElementById('loginModal').classList.remove('hidden');
+            document.getElementById('authUsername').focus();
+        }
+
+        function closeLogin() {
+            document.getElementById('loginModal').classList.add('hidden');
+        }
+
+        function toggleAuthMode() {
+            authMode = authMode === 'login' ? 'signup' : 'login';
+            document.getElementById('authTitle').textContent = authMode === 'login' ? 'Welcome Back' : 'Join Senate AI';
+            document.getElementById('authSubtitle').textContent = authMode === 'login' ? 'Login to start debating' : 'Create an account to debate';
+            document.getElementById('authBtn').textContent = authMode === 'login' ? 'Login' : 'Sign Up';
+            document.getElementById('toggleLink').textContent = authMode === 'login' ? "Don't have an account? Sign up" : 'Already have an account? Login';
+        }
+
+        async function handleAuth() {
+            const username = document.getElementById('authUsername').value.trim();
+            const password = document.getElementById('authPassword').value.trim();
+
+            if (!username || !password) {
+                alert('Please fill in all fields');
+                return;
+            }
+
+            try {
+                if (authMode === 'signup') {
+                    const user = new Parse.User();
+                    user.set('username', username);
+                    user.set('password', password);
+                    await user.signUp();
+                    alert('Account created!');
+                } else {
+                    await Parse.User.logIn(username, password);
+                }
+                
+                localStorage.setItem('senate_user', username);
+                window.location.href = 'chatbot.html';
+            } catch (e) {
+                alert(e.message || 'Authentication failed');
+            }
+        }
+
+        // Check if already logged in
+        if (Parse.User.current()) {
+            window.location.href = 'chatbot.html';
+        }
+    </script>
+</body>
+</html>
