@@ -3,8 +3,33 @@
   "examples": [],
   "questions": [
     {
-      "question": "Explain the key concepts of world_wars.",
-      "topic": "world_wars",
+      "question": "Explain the key concepts of music_theory.",
+      "topic": "music_theory",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of philosophy.",
+      "topic": "philosophy",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of electromagnetism.",
+      "topic": "electromagnetism",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of poetry.",
+      "topic": "poetry",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of epistemology.",
+      "topic": "epistemology",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of cybersecurity.",
+      "topic": "cybersecurity",
       "difficulty": 2
     },
     {
@@ -13,53 +38,18 @@
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of networking.",
-      "topic": "networking",
+      "question": "Explain the key concepts of geography.",
+      "topic": "geography",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of art_history.",
-      "topic": "art_history",
+      "question": "Explain the key concepts of macroeconomics.",
+      "topic": "macroeconomics",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of economics.",
-      "topic": "economics",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of microbiology.",
-      "topic": "microbiology",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of literature.",
-      "topic": "literature",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of neuroscience.",
-      "topic": "neuroscience",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of genetics.",
-      "topic": "genetics",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of biology.",
-      "topic": "biology",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of music_theory.",
-      "topic": "music_theory",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of anatomy.",
-      "topic": "anatomy",
+      "question": "Explain the key concepts of algorithms.",
+      "topic": "algorithms",
       "difficulty": 2
     },
     {
@@ -68,13 +58,23 @@
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of history.",
-      "topic": "history",
+      "question": "Explain the key concepts of statistics.",
+      "topic": "statistics",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of political_science.",
-      "topic": "political_science",
+      "question": "Explain the key concepts of medieval_history.",
+      "topic": "medieval_history",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of engineering.",
+      "topic": "engineering",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of art_history.",
+      "topic": "art_history",
       "difficulty": 2
     }
   ],
