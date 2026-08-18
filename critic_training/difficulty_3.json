@@ -3,23 +3,18 @@
   "examples": [],
   "questions": [
     {
-      "question": "Explain the key concepts of medieval_history.",
-      "topic": "medieval_history",
+      "question": "Explain the key concepts of algorithms.",
+      "topic": "algorithms",
       "difficulty": 3
     },
     {
-      "question": "Explain the key concepts of cognitive_science.",
-      "topic": "cognitive_science",
+      "question": "Explain the key concepts of organic_chemistry.",
+      "topic": "organic_chemistry",
       "difficulty": 3
     },
     {
-      "question": "Explain the key concepts of poetry.",
-      "topic": "poetry",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of economics.",
-      "topic": "economics",
+      "question": "Explain the key concepts of environmental_science.",
+      "topic": "environmental_science",
       "difficulty": 3
     },
     {
@@ -28,38 +23,13 @@
       "difficulty": 3
     },
     {
-      "question": "Explain the key concepts of statistics.",
-      "topic": "statistics",
+      "question": "Explain the key concepts of algebra.",
+      "topic": "algebra",
       "difficulty": 3
     },
     {
-      "question": "Explain the key concepts of behavioral_economics.",
-      "topic": "behavioral_economics",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of networking.",
-      "topic": "networking",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of art_history.",
-      "topic": "art_history",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of medicine.",
-      "topic": "medicine",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of literature.",
-      "topic": "literature",
-      "difficulty": 3
-    },
-    {
-      "question": "Explain the key concepts of ethics.",
-      "topic": "ethics",
+      "question": "Explain the key concepts of political_science.",
+      "topic": "political_science",
       "difficulty": 3
     },
     {
@@ -68,13 +38,43 @@
       "difficulty": 3
     },
     {
-      "question": "Explain the key concepts of machine_learning.",
-      "topic": "machine_learning",
+      "question": "Explain the key concepts of statistics.",
+      "topic": "statistics",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of ancient_civilizations.",
+      "topic": "ancient_civilizations",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of macroeconomics.",
+      "topic": "macroeconomics",
       "difficulty": 3
     },
     {
       "question": "Explain the key concepts of biochemistry.",
       "topic": "biochemistry",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of law.",
+      "topic": "law",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of microbiology.",
+      "topic": "microbiology",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of ethics.",
+      "topic": "ethics",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of chemistry.",
+      "topic": "chemistry",
       "difficulty": 3
     }
   ],
