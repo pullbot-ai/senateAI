@@ -40,8 +40,9 @@ jobs:
         id: bundle
         run: |
           BUNDLE=$(( ${{ github.event.inputs.senator_id }} / 10 ))
-          echo "bundle_id=$BUNDLE" >> $GITHUB_OUTPUT
-          echo "Senator ${{ github.event.inputs.senator_id }} is in bundle $BUNDLE"
+          BUNDLE_PADDED=$(printf "%03d" $BUNDLE)
+          echo "bundle_id=$BUNDLE_PADDED" >> $GITHUB_OUTPUT
+          echo "Senator ${{ github.event.inputs.senator_id }} is in bundle $BUNDLE_PADDED"
       
       - uses: actions/checkout@v4
         with:
@@ -70,6 +71,12 @@ jobs:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
+      
+      - uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
+          restore-keys: node-${{ runner.os }}-
       
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
@@ -104,7 +111,6 @@ jobs:
           
           wordbank = get_wordbank()
           
-          # Generate lots of training data
           all_texts = []
           for topic in specialties:
               texts = generate_training_data(topic, num_examples=50)
@@ -112,18 +118,16 @@ jobs:
           
           print(f'Training data: {len(all_texts)} examples')
           
-          # Train intensively
           losses = train_senator_on_topics(senator, specialties, wordbank, epochs=epochs, lr=lr, batch_size=32)
           
-          # Grade
           result = grade_and_update(senator, specialties, wordbank)
           
           if result:
               print(f'\nFinal Score: {result["average_score"]:.1f}/100')
-              for s in result['scores'][:5]:
-                  print(f'  [{s["topic"]}] {s["score"]:.1f} - Q: {s["question"][:40]}...')
+              for s in result['scores'][:10]:
+                  print(f'  [{s["topic"]}] {s["score"]:.1f} - Q: {s["question"][:50]}...')
+                  print(f'    Answer: {s["senator_answer"][:80]}...')
           
-          # Save
           bundle.save(bundle_path)
           print(f'\nSaved bundle {bundle_id}')
           EOF
@@ -137,7 +141,6 @@ jobs:
           git config user.email "actions@github.com"
           
           for attempt in 1 2 3 4 5; do
-            git add senate_bundles/
             git stash
             git pull --rebase origin main
             git stash pop || true
@@ -152,3 +155,6 @@ jobs:
             echo "Retrying..."
             sleep 15
           done
+          
+          echo "All push attempts failed"
+          exit 1
