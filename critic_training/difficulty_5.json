@@ -3,53 +3,33 @@
   "examples": [],
   "questions": [
     {
+      "question": "Explain the key concepts of machine_learning.",
+      "topic": "machine_learning",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of history.",
+      "topic": "history",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of engineering.",
+      "topic": "engineering",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of economics.",
+      "topic": "economics",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of logic.",
+      "topic": "logic",
+      "difficulty": 5
+    },
+    {
       "question": "Explain the key concepts of psychology.",
       "topic": "psychology",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of anatomy.",
-      "topic": "anatomy",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of calculus.",
-      "topic": "calculus",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of statistics.",
-      "topic": "statistics",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of thermodynamics.",
-      "topic": "thermodynamics",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of algebra.",
-      "topic": "algebra",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of genetics.",
-      "topic": "genetics",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of organic_chemistry.",
-      "topic": "organic_chemistry",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of medicine.",
-      "topic": "medicine",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of philosophy.",
-      "topic": "philosophy",
       "difficulty": 5
     },
     {
@@ -58,13 +38,33 @@
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of music_theory.",
-      "topic": "music_theory",
+      "question": "Explain the key concepts of networking.",
+      "topic": "networking",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of ancient_civilizations.",
-      "topic": "ancient_civilizations",
+      "question": "Explain the key concepts of microbiology.",
+      "topic": "microbiology",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of geography.",
+      "topic": "geography",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of astronomy.",
+      "topic": "astronomy",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of cybersecurity.",
+      "topic": "cybersecurity",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of music_theory.",
+      "topic": "music_theory",
       "difficulty": 5
     },
     {
@@ -73,8 +73,8 @@
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of political_science.",
-      "topic": "political_science",
+      "question": "Explain the key concepts of medicine.",
+      "topic": "medicine",
       "difficulty": 5
     }
   ],
