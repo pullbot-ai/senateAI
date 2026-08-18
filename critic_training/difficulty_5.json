@@ -3,8 +3,13 @@
   "examples": [],
   "questions": [
     {
-      "question": "Explain the key concepts of ancient_civilizations.",
-      "topic": "ancient_civilizations",
+      "question": "Explain the key concepts of political_science.",
+      "topic": "political_science",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of music_theory.",
+      "topic": "music_theory",
       "difficulty": 5
     },
     {
@@ -13,13 +18,28 @@
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of quantum_mechanics.",
-      "topic": "quantum_mechanics",
+      "question": "Explain the key concepts of calculus.",
+      "topic": "calculus",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of logic.",
-      "topic": "logic",
+      "question": "Explain the key concepts of ethics.",
+      "topic": "ethics",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of medicine.",
+      "topic": "medicine",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of behavioral_economics.",
+      "topic": "behavioral_economics",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of geometry.",
+      "topic": "geometry",
       "difficulty": 5
     },
     {
@@ -33,48 +53,28 @@
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of geometry.",
-      "topic": "geometry",
+      "question": "Explain the key concepts of constitutional_law.",
+      "topic": "constitutional_law",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of neuroscience.",
-      "topic": "neuroscience",
+      "question": "Explain the key concepts of astronomy.",
+      "topic": "astronomy",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of biochemistry.",
-      "topic": "biochemistry",
+      "question": "Explain the key concepts of mathematics.",
+      "topic": "mathematics",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of law.",
-      "topic": "law",
+      "question": "Explain the key concepts of world_wars.",
+      "topic": "world_wars",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of microbiology.",
-      "topic": "microbiology",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of statistics.",
-      "topic": "statistics",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of medieval_history.",
-      "topic": "medieval_history",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of poetry.",
-      "topic": "poetry",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of political_science.",
-      "topic": "political_science",
+      "question": "Explain the key concepts of chemistry.",
+      "topic": "chemistry",
       "difficulty": 5
     }
   ],
