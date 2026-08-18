@@ -28,49 +28,40 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
-      
       - uses: actions/checkout@v4
-      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      
       - uses: actions/cache@v4
         with:
           path: node_modules
           key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
           restore-keys: node-${{ runner.os }}-
-      
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      
       - name: Train bundle 0
-        run: |
-          python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 0 --epochs 3 --lr 0.001
-      
-      - name: Push bundle 0
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 0 --epochs 3 --lr 0.001
+      - name: Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add senate_bundles/bundle_000.pt
+          git add -f senate_bundles/
           git stash
           git pull --rebase origin main
           git stash pop || true
-          git add senate_bundles/bundle_000.pt
+          git add -f senate_bundles/
           git commit -m "Train bundle 0" || echo "No changes"
           git push || {
             git pull --rebase origin main
-            git add senate_bundles/bundle_000.pt
+            git add -f senate_bundles/
             git commit -m "Train bundle 0 retry" || echo "No changes"
             git push
           }
@@ -90,49 +81,40 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
-      
       - uses: actions/checkout@v4
-      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      
       - uses: actions/cache@v4
         with:
           path: node_modules
           key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
           restore-keys: node-${{ runner.os }}-
-      
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      
       - name: Train bundle 1
-        run: |
-          python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 1 --epochs 3 --lr 0.001
-      
-      - name: Push bundle 1
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 1 --epochs 3 --lr 0.001
+      - name: Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add senate_bundles/bundle_001.pt
+          git add -f senate_bundles/
           git stash
           git pull --rebase origin main
           git stash pop || true
-          git add senate_bundles/bundle_001.pt
+          git add -f senate_bundles/
           git commit -m "Train bundle 1" || echo "No changes"
           git push || {
             git pull --rebase origin main
-            git add senate_bundles/bundle_001.pt
+            git add -f senate_bundles/
             git commit -m "Train bundle 1 retry" || echo "No changes"
             git push
           }
@@ -152,49 +134,40 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
-      
       - uses: actions/checkout@v4
-      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      
       - uses: actions/cache@v4
         with:
           path: node_modules
           key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
           restore-keys: node-${{ runner.os }}-
-      
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      
       - name: Train bundle 2
-        run: |
-          python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 2 --epochs 3 --lr 0.001
-      
-      - name: Push bundle 2
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 2 --epochs 3 --lr 0.001
+      - name: Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add senate_bundles/bundle_002.pt
+          git add -f senate_bundles/
           git stash
           git pull --rebase origin main
           git stash pop || true
-          git add senate_bundles/bundle_002.pt
+          git add -f senate_bundles/
           git commit -m "Train bundle 2" || echo "No changes"
           git push || {
             git pull --rebase origin main
-            git add senate_bundles/bundle_002.pt
+            git add -f senate_bundles/
             git commit -m "Train bundle 2 retry" || echo "No changes"
             git push
           }
@@ -214,49 +187,40 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
-      
       - uses: actions/checkout@v4
-      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      
       - uses: actions/cache@v4
         with:
           path: node_modules
           key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
           restore-keys: node-${{ runner.os }}-
-      
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      
       - name: Train bundle 3
-        run: |
-          python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 3 --epochs 3 --lr 0.001
-      
-      - name: Push bundle 3
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 3 --epochs 3 --lr 0.001
+      - name: Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add senate_bundles/bundle_003.pt
+          git add -f senate_bundles/
           git stash
           git pull --rebase origin main
           git stash pop || true
-          git add senate_bundles/bundle_003.pt
+          git add -f senate_bundles/
           git commit -m "Train bundle 3" || echo "No changes"
           git push || {
             git pull --rebase origin main
-            git add senate_bundles/bundle_003.pt
+            git add -f senate_bundles/
             git commit -m "Train bundle 3 retry" || echo "No changes"
             git push
           }
@@ -276,49 +240,40 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
-      
       - uses: actions/checkout@v4
-      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      
       - uses: actions/cache@v4
         with:
           path: node_modules
           key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
           restore-keys: node-${{ runner.os }}-
-      
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      
       - name: Train bundle 4
-        run: |
-          python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 4 --epochs 3 --lr 0.001
-      
-      - name: Push bundle 4
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 4 --epochs 3 --lr 0.001
+      - name: Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add senate_bundles/bundle_004.pt
+          git add -f senate_bundles/
           git stash
           git pull --rebase origin main
           git stash pop || true
-          git add senate_bundles/bundle_004.pt
+          git add -f senate_bundles/
           git commit -m "Train bundle 4" || echo "No changes"
           git push || {
             git pull --rebase origin main
-            git add senate_bundles/bundle_004.pt
+            git add -f senate_bundles/
             git commit -m "Train bundle 4 retry" || echo "No changes"
             git push
           }
@@ -338,49 +293,40 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
-      
       - uses: actions/checkout@v4
-      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      
       - uses: actions/cache@v4
         with:
           path: node_modules
           key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
           restore-keys: node-${{ runner.os }}-
-      
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      
       - name: Train bundle 5
-        run: |
-          python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 5 --epochs 3 --lr 0.001
-      
-      - name: Push bundle 5
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 5 --epochs 3 --lr 0.001
+      - name: Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add senate_bundles/bundle_005.pt
+          git add -f senate_bundles/
           git stash
           git pull --rebase origin main
           git stash pop || true
-          git add senate_bundles/bundle_005.pt
+          git add -f senate_bundles/
           git commit -m "Train bundle 5" || echo "No changes"
           git push || {
             git pull --rebase origin main
-            git add senate_bundles/bundle_005.pt
+            git add -f senate_bundles/
             git commit -m "Train bundle 5 retry" || echo "No changes"
             git push
           }
@@ -400,49 +346,40 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
-      
       - uses: actions/checkout@v4
-      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      
       - uses: actions/cache@v4
         with:
           path: node_modules
           key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
           restore-keys: node-${{ runner.os }}-
-      
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      
       - name: Train bundle 6
-        run: |
-          python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 6 --epochs 3 --lr 0.001
-      
-      - name: Push bundle 6
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 6 --epochs 3 --lr 0.001
+      - name: Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add senate_bundles/bundle_006.pt
+          git add -f senate_bundles/
           git stash
           git pull --rebase origin main
           git stash pop || true
-          git add senate_bundles/bundle_006.pt
+          git add -f senate_bundles/
           git commit -m "Train bundle 6" || echo "No changes"
           git push || {
             git pull --rebase origin main
-            git add senate_bundles/bundle_006.pt
+            git add -f senate_bundles/
             git commit -m "Train bundle 6 retry" || echo "No changes"
             git push
           }
@@ -462,49 +399,40 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
-      
       - uses: actions/checkout@v4
-      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      
       - uses: actions/cache@v4
         with:
           path: node_modules
           key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
           restore-keys: node-${{ runner.os }}-
-      
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      
       - name: Train bundle 7
-        run: |
-          python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 7 --epochs 3 --lr 0.001
-      
-      - name: Push bundle 7
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 7 --epochs 3 --lr 0.001
+      - name: Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add senate_bundles/bundle_007.pt
+          git add -f senate_bundles/
           git stash
           git pull --rebase origin main
           git stash pop || true
-          git add senate_bundles/bundle_007.pt
+          git add -f senate_bundles/
           git commit -m "Train bundle 7" || echo "No changes"
           git push || {
             git pull --rebase origin main
-            git add senate_bundles/bundle_007.pt
+            git add -f senate_bundles/
             git commit -m "Train bundle 7 retry" || echo "No changes"
             git push
           }
@@ -524,49 +452,40 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
-      
       - uses: actions/checkout@v4
-      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      
       - uses: actions/cache@v4
         with:
           path: node_modules
           key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
           restore-keys: node-${{ runner.os }}-
-      
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      
       - name: Train bundle 8
-        run: |
-          python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 8 --epochs 3 --lr 0.001
-      
-      - name: Push bundle 8
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 8 --epochs 3 --lr 0.001
+      - name: Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add senate_bundles/bundle_008.pt
+          git add -f senate_bundles/
           git stash
           git pull --rebase origin main
           git stash pop || true
-          git add senate_bundles/bundle_008.pt
+          git add -f senate_bundles/
           git commit -m "Train bundle 8" || echo "No changes"
           git push || {
             git pull --rebase origin main
-            git add senate_bundles/bundle_008.pt
+            git add -f senate_bundles/
             git commit -m "Train bundle 8 retry" || echo "No changes"
             git push
           }
@@ -586,49 +505,40 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
-      
       - uses: actions/checkout@v4
-      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      
       - uses: actions/cache@v4
         with:
           path: node_modules
           key: node-${{ runner.os }}-${{ hashFiles('package.json') }}
           restore-keys: node-${{ runner.os }}-
-      
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      
       - name: Train bundle 9
-        run: |
-          python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 9 --epochs 3 --lr 0.001
-      
-      - name: Push bundle 9
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle 9 --epochs 3 --lr 0.001
+      - name: Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add senate_bundles/bundle_009.pt
+          git add -f senate_bundles/
           git stash
           git pull --rebase origin main
           git stash pop || true
-          git add senate_bundles/bundle_009.pt
+          git add -f senate_bundles/
           git commit -m "Train bundle 9" || echo "No changes"
           git push || {
             git pull --rebase origin main
-            git add senate_bundles/bundle_009.pt
+            git add -f senate_bundles/
             git commit -m "Train bundle 9 retry" || echo "No changes"
             git push
           }
@@ -645,7 +555,6 @@ jobs:
             -H "Accept: application/vnd.github.v3+json" \
             "https://api.github.com/repos/${{ github.repository }}/actions/workflows/train_all.yml/dispatches" \
             -d "{\"ref\":\"${{ github.ref_name }}\"}"
-      
       - name: Trigger optimize
         run: |
           curl -X POST \
