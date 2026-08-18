@@ -28,7 +28,6 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
-      
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
@@ -42,70 +41,48 @@ jobs:
           submodules: false
           lfs: false
           show-progress: false
-      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      
       - run: pip install torch numpy pyyaml
-      
-      - name: Run Router to select senators
+      - name: Write router script
         run: |
-          python -c "
-import sys, json
-sys.path.insert(0, 'src')
-from senate import Senate
-from senate import Senate
-
-senate = Senate()
-question = '''${{ github.event.inputs.question }}'''
-
-relevant_topics = senate.router(question)
-selected = senate.select_senators(relevant_topics, max_senators=25)
-
-# Save selected senator bundle IDs
-bundle_ids = sorted(set(s['bundle_id'] for s in selected))
-with open('selected_bundles.json', 'w') as f:
-    json.dump({'bundle_ids': bundle_ids, 'question': question}, f)
-
-print(f'Selected {len(selected)} senators from {len(bundle_ids)} bundles')
-"
-      
+          cat > router_select.py << 'EOF'
+          import sys, json
+          sys.path.insert(0, 'src')
+          from senate import Senate
+          senate = Senate()
+          question = """${{ github.event.inputs.question }}"""
+          relevant_topics = senate.router(question)
+          selected = senate.select_senators(relevant_topics, max_senators=25)
+          bundle_ids = sorted(set(s['bundle_id'] for s in selected))
+          with open('selected_bundles.json', 'w') as f:
+              json.dump({'bundle_ids': bundle_ids, 'question': question}, f)
+          print(f'Selected {len(selected)} senators from {len(bundle_ids)} bundles')
+          EOF
+      - name: Run router
+        run: python router_select.py
       - name: Download selected senator bundles
+        run: python -c "import json, subprocess; data = json.load(open('selected_bundles.json')); [subprocess.run(['git', 'sparse-checkout', 'add', f'senate_bundles/bundle_{bid:03d}.pt'], check=True) for bid in data['bundle_ids']]"
+      - name: Write debate script
         run: |
-          python -c "
-import json, subprocess, os
-
-with open('selected_bundles.json') as f:
-    data = json.load(f)
-
-for bid in data['bundle_ids']:
-    bundle_file = f'senate_bundles/bundle_{bid:03d}.pt'
-    subprocess.run(['git', 'sparse-checkout', 'add', bundle_file], check=True)
-    print(f'Downloaded bundle {bid}')
-"
-      
-      - name: Run Senate debate
-        run: |
-          python -c "
-import sys, json
-sys.path.insert(0, 'src')
-from senate import Senate
-
-question = '''${{ github.event.inputs.question }}'''
-senate = Senate()
-result = senate.ask(question)
-
-with open('debate_result.json', 'w') as f:
-    json.dump(result, f)
-"
-      
+          cat > run_debate.py << 'EOF'
+          import sys, json
+          sys.path.insert(0, 'src')
+          from senate import Senate
+          question = """${{ github.event.inputs.question }}"""
+          senate = Senate()
+          result = senate.ask(question)
+          with open('debate_result.json', 'w') as f:
+              json.dump(result, f)
+          EOF
+      - name: Run debate
+        run: python run_debate.py
       - name: Push result
         run: |
           git config user.name "github-actions"
