@@ -1,0 +1,43 @@
+name: Deploy Pages
+
+on:
+  push:
+    paths:
+      - 'index.html'
+      - 'chatbot.html'
+      - 'assets/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Create .nojekyll
+        run: touch .nojekyll
+      
+      - name: Deploy to gh-pages
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          
+          # Create gh-pages branch with only website files
+          git checkout --orphan gh-pages
+          git rm -rf .
+          git checkout main -- index.html chatbot.html assets/ .nojekyll
+          
+          git add -f index.html chatbot.html assets/ .nojekyll
+          git commit -m "Deploy website"
+          git push origin gh-pages --force
+      
+      - name: Remove website files from main
+        run: |
+          git checkout main
+          git rm -rf index.html chatbot.html assets/
+          git rm -f .nojekyll
+          git commit -m "Remove website files - deployed on gh-pages"
+          git push origin main
