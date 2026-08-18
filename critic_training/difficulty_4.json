@@ -3,8 +3,18 @@
   "examples": [],
   "questions": [
     {
-      "question": "Explain the key concepts of behavioral_economics.",
-      "topic": "behavioral_economics",
+      "question": "Explain the key concepts of chemistry.",
+      "topic": "chemistry",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of astronomy.",
+      "topic": "astronomy",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of computer_science.",
+      "topic": "computer_science",
       "difficulty": 4
     },
     {
@@ -13,53 +23,18 @@
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of literature.",
-      "topic": "literature",
+      "question": "Explain the key concepts of machine_learning.",
+      "topic": "machine_learning",
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of history.",
-      "topic": "history",
+      "question": "Explain the key concepts of physics.",
+      "topic": "physics",
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of statistics.",
-      "topic": "statistics",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of epistemology.",
-      "topic": "epistemology",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of engineering.",
-      "topic": "engineering",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of algorithms.",
-      "topic": "algorithms",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of ancient_civilizations.",
-      "topic": "ancient_civilizations",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of cognitive_science.",
-      "topic": "cognitive_science",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of calculus.",
-      "topic": "calculus",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of quantum_mechanics.",
-      "topic": "quantum_mechanics",
+      "question": "Explain the key concepts of microeconomics.",
+      "topic": "microeconomics",
       "difficulty": 4
     },
     {
@@ -68,13 +43,38 @@
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of logic.",
-      "topic": "logic",
+      "question": "Explain the key concepts of anatomy.",
+      "topic": "anatomy",
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of geometry.",
-      "topic": "geometry",
+      "question": "Explain the key concepts of cognitive_science.",
+      "topic": "cognitive_science",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of behavioral_economics.",
+      "topic": "behavioral_economics",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of biochemistry.",
+      "topic": "biochemistry",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of poetry.",
+      "topic": "poetry",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of linguistics.",
+      "topic": "linguistics",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of environmental_science.",
+      "topic": "environmental_science",
       "difficulty": 4
     }
   ],
