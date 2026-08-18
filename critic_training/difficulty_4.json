@@ -3,13 +3,58 @@
   "examples": [],
   "questions": [
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of thermodynamics.",
       "topic": "thermodynamics",
+=======
+      "question": "Explain the key concepts of chemistry.",
+      "topic": "chemistry",
+>>>>>>> Stashed changes
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of logic.",
-      "topic": "logic",
+      "question": "Explain the key concepts of political_science.",
+      "topic": "political_science",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of ancient_civilizations.",
+      "topic": "ancient_civilizations",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of epistemology.",
+      "topic": "epistemology",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of astrophysics.",
+      "topic": "astrophysics",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of environmental_science.",
+      "topic": "environmental_science",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of anatomy.",
+      "topic": "anatomy",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of electromagnetism.",
+      "topic": "electromagnetism",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of art_history.",
+      "topic": "art_history",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of thermodynamics.",
+      "topic": "thermodynamics",
       "difficulty": 4
     },
     {
@@ -18,6 +63,7 @@
       "difficulty": 4
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of biology.",
       "topic": "biology",
       "difficulty": 4
@@ -30,16 +76,26 @@
     {
       "question": "Explain the key concepts of quantum_mechanics.",
       "topic": "quantum_mechanics",
+=======
+      "question": "Explain the key concepts of music_theory.",
+      "topic": "music_theory",
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of medieval_history.",
-      "topic": "medieval_history",
+      "question": "Explain the key concepts of physics.",
+      "topic": "physics",
+>>>>>>> Stashed changes
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of neuroscience.",
+      "topic": "neuroscience",
       "difficulty": 4
     },
     {
       "question": "Explain the key concepts of geography.",
       "topic": "geography",
+<<<<<<< Updated upstream
       "difficulty": 4
     },
     {
@@ -75,6 +131,8 @@
     {
       "question": "Explain the key concepts of genetics.",
       "topic": "genetics",
+=======
+>>>>>>> Stashed changes
       "difficulty": 4
     }
   ],

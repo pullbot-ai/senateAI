@@ -3,6 +3,7 @@
   "examples": [],
   "questions": [
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of economics.",
       "topic": "economics",
       "difficulty": 5
@@ -30,6 +31,10 @@
     {
       "question": "Explain the key concepts of music_theory.",
       "topic": "music_theory",
+=======
+      "question": "Explain the key concepts of geography.",
+      "topic": "geography",
+>>>>>>> Stashed changes
       "difficulty": 5
     },
     {
@@ -38,6 +43,7 @@
       "difficulty": 5
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of philosophy.",
       "topic": "philosophy",
       "difficulty": 5
@@ -45,6 +51,30 @@
     {
       "question": "Explain the key concepts of neuroscience.",
       "topic": "neuroscience",
+=======
+      "question": "Explain the key concepts of literature.",
+      "topic": "literature",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of political_science.",
+      "topic": "political_science",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of biochemistry.",
+      "topic": "biochemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of economics.",
+      "topic": "economics",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of cognitive_science.",
+      "topic": "cognitive_science",
+>>>>>>> Stashed changes
       "difficulty": 5
     },
     {
@@ -53,6 +83,7 @@
       "difficulty": 5
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of climate_science.",
       "topic": "climate_science",
       "difficulty": 5
@@ -65,6 +96,15 @@
     {
       "question": "Explain the key concepts of macroeconomics.",
       "topic": "macroeconomics",
+=======
+      "question": "Explain the key concepts of music_theory.",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of anatomy.",
+      "topic": "anatomy",
+>>>>>>> Stashed changes
       "difficulty": 5
     },
     {
@@ -73,8 +113,28 @@
       "difficulty": 5
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of networking.",
       "topic": "networking",
+=======
+      "question": "Explain the key concepts of logic.",
+      "topic": "logic",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of linguistics.",
+      "topic": "linguistics",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of ethics.",
+      "topic": "ethics",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of macroeconomics.",
+      "topic": "macroeconomics",
+>>>>>>> Stashed changes
       "difficulty": 5
     }
   ],

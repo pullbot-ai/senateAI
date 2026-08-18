@@ -8,6 +8,7 @@
       "difficulty": 3
     },
     {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of cognitive_science.",
       "topic": "cognitive_science",
       "difficulty": 3
@@ -20,14 +21,39 @@
     {
       "question": "Explain the key concepts of astronomy.",
       "topic": "astronomy",
+=======
+      "question": "Explain the key concepts of history.",
+      "topic": "history",
       "difficulty": 3
     },
     {
-      "question": "Explain the key concepts of ancient_civilizations.",
-      "topic": "ancient_civilizations",
+      "question": "Explain the key concepts of psychology.",
+      "topic": "psychology",
       "difficulty": 3
     },
     {
+      "question": "Explain the key concepts of behavioral_economics.",
+      "topic": "behavioral_economics",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of medicine.",
+      "topic": "medicine",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of microbiology.",
+      "topic": "microbiology",
+>>>>>>> Stashed changes
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of cognitive_science.",
+      "topic": "cognitive_science",
+      "difficulty": 3
+    },
+    {
+<<<<<<< Updated upstream
       "question": "Explain the key concepts of biochemistry.",
       "topic": "biochemistry",
       "difficulty": 3
@@ -75,6 +101,45 @@
     {
       "question": "Explain the key concepts of electromagnetism.",
       "topic": "electromagnetism",
+=======
+      "question": "Explain the key concepts of geometry.",
+      "topic": "geometry",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of physics.",
+      "topic": "physics",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of quantum_mechanics.",
+      "topic": "quantum_mechanics",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of logic.",
+      "topic": "logic",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of organic_chemistry.",
+      "topic": "organic_chemistry",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of macroeconomics.",
+      "topic": "macroeconomics",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of networking.",
+      "topic": "networking",
+      "difficulty": 3
+    },
+    {
+      "question": "Explain the key concepts of ethics.",
+      "topic": "ethics",
+>>>>>>> Stashed changes
       "difficulty": 3
     }
   ],
