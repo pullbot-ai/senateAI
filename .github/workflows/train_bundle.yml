@@ -32,13 +32,18 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
+      - name: Calculate bundle file
+        id: bundle
+        run: |
+          BUNDLE_PADDED=$(printf "%03d" ${{ matrix.bundle }})
+          echo "bundle_padded=$BUNDLE_PADDED" >> $GITHUB_OUTPUT
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
           sparse-checkout: |
             src/
             senate_bundles/senate_index.json
-            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
             data/wordbank.json
             config.yaml
           sparse-checkout-cone-mode: false
@@ -64,7 +69,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: chunk0-bundle-${{ matrix.bundle }}
-          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+          path: senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
 
   train-chunk-1:
     runs-on: ubuntu-latest
@@ -85,13 +90,18 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
+      - name: Calculate bundle file
+        id: bundle
+        run: |
+          BUNDLE_PADDED=$(printf "%03d" ${{ matrix.bundle }})
+          echo "bundle_padded=$BUNDLE_PADDED" >> $GITHUB_OUTPUT
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
           sparse-checkout: |
             src/
             senate_bundles/senate_index.json
-            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
             data/wordbank.json
             config.yaml
           sparse-checkout-cone-mode: false
@@ -117,7 +127,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: chunk1-bundle-${{ matrix.bundle }}
-          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+          path: senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
 
   train-chunk-2:
     runs-on: ubuntu-latest
@@ -138,13 +148,18 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
+      - name: Calculate bundle file
+        id: bundle
+        run: |
+          BUNDLE_PADDED=$(printf "%03d" ${{ matrix.bundle }})
+          echo "bundle_padded=$BUNDLE_PADDED" >> $GITHUB_OUTPUT
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
           sparse-checkout: |
             src/
             senate_bundles/senate_index.json
-            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
             data/wordbank.json
             config.yaml
           sparse-checkout-cone-mode: false
@@ -170,7 +185,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: chunk2-bundle-${{ matrix.bundle }}
-          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+          path: senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
 
   train-chunk-3:
     runs-on: ubuntu-latest
@@ -191,13 +206,18 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
+      - name: Calculate bundle file
+        id: bundle
+        run: |
+          BUNDLE_PADDED=$(printf "%03d" ${{ matrix.bundle }})
+          echo "bundle_padded=$BUNDLE_PADDED" >> $GITHUB_OUTPUT
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
           sparse-checkout: |
             src/
             senate_bundles/senate_index.json
-            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
             data/wordbank.json
             config.yaml
           sparse-checkout-cone-mode: false
@@ -223,7 +243,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: chunk3-bundle-${{ matrix.bundle }}
-          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+          path: senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
 
   train-chunk-4:
     runs-on: ubuntu-latest
@@ -244,13 +264,18 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
+      - name: Calculate bundle file
+        id: bundle
+        run: |
+          BUNDLE_PADDED=$(printf "%03d" ${{ matrix.bundle }})
+          echo "bundle_padded=$BUNDLE_PADDED" >> $GITHUB_OUTPUT
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
           sparse-checkout: |
             src/
             senate_bundles/senate_index.json
-            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
             data/wordbank.json
             config.yaml
           sparse-checkout-cone-mode: false
@@ -276,7 +301,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: chunk4-bundle-${{ matrix.bundle }}
-          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+          path: senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
 
   train-chunk-5:
     runs-on: ubuntu-latest
@@ -297,13 +322,18 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
+      - name: Calculate bundle file
+        id: bundle
+        run: |
+          BUNDLE_PADDED=$(printf "%03d" ${{ matrix.bundle }})
+          echo "bundle_padded=$BUNDLE_PADDED" >> $GITHUB_OUTPUT
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
           sparse-checkout: |
             src/
             senate_bundles/senate_index.json
-            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
             data/wordbank.json
             config.yaml
           sparse-checkout-cone-mode: false
@@ -329,7 +359,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: chunk5-bundle-${{ matrix.bundle }}
-          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+          path: senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
 
   train-chunk-6:
     runs-on: ubuntu-latest
@@ -350,13 +380,18 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
+      - name: Calculate bundle file
+        id: bundle
+        run: |
+          BUNDLE_PADDED=$(printf "%03d" ${{ matrix.bundle }})
+          echo "bundle_padded=$BUNDLE_PADDED" >> $GITHUB_OUTPUT
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
           sparse-checkout: |
             src/
             senate_bundles/senate_index.json
-            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
             data/wordbank.json
             config.yaml
           sparse-checkout-cone-mode: false
@@ -382,7 +417,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: chunk6-bundle-${{ matrix.bundle }}
-          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+          path: senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
 
   train-chunk-7:
     runs-on: ubuntu-latest
@@ -403,13 +438,18 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
+      - name: Calculate bundle file
+        id: bundle
+        run: |
+          BUNDLE_PADDED=$(printf "%03d" ${{ matrix.bundle }})
+          echo "bundle_padded=$BUNDLE_PADDED" >> $GITHUB_OUTPUT
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
           sparse-checkout: |
             src/
             senate_bundles/senate_index.json
-            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
             data/wordbank.json
             config.yaml
           sparse-checkout-cone-mode: false
@@ -435,7 +475,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: chunk7-bundle-${{ matrix.bundle }}
-          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+          path: senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
 
   train-chunk-8:
     runs-on: ubuntu-latest
@@ -456,13 +496,18 @@ jobs:
           sudo rm -rf /usr/local/lib/node_modules
           sudo rm -rf /opt/hostedtoolcache/node
           sudo apt-get clean
+      - name: Calculate bundle file
+        id: bundle
+        run: |
+          BUNDLE_PADDED=$(printf "%03d" ${{ matrix.bundle }})
+          echo "bundle_padded=$BUNDLE_PADDED" >> $GITHUB_OUTPUT
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
           sparse-checkout: |
             src/
             senate_bundles/senate_index.json
-            senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+            senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
             data/wordbank.json
             config.yaml
           sparse-checkout-cone-mode: false
@@ -488,7 +533,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: chunk8-bundle-${{ matrix.bundle }}
-          path: senate_bundles/bundle_$(printf "%03d" ${{ matrix.bundle }}).pt
+          path: senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
 
   push-all:
     needs: [train-chunk-0, train-chunk-1, train-chunk-2, train-chunk-3, train-chunk-4, train-chunk-5, train-chunk-6, train-chunk-7, train-chunk-8]
