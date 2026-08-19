@@ -3,23 +3,13 @@
   "examples": [],
   "questions": [
     {
-      "question": "Explain the key concepts of logic.",
-      "topic": "logic",
+      "question": "Explain the key concepts of political_science.",
+      "topic": "political_science",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of biochemistry.",
-      "topic": "biochemistry",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of medicine.",
-      "topic": "medicine",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of geometry.",
-      "topic": "geometry",
+      "question": "Explain the key concepts of chemistry.",
+      "topic": "chemistry",
       "difficulty": 2
     },
     {
@@ -28,28 +18,8 @@
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of algorithms.",
-      "topic": "algorithms",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of ethics.",
-      "topic": "ethics",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of ancient_civilizations.",
-      "topic": "ancient_civilizations",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of history.",
-      "topic": "history",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of genetics.",
-      "topic": "genetics",
+      "question": "Explain the key concepts of microbiology.",
+      "topic": "microbiology",
       "difficulty": 2
     },
     {
@@ -58,13 +28,18 @@
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of neuroscience.",
-      "topic": "neuroscience",
+      "question": "Explain the key concepts of algorithms.",
+      "topic": "algorithms",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of world_wars.",
-      "topic": "world_wars",
+      "question": "Explain the key concepts of psychology.",
+      "topic": "psychology",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of biochemistry.",
+      "topic": "biochemistry",
       "difficulty": 2
     },
     {
@@ -73,8 +48,33 @@
       "difficulty": 2
     },
     {
+      "question": "Explain the key concepts of computer_science.",
+      "topic": "computer_science",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of neuroscience.",
+      "topic": "neuroscience",
+      "difficulty": 2
+    },
+    {
       "question": "Explain the key concepts of networking.",
       "topic": "networking",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of ethics.",
+      "topic": "ethics",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of world_wars.",
+      "topic": "world_wars",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of astronomy.",
+      "topic": "astronomy",
       "difficulty": 2
     }
   ],
