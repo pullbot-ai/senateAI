@@ -15,6 +15,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            src/backend.js
+            questions.json
+            debate_results.json
+          sparse-checkout-cone-mode: false
+          submodules: false
+          lfs: false
+          show-progress: false
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
