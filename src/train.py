@@ -109,7 +109,6 @@ Return ONLY as JSON array: ["param1", "param2", "param3", "param4", "param5"]"""
         except:
             pass
     
-    # Match selected names to actual params
     if selected:
         matched = []
         for name, param in senator.named_parameters():
@@ -144,13 +143,13 @@ def train_senator_on_topics(senator, topics, wordbank, epochs=15, lr=0.0005, bat
     
     for epoch in range(epochs):
         # AI-guided parameter selection
-        selected_tensors = None
-        if ai_guided and epoch >= 2:  # Let first 2 epochs train everything
+        selected_tensors = []
+        
+        if ai_guided and epoch >= 2:
             current_loss = losses[-1] if losses else 8.0
             selected_names = select_params_with_ai(senator, topics, epoch, epochs, current_loss)
             
             if selected_names:
-                selected_tensors = []
                 for name, param in senator.named_parameters():
                     if name in selected_names:
                         param.requires_grad = True
@@ -158,7 +157,7 @@ def train_senator_on_topics(senator, topics, wordbank, epochs=15, lr=0.0005, bat
                     else:
                         param.requires_grad = False
         
-        # Fallback: train all params
+        # Fallback: train all params if selection failed
         if not selected_tensors:
             for param in senator.parameters():
                 param.requires_grad = True
@@ -255,7 +254,6 @@ Return ONLY a number between 0 and 100."""
 def grade_and_update(senator, topics, wordbank, losses=None):
     """Grade senator and update performance"""
     
-    # If AI grading returns all zeros, use loss-based fallback
     all_qa = []
     for topic in topics:
         qa_pairs = generate_qa_pairs(topic)
@@ -271,7 +269,6 @@ def grade_and_update(senator, topics, wordbank, losses=None):
     if scores:
         avg_ai_score = sum(s['score'] for s in scores) / len(scores)
         
-        # If AI score is 0 but loss is reasonable, use loss-based
         if avg_ai_score < 5 and losses:
             final_loss = losses[-1]
             if final_loss < 0.01:
