@@ -20,7 +20,6 @@ jobs:
           sudo rm -rf /usr/local/share/powershell
           sudo rm -rf /usr/local/share/chromium
           sudo apt-get clean
-      
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
@@ -31,44 +30,37 @@ jobs:
           submodules: false
           lfs: false
           show-progress: false
-      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
           restore-keys: pip-${{ runner.os }}-
-      
       - uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
           key: hf-${{ runner.os }}-punctuator
           restore-keys: hf-${{ runner.os }}-
-      
       - run: pip install torch transformers
-      
-      - name: Download and cache punctuator model
-        run: python -c "
-from punctuator import load_punctuator
-model, tokenizer = load_punctuator()
-if model:
-    print('Punctuator ready!')
-else:
-    print('Failed to load punctuator')
-"
-      
-      - name: Push cached model
+      - name: Download punctuator model
+        run: |
+          cat > load_punct.py << 'EOF'
+          import sys
+          sys.path.insert(0, 'src')
+          from punctuator import load_punctuator
+          model, tokenizer = load_punctuator()
+          if model:
+              print('Punctuator ready')
+          else:
+              print('Failed')
+          EOF
+          python load_punct.py
+      - name: Push model
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          
-          # Copy model to repo for pushing
-          mkdir -p models/punctuator
-          cp -r models/punctuator/* models/punctuator/ 2>/dev/null || true
-          
           git add models/punctuator/ 2>/dev/null || true
           git commit -m "Add punctuator model" || echo "No changes"
           git push || echo "Push failed"
