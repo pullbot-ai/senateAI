@@ -2,6 +2,10 @@ services:
   - type: web
     name: senate-ai
     runtime: python
-    buildCommand: pip install flask requests gunicorn torch
+    repo: https://github.com/pullbot-ai/senateAI
+    branch: main
+    buildCommand: pip install flask requests gunicorn torch numpy pyyaml
     startCommand: gunicorn backend_render:app --bind 0.0.0.0:$PORT --timeout 120
-    
+    envVars:
+      - key: GITHUB_PAT
+        sync: false
