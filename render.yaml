@@ -4,6 +4,4 @@ services:
     runtime: python
     buildCommand: pip install flask requests gunicorn torch
     startCommand: gunicorn backend_render:app --bind 0.0.0.0:$PORT --timeout 120
-    envVars:
-      - key: GITHUB_PAT
-        value: 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
+    
