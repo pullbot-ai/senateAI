@@ -2,6 +2,7 @@
 Senate AI - The Parliament Runtime
 Real senator inference with trained models.
 Uses shared wordbank for tokenization and decoding.
+AI Grouper for semantic answer clustering.
 """
 
 import torch
@@ -11,8 +12,10 @@ from pathlib import Path
 from collections import defaultdict
 from difflib import SequenceMatcher
 from wordbank import get_wordbank
+from ai_client import call_ai
 import random
 import sys
+import re
 
 
 class Senate:
@@ -199,7 +202,61 @@ class Senate:
         return selected[:max_senators]
     
     def grouper(self, answers):
-        """Group similar answers together"""
+        """Group answers using AI for semantic similarity"""
+        
+        if len(answers) <= 1:
+            return [{'senators': [answers[0][0]], 'answer': answers[0][1], 'count': 1}]
+        
+        # Build prompt for AI grouping
+        answer_list = []
+        for i, (senator_id, answer) in enumerate(answers):
+            answer_list.append(f"{i}: {answer[:80]}")
+        
+        prompt = f"""Group these AI senator answers by semantic meaning.
+Answers expressing the same idea go in the same group.
+
+Answers:
+{chr(10).join(answer_list)}
+
+Return JSON:
+{{"groups": [{{"answer_indices": [0, 1], "representative": "best answer"}}]}}"""
+        
+        response = call_ai(prompt, max_tokens=300)
+        
+        if response:
+            try:
+                match = re.search(r'\{.*\}', response, re.DOTALL)
+                if match:
+                    data = json.loads(match.group())
+                    groups = []
+                    for g in data.get('groups', []):
+                        indices = g.get('answer_indices', [])
+                        senators = [answers[i][0] for i in indices if i < len(answers)]
+                        representative = g.get('representative', answers[indices[0]][1] if indices else '')
+                        groups.append({
+                            'senators': senators,
+                            'answer': representative,
+                            'count': len(senators)
+                        })
+                    
+                    # Add ungrouped answers as singletons
+                    grouped_indices = set()
+                    for g in groups:
+                        for s in g['senators']:
+                            for i, (sid, _) in enumerate(answers):
+                                if sid == s:
+                                    grouped_indices.add(i)
+                    
+                    for i, (sid, ans) in enumerate(answers):
+                        if i not in grouped_indices:
+                            groups.append({'senators': [sid], 'answer': ans, 'count': 1})
+                    
+                    groups.sort(key=lambda x: x['count'], reverse=True)
+                    return groups
+            except:
+                pass
+        
+        # Fallback to string matching
         groups = []
         used = set()
         
@@ -225,7 +282,21 @@ class Senate:
         return groups
     
     def challenger_review(self, consensus, question):
-        """Challenge the current consensus"""
+        """Challenge the current consensus using AI"""
+        
+        prompt = f"""You are the Challenger in an AI parliament debate.
+
+Question: {question}
+Current consensus: {consensus}
+
+Find flaws, missing conditions, edge cases, or better explanations.
+Return a brief critique."""
+        
+        response = call_ai(prompt, max_tokens=100)
+        
+        if response and len(response) > 5:
+            return response
+        
         challenges = [
             "Are there unstated assumptions?",
             "Does this cover edge cases?",
@@ -308,7 +379,7 @@ class Senate:
         
         challenge = self.challenger_review(consensus, question)
         print(f"  Current consensus: \"{consensus[:80]}...\"")
-        print(f"  Challenge: {challenge}")
+        print(f"  Challenge: {challenge[:80]}...")
         sys.stdout.flush()
         
         answers2 = []
