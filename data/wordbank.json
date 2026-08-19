@@ -56045,8 +56045,1250 @@
       "first_seen": "Crucifixion (Corpus Hypercubus)",
       "has_definition": true,
       "definition": "An execution by being nailed or tied to an upright cross and left to hang there until dead."
+    },
+    "malfunction": {
+      "token_id": 12,
+      "first_seen": "Kosmos 419",
+      "has_definition": true,
+      "definition": "Faulty functioning"
+    },
+    "intended": {
+      "token_id": 4244,
+      "first_seen": "Kosmos 419",
+      "has_definition": true,
+      "definition": "(usually followed by the particle \"to\") To hope; to wish (something, or something to be accomplished); be intent upon"
+    },
+    "visit": {
+      "token_id": 5177,
+      "first_seen": "Kosmos 419",
+      "has_definition": true,
+      "definition": "A single act of visiting."
+    },
+    "failed": {
+      "token_id": 5775,
+      "first_seen": "Kosmos 419",
+      "has_definition": true,
+      "definition": "To be unsuccessful."
+    },
+    "spacecraft": {
+      "token_id": 5507,
+      "first_seen": "Kosmos 419",
+      "has_definition": true,
+      "definition": "A vehicle that travels through space."
+    },
+    "depart": {
+      "token_id": 6188,
+      "first_seen": "Kosmos 419",
+      "has_definition": true,
+      "definition": "Division; separation, as of compound substances."
+    },
+    "jawbone": {
+      "token_id": 3334,
+      "first_seen": "Jawbone (film)",
+      "has_definition": true,
+      "definition": "The bone of the lower jaw; the mandible."
+    },
+    "napper": {
+      "token_id": 706,
+      "first_seen": "Jawbone (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mcshane": {
+      "token_id": 6599,
+      "first_seen": "Jawbone (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "smiley": {
+      "token_id": 3761,
+      "first_seen": "Jawbone (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vertigo": {
+      "token_id": 349,
+      "first_seen": "Jawbone (film)",
+      "has_definition": true,
+      "definition": "A sensation of whirling and loss of balance, caused by looking down from a great height or by disease affecting the inner ear."
+    },
+    "winstone": {
+      "token_id": 4040,
+      "first_seen": "Jawbone (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kingston": {
+      "token_id": 561,
+      "first_seen": "Fire in the Wind",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wrasse": {
+      "token_id": 1722,
+      "first_seen": "Fire in the Wind",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fire": {
+      "token_id": 6197,
+      "first_seen": "Fire in the Wind",
+      "has_definition": true,
+      "definition": "A (usually self-sustaining) chemical reaction involving the bonding of oxygen with carbon or other fuel, with the production of heat and the presence of flame or smouldering."
+    },
+    "rso": {
+      "token_id": 4789,
+      "first_seen": "Fire in the Wind",
+      "has_definition": false,
+      "definition": ""
+    },
+    "receipts": {
+      "token_id": 4935,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "charters": {
+      "token_id": 1001,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "extracts": {
+      "token_id": 3797,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inscriptions": {
+      "token_id": 6773,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "amount": {
+      "token_id": 797,
+      "first_seen": "Babylonian law",
+      "has_definition": true,
+      "definition": "The total, aggregate or sum of material (not applicable to discrete numbers or units or items in standard English)."
+    },
+    "cuneiform": {
+      "token_id": 6546,
+      "first_seen": "Babylonian law",
+      "has_definition": true,
+      "definition": "An ancient Mesopotamian writing system, adapted within several language families, originating as pictograms in Sumer around the 30th century BC, evolving into more abstract and characteristic wedge shapes formed by a blunt reed stylus on clay tablets."
+    },
+    "contracts": {
+      "token_id": 2754,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "welcome": {
+      "token_id": 7196,
+      "first_seen": "Babylonian law",
+      "has_definition": true,
+      "definition": "The act of greeting someone\u2019s arrival, especially by saying \"Welcome!\"; reception."
+    },
+    "deeds": {
+      "token_id": 4292,
+      "first_seen": "Babylonian law",
+      "has_definition": true,
+      "definition": "An action or act; something that is done."
+    },
+    "sumerian": {
+      "token_id": 997,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "babylonian": {
+      "token_id": 6336,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "judges": {
+      "token_id": 4314,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lexicographical": {
+      "token_id": 1103,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "accounts": {
+      "token_id": 2561,
+      "first_seen": "Babylonian law",
+      "has_definition": true,
+      "definition": "A registry of pecuniary transactions; a written or printed statement of business dealings or debts and credits, and also of other things subjected to a reckoning or review."
+    },
+    "dispatches": {
+      "token_id": 7474,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bonds": {
+      "token_id": 4514,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "afford": {
+      "token_id": 3368,
+      "first_seen": "Babylonian law",
+      "has_definition": true,
+      "definition": "To incur, stand, or bear without serious detriment, as an act which might under other circumstances be injurious;\u2014with an auxiliary, as can, could, might, etc.; to be able or rich enough."
+    },
+    "laws": {
+      "token_id": 7076,
+      "first_seen": "Babylonian law",
+      "has_definition": true,
+      "definition": "The body of binding rules and regulations, customs and standards established in a community by its legislative and judicial authorities."
+    },
+    "supplementary": {
+      "token_id": 7362,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rescripts": {
+      "token_id": 5997,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sentences": {
+      "token_id": 6006,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grammatical": {
+      "token_id": 4644,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "subset": {
+      "token_id": 1443,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "conveyances": {
+      "token_id": 920,
+      "first_seen": "Babylonian law",
+      "has_definition": false,
+      "definition": ""
+    },
+    "melancholy": {
+      "token_id": 5403,
+      "first_seen": "Jan Boerstoel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "humorous": {
+      "token_id": 512,
+      "first_seen": "Jan Boerstoel",
+      "has_definition": true,
+      "definition": "Full of humor or arousing laughter; funny."
+    },
+    "martine": {
+      "token_id": 7774,
+      "first_seen": "Jan Boerstoel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boerstoel": {
+      "token_id": 6741,
+      "first_seen": "Jan Boerstoel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bloemen": {
+      "token_id": 3487,
+      "first_seen": "Jan Boerstoel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cabaret": {
+      "token_id": 2583,
+      "first_seen": "Jan Boerstoel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bijl": {
+      "token_id": 6070,
+      "first_seen": "Jan Boerstoel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "criticizes": {
+      "token_id": 2912,
+      "first_seen": "Jan Boerstoel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "youp": {
+      "token_id": 344,
+      "first_seen": "Jan Boerstoel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hek": {
+      "token_id": 6007,
+      "first_seen": "Jan Boerstoel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "savonia": {
+      "token_id": 4305,
+      "first_seen": "Merja M\u00e4kisalo-Ropponen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kisalo": {
+      "token_id": 5818,
+      "first_seen": "Merja M\u00e4kisalo-Ropponen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "elina": {
+      "token_id": 2980,
+      "first_seen": "Merja M\u00e4kisalo-Ropponen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "merja": {
+      "token_id": 7009,
+      "first_seen": "Merja M\u00e4kisalo-Ropponen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "karelia": {
+      "token_id": 3456,
+      "first_seen": "Merja M\u00e4kisalo-Ropponen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ropponen": {
+      "token_id": 5307,
+      "first_seen": "Merja M\u00e4kisalo-Ropponen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paralympic": {
+      "token_id": 7496,
+      "first_seen": "Wolfgang Schattauer",
+      "has_definition": false,
+      "definition": ""
+    },
+    "schattauer": {
+      "token_id": 6605,
+      "first_seen": "Wolfgang Schattauer",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wolfgang": {
+      "token_id": 4833,
+      "first_seen": "Wolfgang Schattauer",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dantas": {
+      "token_id": 5669,
+      "first_seen": "Ivonete Dantas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ivonete": {
+      "token_id": 111,
+      "first_seen": "Ivonete Dantas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "caic": {
+      "token_id": 5762,
+      "first_seen": "Ivonete Dantas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "assistance": {
+      "token_id": 7612,
+      "first_seen": "Ivonete Dantas",
+      "has_definition": true,
+      "definition": "Aid; help; the act or result of assisting."
+    },
+    "assemblywomen": {
+      "token_id": 839,
+      "first_seen": "Ivonete Dantas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nottinghamshire": {
+      "token_id": 3894,
+      "first_seen": "Daybrook railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "daybrook": {
+      "token_id": 5910,
+      "first_seen": "Daybrook railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arnold": {
+      "token_id": 2210,
+      "first_seen": "Daybrook railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shaun": {
+      "token_id": 6412,
+      "first_seen": "Shaun Berrigan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "berrigan": {
+      "token_id": 2086,
+      "first_seen": "Shaun Berrigan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hooker": {
+      "token_id": 6913,
+      "first_seen": "Shaun Berrigan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "halfback": {
+      "token_id": 3241,
+      "first_seen": "Shaun Berrigan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "configuration": {
+      "token_id": 6891,
+      "first_seen": "2020 Bahrain Grand Prix",
+      "has_definition": true,
+      "definition": "Form, as depending on the relative disposition of the parts of a thing's shape; figure; form factor."
+    },
+    "sakhir": {
+      "token_id": 7826,
+      "first_seen": "2020 Bahrain Grand Prix",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fifteenth": {
+      "token_id": 7785,
+      "first_seen": "2020 Bahrain Grand Prix",
+      "has_definition": true,
+      "definition": "The person or thing in the fifteenth position."
+    },
+    "sixteenth": {
+      "token_id": 1564,
+      "first_seen": "2020 Bahrain Grand Prix",
+      "has_definition": false,
+      "definition": ""
+    },
+    "laps": {
+      "token_id": 4635,
+      "first_seen": "2020 Bahrain Grand Prix",
+      "has_definition": true,
+      "definition": "The loose part of a coat; the lower part of a garment that plays loosely; a skirt; an apron."
+    },
+    "cambridge": {
+      "token_id": 3453,
+      "first_seen": "David Feldman (legal scholar)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "feldman": {
+      "token_id": 6356,
+      "first_seen": "David Feldman (legal scholar)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "liberties": {
+      "token_id": 5996,
+      "first_seen": "David Feldman (legal scholar)",
+      "has_definition": true,
+      "definition": "The condition of being free from control or restrictions."
+    },
+    "rouse": {
+      "token_id": 168,
+      "first_seen": "David Feldman (legal scholar)",
+      "has_definition": true,
+      "definition": "An arousal."
+    },
+    "ball": {
+      "token_id": 1186,
+      "first_seen": "David Feldman (legal scholar)",
+      "has_definition": true,
+      "definition": "A solid or hollow sphere, or roughly spherical mass."
+    },
+    "karthikappally": {
+      "token_id": 5073,
+      "first_seen": "Evoor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "haripad": {
+      "token_id": 6384,
+      "first_seen": "Evoor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alappuzha": {
+      "token_id": 3248,
+      "first_seen": "Evoor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "evoor": {
+      "token_id": 1149,
+      "first_seen": "Evoor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "twentieth": {
+      "token_id": 6973,
+      "first_seen": "Howard Smith Building",
+      "has_definition": true,
+      "definition": "A person or thing in the twentieth position."
+    },
+    "fremantle": {
+      "token_id": 3389,
+      "first_seen": "Howard Smith Building",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boom": {
+      "token_id": 5645,
+      "first_seen": "Howard Smith Building",
+      "has_definition": true,
+      "definition": "A low-pitched, resonant sound, such as of an explosion."
+    },
+    "mouat": {
+      "token_id": 1298,
+      "first_seen": "Howard Smith Building",
+      "has_definition": false,
+      "definition": ""
+    },
+    "phillimore": {
+      "token_id": 5532,
+      "first_seen": "Howard Smith Building",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thai": {
+      "token_id": 2402,
+      "first_seen": "Panward Hemmanee",
+      "has_definition": false,
+      "definition": ""
+    },
+    "salisa": {
+      "token_id": 3708,
+      "first_seen": "Panward Hemmanee",
+      "has_definition": false,
+      "definition": ""
+    },
+    "panward": {
+      "token_id": 7606,
+      "first_seen": "Panward Hemmanee",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marital": {
+      "token_id": 4357,
+      "first_seen": "Panward Hemmanee",
+      "has_definition": true,
+      "definition": "Pertaining to marriage."
+    },
+    "nang": {
+      "token_id": 6519,
+      "first_seen": "Panward Hemmanee",
+      "has_definition": false,
+      "definition": ""
+    },
+    "villainous": {
+      "token_id": 5358,
+      "first_seen": "Panward Hemmanee",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pei": {
+      "token_id": 2186,
+      "first_seen": "Panward Hemmanee",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cherry": {
+      "token_id": 7065,
+      "first_seen": "Panward Hemmanee",
+      "has_definition": true,
+      "definition": "A small fruit, usually red, black or yellow, with a smooth hard seed and a short hard stem."
+    },
+    "hemmanee": {
+      "token_id": 4432,
+      "first_seen": "Panward Hemmanee",
+      "has_definition": false,
+      "definition": ""
+    },
+    "songkram": {
+      "token_id": 534,
+      "first_seen": "Panward Hemmanee",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fah": {
+      "token_id": 2623,
+      "first_seen": "Panward Hemmanee",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lakorns": {
+      "token_id": 7610,
+      "first_seen": "Panward Hemmanee",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sverker": {
+      "token_id": 1006,
+      "first_seen": "Lsjbot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "automated": {
+      "token_id": 4141,
+      "first_seen": "Lsjbot",
+      "has_definition": true,
+      "definition": "To replace or enhance human labor with machines."
+    },
+    "johansson": {
+      "token_id": 1403,
+      "first_seen": "Lsjbot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lsjbot": {
+      "token_id": 3225,
+      "first_seen": "Lsjbot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "organisms": {
+      "token_id": 1877,
+      "first_seen": "Lsjbot",
+      "has_definition": true,
+      "definition": "A discrete and complete living thing, such as animal, plant, fungus or microorganism."
+    },
+    "articles": {
+      "token_id": 6477,
+      "first_seen": "Lsjbot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wikipedia": {
+      "token_id": 3959,
+      "first_seen": "Lsjbot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bot": {
+      "token_id": 2165,
+      "first_seen": "Lsjbot",
+      "has_definition": true,
+      "definition": "The larva of a botfly, which infests the skin of various mammals, producing warbles, or the nasal passage of sheep, or the stomach of horses."
+    },
+    "remained": {
+      "token_id": 2653,
+      "first_seen": "Fawsley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "charwelton": {
+      "token_id": 242,
+      "first_seen": "Fawsley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "northamptonshire": {
+      "token_id": 2899,
+      "first_seen": "Fawsley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fawsley": {
+      "token_id": 5774,
+      "first_seen": "Fawsley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pete": {
+      "token_id": 7797,
+      "first_seen": "Heartbeat (Steps song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bee": {
+      "token_id": 7289,
+      "first_seen": "Heartbeat (Steps song)",
+      "has_definition": true,
+      "definition": "A flying insect, of the clade Anthophila within the hymenopteran superfamily Apoidea, known for its organised societies (though only a minority have them), for collecting pollen and (in some species) producing wax and honey."
+    },
+    "jackie": {
+      "token_id": 725,
+      "first_seen": "Heartbeat (Steps song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gave": {
+      "token_id": 3710,
+      "first_seen": "Heartbeat (Steps song)",
+      "has_definition": true,
+      "definition": "(ditransitive) To move, shift, provide something abstract or concrete to someone or something or somewhere."
+    },
+    "gees": {
+      "token_id": 7571,
+      "first_seen": "Heartbeat (Steps song)",
+      "has_definition": true,
+      "definition": "A gee-gee, a horse."
+    },
+    "drawer": {
+      "token_id": 4749,
+      "first_seen": "Heartbeat (Steps song)",
+      "has_definition": true,
+      "definition": "An open-topped box that can be slid in and out of the cabinet that contains it, used for storing clothing or other articles."
+    },
+    "heartbeat": {
+      "token_id": 6135,
+      "first_seen": "Heartbeat (Steps song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "step": {
+      "token_id": 4899,
+      "first_seen": "Heartbeat (Steps song)",
+      "has_definition": true,
+      "definition": "An advance or movement made from one foot to the other; a pace."
+    },
+    "waterman": {
+      "token_id": 2136,
+      "first_seen": "Heartbeat (Steps song)",
+      "has_definition": true,
+      "definition": "A seaman, a sailor."
+    },
+    "collett": {
+      "token_id": 2109,
+      "first_seen": "Megan Collett",
+      "has_definition": false,
+      "definition": ""
+    },
+    "evelyn": {
+      "token_id": 1695,
+      "first_seen": "Megan Collett",
+      "has_definition": false,
+      "definition": ""
+    },
+    "southampton": {
+      "token_id": 5495,
+      "first_seen": "Megan Collett",
+      "has_definition": false,
+      "definition": ""
+    },
+    "megan": {
+      "token_id": 3574,
+      "first_seen": "Megan Collett",
+      "has_definition": false,
+      "definition": ""
+    },
+    "burlington": {
+      "token_id": 6642,
+      "first_seen": "Gordon Paquette",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paquette": {
+      "token_id": 903,
+      "first_seen": "Gordon Paquette",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sanders": {
+      "token_id": 1150,
+      "first_seen": "Gordon Paquette",
+      "has_definition": true,
+      "definition": "A person employed to sand wood."
+    },
+    "surabhi": {
+      "token_id": 7312,
+      "first_seen": "Renuka Shahane",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nominations": {
+      "token_id": 6290,
+      "first_seen": "Renuka Shahane",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shahane": {
+      "token_id": 4682,
+      "first_seen": "Renuka Shahane",
+      "has_definition": false,
+      "definition": ""
+    },
+    "doordarshan": {
+      "token_id": 7026,
+      "first_seen": "Renuka Shahane",
+      "has_definition": false,
+      "definition": ""
+    },
+    "renuka": {
+      "token_id": 7899,
+      "first_seen": "Renuka Shahane",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marathi": {
+      "token_id": 1369,
+      "first_seen": "Renuka Shahane",
+      "has_definition": false,
+      "definition": ""
+    },
+    "filmfare": {
+      "token_id": 2433,
+      "first_seen": "Renuka Shahane",
+      "has_definition": false,
+      "definition": ""
+    },
+    "infamous": {
+      "token_id": 3134,
+      "first_seen": "Haji Mastan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "haji": {
+      "token_id": 4823,
+      "first_seen": "Haji Mastan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "karim": {
+      "token_id": 1298,
+      "first_seen": "Haji Mastan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nadu": {
+      "token_id": 5697,
+      "first_seen": "Haji Mastan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mastan": {
+      "token_id": 7628,
+      "first_seen": "Haji Mastan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "varadarajan": {
+      "token_id": 7141,
+      "first_seen": "Haji Mastan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mudaliar": {
+      "token_id": 702,
+      "first_seen": "Haji Mastan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lala": {
+      "token_id": 7478,
+      "first_seen": "Haji Mastan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pathan": {
+      "token_id": 1542,
+      "first_seen": "Haji Mastan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brianna": {
+      "token_id": 578,
+      "first_seen": "Brianna Taylor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chamberlain": {
+      "token_id": 1373,
+      "first_seen": "Brianna Taylor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "caracas": {
+      "token_id": 7934,
+      "first_seen": "Deportivo Miranda F.C.",
+      "has_definition": false,
+      "definition": ""
+    },
+    "primera": {
+      "token_id": 4764,
+      "first_seen": "Deportivo Miranda F.C.",
+      "has_definition": false,
+      "definition": ""
+    },
+    "italia": {
+      "token_id": 153,
+      "first_seen": "Deportivo Miranda F.C.",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fifty": {
+      "token_id": 6619,
+      "first_seen": "Deportivo Miranda F.C.",
+      "has_definition": false,
+      "definition": ""
+    },
+    "venezolana": {
+      "token_id": 3953,
+      "first_seen": "Deportivo Miranda F.C.",
+      "has_definition": false,
+      "definition": ""
+    },
+    "italchacao": {
+      "token_id": 7245,
+      "first_seen": "Deportivo Miranda F.C.",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chacao": {
+      "token_id": 7771,
+      "first_seen": "Deportivo Miranda F.C.",
+      "has_definition": false,
+      "definition": ""
+    },
+    "copa": {
+      "token_id": 3983,
+      "first_seen": "Deportivo Miranda F.C.",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tbol": {
+      "token_id": 5505,
+      "first_seen": "Deportivo Miranda F.C.",
+      "has_definition": false,
+      "definition": ""
+    },
+    "divisi": {
+      "token_id": 2756,
+      "first_seen": "Deportivo Miranda F.C.",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leeward": {
+      "token_id": 543,
+      "first_seen": "Northwestern Hawaiian Islands",
+      "has_definition": false,
+      "definition": ""
+    },
+    "excluding": {
+      "token_id": 7907,
+      "first_seen": "Northwestern Hawaiian Islands",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hawaiian": {
+      "token_id": 7587,
+      "first_seen": "Northwestern Hawaiian Islands",
+      "has_definition": false,
+      "definition": ""
+    },
+    "designates": {
+      "token_id": 585,
+      "first_seen": "Northwestern Hawaiian Islands",
+      "has_definition": true,
+      "definition": "To mark out and make known; to point out; to indicate; to show; to distinguish by marks or description"
+    },
+    "kauai": {
+      "token_id": 6669,
+      "first_seen": "Northwestern Hawaiian Islands",
+      "has_definition": false,
+      "definition": ""
+    },
+    "atolls": {
+      "token_id": 6283,
+      "first_seen": "Northwestern Hawaiian Islands",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ihau": {
+      "token_id": 218,
+      "first_seen": "Northwestern Hawaiian Islands",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tropics": {
+      "token_id": 5721,
+      "first_seen": "Northwestern Hawaiian Islands",
+      "has_definition": true,
+      "definition": "The region of the Earth centred on the equator and lying between the Tropic of Cancer and the Tropic of Capricorn and characterized by a hot climate."
+    },
+    "atoll": {
+      "token_id": 4839,
+      "first_seen": "Northwestern Hawaiian Islands",
+      "has_definition": true,
+      "definition": "A type of island consisting of a ribbon reef that nearly or entirely surrounds a lagoon and supports, in most cases, one to many islets on the reef platform. Atolls have a unique geology, so not all islands with a reef and a lagoon are atolls"
+    },
+    "distinct": {
+      "token_id": 5032,
+      "first_seen": "Northwestern Hawaiian Islands",
+      "has_definition": true,
+      "definition": "Capable of being perceived very clearly."
+    },
+    "depictions": {
+      "token_id": 6239,
+      "first_seen": "Northwestern Hawaiian Islands",
+      "has_definition": false,
+      "definition": ""
+    },
+    "midway": {
+      "token_id": 3306,
+      "first_seen": "Northwestern Hawaiian Islands",
+      "has_definition": true,
+      "definition": "The middle; the midst."
+    },
+    "hoa": {
+      "token_id": 573,
+      "first_seen": "Northwestern Hawaiian Islands",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dato": {
+      "token_id": 2334,
+      "first_seen": "Eduardo Dato",
+      "has_definition": false,
+      "definition": ""
+    },
+    "catalan": {
+      "token_id": 6171,
+      "first_seen": "Eduardo Dato",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ministries": {
+      "token_id": 171,
+      "first_seen": "Eduardo Dato",
+      "has_definition": true,
+      "definition": "Government department, at the administrative level normally headed by a minister (or equivalent rank, e.g. secretary of state), who holds it as portfolio, especially in a constitutional monarchy, but also as a polity"
+    },
+    "eduardo": {
+      "token_id": 4536,
+      "first_seen": "Eduardo Dato",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iradier": {
+      "token_id": 6511,
+      "first_seen": "Eduardo Dato",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anarchists": {
+      "token_id": 1007,
+      "first_seen": "Eduardo Dato",
+      "has_definition": false,
+      "definition": ""
+    },
+    "charge": {
+      "token_id": 3616,
+      "first_seen": "Brian Crecente",
+      "has_definition": true,
+      "definition": "The amount of money levied for a service."
+    },
+    "kotaku": {
+      "token_id": 468,
+      "first_seen": "Brian Crecente",
+      "has_definition": false,
+      "definition": ""
+    },
+    "polygon": {
+      "token_id": 4742,
+      "first_seen": "Brian Crecente",
+      "has_definition": false,
+      "definition": ""
+    },
+    "columnist": {
+      "token_id": 1836,
+      "first_seen": "Brian Crecente",
+      "has_definition": true,
+      "definition": "A regular writer of a column, such as in a magazine or newspaper"
+    },
+    "crecente": {
+      "token_id": 5007,
+      "first_seen": "Brian Crecente",
+      "has_definition": false,
+      "definition": ""
+    },
+    "handed": {
+      "token_id": 853,
+      "first_seen": "Paul Stuffel",
+      "has_definition": true,
+      "definition": "To give, pass, or transmit with the hand, literally or figuratively."
+    },
+    "phillies": {
+      "token_id": 4113,
+      "first_seen": "Paul Stuffel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "portions": {
+      "token_id": 6261,
+      "first_seen": "Paul Stuffel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "harrington": {
+      "token_id": 3004,
+      "first_seen": "Paul Stuffel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stuffel": {
+      "token_id": 6877,
+      "first_seen": "Paul Stuffel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aging": {
+      "token_id": 2262,
+      "first_seen": "Phenserine",
+      "has_definition": true,
+      "definition": "To cause to grow old; to impart the characteristics of age to."
+    },
+    "fda": {
+      "token_id": 2319,
+      "first_seen": "Phenserine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "exhibits": {
+      "token_id": 4038,
+      "first_seen": "Phenserine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "methodological": {
+      "token_id": 3117,
+      "first_seen": "Phenserine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neuroprotective": {
+      "token_id": 6643,
+      "first_seen": "Phenserine",
+      "has_definition": true,
+      "definition": "Any neuroprotective agent."
+    },
+    "investigated": {
+      "token_id": 7172,
+      "first_seen": "Phenserine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "unresolved": {
+      "token_id": 4096,
+      "first_seen": "Phenserine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "addressed": {
+      "token_id": 5461,
+      "first_seen": "Phenserine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "licensing": {
+      "token_id": 6410,
+      "first_seen": "Phenserine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "agreements": {
+      "token_id": 1740,
+      "first_seen": "Phenserine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "invalidation": {
+      "token_id": 7542,
+      "first_seen": "Phenserine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "retrospective": {
+      "token_id": 2914,
+      "first_seen": "Phenserine",
+      "has_definition": true,
+      "definition": "An exhibition of works from an extended period of an artist's activity."
+    },
+    "phenserine": {
+      "token_id": 5221,
+      "first_seen": "Phenserine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nia": {
+      "token_id": 7076,
+      "first_seen": "Phenserine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "patented": {
+      "token_id": 5020,
+      "first_seen": "Phenserine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "suspended": {
+      "token_id": 4557,
+      "first_seen": "Phenserine",
+      "has_definition": true,
+      "definition": "To halt something temporarily."
+    },
+    "approve": {
+      "token_id": 3627,
+      "first_seen": "Phenserine",
+      "has_definition": true,
+      "definition": "To sanction officially; to ratify; to confirm; to set as satisfactory."
+    },
+    "potential": {
+      "token_id": 4860,
+      "first_seen": "Phenserine",
+      "has_definition": true,
+      "definition": "Currently unrealized ability (with the most common adposition being to)"
+    },
+    "adequately": {
+      "token_id": 1162,
+      "first_seen": "Phenserine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neurotrophic": {
+      "token_id": 104,
+      "first_seen": "Phenserine",
+      "has_definition": true,
+      "definition": "Of or relating to neurotrophy."
     }
   },
-  "total_articles": 900,
-  "total_words": 9341
+  "total_articles": 930,
+  "total_words": 9548
 }
