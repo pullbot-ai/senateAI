@@ -10,77 +10,63 @@ import time
 import random
 from pathlib import Path
 from ai_client import call_ai
+import re
 
 
 def generate_critic_examples(topic, difficulty, num_examples=10):
     """Generate examples for training the critic."""
     
-    difficulty_descriptions = {
-        1: "Make the bad answers have obvious factual errors, logical fallacies, or completely miss the point.",
-        2: "Make the bad answers partially correct but with subtle flaws in reasoning or missing key details.",
-        3: "Make the bad answers seem correct at first glance but contain nuanced errors or overlook edge cases.",
-        4: "Make the bad answers expertly written with only a tiny flaw that requires deep knowledge to spot.",
-        5: "Make both answers highly sophisticated. The bad one should be wrong in a way only a true expert would catch."
-    }
-    
     prompt = f"""Generate {num_examples} question-answer pairs for training an AI critic.
 
 Topic: {topic}
-Difficulty: {difficulty}/5 - {difficulty_descriptions.get(difficulty, '')}
+Difficulty: {difficulty}/5
 
-For each question, provide TWO answers:
-1. A "good" answer that is accurate and well-reasoned
-2. A "flawed" answer with specific problems
+For each question:
+- good_answer: accurate and well-reasoned
+- flawed_answer: has a specific error
+- feedback: explain what's wrong
 
-For the flawed answer, include specific feedback explaining:
-- What exactly is wrong
-- Why it's wrong
-- How to fix it
-
-Return as JSON array:
-[
-  {{
-    "question": "...",
-    "good_answer": "...",
-    "flawed_answer": "...",
-    "flaw_type": "factual_error|logical_fallacy|incomplete|misleading|oversimplified",
-    "feedback": "Specific explanation of what's wrong and how to fix it",
-    "difficulty": {difficulty}
-  }},
-  ...
-]"""
+Return JSON array:
+[{{"question":"...","good_answer":"...","flawed_answer":"...","flaw_type":"factual_error|logical_fallacy|incomplete|misleading|oversimplified","feedback":"...","difficulty":{difficulty}}}]"""
     
-    response = call_ai(prompt, max_tokens=2000)
+    response = call_ai(prompt, max_tokens=1500)
     
     if response:
         try:
-            import re
             match = re.search(r'\[.*\]', response, re.DOTALL)
             if match:
                 examples = json.loads(match.group())
-                return examples
+                return examples[:num_examples]
         except Exception as e:
             print(f"   Parse error: {e}")
     
-    return []
+    # Fallback: simple local examples
+    fallback = []
+    for i in range(min(num_examples, 5)):
+        fallback.append({
+            'question': f'What is a key concept in {topic}?',
+            'good_answer': f'{topic} involves fundamental principles and their practical applications.',
+            'flawed_answer': f'{topic} is only about memorizing facts.',
+            'flaw_type': 'oversimplified',
+            'feedback': f'The flawed answer ignores the analytical and applied aspects of {topic}.',
+            'difficulty': difficulty
+        })
+    
+    return fallback
 
 
 def generate_questions_only(topic, difficulty, num_questions=10):
     """Generate questions for the critic to evaluate"""
     
-    prompt = f"""Generate {num_questions} challenging questions about '{topic}'.
-Difficulty level: {difficulty}/5
-
-These questions will be used to test an AI's critical thinking.
-Mix of: factual, conceptual, edge cases, and reasoning questions.
+    prompt = f"""Generate {num_questions} questions about '{topic}'.
+Difficulty: {difficulty}/5
 
 Return as JSON array of strings: ["question1", "question2", ...]"""
     
-    response = call_ai(prompt, max_tokens=800)
+    response = call_ai(prompt, max_tokens=500)
     
     if response:
         try:
-            import re
             match = re.search(r'\[.*\]', response, re.DOTALL)
             if match:
                 return json.loads(match.group())
