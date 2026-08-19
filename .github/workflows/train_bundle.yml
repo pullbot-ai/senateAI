@@ -547,58 +547,6 @@ jobs:
           pattern: chunk*-bundle-*
           merge-multiple: true
           path: senate_bundles/
-      - name: Calculate best senator and bundle
-        run: |
-          cat > calc_scores.py << 'EOF'
-          import json, torch
-          from pathlib import Path
-          
-          best_senator = None
-          best_score = 0
-          bundle_scores = {}
-          
-          for bundle_file in sorted(Path('senate_bundles').glob('bundle_*.pt')):
-              bundle_id = int(bundle_file.stem.split('_')[1])
-              bundle = torch.load(bundle_file, map_location='cpu', weights_only=False)
-              senators = bundle.get('senators', {})
-              bundle_total = 0
-              bundle_count = 0
-              
-              for senator_id, data in senators.items():
-                  config = data.get('config', {})
-                  performance = config.get('performance', {})
-                  avg_score = sum(performance.values()) / len(performance) * 100 if performance else 0
-                  bundle_total += avg_score
-                  bundle_count += 1
-                  
-                  if avg_score > best_score:
-                      best_score = avg_score
-                      best_senator = {
-                          'id': senator_id,
-                          'bundle': bundle_id,
-                          'score': round(avg_score, 1),
-                          'specialties': config.get('specialties', [])
-                      }
-              
-              if bundle_count > 0:
-                  bundle_scores[bundle_id] = round(bundle_total / bundle_count, 1)
-          
-          best_bundle = max(bundle_scores, key=bundle_scores.get) if bundle_scores else None
-          
-          print()
-          print('='*60)
-          print('  TRAINING RESULTS')
-          print('='*60)
-          if best_senator:
-              print(f'  Best Senator: #{best_senator["id"]} (Bundle {best_senator["bundle"]})')
-              print(f'  Score: {best_senator["score"]}/100')
-              print(f'  Specialties: {", ".join(best_senator["specialties"][:3])}')
-          if best_bundle is not None:
-              print(f'  Best Bundle: {best_bundle} (Avg: {bundle_scores[best_bundle]}/100)')
-          print(f'  Total bundles scored: {len(bundle_scores)}')
-          print('='*60)
-          EOF
-          python calc_scores.py
       - name: Push everything
         run: |
           git config user.name "github-actions"
