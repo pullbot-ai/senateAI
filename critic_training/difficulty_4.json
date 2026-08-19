@@ -8,8 +8,33 @@
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of astrophysics.",
-      "topic": "astrophysics",
+      "question": "Explain the key concepts of literature.",
+      "topic": "literature",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of climate_science.",
+      "topic": "climate_science",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of medicine.",
+      "topic": "medicine",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of art_history.",
+      "topic": "art_history",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of geometry.",
+      "topic": "geometry",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of behavioral_economics.",
+      "topic": "behavioral_economics",
       "difficulty": 4
     },
     {
@@ -18,33 +43,8 @@
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of neuroscience.",
-      "topic": "neuroscience",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of organic_chemistry.",
-      "topic": "organic_chemistry",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of physics.",
-      "topic": "physics",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of quantum_mechanics.",
-      "topic": "quantum_mechanics",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of ethics.",
-      "topic": "ethics",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of macroeconomics.",
-      "topic": "macroeconomics",
+      "question": "Explain the key concepts of algorithms.",
+      "topic": "algorithms",
       "difficulty": 4
     },
     {
@@ -53,18 +53,13 @@
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of thermodynamics.",
-      "topic": "thermodynamics",
+      "question": "Explain the key concepts of law.",
+      "topic": "law",
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of microbiology.",
-      "topic": "microbiology",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the key concepts of psychology.",
-      "topic": "psychology",
+      "question": "Explain the key concepts of networking.",
+      "topic": "networking",
       "difficulty": 4
     },
     {
@@ -73,8 +68,13 @@
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of cybersecurity.",
-      "topic": "cybersecurity",
+      "question": "Explain the key concepts of political_science.",
+      "topic": "political_science",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of logic.",
+      "topic": "logic",
       "difficulty": 4
     }
   ],
