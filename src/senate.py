@@ -1,6 +1,7 @@
 """
 Senate AI - The Parliament Runtime
 Real senator inference with trained models.
+Uses shared wordbank for tokenization and decoding.
 """
 
 import torch
@@ -9,6 +10,7 @@ import json
 from pathlib import Path
 from collections import defaultdict
 from difflib import SequenceMatcher
+from wordbank import get_wordbank
 import random
 import sys
 
@@ -27,31 +29,9 @@ class Senate:
         self.active_senators = {}
         self.session_history = []
         
-        # Build reverse vocabulary from training data
-        self.vocab = self._build_vocab()
+        self.wordbank = get_wordbank()
         
         print(f"Senate ready: {len(self.index.get('senators', []))} senators")
-    
-    def _build_vocab(self):
-        """Build reverse vocabulary from training data"""
-        vocab = {0: '<PAD>', 1: '<UNK>', 2: '<END>'}
-        
-        training_dir = Path('training_data')
-        if training_dir.exists():
-            for file in training_dir.glob('*.json'):
-                try:
-                    with open(file) as f:
-                        data = json.load(f)
-                    examples = data.get('training_examples', [])
-                    for text in examples:
-                        for word in text.lower().split():
-                            tid = hash(word) % 8000
-                            if tid not in vocab and tid >= 3:
-                                vocab[tid] = word
-                except:
-                    pass
-        
-        return vocab
     
     def _load_senator(self, senator_info):
         """Actually load a senator model from its bundle"""
@@ -64,6 +44,10 @@ class Senate:
         
         if bundle_id not in self.loaded_bundles:
             bundle_path = f"senate_bundles/bundle_{bundle_id:03d}.pt"
+            
+            if not Path(bundle_path).exists():
+                return None
+            
             self.loaded_bundles[bundle_id] = torch.load(bundle_path, map_location='cpu', weights_only=False)
         
         bundle = self.loaded_bundles[bundle_id]
@@ -97,32 +81,13 @@ class Senate:
         return senator
     
     def _tokenize(self, text, max_len=32):
-        """Simple word-based tokenizer"""
-        words = text.lower().split()[:max_len]
-        tokens = []
-        for w in words:
-            tokens.append(hash(w) % 8000)
-        while len(tokens) < max_len:
-            tokens.append(0)
+        """Tokenize using shared wordbank"""
+        tokens = self.wordbank.tokenize(text, max_len=max_len)
         return torch.tensor([tokens])
     
     def _decode(self, token_ids):
-        """Decode token IDs back to text using vocabulary"""
-        words = []
-        for tid in token_ids:
-            tid = tid.item()
-            if tid == 0:
-                break
-            if tid == 1:
-                words.append('?')
-            elif tid == 2:
-                break
-            elif tid in self.vocab:
-                words.append(self.vocab[tid])
-            else:
-                words.append(f'[{tid}]')
-        
-        return ' '.join(words) if words else "..."
+        """Decode using shared wordbank"""
+        return self.wordbank.decode(token_ids)
     
     def _senator_inference(self, senator, question):
         """Run actual inference on a senator model"""
@@ -132,11 +97,9 @@ class Senate:
             logits = senator(input_ids)
             last_logits = logits[0, -1, :]
             
-            # Temperature sampling
             temperature = 0.8
             probs = torch.softmax(last_logits / temperature, dim=-1)
             
-            # Generate 15-30 tokens
             generated = []
             current = input_ids
             
@@ -145,7 +108,6 @@ class Senate:
                 last_logits = logits[0, -1, :]
                 probs = torch.softmax(last_logits / temperature, dim=-1)
                 
-                # Sample from top 80% probability mass
                 sorted_probs, sorted_indices = torch.sort(probs, descending=True)
                 cumsum = torch.cumsum(sorted_probs, dim=0)
                 cutoff = (cumsum > 0.8).nonzero()[0].item() + 1
@@ -293,13 +255,11 @@ class Senate:
         print(f"\nQuestion: {question}")
         sys.stdout.flush()
         
-        # Route
         print("\nRouter: Identifying relevant topics...")
         relevant_topics = self.router(question)
         print(f"Topics: {', '.join(relevant_topics)}")
         sys.stdout.flush()
         
-        # Select senators
         print("\nSelecting senators...")
         selected = self.select_senators(relevant_topics, max_senators=25)
         print(f"{len(selected)} senators selected")
@@ -309,7 +269,6 @@ class Senate:
             print(f"  ... and {len(selected)-10} more")
         sys.stdout.flush()
         
-        # Round 1: Real inference
         print(f"\n{'─'*60}")
         print("  ROUND 1 - Independent Answers")
         print(f"{'─'*60}")
@@ -321,7 +280,7 @@ class Senate:
             if senator is None:
                 continue
             
-            print(f"  [{i+1}/{len(selected)}] Senator {senator_info['senator_id']}...", end=' ')
+            print(f"  [{len(answers)+1}/{len(selected)}] Senator {senator_info['senator_id']}...", end=' ')
             sys.stdout.flush()
             
             answer = self._senator_inference(senator, question)
@@ -329,7 +288,9 @@ class Senate:
             print(f'"{answer[:80]}"')
             sys.stdout.flush()
         
-        # Group and vote
+        if not answers:
+            return {'question': question, 'consensus': 'No senators available', 'confidence': 0.0, 'rounds': 0, 'senators_involved': 0, 'topics': relevant_topics}
+        
         groups = self.grouper(answers)
         print(f"\n  Groups formed: {len(groups)}")
         for i, g in enumerate(groups[:8]):
@@ -340,7 +301,6 @@ class Senate:
         
         consensus, confidence = self.vote(groups)
         
-        # Round 2: Challenge & Reconsider
         print(f"\n{'─'*60}")
         print("  ROUND 2 - Reconsider with Challenge")
         print(f"{'─'*60}")
@@ -364,7 +324,7 @@ class Senate:
                 f"Provide your revised answer:"
             )
             
-            print(f"  [{i+1}/{len(selected)}] Senator {senator_info['senator_id']}...", end=' ')
+            print(f"  [{len(answers2)+1}/{len(selected)}] Senator {senator_info['senator_id']}...", end=' ')
             sys.stdout.flush()
             
             answer = self._senator_inference(senator, reconsider_prompt)
@@ -372,13 +332,16 @@ class Senate:
             print(f'"{answer[:80]}"')
             sys.stdout.flush()
         
-        groups2 = self.grouper(answers2)
-        consensus2, confidence2 = self.vote(groups2)
-        
-        if confidence2 >= confidence:
-            consensus = consensus2
-            confidence = confidence2
-            rounds = 2
+        if answers2:
+            groups2 = self.grouper(answers2)
+            consensus2, confidence2 = self.vote(groups2)
+            
+            if confidence2 >= confidence:
+                consensus = consensus2
+                confidence = confidence2
+                rounds = 2
+            else:
+                rounds = 1
         else:
             rounds = 1
         
@@ -388,7 +351,7 @@ class Senate:
         print(f"\n{consensus}")
         print(f"\nConfidence: {confidence:.1%}")
         print(f"Rounds: {rounds}")
-        print(f"Senators involved: {len(selected)}")
+        print(f"Senators involved: {len(answers)}")
         print(f"Topics: {', '.join(relevant_topics)}")
         sys.stdout.flush()
         
@@ -397,7 +360,7 @@ class Senate:
             'consensus': consensus,
             'confidence': confidence,
             'rounds': rounds,
-            'senators_involved': len(selected),
+            'senators_involved': len(answers),
             'topics': relevant_topics
         }
         
