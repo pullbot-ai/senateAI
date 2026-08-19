@@ -40715,8 +40715,1580 @@
       "first_seen": "Hal Cruttenden",
       "has_definition": false,
       "definition": ""
+    },
+    "danzig": {
+      "token_id": 1914,
+      "first_seen": "Earth A.D./Wolfs Blood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wolfs": {
+      "token_id": 3039,
+      "first_seen": "Earth A.D./Wolfs Blood",
+      "has_definition": true,
+      "definition": "To devour; to gobble; to eat (something) voraciously."
+    },
+    "misfits": {
+      "token_id": 4578,
+      "first_seen": "Earth A.D./Wolfs Blood",
+      "has_definition": true,
+      "definition": "An ill-fitting garment."
+    },
+    "months": {
+      "token_id": 4869,
+      "first_seen": "Earth A.D./Wolfs Blood",
+      "has_definition": true,
+      "definition": "A period into which a year is divided, historically based on the phases of the moon."
+    },
+    "earth": {
+      "token_id": 6856,
+      "first_seen": "Earth A.D./Wolfs Blood",
+      "has_definition": true,
+      "definition": "The third planet of the Solar System; the world upon which humans live."
+    },
+    "issued": {
+      "token_id": 3940,
+      "first_seen": "Earth A.D./Wolfs Blood",
+      "has_definition": true,
+      "definition": "To flow out, to proceed from, to come out or from."
+    },
+    "haley": {
+      "token_id": 6837,
+      "first_seen": "Hot Dog Buddy Buddy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "decca": {
+      "token_id": 7921,
+      "first_seen": "Hot Dog Buddy Buddy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cash": {
+      "token_id": 7632,
+      "first_seen": "Hot Dog Buddy Buddy",
+      "has_definition": true,
+      "definition": "Money in the form of notes/bills and coins, as opposed to cheques/checks or electronic transactions."
+    },
+    "brunswick": {
+      "token_id": 3363,
+      "first_seen": "Hot Dog Buddy Buddy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "galbella": {
+      "token_id": 2783,
+      "first_seen": "Galbella",
+      "has_definition": false,
+      "definition": ""
+    },
+    "buprestidae": {
+      "token_id": 6986,
+      "first_seen": "Galbella",
+      "has_definition": false,
+      "definition": ""
+    },
+    "galbellinae": {
+      "token_id": 2435,
+      "first_seen": "Galbella",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alfredo": {
+      "token_id": 600,
+      "first_seen": "World War I Memorial (Norfolk, Connecticut)",
+      "has_definition": true,
+      "definition": "(noun adjunct) The sauce made from butter and Parmesan cheese used in dishes such as fettuccine Alfredo, or any dish of this type."
+    },
+    "greenwoods": {
+      "token_id": 6479,
+      "first_seen": "World War I Memorial (Norfolk, Connecticut)",
+      "has_definition": true,
+      "definition": "A forest in full leaf, as in summer."
+    },
+    "rustic": {
+      "token_id": 5792,
+      "first_seen": "World War I Memorial (Norfolk, Connecticut)",
+      "has_definition": true,
+      "definition": "A (sometimes unsophisticated) person from a rural area."
+    },
+    "tips": {
+      "token_id": 6147,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": true,
+      "definition": "The tip of the external ear."
+    },
+    "pappi": {
+      "token_id": 3106,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "abertii": {
+      "token_id": 7025,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "abert": {
+      "token_id": 6237,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "darker": {
+      "token_id": 3188,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": true,
+      "definition": "Having an absolute or (more often) relative lack of light."
+    },
+    "sanvitalia": {
+      "token_id": 1275,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "herb": {
+      "token_id": 2653,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": true,
+      "definition": "Any green, leafy plant, or parts thereof, used to flavour or season food."
+    },
+    "linear": {
+      "token_id": 3113,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": true,
+      "definition": "Having the form of a line; straight or roughly straight; following a direct course."
+    },
+    "arising": {
+      "token_id": 3344,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": true,
+      "definition": "To come up from a lower to a higher position."
+    },
+    "variable": {
+      "token_id": 5496,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": true,
+      "definition": "Something that is variable."
+    },
+    "somewhat": {
+      "token_id": 3186,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": true,
+      "definition": "More or less; a certain quantity or degree; a part, more or less; something."
+    },
+    "cyme": {
+      "token_id": 6315,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": true,
+      "definition": "(spelt cime) A \u201chead\u201d (of unexpanded leaves, etc.); an opening bud."
+    },
+    "woodlands": {
+      "token_id": 6307,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": true,
+      "definition": "Land covered with woody vegetation."
+    },
+    "coated": {
+      "token_id": 7429,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "notched": {
+      "token_id": 3142,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": true,
+      "definition": "To cut a notch in (something)."
+    },
+    "colored": {
+      "token_id": 5720,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": true,
+      "definition": "To give something color."
+    },
+    "hairs": {
+      "token_id": 3235,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ray": {
+      "token_id": 6915,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "disc": {
+      "token_id": 1557,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zinnia": {
+      "token_id": 7296,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inflorescence": {
+      "token_id": 4384,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "florets": {
+      "token_id": 4076,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tipped": {
+      "token_id": 653,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "millimeters": {
+      "token_id": 5061,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lance": {
+      "token_id": 7796,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thick": {
+      "token_id": 3687,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "achene": {
+      "token_id": 1703,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "achenes": {
+      "token_id": 5843,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "heads": {
+      "token_id": 335,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leathery": {
+      "token_id": 4954,
+      "first_seen": "Sanvitalia abertii",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shortland": {
+      "token_id": 2230,
+      "first_seen": "Joey Henderson",
+      "has_definition": false,
+      "definition": ""
+    },
+    "joey": {
+      "token_id": 3530,
+      "first_seen": "Joey Henderson",
+      "has_definition": false,
+      "definition": ""
+    },
+    "henderson": {
+      "token_id": 6371,
+      "first_seen": "Joey Henderson",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barker": {
+      "token_id": 7839,
+      "first_seen": "Joey Henderson",
+      "has_definition": false,
+      "definition": ""
+    },
+    "soap": {
+      "token_id": 3629,
+      "first_seen": "Joey Henderson",
+      "has_definition": false,
+      "definition": ""
+    },
+    "switch": {
+      "token_id": 6097,
+      "first_seen": "FIFA 23",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stadia": {
+      "token_id": 2126,
+      "first_seen": "FIFA 23",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nintendo": {
+      "token_id": 1326,
+      "first_seen": "FIFA 23",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marshall": {
+      "token_id": 4114,
+      "first_seen": "Mary Jean & 9 Others",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dixon": {
+      "token_id": 5163,
+      "first_seen": "Mary Jean & 9 Others",
+      "has_definition": false,
+      "definition": ""
+    },
+    "previous": {
+      "token_id": 6528,
+      "first_seen": "Mary Jean & 9 Others",
+      "has_definition": false,
+      "definition": ""
+    },
+    "excursion": {
+      "token_id": 4984,
+      "first_seen": "Mary Jean & 9 Others",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sounds": {
+      "token_id": 850,
+      "first_seen": "Mary Jean & 9 Others",
+      "has_definition": false,
+      "definition": ""
+    },
+    "crenshaw": {
+      "token_id": 7924,
+      "first_seen": "Mary Jean & 9 Others",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seasons": {
+      "token_id": 3727,
+      "first_seen": "Kevin McGuff",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mcguff": {
+      "token_id": 4294,
+      "first_seen": "Kevin McGuff",
+      "has_definition": false,
+      "definition": ""
+    },
+    "patrick": {
+      "token_id": 5732,
+      "first_seen": "Kevin McGuff",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seattle": {
+      "token_id": 5897,
+      "first_seen": "Kevin McGuff",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spending": {
+      "token_id": 6559,
+      "first_seen": "Kevin McGuff",
+      "has_definition": true,
+      "definition": "Present participle of spend, expenditure."
+    },
+    "xavier": {
+      "token_id": 5183,
+      "first_seen": "Kevin McGuff",
+      "has_definition": false,
+      "definition": ""
+    },
+    "governorate": {
+      "token_id": 3681,
+      "first_seen": "Ovruchsky Uyezd",
+      "has_definition": false,
+      "definition": ""
+    },
+    "uyezd": {
+      "token_id": 5681,
+      "first_seen": "Ovruchsky Uyezd",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ovruchsky": {
+      "token_id": 3887,
+      "first_seen": "Ovruchsky Uyezd",
+      "has_definition": false,
+      "definition": ""
+    },
+    "volhynian": {
+      "token_id": 6302,
+      "first_seen": "Ovruchsky Uyezd",
+      "has_definition": false,
+      "definition": ""
+    },
+    "subdivisions": {
+      "token_id": 1780,
+      "first_seen": "Ovruchsky Uyezd",
+      "has_definition": true,
+      "definition": "A division into smaller pieces of something that has already been divided."
+    },
+    "ovruch": {
+      "token_id": 7139,
+      "first_seen": "Ovruchsky Uyezd",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lornoxicam": {
+      "token_id": 3066,
+      "first_seen": "Lornoxicam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "drug": {
+      "token_id": 2163,
+      "first_seen": "Lornoxicam",
+      "has_definition": true,
+      "definition": "A substance used to treat an illness, relieve a symptom, or modify a chemical process in the body for a specific purpose."
+    },
+    "analgesic": {
+      "token_id": 1288,
+      "first_seen": "Lornoxicam",
+      "has_definition": true,
+      "definition": "Any medicine, such as aspirin, that reduces pain, especially without inducing a loss of other sensation. (Contrast anesthetic.)"
+    },
+    "nsaid": {
+      "token_id": 6881,
+      "first_seen": "Lornoxicam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inflammatory": {
+      "token_id": 3335,
+      "first_seen": "Lornoxicam",
+      "has_definition": true,
+      "definition": "Any material that causes inflammation"
+    },
+    "available": {
+      "token_id": 985,
+      "first_seen": "Lornoxicam",
+      "has_definition": true,
+      "definition": "Such as one may avail oneself of; capable of being used for the accomplishment of a purpose."
+    },
+    "nonsteroidal": {
+      "token_id": 938,
+      "first_seen": "Lornoxicam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antipyretic": {
+      "token_id": 1132,
+      "first_seen": "Lornoxicam",
+      "has_definition": true,
+      "definition": "A pharmaceutical that reduces fever; a febrifuge."
+    },
+    "chlortenoxicam": {
+      "token_id": 6009,
+      "first_seen": "Lornoxicam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "parenteral": {
+      "token_id": 3484,
+      "first_seen": "Lornoxicam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oxicam": {
+      "token_id": 5229,
+      "first_seen": "Lornoxicam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oral": {
+      "token_id": 7222,
+      "first_seen": "Lornoxicam",
+      "has_definition": true,
+      "definition": "A spoken test or examination, particularly in a language class."
+    },
+    "formulations": {
+      "token_id": 1507,
+      "first_seen": "Lornoxicam",
+      "has_definition": true,
+      "definition": "The act, process, or result of formulating or reducing to a formula."
+    },
+    "fateful": {
+      "token_id": 5862,
+      "first_seen": "Fateful Lightning",
+      "has_definition": false,
+      "definition": ""
+    },
+    "subtitled": {
+      "token_id": 2581,
+      "first_seen": "Fateful Lightning",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wargame": {
+      "token_id": 3452,
+      "first_seen": "Fateful Lightning",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gettysburg": {
+      "token_id": 6433,
+      "first_seen": "Fateful Lightning",
+      "has_definition": false,
+      "definition": ""
+    },
+    "simulates": {
+      "token_id": 2850,
+      "first_seen": "Fateful Lightning",
+      "has_definition": false,
+      "definition": ""
+    },
+    "xtr": {
+      "token_id": 5335,
+      "first_seen": "Fateful Lightning",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hutchinson": {
+      "token_id": 6113,
+      "first_seen": "South Hutchinson, Kansas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "skopje": {
+      "token_id": 5864,
+      "first_seen": "Ara\u010dinovo Municipality",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ara": {
+      "token_id": 5279,
+      "first_seen": "Ara\u010dinovo Municipality",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inovo": {
+      "token_id": 2933,
+      "first_seen": "Ara\u010dinovo Municipality",
+      "has_definition": false,
+      "definition": ""
+    },
+    "unable": {
+      "token_id": 945,
+      "first_seen": "Cap-tied",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tied": {
+      "token_id": 2386,
+      "first_seen": "Cap-tied",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eligible": {
+      "token_id": 4414,
+      "first_seen": "Cap-tied",
+      "has_definition": false,
+      "definition": ""
+    },
+    "describe": {
+      "token_id": 4563,
+      "first_seen": "Cap-tied",
+      "has_definition": false,
+      "definition": ""
+    },
+    "adjective": {
+      "token_id": 307,
+      "first_seen": "Cap-tied",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dormishian": {
+      "token_id": 3768,
+      "first_seen": "Hatred (2012 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "immigration": {
+      "token_id": 1175,
+      "first_seen": "Hatred (2012 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "turkey": {
+      "token_id": 3834,
+      "first_seen": "Hatred (2012 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "istanbul": {
+      "token_id": 4331,
+      "first_seen": "Hatred (2012 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hatred": {
+      "token_id": 5755,
+      "first_seen": "Hatred (2012 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "allier": {
+      "token_id": 2973,
+      "first_seen": "Apremont-sur-Allier",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cher": {
+      "token_id": 3363,
+      "first_seen": "Apremont-sur-Allier",
+      "has_definition": false,
+      "definition": ""
+    },
+    "apremont": {
+      "token_id": 2624,
+      "first_seen": "Apremont-sur-Allier",
+      "has_definition": false,
+      "definition": ""
+    },
+    "argyll": {
+      "token_id": 3046,
+      "first_seen": "Kilmory, Knapdale",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sween": {
+      "token_id": 3860,
+      "first_seen": "Kilmory, Knapdale",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shores": {
+      "token_id": 5480,
+      "first_seen": "Kilmory, Knapdale",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kilmory": {
+      "token_id": 3243,
+      "first_seen": "Kilmory, Knapdale",
+      "has_definition": false,
+      "definition": ""
+    },
+    "knapdale": {
+      "token_id": 755,
+      "first_seen": "Kilmory, Knapdale",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bute": {
+      "token_id": 2091,
+      "first_seen": "Kilmory, Knapdale",
+      "has_definition": false,
+      "definition": ""
+    },
+    "loch": {
+      "token_id": 2015,
+      "first_seen": "Kilmory, Knapdale",
+      "has_definition": false,
+      "definition": ""
+    },
+    "recovery": {
+      "token_id": 6353,
+      "first_seen": "REM-KL",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rem": {
+      "token_id": 1754,
+      "first_seen": "REM-KL",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wheeled": {
+      "token_id": 6288,
+      "first_seen": "REM-KL",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vehicle": {
+      "token_id": 7051,
+      "first_seen": "REM-KL",
+      "has_definition": true,
+      "definition": "A conveyance; a device for carrying or transporting substances, objects or individuals."
+    },
+    "repair": {
+      "token_id": 699,
+      "first_seen": "REM-KL",
+      "has_definition": true,
+      "definition": "The act of repairing something."
+    },
+    "miass": {
+      "token_id": 5273,
+      "first_seen": "REM-KL",
+      "has_definition": false,
+      "definition": ""
+    },
+    "automotive": {
+      "token_id": 3316,
+      "first_seen": "REM-KL",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ural": {
+      "token_id": 1188,
+      "first_seen": "REM-KL",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nsl": {
+      "token_id": 407,
+      "first_seen": "Parramatta FC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nsw": {
+      "token_id": 2347,
+      "first_seen": "Parramatta FC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "parramatta": {
+      "token_id": 2402,
+      "first_seen": "Parramatta FC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "premier": {
+      "token_id": 4658,
+      "first_seen": "Parramatta FC",
+      "has_definition": true,
+      "definition": "(Westminster system) The head of government in parliament and leader of the cabinet."
+    },
+    "competes": {
+      "token_id": 1980,
+      "first_seen": "Parramatta FC",
+      "has_definition": true,
+      "definition": "To be in battle or in a rivalry with another for the same thing, position, or reward; to contend"
+    },
+    "maltese": {
+      "token_id": 6035,
+      "first_seen": "Parramatta FC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "migrants": {
+      "token_id": 3618,
+      "first_seen": "Parramatta FC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "melita": {
+      "token_id": 5273,
+      "first_seen": "Parramatta FC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "granville": {
+      "token_id": 1823,
+      "first_seen": "Parramatta FC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "atp": {
+      "token_id": 3846,
+      "first_seen": "Maxime Hamou",
+      "has_definition": false,
+      "definition": ""
+    },
+    "doubles": {
+      "token_id": 6569,
+      "first_seen": "Maxime Hamou",
+      "has_definition": true,
+      "definition": "Twice the number, amount, size, etc."
+    },
+    "maxime": {
+      "token_id": 1614,
+      "first_seen": "Maxime Hamou",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hamou": {
+      "token_id": 6818,
+      "first_seen": "Maxime Hamou",
+      "has_definition": false,
+      "definition": ""
+    },
+    "keller": {
+      "token_id": 7527,
+      "first_seen": "Fedora (1978 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "billy": {
+      "token_id": 1356,
+      "first_seen": "Fedora (1978 film)",
+      "has_definition": true,
+      "definition": "A billy club."
+    },
+    "marthe": {
+      "token_id": 7969,
+      "first_seen": "Fedora (1978 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "holden": {
+      "token_id": 3323,
+      "first_seen": "Fedora (1978 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wilder": {
+      "token_id": 2157,
+      "first_seen": "Fedora (1978 film)",
+      "has_definition": true,
+      "definition": "To bewilder, perplex"
+    },
+    "diamond": {
+      "token_id": 5210,
+      "first_seen": "Fedora (1978 film)",
+      "has_definition": true,
+      "definition": "A glimmering glass-like mineral that is an allotrope of carbon in which each atom is surrounded by four others in the form of a tetrahedron."
+    },
+    "fedora": {
+      "token_id": 5051,
+      "first_seen": "Fedora (1978 film)",
+      "has_definition": true,
+      "definition": "A felt hat with a fairly low, creased crown with a brim that can be turned up or down."
+    },
+    "tryon": {
+      "token_id": 1155,
+      "first_seen": "Fedora (1978 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "novella": {
+      "token_id": 1817,
+      "first_seen": "Fedora (1978 film)",
+      "has_definition": true,
+      "definition": "A work of prose fiction, longer than a novella."
+    },
+    "plane": {
+      "token_id": 6149,
+      "first_seen": "RWD 7",
+      "has_definition": true,
+      "definition": "A level or flat surface."
+    },
+    "rwd": {
+      "token_id": 5834,
+      "first_seen": "RWD 7",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rectangular": {
+      "token_id": 2073,
+      "first_seen": "Tomb of Payava",
+      "has_definition": true,
+      "definition": "Having a shape like a rectangle."
+    },
+    "plinths": {
+      "token_id": 1396,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vaulted": {
+      "token_id": 7999,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zoroastrian": {
+      "token_id": 2966,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "michailidis": {
+      "token_id": 4183,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barrel": {
+      "token_id": 4073,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "windowless": {
+      "token_id": 7589,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "achaemenid": {
+      "token_id": 4111,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tombs": {
+      "token_id": 7327,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "xanthos": {
+      "token_id": 7892,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ruler": {
+      "token_id": 300,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "payava": {
+      "token_id": 5762,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "harpy": {
+      "token_id": 1896,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "melanie": {
+      "token_id": 6312,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tomb": {
+      "token_id": 3939,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "explorer": {
+      "token_id": 6544,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fellows": {
+      "token_id": 2648,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sarcophagus": {
+      "token_id": 7370,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bearing": {
+      "token_id": 7268,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "criteria": {
+      "token_id": 6221,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lycia": {
+      "token_id": 7846,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lycian": {
+      "token_id": 857,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nereid": {
+      "token_id": 7416,
+      "first_seen": "Tomb of Payava",
+      "has_definition": false,
+      "definition": ""
+    },
+    "huge": {
+      "token_id": 5362,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "contribution": {
+      "token_id": 2725,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mlle": {
+      "token_id": 2702,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barraine": {
+      "token_id": 1319,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iscm": {
+      "token_id": 7175,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seldom": {
+      "token_id": 1921,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "performance": {
+      "token_id": 161,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alive": {
+      "token_id": 5196,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "elsa": {
+      "token_id": 3513,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "whitacre": {
+      "token_id": 5896,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "headline": {
+      "token_id": 7904,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "opening": {
+      "token_id": 3366,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sacred": {
+      "token_id": 3390,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "symphony": {
+      "token_id": 6881,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "direction": {
+      "token_id": 401,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ever": {
+      "token_id": 1212,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shall": {
+      "token_id": 3940,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arc": {
+      "token_id": 2007,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ravel": {
+      "token_id": 6540,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "prix": {
+      "token_id": 6649,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "concise": {
+      "token_id": 6322,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jacqueline": {
+      "token_id": 298,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rosenthal": {
+      "token_id": 1998,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "orchestra": {
+      "token_id": 5232,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guerri": {
+      "token_id": 5837,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vierge": {
+      "token_id": 6983,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neoclassicist": {
+      "token_id": 4538,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hailed": {
+      "token_id": 6393,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "next": {
+      "token_id": 3293,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "evening": {
+      "token_id": 187,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "premiere": {
+      "token_id": 2046,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stravinsky": {
+      "token_id": 4912,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "covent": {
+      "token_id": 5777,
+      "first_seen": "Elsa Barraine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "strictly": {
+      "token_id": 4409,
+      "first_seen": "Loyalty",
+      "has_definition": false,
+      "definition": ""
+    },
+    "loyalty": {
+      "token_id": 6213,
+      "first_seen": "Loyalty",
+      "has_definition": false,
+      "definition": ""
+    },
+    "disagree": {
+      "token_id": 1070,
+      "first_seen": "Loyalty",
+      "has_definition": true,
+      "definition": "To fail to agree; to have a different opinion or belief."
+    },
+    "naturalization": {
+      "token_id": 3410,
+      "first_seen": "Loyalty",
+      "has_definition": true,
+      "definition": "The action of naturalizing somebody; act of granting citizenship."
+    },
+    "devotion": {
+      "token_id": 688,
+      "first_seen": "Loyalty",
+      "has_definition": true,
+      "definition": "The act or state of devoting or being devoted."
+    },
+    "either": {
+      "token_id": 4955,
+      "first_seen": "Loyalty",
+      "has_definition": true,
+      "definition": "(after a negative) As well."
+    },
+    "oath": {
+      "token_id": 1627,
+      "first_seen": "Loyalty",
+      "has_definition": true,
+      "definition": "A solemn pledge or promise, appealing to a deity, a ruler, or another entity (not necessarily present) to attest to the truth of a statement or sincerity of one's desire to fulfill a contract or promise."
+    },
+    "fidelity": {
+      "token_id": 276,
+      "first_seen": "Loyalty",
+      "has_definition": true,
+      "definition": "Faithfulness to one's duties."
+    },
+    "interpersonal": {
+      "token_id": 6994,
+      "first_seen": "Loyalty",
+      "has_definition": true,
+      "definition": "Between two or more people."
+    },
+    "philosophers": {
+      "token_id": 5267,
+      "first_seen": "Loyalty",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jackpot": {
+      "token_id": 5889,
+      "first_seen": "Jackpot (1993 film)",
+      "has_definition": true,
+      "definition": "A money prize pool which accumulates until the conditions are met for it to be won."
+    },
+    "tejas": {
+      "token_id": 2119,
+      "first_seen": "Jackpot (1993 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aishwarya": {
+      "token_id": 2484,
+      "first_seen": "Jackpot (1993 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "portrays": {
+      "token_id": 3143,
+      "first_seen": "Jackpot (1993 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gautami": {
+      "token_id": 2343,
+      "first_seen": "Jackpot (1993 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antagonist": {
+      "token_id": 375,
+      "first_seen": "Jackpot (1993 film)",
+      "has_definition": true,
+      "definition": "An opponent or enemy."
+    },
+    "jockey": {
+      "token_id": 1622,
+      "first_seen": "Jackpot (1993 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kannada": {
+      "token_id": 2052,
+      "first_seen": "Jackpot (1993 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sudarshan": {
+      "token_id": 2361,
+      "first_seen": "Jackpot (1993 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mammootty": {
+      "token_id": 7710,
+      "first_seen": "Jackpot (1993 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jomon": {
+      "token_id": 2148,
+      "first_seen": "Jackpot (1993 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kapadia": {
+      "token_id": 2618,
+      "first_seen": "Jackpot (1993 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "organised": {
+      "token_id": 6900,
+      "first_seen": "CAF U-17 Girls Integrated Football Tournament",
+      "has_definition": false,
+      "definition": ""
+    },
+    "girls": {
+      "token_id": 2770,
+      "first_seen": "CAF U-17 Girls Integrated Football Tournament",
+      "has_definition": true,
+      "definition": "A female child, adolescent, or a young woman."
+    },
+    "seventeen": {
+      "token_id": 1786,
+      "first_seen": "CAF U-17 Girls Integrated Football Tournament",
+      "has_definition": true,
+      "definition": "The cardinal number occurring after sixteen and before eighteen, represented in Roman numerals as XVII and in Arabic numerals as 17."
+    },
+    "confederation": {
+      "token_id": 4613,
+      "first_seen": "CAF U-17 Girls Integrated Football Tournament",
+      "has_definition": true,
+      "definition": "A union or alliance of states or political organizations."
+    },
+    "clubs": {
+      "token_id": 3490,
+      "first_seen": "CAF U-17 Girls Integrated Football Tournament",
+      "has_definition": true,
+      "definition": "An association of members joining together for some common purpose, especially sports or recreation."
+    },
+    "caf": {
+      "token_id": 5549,
+      "first_seen": "CAF U-17 Girls Integrated Football Tournament",
+      "has_definition": true,
+      "definition": "A caf\u00e9."
+    },
+    "cobblestone": {
+      "token_id": 2712,
+      "first_seen": "Charles Bullis House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "moderate": {
+      "token_id": 461,
+      "first_seen": "Charles Bullis House",
+      "has_definition": true,
+      "definition": "One who holds an intermediate position between extremes, as in politics."
+    },
+    "cobbles": {
+      "token_id": 7551,
+      "first_seen": "Charles Bullis House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bullis": {
+      "token_id": 5052,
+      "first_seen": "Charles Bullis House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "surviving": {
+      "token_id": 4134,
+      "first_seen": "Charles Bullis House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "block": {
+      "token_id": 6508,
+      "first_seen": "Charles Bullis House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "macedon": {
+      "token_id": 3013,
+      "first_seen": "Charles Bullis House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "frame": {
+      "token_id": 3373,
+      "first_seen": "Charles Bullis House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sized": {
+      "token_id": 7010,
+      "first_seen": "Charles Bullis House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eng": {
+      "token_id": 3087,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shixian": {
+      "token_id": 605,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bus": {
+      "token_id": 6677,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "segued": {
+      "token_id": 1523,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "romantic": {
+      "token_id": 7215,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ancestry": {
+      "token_id": 2452,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "garnered": {
+      "token_id": 2486,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "acclaimed": {
+      "token_id": 4679,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "festivals": {
+      "token_id": 374,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "videos": {
+      "token_id": 1302,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "picture": {
+      "token_id": 6433,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "filmmaker": {
+      "token_id": 3018,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "invited": {
+      "token_id": 5701,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dayyan": {
+      "token_id": 5856,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "accolades": {
+      "token_id": 7802,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "actors": {
+      "token_id": 7216,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hollywood": {
+      "token_id": 5047,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "commercials": {
+      "token_id": 1864,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guild": {
+      "token_id": 3352,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sundance": {
+      "token_id": 14,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "venice": {
+      "token_id": 258,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
+    },
+    "waiting": {
+      "token_id": 4465,
+      "first_seen": "Dayyan Eng",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 570,
-  "total_words": 6786
+  "total_articles": 600,
+  "total_words": 7048
 }
