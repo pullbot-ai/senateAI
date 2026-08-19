@@ -1,8 +1,7 @@
 """
 Senate AI - The Parliament Runtime
 Real senator inference with trained models.
-Uses shared wordbank for tokenization and decoding.
-AI Grouper for semantic answer clustering.
+Uses shared wordbank. AI Grouper. Local Punctuator. Adaptive response length.
 """
 
 import torch
@@ -13,6 +12,7 @@ from collections import defaultdict
 from difflib import SequenceMatcher
 from wordbank import get_wordbank
 from ai_client import call_ai
+from punctuator import punctuate_text
 import random
 import sys
 import re
@@ -93,23 +93,53 @@ class Senate:
         return self.wordbank.decode(token_ids)
     
     def _senator_inference(self, senator, question):
-        """Run actual inference on a senator model"""
+        """Run inference with adaptive response length"""
+        
+        question_lower = question.lower()
+        
+        # Check for math expressions
+        math_match = re.search(r'(\d+\.?\d*)\s*([+\-*/])\s*(\d+\.?\d*)', question_lower)
+        if math_match:
+            a = float(math_match.group(1))
+            op = math_match.group(2)
+            b = float(math_match.group(3))
+            
+            if op == '+': result = a + b
+            elif op == '-': result = a - b
+            elif op == '*': result = a * b
+            elif op == '/': result = a / b if b != 0 else 'undefined'
+            else: result = '?'
+            
+            if isinstance(result, float) and result == int(result):
+                return str(int(result))
+            return str(result)
+        
+        # Simple question patterns
+        simple_patterns = [
+            r'^what is ',
+            r'^who is ',
+            r'^where is ',
+            r'^when ',
+            r'^is ',
+            r'^can ',
+            r'^do ',
+            r'^does ',
+            r'^how many ',
+        ]
+        
+        is_simple = any(re.search(p, question_lower) for p in simple_patterns)
+        max_tokens = 5 if is_simple else random.randint(15, 25)
+        
         input_ids = self._tokenize(question)
         
         with torch.no_grad():
-            logits = senator(input_ids)
-            last_logits = logits[0, -1, :]
-            
-            temperature = 0.8
-            probs = torch.softmax(last_logits / temperature, dim=-1)
-            
             generated = []
             current = input_ids
             
-            for _ in range(random.randint(15, 30)):
+            for _ in range(max_tokens):
                 logits = senator(current)
                 last_logits = logits[0, -1, :]
-                probs = torch.softmax(last_logits / temperature, dim=-1)
+                probs = torch.softmax(last_logits / 0.8, dim=-1)
                 
                 sorted_probs, sorted_indices = torch.sort(probs, descending=True)
                 cumsum = torch.cumsum(sorted_probs, dim=0)
@@ -127,18 +157,18 @@ class Senate:
                 
                 generated.append(next_token)
                 current = torch.cat([current, torch.tensor([[next_token]])], dim=1)
-                
-                if len(generated) >= 30:
-                    break
-            
-            return self._decode(torch.tensor(generated))
+        
+        raw_answer = self._decode(torch.tensor(generated))
+        answer = punctuate_text(raw_answer)
+        
+        return answer
     
     def router(self, question):
         """Keyword-based router"""
         question_lower = question.lower()
         
         topic_keywords = {
-            'mathematics': ['math', 'calculate', 'number', 'equation', 'formula', 'prime', 'derivative', 'integral', 'algebra', 'geometry'],
+            'mathematics': ['math', 'calculate', 'number', 'equation', 'formula', 'prime', 'derivative', 'integral', 'algebra', 'geometry', 'plus', 'minus', 'times', 'divided'],
             'physics': ['physics', 'force', 'energy', 'motion', 'gravity', 'light', 'speed', 'mass', 'quantum', 'wave'],
             'chemistry': ['chemistry', 'chemical', 'element', 'reaction', 'molecule', 'atom', 'bond', 'acid', 'base'],
             'biology': ['biology', 'cell', 'dna', 'organism', 'species', 'evolution', 'gene', 'protein', 'bacteria'],
@@ -207,7 +237,6 @@ class Senate:
         if len(answers) <= 1:
             return [{'senators': [answers[0][0]], 'answer': answers[0][1], 'count': 1}]
         
-        # Build prompt for AI grouping
         answer_list = []
         for i, (senator_id, answer) in enumerate(answers):
             answer_list.append(f"{i}: {answer[:80]}")
@@ -239,7 +268,6 @@ Return JSON:
                             'count': len(senators)
                         })
                     
-                    # Add ungrouped answers as singletons
                     grouped_indices = set()
                     for g in groups:
                         for s in g['senators']:
@@ -256,7 +284,6 @@ Return JSON:
             except:
                 pass
         
-        # Fallback to string matching
         groups = []
         used = set()
         
@@ -443,9 +470,9 @@ if __name__ == "__main__":
     senate = Senate()
     
     questions = [
+        "What is 1+1?",
         "What is the capital of France?",
         "Why does ice float?",
-        "How do computers work?",
     ]
     
     for q in questions:
