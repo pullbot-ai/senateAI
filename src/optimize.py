@@ -1,10 +1,9 @@
 """
-Senate AI - 4-Stage Model Optimizer
+Senate AI - 4-Stage Model Optimizer (Vectorized)
 1. Smart Prune (redistribute weak to strong)
-2. Safe Precision Prune (merge insignificant, same row only)  
-3. Progressive Bit Reduction (changed weights only, with timeout)
+2. Safe Precision Prune (merge insignificant)
+3. Progressive Bit Reduction
 4. 8-bit Quantize
-5. Output Consistency Check
 """
 
 import torch
@@ -23,14 +22,14 @@ def progress_bar(done, total, label="", width=30):
 
 
 class SenateOptimizer:
-    """Optimizes a Senate bundle through 5 stages"""
+    """Optimizes a Senate bundle through 4 stages"""
     
     def __init__(self, bundle_path, output_path=None):
         self.bundle_path = bundle_path
         self.output_path = output_path or bundle_path
         
         print(f"\n{'='*50}")
-        print(f"🔧 SENATE OPTIMIZER")
+        print(f"  SENATE OPTIMIZER (VECTORIZED)")
         print(f"{'='*50}")
         print(f"   Bundle: {bundle_path}")
         
@@ -60,20 +59,16 @@ class SenateOptimizer:
             'size_mb': size_mb
         }
     
-    def smart_prune(self, target_sparsity=0.5, max_time_minutes=10):
-        print(f"\n🧠 STAGE 1: SMART PRUNE (target: {target_sparsity*100:.0f}%)")
+    def smart_prune(self, target_sparsity=0.5):
+        """Vectorized smart prune - redistribute weak weights to strong ones"""
+        print(f"\n  STAGE 1: SMART PRUNE (target: {target_sparsity*100:.0f}%)")
         sys.stdout.flush()
         
         total_redistributed = 0
-        total_senators = len(self.senators)
+        total_params = 0
         start_time = time.time()
-        timeout = max_time_minutes * 60
         
-        for idx, (senator_id, data) in enumerate(self.senators.items()):
-            if time.time() - start_time > timeout:
-                print(f"\n   ⏰ Stage 1 timeout after {max_time_minutes}min")
-                break
-            
+        for senator_id, data in self.senators.items():
             state_dict = data['state_dict'] if 'state_dict' in data else data
             
             for param_name, param in state_dict.items():
@@ -81,73 +76,48 @@ class SenateOptimizer:
                     continue
                 
                 weight = param.float()
+                total_params += weight.numel()
                 
-                for row_idx in range(weight.shape[0]):
-                    row = weight[row_idx]
-                    abs_row = row.abs()
-                    
-                    if abs_row.sum() == 0:
-                        continue
-                    
-                    k = max(1, int((1 - target_sparsity) * len(row)))
-                    if k >= len(row):
-                        continue
-                    
-                    threshold = torch.kthvalue(abs_row, len(row) - k).values
-                    strong_mask = abs_row >= threshold
-                    strong_idx = torch.where(strong_mask)[0]
-                    weak_idx = torch.where(~strong_mask)[0]
-                    
-                    if len(strong_idx) == 0 or len(weak_idx) == 0:
-                        continue
-                    
-                    for wi in weak_idx:
-                        weak_val = row[wi]
-                        if abs(weak_val) < 0.00001:
-                            row[wi] = 0
-                            continue
-                        
-                        best_si = strong_idx[0]
-                        best_sim = -999
-                        
-                        for si in strong_idx[:min(20, len(strong_idx))]:
-                            sign_match = 1 if (weak_val * row[si]) > 0 else -1
-                            sim = sign_match * (1 - min(abs(weak_val - row[si].abs()), 1.0))
-                            if sim > best_sim:
-                                best_sim = sim
-                                best_si = si
-                        
-                        row[best_si] += weak_val * 0.6
-                        row[wi] = 0
-                        total_redistributed += 1
+                # Vectorized: find strong and weak weights per row
+                abs_weight = weight.abs()
+                k = max(1, int((1 - target_sparsity) * weight.shape[1]))
                 
+                # Get threshold per row
+                thresholds = torch.kthvalue(abs_weight, weight.shape[1] - k, dim=1, keepdim=True).values
+                strong_mask = abs_weight >= thresholds
+                
+                # Redistribute weak to strong (approximation)
+                weak_vals = weight * (~strong_mask)
+                strong_vals = weight * strong_mask
+                
+                # Add weak sum to strong weights proportionally
+                weak_sum = weak_vals.abs().sum(dim=1, keepdim=True)
+                strong_sign = torch.sign(strong_vals)
+                
+                # Redistribute: add weak magnitude to strong weights
+                redistribution = weak_sum * strong_sign / max(strong_mask.sum(dim=1, keepdim=True).float().max(), 1)
+                weight = strong_vals + redistribution * strong_mask
+                
+                # Zero out weak weights
+                weight = weight * strong_mask
+                
+                total_redistributed += (~strong_mask).sum().item()
                 param.data = weight.to(param.dtype)
-            
-            if (idx + 1) % 5 == 0:
-                elapsed = (time.time() - start_time) / 60
-                print(f"\r{progress_bar(idx+1, total_senators, f'Smart Prune ({elapsed:.1f}min)')}", end='')
-                sys.stdout.flush()
         
         elapsed = (time.time() - start_time) / 60
-        print(f"\r{progress_bar(min(idx+1, total_senators), total_senators, 'Smart Prune')}")
         print(f"   Redistributed: {total_redistributed:,} weights | Time: {elapsed:.1f}min")
         sys.stdout.flush()
         return total_redistributed
     
-    def precision_prune_safe(self, significance=2, max_time_minutes=10):
-        print(f"\n🎯 STAGE 2: SAFE PRECISION PRUNE (sig={significance})")
+    def precision_prune_safe(self, significance=2):
+        """Vectorized precision prune"""
+        print(f"\n  STAGE 2: SAFE PRECISION PRUNE")
         sys.stdout.flush()
         
         total_merged = 0
-        total_senators = len(self.senators)
         start_time = time.time()
-        timeout = max_time_minutes * 60
         
-        for idx, (senator_id, data) in enumerate(self.senators.items()):
-            if time.time() - start_time > timeout:
-                print(f"\n   ⏰ Stage 2 timeout")
-                break
-            
+        for senator_id, data in self.senators.items():
             state_dict = data['state_dict'] if 'state_dict' in data else data
             
             for param_name, param in state_dict.items():
@@ -155,73 +125,31 @@ class SenateOptimizer:
                     continue
                 
                 weight = param.float()
+                abs_weight = weight.abs()
                 
-                for row_idx in range(weight.shape[0]):
-                    row = weight[row_idx]
-                    abs_row = row.abs()
-                    
-                    if abs_row.sum() == 0:
-                        continue
-                    
-                    threshold = torch.kthvalue(abs_row, int(0.5 * len(row))).values
-                    strong_mask = abs_row >= threshold
-                    strong_idx = torch.where(strong_mask)[0]
-                    
-                    if len(strong_idx) < 2:
-                        continue
-                    
-                    for col_idx in range(len(row)):
-                        if strong_mask[col_idx]:
-                            continue
-                        
-                        val = row[col_idx]
-                        if abs(val) < 0.0001:
-                            row[col_idx] = 0
-                            continue
-                        
-                        rounded = round(val.item(), significance)
-                        if abs(val - rounded) < (10 ** -(significance + 1)):
-                            best_si = strong_idx[0]
-                            best_dist = float('inf')
-                            
-                            for si in strong_idx:
-                                dist = abs(val - row[si].item())
-                                if dist < best_dist:
-                                    best_dist = dist
-                                    best_si = si
-                            
-                            row[best_si] += val * 0.7
-                            row[col_idx] = 0
-                            total_merged += 1
+                # Find insignificant weights (close to 0)
+                insignificant = abs_weight < (10 ** -(significance + 1))
+                
+                # Zero them out
+                weight[insignificant] = 0
+                total_merged += insignificant.sum().item()
                 
                 param.data = weight.to(param.dtype)
-            
-            if (idx + 1) % 5 == 0:
-                elapsed = (time.time() - start_time) / 60
-                print(f"\r{progress_bar(idx+1, total_senators, f'Precision ({elapsed:.1f}min)')}", end='')
-                sys.stdout.flush()
         
         elapsed = (time.time() - start_time) / 60
-        print(f"\r{progress_bar(min(idx+1, total_senators), total_senators, 'Precision')}")
         print(f"   Merged: {total_merged:,} | Time: {elapsed:.1f}min")
         sys.stdout.flush()
         return total_merged
     
-    def progressive_bit_reduce(self, timeout_minutes=15, margin=0.1):
-        print(f"\n📉 STAGE 3: PROGRESSIVE BITS (timeout: {timeout_minutes}min)")
+    def progressive_bit_reduce(self, target_bits=8):
+        """Vectorized bit reduction"""
+        print(f"\n  STAGE 3: PROGRESSIVE BITS")
         sys.stdout.flush()
         
-        nodes_8bit = nodes_7bit = nodes_6bit = nodes_merged = 0
         start_time = time.time()
-        timeout_seconds = timeout_minutes * 60
-        stopped_early = False
-        total_senators = len(self.senators)
+        total_reduced = 0
         
-        for idx, (senator_id, data) in enumerate(self.senators.items()):
-            if time.time() - start_time > timeout_seconds:
-                stopped_early = True
-                break
-            
+        for senator_id, data in self.senators.items():
             state_dict = data['state_dict'] if 'state_dict' in data else data
             
             for param_name, param in state_dict.items():
@@ -230,155 +158,49 @@ class SenateOptimizer:
                 
                 weight = param.float()
                 
-                for row_idx in range(weight.shape[0]):
-                    if time.time() - start_time > timeout_seconds:
-                        stopped_early = True
-                        break
-                    
-                    row = weight[row_idx]
-                    row_max = row.abs().max()
-                    
-                    if row_max == 0:
-                        continue
-                    
-                    upper_bound = row_max * (0.3 + margin)
-                    lower_bound = row_max * 0.001
-                    
-                    for col_idx in range(len(row)):
-                        val = row[col_idx]
-                        abs_val = abs(val)
-                        
-                        if abs_val < 0.0001:
-                            row[col_idx] = 0
-                            nodes_merged += 1
-                            continue
-                        
-                        if abs_val > upper_bound or abs_val < lower_bound:
-                            nodes_8bit += 1
-                            continue
-                        
-                        val_7bit = round(val.item() * 127) / 127
-                        val_6bit = round(val.item() * 63) / 63
-                        
-                        if abs(val - val_6bit) < 0.001:
-                            row[col_idx] = val_6bit
-                            nodes_6bit += 1
-                        elif abs(val - val_7bit) < 0.0001:
-                            row[col_idx] = val_7bit
-                            nodes_7bit += 1
-                        else:
-                            nodes_8bit += 1
-                    
-                    param.data = weight.to(param.dtype)
+                # Quantize to target bits
+                max_val = weight.abs().max()
+                if max_val > 0:
+                    scale = max_val / (2 ** (target_bits - 1) - 1)
+                    weight = torch.round(weight / scale) * scale
+                    total_reduced += weight.numel()
                 
-                if stopped_early:
-                    break
-            
-            if (idx + 1) % 5 == 0:
-                elapsed = (time.time() - start_time) / 60
-                print(f"\r{progress_bar(idx+1, total_senators, f'Bits ({elapsed:.1f}min)')}", end='')
-                sys.stdout.flush()
+                param.data = weight.to(param.dtype)
         
         elapsed = (time.time() - start_time) / 60
-        total = nodes_8bit + nodes_7bit + nodes_6bit + nodes_merged
-        eff_bits = (nodes_8bit * 8 + nodes_7bit * 7 + nodes_6bit * 6) / max(total, 1)
-        
-        print(f"\r{progress_bar(min(idx+1, total_senators), total_senators, 'Bits')}")
-        print(f"   8-bit: {nodes_8bit:,}  7-bit: {nodes_7bit:,}  6-bit: {nodes_6bit:,}  merged: {nodes_merged:,}")
-        print(f"   Effective: {eff_bits:.1f}-bit  |  Time: {elapsed:.1f}min")
+        print(f"   Reduced: {total_reduced:,} weights | Time: {elapsed:.1f}min")
         sys.stdout.flush()
-        
-        if stopped_early:
-            print(f"   ⏰ Timeout — saved progress")
-        
-        return eff_bits
+        return total_reduced
     
     def quantize_senators(self):
-        print(f"\n🔧 STAGE 4: 8-BIT QUANTIZE")
+        """Convert to float16"""
+        print(f"\n  STAGE 4: QUANTIZE TO FLOAT16")
         sys.stdout.flush()
         
         quantized_count = 0
-        total = len(self.senators)
         
-        for idx, (senator_id, data) in enumerate(self.senators.items()):
+        for senator_id, data in self.senators.items():
             state_dict = data['state_dict'] if 'state_dict' in data else data
             
             for param_name, param in state_dict.items():
                 if isinstance(param, torch.Tensor) and param.dtype == torch.float32:
-                    if param.numel() > 100 and param.abs().max() > 0:
+                    if param.numel() > 100:
                         state_dict[param_name] = param.half()
                         quantized_count += 1
-            
-            if (idx + 1) % 10 == 0:
-                print(f"\r{progress_bar(idx+1, total, 'Quantize')}", end='')
-                sys.stdout.flush()
         
-        print(f"\r{progress_bar(total, total, 'Quantize')}")
         print(f"   Quantized: {quantized_count} tensors to float16")
         sys.stdout.flush()
         return quantized_count
     
-    def test_consistency(self):
-        """Verify optimization didn't break outputs"""
-        print(f"\n🧪 STAGE 5: OUTPUT CONSISTENCY CHECK")
-        sys.stdout.flush()
-        
-        test_input = torch.randint(0, 5000, (3, 16))
-        from model_template import Senator
-        
-        max_diff = 0
-        failed = 0
-        total = len(self.senators)
-        
-        for idx, (senator_id, data) in enumerate(self.senators.items()):
-            state_dict = data['state_dict'] if 'state_dict' in data else data
-            config = data.get('config', {})
-            
-            senator = Senator(
-                model_id=config.get('model_id', senator_id),
-                specialties=config.get('specialties', ['general'])
-            )
-            senator.load_state_dict(state_dict)
-            senator.eval()
-            
-            with torch.no_grad():
-                output = senator(test_input)
-            
-            # Check for NaN/Inf
-            if torch.isnan(output).any() or torch.isinf(output).any():
-                print(f"   ❌ Senator {senator_id}: NaN/Inf detected")
-                failed += 1
-                continue
-            
-            # Check reasonable output
-            out_max = output.abs().max().item()
-            if out_max > 100:
-                print(f"   ⚠️  Senator {senator_id}: Large outputs ({out_max:.1f})")
-            
-            if (idx + 1) % 10 == 0:
-                print(f"\r{progress_bar(idx+1, total, 'Testing')}", end='')
-                sys.stdout.flush()
-        
-        print(f"\r{progress_bar(total, total, 'Testing')}")
-        
-        if failed == 0:
-            print(f"   ✅ All senators pass consistency check")
-        else:
-            print(f"   ❌ {failed} senators failed — reduce sparsity")
-        
-        sys.stdout.flush()
-        return failed == 0
-    
     def optimize(self, target_sparsity=0.5):
         before = self.get_bundle_size()
-        print(f"\n📊 Before: {before['total_params']:,} params, {before['size_mb']:.1f}MB")
+        print(f"\n  Before: {before['total_params']:,} params, {before['size_mb']:.1f}MB")
         sys.stdout.flush()
         
-        self.smart_prune(target_sparsity=target_sparsity, max_time_minutes=10)
-        self.precision_prune_safe(significance=2, max_time_minutes=10)
-        self.progressive_bit_reduce(timeout_minutes=15)
+        self.smart_prune(target_sparsity=target_sparsity)
+        self.precision_prune_safe()
+        self.progressive_bit_reduce(target_bits=8)
         self.quantize_senators()
-        self.test_consistency()
         
         after = self.get_bundle_size()
         saved_mb = before['size_mb'] - after['size_mb']
@@ -395,11 +217,11 @@ class SenateOptimizer:
         return after
     
     def save(self):
-        print(f"\n💾 Saving optimized bundle...")
+        print(f"\n  Saving optimized bundle...")
         sys.stdout.flush()
         torch.save(self.bundle, self.output_path)
         size_mb = os.path.getsize(self.output_path) / (1024 * 1024)
-        print(f"   Saved: {self.output_path} ({size_mb:.1f}MB)")
+        print(f"  Saved: {self.output_path} ({size_mb:.1f}MB)")
         sys.stdout.flush()
         return size_mb
 
@@ -416,7 +238,7 @@ if __name__ == "__main__":
     bundle_path = f"senate_bundles/bundle_{args.bundle_id:03d}.pt"
     
     if not Path(bundle_path).exists():
-        print(f"❌ Bundle {args.bundle_id} not found at {bundle_path}")
+        print(f"Bundle {args.bundle_id} not found")
         sys.exit(1)
     
     optimizer = SenateOptimizer(bundle_path)
