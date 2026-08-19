@@ -94,11 +94,11 @@ jobs:
           git stash
           git pull --rebase origin main
           git stash pop || true
-          git add debate_result.json
+          git add -f debate_result.json
           git commit -m "Debate result" || echo "No changes"
           git push || {
             git pull --rebase origin main
-            git add debate_result.json
+            git add -f debate_result.json
             git commit -m "Debate result retry" || echo "No changes"
             git push
           }
