@@ -64349,8 +64349,1160 @@
       "first_seen": "2001 Azor attack",
       "has_definition": true,
       "definition": "Of or pertaining to a vehicle or vehicles, usually specifically cars and trucks."
+    },
+    "prioritize": {
+      "token_id": 4088,
+      "first_seen": "Station wagon",
+      "has_definition": true,
+      "definition": "To arrange or list a group of things in order of priority or importance."
+    },
+    "lid": {
+      "token_id": 30,
+      "first_seen": "Station wagon",
+      "has_definition": true,
+      "definition": "A thin skin membrane that covers and moves over an eye."
+    },
+    "flexibly": {
+      "token_id": 4424,
+      "first_seen": "Station wagon",
+      "has_definition": true,
+      "definition": "In a flexible manner"
+    },
+    "shared": {
+      "token_id": 5654,
+      "first_seen": "Station wagon",
+      "has_definition": true,
+      "definition": "To give part of what one has to somebody else to use or consume."
+    },
+    "boot": {
+      "token_id": 6314,
+      "first_seen": "Station wagon",
+      "has_definition": true,
+      "definition": "A heavy shoe that covers part of the leg."
+    },
+    "rearward": {
+      "token_id": 3909,
+      "first_seen": "Station wagon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wagons": {
+      "token_id": 5310,
+      "first_seen": "Station wagon",
+      "has_definition": true,
+      "definition": "A four-wheeled cart for hauling loads."
+    },
+    "variant": {
+      "token_id": 7520,
+      "first_seen": "Station wagon",
+      "has_definition": true,
+      "definition": "Something that is slightly different from a type or norm."
+    },
+    "reconfigure": {
+      "token_id": 3158,
+      "first_seen": "Station wagon",
+      "has_definition": true,
+      "definition": "To arrange into a new configuration."
+    },
+    "fold": {
+      "token_id": 2382,
+      "first_seen": "Station wagon",
+      "has_definition": true,
+      "definition": "An act of folding."
+    },
+    "pillar": {
+      "token_id": 3342,
+      "first_seen": "Station wagon",
+      "has_definition": true,
+      "definition": "A large post, often used as supporting architecture."
+    },
+    "transforms": {
+      "token_id": 5634,
+      "first_seen": "Station wagon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sinclair": {
+      "token_id": 2195,
+      "first_seen": "I'm More Sober When I'm Drunk",
+      "has_definition": false,
+      "definition": ""
+    },
+    "drunk": {
+      "token_id": 2405,
+      "first_seen": "I'm More Sober When I'm Drunk",
+      "has_definition": true,
+      "definition": "To consume (a liquid) through the mouth."
+    },
+    "chill": {
+      "token_id": 5499,
+      "first_seen": "I'm More Sober When I'm Drunk",
+      "has_definition": true,
+      "definition": "A moderate, but uncomfortable and penetrating coldness."
+    },
+    "mandopop": {
+      "token_id": 6860,
+      "first_seen": "I'm More Sober When I'm Drunk",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aven": {
+      "token_id": 2814,
+      "first_seen": "I'm More Sober When I'm Drunk",
+      "has_definition": false,
+      "definition": ""
+    },
+    "compromising": {
+      "token_id": 6234,
+      "first_seen": "I'm More Sober When I'm Drunk",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sober": {
+      "token_id": 679,
+      "first_seen": "I'm More Sober When I'm Drunk",
+      "has_definition": true,
+      "definition": "(often with up) To make or become sober."
+    },
+    "ingrained": {
+      "token_id": 7886,
+      "first_seen": "I'm More Sober When I'm Drunk",
+      "has_definition": true,
+      "definition": "To dye with a fast or lasting colour."
+    },
+    "edm": {
+      "token_id": 7154,
+      "first_seen": "I'm More Sober When I'm Drunk",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wei": {
+      "token_id": 2484,
+      "first_seen": "I'm More Sober When I'm Drunk",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trap": {
+      "token_id": 914,
+      "first_seen": "I'm More Sober When I'm Drunk",
+      "has_definition": true,
+      "definition": "A machine or other device designed to catch (and sometimes kill) animals, either by holding them in a container, or by catching hold of part of the body."
+    },
+    "thune": {
+      "token_id": 4319,
+      "first_seen": "Merville, Nord",
+      "has_definition": false,
+      "definition": ""
+    },
+    "merville": {
+      "token_id": 5873,
+      "first_seen": "Merville, Nord",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cliff": {
+      "token_id": 7395,
+      "first_seen": "Another Cycle",
+      "has_definition": true,
+      "definition": "A vertical (or nearly vertical) rock face."
+    },
+    "cycle": {
+      "token_id": 2979,
+      "first_seen": "Another Cycle",
+      "has_definition": true,
+      "definition": "An interval of space or time in which one set of events or phenomena is completed."
+    },
+    "goldfish": {
+      "token_id": 1452,
+      "first_seen": "Revenge of the Goldfish",
+      "has_definition": true,
+      "definition": "A type of small fish, Carassius auratus, typically orange-colored."
+    },
+    "carpets": {
+      "token_id": 5824,
+      "first_seen": "Revenge of the Goldfish",
+      "has_definition": true,
+      "definition": "A fabric used as a complete floor covering."
+    },
+    "sunscreem": {
+      "token_id": 2954,
+      "first_seen": "Revenge of the Goldfish",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inspiral": {
+      "token_id": 7853,
+      "first_seen": "Revenge of the Goldfish",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mute": {
+      "token_id": 3341,
+      "first_seen": "Revenge of the Goldfish",
+      "has_definition": true,
+      "definition": "A stopped consonant; a stop."
+    },
+    "revenge": {
+      "token_id": 7904,
+      "first_seen": "Revenge of the Goldfish",
+      "has_definition": true,
+      "definition": "Any form of personal retaliatory action against an individual, institution, or group for some alleged or perceived harm or injustice."
+    },
+    "nirav": {
+      "token_id": 964,
+      "first_seen": "Nirav D. Shah",
+      "has_definition": false,
+      "definition": ""
+    },
+    "epidemiologist": {
+      "token_id": 41,
+      "first_seen": "Nirav D. Shah",
+      "has_definition": true,
+      "definition": "A scientist (often a medical doctor) who specializes in epidemiology."
+    },
+    "dinesh": {
+      "token_id": 1135,
+      "first_seen": "Nirav D. Shah",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stroke": {
+      "token_id": 7236,
+      "first_seen": "Don't Say No (album)",
+      "has_definition": true,
+      "definition": "An act of stroking (moving one's hand over a surface)."
+    },
+    "lover": {
+      "token_id": 673,
+      "first_seen": "Don't Say No (album)",
+      "has_definition": true,
+      "definition": "One who loves and cares for another person in a romantic way; a sweetheart, love, soulmate, boyfriend, girlfriend or spouse."
+    },
+    "squier": {
+      "token_id": 7677,
+      "first_seen": "Don't Say No (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kinda": {
+      "token_id": 6220,
+      "first_seen": "Don't Say No (album)",
+      "has_definition": true,
+      "definition": "Kind of; somewhat"
+    },
+    "lonely": {
+      "token_id": 7720,
+      "first_seen": "Don't Say No (album)",
+      "has_definition": true,
+      "definition": "Unhappy because of feeling isolated from contact with other people."
+    },
+    "knaresborough": {
+      "token_id": 337,
+      "first_seen": "Commercial Hotel, Knaresborough",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pub": {
+      "token_id": 310,
+      "first_seen": "Commercial Hotel, Knaresborough",
+      "has_definition": true,
+      "definition": "A public house where beverages, primarily alcoholic, may be bought and consumed, also providing food and sometimes entertainment such as live music or television."
+    },
+    "yorkshire": {
+      "token_id": 1409,
+      "first_seen": "Commercial Hotel, Knaresborough",
+      "has_definition": false,
+      "definition": ""
+    },
+    "crew": {
+      "token_id": 1839,
+      "first_seen": "HMS Harpy (1796)",
+      "has_definition": true,
+      "definition": "To make the shrill sound characteristic of a rooster; to make a sound in this manner, either in gaiety, joy, pleasure, or defiance."
+    },
+    "diligence": {
+      "token_id": 7963,
+      "first_seen": "HMS Harpy (1796)",
+      "has_definition": true,
+      "definition": "Steady application; industry; careful work involving long-term effort."
+    },
+    "brig": {
+      "token_id": 5733,
+      "first_seen": "HMS Harpy (1796)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "travelled": {
+      "token_id": 3584,
+      "first_seen": "HMS Harpy (1796)",
+      "has_definition": true,
+      "definition": "To be on a journey, often for pleasure or business and with luggage; to go from one place to another."
+    },
+    "captured": {
+      "token_id": 151,
+      "first_seen": "HMS Harpy (1796)",
+      "has_definition": true,
+      "definition": "To take control of; to seize by force or stratagem."
+    },
+    "privateers": {
+      "token_id": 7302,
+      "first_seen": "HMS Harpy (1796)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hms": {
+      "token_id": 1601,
+      "first_seen": "HMS Harpy (1796)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "java": {
+      "token_id": 3446,
+      "first_seen": "HMS Harpy (1796)",
+      "has_definition": true,
+      "definition": "A blend of coffee imported from the island of Java."
+    },
+    "sloop": {
+      "token_id": 5440,
+      "first_seen": "HMS Harpy (1796)",
+      "has_definition": true,
+      "definition": "A single-masted sailboat with only one headsail."
+    },
+    "clasp": {
+      "token_id": 6544,
+      "first_seen": "HMS Harpy (1796)",
+      "has_definition": true,
+      "definition": "A fastener or holder, particularly one that clasps."
+    },
+    "telegraph": {
+      "token_id": 2002,
+      "first_seen": "Overland Telegraph (book)",
+      "has_definition": true,
+      "definition": "An apparatus, or a process, for communicating rapidly between distant points, especially by means of established visible or audible signals representing words or ideas, or by means of words and signs, transmitted by electrical means."
+    },
+    "clune": {
+      "token_id": 6357,
+      "first_seen": "Overland Telegraph (book)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "overland": {
+      "token_id": 5428,
+      "first_seen": "Overland Telegraph (book)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "worldteams": {
+      "token_id": 7808,
+      "first_seen": "List of teams and cyclists in the 2023 Tour de France",
+      "has_definition": false,
+      "definition": ""
+    },
+    "organisers": {
+      "token_id": 2467,
+      "first_seen": "List of teams and cyclists in the 2023 Tour de France",
+      "has_definition": true,
+      "definition": "A person who arranges the details of a public event."
+    },
+    "automatically": {
+      "token_id": 2741,
+      "first_seen": "List of teams and cyclists in the 2023 Tour de France",
+      "has_definition": true,
+      "definition": "In an automatic manner."
+    },
+    "proteams": {
+      "token_id": 1722,
+      "first_seen": "List of teams and cyclists in the 2023 Tour de France",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aso": {
+      "token_id": 4665,
+      "first_seen": "List of teams and cyclists in the 2023 Tour de France",
+      "has_definition": false,
+      "definition": ""
+    },
+    "amaury": {
+      "token_id": 2509,
+      "first_seen": "List of teams and cyclists in the 2023 Tour de France",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ishaan": {
+      "token_id": 6062,
+      "first_seen": "Ishaan Singh Manhas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sarvagun": {
+      "token_id": 206,
+      "first_seen": "Ishaan Singh Manhas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chandra": {
+      "token_id": 3314,
+      "first_seen": "Ishaan Singh Manhas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aasmaan": {
+      "token_id": 1435,
+      "first_seen": "Ishaan Singh Manhas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mere": {
+      "token_id": 3226,
+      "first_seen": "Ishaan Singh Manhas",
+      "has_definition": true,
+      "definition": "A body of standing water, such as a lake or a pond. More specifically, it can refer to a lake that is broad in relation to its depth. Also included in place names such as Windermere."
+    },
+    "mutthi": {
+      "token_id": 4674,
+      "first_seen": "Ishaan Singh Manhas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nandini": {
+      "token_id": 5406,
+      "first_seen": "Ishaan Singh Manhas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sampanna": {
+      "token_id": 7333,
+      "first_seen": "Ishaan Singh Manhas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "angne": {
+      "token_id": 1782,
+      "first_seen": "Ishaan Singh Manhas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mein": {
+      "token_id": 466,
+      "first_seen": "Ishaan Singh Manhas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bhram": {
+      "token_id": 6540,
+      "first_seen": "Ishaan Singh Manhas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "manhas": {
+      "token_id": 3887,
+      "first_seen": "Ishaan Singh Manhas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "charland": {
+      "token_id": 4390,
+      "first_seen": "Richard Charland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pantera": {
+      "token_id": 5553,
+      "first_seen": "I'm Broken",
+      "has_definition": false,
+      "definition": ""
+    },
+    "beyond": {
+      "token_id": 6916,
+      "first_seen": "I'm Broken",
+      "has_definition": true,
+      "definition": "The unknown."
+    },
+    "chaz": {
+      "token_id": 2763,
+      "first_seen": "Toro y Moi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "washed": {
+      "token_id": 1619,
+      "first_seen": "Toro y Moi",
+      "has_definition": true,
+      "definition": "To clean with water."
+    },
+    "phrase": {
+      "token_id": 957,
+      "first_seen": "Toro y Moi",
+      "has_definition": true,
+      "definition": "A short written or spoken expression."
+    },
+    "moi": {
+      "token_id": 55,
+      "first_seen": "Toro y Moi",
+      "has_definition": true,
+      "definition": "(often used questioningly to express mock surprise) Me."
+    },
+    "neon": {
+      "token_id": 5024,
+      "first_seen": "Toro y Moi",
+      "has_definition": true,
+      "definition": "The chemical element (symbol Ne) with an atomic number of 10. The lightest of the noble gases, it is a colourless, odorless inert gas."
+    },
+    "incorporated": {
+      "token_id": 6033,
+      "first_seen": "Toro y Moi",
+      "has_definition": true,
+      "definition": "To include (something) as a part."
+    },
+    "toro": {
+      "token_id": 4618,
+      "first_seen": "Toro y Moi",
+      "has_definition": true,
+      "definition": "A traditional Japanese lantern."
+    },
+    "chillwave": {
+      "token_id": 2928,
+      "first_seen": "Toro y Moi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "glay": {
+      "token_id": 7622,
+      "first_seen": "Drive: Glay Complete Best",
+      "has_definition": false,
+      "definition": ""
+    },
+    "discs": {
+      "token_id": 6002,
+      "first_seen": "Drive: Glay Complete Best",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oricon": {
+      "token_id": 6697,
+      "first_seen": "Drive: Glay Complete Best",
+      "has_definition": false,
+      "definition": ""
+    },
+    "riaj": {
+      "token_id": 152,
+      "first_seen": "Drive: Glay Complete Best",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gymnosperm": {
+      "token_id": 4810,
+      "first_seen": "Softwood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "angiosperm": {
+      "token_id": 2300,
+      "first_seen": "Softwood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "difference": {
+      "token_id": 786,
+      "first_seen": "Softwood",
+      "has_definition": true,
+      "definition": "The quality of being different."
+    },
+    "conifers": {
+      "token_id": 2648,
+      "first_seen": "Softwood",
+      "has_definition": true,
+      "definition": "A plant belonging to the order Coniferales; a cone-bearing seed plant with vascular tissue, usually a tree."
+    },
+    "softwood": {
+      "token_id": 7144,
+      "first_seen": "Softwood",
+      "has_definition": true,
+      "definition": "The wood from any conifer (or from Ginkgo), without regard to how soft this wood is."
+    },
+    "hardwoods": {
+      "token_id": 1054,
+      "first_seen": "Softwood",
+      "has_definition": true,
+      "definition": "(mostly in botany and forestry) The wood from any dicotyledonous tree, without regard to its hardness."
+    },
+    "resin": {
+      "token_id": 6741,
+      "first_seen": "Softwood",
+      "has_definition": true,
+      "definition": "A viscous hydrocarbon secretion of many plants, particularly coniferous trees."
+    },
+    "hardwood": {
+      "token_id": 4689,
+      "first_seen": "Softwood",
+      "has_definition": true,
+      "definition": "(mostly in botany and forestry) The wood from any dicotyledonous tree, without regard to its hardness."
+    },
+    "opposed": {
+      "token_id": 6647,
+      "first_seen": "Softwood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "softwoods": {
+      "token_id": 6157,
+      "first_seen": "Softwood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vessels": {
+      "token_id": 5452,
+      "first_seen": "Softwood",
+      "has_definition": true,
+      "definition": "Any craft designed for transportation on water, such as a ship or boat."
+    },
+    "pores": {
+      "token_id": 6577,
+      "first_seen": "Softwood",
+      "has_definition": true,
+      "definition": "A tiny opening in the skin."
+    },
+    "canals": {
+      "token_id": 7282,
+      "first_seen": "Softwood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "drunks": {
+      "token_id": 6798,
+      "first_seen": "Jack Norton",
+      "has_definition": true,
+      "definition": "One who is intoxicated with alcohol."
+    },
+    "norton": {
+      "token_id": 3320,
+      "first_seen": "Jack Norton",
+      "has_definition": false,
+      "definition": ""
+    },
+    "teetotaler": {
+      "token_id": 1112,
+      "first_seen": "Jack Norton",
+      "has_definition": false,
+      "definition": ""
+    },
+    "denoted": {
+      "token_id": 4330,
+      "first_seen": "Subdwarf",
+      "has_definition": true,
+      "definition": "To indicate; to mark."
+    },
+    "diagram": {
+      "token_id": 2652,
+      "first_seen": "Subdwarf",
+      "has_definition": true,
+      "definition": "A plan, drawing, sketch or outline to show how something works, or show the relationships between the parts of a whole."
+    },
+    "luminosity": {
+      "token_id": 1116,
+      "first_seen": "Subdwarf",
+      "has_definition": true,
+      "definition": "The state of being luminous, or a luminous object; brilliance or radiance"
+    },
+    "hertzsprung": {
+      "token_id": 7372,
+      "first_seen": "Subdwarf",
+      "has_definition": false,
+      "definition": ""
+    },
+    "subdwarf": {
+      "token_id": 5609,
+      "first_seen": "Subdwarf",
+      "has_definition": false,
+      "definition": ""
+    },
+    "defined": {
+      "token_id": 4254,
+      "first_seen": "Subdwarf",
+      "has_definition": false,
+      "definition": ""
+    },
+    "subdwarfs": {
+      "token_id": 2531,
+      "first_seen": "Subdwarf",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yerkes": {
+      "token_id": 4688,
+      "first_seen": "Subdwarf",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sequence": {
+      "token_id": 800,
+      "first_seen": "Subdwarf",
+      "has_definition": true,
+      "definition": "A set of things next to each other in a set order; a series"
+    },
+    "spectral": {
+      "token_id": 1455,
+      "first_seen": "Subdwarf",
+      "has_definition": false,
+      "definition": ""
+    },
+    "keying": {
+      "token_id": 1164,
+      "first_seen": "Amplitude and phase-shift keying",
+      "has_definition": true,
+      "definition": "To fit (a lock) with a key."
+    },
+    "modulation": {
+      "token_id": 3724,
+      "first_seen": "Amplitude and phase-shift keying",
+      "has_definition": true,
+      "definition": "The process of applying a signal to a carrier, modulating."
+    },
+    "shift": {
+      "token_id": 5494,
+      "first_seen": "Amplitude and phase-shift keying",
+      "has_definition": true,
+      "definition": "A modifier key whose main function is shifting between two or more functions of any of certain other keys (usually by pressing Shift and the other button simultaneously)."
+    },
+    "conveys": {
+      "token_id": 5581,
+      "first_seen": "Amplitude and phase-shift keying",
+      "has_definition": true,
+      "definition": "To move (something) from one place to another."
+    },
+    "rate": {
+      "token_id": 2906,
+      "first_seen": "Amplitude and phase-shift keying",
+      "has_definition": true,
+      "definition": "The worth of something; value."
+    },
+    "signal": {
+      "token_id": 141,
+      "first_seen": "Amplitude and phase-shift keying",
+      "has_definition": true,
+      "definition": "A sequence of states representing an encoded message in a communication channel."
+    },
+    "ask": {
+      "token_id": 6017,
+      "first_seen": "Amplitude and phase-shift keying",
+      "has_definition": true,
+      "definition": "An act or instance of asking."
+    },
+    "psk": {
+      "token_id": 6224,
+      "first_seen": "Amplitude and phase-shift keying",
+      "has_definition": false,
+      "definition": ""
+    },
+    "amplitude": {
+      "token_id": 1632,
+      "first_seen": "Amplitude and phase-shift keying",
+      "has_definition": false,
+      "definition": ""
+    },
+    "apsk": {
+      "token_id": 7163,
+      "first_seen": "Amplitude and phase-shift keying",
+      "has_definition": false,
+      "definition": ""
+    },
+    "modulating": {
+      "token_id": 37,
+      "first_seen": "Amplitude and phase-shift keying",
+      "has_definition": true,
+      "definition": "To regulate, adjust or adapt"
+    },
+    "error": {
+      "token_id": 4595,
+      "first_seen": "Amplitude and phase-shift keying",
+      "has_definition": true,
+      "definition": "The state, quality, or condition of being wrong."
+    },
+    "complexity": {
+      "token_id": 5976,
+      "first_seen": "Amplitude and phase-shift keying",
+      "has_definition": true,
+      "definition": "The state of being complex; intricacy; entanglement."
+    },
+    "cosmic": {
+      "token_id": 3022,
+      "first_seen": "Death (Marvel Cinematic Universe)",
+      "has_definition": true,
+      "definition": "Of or from or pertaining to the cosmos or universe."
+    },
+    "universe": {
+      "token_id": 3524,
+      "first_seen": "Death (Marvel Cinematic Universe)",
+      "has_definition": true,
+      "definition": "Our universe, the sum of everything that exists in the cosmos, including time and space itself."
+    },
+    "aubrey": {
+      "token_id": 5601,
+      "first_seen": "Death (Marvel Cinematic Universe)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thor": {
+      "token_id": 3426,
+      "first_seen": "Death (Marvel Cinematic Universe)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "personification": {
+      "token_id": 6420,
+      "first_seen": "Death (Marvel Cinematic Universe)",
+      "has_definition": true,
+      "definition": "A person, thing or name typifying a certain quality or idea; an embodiment or exemplification."
+    },
+    "guardians": {
+      "token_id": 7372,
+      "first_seen": "Death (Marvel Cinematic Universe)",
+      "has_definition": true,
+      "definition": "Someone who guards, watches over, or protects."
+    },
+    "vidal": {
+      "token_id": 7404,
+      "first_seen": "Death (Marvel Cinematic Universe)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "likenesses": {
+      "token_id": 787,
+      "first_seen": "Death (Marvel Cinematic Universe)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mcu": {
+      "token_id": 6823,
+      "first_seen": "Death (Marvel Cinematic Universe)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "agatha": {
+      "token_id": 4284,
+      "first_seen": "Death (Marvel Cinematic Universe)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "differ": {
+      "token_id": 970,
+      "first_seen": "Death (Marvel Cinematic Universe)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "totaling": {
+      "token_id": 2043,
+      "first_seen": "Pawnee National Grassland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "plains": {
+      "token_id": 5252,
+      "first_seen": "Pawnee National Grassland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "greeley": {
+      "token_id": 518,
+      "first_seen": "Pawnee National Grassland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "borders": {
+      "token_id": 1562,
+      "first_seen": "Pawnee National Grassland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ranger": {
+      "token_id": 6858,
+      "first_seen": "Pawnee National Grassland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "parcel": {
+      "token_id": 6146,
+      "first_seen": "Pawnee National Grassland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arapaho": {
+      "token_id": 4165,
+      "first_seen": "Pawnee National Grassland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "weld": {
+      "token_id": 6818,
+      "first_seen": "Pawnee National Grassland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "parcels": {
+      "token_id": 5553,
+      "first_seen": "Pawnee National Grassland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "platte": {
+      "token_id": 1486,
+      "first_seen": "Pawnee National Grassland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grassland": {
+      "token_id": 2898,
+      "first_seen": "Pawnee National Grassland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "labelmate": {
+      "token_id": 3017,
+      "first_seen": "Boppin' the Blues",
+      "has_definition": false,
+      "definition": ""
+    },
+    "curley": {
+      "token_id": 2888,
+      "first_seen": "Boppin' the Blues",
+      "has_definition": false,
+      "definition": ""
+    },
+    "griffin": {
+      "token_id": 3125,
+      "first_seen": "Boppin' the Blues",
+      "has_definition": false,
+      "definition": ""
+    },
+    "perkins": {
+      "token_id": 7375,
+      "first_seen": "Boppin' the Blues",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mama": {
+      "token_id": 3082,
+      "first_seen": "Boppin' the Blues",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boppin": {
+      "token_id": 6746,
+      "first_seen": "Boppin' the Blues",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sunset": {
+      "token_id": 6536,
+      "first_seen": "Shore Acres State Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arago": {
+      "token_id": 5534,
+      "first_seen": "Shore Acres State Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coos": {
+      "token_id": 213,
+      "first_seen": "Shore Acres State Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "khalq": {
+      "token_id": 132,
+      "first_seen": "Bala Hissar uprising",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rebellious": {
+      "token_id": 2757,
+      "first_seen": "Bala Hissar uprising",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mig": {
+      "token_id": 318,
+      "first_seen": "Bala Hissar uprising",
+      "has_definition": false,
+      "definition": ""
+    },
+    "afghan": {
+      "token_id": 7589,
+      "first_seen": "Bala Hissar uprising",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kabul": {
+      "token_id": 4269,
+      "first_seen": "Bala Hissar uprising",
+      "has_definition": false,
+      "definition": ""
+    },
+    "afghanistan": {
+      "token_id": 2513,
+      "first_seen": "Bala Hissar uprising",
+      "has_definition": false,
+      "definition": ""
+    },
+    "insurgents": {
+      "token_id": 2062,
+      "first_seen": "Bala Hissar uprising",
+      "has_definition": false,
+      "definition": ""
+    },
+    "infiltrated": {
+      "token_id": 2915,
+      "first_seen": "Bala Hissar uprising",
+      "has_definition": true,
+      "definition": "To surreptitiously penetrate, enter or gain access to."
+    },
+    "insurrection": {
+      "token_id": 6675,
+      "first_seen": "Bala Hissar uprising",
+      "has_definition": true,
+      "definition": "A violent uprising of part or all of a national population against the government or other authority."
+    },
+    "ruthless": {
+      "token_id": 7022,
+      "first_seen": "Bala Hissar uprising",
+      "has_definition": true,
+      "definition": "Without pity or compassion; cruel, pitiless."
+    },
+    "hissar": {
+      "token_id": 4665,
+      "first_seen": "Bala Hissar uprising",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bala": {
+      "token_id": 4457,
+      "first_seen": "Bala Hissar uprising",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bombardment": {
+      "token_id": 176,
+      "first_seen": "Bala Hissar uprising",
+      "has_definition": false,
+      "definition": ""
+    },
+    "insulation": {
+      "token_id": 3545,
+      "first_seen": "Electrical treeing",
+      "has_definition": true,
+      "definition": "The act of insulating; detachment from other objects; isolation."
+    },
+    "discharges": {
+      "token_id": 1572,
+      "first_seen": "Electrical treeing",
+      "has_definition": true,
+      "definition": "Pus or exudate (other than blood) from a wound or orifice, usually due to infection or pathology."
+    },
+    "progresses": {
+      "token_id": 4781,
+      "first_seen": "Electrical treeing",
+      "has_definition": true,
+      "definition": "To move, go, or proceed forward; to advance."
+    },
+    "mechanism": {
+      "token_id": 3444,
+      "first_seen": "Electrical treeing",
+      "has_definition": true,
+      "definition": "(within a machine or machinery) Any mechanical means for the conversion or control of motion, or the transmission or control of power."
+    },
+    "stressed": {
+      "token_id": 4254,
+      "first_seen": "Electrical treeing",
+      "has_definition": true,
+      "definition": "To apply force to (a body or structure) causing strain."
+    },
+    "breakdown": {
+      "token_id": 7936,
+      "first_seen": "Electrical treeing",
+      "has_definition": false,
+      "definition": ""
+    },
+    "phenomenon": {
+      "token_id": 5412,
+      "first_seen": "Electrical treeing",
+      "has_definition": true,
+      "definition": "A thing or being, event or process, perceptible through senses; or a fact or occurrence thereof."
+    },
+    "damaging": {
+      "token_id": 1523,
+      "first_seen": "Electrical treeing",
+      "has_definition": true,
+      "definition": "To impair the soundness, goodness, or value of; to harm or cause destruction."
+    },
+    "treeing": {
+      "token_id": 2756,
+      "first_seen": "Electrical treeing",
+      "has_definition": false,
+      "definition": ""
+    },
+    "resembling": {
+      "token_id": 6054,
+      "first_seen": "Electrical treeing",
+      "has_definition": true,
+      "definition": "To be like or similar to (something); to represent as similar."
+    },
+    "cables": {
+      "token_id": 3911,
+      "first_seen": "Electrical treeing",
+      "has_definition": true,
+      "definition": "(material) A long object used to make a physical connection."
+    },
+    "dielectric": {
+      "token_id": 2933,
+      "first_seen": "Electrical treeing",
+      "has_definition": true,
+      "definition": "An electrically insulating or nonconducting material considered for its electric susceptibility, i.e. its property of polarization when exposed to an external electric field."
+    },
+    "crow": {
+      "token_id": 5999,
+      "first_seen": "Dark Crow",
+      "has_definition": true,
+      "definition": "A bird, usually black, of the genus Corvus, having a strong conical beak, with projecting bristles; it has a harsh, croaking call."
+    },
+    "berg": {
+      "token_id": 1334,
+      "first_seen": "Arvid \u00c5berg",
+      "has_definition": true,
+      "definition": "An iceberg."
+    },
+    "hammer": {
+      "token_id": 7249,
+      "first_seen": "Arvid \u00c5berg",
+      "has_definition": true,
+      "definition": "A tool with a heavy head and a handle used for pounding."
+    },
+    "thrower": {
+      "token_id": 6462,
+      "first_seen": "Arvid \u00c5berg",
+      "has_definition": true,
+      "definition": "Someone who throws."
+    },
+    "majken": {
+      "token_id": 6948,
+      "first_seen": "Arvid \u00c5berg",
+      "has_definition": false,
+      "definition": ""
+    },
+    "discus": {
+      "token_id": 5286,
+      "first_seen": "Arvid \u00c5berg",
+      "has_definition": true,
+      "definition": "A round plate-like object that is thrown for sport."
+    },
+    "arvid": {
+      "token_id": 5825,
+      "first_seen": "Arvid \u00c5berg",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 1110,
-  "total_words": 10725
+  "total_articles": 1140,
+  "total_words": 10917
 }
