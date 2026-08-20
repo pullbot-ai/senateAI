@@ -94385,8 +94385,746 @@
       "first_seen": "Bill White (Texas politician)",
       "has_definition": true,
       "definition": "A list of individuals or groups, usually for an organization of some kind such as military officers and enlisted personnel enrolled in a particular unit; a muster roll; a sports team, with the names of players who are eligible to be placed in the lineup for a particular game; or a list of students officially enrolled in a school or class."
+    },
+    "required": {
+      "token_id": 3773,
+      "first_seen": "The Blasters (album)",
+      "has_definition": true,
+      "definition": "To ask (someone) for something; to request."
+    },
+    "blasters": {
+      "token_id": 327,
+      "first_seen": "The Blasters (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "slash": {
+      "token_id": 6154,
+      "first_seen": "The Blasters (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bloom": {
+      "token_id": 3565,
+      "first_seen": "Bloom (R\u00fcf\u00fcs album)",
+      "has_definition": true,
+      "definition": "A blossom; the flower of a plant; an expanded bud."
+    },
+    "sweat": {
+      "token_id": 4015,
+      "first_seen": "Bloom (R\u00fcf\u00fcs album)",
+      "has_definition": true,
+      "definition": "Fluid that exits the body through pores in the skin usually due to physical stress and/or high temperature for the purpose of regulating body temperature and removing certain compounds from the circulation."
+    },
+    "inertia": {
+      "token_id": 5051,
+      "first_seen": "Inertia (song)",
+      "has_definition": true,
+      "definition": "The property of a body that resists any change to its uniform motion; equivalent to its mass."
+    },
+    "ajr": {
+      "token_id": 4904,
+      "first_seen": "Inertia (song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dana": {
+      "token_id": 7177,
+      "first_seen": "Dana Ashbrook",
+      "has_definition": false,
+      "definition": ""
+    },
+    "briggs": {
+      "token_id": 152,
+      "first_seen": "Dana Ashbrook",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ashbrook": {
+      "token_id": 3504,
+      "first_seen": "Dana Ashbrook",
+      "has_definition": false,
+      "definition": ""
+    },
+    "beltr": {
+      "token_id": 3929,
+      "first_seen": "Luis Beltr\u00e1n Prieto Figueroa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "translating": {
+      "token_id": 1611,
+      "first_seen": "Luis Beltr\u00e1n Prieto Figueroa",
+      "has_definition": true,
+      "definition": "Senses relating to the change of information, etc., from one form to another."
+    },
+    "tried": {
+      "token_id": 718,
+      "first_seen": "Luis Beltr\u00e1n Prieto Figueroa",
+      "has_definition": true,
+      "definition": "Tested, hence, proven to be firm or reliable."
+    },
+    "substantial": {
+      "token_id": 497,
+      "first_seen": "Luis Beltr\u00e1n Prieto Figueroa",
+      "has_definition": true,
+      "definition": "Anything having substance; an essential part."
+    },
+    "figueroa": {
+      "token_id": 1301,
+      "first_seen": "Luis Beltr\u00e1n Prieto Figueroa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "supporters": {
+      "token_id": 3070,
+      "first_seen": "Luis Beltr\u00e1n Prieto Figueroa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "triplefin": {
+      "token_id": 1689,
+      "first_seen": "Estuarine triplefin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cockabully": {
+      "token_id": 3813,
+      "first_seen": "Estuarine triplefin",
+      "has_definition": true,
+      "definition": "A common small, blunt-nosed, stocky endemic freshwater fish, a type of Galaxias or Gobiomorphus species, that lives in New Zealand streams and rivers."
+    },
+    "valenciennes": {
+      "token_id": 7676,
+      "first_seen": "Estuarine triplefin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "forsterygion": {
+      "token_id": 6356,
+      "first_seen": "Estuarine triplefin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blenny": {
+      "token_id": 141,
+      "first_seen": "Estuarine triplefin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "achille": {
+      "token_id": 1737,
+      "first_seen": "Estuarine triplefin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "estuarine": {
+      "token_id": 7232,
+      "first_seen": "Estuarine triplefin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boutilimit": {
+      "token_id": 2655,
+      "first_seen": "Boutilimit (department)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trarza": {
+      "token_id": 5219,
+      "first_seen": "Boutilimit (department)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "click": {
+      "token_id": 2957,
+      "first_seen": "Let's Side",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wid": {
+      "token_id": 2516,
+      "first_seen": "Let's Side",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cassette": {
+      "token_id": 5342,
+      "first_seen": "Let's Side",
+      "has_definition": false,
+      "definition": ""
+    },
+    "twins": {
+      "token_id": 1276,
+      "first_seen": "Josh Staumont",
+      "has_definition": true,
+      "definition": "Either of two people (or, less commonly, animals) who shared the same uterus at the same time; one who was born at the same birth as a sibling."
+    },
+    "royals": {
+      "token_id": 1819,
+      "first_seen": "Josh Staumont",
+      "has_definition": true,
+      "definition": "A royal person; a member of a royal family."
+    },
+    "tyler": {
+      "token_id": 2648,
+      "first_seen": "Josh Staumont",
+      "has_definition": false,
+      "definition": ""
+    },
+    "staumont": {
+      "token_id": 2145,
+      "first_seen": "Josh Staumont",
+      "has_definition": false,
+      "definition": ""
+    },
+    "riley": {
+      "token_id": 3076,
+      "first_seen": "Missing Millions",
+      "has_definition": true,
+      "definition": "Angry, upset."
+    },
+    "hatch": {
+      "token_id": 6479,
+      "first_seen": "Missing Millions",
+      "has_definition": true,
+      "definition": "A horizontal door in a floor or ceiling."
+    },
+    "leguere": {
+      "token_id": 2530,
+      "first_seen": "Missing Millions",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blackie": {
+      "token_id": 6468,
+      "first_seen": "Missing Millions",
+      "has_definition": false,
+      "definition": ""
+    },
+    "losee": {
+      "token_id": 1322,
+      "first_seen": "Missing Millions",
+      "has_definition": false,
+      "definition": ""
+    },
+    "henabery": {
+      "token_id": 6102,
+      "first_seen": "Missing Millions",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boyle": {
+      "token_id": 6621,
+      "first_seen": "Missing Millions",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cooke": {
+      "token_id": 452,
+      "first_seen": "Missing Millions",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vino": {
+      "token_id": 7532,
+      "first_seen": "Missing Millions",
+      "has_definition": true,
+      "definition": "Wine."
+    },
+    "brady": {
+      "token_id": 5814,
+      "first_seen": "Missing Millions",
+      "has_definition": false,
+      "definition": ""
+    },
+    "duff": {
+      "token_id": 7557,
+      "first_seen": "Human Weapon",
+      "has_definition": true,
+      "definition": "Dough."
+    },
+    "avant": {
+      "token_id": 7590,
+      "first_seen": "Czech Cubism",
+      "has_definition": true,
+      "definition": "The front of an army; the vanguard."
+    },
+    "garde": {
+      "token_id": 3873,
+      "first_seen": "Czech Cubism",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cubism": {
+      "token_id": 2073,
+      "first_seen": "Czech Cubism",
+      "has_definition": true,
+      "definition": "(often capitalized) An artistic movement in the early 20th Century characterized by the depiction of natural forms as geometric structures of planes."
+    },
+    "proponents": {
+      "token_id": 1037,
+      "first_seen": "Czech Cubism",
+      "has_definition": true,
+      "definition": "One who supports something; an advocate"
+    },
+    "lowther": {
+      "token_id": 29,
+      "first_seen": "Sir William Lowther, 3rd Baronet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cavendish": {
+      "token_id": 4189,
+      "first_seen": "Sir William Lowther, 3rd Baronet",
+      "has_definition": true,
+      "definition": "Leaf tobacco softened, sweetened, and pressed into plugs or cakes."
+    },
+    "holker": {
+      "token_id": 3817,
+      "first_seen": "Sir William Lowther, 3rd Baronet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marske": {
+      "token_id": 4206,
+      "first_seen": "Sir William Lowther, 3rd Baronet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hilaire": {
+      "token_id": 7178,
+      "first_seen": "Saint-Hilaire-Petitville",
+      "has_definition": false,
+      "definition": ""
+    },
+    "petitville": {
+      "token_id": 483,
+      "first_seen": "Saint-Hilaire-Petitville",
+      "has_definition": false,
+      "definition": ""
+    },
+    "daqiaotou": {
+      "token_id": 3208,
+      "first_seen": "Daqiaotou metro station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "xinzhuang": {
+      "token_id": 2336,
+      "first_seen": "Daqiaotou metro station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "luzhou": {
+      "token_id": 5827,
+      "first_seen": "Daqiaotou metro station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "datong": {
+      "token_id": 576,
+      "first_seen": "Daqiaotou metro station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shezi": {
+      "token_id": 3016,
+      "first_seen": "Daqiaotou metro station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "diverges": {
+      "token_id": 3491,
+      "first_seen": "Daqiaotou metro station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zhonghe": {
+      "token_id": 3530,
+      "first_seen": "Daqiaotou metro station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "xinlu": {
+      "token_id": 7919,
+      "first_seen": "Daqiaotou metro station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lxiii": {
+      "token_id": 643,
+      "first_seen": "Javier Bola\u00f1os Aguilar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bola": {
+      "token_id": 2731,
+      "first_seen": "Javier Bola\u00f1os Aguilar",
+      "has_definition": true,
+      "definition": "A throwing weapon made of weights on the ends of a cord."
+    },
+    "aguilar": {
+      "token_id": 2514,
+      "first_seen": "Javier Bola\u00f1os Aguilar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "javier": {
+      "token_id": 5835,
+      "first_seen": "Javier Bola\u00f1os Aguilar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "edmundo": {
+      "token_id": 4611,
+      "first_seen": "Javier Bola\u00f1os Aguilar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "morelos": {
+      "token_id": 6309,
+      "first_seen": "Javier Bola\u00f1os Aguilar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "malone": {
+      "token_id": 2555,
+      "first_seen": "Living Torch",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grm": {
+      "token_id": 6579,
+      "first_seen": "Living Torch",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bardney": {
+      "token_id": 1835,
+      "first_seen": "RAF Bardney",
+      "has_definition": false,
+      "definition": ""
+    },
+    "waddington": {
+      "token_id": 2040,
+      "first_seen": "RAF Bardney",
+      "has_definition": false,
+      "definition": ""
+    },
+    "syntopical": {
+      "token_id": 3245,
+      "first_seen": "How to Read a Book",
+      "has_definition": false,
+      "definition": ""
+    },
+    "adler": {
+      "token_id": 74,
+      "first_seen": "How to Read a Book",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inspectional": {
+      "token_id": 6991,
+      "first_seen": "How to Read a Book",
+      "has_definition": false,
+      "definition": ""
+    },
+    "revision": {
+      "token_id": 1564,
+      "first_seen": "How to Read a Book",
+      "has_definition": true,
+      "definition": "The process of revising:"
+    },
+    "guidelines": {
+      "token_id": 5077,
+      "first_seen": "How to Read a Book",
+      "has_definition": true,
+      "definition": "A non-specific rule or principle that provides direction to action or behaviour."
+    },
+    "critically": {
+      "token_id": 7811,
+      "first_seen": "How to Read a Book",
+      "has_definition": true,
+      "definition": "In a critical manner; with, or in terms of, criticism."
+    },
+    "authored": {
+      "token_id": 328,
+      "first_seen": "How to Read a Book",
+      "has_definition": true,
+      "definition": "(sometimes proscribed) To create a work as its author."
+    },
+    "revised": {
+      "token_id": 5286,
+      "first_seen": "How to Read a Book",
+      "has_definition": true,
+      "definition": "To look at again, to reflect on."
+    },
+    "dexter": {
+      "token_id": 2679,
+      "first_seen": "Scott Buck",
+      "has_definition": false,
+      "definition": ""
+    },
+    "loves": {
+      "token_id": 2509,
+      "first_seen": "Scott Buck",
+      "has_definition": false,
+      "definition": ""
+    },
+    "everybody": {
+      "token_id": 3131,
+      "first_seen": "Scott Buck",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fist": {
+      "token_id": 7737,
+      "first_seen": "Scott Buck",
+      "has_definition": true,
+      "definition": "A hand with the fingers clenched or curled inward."
+    },
+    "oblongs": {
+      "token_id": 3521,
+      "first_seen": "Scott Buck",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inhumans": {
+      "token_id": 5322,
+      "first_seen": "Scott Buck",
+      "has_definition": false,
+      "definition": ""
+    },
+    "showtime": {
+      "token_id": 6206,
+      "first_seen": "Scott Buck",
+      "has_definition": true,
+      "definition": "The time at which an entertainment event is set to begin."
+    },
+    "bmg": {
+      "token_id": 2489,
+      "first_seen": "C\u00f3mplices Al Rescate: El Gran Final",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ariola": {
+      "token_id": 1838,
+      "first_seen": "C\u00f3mplices Al Rescate: El Gran Final",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rescate": {
+      "token_id": 3308,
+      "first_seen": "C\u00f3mplices Al Rescate: El Gran Final",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mplices": {
+      "token_id": 3050,
+      "first_seen": "C\u00f3mplices Al Rescate: El Gran Final",
+      "has_definition": false,
+      "definition": ""
+    },
+    "heunginjimun": {
+      "token_id": 1283,
+      "first_seen": "Dongdaemun",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jongno": {
+      "token_id": 7404,
+      "first_seen": "Dongdaemun",
+      "has_definition": false,
+      "definition": ""
+    },
+    "joseon": {
+      "token_id": 906,
+      "first_seen": "Dongdaemun",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dongdaemun": {
+      "token_id": 7050,
+      "first_seen": "Dongdaemun",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pinto": {
+      "token_id": 1090,
+      "first_seen": "Olavo Bilac Pinto",
+      "has_definition": true,
+      "definition": "A horse with a patchy coloration that includes white."
+    },
+    "bilac": {
+      "token_id": 2002,
+      "first_seen": "Olavo Bilac Pinto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "olavo": {
+      "token_id": 4655,
+      "first_seen": "Olavo Bilac Pinto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pereira": {
+      "token_id": 7256,
+      "first_seen": "Olavo Bilac Pinto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "renumbered": {
+      "token_id": 6862,
+      "first_seen": "86th Field Artillery Regiment",
+      "has_definition": false,
+      "definition": ""
+    },
+    "batteries": {
+      "token_id": 5631,
+      "first_seen": "86th Field Artillery Regiment",
+      "has_definition": true,
+      "definition": "A device used to power electric devices, consisting of a set of electrically connected electrochemical or, archaically, electrostatic cells. A single such cell when used by itself."
+    },
+    "perpetuating": {
+      "token_id": 978,
+      "first_seen": "86th Field Artillery Regiment",
+      "has_definition": true,
+      "definition": "To make perpetual; to preserve from extinction or oblivion."
+    },
+    "regimental": {
+      "token_id": 4974,
+      "first_seen": "86th Field Artillery Regiment",
+      "has_definition": true,
+      "definition": "Relating to a regiment"
+    },
+    "impressionist": {
+      "token_id": 6687,
+      "first_seen": "Pierre-Auguste Renoir",
+      "has_definition": false,
+      "definition": ""
+    },
+    "watteau": {
+      "token_id": 4511,
+      "first_seen": "Pierre-Auguste Renoir",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rubens": {
+      "token_id": 3594,
+      "first_seen": "Pierre-Auguste Renoir",
+      "has_definition": false,
+      "definition": ""
+    },
+    "feminine": {
+      "token_id": 1053,
+      "first_seen": "Pierre-Auguste Renoir",
+      "has_definition": true,
+      "definition": "That which is feminine."
+    },
+    "renoir": {
+      "token_id": 6439,
+      "first_seen": "Pierre-Auguste Renoir",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wrenthorpe": {
+      "token_id": 5974,
+      "first_seen": "Wrenthorpe",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rhubarb": {
+      "token_id": 1811,
+      "first_seen": "Wrenthorpe",
+      "has_definition": true,
+      "definition": "Any plant of the genus Rheum, especially Rheum rhabarbarum, having large leaves and long green or reddish acidic leafstalks that are edible, in particular when cooked (although the leaves are mildly poisonous)."
+    },
+    "wakefield": {
+      "token_id": 6171,
+      "first_seen": "Wrenthorpe",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gomontiaceae": {
+      "token_id": 5215,
+      "first_seen": "Gomontiaceae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "algae": {
+      "token_id": 6444,
+      "first_seen": "Gomontiaceae",
+      "has_definition": true,
+      "definition": "Any of many aquatic photosynthetic organisms, including the seaweeds, whose size ranges from a single cell to giant kelps and whose biochemistry and forms are very diverse, some being eukaryotic."
+    },
+    "ulotrichales": {
+      "token_id": 2398,
+      "first_seen": "Gomontiaceae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "elliot": {
+      "token_id": 6964,
+      "first_seen": "Deep Sea Diver",
+      "has_definition": false,
+      "definition": ""
+    },
+    "garrett": {
+      "token_id": 4959,
+      "first_seen": "Deep Sea Diver",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dobson": {
+      "token_id": 659,
+      "first_seen": "Deep Sea Diver",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mansen": {
+      "token_id": 2474,
+      "first_seen": "Deep Sea Diver",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gue": {
+      "token_id": 7716,
+      "first_seen": "Deep Sea Diver",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chonburi": {
+      "token_id": 4373,
+      "first_seen": "Kevin Ray Mendoza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hansen": {
+      "token_id": 328,
+      "first_seen": "Kevin Ray Mendoza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kensington": {
+      "token_id": 7384,
+      "first_seen": "Queen's Gate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cromwell": {
+      "token_id": 2388,
+      "first_seen": "Queen's Gate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brompton": {
+      "token_id": 1522,
+      "first_seen": "Queen's Gate",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 1980,
-  "total_words": 15731
+  "total_articles": 2010,
+  "total_words": 15854
 }
