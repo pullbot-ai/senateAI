@@ -89051,8 +89051,854 @@
       "first_seen": "Operation Attleboro",
       "has_definition": false,
       "definition": ""
+    },
+    "fraga": {
+      "token_id": 4387,
+      "first_seen": "UD Fraga",
+      "has_definition": false,
+      "definition": ""
+    },
+    "estacada": {
+      "token_id": 4120,
+      "first_seen": "UD Fraga",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tercera": {
+      "token_id": 140,
+      "first_seen": "UD Fraga",
+      "has_definition": false,
+      "definition": ""
+    },
+    "htc": {
+      "token_id": 7598,
+      "first_seen": "2024\u201325 Coastal Carolina Chanticleers women's basketball team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "conway": {
+      "token_id": 7724,
+      "first_seen": "2024\u201325 Coastal Carolina Chanticleers women's basketball team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chanticleers": {
+      "token_id": 2364,
+      "first_seen": "2024\u201325 Coastal Carolina Chanticleers women's basketball team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pederson": {
+      "token_id": 6653,
+      "first_seen": "2024\u201325 Coastal Carolina Chanticleers women's basketball team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "amor": {
+      "token_id": 4016,
+      "first_seen": "Loco Fever",
+      "has_definition": false,
+      "definition": ""
+    },
+    "moluscos": {
+      "token_id": 2340,
+      "first_seen": "Loco Fever",
+      "has_definition": false,
+      "definition": ""
+    },
+    "avaricia": {
+      "token_id": 7749,
+      "first_seen": "Loco Fever",
+      "has_definition": false,
+      "definition": ""
+    },
+    "buzos": {
+      "token_id": 4033,
+      "first_seen": "Loco Fever",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mundo": {
+      "token_id": 4674,
+      "first_seen": "Loco Fever",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fever": {
+      "token_id": 7972,
+      "first_seen": "Loco Fever",
+      "has_definition": true,
+      "definition": "A higher than normal body temperature of a person (or, generally, a mammal), usually caused by disease."
+    },
+    "tagline": {
+      "token_id": 1301,
+      "first_seen": "Loco Fever",
+      "has_definition": true,
+      "definition": "The punch line of a joke."
+    },
+    "loco": {
+      "token_id": 6039,
+      "first_seen": "Loco Fever",
+      "has_definition": true,
+      "definition": "A direction in written or printed music to be returning to the proper pitch after having played an octave higher or lower."
+    },
+    "vaabonbonphyllium": {
+      "token_id": 4627,
+      "first_seen": "Vaabonbonphyllium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "phylliidae": {
+      "token_id": 2879,
+      "first_seen": "Vaabonbonphyllium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stick": {
+      "token_id": 1911,
+      "first_seen": "Vaabonbonphyllium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "firearm": {
+      "token_id": 4660,
+      "first_seen": "Bullpup",
+      "has_definition": true,
+      "definition": "A personal weapon that uses explosive powder to propel a projectile often made of lead."
+    },
+    "muzzle": {
+      "token_id": 7688,
+      "first_seen": "Bullpup",
+      "has_definition": true,
+      "definition": "The protruding part of an animal's head which includes the nose, mouth and jaws; the snout"
+    },
+    "effectiveness": {
+      "token_id": 529,
+      "first_seen": "Bullpup",
+      "has_definition": true,
+      "definition": "The property of being effective, of achieving results."
+    },
+    "bullpup": {
+      "token_id": 7007,
+      "first_seen": "Bullpup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "weapon": {
+      "token_id": 2775,
+      "first_seen": "Bullpup",
+      "has_definition": true,
+      "definition": "An instrument of attack or defense in combat or hunting, e.g. most guns, missiles, or swords."
+    },
+    "firing": {
+      "token_id": 6087,
+      "first_seen": "Bullpup",
+      "has_definition": true,
+      "definition": "To set (something, often a building) on fire."
+    },
+    "configured": {
+      "token_id": 6915,
+      "first_seen": "Bullpup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "velocity": {
+      "token_id": 6304,
+      "first_seen": "Bullpup",
+      "has_definition": true,
+      "definition": "A vector quantity that denotes the rate of change of position with respect to time, or a speed with the directional component."
+    },
+    "retained": {
+      "token_id": 1933,
+      "first_seen": "Bullpup",
+      "has_definition": true,
+      "definition": "To keep in possession or use."
+    },
+    "conventionally": {
+      "token_id": 7343,
+      "first_seen": "Bullpup",
+      "has_definition": true,
+      "definition": "Ordinarily, by convention."
+    },
+    "concealable": {
+      "token_id": 4390,
+      "first_seen": "Bullpup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ballistic": {
+      "token_id": 3726,
+      "first_seen": "Bullpup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "desirable": {
+      "token_id": 5262,
+      "first_seen": "Bullpup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "maneuverable": {
+      "token_id": 2467,
+      "first_seen": "Bullpup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "preserving": {
+      "token_id": 5499,
+      "first_seen": "Bullpup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "breech": {
+      "token_id": 5803,
+      "first_seen": "Bullpup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pancake": {
+      "token_id": 6663,
+      "first_seen": "Qatayef",
+      "has_definition": false,
+      "definition": ""
+    },
+    "folded": {
+      "token_id": 468,
+      "first_seen": "Qatayef",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pouring": {
+      "token_id": 7186,
+      "first_seen": "Qatayef",
+      "has_definition": false,
+      "definition": ""
+    },
+    "qatayef": {
+      "token_id": 2646,
+      "first_seen": "Qatayef",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stuffed": {
+      "token_id": 273,
+      "first_seen": "Qatayef",
+      "has_definition": false,
+      "definition": ""
+    },
+    "crumpet": {
+      "token_id": 3259,
+      "first_seen": "Qatayef",
+      "has_definition": false,
+      "definition": ""
+    },
+    "katayef": {
+      "token_id": 7909,
+      "first_seen": "Qatayef",
+      "has_definition": false,
+      "definition": ""
+    },
+    "qata": {
+      "token_id": 5728,
+      "first_seen": "Qatayef",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nuts": {
+      "token_id": 5397,
+      "first_seen": "Qatayef",
+      "has_definition": false,
+      "definition": ""
+    },
+    "atayef": {
+      "token_id": 3942,
+      "first_seen": "Qatayef",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dumpling": {
+      "token_id": 6873,
+      "first_seen": "Qatayef",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dessert": {
+      "token_id": 324,
+      "first_seen": "Qatayef",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thickness": {
+      "token_id": 1977,
+      "first_seen": "Qatayef",
+      "has_definition": false,
+      "definition": ""
+    },
+    "danough": {
+      "token_id": 7930,
+      "first_seen": "The Truth (Bleeding Through album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "caggiano": {
+      "token_id": 7557,
+      "first_seen": "The Truth (Bleeding Through album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "metalcore": {
+      "token_id": 2110,
+      "first_seen": "The Truth (Bleeding Through album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anthrax": {
+      "token_id": 7691,
+      "first_seen": "The Truth (Bleeding Through album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "keyong": {
+      "token_id": 2787,
+      "first_seen": "Zhang Chengye",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chengye": {
+      "token_id": 3699,
+      "first_seen": "Zhang Chengye",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zhengxian": {
+      "token_id": 189,
+      "first_seen": "Zhang Chengye",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kang": {
+      "token_id": 6599,
+      "first_seen": "Zhang Chengye",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cunxu": {
+      "token_id": 7104,
+      "first_seen": "Zhang Chengye",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eunuch": {
+      "token_id": 1791,
+      "first_seen": "Zhang Chengye",
+      "has_definition": false,
+      "definition": ""
+    },
+    "establish": {
+      "token_id": 5993,
+      "first_seen": "Zhang Chengye",
+      "has_definition": false,
+      "definition": ""
+    },
+    "courtesy": {
+      "token_id": 48,
+      "first_seen": "Zhang Chengye",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jiyuan": {
+      "token_id": 5969,
+      "first_seen": "Zhang Chengye",
+      "has_definition": false,
+      "definition": ""
+    },
+    "posthumous": {
+      "token_id": 5872,
+      "first_seen": "Zhang Chengye",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tang": {
+      "token_id": 953,
+      "first_seen": "Zhang Chengye",
+      "has_definition": false,
+      "definition": ""
+    },
+    "deadmalls": {
+      "token_id": 4830,
+      "first_seen": "Deadmalls and Nightfalls",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nightfalls": {
+      "token_id": 6750,
+      "first_seen": "Deadmalls and Nightfalls",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ruckus": {
+      "token_id": 5397,
+      "first_seen": "Deadmalls and Nightfalls",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ramseur": {
+      "token_id": 5720,
+      "first_seen": "Deadmalls and Nightfalls",
+      "has_definition": false,
+      "definition": ""
+    },
+    "martins": {
+      "token_id": 3102,
+      "first_seen": "Jamila Marreiros",
+      "has_definition": true,
+      "definition": "Any of various passerine birds of the family Hirundinidae, which also includes swallows, that catch insects whilst flying."
+    },
+    "benfica": {
+      "token_id": 3810,
+      "first_seen": "Jamila Marreiros",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marreiros": {
+      "token_id": 6237,
+      "first_seen": "Jamila Marreiros",
+      "has_definition": false,
+      "definition": ""
+    },
+    "soraia": {
+      "token_id": 7044,
+      "first_seen": "Jamila Marreiros",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zwettl": {
+      "token_id": 2046,
+      "first_seen": "Rappottenstein",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rappottenstein": {
+      "token_id": 2688,
+      "first_seen": "Rappottenstein",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ahmedabad": {
+      "token_id": 1875,
+      "first_seen": "Tagore Memorial Hall",
+      "has_definition": false,
+      "definition": ""
+    },
+    "auditorium": {
+      "token_id": 7422,
+      "first_seen": "Tagore Memorial Hall",
+      "has_definition": true,
+      "definition": "A large room for public meetings or performances."
+    },
+    "doshi": {
+      "token_id": 5944,
+      "first_seen": "Tagore Memorial Hall",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tagore": {
+      "token_id": 3670,
+      "first_seen": "Tagore Memorial Hall",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brutalist": {
+      "token_id": 1908,
+      "first_seen": "Tagore Memorial Hall",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bafta": {
+      "token_id": 5398,
+      "first_seen": "Skyfall (soundtrack)",
+      "has_definition": true,
+      "definition": "A coarse material, usually of cotton, originally made in India."
+    },
+    "skyfall": {
+      "token_id": 4179,
+      "first_seen": "Skyfall (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "watertown": {
+      "token_id": 7324,
+      "first_seen": "Watertown, Florida",
+      "has_definition": false,
+      "definition": ""
+    },
+    "approximate": {
+      "token_id": 1930,
+      "first_seen": "Greenhouse gas emissions from wetlands",
+      "has_definition": true,
+      "definition": "To estimate."
+    },
+    "nitrous": {
+      "token_id": 5036,
+      "first_seen": "Greenhouse gas emissions from wetlands",
+      "has_definition": true,
+      "definition": "Nitrous oxide."
+    },
+    "greenhouse": {
+      "token_id": 1317,
+      "first_seen": "Greenhouse gas emissions from wetlands",
+      "has_definition": true,
+      "definition": "A building used to grow plants, particularly one with large glass windows or plastic sheeting to trap heat from sunlight even in intemperate seasons or climates."
+    },
+    "contribute": {
+      "token_id": 2516,
+      "first_seen": "Greenhouse gas emissions from wetlands",
+      "has_definition": true,
+      "definition": "To give something that is or becomes part of a larger whole."
+    },
+    "methane": {
+      "token_id": 1503,
+      "first_seen": "Greenhouse gas emissions from wetlands",
+      "has_definition": true,
+      "definition": "The simplest aliphatic hydrocarbon, CH\u2084, being a constituent of natural gas, and one of the most abundant greenhouse gases."
+    },
+    "oxide": {
+      "token_id": 23,
+      "first_seen": "Greenhouse gas emissions from wetlands",
+      "has_definition": true,
+      "definition": "A binary chemical compound of oxygen with another chemical element."
+    },
+    "atmospheric": {
+      "token_id": 517,
+      "first_seen": "Greenhouse gas emissions from wetlands",
+      "has_definition": true,
+      "definition": "Of, relating to, produced by, or coming from the atmosphere."
+    },
+    "plumas": {
+      "token_id": 4989,
+      "first_seen": "Cromberg, California",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cromberg": {
+      "token_id": 2744,
+      "first_seen": "Cromberg, California",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blairsden": {
+      "token_id": 1004,
+      "first_seen": "Cromberg, California",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lobog": {
+      "token_id": 3489,
+      "first_seen": "Els\u0151 Emelet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "solaris": {
+      "token_id": 817,
+      "first_seen": "Els\u0151 Emelet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "els": {
+      "token_id": 3349,
+      "first_seen": "Els\u0151 Emelet",
+      "has_definition": true,
+      "definition": "The name of the Latin-script letter L."
+    },
+    "vagy": {
+      "token_id": 5041,
+      "first_seen": "Els\u0151 Emelet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "straits": {
+      "token_id": 1689,
+      "first_seen": "Els\u0151 Emelet",
+      "has_definition": true,
+      "definition": "A narrow channel of water connecting two larger bodies of water."
+    },
+    "llj": {
+      "token_id": 4093,
+      "first_seen": "Els\u0151 Emelet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "emelet": {
+      "token_id": 4129,
+      "first_seen": "Els\u0151 Emelet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dire": {
+      "token_id": 510,
+      "first_seen": "Els\u0151 Emelet",
+      "has_definition": true,
+      "definition": "Warning of bad consequences: ill-boding; portentous."
+    },
+    "fairyfly": {
+      "token_id": 48,
+      "first_seen": "Camptopteroides verrucosa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "camptopteroides": {
+      "token_id": 4219,
+      "first_seen": "Camptopteroides verrucosa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "carcetti": {
+      "token_id": 1564,
+      "first_seen": "Tommy Carcetti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gillen": {
+      "token_id": 3917,
+      "first_seen": "Tommy Carcetti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aidan": {
+      "token_id": 3414,
+      "first_seen": "Tommy Carcetti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "venal": {
+      "token_id": 1489,
+      "first_seen": "Tommy Carcetti",
+      "has_definition": true,
+      "definition": "Venous; pertaining to veins."
+    },
+    "ambitious": {
+      "token_id": 7343,
+      "first_seen": "Tommy Carcetti",
+      "has_definition": true,
+      "definition": "(of a person or their character) Having or showing ambition; wanting a lot of power, honor, respect, superiority, or other distinction."
+    },
+    "hbo": {
+      "token_id": 3026,
+      "first_seen": "Tommy Carcetti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "edwardsi": {
+      "token_id": 6142,
+      "first_seen": "Tama edwardsi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eug": {
+      "token_id": 2014,
+      "first_seen": "Tama edwardsi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "algeria": {
+      "token_id": 6,
+      "first_seen": "Tama edwardsi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tama": {
+      "token_id": 5118,
+      "first_seen": "Tama edwardsi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "psychedelic": {
+      "token_id": 3835,
+      "first_seen": "Ring (band)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bony": {
+      "token_id": 6887,
+      "first_seen": "Orcynopsis unicolor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bonito": {
+      "token_id": 2328,
+      "first_seen": "Orcynopsis unicolor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vagrant": {
+      "token_id": 3096,
+      "first_seen": "Orcynopsis unicolor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "orcynopsis": {
+      "token_id": 7141,
+      "first_seen": "Orcynopsis unicolor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "scombridae": {
+      "token_id": 7594,
+      "first_seen": "Orcynopsis unicolor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mackerel": {
+      "token_id": 6961,
+      "first_seen": "Orcynopsis unicolor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "unicolor": {
+      "token_id": 6224,
+      "first_seen": "Orcynopsis unicolor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "macaronesian": {
+      "token_id": 1140,
+      "first_seen": "Orcynopsis unicolor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bench": {
+      "token_id": 6297,
+      "first_seen": "David Hittner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hittner": {
+      "token_id": 3410,
+      "first_seen": "David Hittner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "appeals": {
+      "token_id": 3453,
+      "first_seen": "David Hittner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "assignment": {
+      "token_id": 3924,
+      "first_seen": "David Hittner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gomer": {
+      "token_id": 104,
+      "first_seen": "Gomer, Ohio",
+      "has_definition": false,
+      "definition": ""
+    },
+    "welshmen": {
+      "token_id": 1023,
+      "first_seen": "Gomer, Ohio",
+      "has_definition": false,
+      "definition": ""
+    },
+    "elida": {
+      "token_id": 529,
+      "first_seen": "Gomer, Ohio",
+      "has_definition": false,
+      "definition": ""
+    },
+    "scopoli": {
+      "token_id": 7663,
+      "first_seen": "Heliothela wulfeniana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wulfeniana": {
+      "token_id": 6794,
+      "first_seen": "Heliothela wulfeniana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "heliothela": {
+      "token_id": 2535,
+      "first_seen": "Heliothela wulfeniana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chrysophyllum": {
+      "token_id": 3225,
+      "first_seen": "Chrysophyllum argenteum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sapotaceae": {
+      "token_id": 5637,
+      "first_seen": "Chrysophyllum argenteum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "argenteum": {
+      "token_id": 3223,
+      "first_seen": "Chrysophyllum argenteum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jacoby": {
+      "token_id": 7693,
+      "first_seen": "Jake Garcia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thorsport": {
+      "token_id": 3921,
+      "first_seen": "Jake Garcia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "steamship": {
+      "token_id": 1270,
+      "first_seen": "MV John J. Boland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "freighter": {
+      "token_id": 7236,
+      "first_seen": "MV John J. Boland",
+      "has_definition": true,
+      "definition": "One who loads a ship, or one who charters and loads a ship."
+    },
+    "shipbuilding": {
+      "token_id": 7426,
+      "first_seen": "MV John J. Boland",
+      "has_definition": true,
+      "definition": "The construction of ships."
+    },
+    "sturgeon": {
+      "token_id": 4367,
+      "first_seen": "MV John J. Boland",
+      "has_definition": true,
+      "definition": "Any marine or freshwater fish of the family Acipenseridae that are prized for their roe and are endemic to temperate seas and rivers of the northern hemisphere, especially central Eurasia."
+    },
+    "boland": {
+      "token_id": 7023,
+      "first_seen": "MV John J. Boland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bea": {
+      "token_id": 4091,
+      "first_seen": "Bonnie Anderson (singer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neighbours": {
+      "token_id": 7579,
+      "first_seen": "Bonnie Anderson (singer)",
+      "has_definition": true,
+      "definition": "A person living on adjacent or nearby land; a person situated adjacently or nearby; anything (of the same type of thing as the subject) in an adjacent or nearby position."
     }
   },
-  "total_articles": 1830,
-  "total_words": 14842
+  "total_articles": 1860,
+  "total_words": 14983
 }
