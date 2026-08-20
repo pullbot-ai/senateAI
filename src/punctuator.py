@@ -108,7 +108,7 @@ def punctuate(text):
                 result += token[2:]
             elif token in ['.', ',', '!', '?', ';', ':']:
                 result += token
-            elif token == '[SEP]' or token == '[CLS]' or token == '[PAD]':
+            elif token in ['[SEP]', '[CLS]', '[PAD]']:
                 continue
             else:
                 if result and token not in ['.', ',', '!', '?']:
