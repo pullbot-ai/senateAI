@@ -96071,8 +96071,872 @@
       "first_seen": "Dreamstone Moon",
       "has_definition": true,
       "definition": "Surface-to-air missile"
+    },
+    "gap": {
+      "token_id": 6503,
+      "first_seen": "East Fork Kaweah River",
+      "has_definition": true,
+      "definition": "An opening in anything made by breaking or parting."
+    },
+    "mineral": {
+      "token_id": 2863,
+      "first_seen": "East Fork Kaweah River",
+      "has_definition": true,
+      "definition": "Any naturally occurring inorganic material that has a (more or less) definite chemical composition and characteristic physical properties."
+    },
+    "kaweah": {
+      "token_id": 5912,
+      "first_seen": "East Fork Kaweah River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fork": {
+      "token_id": 7640,
+      "first_seen": "East Fork Kaweah River",
+      "has_definition": true,
+      "definition": "A pronged tool having a long straight handle, used for digging, lifting, throwing etc."
+    },
+    "tulare": {
+      "token_id": 6197,
+      "first_seen": "East Fork Kaweah River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sequoia": {
+      "token_id": 7390,
+      "first_seen": "East Fork Kaweah River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ankara": {
+      "token_id": 6701,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kebir": {
+      "token_id": 869,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vakf": {
+      "token_id": 3696,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": false,
+      "definition": ""
+    },
+    "highways": {
+      "token_id": 5792,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": false,
+      "definition": ""
+    },
+    "domestically": {
+      "token_id": 238,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ovens": {
+      "token_id": 4358,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hamsik": {
+      "token_id": 5953,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flavorful": {
+      "token_id": 3064,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trabzon": {
+      "token_id": 6126,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": false,
+      "definition": ""
+    },
+    "everywhere": {
+      "token_id": 5110,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": true,
+      "definition": "In or to all locations under discussion."
+    },
+    "mistakenly": {
+      "token_id": 4667,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stale": {
+      "token_id": 3857,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": true,
+      "definition": "Something stale; a loaf of bread or the like that is no longer fresh."
+    },
+    "leavened": {
+      "token_id": 7963,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sourdough": {
+      "token_id": 6701,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": false,
+      "definition": ""
+    },
+    "weight": {
+      "token_id": 4081,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": true,
+      "definition": "(physical) Matter, material."
+    },
+    "kilograms": {
+      "token_id": 4941,
+      "first_seen": "Vakf\u0131kebir bread",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fortunato": {
+      "token_id": 7262,
+      "first_seen": "Fortunato Arena",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stuntman": {
+      "token_id": 2099,
+      "first_seen": "Fortunato Arena",
+      "has_definition": false,
+      "definition": ""
+    },
+    "searches": {
+      "token_id": 1071,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": true,
+      "definition": "An attempt to find something."
+    },
+    "worlds": {
+      "token_id": 1524,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "goofy": {
+      "token_id": 6481,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cheerful": {
+      "token_id": 1491,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": true,
+      "definition": "Noticeably happy and optimistic."
+    },
+    "keyblade": {
+      "token_id": 5451,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kairi": {
+      "token_id": 3912,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "recruit": {
+      "token_id": 948,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": true,
+      "definition": "A supply of anything wasted or exhausted; a reinforcement."
+    },
+    "obtaining": {
+      "token_id": 1813,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": true,
+      "definition": "To get hold of; to gain possession of, to procure; to acquire, in any way."
+    },
+    "leave": {
+      "token_id": 3234,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": true,
+      "definition": "To have a consequence or remnant."
+    },
+    "teenager": {
+      "token_id": 1162,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": true,
+      "definition": "A person between 13 and 19 years of age; an adolescent."
+    },
+    "separated": {
+      "token_id": 3458,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": true,
+      "definition": "To divide (a thing) into separate parts."
+    },
+    "destiny": {
+      "token_id": 5009,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": true,
+      "definition": "That to which any person or thing is destined; a predetermined state; a condition predestined by the Divine or by human will"
+    },
+    "hearts": {
+      "token_id": 6782,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": true,
+      "definition": "A muscular organ that pumps blood through the body, traditionally thought to be the seat of emotion."
+    },
+    "protects": {
+      "token_id": 4187,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": true,
+      "definition": "To keep safe; to defend; to guard; to prevent harm coming to."
+    },
+    "riku": {
+      "token_id": 1820,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sora": {
+      "token_id": 3326,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "heartless": {
+      "token_id": 7327,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "villains": {
+      "token_id": 40,
+      "first_seen": "Sora (Kingdom Hearts)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bourke": {
+      "token_id": 3150,
+      "first_seen": "Bourke's parrot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "parrot": {
+      "token_id": 5857,
+      "first_seen": "Bourke's parrot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sundown": {
+      "token_id": 6807,
+      "first_seen": "Bourke's parrot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "weighs": {
+      "token_id": 5493,
+      "first_seen": "Bourke's parrot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "parakeet": {
+      "token_id": 5321,
+      "first_seen": "Bourke's parrot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bellied": {
+      "token_id": 6117,
+      "first_seen": "Bourke's parrot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vented": {
+      "token_id": 6931,
+      "first_seen": "Bourke's parrot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neopsephotus": {
+      "token_id": 2007,
+      "first_seen": "Bourke's parrot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bourkie": {
+      "token_id": 5395,
+      "first_seen": "Bourke's parrot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "carried": {
+      "token_id": 5386,
+      "first_seen": "Luas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "luas": {
+      "token_id": 692,
+      "first_seen": "Luas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tram": {
+      "token_id": 3165,
+      "first_seen": "Luas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "intersect": {
+      "token_id": 7427,
+      "first_seen": "Luas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "usmc": {
+      "token_id": 2306,
+      "first_seen": "Bell AH-1 SuperCobra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cobra": {
+      "token_id": 4000,
+      "first_seen": "Bell AH-1 SuperCobra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "engined": {
+      "token_id": 1837,
+      "first_seen": "Bell AH-1 SuperCobra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "supercobra": {
+      "token_id": 6827,
+      "first_seen": "Bell AH-1 SuperCobra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seacobra": {
+      "token_id": 2664,
+      "first_seen": "Bell AH-1 SuperCobra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "behalf": {
+      "token_id": 5835,
+      "first_seen": "Bell AH-1 SuperCobra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "huey": {
+      "token_id": 2392,
+      "first_seen": "Bell AH-1 SuperCobra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gator": {
+      "token_id": 4563,
+      "first_seen": "2000 Virginia Tech Hokies football team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "placing": {
+      "token_id": 7745,
+      "first_seen": "2000 Virginia Tech Hokies football team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "clemson": {
+      "token_id": 6127,
+      "first_seen": "2000 Virginia Tech Hokies football team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "beamer": {
+      "token_id": 6768,
+      "first_seen": "2000 Virginia Tech Hokies football team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blacksburg": {
+      "token_id": 676,
+      "first_seen": "2000 Virginia Tech Hokies football team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ankalagi": {
+      "token_id": 2731,
+      "first_seen": "Prana Snehitha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "snehitha": {
+      "token_id": 4592,
+      "first_seen": "Prana Snehitha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nag": {
+      "token_id": 3593,
+      "first_seen": "Prana Snehitha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ramakrishna": {
+      "token_id": 1339,
+      "first_seen": "Prana Snehitha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ranga": {
+      "token_id": 3220,
+      "first_seen": "Prana Snehitha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "prana": {
+      "token_id": 597,
+      "first_seen": "Prana Snehitha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bhargava": {
+      "token_id": 5866,
+      "first_seen": "Prana Snehitha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chandannavar": {
+      "token_id": 7269,
+      "first_seen": "Prana Snehitha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bhavya": {
+      "token_id": 2943,
+      "first_seen": "Prana Snehitha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tara": {
+      "token_id": 1934,
+      "first_seen": "Prana Snehitha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hublikar": {
+      "token_id": 6177,
+      "first_seen": "Prana Snehitha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kazoo": {
+      "token_id": 3939,
+      "first_seen": "Kazoo (magazine)",
+      "has_definition": true,
+      "definition": "A simple musical instrument (membranophone) consisting of a pipe with a hole in it, producing a buzzing sound when the player hums into it."
+    },
+    "excellence": {
+      "token_id": 2823,
+      "first_seen": "Kazoo (magazine)",
+      "has_definition": true,
+      "definition": "The quality of being excellent; brilliance"
+    },
+    "blaine": {
+      "token_id": 1714,
+      "first_seen": "Blaine Higgs",
+      "has_definition": false,
+      "definition": ""
+    },
+    "higgs": {
+      "token_id": 6744,
+      "first_seen": "Blaine Higgs",
+      "has_definition": false,
+      "definition": ""
+    },
+    "woden": {
+      "token_id": 5211,
+      "first_seen": "Hughes, Australian Capital Territory",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hughes": {
+      "token_id": 888,
+      "first_seen": "Hughes, Australian Capital Territory",
+      "has_definition": false,
+      "definition": ""
+    },
+    "edmonds": {
+      "token_id": 20,
+      "first_seen": "Paull Shin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lynnwood": {
+      "token_id": 2005,
+      "first_seen": "Paull Shin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paull": {
+      "token_id": 5936,
+      "first_seen": "Paull Shin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mukilteo": {
+      "token_id": 3880,
+      "first_seen": "Paull Shin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "everett": {
+      "token_id": 3494,
+      "first_seen": "Paull Shin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hobom": {
+      "token_id": 703,
+      "first_seen": "Paull Shin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "clause": {
+      "token_id": 4858,
+      "first_seen": "Forum selection clause",
+      "has_definition": true,
+      "definition": "(grammar) A verb, its necessary grammatical arguments, and any adjuncts affecting them."
+    },
+    "determines": {
+      "token_id": 7192,
+      "first_seen": "Forum selection clause",
+      "has_definition": true,
+      "definition": "To set the boundaries or limits of."
+    },
+    "element": {
+      "token_id": 1008,
+      "first_seen": "Forum selection clause",
+      "has_definition": true,
+      "definition": "One of the simplest or essential parts or principles of which anything consists, or upon which the constitution or fundamental powers of anything are based."
+    },
+    "resolved": {
+      "token_id": 1233,
+      "first_seen": "Forum selection clause",
+      "has_definition": false,
+      "definition": ""
+    },
+    "relevant": {
+      "token_id": 4634,
+      "first_seen": "Forum selection clause",
+      "has_definition": true,
+      "definition": "Directly related, connected, or pertinent to a topic."
+    },
+    "selection": {
+      "token_id": 2871,
+      "first_seen": "Forum selection clause",
+      "has_definition": true,
+      "definition": "A process by which heritable traits conferring survival and reproductive advantage to individuals, or related individuals, tend to be passed on to succeeding generations and become more frequent in a population, whereas other less favourable traits tend to become eliminated; the differential survival and reproduction of phenotypes."
+    },
+    "gillian": {
+      "token_id": 2452,
+      "first_seen": "Gillian Berrie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "berrie": {
+      "token_id": 2256,
+      "first_seen": "Gillian Berrie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reindorf": {
+      "token_id": 7786,
+      "first_seen": "The History of the Gold Coast and Asante",
+      "has_definition": false,
+      "definition": ""
+    },
+    "asante": {
+      "token_id": 5946,
+      "first_seen": "The History of the Gold Coast and Asante",
+      "has_definition": false,
+      "definition": ""
+    },
+    "svik": {
+      "token_id": 2925,
+      "first_seen": "R\u00f8svik Church",
+      "has_definition": false,
+      "definition": ""
+    },
+    "svika": {
+      "token_id": 4616,
+      "first_seen": "R\u00f8svik Church",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rfold": {
+      "token_id": 7635,
+      "first_seen": "R\u00f8svik Church",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leistad": {
+      "token_id": 1778,
+      "first_seen": "R\u00f8svik Church",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guttormsen": {
+      "token_id": 5550,
+      "first_seen": "R\u00f8svik Church",
+      "has_definition": false,
+      "definition": ""
+    },
+    "multiverse": {
+      "token_id": 1498,
+      "first_seen": "Multiverse of Matches",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wrestlecon": {
+      "token_id": 7083,
+      "first_seen": "Multiverse of Matches",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fairmont": {
+      "token_id": 1430,
+      "first_seen": "Multiverse of Matches",
+      "has_definition": false,
+      "definition": ""
+    },
+    "promotions": {
+      "token_id": 2009,
+      "first_seen": "Multiverse of Matches",
+      "has_definition": false,
+      "definition": ""
+    },
+    "approved": {
+      "token_id": 33,
+      "first_seen": "Charles Carroll (barrister)",
+      "has_definition": true,
+      "definition": "To sanction officially; to ratify; to confirm; to set as satisfactory."
+    },
+    "abraham": {
+      "token_id": 5422,
+      "first_seen": "Abraham de Wicquefort",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wicquefort": {
+      "token_id": 6228,
+      "first_seen": "Abraham de Wicquefort",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reissue": {
+      "token_id": 7135,
+      "first_seen": "The Violence (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antihero": {
+      "token_id": 7735,
+      "first_seen": "The Violence (album)",
+      "has_definition": true,
+      "definition": "A protagonist who proceeds in an unheroic manner, such as by criminal means, via cowardly actions, or for mercenary goals."
+    },
+    "hayman": {
+      "token_id": 817,
+      "first_seen": "The Violence (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "darren": {
+      "token_id": 2293,
+      "first_seen": "The Violence (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brinton": {
+      "token_id": 884,
+      "first_seen": "John Brinton",
+      "has_definition": false,
+      "definition": ""
+    },
+    "valkova": {
+      "token_id": 805,
+      "first_seen": "Ekaterina Valkova",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ekaterina": {
+      "token_id": 5646,
+      "first_seen": "Ekaterina Valkova",
+      "has_definition": false,
+      "definition": ""
+    },
+    "judoka": {
+      "token_id": 3899,
+      "first_seen": "Ekaterina Valkova",
+      "has_definition": false,
+      "definition": ""
+    },
+    "igorevna": {
+      "token_id": 5919,
+      "first_seen": "Ekaterina Valkova",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hanoi": {
+      "token_id": 3126,
+      "first_seen": "Hanoi Indoor Games Gymnasium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "indoor": {
+      "token_id": 169,
+      "first_seen": "Hanoi Indoor Games Gymnasium",
+      "has_definition": true,
+      "definition": "Situated in, or designed to be used in, or carried on within, the interior of a building."
+    },
+    "seating": {
+      "token_id": 4862,
+      "first_seen": "Hanoi Indoor Games Gymnasium",
+      "has_definition": true,
+      "definition": "To put an object into a place where it will rest; to fix; to set firm."
+    },
+    "aquatics": {
+      "token_id": 6608,
+      "first_seen": "Hanoi Indoor Games Gymnasium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kurczab": {
+      "token_id": 5508,
+      "first_seen": "Aleksandra Kurczab-Pomianowska",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pomianowska": {
+      "token_id": 4155,
+      "first_seen": "Aleksandra Kurczab-Pomianowska",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rajasthan": {
+      "token_id": 5769,
+      "first_seen": "Kattu Paya Sir Intha Kaali",
+      "has_definition": false,
+      "definition": ""
+    },
+    "youreka": {
+      "token_id": 4913,
+      "first_seen": "Kattu Paya Sir Intha Kaali",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aadukalam": {
+      "token_id": 5498,
+      "first_seen": "Kattu Paya Sir Intha Kaali",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ramesh": {
+      "token_id": 6503,
+      "first_seen": "Kattu Paya Sir Intha Kaali",
+      "has_definition": false,
+      "definition": ""
+    },
+    "intha": {
+      "token_id": 7817,
+      "first_seen": "Kattu Paya Sir Intha Kaali",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jaivanth": {
+      "token_id": 1469,
+      "first_seen": "Kattu Paya Sir Intha Kaali",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iraa": {
+      "token_id": 2782,
+      "first_seen": "Kattu Paya Sir Intha Kaali",
+      "has_definition": false,
+      "definition": ""
+    },
+    "naren": {
+      "token_id": 5766,
+      "first_seen": "Kattu Paya Sir Intha Kaali",
+      "has_definition": false,
+      "definition": ""
+    },
+    "munnar": {
+      "token_id": 5696,
+      "first_seen": "Kattu Paya Sir Intha Kaali",
+      "has_definition": false,
+      "definition": ""
+    },
+    "agarwal": {
+      "token_id": 5634,
+      "first_seen": "Kattu Paya Sir Intha Kaali",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kattu": {
+      "token_id": 7999,
+      "first_seen": "Kattu Paya Sir Intha Kaali",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paya": {
+      "token_id": 5684,
+      "first_seen": "Kattu Paya Sir Intha Kaali",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fulham": {
+      "token_id": 5871,
+      "first_seen": "Claybrook House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "claybrook": {
+      "token_id": 7513,
+      "first_seen": "Claybrook House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "survive": {
+      "token_id": 2625,
+      "first_seen": "How Do I Survive",
+      "has_definition": true,
+      "definition": "Of a person, to continue to live; to remain alive."
+    },
+    "tillyer": {
+      "token_id": 1055,
+      "first_seen": "Edgar Tillyer",
+      "has_definition": false,
+      "definition": ""
+    },
+    "derry": {
+      "token_id": 6742,
+      "first_seen": "Edgar Tillyer",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 2039,
-  "total_words": 16012
+  "total_articles": 2069,
+  "total_words": 16156
 }
