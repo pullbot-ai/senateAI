@@ -49,7 +49,7 @@ jobs:
           cat > load_punct.py << 'EOF'
           from transformers import AutoTokenizer, AutoModelForTokenClassification
 
-          MODEL_NAME = "1-800-BAD-CODE/punctuation_fullstop_truecase_english"
+          MODEL_NAME = "oliverguhr/fullstop-punctuation-multilang-large"
 
           print("Downloading punctuator model...")
           model = AutoModelForTokenClassification.from_pretrained(MODEL_NAME)
