@@ -71591,8 +71591,764 @@
       "first_seen": "Viridian metaltail",
       "has_definition": false,
       "definition": ""
+    },
+    "tbilisi": {
+      "token_id": 2850,
+      "first_seen": "Giorgi Tsintsadze",
+      "has_definition": false,
+      "definition": ""
+    },
+    "giorgi": {
+      "token_id": 6706,
+      "first_seen": "Giorgi Tsintsadze",
+      "has_definition": false,
+      "definition": ""
+    },
+    "superliga": {
+      "token_id": 7764,
+      "first_seen": "Giorgi Tsintsadze",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tsintsadze": {
+      "token_id": 6784,
+      "first_seen": "Giorgi Tsintsadze",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tsu": {
+      "token_id": 7320,
+      "first_seen": "Giorgi Tsintsadze",
+      "has_definition": false,
+      "definition": ""
+    },
+    "todd": {
+      "token_id": 3735,
+      "first_seen": "Grey Eagle, Minnesota",
+      "has_definition": false,
+      "definition": ""
+    },
+    "decennial": {
+      "token_id": 6071,
+      "first_seen": "Grey Eagle, Minnesota",
+      "has_definition": true,
+      "definition": "The tenth anniversary of an event or happening."
+    },
+    "pink": {
+      "token_id": 7457,
+      "first_seen": "Fereydoun Jeyrani",
+      "has_definition": true,
+      "definition": "The common minnow, Phoxinus phoxinus."
+    },
+    "jeyrani": {
+      "token_id": 794,
+      "first_seen": "Fereydoun Jeyrani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fereydoun": {
+      "token_id": 1911,
+      "first_seen": "Fereydoun Jeyrani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "salad": {
+      "token_id": 514,
+      "first_seen": "Fereydoun Jeyrani",
+      "has_definition": true,
+      "definition": "A food made primarily of a mixture of raw or cold ingredients, typically vegetables, usually served with a dressing such as vinegar or mayonnaise."
+    },
+    "mother": {
+      "token_id": 7734,
+      "first_seen": "Fereydoun Jeyrani",
+      "has_definition": true,
+      "definition": "A (human) female who has given birth to a baby"
+    },
+    "haft": {
+      "token_id": 7232,
+      "first_seen": "Fereydoun Jeyrani",
+      "has_definition": true,
+      "definition": "The handle of a tool or weapon."
+    },
+    "unconventional": {
+      "token_id": 2631,
+      "first_seen": "Fereydoun Jeyrani",
+      "has_definition": true,
+      "definition": "Something or someone that is unconventional."
+    },
+    "velinov": {
+      "token_id": 2363,
+      "first_seen": "Georgi Velinov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "georgi": {
+      "token_id": 7678,
+      "first_seen": "Georgi Velinov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "savino": {
+      "token_id": 5489,
+      "first_seen": "New York's 23rd State Senate district",
+      "has_definition": false,
+      "definition": ""
+    },
+    "diane": {
+      "token_id": 6224,
+      "first_seen": "New York's 23rd State Senate district",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spanton": {
+      "token_id": 51,
+      "first_seen": "New York's 23rd State Senate district",
+      "has_definition": false,
+      "definition": ""
+    },
+    "democrat": {
+      "token_id": 5143,
+      "first_seen": "New York's 23rd State Senate district",
+      "has_definition": true,
+      "definition": "A supporter of democracy; an advocate of democratic politics (originally as opposed to the aristocrats in Revolutionary France)."
+    },
+    "scarcella": {
+      "token_id": 157,
+      "first_seen": "New York's 23rd State Senate district",
+      "has_definition": false,
+      "definition": ""
+    },
+    "simmons": {
+      "token_id": 2753,
+      "first_seen": "2026 Arkansas\u2013Pine Bluff Golden Lions football team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hampton": {
+      "token_id": 7291,
+      "first_seen": "2026 Arkansas\u2013Pine Bluff Golden Lions football team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alonzo": {
+      "token_id": 1247,
+      "first_seen": "2026 Arkansas\u2013Pine Bluff Golden Lions football team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "swac": {
+      "token_id": 217,
+      "first_seen": "2026 Arkansas\u2013Pine Bluff Golden Lions football team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "uapb": {
+      "token_id": 6762,
+      "first_seen": "2026 Arkansas\u2013Pine Bluff Golden Lions football team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jiangmen": {
+      "token_id": 5446,
+      "first_seen": "Taishan railway station (Guangdong)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nankeng": {
+      "token_id": 1695,
+      "first_seen": "Taishan railway station (Guangdong)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "taicheng": {
+      "token_id": 5773,
+      "first_seen": "Taishan railway station (Guangdong)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guangdong": {
+      "token_id": 7383,
+      "first_seen": "Taishan railway station (Guangdong)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "taishan": {
+      "token_id": 4930,
+      "first_seen": "Taishan railway station (Guangdong)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "subdistrict": {
+      "token_id": 4040,
+      "first_seen": "Taishan railway station (Guangdong)",
+      "has_definition": true,
+      "definition": "A district forming part of a larger district."
+    },
+    "minster": {
+      "token_id": 6142,
+      "first_seen": "Johann Parler",
+      "has_definition": true,
+      "definition": "A monastic church."
+    },
+    "vitus": {
+      "token_id": 950,
+      "first_seen": "Johann Parler",
+      "has_definition": false,
+      "definition": ""
+    },
+    "prague": {
+      "token_id": 1894,
+      "first_seen": "Johann Parler",
+      "has_definition": false,
+      "definition": ""
+    },
+    "freiburg": {
+      "token_id": 174,
+      "first_seen": "Johann Parler",
+      "has_definition": false,
+      "definition": ""
+    },
+    "parler": {
+      "token_id": 2562,
+      "first_seen": "Johann Parler",
+      "has_definition": false,
+      "definition": ""
+    },
+    "damaged": {
+      "token_id": 4475,
+      "first_seen": "Johann Parler",
+      "has_definition": true,
+      "definition": "To impair the soundness, goodness, or value of; to harm or cause destruction."
+    },
+    "wirral": {
+      "token_id": 7921,
+      "first_seen": "1992 Wirral Metropolitan Borough Council election",
+      "has_definition": false,
+      "definition": ""
+    },
+    "novaci": {
+      "token_id": 1734,
+      "first_seen": "Novaci, North Macedonia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rendered": {
+      "token_id": 2472,
+      "first_seen": "Visramiani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tmogvi": {
+      "token_id": 5071,
+      "first_seen": "Visramiani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tamar": {
+      "token_id": 3439,
+      "first_seen": "Visramiani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sargis": {
+      "token_id": 1572,
+      "first_seen": "Visramiani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "visramiani": {
+      "token_id": 1759,
+      "first_seen": "Visramiani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "villefagnan": {
+      "token_id": 7393,
+      "first_seen": "Villefagnan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "charente": {
+      "token_id": 893,
+      "first_seen": "Villefagnan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aulaqi": {
+      "token_id": 5277,
+      "first_seen": "Upper Aulaqi Sheikhdom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sheikhdom": {
+      "token_id": 6203,
+      "first_seen": "Upper Aulaqi Sheikhdom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "protectorate": {
+      "token_id": 3404,
+      "first_seen": "Upper Aulaqi Sheikhdom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shabwah": {
+      "token_id": 2145,
+      "first_seen": "Upper Aulaqi Sheikhdom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dishonest": {
+      "token_id": 7296,
+      "first_seen": "Little Jack Horner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "greediness": {
+      "token_id": 1392,
+      "first_seen": "Little Jack Horner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tudor": {
+      "token_id": 6025,
+      "first_seen": "Little Jack Horner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rhyme": {
+      "token_id": 5825,
+      "first_seen": "Little Jack Horner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "opportunism": {
+      "token_id": 2844,
+      "first_seen": "Little Jack Horner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "celebration": {
+      "token_id": 4151,
+      "first_seen": "Little Jack Horner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "folkloric": {
+      "token_id": 2760,
+      "first_seen": "Little Jack Horner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nursery": {
+      "token_id": 4082,
+      "first_seen": "Little Jack Horner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "horner": {
+      "token_id": 1026,
+      "first_seen": "Little Jack Horner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "moralists": {
+      "token_id": 5620,
+      "first_seen": "Little Jack Horner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "roud": {
+      "token_id": 6743,
+      "first_seen": "Little Jack Horner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rewrote": {
+      "token_id": 114,
+      "first_seen": "Little Jack Horner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "castro": {
+      "token_id": 1118,
+      "first_seen": "Roland Castro",
+      "has_definition": false,
+      "definition": ""
+    },
+    "print": {
+      "token_id": 3807,
+      "first_seen": "Robert Lewis Dabney",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pastor": {
+      "token_id": 5363,
+      "first_seen": "Robert Lewis Dabney",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stonewall": {
+      "token_id": 1375,
+      "first_seen": "Robert Lewis Dabney",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chaplain": {
+      "token_id": 5110,
+      "first_seen": "Robert Lewis Dabney",
+      "has_definition": true,
+      "definition": "A member of a religious body (often, but not always, of the clergy) officially assigned to give pastoral care at an institution, group, private chapel, etc."
+    },
+    "biographer": {
+      "token_id": 4213,
+      "first_seen": "Robert Lewis Dabney",
+      "has_definition": true,
+      "definition": "The writer of a biography"
+    },
+    "dabney": {
+      "token_id": 7927,
+      "first_seen": "Robert Lewis Dabney",
+      "has_definition": false,
+      "definition": ""
+    },
+    "veland": {
+      "token_id": 7738,
+      "first_seen": "Beyond the Veil (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "morten": {
+      "token_id": 7448,
+      "first_seen": "Beyond the Veil (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "veil": {
+      "token_id": 4273,
+      "first_seen": "Beyond the Veil (album)",
+      "has_definition": true,
+      "definition": "Something hung up or spread out to hide or protect the face, or hide an object from view; usually of gauze, crepe, or similar diaphanous material."
+    },
+    "tristania": {
+      "token_id": 2385,
+      "first_seen": "Beyond the Veil (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cricketer": {
+      "token_id": 3776,
+      "first_seen": "William Lee Rees",
+      "has_definition": true,
+      "definition": "A person who plays cricket."
+    },
+    "rees": {
+      "token_id": 2003,
+      "first_seen": "William Lee Rees",
+      "has_definition": false,
+      "definition": ""
+    },
+    "schambach": {
+      "token_id": 7930,
+      "first_seen": "Georg Schambach",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rebecca": {
+      "token_id": 5976,
+      "first_seen": "Fatty Finn (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kid": {
+      "token_id": 6416,
+      "first_seen": "Fatty Finn (film)",
+      "has_definition": true,
+      "definition": "A young goat."
+    },
+    "finn": {
+      "token_id": 7453,
+      "first_seen": "Fatty Finn (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nicholls": {
+      "token_id": 4,
+      "first_seen": "Fatty Finn (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "murphy": {
+      "token_id": 1005,
+      "first_seen": "Fatty Finn (film)",
+      "has_definition": true,
+      "definition": "An Irish or white potato."
+    },
+    "oxenbould": {
+      "token_id": 7950,
+      "first_seen": "Fatty Finn (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stakes": {
+      "token_id": 1840,
+      "first_seen": "Fatty Finn (film)",
+      "has_definition": true,
+      "definition": "A piece of wood or other material, usually long and slender, pointed at one end so as to be easily driven into the ground as a marker or a support or stay."
+    },
+    "strip": {
+      "token_id": 5343,
+      "first_seen": "Fatty Finn (film)",
+      "has_definition": true,
+      "definition": "A long, thin piece of land; any long, thin area."
+    },
+    "prema": {
+      "token_id": 6943,
+      "first_seen": "Salim Hanna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "salim": {
+      "token_id": 6538,
+      "first_seen": "Salim Hanna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hern": {
+      "token_id": 3619,
+      "first_seen": "Salim Hanna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ndez": {
+      "token_id": 5104,
+      "first_seen": "Salim Hanna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "topping": {
+      "token_id": 4308,
+      "first_seen": "Human Design (album)",
+      "has_definition": true,
+      "definition": "To cover on the top or with a top."
+    },
+    "fires": {
+      "token_id": 6218,
+      "first_seen": "Human Design (album)",
+      "has_definition": true,
+      "definition": "A (usually self-sustaining) chemical reaction involving the bonding of oxygen with carbon or other fuel, with the production of heat and the presence of flame or smouldering."
+    },
+    "expected": {
+      "token_id": 1244,
+      "first_seen": "Out of the Blue (1995 TV series)",
+      "has_definition": true,
+      "definition": "To predict or believe that something will happen"
+    },
+    "viewing": {
+      "token_id": 3128,
+      "first_seen": "Out of the Blue (1995 TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "filmed": {
+      "token_id": 821,
+      "first_seen": "Out of the Blue (1995 TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dramas": {
+      "token_id": 7357,
+      "first_seen": "Out of the Blue (1995 TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "axed": {
+      "token_id": 7477,
+      "first_seen": "Out of the Blue (1995 TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "detectives": {
+      "token_id": 4262,
+      "first_seen": "Out of the Blue (1995 TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brazen": {
+      "token_id": 5504,
+      "first_seen": "Out of the Blue (1995 TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pull": {
+      "token_id": 1728,
+      "first_seen": "Out of the Blue (1995 TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cid": {
+      "token_id": 6023,
+      "first_seen": "Out of the Blue (1995 TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grisly": {
+      "token_id": 2844,
+      "first_seen": "Out of the Blue (1995 TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hannah": {
+      "token_id": 3383,
+      "first_seen": "Out of the Blue (1995 TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "respective": {
+      "token_id": 301,
+      "first_seen": "Out of the Blue (1995 TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "clashes": {
+      "token_id": 7259,
+      "first_seen": "Out of the Blue (1995 TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "protagonists": {
+      "token_id": 3923,
+      "first_seen": "Out of the Blue (1995 TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oberliga": {
+      "token_id": 2431,
+      "first_seen": "FC T\u00fcrkiye Wilhelmsburg",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hamburg": {
+      "token_id": 977,
+      "first_seen": "FC T\u00fcrkiye Wilhelmsburg",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rkiye": {
+      "token_id": 1202,
+      "first_seen": "FC T\u00fcrkiye Wilhelmsburg",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wilhelmsburg": {
+      "token_id": 3805,
+      "first_seen": "FC T\u00fcrkiye Wilhelmsburg",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bruno": {
+      "token_id": 2809,
+      "first_seen": "Arctostaphylos pacifica",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arctostaphylos": {
+      "token_id": 6489,
+      "first_seen": "Arctostaphylos pacifica",
+      "has_definition": false,
+      "definition": ""
+    },
+    "manzanita": {
+      "token_id": 4014,
+      "first_seen": "Arctostaphylos pacifica",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pacifica": {
+      "token_id": 3862,
+      "first_seen": "Arctostaphylos pacifica",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mauritania": {
+      "token_id": 3973,
+      "first_seen": "Mauritania\u2013Senegal border",
+      "has_definition": false,
+      "definition": ""
+    },
+    "malaga": {
+      "token_id": 1948,
+      "first_seen": "V\u00edctor Meliveo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "meliveo": {
+      "token_id": 4996,
+      "first_seen": "V\u00edctor Meliveo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "photographer": {
+      "token_id": 4928,
+      "first_seen": "V\u00edctor Meliveo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "carabidae": {
+      "token_id": 405,
+      "first_seen": "Phorticosomus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "phorticosomus": {
+      "token_id": 2330,
+      "first_seen": "Phorticosomus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dewees": {
+      "token_id": 105,
+      "first_seen": "James Dewees",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reggie": {
+      "token_id": 7040,
+      "first_seen": "James Dewees",
+      "has_definition": false,
+      "definition": ""
+    },
+    "get": {
+      "token_id": 4809,
+      "first_seen": "James Dewees",
+      "has_definition": true,
+      "definition": "Offspring."
+    },
+    "spells": {
+      "token_id": 7135,
+      "first_seen": "James Dewees",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coalesce": {
+      "token_id": 7206,
+      "first_seen": "James Dewees",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leathermouth": {
+      "token_id": 2142,
+      "first_seen": "James Dewees",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seminoles": {
+      "token_id": 4942,
+      "first_seen": "Trey Marshall",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 1290,
-  "total_words": 11932
+  "total_articles": 1320,
+  "total_words": 12058
 }
