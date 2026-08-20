@@ -12,8 +12,6 @@ jobs:
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
-        with:
-          lfs: true
       
       - uses: actions/setup-python@v5
         with:
@@ -51,6 +49,14 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           BUNDLE=$(printf "%03d" ${{ steps.next-bundle.outputs.bundle_id }})
+          git stash
+          git pull --rebase origin main
+          git stash pop || true
           git add senate_bundles/bundle_${BUNDLE}.pt optimize_progress.json
-          git commit -m "Optimize bundle ${{ steps.next-bundle.outputs.bundle_id }}"
-          git push
+          git commit -m "Optimize bundle ${{ steps.next-bundle.outputs.bundle_id }}" || echo "No changes"
+          git push || {
+            git pull --rebase origin main
+            git add senate_bundles/bundle_${BUNDLE}.pt optimize_progress.json
+            git commit -m "Optimize bundle retry" || echo "No changes"
+            git push
+          }
