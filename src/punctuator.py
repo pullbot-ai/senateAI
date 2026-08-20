@@ -1,5 +1,5 @@
 """
-Senate AI - Punctuator using ReCasePunct
+Senate AI - Punctuator using HuggingFace model
 Downloads the model once, uses locally. No API calls.
 """
 
@@ -7,9 +7,8 @@ import torch
 import re
 from pathlib import Path
 from transformers import AutoTokenizer, AutoModelForTokenClassification
-import os
 
-MODEL_NAME = "felflare/restore-punctuation-capitalization"
+MODEL_NAME = "1-800-BAD-CODE/punctuation_fullstop_truecase_english"
 CACHE_DIR = Path('models/punctuator')
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -27,7 +26,6 @@ def load_punctuator():
     print("Loading punctuator model...")
     
     try:
-        # Try to load from cache first
         model_path = CACHE_DIR / 'model'
         tokenizer_path = CACHE_DIR / 'tokenizer'
         
@@ -35,7 +33,6 @@ def load_punctuator():
             _punctuator_model = AutoModelForTokenClassification.from_pretrained(model_path)
             _punctuator_tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
         else:
-            # Download and cache
             _punctuator_model = AutoModelForTokenClassification.from_pretrained(MODEL_NAME)
             _punctuator_tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
             
@@ -67,16 +64,18 @@ def punctuate(text):
         return text
     
     # Check for math expressions first
-    math_match = re.search(r'\b(\d+(?:\.\d+)?)\s*[+\-*/]\s*(\d+(?:\.\d+)?)\b', text)
+    math_match = re.search(r'\b(\d+(?:\.\d+)?)\s*([+\-*/])\s*(\d+(?:\.\d+)?)\b', text)
     if math_match:
         try:
             a = float(math_match.group(1))
-            b = float(math_match.group(2))
-            op = re.search(r'[+\-*/]', math_match.group(0)).group()
+            b = float(math_match.group(3))
+            op = math_match.group(2)
+            
             if op == '+': result = a + b
             elif op == '-': result = a - b
             elif op == '*': result = a * b
             elif op == '/': result = a / b if b != 0 else 'undefined'
+            else: result = '?'
             
             if isinstance(result, float) and result == int(result):
                 return str(int(result))
@@ -109,6 +108,8 @@ def punctuate(text):
                 result += token[2:]
             elif token in ['.', ',', '!', '?', ';', ':']:
                 result += token
+            elif token == '[SEP]' or token == '[CLS]' or token == '[PAD]':
+                continue
             else:
                 if result and token not in ['.', ',', '!', '?']:
                     result += ' '
