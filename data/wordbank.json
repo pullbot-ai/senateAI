@@ -76691,8 +76691,938 @@
       "first_seen": "Pseudoduganella",
       "has_definition": false,
       "definition": ""
+    },
+    "cells": {
+      "token_id": 2992,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": true,
+      "definition": "A single-room dwelling for a hermit."
+    },
+    "ashmead": {
+      "token_id": 3183,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "peduncle": {
+      "token_id": 1510,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": true,
+      "definition": "The axis of an inflorescence; the stalk supporting an inflorescence."
+    },
+    "congregatus": {
+      "token_id": 7023,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "twigs": {
+      "token_id": 5160,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": true,
+      "definition": "A small thin branch of a tree or bush."
+    },
+    "induces": {
+      "token_id": 5280,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": true,
+      "definition": "To lead by persuasion or influence; incite or prevail upon."
+    },
+    "galls": {
+      "token_id": 6824,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": true,
+      "definition": "Bile, especially that of an animal; the greenish, profoundly bitter-tasting fluid found in bile ducts and gall bladders, structures associated with the liver."
+    },
+    "chrysolepis": {
+      "token_id": 5452,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hymenopteran": {
+      "token_id": 484,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": true,
+      "definition": "Any insect of the order Hymenoptera: the bees, wasps and ants etc."
+    },
+    "callirhytis": {
+      "token_id": 5849,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "congregata": {
+      "token_id": 1290,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "quercus": {
+      "token_id": 4261,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "catkins": {
+      "token_id": 206,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "andricus": {
+      "token_id": 7156,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gall": {
+      "token_id": 1071,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": true,
+      "definition": "Bile, especially that of an animal; the greenish, profoundly bitter-tasting fluid found in bile ducts and gall bladders, structures associated with the liver."
+    },
+    "rugose": {
+      "token_id": 7274,
+      "first_seen": "Callirhytis congregata",
+      "has_definition": true,
+      "definition": "Having rugae or wrinkles, creases, ridges, or corrugation."
+    },
+    "rowland": {
+      "token_id": 2999,
+      "first_seen": "William R. Harris",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vinzant": {
+      "token_id": 6128,
+      "first_seen": "Lake City-Columbia County Historical Museum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "breezy": {
+      "token_id": 1392,
+      "first_seen": "Call Me Every Day",
+      "has_definition": true,
+      "definition": "With a breeze blowing, with a lively wind, pleasantly windy."
+    },
+    "wizkid": {
+      "token_id": 4989,
+      "first_seen": "Call Me Every Day",
+      "has_definition": false,
+      "definition": ""
+    },
+    "duet": {
+      "token_id": 1974,
+      "first_seen": "Call Me Every Day",
+      "has_definition": true,
+      "definition": "A musical composition in two parts, each performed by a single voice (singer, instrument or univoce ensemble)."
+    },
+    "akiran": {
+      "token_id": 6196,
+      "first_seen": "Be\u011fendik, Pervari",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kurds": {
+      "token_id": 3623,
+      "first_seen": "Be\u011fendik, Pervari",
+      "has_definition": false,
+      "definition": ""
+    },
+    "endik": {
+      "token_id": 3606,
+      "first_seen": "Be\u011fendik, Pervari",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pervari": {
+      "token_id": 6292,
+      "first_seen": "Be\u011fendik, Pervari",
+      "has_definition": false,
+      "definition": ""
+    },
+    "siirt": {
+      "token_id": 981,
+      "first_seen": "Be\u011fendik, Pervari",
+      "has_definition": false,
+      "definition": ""
+    },
+    "adiyan": {
+      "token_id": 3346,
+      "first_seen": "Be\u011fendik, Pervari",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alb": {
+      "token_id": 1613,
+      "first_seen": "\u00d6pfingen",
+      "has_definition": true,
+      "definition": "A long, white robe worn by priests and other ministers, underneath most of the other vestments."
+    },
+    "donau": {
+      "token_id": 2748,
+      "first_seen": "\u00d6pfingen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pfingen": {
+      "token_id": 2166,
+      "first_seen": "\u00d6pfingen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reinhold": {
+      "token_id": 3322,
+      "first_seen": "Nusatidia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nusatidia": {
+      "token_id": 2384,
+      "first_seen": "Nusatidia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sac": {
+      "token_id": 1963,
+      "first_seen": "Nusatidia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "christa": {
+      "token_id": 2581,
+      "first_seen": "Nusatidia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "deeleman": {
+      "token_id": 5924,
+      "first_seen": "Nusatidia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "derby": {
+      "token_id": 733,
+      "first_seen": "Nottingham Road Cemetery",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chaddesden": {
+      "token_id": 2578,
+      "first_seen": "Nottingham Road Cemetery",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nottingham": {
+      "token_id": 2483,
+      "first_seen": "Nottingham Road Cemetery",
+      "has_definition": false,
+      "definition": ""
+    },
+    "siga": {
+      "token_id": 6885,
+      "first_seen": "Siga (moth)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bner": {
+      "token_id": 4543,
+      "first_seen": "Siga (moth)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rentable": {
+      "token_id": 3330,
+      "first_seen": "Park Towers (Houston)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "realty": {
+      "token_id": 376,
+      "first_seen": "Park Towers (Houston)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "llp": {
+      "token_id": 5899,
+      "first_seen": "Park Towers (Houston)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leasing": {
+      "token_id": 1363,
+      "first_seen": "Park Towers (Houston)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "corp": {
+      "token_id": 6478,
+      "first_seen": "Park Towers (Houston)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "uptown": {
+      "token_id": 3787,
+      "first_seen": "Park Towers (Houston)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tpmc": {
+      "token_id": 4269,
+      "first_seen": "Park Towers (Houston)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "toledo": {
+      "token_id": 2680,
+      "first_seen": "Pearson Metropark",
+      "has_definition": false,
+      "definition": ""
+    },
+    "metroparks": {
+      "token_id": 6989,
+      "first_seen": "Pearson Metropark",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sledding": {
+      "token_id": 3125,
+      "first_seen": "Pearson Metropark",
+      "has_definition": false,
+      "definition": ""
+    },
+    "metropark": {
+      "token_id": 4602,
+      "first_seen": "Pearson Metropark",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lanners": {
+      "token_id": 6792,
+      "first_seen": "11.6",
+      "has_definition": false,
+      "definition": ""
+    },
+    "juana": {
+      "token_id": 7156,
+      "first_seen": "11.6",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bouli": {
+      "token_id": 2259,
+      "first_seen": "11.6",
+      "has_definition": false,
+      "definition": ""
+    },
+    "corinne": {
+      "token_id": 3354,
+      "first_seen": "11.6",
+      "has_definition": false,
+      "definition": ""
+    },
+    "masiero": {
+      "token_id": 3818,
+      "first_seen": "11.6",
+      "has_definition": false,
+      "definition": ""
+    },
+    "godeau": {
+      "token_id": 4606,
+      "first_seen": "11.6",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lights": {
+      "token_id": 6838,
+      "first_seen": "11.6",
+      "has_definition": true,
+      "definition": "Visible electromagnetic radiation. The human eye can typically detect radiation (light) in the wavelength range of about 400 to 750 nanometers. Nearby shorter and longer wavelength ranges, although not visible, are commonly called ultraviolet and infrared light."
+    },
+    "cluzet": {
+      "token_id": 1560,
+      "first_seen": "11.6",
+      "has_definition": false,
+      "definition": ""
+    },
+    "comprised": {
+      "token_id": 7895,
+      "first_seen": "1936 VFL season",
+      "has_definition": true,
+      "definition": "To be made up of; to consist of (especially a comprehensive list of parts)."
+    },
+    "vfl": {
+      "token_id": 82,
+      "first_seen": "1936 VFL season",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bardejov": {
+      "token_id": 4715,
+      "first_seen": "Kobyly, Bardejov District",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kobyly": {
+      "token_id": 697,
+      "first_seen": "Kobyly, Bardejov District",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reda": {
+      "token_id": 7175,
+      "first_seen": "Ahmed Benchemsi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ahmed": {
+      "token_id": 388,
+      "first_seen": "Ahmed Benchemsi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "benchemsi": {
+      "token_id": 632,
+      "first_seen": "Ahmed Benchemsi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "telquel": {
+      "token_id": 2090,
+      "first_seen": "Ahmed Benchemsi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nichane": {
+      "token_id": 7182,
+      "first_seen": "Ahmed Benchemsi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "magazines": {
+      "token_id": 3814,
+      "first_seen": "Ahmed Benchemsi",
+      "has_definition": true,
+      "definition": "A non-academic periodical publication, generally consisting of sheets of paper folded in half and stapled at the fold."
+    },
+    "northumberland": {
+      "token_id": 5450,
+      "first_seen": "Northumberland Street, London",
+      "has_definition": false,
+      "definition": ""
+    },
+    "juice": {
+      "token_id": 4766,
+      "first_seen": "Jimmy D. Robinson",
+      "has_definition": true,
+      "definition": "A liquid from a plant, especially fruit."
+    },
+    "broker": {
+      "token_id": 2458,
+      "first_seen": "Jimmy D. Robinson",
+      "has_definition": true,
+      "definition": "Financially ruined, bankrupt."
+    },
+    "lyricist": {
+      "token_id": 7531,
+      "first_seen": "Jimmy D. Robinson",
+      "has_definition": true,
+      "definition": "A person who writes the lyrics of a song."
+    },
+    "midnight": {
+      "token_id": 1398,
+      "first_seen": "Jimmy D. Robinson",
+      "has_definition": true,
+      "definition": "The middle of the night: the sixth temporal hour, equidistant between sunset and sunrise."
+    },
+    "tiny": {
+      "token_id": 2501,
+      "first_seen": "Jimmy D. Robinson",
+      "has_definition": true,
+      "definition": "A small child; an infant."
+    },
+    "maclachlan": {
+      "token_id": 6258,
+      "first_seen": "Touch of Pink",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ried": {
+      "token_id": 225,
+      "first_seen": "Touch of Pink",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cary": {
+      "token_id": 1126,
+      "first_seen": "Touch of Pink",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jimi": {
+      "token_id": 664,
+      "first_seen": "Touch of Pink",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iqbal": {
+      "token_id": 6969,
+      "first_seen": "Touch of Pink",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mistry": {
+      "token_id": 1347,
+      "first_seen": "Touch of Pink",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mink": {
+      "token_id": 6696,
+      "first_seen": "Touch of Pink",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kristen": {
+      "token_id": 7415,
+      "first_seen": "Touch of Pink",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gallipoli": {
+      "token_id": 6557,
+      "first_seen": "Dardanelles campaign medal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "participation": {
+      "token_id": 3398,
+      "first_seen": "Dardanelles campaign medal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "exp": {
+      "token_id": 5754,
+      "first_seen": "Dardanelles campaign medal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ditionnaire": {
+      "token_id": 5818,
+      "first_seen": "Dardanelles campaign medal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "orient": {
+      "token_id": 2403,
+      "first_seen": "Dardanelles campaign medal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dardanelles": {
+      "token_id": 3675,
+      "first_seen": "Dardanelles campaign medal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "evolution": {
+      "token_id": 4501,
+      "first_seen": "Douglas J. Futuyma",
+      "has_definition": false,
+      "definition": ""
+    },
+    "advocating": {
+      "token_id": 3740,
+      "first_seen": "Douglas J. Futuyma",
+      "has_definition": false,
+      "definition": ""
+    },
+    "speciation": {
+      "token_id": 5959,
+      "first_seen": "Douglas J. Futuyma",
+      "has_definition": false,
+      "definition": ""
+    },
+    "futuyma": {
+      "token_id": 2003,
+      "first_seen": "Douglas J. Futuyma",
+      "has_definition": false,
+      "definition": ""
+    },
+    "creationism": {
+      "token_id": 6590,
+      "first_seen": "Douglas J. Futuyma",
+      "has_definition": false,
+      "definition": ""
+    },
+    "contested": {
+      "token_id": 318,
+      "first_seen": "CAF Super Cup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "totalenergies": {
+      "token_id": 7447,
+      "first_seen": "CAF Super Cup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "contributed": {
+      "token_id": 1914,
+      "first_seen": "Stefano Borgonovo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "injuries": {
+      "token_id": 7208,
+      "first_seen": "Stefano Borgonovo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "borgonovo": {
+      "token_id": 2159,
+      "first_seen": "Stefano Borgonovo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "baggio": {
+      "token_id": 1340,
+      "first_seen": "Stefano Borgonovo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stefano": {
+      "token_id": 5428,
+      "first_seen": "Stefano Borgonovo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "loan": {
+      "token_id": 1285,
+      "first_seen": "Stefano Borgonovo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "roberto": {
+      "token_id": 2495,
+      "first_seen": "Stefano Borgonovo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "opportunistic": {
+      "token_id": 7309,
+      "first_seen": "Stefano Borgonovo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fiorentina": {
+      "token_id": 1632,
+      "first_seen": "Stefano Borgonovo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dusty": {
+      "token_id": 1831,
+      "first_seen": "Dusty Anderson",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yank": {
+      "token_id": 695,
+      "first_seen": "Dusty Anderson",
+      "has_definition": true,
+      "definition": "A sudden, vigorous pull (sometimes defined as mass times jerk, or rate of change of force)."
+    },
+    "cixius": {
+      "token_id": 7866,
+      "first_seen": "Cixius",
+      "has_definition": false,
+      "definition": ""
+    },
+    "planthopper": {
+      "token_id": 6511,
+      "first_seen": "Cixius",
+      "has_definition": true,
+      "definition": "Any of many insects, of superfamily Fulgoroidea, that bear a remarkable resemblance to leaves and are capable of prodigious leaps."
+    },
+    "cixiini": {
+      "token_id": 7753,
+      "first_seen": "Cixius",
+      "has_definition": false,
+      "definition": ""
+    },
+    "carla": {
+      "token_id": 2444,
+      "first_seen": "C'\u00e8 sempre un ma!",
+      "has_definition": false,
+      "definition": ""
+    },
+    "poggio": {
+      "token_id": 7712,
+      "first_seen": "C'\u00e8 sempre un ma!",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zampa": {
+      "token_id": 7109,
+      "first_seen": "C'\u00e8 sempre un ma!",
+      "has_definition": false,
+      "definition": ""
+    },
+    "telephones": {
+      "token_id": 3486,
+      "first_seen": "C'\u00e8 sempre un ma!",
+      "has_definition": true,
+      "definition": "A telecommunication device (originally mechanical, and now electronic) used for two-way talking with another person (now often shortened to phone)."
+    },
+    "sempre": {
+      "token_id": 4254,
+      "first_seen": "C'\u00e8 sempre un ma!",
+      "has_definition": false,
+      "definition": ""
+    },
+    "issf": {
+      "token_id": 1869,
+      "first_seen": "William McMillan (sport shooter)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mcmillan": {
+      "token_id": 5146,
+      "first_seen": "William McMillan (sport shooter)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marius": {
+      "token_id": 7966,
+      "first_seen": "Willem van Beusekom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jacobus": {
+      "token_id": 6993,
+      "first_seen": "Willem van Beusekom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "commentator": {
+      "token_id": 3708,
+      "first_seen": "Willem van Beusekom",
+      "has_definition": true,
+      "definition": "A person who comments; especially someone who is paid to give his/her opinions in the media about current affairs, sports, etc."
+    },
+    "nps": {
+      "token_id": 360,
+      "first_seen": "Willem van Beusekom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "beusekom": {
+      "token_id": 3033,
+      "first_seen": "Willem van Beusekom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hospitals": {
+      "token_id": 7939,
+      "first_seen": "William Harvey Hospital",
+      "has_definition": true,
+      "definition": "A large medical facility, usually in a building with multiple floors, where seriously ill or injured patients are given extensive medical and/or surgical treatment."
+    },
+    "ashford": {
+      "token_id": 345,
+      "first_seen": "William Harvey Hospital",
+      "has_definition": false,
+      "definition": ""
+    },
+    "circulatory": {
+      "token_id": 1678,
+      "first_seen": "William Harvey Hospital",
+      "has_definition": true,
+      "definition": "A vessel with two portions unequally exposed to heat, and with connecting pipes or passages, through which the fluid rises from the overheated portion, and descends from the relatively colder, maintaining a circulation."
+    },
+    "willesborough": {
+      "token_id": 5400,
+      "first_seen": "William Harvey Hospital",
+      "has_definition": false,
+      "definition": ""
+    },
+    "folkestone": {
+      "token_id": 2902,
+      "first_seen": "William Harvey Hospital",
+      "has_definition": false,
+      "definition": ""
+    },
+    "extrusion": {
+      "token_id": 4694,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eruption": {
+      "token_id": 5874,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": true,
+      "definition": "A violent ejection, such as the spurting out of lava from a volcano."
+    },
+    "novarupta": {
+      "token_id": 2090,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "progressively": {
+      "token_id": 3173,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": true,
+      "definition": "In a progressive manner."
+    },
+    "flank": {
+      "token_id": 7070,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": true,
+      "definition": "The flesh between the last rib and the hip; the side."
+    },
+    "explosions": {
+      "token_id": 6253,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": true,
+      "definition": "A violent release of energy (sometimes mechanical, nuclear, or chemical.)"
+    },
+    "culminated": {
+      "token_id": 5019,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": true,
+      "definition": "Of a heavenly body, to be at the highest point, reach its greatest altitude."
+    },
+    "pinatubo": {
+      "token_id": 7227,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tilt": {
+      "token_id": 6114,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": true,
+      "definition": "A slope or inclination."
+    },
+    "inflationary": {
+      "token_id": 7222,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": true,
+      "definition": "Causing or liable to cause inflation."
+    },
+    "shallower": {
+      "token_id": 3320,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": true,
+      "definition": "Having little depth; significantly less deep than wide."
+    },
+    "eruptive": {
+      "token_id": 7563,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fissure": {
+      "token_id": 3786,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seismographs": {
+      "token_id": 4698,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "swarm": {
+      "token_id": 2372,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "earthquakes": {
+      "token_id": 5079,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fluctuated": {
+      "token_id": 2946,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seismic": {
+      "token_id": 5557,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "monitoring": {
+      "token_id": 5755,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "accompanied": {
+      "token_id": 4375,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "phreatic": {
+      "token_id": 6899,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "volcano": {
+      "token_id": 2499,
+      "first_seen": "1991 eruption of Mount Pinatubo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wan": {
+      "token_id": 6137,
+      "first_seen": "Nina Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nina": {
+      "token_id": 1896,
+      "first_seen": "Nina Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "redeveloped": {
+      "token_id": 3485,
+      "first_seen": "Nina Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tsuen": {
+      "token_id": 7678,
+      "first_seen": "Nina Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yeung": {
+      "token_id": 7738,
+      "first_seen": "Nina Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "petrified": {
+      "token_id": 3396,
+      "first_seen": "Nina Park",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 1440,
-  "total_words": 12782
+  "total_articles": 1470,
+  "total_words": 12937
 }
