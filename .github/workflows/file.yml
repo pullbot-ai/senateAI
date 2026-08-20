@@ -44,23 +44,36 @@ jobs:
           key: hf-${{ runner.os }}-punctuator
           restore-keys: hf-${{ runner.os }}-
       - run: pip install torch transformers
-      - name: Download punctuator model
+      - name: Import punctuator model
         run: |
           cat > load_punct.py << 'EOF'
-          import sys
-          sys.path.insert(0, 'src')
-          from punctuator import load_punctuator
-          model, tokenizer = load_punctuator()
-          if model:
-              print('Punctuator ready')
-          else:
-              print('Failed')
+          from transformers import AutoTokenizer, AutoModelForTokenClassification
+
+          MODEL_NAME = "felflare/restore-punctuation-capitalization"
+
+          print("Downloading punctuator model...")
+          model = AutoModelForTokenClassification.from_pretrained(MODEL_NAME)
+          tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+
+          model.save_pretrained("models/punctuator/model")
+          tokenizer.save_pretrained("models/punctuator/tokenizer")
+          print("Model saved to models/punctuator/")
           EOF
           python load_punct.py
       - name: Push model
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
+          git stash
+          git pull --rebase origin main
+          git stash pop || true
           git add models/punctuator/ 2>/dev/null || true
-          git commit -m "Add punctuator model" || echo "No changes"
-          git push || echo "Push failed"
+          git add load_punct.py
+          git commit -m "Import punctuator model" || echo "No changes"
+          git push || {
+            git pull --rebase origin main
+            git add models/punctuator/ 2>/dev/null || true
+            git add load_punct.py
+            git commit -m "Import punctuator retry" || echo "No changes"
+            git push
+          }
