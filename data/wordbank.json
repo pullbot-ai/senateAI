@@ -142685,8 +142685,1022 @@
       "first_seen": "Bon Homme Hutterite Colony",
       "has_definition": false,
       "definition": ""
+    },
+    "trentino": {
+      "token_id": 7441,
+      "first_seen": "Lagarina Valley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "define": {
+      "token_id": 6316,
+      "first_seen": "Lagarina Valley",
+      "has_definition": true,
+      "definition": "A kind of macro in source code that replaces one text string with another wherever it occurs."
+    },
+    "adige": {
+      "token_id": 6155,
+      "first_seen": "Lagarina Valley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lagarina": {
+      "token_id": 5755,
+      "first_seen": "Lagarina Valley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rovereto": {
+      "token_id": 379,
+      "first_seen": "Lagarina Valley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "verona": {
+      "token_id": 7687,
+      "first_seen": "Lagarina Valley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coleophoridae": {
+      "token_id": 6310,
+      "first_seen": "Coleophora discostriata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coleophora": {
+      "token_id": 2888,
+      "first_seen": "Coleophora discostriata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "discostriata": {
+      "token_id": 1694,
+      "first_seen": "Coleophora discostriata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "triclinic": {
+      "token_id": 2577,
+      "first_seen": "Rhodonite",
+      "has_definition": false,
+      "definition": ""
+    },
+    "casio": {
+      "token_id": 4105,
+      "first_seen": "Rhodonite",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rose-red": {
+      "token_id": 4008,
+      "first_seen": "Rhodonite",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mn": {
+      "token_id": 1297,
+      "first_seen": "Rhodonite",
+      "has_definition": true,
+      "definition": "(long and short scales) The cardinal number 1,000,000: 106; a thousand thousand."
+    },
+    "mg": {
+      "token_id": 5096,
+      "first_seen": "Rhodonite",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cleavable": {
+      "token_id": 3843,
+      "first_seen": "Rhodonite",
+      "has_definition": false,
+      "definition": ""
+    },
+    "minerals": {
+      "token_id": 766,
+      "first_seen": "Rhodonite",
+      "has_definition": true,
+      "definition": "Any naturally occurring inorganic material that has a (more or less) definite chemical composition and characteristic physical properties."
+    },
+    "masses": {
+      "token_id": 455,
+      "first_seen": "Rhodonite",
+      "has_definition": true,
+      "definition": "(physical) Matter, material."
+    },
+    "rhdon": {
+      "token_id": 2776,
+      "first_seen": "Rhodonite",
+      "has_definition": false,
+      "definition": ""
+    },
+    "manganese": {
+      "token_id": 998,
+      "first_seen": "Rhodonite",
+      "has_definition": true,
+      "definition": "A metallic chemical element (symbol Mn) with an atomic number of 25, not a free element in nature but often found in minerals in combination with iron, and useful in industrial alloy production."
+    },
+    "inosilicate": {
+      "token_id": 237,
+      "first_seen": "Rhodonite",
+      "has_definition": false,
+      "definition": ""
+    },
+    "germar": {
+      "token_id": 4651,
+      "first_seen": "Rhodonite",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pyroxenoid": {
+      "token_id": 6572,
+      "first_seen": "Rhodonite",
+      "has_definition": false,
+      "definition": ""
+    },
+    "crystallizing": {
+      "token_id": 2225,
+      "first_seen": "Rhodonite",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tending": {
+      "token_id": 1368,
+      "first_seen": "Rhodonite",
+      "has_definition": true,
+      "definition": "(Old English law) To make a tender of; to offer or tender."
+    },
+    "rhodonite": {
+      "token_id": 7302,
+      "first_seen": "Rhodonite",
+      "has_definition": true,
+      "definition": "A manganese inosilicate mineral with some substitution by iron and magnesium, of composition (Mn2+,Fe,Mg,Ca)SiO3."
+    },
+    "fe": {
+      "token_id": 7904,
+      "first_seen": "Rhodonite",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hue": {
+      "token_id": 457,
+      "first_seen": "Rhodonite",
+      "has_definition": true,
+      "definition": "A color, or shade of color; tint; dye."
+    },
+    "scrum-half": {
+      "token_id": 5062,
+      "first_seen": "Claudia MacDonald",
+      "has_definition": false,
+      "definition": ""
+    },
+    "moloney-macdonald": {
+      "token_id": 5610,
+      "first_seen": "Claudia MacDonald",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iosseliani": {
+      "token_id": 7949,
+      "first_seen": "Chantrapas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chantrapas": {
+      "token_id": 325,
+      "first_seen": "Chantrapas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "otar": {
+      "token_id": 6577,
+      "first_seen": "Chantrapas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flanagan": {
+      "token_id": 4262,
+      "first_seen": "The Unknown Terrorist",
+      "has_definition": false,
+      "definition": ""
+    },
+    "amoena": {
+      "token_id": 4971,
+      "first_seen": "Castianeira amoena",
+      "has_definition": false,
+      "definition": ""
+    },
+    "castianeira": {
+      "token_id": 2892,
+      "first_seen": "Castianeira amoena",
+      "has_definition": false,
+      "definition": ""
+    },
+    "corinnidae": {
+      "token_id": 4236,
+      "first_seen": "Castianeira amoena",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seralcadio": {
+      "token_id": 2576,
+      "first_seen": "Palazzo Cesar\u00f2 Colonna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cesar": {
+      "token_id": 6262,
+      "first_seen": "Palazzo Cesar\u00f2 Colonna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cassaro": {
+      "token_id": 6138,
+      "first_seen": "Palazzo Cesar\u00f2 Colonna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vittorio": {
+      "token_id": 3779,
+      "first_seen": "Palazzo Cesar\u00f2 Colonna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dilapidated": {
+      "token_id": 7187,
+      "first_seen": "Palazzo Cesar\u00f2 Colonna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "emanuele": {
+      "token_id": 658,
+      "first_seen": "Palazzo Cesar\u00f2 Colonna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "santissimo": {
+      "token_id": 773,
+      "first_seen": "Palazzo Cesar\u00f2 Colonna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rochdale": {
+      "token_id": 6923,
+      "first_seen": "Kingsway Business Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "square-mile": {
+      "token_id": 5798,
+      "first_seen": "Kingsway Business Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "accompanies": {
+      "token_id": 6590,
+      "first_seen": "Oscar Zehngut",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zehngut": {
+      "token_id": 5166,
+      "first_seen": "Oscar Zehngut",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yiddish": {
+      "token_id": 1706,
+      "first_seen": "Oscar Zehngut",
+      "has_definition": false,
+      "definition": ""
+    },
+    "violinists": {
+      "token_id": 3068,
+      "first_seen": "Oscar Zehngut",
+      "has_definition": false,
+      "definition": ""
+    },
+    "klezmer": {
+      "token_id": 2474,
+      "first_seen": "Oscar Zehngut",
+      "has_definition": false,
+      "definition": ""
+    },
+    "austro-hungarian": {
+      "token_id": 5774,
+      "first_seen": "Oscar Zehngut",
+      "has_definition": false,
+      "definition": ""
+    },
+    "radomir": {
+      "token_id": 1670,
+      "first_seen": "Chervena Mogila",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chervena": {
+      "token_id": 3209,
+      "first_seen": "Chervena Mogila",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mogila": {
+      "token_id": 5037,
+      "first_seen": "Chervena Mogila",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pernik": {
+      "token_id": 7013,
+      "first_seen": "Chervena Mogila",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thalers": {
+      "token_id": 2020,
+      "first_seen": "Friedrich d'or",
+      "has_definition": false,
+      "definition": ""
+    },
+    "d'or": {
+      "token_id": 7230,
+      "first_seen": "Friedrich d'or",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pistole": {
+      "token_id": 6532,
+      "first_seen": "Friedrich d'or",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nominally": {
+      "token_id": 3454,
+      "first_seen": "Friedrich d'or",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sandu": {
+      "token_id": 7652,
+      "first_seen": "South African National Defence Union",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cosatu": {
+      "token_id": 4617,
+      "first_seen": "South African National Defence Union",
+      "has_definition": false,
+      "definition": ""
+    },
+    "apolitical": {
+      "token_id": 457,
+      "first_seen": "South African National Defence Union",
+      "has_definition": true,
+      "definition": "A person with no involvement or no interest in politics."
+    },
+    "sandf": {
+      "token_id": 2100,
+      "first_seen": "South African National Defence Union",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eulithosia": {
+      "token_id": 6121,
+      "first_seen": "Eulithosia plesioglauca",
+      "has_definition": false,
+      "definition": ""
+    },
+    "owlet": {
+      "token_id": 7666,
+      "first_seen": "Eulithosia plesioglauca",
+      "has_definition": true,
+      "definition": "Any of various birds of prey of the order Strigiformes that are primarily nocturnal and have forward-looking, binocular vision, limited eye movement, and good hearing."
+    },
+    "plesioglauca": {
+      "token_id": 2609,
+      "first_seen": "Eulithosia plesioglauca",
+      "has_definition": false,
+      "definition": ""
+    },
+    "naezy": {
+      "token_id": 4596,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "todfod": {
+      "token_id": 1110,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sez": {
+      "token_id": 6240,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "altaf": {
+      "token_id": 2058,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bector": {
+      "token_id": 4446,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sharma": {
+      "token_id": 3556,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "noxious": {
+      "token_id": 4122,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": true,
+      "definition": "Harmful; injurious."
+    },
+    "viveick": {
+      "token_id": 6518,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ishq": {
+      "token_id": 3067,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rajagopalan": {
+      "token_id": 7795,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mc": {
+      "token_id": 5444,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gully": {
+      "token_id": 5342,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": true,
+      "definition": "A trench, ravine or narrow channel which was worn by water flow, especially on a hillside."
+    },
+    "maharya": {
+      "token_id": 1242,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jasleen": {
+      "token_id": 6960,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zoya": {
+      "token_id": 231,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rbh": {
+      "token_id": 238,
+      "first_seen": "Gully Boy (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "benaouda": {
+      "token_id": 5964,
+      "first_seen": "Helena Hummasten",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hummasten": {
+      "token_id": 6878,
+      "first_seen": "Helena Hummasten",
+      "has_definition": false,
+      "definition": ""
+    },
+    "commandant": {
+      "token_id": 5572,
+      "first_seen": "Ralph Osborne",
+      "has_definition": false,
+      "definition": ""
+    },
+    "exits": {
+      "token_id": 732,
+      "first_seen": "Emerald River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "amiskwi": {
+      "token_id": 3734,
+      "first_seen": "Emerald River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lake's": {
+      "token_id": 7709,
+      "first_seen": "Emerald River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "drains": {
+      "token_id": 777,
+      "first_seen": "Emerald River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "picks": {
+      "token_id": 5826,
+      "first_seen": "Emerald River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kendel": {
+      "token_id": 3715,
+      "first_seen": "Emerald River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kicking": {
+      "token_id": 6702,
+      "first_seen": "Emerald River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "intermission": {
+      "token_id": 1926,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "prodigy": {
+      "token_id": 5120,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alchemist": {
+      "token_id": 3286,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fashawn": {
+      "token_id": 5890,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reef": {
+      "token_id": 6481,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "outerspace": {
+      "token_id": 6380,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mykestro": {
+      "token_id": 2673,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jacken": {
+      "token_id": 6927,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "muggs": {
+      "token_id": 44,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gambino": {
+      "token_id": 1474,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cynic": {
+      "token_id": 7738,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "b-real": {
+      "token_id": 4758,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nostra": {
+      "token_id": 1296,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coka": {
+      "token_id": 3590,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "necro": {
+      "token_id": 1429,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rocka": {
+      "token_id": 7075,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "krondon": {
+      "token_id": 6809,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cauze": {
+      "token_id": 2791,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bun": {
+      "token_id": 1453,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rza": {
+      "token_id": 5199,
+      "first_seen": "Soul Assassins: Intermission",
+      "has_definition": false,
+      "definition": ""
+    },
+    "d'albora": {
+      "token_id": 4104,
+      "first_seen": "Pier 35 (Port Melbourne)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "supplier": {
+      "token_id": 3127,
+      "first_seen": "Pier 35 (Port Melbourne)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yarra": {
+      "token_id": 7613,
+      "first_seen": "Pier 35 (Port Melbourne)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "steakhouse": {
+      "token_id": 850,
+      "first_seen": "Pier 35 (Port Melbourne)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marinas": {
+      "token_id": 4959,
+      "first_seen": "Pier 35 (Port Melbourne)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lorimer": {
+      "token_id": 3688,
+      "first_seen": "Pier 35 (Port Melbourne)",
+      "has_definition": true,
+      "definition": "A person who makes the bits and other metal parts of a horse's bridle, and other small metal pieces."
+    },
+    "australia's": {
+      "token_id": 3861,
+      "first_seen": "Pier 35 (Port Melbourne)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grill": {
+      "token_id": 7911,
+      "first_seen": "Pier 35 (Port Melbourne)",
+      "has_definition": true,
+      "definition": "A grating; a grid of wire or a sheet of material with a pattern of holes or slots, usually used to protect something while allowing the passage of air and liquids. Typical uses: to allow air through a fan while preventing fingers or objects from passing; to allow people to talk to somebody, while preventing attack."
+    },
+    "brighter": {
+      "token_id": 7368,
+      "first_seen": "The Eternal Sunshine Tour",
+      "has_definition": true,
+      "definition": "Visually dazzling; luminous, lucent, clear, radiant; not dark."
+    },
+    "ariana": {
+      "token_id": 6157,
+      "first_seen": "The Eternal Sunshine Tour",
+      "has_definition": false,
+      "definition": ""
+    },
+    "conclude": {
+      "token_id": 1758,
+      "first_seen": "The Eternal Sunshine Tour",
+      "has_definition": true,
+      "definition": "To end; to come to an end."
+    },
+    "sect": {
+      "token_id": 2164,
+      "first_seen": "Wat Borom Niwat",
+      "has_definition": true,
+      "definition": "An offshoot of a larger religion; a group sharing particular (often unorthodox) political and/or religious beliefs."
+    },
+    "thammayut": {
+      "token_id": 252,
+      "first_seen": "Wat Borom Niwat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "borommaniwat": {
+      "token_id": 924,
+      "first_seen": "Wat Borom Niwat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pathum": {
+      "token_id": 5730,
+      "first_seen": "Wat Borom Niwat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "borom": {
+      "token_id": 4165,
+      "first_seen": "Wat Borom Niwat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rong": {
+      "token_id": 6703,
+      "first_seen": "Wat Borom Niwat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "second-class": {
+      "token_id": 1587,
+      "first_seen": "Wat Borom Niwat",
+      "has_definition": true,
+      "definition": "Inferior in quality or standing."
+    },
+    "nikaya": {
+      "token_id": 531,
+      "first_seen": "Wat Borom Niwat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "niwat": {
+      "token_id": 4416,
+      "first_seen": "Wat Borom Niwat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "co-writer": {
+      "token_id": 7326,
+      "first_seen": "LSP (rapper)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "savchenko's": {
+      "token_id": 6069,
+      "first_seen": "LSP (rapper)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lsp": {
+      "token_id": 2206,
+      "first_seen": "LSP (rapper)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oleg": {
+      "token_id": 5688,
+      "first_seen": "LSP (rapper)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "songwriting": {
+      "token_id": 7788,
+      "first_seen": "LSP (rapper)",
+      "has_definition": true,
+      "definition": "(authorship) The work of a songwriter."
+    },
+    "russian-language": {
+      "token_id": 7490,
+      "first_seen": "LSP (rapper)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "roma": {
+      "token_id": 6635,
+      "first_seen": "LSP (rapper)",
+      "has_definition": true,
+      "definition": "A Romani; a member of the Roma/Romani people."
+    },
+    "sashcheko": {
+      "token_id": 6556,
+      "first_seen": "LSP (rapper)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "savchenko": {
+      "token_id": 4532,
+      "first_seen": "LSP (rapper)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "co-author": {
+      "token_id": 6258,
+      "first_seen": "LSP (rapper)",
+      "has_definition": true,
+      "definition": "An author who collaborates with another to write something."
+    },
+    "project's": {
+      "token_id": 3225,
+      "first_seen": "LSP (rapper)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vadimovich": {
+      "token_id": 7644,
+      "first_seen": "LSP (rapper)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mogilev": {
+      "token_id": 6415,
+      "first_seen": "LSP (rapper)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anglichanin": {
+      "token_id": 3561,
+      "first_seen": "LSP (rapper)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "raja": {
+      "token_id": 2115,
+      "first_seen": "Yuvan Shankar Raja discography",
+      "has_definition": false,
+      "definition": ""
+    },
+    "soundtracks": {
+      "token_id": 6833,
+      "first_seen": "Yuvan Shankar Raja discography",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aravindhan": {
+      "token_id": 5471,
+      "first_seen": "Yuvan Shankar Raja discography",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yuvan": {
+      "token_id": 1425,
+      "first_seen": "Yuvan Shankar Raja discography",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trevallies": {
+      "token_id": 1864,
+      "first_seen": "Alectis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pompano": {
+      "token_id": 724,
+      "first_seen": "Alectis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "threadfish": {
+      "token_id": 6797,
+      "first_seen": "Alectis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pompanos": {
+      "token_id": 765,
+      "first_seen": "Alectis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "carangidae": {
+      "token_id": 1859,
+      "first_seen": "Alectis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alectis": {
+      "token_id": 5192,
+      "first_seen": "Alectis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "designation": {
+      "token_id": 2433,
+      "first_seen": "Arkansas Highway 88",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ardot": {
+      "token_id": 800,
+      "first_seen": "Arkansas Highway 88",
+      "has_definition": false,
+      "definition": ""
+    },
+    "doboara": {
+      "token_id": 5452,
+      "first_seen": "U ritmu srca malog dobo\u0161ara",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ritmu": {
+      "token_id": 4518,
+      "first_seen": "U ritmu srca malog dobo\u0161ara",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vicko": {
+      "token_id": 6863,
+      "first_seen": "U ritmu srca malog dobo\u0161ara",
+      "has_definition": false,
+      "definition": ""
+    },
+    "srca": {
+      "token_id": 3329,
+      "first_seen": "U ritmu srca malog dobo\u0161ara",
+      "has_definition": false,
+      "definition": ""
+    },
+    "malog": {
+      "token_id": 3328,
+      "first_seen": "U ritmu srca malog dobo\u0161ara",
+      "has_definition": false,
+      "definition": ""
+    },
+    "milatovi": {
+      "token_id": 7696,
+      "first_seen": "U ritmu srca malog dobo\u0161ara",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shiga": {
+      "token_id": 7437,
+      "first_seen": "Echi District, Shiga",
+      "has_definition": false,
+      "definition": ""
+    },
+    "echi": {
+      "token_id": 6088,
+      "first_seen": "Echi District, Shiga",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gladys": {
+      "token_id": 6060,
+      "first_seen": "The Gates of Aulis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aulis": {
+      "token_id": 2896,
+      "first_seen": "The Gates of Aulis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "schmitt": {
+      "token_id": 2621,
+      "first_seen": "The Gates of Aulis",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 3598,
-  "total_words": 23781
+  "total_articles": 3628,
+  "total_words": 23950
 }
