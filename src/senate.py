@@ -1,7 +1,7 @@
 """
 Senate AI - The Parliament Runtime
 Real senator inference with trained models.
-Uses shared wordbank. AI Grouper. Local Punctuator. Adaptive response length.
+Uses shared wordbank. AI Grouper. Adaptive response length.
 """
 
 import torch
@@ -12,7 +12,6 @@ from collections import defaultdict
 from difflib import SequenceMatcher
 from wordbank import get_wordbank
 from ai_client import call_ai
-from punctuator import punctuate_text
 import random
 import sys
 import re
@@ -159,9 +158,14 @@ class Senate:
                 current = torch.cat([current, torch.tensor([[next_token]])], dim=1)
         
         raw_answer = self._decode(torch.tensor(generated))
-        answer = punctuate_text(raw_answer)
         
-        return answer
+        # Basic cleanup
+        raw_answer = re.sub(r'\[\d+\]', '', raw_answer)
+        raw_answer = re.sub(r'\s+', ' ', raw_answer).strip()
+        if raw_answer and raw_answer[-1] not in '.!?':
+            raw_answer += '.'
+        
+        return raw_answer
     
     def router(self, question):
         """Keyword-based router"""
