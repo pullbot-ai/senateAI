@@ -133643,8 +133643,896 @@
       "first_seen": "Grove Historic District",
       "has_definition": false,
       "definition": ""
+    },
+    "collecchio": {
+      "token_id": 6536,
+      "first_seen": "Storci",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pasta": {
+      "token_id": 5068,
+      "first_seen": "Storci",
+      "has_definition": true,
+      "definition": "Dough made from wheat and water and sometimes mixed with egg and formed into various shapes; often sold in dried form and typically boiled for eating."
+    },
+    "storci": {
+      "token_id": 1967,
+      "first_seen": "Storci",
+      "has_definition": false,
+      "definition": ""
+    },
+    "s.p.a": {
+      "token_id": 5254,
+      "first_seen": "Storci",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chocolate": {
+      "token_id": 7358,
+      "first_seen": "Palitaw",
+      "has_definition": true,
+      "definition": "A food made from ground roasted cocoa beans."
+    },
+    "malagkit": {
+      "token_id": 5412,
+      "first_seen": "Palitaw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "indication": {
+      "token_id": 4066,
+      "first_seen": "Palitaw",
+      "has_definition": true,
+      "definition": "Act of pointing out or indicating."
+    },
+    "soaked": {
+      "token_id": 1626,
+      "first_seen": "Palitaw",
+      "has_definition": true,
+      "definition": "To be saturated with liquid by being immersed in it."
+    },
+    "dropping": {
+      "token_id": 2554,
+      "first_seen": "Palitaw",
+      "has_definition": true,
+      "definition": "To fall in droplets (of a liquid)."
+    },
+    "grinding": {
+      "token_id": 6083,
+      "first_seen": "Palitaw",
+      "has_definition": true,
+      "definition": "To reduce to smaller pieces by crushing with lateral motion."
+    },
+    "toasted": {
+      "token_id": 4824,
+      "first_seen": "Palitaw",
+      "has_definition": true,
+      "definition": "To lightly cook by browning via direct exposure to a fire or other heat source."
+    },
+    "dipped": {
+      "token_id": 1870,
+      "first_seen": "Palitaw",
+      "has_definition": true,
+      "definition": "To lower into a liquid."
+    },
+    "galapong": {
+      "token_id": 7987,
+      "first_seen": "Palitaw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rolled": {
+      "token_id": 5840,
+      "first_seen": "Palitaw",
+      "has_definition": true,
+      "definition": "To cause to revolve by turning over and over; to move by turning on an axis; to impel forward by causing to turn over and over on a supporting surface."
+    },
+    "palitaw": {
+      "token_id": 6509,
+      "first_seen": "Palitaw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kinds": {
+      "token_id": 3525,
+      "first_seen": "Palitaw",
+      "has_definition": true,
+      "definition": "A type, race or category; a group of entities that have common characteristics such that they may be grouped together."
+    },
+    "grated": {
+      "token_id": 5861,
+      "first_seen": "Palitaw",
+      "has_definition": true,
+      "definition": "To furnish with grates; to protect with a grating or crossbars"
+    },
+    "cake": {
+      "token_id": 2377,
+      "first_seen": "Palitaw",
+      "has_definition": true,
+      "definition": "A rich, sweet dessert food, typically made of flour, sugar and eggs and baked in an oven, and often covered in icing."
+    },
+    "scoops": {
+      "token_id": 7497,
+      "first_seen": "Palitaw",
+      "has_definition": true,
+      "definition": "Any cup- or bowl-shaped tool, usually with a handle, used to lift and move loose or soft solid material."
+    },
+    "flavor": {
+      "token_id": 314,
+      "first_seen": "Palitaw",
+      "has_definition": true,
+      "definition": "The quality produced by the sensation of taste or, especially, of taste and smell in combined effect."
+    },
+    "dawes": {
+      "token_id": 3043,
+      "first_seen": "Sydney Theatre Company",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stc": {
+      "token_id": 3066,
+      "first_seen": "Sydney Theatre Company",
+      "has_definition": false,
+      "definition": ""
+    },
+    "roslyn": {
+      "token_id": 3199,
+      "first_seen": "Sydney Theatre Company",
+      "has_definition": false,
+      "definition": ""
+    },
+    "packer": {
+      "token_id": 2991,
+      "first_seen": "Sydney Theatre Company",
+      "has_definition": true,
+      "definition": "A person whose business is to pack things; especially, one who packs food for preservation"
+    },
+    "briviesca": {
+      "token_id": 5832,
+      "first_seen": "Oca (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bureba": {
+      "token_id": 2759,
+      "first_seen": "Oca (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oa": {
+      "token_id": 323,
+      "first_seen": "Oca (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "prdanos": {
+      "token_id": 4024,
+      "first_seen": "Oca (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "valle": {
+      "token_id": 6680,
+      "first_seen": "Oca (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "villafranca": {
+      "token_id": 4851,
+      "first_seen": "Oca (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rbanos": {
+      "token_id": 3500,
+      "first_seen": "Oca (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "affluent": {
+      "token_id": 7246,
+      "first_seen": "Oca (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vilea": {
+      "token_id": 7113,
+      "first_seen": "Oca (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mola": {
+      "token_id": 4020,
+      "first_seen": "Oca (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ibrico": {
+      "token_id": 3343,
+      "first_seen": "Oca (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sistema": {
+      "token_id": 355,
+      "first_seen": "Oca (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ebro": {
+      "token_id": 2461,
+      "first_seen": "Oca (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alcocero": {
+      "token_id": 1231,
+      "first_seen": "Oca (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "burgos": {
+      "token_id": 4490,
+      "first_seen": "Oca (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hauptbahnhof": {
+      "token_id": 6278,
+      "first_seen": "Salzburg Hauptbahnhof",
+      "has_definition": false,
+      "definition": ""
+    },
+    "agglomeration": {
+      "token_id": 4008,
+      "first_seen": "Salzburg Hauptbahnhof",
+      "has_definition": false,
+      "definition": ""
+    },
+    "salzburg": {
+      "token_id": 6868,
+      "first_seen": "Salzburg Hauptbahnhof",
+      "has_definition": false,
+      "definition": ""
+    },
+    "citheronia": {
+      "token_id": 7024,
+      "first_seen": "Citheronia phoronea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "phoronea": {
+      "token_id": 4754,
+      "first_seen": "Citheronia phoronea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jamaicensis": {
+      "token_id": 376,
+      "first_seen": "Sphex jamaicensis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thread-waisted": {
+      "token_id": 3990,
+      "first_seen": "Sphex jamaicensis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sphex": {
+      "token_id": 1987,
+      "first_seen": "Sphex jamaicensis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sphecidae": {
+      "token_id": 4426,
+      "first_seen": "Sphex jamaicensis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "forsyth": {
+      "token_id": 7547,
+      "first_seen": "Southern United FC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dunedin": {
+      "token_id": 6219,
+      "first_seen": "Southern United FC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nectaris": {
+      "token_id": 7730,
+      "first_seen": "Fracastorius (crater)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fracastorius": {
+      "token_id": 1816,
+      "first_seen": "Fracastorius (crater)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "t": {
+      "token_id": 6733,
+      "first_seen": "Fracastorius (crater)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lava-flooded": {
+      "token_id": 3929,
+      "first_seen": "Fracastorius (crater)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "w": {
+      "token_id": 7039,
+      "first_seen": "Fracastorius (crater)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "partially": {
+      "token_id": 2198,
+      "first_seen": "Fracastorius (crater)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "remnant": {
+      "token_id": 7971,
+      "first_seen": "Fracastorius (crater)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oppermann": {
+      "token_id": 6195,
+      "first_seen": "Karl Oppermann",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arabesque": {
+      "token_id": 6246,
+      "first_seen": "Rhyme & Reason (Ted Nash album)",
+      "has_definition": true,
+      "definition": "An elaborate design of intertwined floral figures or complex geometrical patterns, mainly used in Islamic Art and architecture."
+    },
+    "nash": {
+      "token_id": 6552,
+      "first_seen": "Rhyme & Reason (Ted Nash album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "randolph": {
+      "token_id": 6700,
+      "first_seen": "Josh Hansen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "american-born": {
+      "token_id": 6684,
+      "first_seen": "Josh Hansen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pickwick": {
+      "token_id": 3148,
+      "first_seen": "Nathaniel Winkle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "winkle": {
+      "token_id": 5899,
+      "first_seen": "Nathaniel Winkle",
+      "has_definition": true,
+      "definition": "A periwinkle or its shell, of family Littorinidae."
+    },
+    "dickens's": {
+      "token_id": 6638,
+      "first_seen": "Nathaniel Winkle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rorschach": {
+      "token_id": 2683,
+      "first_seen": "Poison Ivy (musician)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cramps": {
+      "token_id": 779,
+      "first_seen": "Poison Ivy (musician)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kristy": {
+      "token_id": 5532,
+      "first_seen": "Poison Ivy (musician)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "co-founded": {
+      "token_id": 6719,
+      "first_seen": "Poison Ivy (musician)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marlana": {
+      "token_id": 6765,
+      "first_seen": "Poison Ivy (musician)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "space's": {
+      "token_id": 5007,
+      "first_seen": "The Amazing Race 5 (Latin American season)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "toya": {
+      "token_id": 3218,
+      "first_seen": "The Amazing Race 5 (Latin American season)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "p.m": {
+      "token_id": 1264,
+      "first_seen": "The Amazing Race 5 (Latin American season)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iteration": {
+      "token_id": 2058,
+      "first_seen": "The Amazing Race 5 (Latin American season)",
+      "has_definition": true,
+      "definition": "Recital or performance a second time; repetition."
+    },
+    "tnt": {
+      "token_id": 1768,
+      "first_seen": "The Amazing Race 5 (Latin American season)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pre-existing": {
+      "token_id": 1377,
+      "first_seen": "The Amazing Race 5 (Latin American season)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cartagena": {
+      "token_id": 2060,
+      "first_seen": "The Amazing Race 5 (Latin American season)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "curaao": {
+      "token_id": 7422,
+      "first_seen": "The Amazing Race 5 (Latin American season)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alstonia": {
+      "token_id": 5160,
+      "first_seen": "Alschomine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "scholaris": {
+      "token_id": 7103,
+      "first_seen": "Alschomine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alschomine": {
+      "token_id": 62,
+      "first_seen": "Alschomine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neagh": {
+      "token_id": 2993,
+      "first_seen": "Lower Ballinderry",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ballinderry": {
+      "token_id": 1797,
+      "first_seen": "Lower Ballinderry",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lough": {
+      "token_id": 1102,
+      "first_seen": "Lower Ballinderry",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barony": {
+      "token_id": 1129,
+      "first_seen": "Lower Ballinderry",
+      "has_definition": false,
+      "definition": ""
+    },
+    "portmore": {
+      "token_id": 4754,
+      "first_seen": "Lower Ballinderry",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lisburn": {
+      "token_id": 6844,
+      "first_seen": "Lower Ballinderry",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antrim": {
+      "token_id": 5036,
+      "first_seen": "Lower Ballinderry",
+      "has_definition": false,
+      "definition": ""
+    },
+    "townland": {
+      "token_id": 7199,
+      "first_seen": "Lower Ballinderry",
+      "has_definition": false,
+      "definition": ""
+    },
+    "massereene": {
+      "token_id": 1675,
+      "first_seen": "Lower Ballinderry",
+      "has_definition": false,
+      "definition": ""
+    },
+    "second-most-populous": {
+      "token_id": 102,
+      "first_seen": "Cook County, Illinois",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bas-rhin": {
+      "token_id": 6239,
+      "first_seen": "Schwindratzheim",
+      "has_definition": false,
+      "definition": ""
+    },
+    "north-eastern": {
+      "token_id": 2123,
+      "first_seen": "Schwindratzheim",
+      "has_definition": false,
+      "definition": ""
+    },
+    "schwindratzheim": {
+      "token_id": 6247,
+      "first_seen": "Schwindratzheim",
+      "has_definition": false,
+      "definition": ""
+    },
+    "relegation": {
+      "token_id": 6112,
+      "first_seen": "2026 WXV Global Series",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fixtures": {
+      "token_id": 3844,
+      "first_seen": "2026 WXV Global Series",
+      "has_definition": false,
+      "definition": ""
+    },
+    "successors": {
+      "token_id": 7295,
+      "first_seen": "2026 WXV Global Series",
+      "has_definition": false,
+      "definition": ""
+    },
+    "unions": {
+      "token_id": 2314,
+      "first_seen": "2026 WXV Global Series",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wxv": {
+      "token_id": 4082,
+      "first_seen": "2026 WXV Global Series",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paradigm": {
+      "token_id": 35,
+      "first_seen": "The Elephant Paradigm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wrestles": {
+      "token_id": 4948,
+      "first_seen": "The Elephant Paradigm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gurcharan": {
+      "token_id": 3842,
+      "first_seen": "The Elephant Paradigm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "elephant": {
+      "token_id": 6654,
+      "first_seen": "The Elephant Paradigm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "unbound": {
+      "token_id": 4508,
+      "first_seen": "The Elephant Paradigm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "small-eared": {
+      "token_id": 5707,
+      "first_seen": "Thomas's small-eared shrew",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thomas's": {
+      "token_id": 7386,
+      "first_seen": "Thomas's small-eared shrew",
+      "has_definition": false,
+      "definition": ""
+    },
+    "soricidae": {
+      "token_id": 5108,
+      "first_seen": "Thomas's small-eared shrew",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shrew": {
+      "token_id": 3704,
+      "first_seen": "Thomas's small-eared shrew",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lebesby": {
+      "token_id": 3662,
+      "first_seen": "Cape Nordkinn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nordkinn": {
+      "token_id": 6980,
+      "first_seen": "Cape Nordkinn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gamvik": {
+      "token_id": 1439,
+      "first_seen": "Cape Nordkinn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "finnmark": {
+      "token_id": 6442,
+      "first_seen": "Cape Nordkinn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wrttemberg-hohenzollern": {
+      "token_id": 5776,
+      "first_seen": "Gau W\u00fcrttemberg-Hohenzollern",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hohenzollern": {
+      "token_id": 382,
+      "first_seen": "Gau W\u00fcrttemberg-Hohenzollern",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wrttemberg": {
+      "token_id": 7057,
+      "first_seen": "Gau W\u00fcrttemberg-Hohenzollern",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gau": {
+      "token_id": 1244,
+      "first_seen": "Gau W\u00fcrttemberg-Hohenzollern",
+      "has_definition": false,
+      "definition": ""
+    },
+    "motel": {
+      "token_id": 7560,
+      "first_seen": "Tower Court",
+      "has_definition": true,
+      "definition": "A type of hotel or lodging establishment, often located near a major highway, which typically features a series of rooms the entrances of which are immediately adjacent to a parking lot to facilitate convenient access to automobiles parked there."
+    },
+    "motels": {
+      "token_id": 4115,
+      "first_seen": "Tower Court",
+      "has_definition": false,
+      "definition": ""
+    },
+    "clean": {
+      "token_id": 5608,
+      "first_seen": "Shoulder plane",
+      "has_definition": true,
+      "definition": "Removal of dirt."
+    },
+    "dadoes": {
+      "token_id": 6500,
+      "first_seen": "Shoulder plane",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rebate": {
+      "token_id": 304,
+      "first_seen": "Shoulder plane",
+      "has_definition": true,
+      "definition": "A deduction from an amount that is paid; an abatement."
+    },
+    "up": {
+      "token_id": 1579,
+      "first_seen": "Shoulder plane",
+      "has_definition": true,
+      "definition": "The direction opposed to the pull of gravity."
+    },
+    "trimming": {
+      "token_id": 412,
+      "first_seen": "Shoulder plane",
+      "has_definition": true,
+      "definition": "To reduce slightly; to cut; especially, to remove excess."
+    },
+    "housings": {
+      "token_id": 4739,
+      "first_seen": "Shoulder plane",
+      "has_definition": false,
+      "definition": ""
+    },
+    "joinery": {
+      "token_id": 4348,
+      "first_seen": "Shoulder plane",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flush": {
+      "token_id": 7238,
+      "first_seen": "Shoulder plane",
+      "has_definition": true,
+      "definition": "A group of birds that have suddenly started up from undergrowth, trees etc."
+    },
+    "tenons": {
+      "token_id": 7737,
+      "first_seen": "Shoulder plane",
+      "has_definition": true,
+      "definition": "A projecting member left by cutting away the wood around it, and made to insert into a mortise, and in this way secure together the parts of a frame."
+    },
+    "shoulders": {
+      "token_id": 4935,
+      "first_seen": "Shoulder plane",
+      "has_definition": true,
+      "definition": "The part of an animal's body between the base of the neck and forearm socket."
+    },
+    "concave": {
+      "token_id": 1977,
+      "first_seen": "Shoulder plane",
+      "has_definition": true,
+      "definition": "A concave surface or curve."
+    },
+    "plane's": {
+      "token_id": 6092,
+      "first_seen": "Shoulder plane",
+      "has_definition": false,
+      "definition": ""
+    },
+    "perpendicularly": {
+      "token_id": 1016,
+      "first_seen": "Shoulder plane",
+      "has_definition": false,
+      "definition": ""
+    },
+    "piazza": {
+      "token_id": 4054,
+      "first_seen": "Royal Palace of Naples",
+      "has_definition": true,
+      "definition": "A public square, especially in Italian cities."
+    },
+    "municipio": {
+      "token_id": 5316,
+      "first_seen": "Royal Palace of Naples",
+      "has_definition": false,
+      "definition": ""
+    },
+    "plebiscito": {
+      "token_id": 6633,
+      "first_seen": "Royal Palace of Naples",
+      "has_definition": false,
+      "definition": ""
+    },
+    "accesses": {
+      "token_id": 5731,
+      "first_seen": "Royal Palace of Naples",
+      "has_definition": false,
+      "definition": ""
+    },
+    "acton": {
+      "token_id": 5238,
+      "first_seen": "Royal Palace of Naples",
+      "has_definition": false,
+      "definition": ""
+    },
+    "di": {
+      "token_id": 1790,
+      "first_seen": "Royal Palace of Naples",
+      "has_definition": true,
+      "definition": "A meaningless syllable used when singing a tune or indicating a rhythm."
+    },
+    "trento": {
+      "token_id": 6484,
+      "first_seen": "Royal Palace of Naples",
+      "has_definition": false,
+      "definition": ""
+    },
+    "u": {
+      "token_id": 7257,
+      "first_seen": "2016 FIBA U20 Women's European Championship",
+      "has_definition": false,
+      "definition": ""
+    },
+    "matosinhos": {
+      "token_id": 6153,
+      "first_seen": "2016 FIBA U20 Women's European Championship",
+      "has_definition": false,
+      "definition": ""
+    },
+    "znnun": {
+      "token_id": 1548,
+      "first_seen": "Melik Z\u00fcnnun",
+      "has_definition": false,
+      "definition": ""
+    },
+    "melik": {
+      "token_id": 2067,
+      "first_seen": "Melik Z\u00fcnnun",
+      "has_definition": false,
+      "definition": ""
+    },
+    "danishmendids": {
+      "token_id": 662,
+      "first_seen": "Melik Z\u00fcnnun",
+      "has_definition": false,
+      "definition": ""
+    },
+    "condita": {
+      "token_id": 2415,
+      "first_seen": "532 BC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "urbe": {
+      "token_id": 1586,
+      "first_seen": "532 BC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ab": {
+      "token_id": 5563,
+      "first_seen": "532 BC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pre-julian": {
+      "token_id": 637,
+      "first_seen": "532 BC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "domini": {
+      "token_id": 1661,
+      "first_seen": "532 BC",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 3298,
-  "total_words": 22274
+  "total_articles": 3328,
+  "total_words": 22422
 }
