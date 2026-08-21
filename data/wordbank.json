@@ -112409,8 +112409,872 @@
       "first_seen": "1987 Southend-on-Sea Borough Council election",
       "has_definition": false,
       "definition": ""
+    },
+    "wevelgem": {
+      "token_id": 2382,
+      "first_seen": "2022 Gent\u2013Wevelgem",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hainaut": {
+      "token_id": 1432,
+      "first_seen": "2022 Gent\u2013Wevelgem",
+      "has_definition": false,
+      "definition": ""
+    },
+    "engraver": {
+      "token_id": 6155,
+      "first_seen": "David Edwin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "compelled": {
+      "token_id": 5438,
+      "first_seen": "David Edwin",
+      "has_definition": true,
+      "definition": "To drive together, round up"
+    },
+    "savage": {
+      "token_id": 1399,
+      "first_seen": "David Edwin",
+      "has_definition": true,
+      "definition": "An uncivilized or feral human; a barbarian."
+    },
+    "apprenticed": {
+      "token_id": 5914,
+      "first_seen": "David Edwin",
+      "has_definition": true,
+      "definition": "To put under the care and supervision of a master, for the purpose of instruction in a trade or business."
+    },
+    "netania": {
+      "token_id": 3825,
+      "first_seen": "Netania Davrath",
+      "has_definition": false,
+      "definition": ""
+    },
+    "davrath": {
+      "token_id": 237,
+      "first_seen": "Netania Davrath",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dozier": {
+      "token_id": 3206,
+      "first_seen": "Perry Dozier",
+      "has_definition": false,
+      "definition": ""
+    },
+    "quakers": {
+      "token_id": 532,
+      "first_seen": "Great Friends Meeting House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kilcolman": {
+      "token_id": 259,
+      "first_seen": "Maumanorig",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dingle": {
+      "token_id": 432,
+      "first_seen": "Maumanorig",
+      "has_definition": true,
+      "definition": "A small, narrow or enclosed, usually wooded valley."
+    },
+    "kerry": {
+      "token_id": 5183,
+      "first_seen": "Maumanorig",
+      "has_definition": false,
+      "definition": ""
+    },
+    "maumanorig": {
+      "token_id": 2692,
+      "first_seen": "Maumanorig",
+      "has_definition": false,
+      "definition": ""
+    },
+    "federico": {
+      "token_id": 1901,
+      "first_seen": "Federico Gamboa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "xico": {
+      "token_id": 3528,
+      "first_seen": "Federico Gamboa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "diaries": {
+      "token_id": 2173,
+      "first_seen": "Federico Gamboa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gamboa": {
+      "token_id": 5465,
+      "first_seen": "Federico Gamboa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iglesias": {
+      "token_id": 6114,
+      "first_seen": "Federico Gamboa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "listening": {
+      "token_id": 1598,
+      "first_seen": "Please Come to Boston",
+      "has_definition": true,
+      "definition": "To pay attention to a sound or speech."
+    },
+    "please": {
+      "token_id": 5054,
+      "first_seen": "Please Come to Boston",
+      "has_definition": true,
+      "definition": "To make happy or satisfy; to give pleasure to."
+    },
+    "loggins": {
+      "token_id": 2766,
+      "first_seen": "Please Come to Boston",
+      "has_definition": false,
+      "definition": ""
+    },
+    "crutchfield": {
+      "token_id": 1217,
+      "first_seen": "Please Come to Boston",
+      "has_definition": false,
+      "definition": ""
+    },
+    "apprentice": {
+      "token_id": 2262,
+      "first_seen": "Please Come to Boston",
+      "has_definition": true,
+      "definition": "A trainee, especially in a skilled trade."
+    },
+    "teresa": {
+      "token_id": 6510,
+      "first_seen": "Linda S\u00e1nchez",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ethics": {
+      "token_id": 7718,
+      "first_seen": "Linda S\u00e1nchez",
+      "has_definition": true,
+      "definition": "The study of principles relating to right and wrong conduct."
+    },
+    "ways": {
+      "token_id": 4954,
+      "first_seen": "Linda S\u00e1nchez",
+      "has_definition": true,
+      "definition": "(heading) To do with a place or places."
+    },
+    "mahan": {
+      "token_id": 4251,
+      "first_seen": "James C. Mahan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "est": {
+      "token_id": 2044,
+      "first_seen": "Zeinheim",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bas": {
+      "token_id": 804,
+      "first_seen": "Zeinheim",
+      "has_definition": true,
+      "definition": "(Egyptian mythology) A being's soul or personality, represented as a bird-headed figure, which survives after death but must be sustained with offerings of food."
+    },
+    "zeinheim": {
+      "token_id": 7027,
+      "first_seen": "Zeinheim",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pounds": {
+      "token_id": 7956,
+      "first_seen": "Syd O'Brien",
+      "has_definition": true,
+      "definition": "A unit of mass equal to 16 avoirdupois ounces (= 453.592 37 g). Today this value is the most common meaning of \"pound\" as a unit of weight."
+    },
+    "batted": {
+      "token_id": 179,
+      "first_seen": "Syd O'Brien",
+      "has_definition": true,
+      "definition": "To hit with a bat or (figuratively) as if with a bat."
+    },
+    "brewers": {
+      "token_id": 5418,
+      "first_seen": "Syd O'Brien",
+      "has_definition": false,
+      "definition": ""
+    },
+    "meindert": {
+      "token_id": 6804,
+      "first_seen": "Meindert Hobbema",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lubbertszoon": {
+      "token_id": 2998,
+      "first_seen": "Meindert Hobbema",
+      "has_definition": false,
+      "definition": ""
+    },
+    "middelharnis": {
+      "token_id": 5771,
+      "first_seen": "Meindert Hobbema",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hobbema": {
+      "token_id": 786,
+      "first_seen": "Meindert Hobbema",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shepp": {
+      "token_id": 5130,
+      "first_seen": "Jumpin' Punkins",
+      "has_definition": false,
+      "definition": ""
+    },
+    "buell": {
+      "token_id": 7853,
+      "first_seen": "Jumpin' Punkins",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lacy": {
+      "token_id": 3548,
+      "first_seen": "Jumpin' Punkins",
+      "has_definition": true,
+      "definition": "Made of lace or decorated with it."
+    },
+    "higgins": {
+      "token_id": 7377,
+      "first_seen": "Jumpin' Punkins",
+      "has_definition": false,
+      "definition": ""
+    },
+    "roswell": {
+      "token_id": 5861,
+      "first_seen": "Jumpin' Punkins",
+      "has_definition": false,
+      "definition": ""
+    },
+    "punkins": {
+      "token_id": 890,
+      "first_seen": "Jumpin' Punkins",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cancelled": {
+      "token_id": 205,
+      "first_seen": "Jumpin' Punkins",
+      "has_definition": true,
+      "definition": "To cross out something with lines etc."
+    },
+    "celeste": {
+      "token_id": 4380,
+      "first_seen": "Jumpin' Punkins",
+      "has_definition": true,
+      "definition": "A musical instrument consisting principally of a set of graduated steel plates struck with hammers that are activated by a keyboard."
+    },
+    "jumpin": {
+      "token_id": 5968,
+      "first_seen": "Jumpin' Punkins",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rudd": {
+      "token_id": 4897,
+      "first_seen": "Jumpin' Punkins",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neidlinger": {
+      "token_id": 2067,
+      "first_seen": "Jumpin' Punkins",
+      "has_definition": false,
+      "definition": ""
+    },
+    "woodbine": {
+      "token_id": 2919,
+      "first_seen": "Parthenocissus tricuspidata",
+      "has_definition": true,
+      "definition": "Any of several climbing vines, especially the honeysuckle and the Virginia creeper"
+    },
+    "vitaceae": {
+      "token_id": 698,
+      "first_seen": "Parthenocissus tricuspidata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bushes": {
+      "token_id": 7954,
+      "first_seen": "Parthenocissus tricuspidata",
+      "has_definition": true,
+      "definition": "A woody plant distinguished from a tree by its multiple stems and lower height, being usually less than six metres tall; a horticultural rather than strictly botanical category."
+    },
+    "ivy": {
+      "token_id": 3582,
+      "first_seen": "Parthenocissus tricuspidata",
+      "has_definition": true,
+      "definition": "Any of several woody, climbing or trailing evergreen plants of the genus Hedera."
+    },
+    "thrives": {
+      "token_id": 5939,
+      "first_seen": "Parthenocissus tricuspidata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "unrelated": {
+      "token_id": 2471,
+      "first_seen": "Parthenocissus tricuspidata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "creeper": {
+      "token_id": 4503,
+      "first_seen": "Parthenocissus tricuspidata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tricuspidata": {
+      "token_id": 6645,
+      "first_seen": "Parthenocissus tricuspidata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "parthenocissus": {
+      "token_id": 6180,
+      "first_seen": "Parthenocissus tricuspidata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spotv": {
+      "token_id": 4909,
+      "first_seen": "SPOTV",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kbs": {
+      "token_id": 6983,
+      "first_seen": "SPOTV",
+      "has_definition": false,
+      "definition": ""
+    },
+    "miscellany": {
+      "token_id": 4254,
+      "first_seen": "Richard Bentley (publisher)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "profitably": {
+      "token_id": 2156,
+      "first_seen": "Richard Bentley (publisher)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "colburn": {
+      "token_id": 5285,
+      "first_seen": "Richard Bentley (publisher)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "falter": {
+      "token_id": 5436,
+      "first_seen": "Richard Bentley (publisher)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "copyrights": {
+      "token_id": 4113,
+      "first_seen": "Richard Bentley (publisher)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "recover": {
+      "token_id": 5834,
+      "first_seen": "Richard Bentley (publisher)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "drier": {
+      "token_id": 5621,
+      "first_seen": "Begonia polygonoides",
+      "has_definition": false,
+      "definition": ""
+    },
+    "polygonoides": {
+      "token_id": 58,
+      "first_seen": "Begonia polygonoides",
+      "has_definition": false,
+      "definition": ""
+    },
+    "begoniaceae": {
+      "token_id": 1605,
+      "first_seen": "Begonia polygonoides",
+      "has_definition": false,
+      "definition": ""
+    },
+    "biomes": {
+      "token_id": 7100,
+      "first_seen": "Begonia polygonoides",
+      "has_definition": false,
+      "definition": ""
+    },
+    "epiphytic": {
+      "token_id": 615,
+      "first_seen": "Begonia polygonoides",
+      "has_definition": false,
+      "definition": ""
+    },
+    "begonia": {
+      "token_id": 5197,
+      "first_seen": "Begonia polygonoides",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lawful": {
+      "token_id": 3749,
+      "first_seen": "Cuban Adjustment Act",
+      "has_definition": false,
+      "definition": ""
+    },
+    "applies": {
+      "token_id": 7247,
+      "first_seen": "Cuban Adjustment Act",
+      "has_definition": false,
+      "definition": ""
+    },
+    "legislation": {
+      "token_id": 2628,
+      "first_seen": "Cuban Adjustment Act",
+      "has_definition": false,
+      "definition": ""
+    },
+    "adjustment": {
+      "token_id": 3158,
+      "first_seen": "Cuban Adjustment Act",
+      "has_definition": true,
+      "definition": "The action of adjusting something"
+    },
+    "spouses": {
+      "token_id": 228,
+      "first_seen": "Cuban Adjustment Act",
+      "has_definition": false,
+      "definition": ""
+    },
+    "enacted": {
+      "token_id": 6761,
+      "first_seen": "Cuban Adjustment Act",
+      "has_definition": true,
+      "definition": "To make (a bill) into law"
+    },
+    "lyndon": {
+      "token_id": 48,
+      "first_seen": "Cuban Adjustment Act",
+      "has_definition": false,
+      "definition": ""
+    },
+    "admitted": {
+      "token_id": 3541,
+      "first_seen": "Cuban Adjustment Act",
+      "has_definition": true,
+      "definition": "To allow to enter; to grant entrance (to), whether into a place, into the mind, or into consideration"
+    },
+    "granted": {
+      "token_id": 591,
+      "first_seen": "Cuban Adjustment Act",
+      "has_definition": true,
+      "definition": "(ditransitive) to give (permission or wish)"
+    },
+    "expedited": {
+      "token_id": 7012,
+      "first_seen": "Cuban Adjustment Act",
+      "has_definition": true,
+      "definition": "To accelerate the progress of."
+    },
+    "somedaydream": {
+      "token_id": 5268,
+      "first_seen": "Somedaydream (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mail": {
+      "token_id": 7355,
+      "first_seen": "Little Post Office",
+      "has_definition": true,
+      "definition": "A bag or wallet."
+    },
+    "martinsville": {
+      "token_id": 6233,
+      "first_seen": "Little Post Office",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anglin": {
+      "token_id": 2690,
+      "first_seen": "Little Post Office",
+      "has_definition": false,
+      "definition": ""
+    },
+    "krytin": {
+      "token_id": 5050,
+      "first_seen": "Ji\u0159\u00ed Krytin\u00e1\u0159",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bansk": {
+      "token_id": 2232,
+      "first_seen": "\u00c1belov\u00e1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "enec": {
+      "token_id": 2072,
+      "first_seen": "\u00c1belov\u00e1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "belov": {
+      "token_id": 3107,
+      "first_seen": "\u00c1belov\u00e1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bystrica": {
+      "token_id": 2041,
+      "first_seen": "\u00c1belov\u00e1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "muscles": {
+      "token_id": 4349,
+      "first_seen": "Toxiferine",
+      "has_definition": true,
+      "definition": "A contractile form of tissue which animals use to effect movement."
+    },
+    "achr": {
+      "token_id": 4682,
+      "first_seen": "Toxiferine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "strychnos": {
+      "token_id": 1186,
+      "first_seen": "Toxiferine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neostigmine": {
+      "token_id": 2341,
+      "first_seen": "Toxiferine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paralyze": {
+      "token_id": 1608,
+      "first_seen": "Toxiferine",
+      "has_definition": true,
+      "definition": "To afflict with paralysis."
+    },
+    "poison": {
+      "token_id": 2958,
+      "first_seen": "Toxiferine",
+      "has_definition": true,
+      "definition": "A substance that is harmful or lethal to a living organism."
+    },
+    "neuromuscular": {
+      "token_id": 3294,
+      "first_seen": "Toxiferine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paralysis": {
+      "token_id": 4215,
+      "first_seen": "Toxiferine",
+      "has_definition": true,
+      "definition": "The complete loss of voluntary control of part of a person's body, such as one or more limbs."
+    },
+    "toxifera": {
+      "token_id": 4850,
+      "first_seen": "Toxiferine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "toxiferine": {
+      "token_id": 6083,
+      "first_seen": "Toxiferine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alkaloids": {
+      "token_id": 3779,
+      "first_seen": "Toxiferine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "acetylcholine": {
+      "token_id": 3926,
+      "first_seen": "Toxiferine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antagonized": {
+      "token_id": 4550,
+      "first_seen": "Toxiferine",
+      "has_definition": false,
+      "definition": ""
+    },
+    "possibly": {
+      "token_id": 7007,
+      "first_seen": "Toxiferine",
+      "has_definition": true,
+      "definition": "(modifying a clause or predicate) Perhaps; indicates that the proposition may be true (is not certainly false) regardless of any facts or circumstances known to, stated by or implied by the speaker."
+    },
+    "toxic": {
+      "token_id": 3719,
+      "first_seen": "Toxiferine",
+      "has_definition": true,
+      "definition": "Having a chemical nature that is harmful to health or lethal if consumed or otherwise entering into the body in sufficient quantities."
+    },
+    "ndm": {
+      "token_id": 3683,
+      "first_seen": "Bobby Hajjaj",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jatiya": {
+      "token_id": 104,
+      "first_seen": "Bobby Hajjaj",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sangsad": {
+      "token_id": 3335,
+      "first_seen": "Bobby Hajjaj",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hajjaj": {
+      "token_id": 6539,
+      "first_seen": "Bobby Hajjaj",
+      "has_definition": false,
+      "definition": ""
+    },
+    "khvalynsk": {
+      "token_id": 2955,
+      "first_seen": "Samara culture",
+      "has_definition": false,
+      "definition": ""
+    },
+    "repin": {
+      "token_id": 5023,
+      "first_seen": "Samara culture",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eneolithic": {
+      "token_id": 7199,
+      "first_seen": "Samara culture",
+      "has_definition": true,
+      "definition": "Describing the age between the Neolithic and the Bronze Age."
+    },
+    "yamna": {
+      "token_id": 2132,
+      "first_seen": "Samara culture",
+      "has_definition": false,
+      "definition": ""
+    },
+    "samara": {
+      "token_id": 144,
+      "first_seen": "Samara culture",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pontic": {
+      "token_id": 2922,
+      "first_seen": "Samara culture",
+      "has_definition": false,
+      "definition": ""
+    },
+    "caspian": {
+      "token_id": 6536,
+      "first_seen": "Samara culture",
+      "has_definition": false,
+      "definition": ""
+    },
+    "contemporaneous": {
+      "token_id": 2190,
+      "first_seen": "Samara culture",
+      "has_definition": true,
+      "definition": "Existing or created in the same period of time."
+    },
+    "wagler": {
+      "token_id": 4286,
+      "first_seen": "Pontosaurus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kaup": {
+      "token_id": 1483,
+      "first_seen": "Pontosaurus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pythonomorph": {
+      "token_id": 1909,
+      "first_seen": "Pontosaurus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hvar": {
+      "token_id": 7474,
+      "first_seen": "Pontosaurus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hydrosaurus": {
+      "token_id": 343,
+      "first_seen": "Pontosaurus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kornhuberi": {
+      "token_id": 6351,
+      "first_seen": "Pontosaurus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lesinensis": {
+      "token_id": 1451,
+      "first_seen": "Pontosaurus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sannine": {
+      "token_id": 2858,
+      "first_seen": "Pontosaurus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pontosaurus": {
+      "token_id": 1724,
+      "first_seen": "Pontosaurus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "agamid": {
+      "token_id": 3405,
+      "first_seen": "Pontosaurus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "preoccupied": {
+      "token_id": 1139,
+      "first_seen": "Pontosaurus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "varanus": {
+      "token_id": 3053,
+      "first_seen": "Pontosaurus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "salisbury": {
+      "token_id": 3921,
+      "first_seen": "Salisbury District",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rico": {
+      "token_id": 4223,
+      "first_seen": "Status quo movement in Puerto Rico",
+      "has_definition": false,
+      "definition": ""
+    },
+    "initiatives": {
+      "token_id": 6074,
+      "first_seen": "Status quo movement in Puerto Rico",
+      "has_definition": false,
+      "definition": ""
+    },
+    "quo": {
+      "token_id": 6534,
+      "first_seen": "Status quo movement in Puerto Rico",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hamisha": {
+      "token_id": 1205,
+      "first_seen": "Namaste Wahala",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ahuja": {
+      "token_id": 356,
+      "first_seen": "Namaste Wahala",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mumtaz": {
+      "token_id": 6543,
+      "first_seen": "Namaste Wahala",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ini": {
+      "token_id": 5917,
+      "first_seen": "Namaste Wahala",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ruslaan": {
+      "token_id": 396,
+      "first_seen": "Namaste Wahala",
+      "has_definition": false,
+      "definition": ""
+    },
+    "daryani": {
+      "token_id": 7843,
+      "first_seen": "Namaste Wahala",
+      "has_definition": false,
+      "definition": ""
+    },
+    "okojie": {
+      "token_id": 329,
+      "first_seen": "Namaste Wahala",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dima": {
+      "token_id": 1859,
+      "first_seen": "Namaste Wahala",
+      "has_definition": false,
+      "definition": ""
+    },
+    "namaste": {
+      "token_id": 4903,
+      "first_seen": "Namaste Wahala",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wahala": {
+      "token_id": 3879,
+      "first_seen": "Namaste Wahala",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 2578,
-  "total_words": 18735
+  "total_articles": 2608,
+  "total_words": 18879
 }
