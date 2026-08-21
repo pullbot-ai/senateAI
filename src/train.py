@@ -40,12 +40,13 @@ class TopicDataset(Dataset):
 
 
 def generate_training_data(topic, num_examples=30):
-    """Generate fresh training examples using AI"""
+    """Generate fresh training examples using AI with punctuation"""
     
     prompt = f"""Generate {num_examples} diverse training sentences for a tiny AI specializing in '{topic}'.
-Each sentence should teach a key concept about {topic}.
+Each sentence MUST end with a period, question mark, or exclamation point.
+Use commas where appropriate.
 Make them varied: definitions, principles, facts, applications, examples.
-Return as JSON array of strings: ["sentence1", "sentence2", ...]"""
+Return as JSON array of strings: ["sentence1.", "sentence2?", "sentence3!"]"""
     
     response = call_ai(prompt, max_tokens=800)
     
@@ -58,16 +59,16 @@ Return as JSON array of strings: ["sentence1", "sentence2", ...]"""
         except:
             pass
     
-    return [f"{topic} is an important field of study involving key principles and concepts"]
+    return [f"{topic} is an important field of study involving key principles and concepts."]
 
 
 def generate_qa_pairs(topic, num_pairs=8):
-    """Generate fresh Q&A pairs for grading"""
+    """Generate fresh Q&A pairs for grading with punctuation"""
     
     prompt = f"""Generate {num_pairs} question-answer pairs about '{topic}'.
-Questions should test understanding of key concepts.
-Answers should be 1-2 sentences, accurate.
-Return as JSON array: [{{"question": "...", "answer": "..."}}, ...]"""
+Questions should end with question marks.
+Answers should be 1-2 sentences ending with periods.
+Return as JSON array: [{{"question": "...?", "answer": "..."}}, ...]"""
     
     response = call_ai(prompt, max_tokens=1000)
     
@@ -80,7 +81,7 @@ Return as JSON array: [{{"question": "...", "answer": "..."}}, ...]"""
         except:
             pass
     
-    return [{"question": f"What is {topic}?", "answer": f"{topic} is a field of study"}]
+    return [{"question": f"What is {topic}?", "answer": f"{topic} is a field of study."}]
 
 
 def select_params_with_ai(senator, topics, epoch, epochs, current_loss):
@@ -142,7 +143,6 @@ def train_senator_on_topics(senator, topics, wordbank, epochs=15, lr=0.0005, bat
     losses = []
     
     for epoch in range(epochs):
-        # AI-guided parameter selection
         selected_tensors = []
         
         if ai_guided and epoch >= 2:
@@ -157,7 +157,6 @@ def train_senator_on_topics(senator, topics, wordbank, epochs=15, lr=0.0005, bat
                     else:
                         param.requires_grad = False
         
-        # Fallback: train all params if selection failed
         if not selected_tensors:
             for param in senator.parameters():
                 param.requires_grad = True
