@@ -138701,8 +138701,746 @@
       "first_seen": "NCR CRAM",
       "has_definition": false,
       "definition": ""
+    },
+    "wilsbach": {
+      "token_id": 6859,
+      "first_seen": "Kenneth S. Wilsbach",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cropland": {
+      "token_id": 5477,
+      "first_seen": "Food and Agriculture Act of 1965",
+      "has_definition": true,
+      "definition": "Arable land"
+    },
+    "wheat": {
+      "token_id": 7504,
+      "first_seen": "Food and Agriculture Act of 1965",
+      "has_definition": true,
+      "definition": "Any of several cereal grains, of the genus Triticum, that yields flour as used in bakery."
+    },
+    "multiyear": {
+      "token_id": 943,
+      "first_seen": "Food and Agriculture Act of 1965",
+      "has_definition": false,
+      "definition": ""
+    },
+    "commodity": {
+      "token_id": 6415,
+      "first_seen": "Food and Agriculture Act of 1965",
+      "has_definition": true,
+      "definition": "Anything movable (a good) that is bought and sold."
+    },
+    "diversion": {
+      "token_id": 656,
+      "first_seen": "Food and Agriculture Act of 1965",
+      "has_definition": true,
+      "definition": "A tactic used to draw attention away from the real threat or action."
+    },
+    "payment": {
+      "token_id": 4355,
+      "first_seen": "Food and Agriculture Act of 1965",
+      "has_definition": true,
+      "definition": "The act of paying."
+    },
+    "haulers": {
+      "token_id": 6046,
+      "first_seen": "Holt tractor",
+      "has_definition": true,
+      "definition": "A person or thing that hauls another person or thing."
+    },
+    "holt": {
+      "token_id": 4362,
+      "first_seen": "Holt tractor",
+      "has_definition": true,
+      "definition": "A small piece of woodland or a woody hill; a copse."
+    },
+    "tractors": {
+      "token_id": 479,
+      "first_seen": "Holt tractor",
+      "has_definition": true,
+      "definition": "A vehicle used in farms e.g. for pulling farm equipment and preparing the fields."
+    },
+    "henriette": {
+      "token_id": 4353,
+      "first_seen": "Marianne Katoppo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "katoppo": {
+      "token_id": 2613,
+      "first_seen": "Marianne Katoppo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "s.e.a": {
+      "token_id": 2486,
+      "first_seen": "Marianne Katoppo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "decide": {
+      "token_id": 1330,
+      "first_seen": "Swedish Futsal League",
+      "has_definition": true,
+      "definition": "To resolve (a contest, problem, dispute, etc.); to choose, determine, or settle"
+    },
+    "futsalligan": {
+      "token_id": 1674,
+      "first_seen": "Swedish Futsal League",
+      "has_definition": false,
+      "definition": ""
+    },
+    "play-off": {
+      "token_id": 165,
+      "first_seen": "Swedish Futsal League",
+      "has_definition": false,
+      "definition": ""
+    },
+    "svenska": {
+      "token_id": 1871,
+      "first_seen": "Swedish Futsal League",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nastus": {
+      "token_id": 205,
+      "first_seen": "Nastus (beetle)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "weevils": {
+      "token_id": 4771,
+      "first_seen": "Nastus (beetle)",
+      "has_definition": true,
+      "definition": "Any of several small herbivorous beetles in the superfamily Curculionoidea, many having a distinctive snout."
+    },
+    "broad-nosed": {
+      "token_id": 5670,
+      "first_seen": "Nastus (beetle)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "muzzey": {
+      "token_id": 3678,
+      "first_seen": "David Saville Muzzey",
+      "has_definition": false,
+      "definition": ""
+    },
+    "saville": {
+      "token_id": 7827,
+      "first_seen": "David Saville Muzzey",
+      "has_definition": false,
+      "definition": ""
+    },
+    "irrigate": {
+      "token_id": 4758,
+      "first_seen": "Bradfield Scheme",
+      "has_definition": true,
+      "definition": "To supply (farmland) with water, by building ditches, pipes, etc."
+    },
+    "drought-proof": {
+      "token_id": 235,
+      "first_seen": "Bradfield Scheme",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brisbane's": {
+      "token_id": 7158,
+      "first_seen": "Bradfield Scheme",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bradfield": {
+      "token_id": 6937,
+      "first_seen": "Bradfield Scheme",
+      "has_definition": false,
+      "definition": ""
+    },
+    "montreuilhpital": {
+      "token_id": 7470,
+      "first_seen": "Montreuil\u2013H\u00f4pital station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grgoire": {
+      "token_id": 5574,
+      "first_seen": "Montreuil\u2013H\u00f4pital station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "emf": {
+      "token_id": 5353,
+      "first_seen": "Cha Cha Cha (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "palmoplantar": {
+      "token_id": 2029,
+      "first_seen": "Palmoplantar hyperhidrosis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "palms": {
+      "token_id": 2299,
+      "first_seen": "Palmoplantar hyperhidrosis",
+      "has_definition": true,
+      "definition": "Any of various evergreen trees from the family Palmae or Arecaceae, which are mainly found in the tropics."
+    },
+    "excessive": {
+      "token_id": 7713,
+      "first_seen": "Palmoplantar hyperhidrosis",
+      "has_definition": true,
+      "definition": "Exceeding the usual bounds of something; extravagant; immoderate."
+    },
+    "sweating": {
+      "token_id": 4200,
+      "first_seen": "Palmoplantar hyperhidrosis",
+      "has_definition": true,
+      "definition": "To emit sweat."
+    },
+    "worsen": {
+      "token_id": 118,
+      "first_seen": "Palmoplantar hyperhidrosis",
+      "has_definition": true,
+      "definition": "To make worse; to impair."
+    },
+    "soles": {
+      "token_id": 3313,
+      "first_seen": "Palmoplantar hyperhidrosis",
+      "has_definition": true,
+      "definition": "A wooden band or yoke put around the neck of an ox or cow in the stall."
+    },
+    "hyperhidrosis": {
+      "token_id": 2921,
+      "first_seen": "Palmoplantar hyperhidrosis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "localized": {
+      "token_id": 4462,
+      "first_seen": "Palmoplantar hyperhidrosis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hip-hop": {
+      "token_id": 7401,
+      "first_seen": "First Edition (Dei Hamo album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hamo": {
+      "token_id": 5018,
+      "first_seen": "First Edition (Dei Hamo album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tbingen": {
+      "token_id": 4578,
+      "first_seen": "Tigers T\u00fcbingen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "proa": {
+      "token_id": 3878,
+      "first_seen": "Tigers T\u00fcbingen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "country's": {
+      "token_id": 4311,
+      "first_seen": "Tigers T\u00fcbingen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "masonboro": {
+      "token_id": 5440,
+      "first_seen": "Masonboro, North Carolina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hanover": {
+      "token_id": 490,
+      "first_seen": "Masonboro, North Carolina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wilmington": {
+      "token_id": 6983,
+      "first_seen": "Masonboro, North Carolina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "starrett": {
+      "token_id": 3971,
+      "first_seen": "William A. Starrett",
+      "has_definition": false,
+      "definition": ""
+    },
+    "overseeing": {
+      "token_id": 6471,
+      "first_seen": "William A. Starrett",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coinciding": {
+      "token_id": 951,
+      "first_seen": "2007 East Hertfordshire District Council election",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cookware": {
+      "token_id": 163,
+      "first_seen": "Descoware",
+      "has_definition": false,
+      "definition": ""
+    },
+    "smithsonian": {
+      "token_id": 4823,
+      "first_seen": "Descoware",
+      "has_definition": false,
+      "definition": ""
+    },
+    "little-remembered": {
+      "token_id": 1656,
+      "first_seen": "Descoware",
+      "has_definition": false,
+      "definition": ""
+    },
+    "child's": {
+      "token_id": 7559,
+      "first_seen": "Descoware",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stove": {
+      "token_id": 2183,
+      "first_seen": "Descoware",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pots": {
+      "token_id": 7681,
+      "first_seen": "Descoware",
+      "has_definition": false,
+      "definition": ""
+    },
+    "enamel-coated": {
+      "token_id": 7155,
+      "first_seen": "Descoware",
+      "has_definition": false,
+      "definition": ""
+    },
+    "institution's": {
+      "token_id": 2501,
+      "first_seen": "Descoware",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ware": {
+      "token_id": 7387,
+      "first_seen": "Descoware",
+      "has_definition": false,
+      "definition": ""
+    },
+    "descoware": {
+      "token_id": 403,
+      "first_seen": "Descoware",
+      "has_definition": false,
+      "definition": ""
+    },
+    "porcelain": {
+      "token_id": 5139,
+      "first_seen": "Descoware",
+      "has_definition": false,
+      "definition": ""
+    },
+    "le": {
+      "token_id": 7882,
+      "first_seen": "Descoware",
+      "has_definition": false,
+      "definition": ""
+    },
+    "creuset": {
+      "token_id": 4931,
+      "first_seen": "Descoware",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cast-iron": {
+      "token_id": 4601,
+      "first_seen": "Descoware",
+      "has_definition": true,
+      "definition": "A hard and brittle, but strong, alloy of iron, carbon, and silicon, formed by casting in a mould."
+    },
+    "installation": {
+      "token_id": 419,
+      "first_seen": "Descoware",
+      "has_definition": true,
+      "definition": "An act of installing."
+    },
+    "harrogate": {
+      "token_id": 5771,
+      "first_seen": "Ellis Taylor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pnoepygidae": {
+      "token_id": 2868,
+      "first_seen": "Pygmy cupwing",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cupwing": {
+      "token_id": 2205,
+      "first_seen": "Pygmy cupwing",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pnoepyga": {
+      "token_id": 7435,
+      "first_seen": "Pygmy cupwing",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wren-babbler": {
+      "token_id": 2067,
+      "first_seen": "Pygmy cupwing",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wren-babblers": {
+      "token_id": 5815,
+      "first_seen": "Pygmy cupwing",
+      "has_definition": false,
+      "definition": ""
+    },
+    "robots": {
+      "token_id": 5742,
+      "first_seen": "Music for Robots (EP)",
+      "has_definition": true,
+      "definition": "A machine built to carry out some complex task or group of tasks by physically moving, especially one which can be programmed."
+    },
+    "z-machines": {
+      "token_id": 606,
+      "first_seen": "Music for Robots (EP)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trolholm": {
+      "token_id": 1502,
+      "first_seen": "Holsteinborg Castle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "holsteinborg": {
+      "token_id": 1639,
+      "first_seen": "Holsteinborg Castle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trolle": {
+      "token_id": 5461,
+      "first_seen": "Holsteinborg Castle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "slagelse": {
+      "token_id": 6573,
+      "first_seen": "Holsteinborg Castle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sklskr": {
+      "token_id": 5802,
+      "first_seen": "Holsteinborg Castle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sterfed": {
+      "token_id": 909,
+      "first_seen": "Holsteinborg Castle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stenfed": {
+      "token_id": 5201,
+      "first_seen": "Holsteinborg Castle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gln": {
+      "token_id": 5312,
+      "first_seen": "Holsteinborg Castle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "watered": {
+      "token_id": 6945,
+      "first_seen": "Holsteinborg Castle",
+      "has_definition": true,
+      "definition": "To pour water into the soil surrounding (plants)."
+    },
+    "smland": {
+      "token_id": 2293,
+      "first_seen": "Holsteinborg Castle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shallow": {
+      "token_id": 1600,
+      "first_seen": "Holsteinborg Castle",
+      "has_definition": true,
+      "definition": "A shallow portion of an otherwise deep body of water."
+    },
+    "single-cd": {
+      "token_id": 4898,
+      "first_seen": "Hits 5",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dethroned": {
+      "token_id": 2459,
+      "first_seen": "Hits 5",
+      "has_definition": true,
+      "definition": "To depose; to forcibly relieve a monarch of the monarchy."
+    },
+    "vhs": {
+      "token_id": 6271,
+      "first_seen": "Hits 5",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lp": {
+      "token_id": 1565,
+      "first_seen": "Hits 5",
+      "has_definition": false,
+      "definition": ""
+    },
+    "span": {
+      "token_id": 437,
+      "first_seen": "Hits 5",
+      "has_definition": true,
+      "definition": "The space from the thumb to the end of the little finger when extended; nine inches; an eighth of a fathom."
+    },
+    "rca-ariola": {
+      "token_id": 4329,
+      "first_seen": "Hits 5",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cbsfox": {
+      "token_id": 4058,
+      "first_seen": "Hits 5",
+      "has_definition": false,
+      "definition": ""
+    },
+    "scioto": {
+      "token_id": 5622,
+      "first_seen": "Harrison Township, Scioto County, Ohio",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chengalpattu": {
+      "token_id": 2156,
+      "first_seen": "Maduranthakam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ramar": {
+      "token_id": 2504,
+      "first_seen": "Maduranthakam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "madurantakam": {
+      "token_id": 6313,
+      "first_seen": "Maduranthakam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "maduranthaka": {
+      "token_id": 7826,
+      "first_seen": "Maduranthakam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "uttama": {
+      "token_id": 360,
+      "first_seen": "Maduranthakam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chola": {
+      "token_id": 5075,
+      "first_seen": "Maduranthakam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eri-katha": {
+      "token_id": 4610,
+      "first_seen": "Maduranthakam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lipa": {
+      "token_id": 7090,
+      "first_seen": "An Evening with Dua Lipa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lipa's": {
+      "token_id": 2441,
+      "first_seen": "An Evening with Dua Lipa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "optimism": {
+      "token_id": 4248,
+      "first_seen": "An Evening with Dua Lipa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dua": {
+      "token_id": 5707,
+      "first_seen": "An Evening with Dua Lipa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "biathlete": {
+      "token_id": 5570,
+      "first_seen": "Antonin Guigonnat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guigonnat": {
+      "token_id": 6603,
+      "first_seen": "Antonin Guigonnat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antonin": {
+      "token_id": 5101,
+      "first_seen": "Antonin Guigonnat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "simpson": {
+      "token_id": 6477,
+      "first_seen": "Mississippi Highway 540",
+      "has_definition": false,
+      "definition": ""
+    },
+    "d'lo": {
+      "token_id": 6366,
+      "first_seen": "Mississippi Highway 540",
+      "has_definition": false,
+      "definition": ""
+    },
+    "harrisville": {
+      "token_id": 4574,
+      "first_seen": "Mississippi Highway 540",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mendenhall": {
+      "token_id": 6324,
+      "first_seen": "Mississippi Highway 540",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ms": {
+      "token_id": 1663,
+      "first_seen": "Mississippi Highway 540",
+      "has_definition": false,
+      "definition": ""
+    },
+    "raleigh": {
+      "token_id": 4721,
+      "first_seen": "Mississippi Highway 540",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sawflies": {
+      "token_id": 2386,
+      "first_seen": "Sterictiphorinae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sterictiphorinae": {
+      "token_id": 7612,
+      "first_seen": "Sterictiphorinae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "argid": {
+      "token_id": 295,
+      "first_seen": "Sterictiphorinae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "argidae": {
+      "token_id": 1322,
+      "first_seen": "Sterictiphorinae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "formicinae": {
+      "token_id": 7919,
+      "first_seen": "Notoncus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "logs": {
+      "token_id": 1308,
+      "first_seen": "Notoncus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "forested": {
+      "token_id": 6192,
+      "first_seen": "Notoncus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nest": {
+      "token_id": 3859,
+      "first_seen": "Notoncus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "notoncus": {
+      "token_id": 4655,
+      "first_seen": "Notoncus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "conversation": {
+      "token_id": 1462,
+      "first_seen": "Green Hills of Africa",
+      "has_definition": true,
+      "definition": "Expression and exchange of individual ideas through talking with other people; also, a set instance or occasion of such talking."
+    },
+    "happiness": {
+      "token_id": 2501,
+      "first_seen": "Green Hills of Africa",
+      "has_definition": true,
+      "definition": "The emotion of being happy; joy."
+    },
+    "pfeiffer": {
+      "token_id": 4836,
+      "first_seen": "Green Hills of Africa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "month-long": {
+      "token_id": 2962,
+      "first_seen": "Green Hills of Africa",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 3448,
-  "total_words": 23117
+  "total_articles": 3478,
+  "total_words": 23240
 }
