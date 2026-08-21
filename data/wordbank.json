@@ -143699,8 +143699,794 @@
       "first_seen": "The Gates of Aulis",
       "has_definition": false,
       "definition": ""
+    },
+    "turchynov": {
+      "token_id": 3477,
+      "first_seen": "Oleksandr Turchynov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "valentynovych": {
+      "token_id": 995,
+      "first_seen": "Oleksandr Turchynov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "glans": {
+      "token_id": 2886,
+      "first_seen": "Frenulum breve",
+      "has_definition": true,
+      "definition": "The vascular body which forms the apex of the penis."
+    },
+    "penis": {
+      "token_id": 3631,
+      "first_seen": "Frenulum breve",
+      "has_definition": true,
+      "definition": "The male reproductive organ used for sexual intercourse that in the human male and some other mammals is also used for urination; the tubular portion of the male genitalia (excluding the scrotum)."
+    },
+    "frenulum": {
+      "token_id": 4785,
+      "first_seen": "Frenulum breve",
+      "has_definition": true,
+      "definition": "A small fold of tissue that prevents an organ in the body from moving too far."
+    },
+    "foreskin": {
+      "token_id": 5233,
+      "first_seen": "Frenulum breve",
+      "has_definition": true,
+      "definition": "The nerve-dense, retractable fold of skin which covers and protects the head of the penis in humans and some other animals."
+    },
+    "elastic": {
+      "token_id": 3496,
+      "first_seen": "Frenulum breve",
+      "has_definition": true,
+      "definition": "An elastic material used in clothing, particularly in waistbands and cuffs."
+    },
+    "smoothly": {
+      "token_id": 2819,
+      "first_seen": "Frenulum breve",
+      "has_definition": true,
+      "definition": "In a smooth manner"
+    },
+    "sufficiently": {
+      "token_id": 7504,
+      "first_seen": "Frenulum breve",
+      "has_definition": true,
+      "definition": "(manner) In a sufficient manner; enough."
+    },
+    "retraction": {
+      "token_id": 7920,
+      "first_seen": "Frenulum breve",
+      "has_definition": true,
+      "definition": "An act or instance of retracting."
+    },
+    "supple": {
+      "token_id": 1956,
+      "first_seen": "Frenulum breve",
+      "has_definition": true,
+      "definition": "To make or become supple."
+    },
+    "breve": {
+      "token_id": 3692,
+      "first_seen": "Frenulum breve",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seminary": {
+      "token_id": 2898,
+      "first_seen": "Francis Wayland",
+      "has_definition": true,
+      "definition": "A theological school for the training of rabbis, priests, or ministers."
+    },
+    "wayland": {
+      "token_id": 876,
+      "first_seen": "Francis Wayland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "d.c": {
+      "token_id": 7521,
+      "first_seen": "Francis Wayland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mairbek": {
+      "token_id": 7051,
+      "first_seen": "Mairbek Taisumov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vakhaievich": {
+      "token_id": 5250,
+      "first_seen": "Mairbek Taisumov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "taisumov": {
+      "token_id": 580,
+      "first_seen": "Mairbek Taisumov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "russian-born": {
+      "token_id": 6596,
+      "first_seen": "Mairbek Taisumov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "topminnow": {
+      "token_id": 110,
+      "first_seen": "Whiteline topminnow",
+      "has_definition": true,
+      "definition": "Any of the ray-finned fish in the taxonomic family Fundulidae."
+    },
+    "identical": {
+      "token_id": 6341,
+      "first_seen": "Whiteline topminnow",
+      "has_definition": true,
+      "definition": "(usually pluralized) Something which has exactly the same properties as something else."
+    },
+    "thrive": {
+      "token_id": 2048,
+      "first_seen": "Whiteline topminnow",
+      "has_definition": true,
+      "definition": "To grow or increase stature; to grow vigorously or luxuriantly, to flourish."
+    },
+    "barrens": {
+      "token_id": 4286,
+      "first_seen": "Whiteline topminnow",
+      "has_definition": true,
+      "definition": "An area of low fertility and habitation, a desolate place."
+    },
+    "fundulus": {
+      "token_id": 3695,
+      "first_seen": "Whiteline topminnow",
+      "has_definition": false,
+      "definition": ""
+    },
+    "whiteline": {
+      "token_id": 1454,
+      "first_seen": "Whiteline topminnow",
+      "has_definition": false,
+      "definition": ""
+    },
+    "albolineatus": {
+      "token_id": 630,
+      "first_seen": "Whiteline topminnow",
+      "has_definition": false,
+      "definition": ""
+    },
+    "killifish": {
+      "token_id": 5806,
+      "first_seen": "Whiteline topminnow",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lossen": {
+      "token_id": 7494,
+      "first_seen": "Wilhelm Lossen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "clackamas": {
+      "token_id": 5165,
+      "first_seen": "Milwaukie branch",
+      "has_definition": false,
+      "definition": ""
+    },
+    "beaverton": {
+      "token_id": 7884,
+      "first_seen": "Milwaukie branch",
+      "has_definition": false,
+      "definition": ""
+    },
+    "newberg": {
+      "token_id": 16,
+      "first_seen": "Milwaukie branch",
+      "has_definition": false,
+      "definition": ""
+    },
+    "willsburg": {
+      "token_id": 4328,
+      "first_seen": "Milwaukie branch",
+      "has_definition": false,
+      "definition": ""
+    },
+    "railroad's": {
+      "token_id": 7970,
+      "first_seen": "Milwaukie branch",
+      "has_definition": false,
+      "definition": ""
+    },
+    "milwaukie": {
+      "token_id": 5857,
+      "first_seen": "Milwaukie branch",
+      "has_definition": false,
+      "definition": ""
+    },
+    "academy's": {
+      "token_id": 3823,
+      "first_seen": "Bradford Shwedo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "computerscyber": {
+      "token_id": 7885,
+      "first_seen": "Bradford Shwedo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shwedo": {
+      "token_id": 2573,
+      "first_seen": "Bradford Shwedo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gappo": {
+      "token_id": 6282,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pradip": {
+      "token_id": 1666,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sengupta": {
+      "token_id": 1441,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "saikat": {
+      "token_id": 6882,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bengali": {
+      "token_id": 91,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ichchhemotir": {
+      "token_id": 7430,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "churiwal": {
+      "token_id": 7283,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kalyan": {
+      "token_id": 6221,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hazra": {
+      "token_id": 4703,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "atanu": {
+      "token_id": 6482,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barat": {
+      "token_id": 7846,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "macneill": {
+      "token_id": 2873,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pvt": {
+      "token_id": 7466,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "adinath": {
+      "token_id": 1554,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mitra": {
+      "token_id": 7324,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "media's": {
+      "token_id": 390,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kaushik": {
+      "token_id": 7697,
+      "first_seen": "Ichchhemotir Gappo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cust": {
+      "token_id": 2308,
+      "first_seen": "Mary Anne Cust",
+      "has_definition": false,
+      "definition": ""
+    },
+    "invalids": {
+      "token_id": 7741,
+      "first_seen": "Mary Anne Cust",
+      "has_definition": true,
+      "definition": "(sometimes offensive) Any person with a disability or illness."
+    },
+    "nationwide": {
+      "token_id": 4736,
+      "first_seen": "Teamsters for a Democratic Union",
+      "has_definition": true,
+      "definition": "Extending throughout an entire nation."
+    },
+    "teamsters": {
+      "token_id": 6542,
+      "first_seen": "Teamsters for a Democratic Union",
+      "has_definition": true,
+      "definition": "A person who drives a team of animals (such as horses or oxen)."
+    },
+    "goal": {
+      "token_id": 1812,
+      "first_seen": "Teamsters for a Democratic Union",
+      "has_definition": true,
+      "definition": "A result that one is attempting to achieve."
+    },
+    "grassroots": {
+      "token_id": 2197,
+      "first_seen": "Teamsters for a Democratic Union",
+      "has_definition": true,
+      "definition": "Of, or relating to people or society at the local level, particularly in politics, social movements, etc.; of the grass roots."
+    },
+    "ibt": {
+      "token_id": 6335,
+      "first_seen": "Teamsters for a Democratic Union",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tdu": {
+      "token_id": 6822,
+      "first_seen": "Teamsters for a Democratic Union",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dreaming": {
+      "token_id": 7589,
+      "first_seen": "Dreaming (sculpture)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "plensa": {
+      "token_id": 1284,
+      "first_seen": "Dreaming (sculpture)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tonne": {
+      "token_id": 1213,
+      "first_seen": "Dreaming (sculpture)",
+      "has_definition": true,
+      "definition": "A metric unit of mass equal to 1000 kilograms. Symbol: t"
+    },
+    "ameland": {
+      "token_id": 368,
+      "first_seen": "Engelsmanplaat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "schiermonnikoog": {
+      "token_id": 7470,
+      "first_seen": "Engelsmanplaat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sandbank": {
+      "token_id": 1788,
+      "first_seen": "Engelsmanplaat",
+      "has_definition": true,
+      "definition": "A ridge of sand along a shore that is partially or totally submerged and thus a hazard to shipping."
+    },
+    "engelsmanplaat": {
+      "token_id": 419,
+      "first_seen": "Engelsmanplaat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kalkman": {
+      "token_id": 51,
+      "first_seen": "Engelsmanplaat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dipodium": {
+      "token_id": 5870,
+      "first_seen": "Dipodium elegans",
+      "has_definition": false,
+      "definition": ""
+    },
+    "denny": {
+      "token_id": 3881,
+      "first_seen": "SS Southwark (1893)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fourfourtwo": {
+      "token_id": 4245,
+      "first_seen": "FourFourTwo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "future's": {
+      "token_id": 368,
+      "first_seen": "FourFourTwo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "subscriber": {
+      "token_id": 2642,
+      "first_seen": "FourFourTwo",
+      "has_definition": true,
+      "definition": "A person who subscribes to a publication or a service"
+    },
+    "masthead": {
+      "token_id": 3055,
+      "first_seen": "FourFourTwo",
+      "has_definition": true,
+      "definition": "The top of a mast."
+    },
+    "conor": {
+      "token_id": 214,
+      "first_seen": "OpenBCI",
+      "has_definition": false,
+      "definition": ""
+    },
+    "braincomputer": {
+      "token_id": 7751,
+      "first_seen": "OpenBCI",
+      "has_definition": false,
+      "definition": ""
+    },
+    "company's": {
+      "token_id": 7178,
+      "first_seen": "OpenBCI",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kickstarter": {
+      "token_id": 6545,
+      "first_seen": "OpenBCI",
+      "has_definition": false,
+      "definition": ""
+    },
+    "russomanno": {
+      "token_id": 909,
+      "first_seen": "OpenBCI",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ny": {
+      "token_id": 4902,
+      "first_seen": "OpenBCI",
+      "has_definition": true,
+      "definition": "To draw nigh (to); to approach; to come near"
+    },
+    "openbci": {
+      "token_id": 7197,
+      "first_seen": "OpenBCI",
+      "has_definition": false,
+      "definition": ""
+    },
+    "janny": {
+      "token_id": 7959,
+      "first_seen": "Curse of the Mistwraith",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mistwraith": {
+      "token_id": 5676,
+      "first_seen": "Curse of the Mistwraith",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wurts": {
+      "token_id": 2146,
+      "first_seen": "Curse of the Mistwraith",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fide": {
+      "token_id": 4452,
+      "first_seen": "Sofia Polgar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hungarian-israeli": {
+      "token_id": 3127,
+      "first_seen": "Sofia Polgar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "olympiads": {
+      "token_id": 6682,
+      "first_seen": "Sofia Polgar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grandmasters": {
+      "token_id": 4469,
+      "first_seen": "Sofia Polgar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "golds": {
+      "token_id": 6321,
+      "first_seen": "Sofia Polgar",
+      "has_definition": true,
+      "definition": "A heavy yellow elemental metal of great value, with atomic number 79 and symbol Au."
+    },
+    "polgar": {
+      "token_id": 695,
+      "first_seen": "Sofia Polgar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "judit": {
+      "token_id": 5372,
+      "first_seen": "Sofia Polgar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wgm": {
+      "token_id": 3855,
+      "first_seen": "Sofia Polgar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "andaz": {
+      "token_id": 4023,
+      "first_seen": "Andaz (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "junoon": {
+      "token_id": 1230,
+      "first_seen": "Andaz (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sufi": {
+      "token_id": 2716,
+      "first_seen": "Andaz (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sportsman": {
+      "token_id": 4164,
+      "first_seen": "Arthur Thomas Myers",
+      "has_definition": true,
+      "definition": "A man who engages in sports; a male athlete."
+    },
+    "wimbledon": {
+      "token_id": 547,
+      "first_seen": "Arthur Thomas Myers",
+      "has_definition": false,
+      "definition": ""
+    },
+    "first-class": {
+      "token_id": 6910,
+      "first_seen": "Arthur Thomas Myers",
+      "has_definition": true,
+      "definition": "(A status, section, etc which is of) premier rank."
+    },
+    "cymatia": {
+      "token_id": 5639,
+      "first_seen": "Cymatia coleoptrata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hemiptera": {
+      "token_id": 6283,
+      "first_seen": "Cymatia coleoptrata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boatman": {
+      "token_id": 6465,
+      "first_seen": "Cymatia coleoptrata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coleoptrata": {
+      "token_id": 3435,
+      "first_seen": "Cymatia coleoptrata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mller": {
+      "token_id": 3984,
+      "first_seen": "Elisabeth M\u00fcller",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alekseyevich": {
+      "token_id": 2309,
+      "first_seen": "Alexander Sizonenko",
+      "has_definition": false,
+      "definition": ""
+    },
+    "considerably": {
+      "token_id": 3500,
+      "first_seen": "Alexander Sizonenko",
+      "has_definition": true,
+      "definition": "Significantly; to a degree worth considering."
+    },
+    "enormous": {
+      "token_id": 6569,
+      "first_seen": "Alexander Sizonenko",
+      "has_definition": true,
+      "definition": "Deviating from the norm; unusual, extraordinary."
+    },
+    "sizonenko": {
+      "token_id": 4893,
+      "first_seen": "Alexander Sizonenko",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grown": {
+      "token_id": 7524,
+      "first_seen": "Alexander Sizonenko",
+      "has_definition": true,
+      "definition": "To become larger, to increase in magnitude."
+    },
+    "halphin": {
+      "token_id": 4656,
+      "first_seen": "George Henry Miles",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mansfield": {
+      "token_id": 5100,
+      "first_seen": "Michael Smith (footballer, born 1991)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "avron": {
+      "token_id": 280,
+      "first_seen": "Dirty Work (All Time Low album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gaskarth": {
+      "token_id": 1296,
+      "first_seen": "Dirty Work (All Time Low album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trombino": {
+      "token_id": 1105,
+      "first_seen": "Dirty Work (All Time Low album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lord-alge": {
+      "token_id": 5364,
+      "first_seen": "Dirty Work (All Time Low album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ul": {
+      "token_id": 3086,
+      "first_seen": "Dirty Work (All Time Low album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vocalistguitarist": {
+      "token_id": 3837,
+      "first_seen": "Dirty Work (All Time Low album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kahne": {
+      "token_id": 2849,
+      "first_seen": "Dirty Work (All Time Low album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "album's": {
+      "token_id": 387,
+      "first_seen": "Dirty Work (All Time Low album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bamboozle": {
+      "token_id": 3601,
+      "first_seen": "Dirty Work (All Time Low album)",
+      "has_definition": true,
+      "definition": "To con, defraud, trick, to make a fool of, to humbug or impose on someone."
+    },
+    "embarked": {
+      "token_id": 5835,
+      "first_seen": "Dirty Work (All Time Low album)",
+      "has_definition": true,
+      "definition": "To get on a boat or ship or (outside the USA) an aeroplane."
+    },
+    "neal": {
+      "token_id": 4762,
+      "first_seen": "Dirty Work (All Time Low album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bambino": {
+      "token_id": 7277,
+      "first_seen": "Mi Cama Huele a Ti",
+      "has_definition": true,
+      "definition": "A child or baby, especially a representation in art of the infant Christ wrapped in swaddling clothes."
+    },
+    "cama": {
+      "token_id": 2524,
+      "first_seen": "Mi Cama Huele a Ti",
+      "has_definition": true,
+      "definition": "A hybrid animal produced by breeding a camel and a llama."
+    },
+    "huele": {
+      "token_id": 5990,
+      "first_seen": "Mi Cama Huele a Ti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lo": {
+      "token_id": 7747,
+      "first_seen": "Mi Cama Huele a Ti",
+      "has_definition": true,
+      "definition": "Look, see, behold (in an imperative sense)."
+    },
+    "zion": {
+      "token_id": 966,
+      "first_seen": "Mi Cama Huele a Ti",
+      "has_definition": true,
+      "definition": "Zayin, Hebrew letter \u05d6."
+    },
+    "reggaeton": {
+      "token_id": 3944,
+      "first_seen": "Mi Cama Huele a Ti",
+      "has_definition": true,
+      "definition": "A style of Latin American popular music, originally developing from reggae in Panama but now more of a type of hip hop-dance music mainly associated with Puerto Rico."
+    },
+    "patrn": {
+      "token_id": 7434,
+      "first_seen": "Mi Cama Huele a Ti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nuestro": {
+      "token_id": 5048,
+      "first_seen": "Mi Cama Huele a Ti",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 3628,
-  "total_words": 23950
+  "total_articles": 3658,
+  "total_words": 24081
 }
