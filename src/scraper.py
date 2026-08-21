@@ -2,6 +2,7 @@
 Senate AI - Wikipedia Word Extractor + Auto-Definer
 Scrapes Wikipedia articles, extracts words, defines new ones.
 Builds the shared wordbank for all senators.
+Includes punctuation tokens.
 """
 
 import os
@@ -17,12 +18,35 @@ REPO_ROOT = os.path.dirname(SCRIPT_DIR)
 WORD_BANK_PATH = os.path.join(REPO_ROOT, 'data', 'wordbank.json')
 DEFINITIONS_PATH = os.path.join(REPO_ROOT, 'data', 'definitions.json')
 
+PUNCTUATION_TOKENS = {
+    '.': 7990,
+    ',': 7991,
+    '?': 7992,
+    '!': 7993,
+    ';': 7994,
+    ':': 7995,
+    '"': 7996,
+    "'": 7997,
+    '-': 7998,
+    '(': 7999,
+}
+
 
 def load_wordbank():
     if os.path.exists(WORD_BANK_PATH):
         try:
             with open(WORD_BANK_PATH, 'r') as f:
-                return json.load(f)
+                bank = json.load(f)
+                # Ensure punctuation tokens exist
+                for punct, tid in PUNCTUATION_TOKENS.items():
+                    if punct not in bank['words']:
+                        bank['words'][punct] = {
+                            'token_id': tid,
+                            'first_seen': 'punctuation',
+                            'has_definition': False,
+                            'definition': ''
+                        }
+                return bank
         except (json.JSONDecodeError, UnicodeDecodeError):
             print("   Wordbank corrupted, backing up and starting fresh")
             backup = WORD_BANK_PATH + '.corrupted'
@@ -30,8 +54,17 @@ def load_wordbank():
                 os.rename(WORD_BANK_PATH, backup)
             except:
                 pass
-            return {"words": {}, "total_articles": 0, "total_words": 0}
-    return {"words": {}, "total_articles": 0, "total_words": 0}
+    
+    # Create fresh wordbank with punctuation
+    bank = {"words": {}, "total_articles": 0, "total_words": 0}
+    for punct, tid in PUNCTUATION_TOKENS.items():
+        bank['words'][punct] = {
+            'token_id': tid,
+            'first_seen': 'punctuation',
+            'has_definition': False,
+            'definition': ''
+        }
+    return bank
 
 
 def save_wordbank(bank):
@@ -58,13 +91,18 @@ def save_definitions(defs):
 
 
 def extract_words(text):
-    """Extract clean English words from text"""
-    text = re.sub(r'[^a-zA-Z\s]', ' ', text)
+    """Extract clean English words from text, keeping punctuation"""
+    text = re.sub(r'[^a-zA-Z\s.,!?;:\'\"-]', '', text)
     words = []
     for w in text.split():
         w = w.lower().strip()
-        if len(w) > 2 and w.isalpha():
+        if len(w) > 0:
             words.append(w)
+    
+    # Also extract standalone punctuation
+    for punct in PUNCTUATION_TOKENS.keys():
+        words.append(punct)
+    
     return list(set(words))
 
 
@@ -102,9 +140,12 @@ def lookup_definition(word):
 
 def get_token_id(word, vocab_size=8000):
     """Map a word to a token ID using stable hash"""
+    if word in PUNCTUATION_TOKENS:
+        return PUNCTUATION_TOKENS[word]
+    
     import hashlib
     hash_val = int(hashlib.md5(word.encode()).hexdigest(), 16)
-    return 3 + (hash_val % (vocab_size - 3))
+    return 3 + (hash_val % (vocab_size - 10))
 
 
 def process_article(text, title, bank, definitions, article_num):
@@ -116,20 +157,36 @@ def process_article(text, title, bank, definitions, article_num):
     skipped = 0
     
     for word in all_words:
-        if word not in bank['words']:
-            token_id = get_token_id(word)
-            bank['words'][word] = {
+        # Clean punctuation from word
+        clean_word = word.strip('.,!?;:"\'()-')
+        if not clean_word:
+            # It's pure punctuation
+            if word in PUNCTUATION_TOKENS and word not in bank['words']:
+                bank['words'][word] = {
+                    'token_id': PUNCTUATION_TOKENS[word],
+                    'first_seen': title,
+                    'has_definition': False,
+                    'definition': ''
+                }
+                new_words.append(word)
+            continue
+        
+        if clean_word not in bank['words']:
+            token_id = get_token_id(clean_word)
+            bank['words'][clean_word] = {
                 'token_id': token_id,
                 'first_seen': title,
                 'has_definition': False,
                 'definition': ''
             }
-            new_words.append(word)
+            new_words.append(clean_word)
         else:
             skipped += 1
     
     defined_count = 0
     for word in new_words[:20]:
+        if word in PUNCTUATION_TOKENS:
+            continue
         definition = lookup_definition(word)
         if definition:
             bank['words'][word]['has_definition'] = True
