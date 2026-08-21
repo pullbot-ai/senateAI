@@ -2,163 +2,43 @@
   "difficulty": 5,
   "examples": [
     {
-      "question": "What is a key concept in political_science?",
-      "good_answer": "political_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "political_science is only about memorizing facts.",
+      "question": "What is a key concept in poetry?",
+      "good_answer": "poetry involves fundamental principles and their practical applications.",
+      "flawed_answer": "poetry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of political_science.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of poetry.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in political_science?",
-      "good_answer": "political_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "political_science is only about memorizing facts.",
+      "question": "What is a key concept in poetry?",
+      "good_answer": "poetry involves fundamental principles and their practical applications.",
+      "flawed_answer": "poetry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of political_science.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of poetry.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in political_science?",
-      "good_answer": "political_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "political_science is only about memorizing facts.",
+      "question": "What is a key concept in poetry?",
+      "good_answer": "poetry involves fundamental principles and their practical applications.",
+      "flawed_answer": "poetry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of political_science.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of poetry.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in political_science?",
-      "good_answer": "political_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "political_science is only about memorizing facts.",
+      "question": "What is a key concept in poetry?",
+      "good_answer": "poetry involves fundamental principles and their practical applications.",
+      "flawed_answer": "poetry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of political_science.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of poetry.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in political_science?",
-      "good_answer": "political_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "political_science is only about memorizing facts.",
+      "question": "What is a key concept in poetry?",
+      "good_answer": "poetry involves fundamental principles and their practical applications.",
+      "flawed_answer": "poetry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of political_science.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in ethics?",
-      "good_answer": "ethics involves fundamental principles and their practical applications.",
-      "flawed_answer": "ethics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in ethics?",
-      "good_answer": "ethics involves fundamental principles and their practical applications.",
-      "flawed_answer": "ethics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in ethics?",
-      "good_answer": "ethics involves fundamental principles and their practical applications.",
-      "flawed_answer": "ethics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in ethics?",
-      "good_answer": "ethics involves fundamental principles and their practical applications.",
-      "flawed_answer": "ethics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in ethics?",
-      "good_answer": "ethics involves fundamental principles and their practical applications.",
-      "flawed_answer": "ethics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in astronomy?",
-      "good_answer": "astronomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "astronomy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in astronomy?",
-      "good_answer": "astronomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "astronomy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in astronomy?",
-      "good_answer": "astronomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "astronomy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in astronomy?",
-      "good_answer": "astronomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "astronomy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in astronomy?",
-      "good_answer": "astronomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "astronomy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in physics?",
-      "good_answer": "physics involves fundamental principles and their practical applications.",
-      "flawed_answer": "physics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in physics?",
-      "good_answer": "physics involves fundamental principles and their practical applications.",
-      "flawed_answer": "physics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in physics?",
-      "good_answer": "physics involves fundamental principles and their practical applications.",
-      "flawed_answer": "physics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in physics?",
-      "good_answer": "physics involves fundamental principles and their practical applications.",
-      "flawed_answer": "physics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in physics?",
-      "good_answer": "physics involves fundamental principles and their practical applications.",
-      "flawed_answer": "physics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of poetry.",
       "difficulty": 5
     },
     {
@@ -202,46 +82,6 @@
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in epistemology?",
-      "good_answer": "epistemology involves fundamental principles and their practical applications.",
-      "flawed_answer": "epistemology is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of epistemology.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in epistemology?",
-      "good_answer": "epistemology involves fundamental principles and their practical applications.",
-      "flawed_answer": "epistemology is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of epistemology.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in epistemology?",
-      "good_answer": "epistemology involves fundamental principles and their practical applications.",
-      "flawed_answer": "epistemology is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of epistemology.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in epistemology?",
-      "good_answer": "epistemology involves fundamental principles and their practical applications.",
-      "flawed_answer": "epistemology is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of epistemology.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in epistemology?",
-      "good_answer": "epistemology involves fundamental principles and their practical applications.",
-      "flawed_answer": "epistemology is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of epistemology.",
-      "difficulty": 5
-    },
-    {
       "question": "What is a key concept in organic_chemistry?",
       "good_answer": "organic_chemistry involves fundamental principles and their practical applications.",
       "flawed_answer": "organic_chemistry is only about memorizing facts.",
@@ -282,243 +122,203 @@
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in statistics?",
-      "good_answer": "statistics involves fundamental principles and their practical applications.",
-      "flawed_answer": "statistics is only about memorizing facts.",
+      "question": "What is a key concept in chemistry?",
+      "good_answer": "chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "chemistry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of statistics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in statistics?",
-      "good_answer": "statistics involves fundamental principles and their practical applications.",
-      "flawed_answer": "statistics is only about memorizing facts.",
+      "question": "What is a key concept in chemistry?",
+      "good_answer": "chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "chemistry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of statistics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in statistics?",
-      "good_answer": "statistics involves fundamental principles and their practical applications.",
-      "flawed_answer": "statistics is only about memorizing facts.",
+      "question": "What is a key concept in chemistry?",
+      "good_answer": "chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "chemistry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of statistics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in statistics?",
-      "good_answer": "statistics involves fundamental principles and their practical applications.",
-      "flawed_answer": "statistics is only about memorizing facts.",
+      "question": "What is a key concept in chemistry?",
+      "good_answer": "chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "chemistry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of statistics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in statistics?",
-      "good_answer": "statistics involves fundamental principles and their practical applications.",
-      "flawed_answer": "statistics is only about memorizing facts.",
+      "question": "What is a key concept in chemistry?",
+      "good_answer": "chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "chemistry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of statistics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in economics?",
-      "good_answer": "economics involves fundamental principles and their practical applications.",
-      "flawed_answer": "economics is only about memorizing facts.",
+      "question": "What is a key concept in neuroscience?",
+      "good_answer": "neuroscience involves fundamental principles and their practical applications.",
+      "flawed_answer": "neuroscience is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of economics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of neuroscience.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in economics?",
-      "good_answer": "economics involves fundamental principles and their practical applications.",
-      "flawed_answer": "economics is only about memorizing facts.",
+      "question": "What is a key concept in neuroscience?",
+      "good_answer": "neuroscience involves fundamental principles and their practical applications.",
+      "flawed_answer": "neuroscience is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of economics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of neuroscience.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in economics?",
-      "good_answer": "economics involves fundamental principles and their practical applications.",
-      "flawed_answer": "economics is only about memorizing facts.",
+      "question": "What is a key concept in neuroscience?",
+      "good_answer": "neuroscience involves fundamental principles and their practical applications.",
+      "flawed_answer": "neuroscience is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of economics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of neuroscience.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in economics?",
-      "good_answer": "economics involves fundamental principles and their practical applications.",
-      "flawed_answer": "economics is only about memorizing facts.",
+      "question": "What is a key concept in neuroscience?",
+      "good_answer": "neuroscience involves fundamental principles and their practical applications.",
+      "flawed_answer": "neuroscience is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of economics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of neuroscience.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in economics?",
-      "good_answer": "economics involves fundamental principles and their practical applications.",
-      "flawed_answer": "economics is only about memorizing facts.",
+      "question": "What is a key concept in neuroscience?",
+      "good_answer": "neuroscience involves fundamental principles and their practical applications.",
+      "flawed_answer": "neuroscience is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of economics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of neuroscience.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in linguistics?",
-      "good_answer": "linguistics involves fundamental principles and their practical applications.",
-      "flawed_answer": "linguistics is only about memorizing facts.",
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of linguistics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in linguistics?",
-      "good_answer": "linguistics involves fundamental principles and their practical applications.",
-      "flawed_answer": "linguistics is only about memorizing facts.",
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of linguistics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in linguistics?",
-      "good_answer": "linguistics involves fundamental principles and their practical applications.",
-      "flawed_answer": "linguistics is only about memorizing facts.",
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of linguistics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in linguistics?",
-      "good_answer": "linguistics involves fundamental principles and their practical applications.",
-      "flawed_answer": "linguistics is only about memorizing facts.",
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of linguistics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in linguistics?",
-      "good_answer": "linguistics involves fundamental principles and their practical applications.",
-      "flawed_answer": "linguistics is only about memorizing facts.",
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of linguistics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in geography?",
-      "good_answer": "geography involves fundamental principles and their practical applications.",
-      "flawed_answer": "geography is only about memorizing facts.",
+      "question": "What is a key concept in political_science?",
+      "good_answer": "political_science involves fundamental principles and their practical applications.",
+      "flawed_answer": "political_science is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of geography.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of political_science.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in geography?",
-      "good_answer": "geography involves fundamental principles and their practical applications.",
-      "flawed_answer": "geography is only about memorizing facts.",
+      "question": "What is a key concept in political_science?",
+      "good_answer": "political_science involves fundamental principles and their practical applications.",
+      "flawed_answer": "political_science is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of geography.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of political_science.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in geography?",
-      "good_answer": "geography involves fundamental principles and their practical applications.",
-      "flawed_answer": "geography is only about memorizing facts.",
+      "question": "What is a key concept in political_science?",
+      "good_answer": "political_science involves fundamental principles and their practical applications.",
+      "flawed_answer": "political_science is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of geography.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of political_science.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in geography?",
-      "good_answer": "geography involves fundamental principles and their practical applications.",
-      "flawed_answer": "geography is only about memorizing facts.",
+      "question": "What is a key concept in political_science?",
+      "good_answer": "political_science involves fundamental principles and their practical applications.",
+      "flawed_answer": "political_science is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of geography.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of political_science.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in geography?",
-      "good_answer": "geography involves fundamental principles and their practical applications.",
-      "flawed_answer": "geography is only about memorizing facts.",
+      "question": "What is a key concept in political_science?",
+      "good_answer": "political_science involves fundamental principles and their practical applications.",
+      "flawed_answer": "political_science is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of geography.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of political_science.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in networking?",
-      "good_answer": "networking involves fundamental principles and their practical applications.",
-      "flawed_answer": "networking is only about memorizing facts.",
+      "question": "What is a key concept in engineering?",
+      "good_answer": "engineering involves fundamental principles and their practical applications.",
+      "flawed_answer": "engineering is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of networking.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of engineering.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in networking?",
-      "good_answer": "networking involves fundamental principles and their practical applications.",
-      "flawed_answer": "networking is only about memorizing facts.",
+      "question": "What is a key concept in engineering?",
+      "good_answer": "engineering involves fundamental principles and their practical applications.",
+      "flawed_answer": "engineering is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of networking.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of engineering.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in networking?",
-      "good_answer": "networking involves fundamental principles and their practical applications.",
-      "flawed_answer": "networking is only about memorizing facts.",
+      "question": "What is a key concept in engineering?",
+      "good_answer": "engineering involves fundamental principles and their practical applications.",
+      "flawed_answer": "engineering is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of networking.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of engineering.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in networking?",
-      "good_answer": "networking involves fundamental principles and their practical applications.",
-      "flawed_answer": "networking is only about memorizing facts.",
+      "question": "What is a key concept in engineering?",
+      "good_answer": "engineering involves fundamental principles and their practical applications.",
+      "flawed_answer": "engineering is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of networking.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of engineering.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in networking?",
-      "good_answer": "networking involves fundamental principles and their practical applications.",
-      "flawed_answer": "networking is only about memorizing facts.",
+      "question": "What is a key concept in engineering?",
+      "good_answer": "engineering involves fundamental principles and their practical applications.",
+      "flawed_answer": "engineering is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of networking.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in algebra?",
-      "good_answer": "algebra involves fundamental principles and their practical applications.",
-      "flawed_answer": "algebra is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of algebra.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in algebra?",
-      "good_answer": "algebra involves fundamental principles and their practical applications.",
-      "flawed_answer": "algebra is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of algebra.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in algebra?",
-      "good_answer": "algebra involves fundamental principles and their practical applications.",
-      "flawed_answer": "algebra is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of algebra.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in algebra?",
-      "good_answer": "algebra involves fundamental principles and their practical applications.",
-      "flawed_answer": "algebra is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of algebra.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in algebra?",
-      "good_answer": "algebra involves fundamental principles and their practical applications.",
-      "flawed_answer": "algebra is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of algebra.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of engineering.",
       "difficulty": 5
     },
     {
@@ -562,65 +362,250 @@
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
+      "question": "What is a key concept in thermodynamics?",
+      "good_answer": "thermodynamics involves fundamental principles and their practical applications.",
+      "flawed_answer": "thermodynamics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of thermodynamics.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
+      "question": "What is a key concept in thermodynamics?",
+      "good_answer": "thermodynamics involves fundamental principles and their practical applications.",
+      "flawed_answer": "thermodynamics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of thermodynamics.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
+      "question": "What is a key concept in thermodynamics?",
+      "good_answer": "thermodynamics involves fundamental principles and their practical applications.",
+      "flawed_answer": "thermodynamics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of thermodynamics.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
+      "question": "What is a key concept in thermodynamics?",
+      "good_answer": "thermodynamics involves fundamental principles and their practical applications.",
+      "flawed_answer": "thermodynamics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of thermodynamics.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
+      "question": "What is a key concept in thermodynamics?",
+      "good_answer": "thermodynamics involves fundamental principles and their practical applications.",
+      "flawed_answer": "thermodynamics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of thermodynamics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in medieval_history?",
+      "good_answer": "medieval_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "medieval_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of medieval_history.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in medieval_history?",
+      "good_answer": "medieval_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "medieval_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of medieval_history.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in medieval_history?",
+      "good_answer": "medieval_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "medieval_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of medieval_history.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in medieval_history?",
+      "good_answer": "medieval_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "medieval_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of medieval_history.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in medieval_history?",
+      "good_answer": "medieval_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "medieval_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of medieval_history.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in astrophysics?",
+      "good_answer": "astrophysics involves fundamental principles and their practical applications.",
+      "flawed_answer": "astrophysics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of astrophysics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in astrophysics?",
+      "good_answer": "astrophysics involves fundamental principles and their practical applications.",
+      "flawed_answer": "astrophysics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of astrophysics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in astrophysics?",
+      "good_answer": "astrophysics involves fundamental principles and their practical applications.",
+      "flawed_answer": "astrophysics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of astrophysics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in astrophysics?",
+      "good_answer": "astrophysics involves fundamental principles and their practical applications.",
+      "flawed_answer": "astrophysics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of astrophysics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in astrophysics?",
+      "good_answer": "astrophysics involves fundamental principles and their practical applications.",
+      "flawed_answer": "astrophysics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of astrophysics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in statistics?",
+      "good_answer": "statistics involves fundamental principles and their practical applications.",
+      "flawed_answer": "statistics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of statistics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in statistics?",
+      "good_answer": "statistics involves fundamental principles and their practical applications.",
+      "flawed_answer": "statistics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of statistics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in statistics?",
+      "good_answer": "statistics involves fundamental principles and their practical applications.",
+      "flawed_answer": "statistics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of statistics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in statistics?",
+      "good_answer": "statistics involves fundamental principles and their practical applications.",
+      "flawed_answer": "statistics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of statistics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in statistics?",
+      "good_answer": "statistics involves fundamental principles and their practical applications.",
+      "flawed_answer": "statistics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of statistics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in law?",
+      "good_answer": "law involves fundamental principles and their practical applications.",
+      "flawed_answer": "law is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of law.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in law?",
+      "good_answer": "law involves fundamental principles and their practical applications.",
+      "flawed_answer": "law is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of law.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in law?",
+      "good_answer": "law involves fundamental principles and their practical applications.",
+      "flawed_answer": "law is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of law.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in law?",
+      "good_answer": "law involves fundamental principles and their practical applications.",
+      "flawed_answer": "law is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of law.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in law?",
+      "good_answer": "law involves fundamental principles and their practical applications.",
+      "flawed_answer": "law is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of law.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in microeconomics?",
+      "good_answer": "microeconomics involves fundamental principles and their practical applications.",
+      "flawed_answer": "microeconomics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of microeconomics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in microeconomics?",
+      "good_answer": "microeconomics involves fundamental principles and their practical applications.",
+      "flawed_answer": "microeconomics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of microeconomics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in microeconomics?",
+      "good_answer": "microeconomics involves fundamental principles and their practical applications.",
+      "flawed_answer": "microeconomics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of microeconomics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in microeconomics?",
+      "good_answer": "microeconomics involves fundamental principles and their practical applications.",
+      "flawed_answer": "microeconomics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of microeconomics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in microeconomics?",
+      "good_answer": "microeconomics involves fundamental principles and their practical applications.",
+      "flawed_answer": "microeconomics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of microeconomics.",
       "difficulty": 5
     }
   ],
   "questions": [
     {
-      "question": "Explain the key concepts of political_science.",
-      "topic": "political_science",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of ethics.",
-      "topic": "ethics",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of astronomy.",
-      "topic": "astronomy",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of physics.",
-      "topic": "physics",
+      "question": "Explain the key concepts of poetry.",
+      "topic": "poetry",
       "difficulty": 5
     },
     {
@@ -629,43 +614,33 @@
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of epistemology.",
-      "topic": "epistemology",
-      "difficulty": 5
-    },
-    {
       "question": "Explain the key concepts of organic_chemistry.",
       "topic": "organic_chemistry",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of statistics.",
-      "topic": "statistics",
+      "question": "Explain the key concepts of chemistry.",
+      "topic": "chemistry",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of economics.",
-      "topic": "economics",
+      "question": "Explain the key concepts of neuroscience.",
+      "topic": "neuroscience",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of linguistics.",
-      "topic": "linguistics",
+      "question": "Explain the key concepts of music_theory.",
+      "topic": "music_theory",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of geography.",
-      "topic": "geography",
+      "question": "Explain the key concepts of political_science.",
+      "topic": "political_science",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of networking.",
-      "topic": "networking",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the key concepts of algebra.",
-      "topic": "algebra",
+      "question": "Explain the key concepts of engineering.",
+      "topic": "engineering",
       "difficulty": 5
     },
     {
@@ -674,8 +649,33 @@
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of computer_science.",
-      "topic": "computer_science",
+      "question": "Explain the key concepts of thermodynamics.",
+      "topic": "thermodynamics",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of medieval_history.",
+      "topic": "medieval_history",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of astrophysics.",
+      "topic": "astrophysics",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of statistics.",
+      "topic": "statistics",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of law.",
+      "topic": "law",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of microeconomics.",
+      "topic": "microeconomics",
       "difficulty": 5
     }
   ],
