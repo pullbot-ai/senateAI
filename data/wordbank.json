@@ -104111,8 +104111,866 @@
       "first_seen": "Atsushi Sato",
       "has_definition": false,
       "definition": ""
+    },
+    "cthulhu": {
+      "token_id": 1145,
+      "first_seen": "Cthulhu by Gaslight",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gamer": {
+      "token_id": 5321,
+      "first_seen": "Cthulhu by Gaslight",
+      "has_definition": true,
+      "definition": "A person who plays any kind of game."
+    },
+    "gaslight": {
+      "token_id": 3388,
+      "first_seen": "Cthulhu by Gaslight",
+      "has_definition": true,
+      "definition": "A lamp which operates by burning piped illuminating gas."
+    },
+    "periodicals": {
+      "token_id": 66,
+      "first_seen": "Cthulhu by Gaslight",
+      "has_definition": false,
+      "definition": ""
+    },
+    "casus": {
+      "token_id": 6232,
+      "first_seen": "Cthulhu by Gaslight",
+      "has_definition": false,
+      "definition": ""
+    },
+    "setting": {
+      "token_id": 968,
+      "first_seen": "Cthulhu by Gaslight",
+      "has_definition": true,
+      "definition": "To put (something) down, to rest."
+    },
+    "dwarf": {
+      "token_id": 560,
+      "first_seen": "Cthulhu by Gaslight",
+      "has_definition": true,
+      "definition": "Any member of a race of beings from (especially Scandinavian and other Germanic) folklore, usually depicted as having some sort of supernatural powers and being skilled in crafting and metalworking, often as short with long beards, and sometimes as clashing with elves."
+    },
+    "tabletop": {
+      "token_id": 4867,
+      "first_seen": "Cthulhu by Gaslight",
+      "has_definition": true,
+      "definition": "(furniture) the flat, horizontal surface of a table"
+    },
+    "dragon": {
+      "token_id": 666,
+      "first_seen": "Cthulhu by Gaslight",
+      "has_definition": true,
+      "definition": "A legendary serpentine or reptilian creature."
+    },
+    "belli": {
+      "token_id": 3644,
+      "first_seen": "Cthulhu by Gaslight",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barton": {
+      "token_id": 7608,
+      "first_seen": "Cthulhu by Gaslight",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chaosium": {
+      "token_id": 7207,
+      "first_seen": "Cthulhu by Gaslight",
+      "has_definition": false,
+      "definition": ""
+    },
+    "montoya": {
+      "token_id": 6842,
+      "first_seen": "Andr\u00e9s Montoya",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chicano": {
+      "token_id": 226,
+      "first_seen": "Andr\u00e9s Montoya",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gated": {
+      "token_id": 6014,
+      "first_seen": "Copeton Dam",
+      "has_definition": true,
+      "definition": "To keep something inside by means of a closed gate."
+    },
+    "hydro": {
+      "token_id": 2230,
+      "first_seen": "Copeton Dam",
+      "has_definition": true,
+      "definition": "Hydroelectric power"
+    },
+    "impounded": {
+      "token_id": 7656,
+      "first_seen": "Copeton Dam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "embankment": {
+      "token_id": 1854,
+      "first_seen": "Copeton Dam",
+      "has_definition": true,
+      "definition": "A long mound of earth, stone, or similar material, usually built for purposes such as to hold back or store water, for protection from weather or enemies, or to support a road or railway."
+    },
+    "bingara": {
+      "token_id": 5145,
+      "first_seen": "Copeton Dam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "copeton": {
+      "token_id": 4309,
+      "first_seen": "Copeton Dam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gwydir": {
+      "token_id": 6337,
+      "first_seen": "Copeton Dam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chute": {
+      "token_id": 6198,
+      "first_seen": "Copeton Dam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spillway": {
+      "token_id": 2037,
+      "first_seen": "Copeton Dam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pico": {
+      "token_id": 6487,
+      "first_seen": "Teatro Nuovo (Mirandola)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nuovo": {
+      "token_id": 1060,
+      "first_seen": "Teatro Nuovo (Mirandola)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ottavio": {
+      "token_id": 6134,
+      "first_seen": "Teatro Nuovo (Mirandola)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mirandola": {
+      "token_id": 7917,
+      "first_seen": "Teatro Nuovo (Mirandola)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "modena": {
+      "token_id": 6078,
+      "first_seen": "Teatro Nuovo (Mirandola)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ekeno": {
+      "token_id": 3106,
+      "first_seen": "Fatma Ekeno\u011flu",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cerrahpa": {
+      "token_id": 7781,
+      "first_seen": "Fatma Ekeno\u011flu",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fatma": {
+      "token_id": 870,
+      "first_seen": "Fatma Ekeno\u011flu",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pursuant": {
+      "token_id": 5837,
+      "first_seen": "Fatma Ekeno\u011flu",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kesi": {
+      "token_id": 15,
+      "first_seen": "Rudimental",
+      "has_definition": false,
+      "definition": ""
+    },
+    "butter": {
+      "token_id": 7906,
+      "first_seen": "Rudimental",
+      "has_definition": true,
+      "definition": "A soft, fatty foodstuff made by churning the cream of milk (generally cow's milk)."
+    },
+    "rudimental": {
+      "token_id": 584,
+      "first_seen": "Rudimental",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dryden": {
+      "token_id": 1370,
+      "first_seen": "Rudimental",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aggett": {
+      "token_id": 3109,
+      "first_seen": "Rudimental",
+      "has_definition": false,
+      "definition": ""
+    },
+    "drum": {
+      "token_id": 1861,
+      "first_seen": "Rudimental",
+      "has_definition": true,
+      "definition": "A percussive musical instrument spanned with a thin covering on at least one end for striking, forming an acoustic chamber, affecting what materials are used to make it; a membranophone."
+    },
+    "asylum": {
+      "token_id": 7505,
+      "first_seen": "Rudimental",
+      "has_definition": true,
+      "definition": "A place of safety."
+    },
+    "locksmith": {
+      "token_id": 2620,
+      "first_seen": "Rudimental",
+      "has_definition": true,
+      "definition": "One who practices locksmithing"
+    },
+    "thermistis": {
+      "token_id": 942,
+      "first_seen": "Thermistis croceocincta",
+      "has_definition": false,
+      "definition": ""
+    },
+    "croceocincta": {
+      "token_id": 578,
+      "first_seen": "Thermistis croceocincta",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lamia": {
+      "token_id": 5439,
+      "first_seen": "Thermistis croceocincta",
+      "has_definition": false,
+      "definition": ""
+    },
+    "saunders": {
+      "token_id": 6798,
+      "first_seen": "Thermistis croceocincta",
+      "has_definition": true,
+      "definition": "Sandalwood."
+    },
+    "falcatus": {
+      "token_id": 3069,
+      "first_seen": "Polystoechotites",
+      "has_definition": false,
+      "definition": ""
+    },
+    "segregate": {
+      "token_id": 6202,
+      "first_seen": "Polystoechotites",
+      "has_definition": true,
+      "definition": "To separate, especially by social policies that directly or indirectly keep races or ethnic groups apart."
+    },
+    "barksdalae": {
+      "token_id": 2454,
+      "first_seen": "Polystoechotites",
+      "has_definition": false,
+      "definition": ""
+    },
+    "piperatus": {
+      "token_id": 985,
+      "first_seen": "Polystoechotites",
+      "has_definition": false,
+      "definition": ""
+    },
+    "parataxon": {
+      "token_id": 6066,
+      "first_seen": "Polystoechotites",
+      "has_definition": false,
+      "definition": ""
+    },
+    "uncertain": {
+      "token_id": 4844,
+      "first_seen": "Polystoechotites",
+      "has_definition": true,
+      "definition": "(with \"the\") Something uncertain."
+    },
+    "lacewings": {
+      "token_id": 1079,
+      "first_seen": "Polystoechotites",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lacewing": {
+      "token_id": 5065,
+      "first_seen": "Polystoechotites",
+      "has_definition": true,
+      "definition": "Any of a number of gauzy-winged insects of certain families within the order Neuroptera."
+    },
+    "polystoechotites": {
+      "token_id": 1311,
+      "first_seen": "Polystoechotites",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ithonidae": {
+      "token_id": 5101,
+      "first_seen": "Polystoechotites",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lewisi": {
+      "token_id": 1311,
+      "first_seen": "Polystoechotites",
+      "has_definition": false,
+      "definition": ""
+    },
+    "polystechotid": {
+      "token_id": 3914,
+      "first_seen": "Polystoechotites",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ica": {
+      "token_id": 7529,
+      "first_seen": "Tela\u0161\u0107ica",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dugi": {
+      "token_id": 5401,
+      "first_seen": "Tela\u0161\u0107ica",
+      "has_definition": false,
+      "definition": ""
+    },
+    "otok": {
+      "token_id": 2261,
+      "first_seen": "Tela\u0161\u0107ica",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tela": {
+      "token_id": 207,
+      "first_seen": "Tela\u0161\u0107ica",
+      "has_definition": false,
+      "definition": ""
+    },
+    "adriatic": {
+      "token_id": 3855,
+      "first_seen": "Tela\u0161\u0107ica",
+      "has_definition": false,
+      "definition": ""
+    },
+    "comcast": {
+      "token_id": 4373,
+      "first_seen": "Sky Witness",
+      "has_definition": false,
+      "definition": ""
+    },
+    "procedural": {
+      "token_id": 6570,
+      "first_seen": "Sky Witness",
+      "has_definition": true,
+      "definition": "A type of literature, film, or television program involving a sequence of technical detail."
+    },
+    "demographic": {
+      "token_id": 2967,
+      "first_seen": "Sky Witness",
+      "has_definition": true,
+      "definition": "(chiefly in plural) A demographic criterion: a characteristic used to classify people for statistical purposes, such as age, race, or gender."
+    },
+    "pohjanpystykorva": {
+      "token_id": 5735,
+      "first_seen": "Norrbottenspets",
+      "has_definition": false,
+      "definition": ""
+    },
+    "norrbottenspets": {
+      "token_id": 5173,
+      "first_seen": "Norrbottenspets",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hunting": {
+      "token_id": 2620,
+      "first_seen": "Norrbottenspets",
+      "has_definition": true,
+      "definition": "The act of finding and killing a wild animal, either for sport or with the intention of using its parts to make food, clothes, etc."
+    },
+    "norrbottenspitz": {
+      "token_id": 864,
+      "first_seen": "Norrbottenspets",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spitz": {
+      "token_id": 6171,
+      "first_seen": "Norrbottenspets",
+      "has_definition": true,
+      "definition": "Any of several Nordic breeds of dog such as the Pomeranian or Samoyed"
+    },
+    "scales": {
+      "token_id": 5931,
+      "first_seen": "Earth System Governance Project",
+      "has_definition": true,
+      "definition": "A ladder; a series of steps; a means of ascending."
+    },
+    "mobilizes": {
+      "token_id": 5959,
+      "first_seen": "Earth System Governance Project",
+      "has_definition": true,
+      "definition": "To make something mobile."
+    },
+    "researching": {
+      "token_id": 4498,
+      "first_seen": "Earth System Governance Project",
+      "has_definition": true,
+      "definition": "To search or examine with continued care; to seek diligently."
+    },
+    "advance": {
+      "token_id": 2597,
+      "first_seen": "Earth System Governance Project",
+      "has_definition": true,
+      "definition": "A forward move; improvement or progression."
+    },
+    "humanities": {
+      "token_id": 1458,
+      "first_seen": "Earth System Governance Project",
+      "has_definition": true,
+      "definition": "The study of Ancient Greek and Latin, their literature, history, etc., sometimes inclusive of the study of the ancient Mediterranean generally."
+    },
+    "raskova": {
+      "token_id": 325,
+      "first_seen": "Valentin Markov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vasilevich": {
+      "token_id": 4586,
+      "first_seen": "Valentin Markov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "valentin": {
+      "token_id": 7192,
+      "first_seen": "Valentin Markov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "markov": {
+      "token_id": 6247,
+      "first_seen": "Valentin Markov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "withington": {
+      "token_id": 2739,
+      "first_seen": "Anne Withington",
+      "has_definition": false,
+      "definition": ""
+    },
+    "toppan": {
+      "token_id": 2449,
+      "first_seen": "Anne Withington",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hague": {
+      "token_id": 2325,
+      "first_seen": "Anne Withington",
+      "has_definition": false,
+      "definition": ""
+    },
+    "delegations": {
+      "token_id": 6434,
+      "first_seen": "Anne Withington",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mage": {
+      "token_id": 656,
+      "first_seen": "The Book of Crafts",
+      "has_definition": true,
+      "definition": "A magician, wizard or sorcerer."
+    },
+    "ascension": {
+      "token_id": 6409,
+      "first_seen": "The Book of Crafts",
+      "has_definition": true,
+      "definition": "The act of ascending; an ascent."
+    },
+    "crafts": {
+      "token_id": 3248,
+      "first_seen": "The Book of Crafts",
+      "has_definition": true,
+      "definition": "Strength; power; might; force ."
+    },
+    "vernet": {
+      "token_id": 142,
+      "first_seen": "The Battle of Taillebourg, 21 July 1242",
+      "has_definition": false,
+      "definition": ""
+    },
+    "delacroix": {
+      "token_id": 4842,
+      "first_seen": "The Battle of Taillebourg, 21 July 1242",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bouvines": {
+      "token_id": 6600,
+      "first_seen": "The Battle of Taillebourg, 21 July 1242",
+      "has_definition": false,
+      "definition": ""
+    },
+    "larivi": {
+      "token_id": 126,
+      "first_seen": "The Battle of Taillebourg, 21 July 1242",
+      "has_definition": false,
+      "definition": ""
+    },
+    "taillebourg": {
+      "token_id": 2438,
+      "first_seen": "The Battle of Taillebourg, 21 July 1242",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mons": {
+      "token_id": 920,
+      "first_seen": "The Battle of Taillebourg, 21 July 1242",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hangs": {
+      "token_id": 4815,
+      "first_seen": "The Battle of Taillebourg, 21 July 1242",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nowhere": {
+      "token_id": 6861,
+      "first_seen": "East Jesus Nowhere",
+      "has_definition": true,
+      "definition": "No particular place, noplace."
+    },
+    "prospect": {
+      "token_id": 151,
+      "first_seen": "St. Anthony of Padua Church (Bronx)",
+      "has_definition": true,
+      "definition": "The region which the eye overlooks at one time; view; scene; outlook."
+    },
+    "morrisania": {
+      "token_id": 7780,
+      "first_seen": "St. Anthony of Padua Church (Bronx)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hickman": {
+      "token_id": 4049,
+      "first_seen": "John Hickman (musician)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "string": {
+      "token_id": 5078,
+      "first_seen": "John Hickman (musician)",
+      "has_definition": true,
+      "definition": "A building, wing or dependency set apart and adapted for lodging and feeding (and training) animals with hoofs, especially horses."
+    },
+    "alberto": {
+      "token_id": 7603,
+      "first_seen": "Alejandro Borrajo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "armando": {
+      "token_id": 4348,
+      "first_seen": "Alejandro Borrajo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kidnapped": {
+      "token_id": 4435,
+      "first_seen": "Alejandro Borrajo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "intervene": {
+      "token_id": 4398,
+      "first_seen": "Alejandro Borrajo",
+      "has_definition": true,
+      "definition": "To become involved in a situation, so as to alter or prevent an action."
+    },
+    "borrajo": {
+      "token_id": 1538,
+      "first_seen": "Alejandro Borrajo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "underside": {
+      "token_id": 1228,
+      "first_seen": "Tasmanicosa godeffroyi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "godeffroyi": {
+      "token_id": 5417,
+      "first_seen": "Tasmanicosa godeffroyi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "burrow": {
+      "token_id": 5832,
+      "first_seen": "Tasmanicosa godeffroyi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "burrows": {
+      "token_id": 7350,
+      "first_seen": "Tasmanicosa godeffroyi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tasmanicosa": {
+      "token_id": 6529,
+      "first_seen": "Tasmanicosa godeffroyi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "torchlight": {
+      "token_id": 6660,
+      "first_seen": "Tasmanicosa godeffroyi",
+      "has_definition": true,
+      "definition": "The dim light produced by a burning torch."
+    },
+    "noticed": {
+      "token_id": 7642,
+      "first_seen": "Tasmanicosa godeffroyi",
+      "has_definition": true,
+      "definition": "To remark upon; to mention."
+    },
+    "travels": {
+      "token_id": 6886,
+      "first_seen": "Tasmanicosa godeffroyi",
+      "has_definition": true,
+      "definition": "The act of traveling; passage from place to place."
+    },
+    "reflect": {
+      "token_id": 7470,
+      "first_seen": "Tasmanicosa godeffroyi",
+      "has_definition": true,
+      "definition": "To bend back (light, etc.) from a surface."
+    },
+    "daudet": {
+      "token_id": 4419,
+      "first_seen": "Confessions of a Queen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "survives": {
+      "token_id": 3340,
+      "first_seen": "Confessions of a Queen",
+      "has_definition": true,
+      "definition": "Of a person, to continue to live; to remain alive."
+    },
+    "alphonse": {
+      "token_id": 5818,
+      "first_seen": "Confessions of a Queen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "exil": {
+      "token_id": 4874,
+      "first_seen": "Confessions of a Queen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "confessions": {
+      "token_id": 7565,
+      "first_seen": "Confessions of a Queen",
+      "has_definition": true,
+      "definition": "The open admittance of having done something (especially something bad)."
+    },
+    "rois": {
+      "token_id": 7905,
+      "first_seen": "Confessions of a Queen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "conviction": {
+      "token_id": 5461,
+      "first_seen": "Execution of Robert Van Hook",
+      "has_definition": true,
+      "definition": "A firmly held belief."
+    },
+    "panic": {
+      "token_id": 5409,
+      "first_seen": "Execution of Robert Van Hook",
+      "has_definition": true,
+      "definition": "Overpowering fright, often affecting groups of people or animals."
+    },
+    "clemency": {
+      "token_id": 5246,
+      "first_seen": "Execution of Robert Van Hook",
+      "has_definition": true,
+      "definition": "The gentle or kind exercise of power; leniency, mercy; compassion in judging or punishing."
+    },
+    "injection": {
+      "token_id": 1218,
+      "first_seen": "Execution of Robert Van Hook",
+      "has_definition": true,
+      "definition": "The act of injecting, or something that is injected."
+    },
+    "bids": {
+      "token_id": 7196,
+      "first_seen": "Execution of Robert Van Hook",
+      "has_definition": true,
+      "definition": "To issue a command; to tell."
+    },
+    "execution": {
+      "token_id": 7852,
+      "first_seen": "Execution of Robert Van Hook",
+      "has_definition": true,
+      "definition": "The act, manner or style of executing (actions, maneuvers, performances)."
+    },
+    "upheld": {
+      "token_id": 2919,
+      "first_seen": "Execution of Robert Van Hook",
+      "has_definition": true,
+      "definition": "To hold up; to lift on high; to elevate."
+    },
+    "lucasville": {
+      "token_id": 5550,
+      "first_seen": "Execution of Robert Van Hook",
+      "has_definition": false,
+      "definition": ""
+    },
+    "correctional": {
+      "token_id": 881,
+      "first_seen": "Execution of Robert Van Hook",
+      "has_definition": true,
+      "definition": "Of, pertaining to, or intended for correction."
+    },
+    "kasich": {
+      "token_id": 2927,
+      "first_seen": "Execution of Robert Van Hook",
+      "has_definition": false,
+      "definition": ""
+    },
+    "executed": {
+      "token_id": 4897,
+      "first_seen": "Execution of Robert Van Hook",
+      "has_definition": true,
+      "definition": "To kill as punishment for capital crimes."
+    },
+    "lethal": {
+      "token_id": 2119,
+      "first_seen": "Execution of Robert Van Hook",
+      "has_definition": true,
+      "definition": "Any weapon that causes death."
+    },
+    "bannister": {
+      "token_id": 2194,
+      "first_seen": "Peter Bannister",
+      "has_definition": false,
+      "definition": ""
+    },
+    "steamers": {
+      "token_id": 2421,
+      "first_seen": "MY Lady of the Lake",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ullswater": {
+      "token_id": 7664,
+      "first_seen": "MY Lady of the Lake",
+      "has_definition": false,
+      "definition": ""
+    },
+    "roco": {
+      "token_id": 549,
+      "first_seen": "Raul Roco",
+      "has_definition": false,
+      "definition": ""
+    },
+    "demokratiko": {
+      "token_id": 1814,
+      "first_seen": "Raul Roco",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sagarbarria": {
+      "token_id": 261,
+      "first_seen": "Raul Roco",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arroyo": {
+      "token_id": 6455,
+      "first_seen": "Raul Roco",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aksyon": {
+      "token_id": 5268,
+      "first_seen": "Raul Roco",
+      "has_definition": false,
+      "definition": ""
+    },
+    "macapagal": {
+      "token_id": 1991,
+      "first_seen": "Raul Roco",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bullitt": {
+      "token_id": 7263,
+      "first_seen": "Kentucky's 49th House of Representatives district",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shepherdsville": {
+      "token_id": 887,
+      "first_seen": "Kentucky's 49th House of Representatives district",
+      "has_definition": false,
+      "definition": ""
+    },
+    "huff": {
+      "token_id": 5593,
+      "first_seen": "Kentucky's 49th House of Representatives district",
+      "has_definition": false,
+      "definition": ""
+    },
+    "naganna": {
+      "token_id": 519,
+      "first_seen": "Naganna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lakshman": {
+      "token_id": 647,
+      "first_seen": "Naganna",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 2308,
-  "total_words": 17352
+  "total_articles": 2338,
+  "total_words": 17495
 }
