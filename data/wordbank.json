@@ -144485,8 +144485,908 @@
       "first_seen": "Mi Cama Huele a Ti",
       "has_definition": false,
       "definition": ""
+    },
+    "neonicotinoid": {
+      "token_id": 509,
+      "first_seen": "Imidaclothiz",
+      "has_definition": true,
+      "definition": "Any of a certain class of insecticides that act on the central nervous system in a similar way to nicotine."
+    },
+    "insecticide": {
+      "token_id": 7617,
+      "first_seen": "Imidaclothiz",
+      "has_definition": true,
+      "definition": "A substance used to kill insects."
+    },
+    "chewing": {
+      "token_id": 7249,
+      "first_seen": "Imidaclothiz",
+      "has_definition": true,
+      "definition": "To crush with the teeth by repeated closing and opening of the jaws; done to food to soften it and break it down by the action of saliva before it is swallowed."
+    },
+    "crops": {
+      "token_id": 2326,
+      "first_seen": "Imidaclothiz",
+      "has_definition": true,
+      "definition": "A plant, especially a cereal, grown to be harvested as food, livestock fodder or fuel or for any other economic purpose."
+    },
+    "imidaclothiz": {
+      "token_id": 6009,
+      "first_seen": "Imidaclothiz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sucking": {
+      "token_id": 676,
+      "first_seen": "Imidaclothiz",
+      "has_definition": true,
+      "definition": "To use the mouth and lips to pull in (a liquid, especially milk from the breast)."
+    },
+    "pursue": {
+      "token_id": 3656,
+      "first_seen": "The Job (novel)",
+      "has_definition": true,
+      "definition": "To follow urgently, originally with intent to capture or harm; to chase."
+    },
+    "una": {
+      "token_id": 155,
+      "first_seen": "The Job (novel)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tuition": {
+      "token_id": 2564,
+      "first_seen": "The Job (novel)",
+      "has_definition": true,
+      "definition": "A sum of money paid for instruction (such as in a high school, boarding school, university, or college)."
+    },
+    "mar'gru": {
+      "token_id": 1211,
+      "first_seen": "Sarah Margru Kinson",
+      "has_definition": false,
+      "definition": ""
+    },
+    "amistad": {
+      "token_id": 4148,
+      "first_seen": "Sarah Margru Kinson",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ship's": {
+      "token_id": 1706,
+      "first_seen": "Sarah Margru Kinson",
+      "has_definition": false,
+      "definition": ""
+    },
+    "margru": {
+      "token_id": 1566,
+      "first_seen": "Sarah Margru Kinson",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kinson": {
+      "token_id": 2296,
+      "first_seen": "Sarah Margru Kinson",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wrkd-lp": {
+      "token_id": 1937,
+      "first_seen": "WRKD-LP",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mendon": {
+      "token_id": 4949,
+      "first_seen": "WRKD-LP",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rockford": {
+      "token_id": 7278,
+      "first_seen": "WRKD-LP",
+      "has_definition": false,
+      "definition": ""
+    },
+    "transvaal": {
+      "token_id": 3165,
+      "first_seen": "Leopards (rugby union)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oln": {
+      "token_id": 7335,
+      "first_seen": "Leopards (rugby union)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "participates": {
+      "token_id": 2517,
+      "first_seen": "Leopards (rugby union)",
+      "has_definition": true,
+      "definition": "To join in, to take part, to involve oneself (in something)."
+    },
+    "sa": {
+      "token_id": 2272,
+      "first_seen": "Leopards (rugby union)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leopards": {
+      "token_id": 2964,
+      "first_seen": "Leopards (rugby union)",
+      "has_definition": true,
+      "definition": "Panthera pardus, a large wild cat with a spotted coat native to Africa and Asia, especially the male of the species (in contrast to leopardess)."
+    },
+    "potchefstroom": {
+      "token_id": 4014,
+      "first_seen": "Leopards (rugby union)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brewery": {
+      "token_id": 6998,
+      "first_seen": "Ashland Brewing Company",
+      "has_definition": true,
+      "definition": "A building where beer is produced."
+    },
+    "brewing": {
+      "token_id": 4232,
+      "first_seen": "Ashland Brewing Company",
+      "has_definition": true,
+      "definition": "To make tea or coffee by mixing tea leaves or coffee beans with hot water."
+    },
+    "pullman-standard": {
+      "token_id": 7120,
+      "first_seen": "M-10001",
+      "has_definition": false,
+      "definition": ""
+    },
+    "traction": {
+      "token_id": 5064,
+      "first_seen": "M-10001",
+      "has_definition": true,
+      "definition": "The act of pulling something along a surface using motive power."
+    },
+    "articulatedtrucks": {
+      "token_id": 7272,
+      "first_seen": "M-10001",
+      "has_definition": false,
+      "definition": ""
+    },
+    "diesel-electric": {
+      "token_id": 3576,
+      "first_seen": "M-10001",
+      "has_definition": true,
+      "definition": "Describing a power system in which a diesel engine powers an electrical generator."
+    },
+    "electro-motive": {
+      "token_id": 4981,
+      "first_seen": "M-10001",
+      "has_definition": false,
+      "definition": ""
+    },
+    "banana": {
+      "token_id": 3204,
+      "first_seen": "M-10001",
+      "has_definition": true,
+      "definition": "An elongated curved tropical fruit that grows in bunches and has a creamy flesh and a smooth skin."
+    },
+    "up's": {
+      "token_id": 7150,
+      "first_seen": "M-10001",
+      "has_definition": false,
+      "definition": ""
+    },
+    "generator": {
+      "token_id": 6090,
+      "first_seen": "M-10001",
+      "has_definition": true,
+      "definition": "One who, or that which, generates, begets, causes, or produces."
+    },
+    "streamliner": {
+      "token_id": 2620,
+      "first_seen": "M-10001",
+      "has_definition": false,
+      "definition": ""
+    },
+    "record-setting": {
+      "token_id": 5393,
+      "first_seen": "M-10001",
+      "has_definition": false,
+      "definition": ""
+    },
+    "three-car": {
+      "token_id": 6206,
+      "first_seen": "M-10001",
+      "has_definition": false,
+      "definition": ""
+    },
+    "amphitrite-class": {
+      "token_id": 5189,
+      "first_seen": "French submarine Astr\u00e9e (1915)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "astre": {
+      "token_id": 7348,
+      "first_seen": "French submarine Astr\u00e9e (1915)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "minelayer": {
+      "token_id": 2496,
+      "first_seen": "French submarine Astr\u00e9e (1915)",
+      "has_definition": true,
+      "definition": "A ship capable of laying mines."
+    },
+    "corrado": {
+      "token_id": 5556,
+      "first_seen": "The Gun Runner (1928 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stringer": {
+      "token_id": 6183,
+      "first_seen": "The Gun Runner (1928 film)",
+      "has_definition": true,
+      "definition": "Someone who threads something; one who makes or provides strings, especially for bows."
+    },
+    "tiffany": {
+      "token_id": 4074,
+      "first_seen": "The Gun Runner (1928 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stahl's": {
+      "token_id": 3531,
+      "first_seen": "The Gun Runner (1928 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gino": {
+      "token_id": 7798,
+      "first_seen": "The Gun Runner (1928 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lindridge": {
+      "token_id": 7437,
+      "first_seen": "Lindridge House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ideford": {
+      "token_id": 5645,
+      "first_seen": "Lindridge House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ne": {
+      "token_id": 1745,
+      "first_seen": "Lindridge House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bishopsteignton": {
+      "token_id": 2522,
+      "first_seen": "Lindridge House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cowra": {
+      "token_id": 4035,
+      "first_seen": "Cowra breakout",
+      "has_definition": false,
+      "definition": ""
+    },
+    "manhunt": {
+      "token_id": 2287,
+      "first_seen": "Cowra breakout",
+      "has_definition": false,
+      "definition": ""
+    },
+    "escapees": {
+      "token_id": 1000,
+      "first_seen": "Cowra breakout",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bloodiest": {
+      "token_id": 3644,
+      "first_seen": "Cowra breakout",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pow": {
+      "token_id": 5598,
+      "first_seen": "Cowra breakout",
+      "has_definition": false,
+      "definition": ""
+    },
+    "escaped": {
+      "token_id": 7646,
+      "first_seen": "Cowra breakout",
+      "has_definition": false,
+      "definition": ""
+    },
+    "re-captured": {
+      "token_id": 549,
+      "first_seen": "Cowra breakout",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lehigh": {
+      "token_id": 835,
+      "first_seen": "Little Lehigh Creek",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tainan": {
+      "token_id": 5155,
+      "first_seen": "Tainan Historical Capital International Half Marathon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "preparing": {
+      "token_id": 1979,
+      "first_seen": "Tainan Historical Capital International Half Marathon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "quan": {
+      "token_id": 3688,
+      "first_seen": "Dan Siegel (attorney)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kpfa-fm": {
+      "token_id": 2580,
+      "first_seen": "Dan Siegel (attorney)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "siegel": {
+      "token_id": 5108,
+      "first_seen": "Dan Siegel (attorney)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oakland-based": {
+      "token_id": 2429,
+      "first_seen": "Dan Siegel (attorney)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "non-profit": {
+      "token_id": 819,
+      "first_seen": "Comic Book Legal Defense Fund",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cbldf": {
+      "token_id": 6823,
+      "first_seen": "Comic Book Legal Defense Fund",
+      "has_definition": false,
+      "definition": ""
+    },
+    "expenses": {
+      "token_id": 7967,
+      "first_seen": "Comic Book Legal Defense Fund",
+      "has_definition": true,
+      "definition": "A spending or consuming, often a disbursement of funds."
+    },
+    "brownstein": {
+      "token_id": 2629,
+      "first_seen": "Comic Book Legal Defense Fund",
+      "has_definition": false,
+      "definition": ""
+    },
+    "creators": {
+      "token_id": 1238,
+      "first_seen": "Comic Book Legal Defense Fund",
+      "has_definition": true,
+      "definition": "Something or someone which creates or makes something."
+    },
+    "organization's": {
+      "token_id": 7341,
+      "first_seen": "Comic Book Legal Defense Fund",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cinco": {
+      "token_id": 7028,
+      "first_seen": "Estadio Chile (poem)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tortured": {
+      "token_id": 5854,
+      "first_seen": "Estadio Chile (poem)",
+      "has_definition": true,
+      "definition": "To intentionally inflict severe pain or suffering on (someone)."
+    },
+    "penned": {
+      "token_id": 3287,
+      "first_seen": "Estadio Chile (poem)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "untitled": {
+      "token_id": 1311,
+      "first_seen": "Estadio Chile (poem)",
+      "has_definition": true,
+      "definition": "Having no title."
+    },
+    "jara": {
+      "token_id": 6195,
+      "first_seen": "Estadio Chile (poem)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "santiago's": {
+      "token_id": 6919,
+      "first_seen": "Estadio Chile (poem)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mil": {
+      "token_id": 831,
+      "first_seen": "Estadio Chile (poem)",
+      "has_definition": true,
+      "definition": "An angular mil, a unit of angular measurement equal to 1\u20446400 of a complete circle. At 1000 metres one mil subtends about one metre (0.98 m). Also 1\u20446000 and 1\u20446300 are used in other countries."
+    },
+    "somos": {
+      "token_id": 7588,
+      "first_seen": "Estadio Chile (poem)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "d'tat": {
+      "token_id": 2931,
+      "first_seen": "Estadio Chile (poem)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nobakht": {
+      "token_id": 834,
+      "first_seen": "Roya Saberi Negad Nobakht",
+      "has_definition": false,
+      "definition": ""
+    },
+    "roya": {
+      "token_id": 7447,
+      "first_seen": "Roya Saberi Negad Nobakht",
+      "has_definition": false,
+      "definition": ""
+    },
+    "insulting": {
+      "token_id": 7135,
+      "first_seen": "Roya Saberi Negad Nobakht",
+      "has_definition": true,
+      "definition": "To be insensitive, insolent, or rude to (somebody); to affront or demean (someone)."
+    },
+    "penalty": {
+      "token_id": 1600,
+      "first_seen": "Roya Saberi Negad Nobakht",
+      "has_definition": true,
+      "definition": "A legal sentence."
+    },
+    "housewife": {
+      "token_id": 6237,
+      "first_seen": "Roya Saberi Negad Nobakht",
+      "has_definition": true,
+      "definition": "(plural \"housewives\") A woman whose main employment is homemaking, maintaining the upkeep of her home and tending to household affairs; often, such a woman whose sole [unpaid] employment is homemaking."
+    },
+    "sanctities": {
+      "token_id": 282,
+      "first_seen": "Roya Saberi Negad Nobakht",
+      "has_definition": true,
+      "definition": "Holiness of life or disposition; saintliness"
+    },
+    "negad": {
+      "token_id": 3583,
+      "first_seen": "Roya Saberi Negad Nobakht",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iranian-british": {
+      "token_id": 1587,
+      "first_seen": "Roya Saberi Negad Nobakht",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sapargali": {
+      "token_id": 5845,
+      "first_seen": "Sapargali Begalin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "begalin": {
+      "token_id": 2492,
+      "first_seen": "Sapargali Begalin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "xs": {
+      "token_id": 7752,
+      "first_seen": "Pepper Grinder",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ahr": {
+      "token_id": 5325,
+      "first_seen": "Pepper Grinder",
+      "has_definition": false,
+      "definition": ""
+    },
+    "action-platform": {
+      "token_id": 358,
+      "first_seen": "Pepper Grinder",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ech": {
+      "token_id": 5172,
+      "first_seen": "Pepper Grinder",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grinder": {
+      "token_id": 1552,
+      "first_seen": "Pepper Grinder",
+      "has_definition": true,
+      "definition": "One who grinds something, such as the teeth."
+    },
+    "devolver": {
+      "token_id": 3146,
+      "first_seen": "Pepper Grinder",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dalgety": {
+      "token_id": 2026,
+      "first_seen": "Dalgety Bay",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eighth-largest": {
+      "token_id": 803,
+      "first_seen": "Dalgety Bay",
+      "has_definition": false,
+      "definition": ""
+    },
+    "civilians": {
+      "token_id": 2222,
+      "first_seen": "Serge Lazareff Prize",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lazareff": {
+      "token_id": 7314,
+      "first_seen": "Serge Lazareff Prize",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mls": {
+      "token_id": 263,
+      "first_seen": "MLS Cup 2014",
+      "has_definition": false,
+      "definition": ""
+    },
+    "all-time": {
+      "token_id": 4640,
+      "first_seen": "MLS Cup 2014",
+      "has_definition": false,
+      "definition": ""
+    },
+    "landon": {
+      "token_id": 7006,
+      "first_seen": "MLS Cup 2014",
+      "has_definition": false,
+      "definition": ""
+    },
+    "donovan": {
+      "token_id": 2189,
+      "first_seen": "MLS Cup 2014",
+      "has_definition": false,
+      "definition": ""
+    },
+    "record-breaking": {
+      "token_id": 2882,
+      "first_seen": "MLS Cup 2014",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sending": {
+      "token_id": 6850,
+      "first_seen": "MLS Cup 2014",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stubhub": {
+      "token_id": 7709,
+      "first_seen": "MLS Cup 2014",
+      "has_definition": false,
+      "definition": ""
+    },
+    "soccer's": {
+      "token_id": 3095,
+      "first_seen": "MLS Cup 2014",
+      "has_definition": false,
+      "definition": ""
+    },
+    "petron": {
+      "token_id": 207,
+      "first_seen": "Khat Bell",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lovb": {
+      "token_id": 1645,
+      "first_seen": "Khat Bell",
+      "has_definition": false,
+      "definition": ""
+    },
+    "briana": {
+      "token_id": 535,
+      "first_seen": "Khat Bell",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spikers": {
+      "token_id": 6325,
+      "first_seen": "Khat Bell",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hi-pass": {
+      "token_id": 7517,
+      "first_seen": "Khat Bell",
+      "has_definition": false,
+      "definition": ""
+    },
+    "v-league": {
+      "token_id": 5741,
+      "first_seen": "Khat Bell",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dorneyville": {
+      "token_id": 2499,
+      "first_seen": "Dorney Park & Wildwater Kingdom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "children's": {
+      "token_id": 2672,
+      "first_seen": "Dorney Park & Wildwater Kingdom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wildwater": {
+      "token_id": 5023,
+      "first_seen": "Dorney Park & Wildwater Kingdom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coasters": {
+      "token_id": 6255,
+      "first_seen": "Dorney Park & Wildwater Kingdom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "allentown": {
+      "token_id": 7861,
+      "first_seen": "Dorney Park & Wildwater Kingdom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dorney": {
+      "token_id": 47,
+      "first_seen": "Dorney Park & Wildwater Kingdom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "slides": {
+      "token_id": 1169,
+      "first_seen": "Dorney Park & Wildwater Kingdom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rod's": {
+      "token_id": 1373,
+      "first_seen": "Rod's Pot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "combe": {
+      "token_id": 1932,
+      "first_seen": "Rod's Pot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "burrington": {
+      "token_id": 7228,
+      "first_seen": "Rod's Pot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mendip": {
+      "token_id": 4627,
+      "first_seen": "Rod's Pot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "albini": {
+      "token_id": 3926,
+      "first_seen": "In Utero",
+      "has_definition": false,
+      "definition": ""
+    },
+    "expressing": {
+      "token_id": 7866,
+      "first_seen": "In Utero",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seeking": {
+      "token_id": 7986,
+      "first_seen": "In Utero",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nevermind": {
+      "token_id": 5204,
+      "first_seen": "In Utero",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dgc": {
+      "token_id": 4042,
+      "first_seen": "In Utero",
+      "has_definition": false,
+      "definition": ""
+    },
+    "utero": {
+      "token_id": 4307,
+      "first_seen": "In Utero",
+      "has_definition": false,
+      "definition": ""
+    },
+    "allude": {
+      "token_id": 3995,
+      "first_seen": "In Utero",
+      "has_definition": true,
+      "definition": "To refer to something indirectly or by suggestion."
+    },
+    "abrasive": {
+      "token_id": 2634,
+      "first_seen": "In Utero",
+      "has_definition": true,
+      "definition": "A substance or material such as sandpaper, pumice, or emery, used for cleaning, smoothing, or polishing."
+    },
+    "cobain": {
+      "token_id": 3396,
+      "first_seen": "In Utero",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kurt": {
+      "token_id": 2858,
+      "first_seen": "In Utero",
+      "has_definition": false,
+      "definition": ""
+    },
+    "impersonal": {
+      "token_id": 7731,
+      "first_seen": "In Utero",
+      "has_definition": true,
+      "definition": "(grammar) An impersonal word or construct."
+    },
+    "angst": {
+      "token_id": 469,
+      "first_seen": "In Utero",
+      "has_definition": true,
+      "definition": "Emotional turmoil; painful sadness."
+    },
+    "nirvana": {
+      "token_id": 1166,
+      "first_seen": "In Utero",
+      "has_definition": true,
+      "definition": "Complete cessation of suffering; a blissful state attained through realization of sunyata; enlightened experience."
+    },
+    "salicaceae": {
+      "token_id": 1313,
+      "first_seen": "Salix phlebophylla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "amphi-beringian": {
+      "token_id": 2196,
+      "first_seen": "Salix phlebophylla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "persist": {
+      "token_id": 3158,
+      "first_seen": "Salix phlebophylla",
+      "has_definition": true,
+      "definition": "To go on stubbornly or resolutely."
+    },
+    "salix": {
+      "token_id": 7720,
+      "first_seen": "Salix phlebophylla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "skeleton-leaf": {
+      "token_id": 6660,
+      "first_seen": "Salix phlebophylla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "willow": {
+      "token_id": 5036,
+      "first_seen": "Salix phlebophylla",
+      "has_definition": true,
+      "definition": "Any of various deciduous trees or shrubs in the genus Salix, in the willow family Salicaceae, found primarily on moist soils in cooler zones in the northern hemisphere."
+    },
+    "prostrate": {
+      "token_id": 3349,
+      "first_seen": "Salix phlebophylla",
+      "has_definition": true,
+      "definition": "To lie flat or face-down."
+    },
+    "withered": {
+      "token_id": 4136,
+      "first_seen": "Salix phlebophylla",
+      "has_definition": true,
+      "definition": "To shrivel, droop or dry up, especially from lack of water."
+    },
+    "phlebophylla": {
+      "token_id": 871,
+      "first_seen": "Salix phlebophylla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "skeletonleaf": {
+      "token_id": 3777,
+      "first_seen": "Salix phlebophylla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "buddhists": {
+      "token_id": 885,
+      "first_seen": "Bengali Buddhists",
+      "has_definition": false,
+      "definition": ""
+    },
+    "adhere": {
+      "token_id": 5581,
+      "first_seen": "Bengali Buddhists",
+      "has_definition": true,
+      "definition": "To stick fast or cleave, as a glutinous substance does; to become joined or united."
+    },
+    "bengalis": {
+      "token_id": 3655,
+      "first_seen": "Bengali Buddhists",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sub-group": {
+      "token_id": 4222,
+      "first_seen": "Bengali Buddhists",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tripura": {
+      "token_id": 5846,
+      "first_seen": "Bengali Buddhists",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 3658,
-  "total_words": 24081
+  "total_articles": 3688,
+  "total_words": 24231
 }
