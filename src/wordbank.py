@@ -7,6 +7,19 @@ All senators use this for consistent tokenization and decoding.
 import json
 from pathlib import Path
 
+PUNCTUATION_TOKENS = {
+    '.': 7990,
+    ',': 7991,
+    '?': 7992,
+    '!': 7993,
+    ';': 7994,
+    ':': 7995,
+    '"': 7996,
+    "'": 7997,
+    '-': 7998,
+    '(': 7999,
+}
+
 
 class Wordbank:
     """Shared vocabulary for all senators"""
@@ -16,12 +29,18 @@ class Wordbank:
         self.word_to_id = {'<PAD>': 0, '<UNK>': 1, '<END>': 2}
         self.id_to_word = {0: '<PAD>', 1: '<UNK>', 2: '<END>'}
         self.definitions = {}
+        
+        # Add punctuation tokens
+        for punct, tid in PUNCTUATION_TOKENS.items():
+            self.word_to_id[punct] = tid
+            self.id_to_word[tid] = punct
+        
         self.load()
     
     def load(self):
         """Load wordbank from JSON file"""
         if not self.wordbank_path.exists():
-            print(f"   Wordbank not found at {self.wordbank_path}, using empty vocab")
+            print(f"   Wordbank not found at {self.wordbank_path}, using punctuation only")
             return
         
         try:
@@ -48,7 +67,7 @@ class Wordbank:
                 loaded += 1
             else:
                 import hashlib
-                tid = 3 + (int(hashlib.md5(word.encode()).hexdigest(), 16) % 7997)
+                tid = 3 + (int(hashlib.md5(word.encode()).hexdigest(), 16) % 7987)
                 self.word_to_id[word] = tid
                 self.id_to_word[tid] = word
                 loaded += 1
@@ -56,12 +75,15 @@ class Wordbank:
         print(f"   Wordbank: {loaded:,} words, {defined:,} defined")
     
     def tokenize(self, text, max_len=64):
-        """Convert text to token IDs"""
-        words = text.lower().split()[:max_len]
+        """Convert text to token IDs, keeping punctuation"""
+        import re
+        
+        # Split keeping punctuation as separate tokens
+        words = re.findall(r"[a-zA-Z']+|[.,!?;:\"\-]", text.lower())
+        words = words[:max_len]
         tokens = []
         
         for w in words:
-            w = w.strip('.,!?;:()[]{}"\'')
             if w in self.word_to_id:
                 tokens.append(self.word_to_id[w])
             else:
@@ -75,7 +97,7 @@ class Wordbank:
         return tokens[:max_len]
     
     def decode(self, token_ids):
-        """Convert token IDs back to text"""
+        """Convert token IDs back to text with punctuation"""
         words = []
         
         for tid in token_ids:
@@ -88,7 +110,15 @@ class Wordbank:
             elif tid == 2:
                 break
             elif tid in self.id_to_word:
-                words.append(self.id_to_word[tid])
+                word = self.id_to_word[tid]
+                # Handle punctuation spacing
+                if word in ['.', ',', '?', '!', ';', ':', '"', "'", '-', '(']:
+                    if words:
+                        words[-1] += word
+                    else:
+                        words.append(word)
+                else:
+                    words.append(word)
             else:
                 words.append(f'[{tid}]')
         
