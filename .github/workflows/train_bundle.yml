@@ -13,6 +13,7 @@ permissions:
   contents: write
 
 jobs:
+  # Priority chunks 0-4 (first 50 bundles - train first, push first)
   train-chunk-0:
     runs-on: ubuntu-latest
     timeout-minutes: 240
@@ -303,6 +304,44 @@ jobs:
           name: chunk4-bundle-${{ matrix.bundle }}
           path: senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
 
+  push-priority:
+    needs: [train-chunk-0, train-chunk-1, train-chunk-2, train-chunk-3, train-chunk-4]
+    if: success() || failure()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download priority bundles
+        uses: actions/download-artifact@v4
+        with:
+          pattern: chunk[0-4]-bundle-*
+          merge-multiple: true
+          path: senate_bundles/
+      - name: Push priority bundles
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git checkout --ours senate_bundles/ 2>/dev/null || true
+          git add senate_bundles/
+          for i in $(seq 0 10 40); do
+            end=$((i + 9))
+            echo "Pushing bundles $i-$end..."
+            for j in $(seq $i $end); do
+              padded=$(printf "%03d" $j)
+              git add senate_bundles/bundle_${padded}.pt 2>/dev/null || true
+            done
+            git commit -m "Train priority bundles $(printf '%03d' $i)-$(printf '%03d' $end)" 2>/dev/null || echo "No changes"
+            for attempt in $(seq 1 20); do
+              if git push; then
+                echo "Batch $i-$end pushed (attempt $attempt)!"
+                break
+              fi
+              echo "Retry $attempt/20..."
+              git pull --rebase origin main 2>/dev/null || true
+              sleep 10
+            done
+          done
+
+  # Non-priority chunks 5-8 (last 40 bundles - train later, push later)
   train-chunk-5:
     runs-on: ubuntu-latest
     timeout-minutes: 240
@@ -535,25 +574,25 @@ jobs:
           name: chunk8-bundle-${{ matrix.bundle }}
           path: senate_bundles/bundle_${{ steps.bundle.outputs.bundle_padded }}.pt
 
-  push-all:
-    needs: [train-chunk-0, train-chunk-1, train-chunk-2, train-chunk-3, train-chunk-4, train-chunk-5, train-chunk-6, train-chunk-7, train-chunk-8]
+  push-non-priority:
+    needs: [push-priority, train-chunk-5, train-chunk-6, train-chunk-7, train-chunk-8]
     if: success() || failure()
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download all trained bundles
+      - name: Download non-priority bundles
         uses: actions/download-artifact@v4
         with:
-          pattern: chunk*-bundle-*
+          pattern: chunk[5-8]-bundle-*
           merge-multiple: true
           path: senate_bundles/
-      - name: Push everything
+      - name: Push non-priority bundles
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git checkout --ours senate_bundles/ 2>/dev/null || true
           git add senate_bundles/
-          for i in $(seq 0 10 80); do
+          for i in $(seq 50 10 80); do
             end=$((i + 9))
             if [ $end -gt 88 ]; then end=88; fi
             echo "Pushing bundles $i-$end..."
@@ -562,19 +601,19 @@ jobs:
               git add senate_bundles/bundle_${padded}.pt 2>/dev/null || true
             done
             git commit -m "Train bundles $(printf '%03d' $i)-$(printf '%03d' $end)" 2>/dev/null || echo "No changes"
-            for attempt in 1 2 3; do
+            for attempt in $(seq 1 20); do
               if git push; then
-                echo "Batch $i-$end pushed!"
+                echo "Batch $i-$end pushed (attempt $attempt)!"
                 break
               fi
-              echo "Retrying batch $i-$end..."
+              echo "Retry $attempt/20..."
               git pull --rebase origin main 2>/dev/null || true
               sleep 10
             done
           done
 
   ping-train-all-and-optimize:
-    needs: [push-all]
+    needs: [push-non-priority]
     if: success() || failure()
     runs-on: ubuntu-latest
     steps:
