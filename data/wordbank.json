@@ -146261,8 +146261,674 @@
       "first_seen": "Parcona District",
       "has_definition": false,
       "definition": ""
+    },
+    "trboholy": {
+      "token_id": 2676,
+      "first_seen": "\u0160t\u011brboholy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "desierto": {
+      "token_id": 3197,
+      "first_seen": "Chamonate Airport",
+      "has_definition": false,
+      "definition": ""
+    },
+    "copiap": {
+      "token_id": 4836,
+      "first_seen": "Chamonate Airport",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chamonate": {
+      "token_id": 2411,
+      "first_seen": "Chamonate Airport",
+      "has_definition": false,
+      "definition": ""
+    },
+    "midzychd": {
+      "token_id": 3503,
+      "first_seen": "Greater Poland dialect group",
+      "has_definition": false,
+      "definition": ""
+    },
+    "babimost": {
+      "token_id": 2592,
+      "first_seen": "Greater Poland dialect group",
+      "has_definition": false,
+      "definition": ""
+    },
+    "koo": {
+      "token_id": 4768,
+      "first_seen": "Greater Poland dialect group",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rawicz": {
+      "token_id": 4296,
+      "first_seen": "Greater Poland dialect group",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wielkopolski": {
+      "token_id": 951,
+      "first_seen": "Greater Poland dialect group",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kalisz": {
+      "token_id": 1440,
+      "first_seen": "Greater Poland dialect group",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ostrw": {
+      "token_id": 3615,
+      "first_seen": "Greater Poland dialect group",
+      "has_definition": false,
+      "definition": ""
+    },
+    "warta": {
+      "token_id": 652,
+      "first_seen": "Greater Poland dialect group",
+      "has_definition": false,
+      "definition": ""
+    },
+    "melason": {
+      "token_id": 2762,
+      "first_seen": "Jason Francisco",
+      "has_definition": false,
+      "definition": ""
+    },
+    "follow-up": {
+      "token_id": 846,
+      "first_seen": "Jason Francisco",
+      "has_definition": true,
+      "definition": "A subsidiary action taken in response to an event."
+    },
+    "melisa": {
+      "token_id": 3552,
+      "first_seen": "Jason Francisco",
+      "has_definition": false,
+      "definition": ""
+    },
+    "participant": {
+      "token_id": 1742,
+      "first_seen": "Jason Francisco",
+      "has_definition": true,
+      "definition": "One who participates."
+    },
+    "cantiveros": {
+      "token_id": 7966,
+      "first_seen": "Jason Francisco",
+      "has_definition": false,
+      "definition": ""
+    },
+    "veron": {
+      "token_id": 332,
+      "first_seen": "Jason Francisco",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pinoy": {
+      "token_id": 1311,
+      "first_seen": "Jason Francisco",
+      "has_definition": false,
+      "definition": ""
+    },
+    "girlfriend": {
+      "token_id": 4452,
+      "first_seen": "Jason Francisco",
+      "has_definition": true,
+      "definition": "A female partner in an unmarried romantic relationship."
+    },
+    "okadayama": {
+      "token_id": 4320,
+      "first_seen": "Okadayama Kofun",
+      "has_definition": false,
+      "definition": ""
+    },
+    "matsue": {
+      "token_id": 4109,
+      "first_seen": "Okadayama Kofun",
+      "has_definition": false,
+      "definition": ""
+    },
+    "san'in": {
+      "token_id": 3717,
+      "first_seen": "Okadayama Kofun",
+      "has_definition": false,
+      "definition": ""
+    },
+    "okusa-cho": {
+      "token_id": 6757,
+      "first_seen": "Okadayama Kofun",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mounds": {
+      "token_id": 5404,
+      "first_seen": "Okadayama Kofun",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shimane": {
+      "token_id": 5709,
+      "first_seen": "Okadayama Kofun",
+      "has_definition": false,
+      "definition": ""
+    },
+    "h-shaped": {
+      "token_id": 1913,
+      "first_seen": "McCallum Manor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "revival-style": {
+      "token_id": 98,
+      "first_seen": "McCallum Manor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cotta": {
+      "token_id": 3105,
+      "first_seen": "McCallum Manor",
+      "has_definition": true,
+      "definition": "A surplice, in England and America usually one shorter and less full than the ordinary surplice and with short sleeves, or sometimes none."
+    },
+    "airy": {
+      "token_id": 6352,
+      "first_seen": "McCallum Manor",
+      "has_definition": true,
+      "definition": "Consisting of air."
+    },
+    "nine-story": {
+      "token_id": 2599,
+      "first_seen": "McCallum Manor",
+      "has_definition": false,
+      "definition": ""
+    },
+    "furlongs": {
+      "token_id": 451,
+      "first_seen": "Irish Derby",
+      "has_definition": true,
+      "definition": "A unit of length equal to 220 yards, 1/8 mile, or 201.168 meters, now only used in measuring distances in horse racing."
+    },
+    "fillies": {
+      "token_id": 2532,
+      "first_seen": "Irish Derby",
+      "has_definition": false,
+      "definition": ""
+    },
+    "three-year-old": {
+      "token_id": 2113,
+      "first_seen": "Irish Derby",
+      "has_definition": false,
+      "definition": ""
+    },
+    "curragh": {
+      "token_id": 5335,
+      "first_seen": "Irish Derby",
+      "has_definition": false,
+      "definition": ""
+    },
+    "referee": {
+      "token_id": 4126,
+      "first_seen": "Ruben Gelbord",
+      "has_definition": true,
+      "definition": "An umpire or judge; an official who makes sure the rules are followed during a game."
+    },
+    "gelbord": {
+      "token_id": 6064,
+      "first_seen": "Ruben Gelbord",
+      "has_definition": false,
+      "definition": ""
+    },
+    "itso-compatible": {
+      "token_id": 4072,
+      "first_seen": "The Key (smartcard)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "contactless": {
+      "token_id": 6418,
+      "first_seen": "The Key (smartcard)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "smartcard": {
+      "token_id": 247,
+      "first_seen": "The Key (smartcard)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "go-ahead": {
+      "token_id": 1139,
+      "first_seen": "The Key (smartcard)",
+      "has_definition": true,
+      "definition": "Approval, agreement, or instruction to begin or proceed."
+    },
+    "boecke": {
+      "token_id": 6742,
+      "first_seen": "George Baker (baseball)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "maroons": {
+      "token_id": 7827,
+      "first_seen": "George Baker (baseball)",
+      "has_definition": true,
+      "definition": "An escaped negro slave of the Caribbean and the Americas or a descendant of escaped slaves."
+    },
+    "four-season": {
+      "token_id": 6052,
+      "first_seen": "George Baker (baseball)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dinmore": {
+      "token_id": 4619,
+      "first_seen": "Marlbrook, Herefordshire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marlbrook": {
+      "token_id": 4686,
+      "first_seen": "Marlbrook, Herefordshire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "agency's": {
+      "token_id": 2481,
+      "first_seen": "Magali Vaissi\u00e8re",
+      "has_definition": false,
+      "definition": ""
+    },
+    "magali": {
+      "token_id": 4741,
+      "first_seen": "Magali Vaissi\u00e8re",
+      "has_definition": false,
+      "definition": ""
+    },
+    "esa": {
+      "token_id": 3354,
+      "first_seen": "Magali Vaissi\u00e8re",
+      "has_definition": true,
+      "definition": "Initialism of European Space Agency."
+    },
+    "vaissire": {
+      "token_id": 1120,
+      "first_seen": "Magali Vaissi\u00e8re",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eure-et-loir": {
+      "token_id": 450,
+      "first_seen": "Sainte-Gemme-Moronval",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sainte-gemme-moronval": {
+      "token_id": 2515,
+      "first_seen": "Sainte-Gemme-Moronval",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zrich": {
+      "token_id": 3351,
+      "first_seen": "Hans-Peter Portmann",
+      "has_definition": false,
+      "definition": ""
+    },
+    "portmann": {
+      "token_id": 2179,
+      "first_seen": "Hans-Peter Portmann",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hans-peter": {
+      "token_id": 6926,
+      "first_seen": "Hans-Peter Portmann",
+      "has_definition": false,
+      "definition": ""
+    },
+    "euefta": {
+      "token_id": 3791,
+      "first_seen": "Hans-Peter Portmann",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cantonal": {
+      "token_id": 4260,
+      "first_seen": "Hans-Peter Portmann",
+      "has_definition": false,
+      "definition": ""
+    },
+    "liberals": {
+      "token_id": 762,
+      "first_seen": "Hans-Peter Portmann",
+      "has_definition": true,
+      "definition": "One with liberal views, supporting individual liberty (see Wikipedia's article on Liberalism)."
+    },
+    "liam": {
+      "token_id": 3393,
+      "first_seen": "The Good Mother (1988 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ethical": {
+      "token_id": 5008,
+      "first_seen": "The Good Mother (1988 film)",
+      "has_definition": true,
+      "definition": "An ethical drug, one only dispensed on the prescription of a physician."
+    },
+    "society's": {
+      "token_id": 2096,
+      "first_seen": "The Good Mother (1988 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neeson": {
+      "token_id": 2795,
+      "first_seen": "The Good Mother (1988 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "matters": {
+      "token_id": 666,
+      "first_seen": "The Good Mother (1988 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "settle": {
+      "token_id": 7074,
+      "first_seen": "The Good Mother (1988 film)",
+      "has_definition": true,
+      "definition": "To conclude or resolve (something):"
+    },
+    "beliefs": {
+      "token_id": 656,
+      "first_seen": "The Good Mother (1988 film)",
+      "has_definition": true,
+      "definition": "Mental acceptance of a claim as true."
+    },
+    "nimoy": {
+      "token_id": 4971,
+      "first_seen": "The Good Mother (1988 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reliance": {
+      "token_id": 3273,
+      "first_seen": "The Good Mother (1988 film)",
+      "has_definition": true,
+      "definition": "The act of relying (on or in someone or something); trust."
+    },
+    "sexuality": {
+      "token_id": 2174,
+      "first_seen": "The Good Mother (1988 film)",
+      "has_definition": true,
+      "definition": "The quality of being sexual; that which is characterized or distinguished by sex."
+    },
+    "miller's": {
+      "token_id": 5943,
+      "first_seen": "The Good Mother (1988 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "keaton": {
+      "token_id": 598,
+      "first_seen": "The Good Mother (1988 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gyr-moson-sopron": {
+      "token_id": 7213,
+      "first_seen": "Lip\u00f3t",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lipt": {
+      "token_id": 6132,
+      "first_seen": "Lip\u00f3t",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kriegsmarine": {
+      "token_id": 611,
+      "first_seen": "German submarine U-1104",
+      "has_definition": false,
+      "definition": ""
+    },
+    "viic": {
+      "token_id": 3854,
+      "first_seen": "German submarine U-1104",
+      "has_definition": false,
+      "definition": ""
+    },
+    "u-boat": {
+      "token_id": 7096,
+      "first_seen": "German submarine U-1104",
+      "has_definition": false,
+      "definition": ""
+    },
+    "germany's": {
+      "token_id": 2055,
+      "first_seen": "German submarine U-1104",
+      "has_definition": false,
+      "definition": ""
+    },
+    "substitution": {
+      "token_id": 1793,
+      "first_seen": "Encompassment ordering",
+      "has_definition": true,
+      "definition": "The act of substituting or the state of being substituted."
+    },
+    "preorder": {
+      "token_id": 1204,
+      "first_seen": "Encompassment ordering",
+      "has_definition": true,
+      "definition": "An order for goods or services placed in advance."
+    },
+    "encompassment": {
+      "token_id": 717,
+      "first_seen": "Encompassment ordering",
+      "has_definition": false,
+      "definition": ""
+    },
+    "subterm": {
+      "token_id": 5249,
+      "first_seen": "Encompassment ordering",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rewriting": {
+      "token_id": 5966,
+      "first_seen": "Encompassment ordering",
+      "has_definition": true,
+      "definition": "To write again, differently; to modify (a piece of writing or music, etc.)."
+    },
+    "containment": {
+      "token_id": 5355,
+      "first_seen": "Encompassment ordering",
+      "has_definition": true,
+      "definition": "The state of being contained."
+    },
+    "theorem": {
+      "token_id": 958,
+      "first_seen": "Encompassment ordering",
+      "has_definition": true,
+      "definition": "A mathematical statement of some importance that has been proven to be true. Minor theorems are often called propositions. Theorems which are not very interesting in themselves but are an essential part of a bigger theorem's proof are called lemmas."
+    },
+    "if": {
+      "token_id": 2516,
+      "first_seen": "Encompassment ordering",
+      "has_definition": true,
+      "definition": "An uncertainty, possibility, condition, doubt etc."
+    },
+    "proving": {
+      "token_id": 4057,
+      "first_seen": "Encompassment ordering",
+      "has_definition": true,
+      "definition": "To proofread."
+    },
+    "bys": {
+      "token_id": 1870,
+      "first_seen": "Encompassment ordering",
+      "has_definition": false,
+      "definition": ""
+    },
+    "university's": {
+      "token_id": 1167,
+      "first_seen": "Catherine Bell (religious studies scholar)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "catherine": {
+      "token_id": 2860,
+      "first_seen": "Catherine Bell (religious studies scholar)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kilda": {
+      "token_id": 4994,
+      "first_seen": "2008 St Kilda Football Club season",
+      "has_definition": false,
+      "definition": ""
+    },
+    "komae": {
+      "token_id": 4533,
+      "first_seen": "Izumi-Tamagawa Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "odakyu": {
+      "token_id": 6740,
+      "first_seen": "Izumi-Tamagawa Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "izumi-tamagawa": {
+      "token_id": 2408,
+      "first_seen": "Izumi-Tamagawa Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dale": {
+      "token_id": 2865,
+      "first_seen": "William D. Baumgartner",
+      "has_definition": true,
+      "definition": "A valley, often in an otherwise hilly area."
+    },
+    "baumgartner": {
+      "token_id": 89,
+      "first_seen": "William D. Baumgartner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "service's": {
+      "token_id": 6774,
+      "first_seen": "William D. Baumgartner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guard's": {
+      "token_id": 2312,
+      "first_seen": "William D. Baumgartner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rhne-alpes": {
+      "token_id": 7039,
+      "first_seen": "Villette-sur-Ain",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dombes": {
+      "token_id": 6665,
+      "first_seen": "Villette-sur-Ain",
+      "has_definition": false,
+      "definition": ""
+    },
+    "villette-sur-ain": {
+      "token_id": 4780,
+      "first_seen": "Villette-sur-Ain",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antifascist": {
+      "token_id": 247,
+      "first_seen": "Anna Stiegler",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stiegler": {
+      "token_id": 5007,
+      "first_seen": "Anna Stiegler",
+      "has_definition": false,
+      "definition": ""
+    },
+    "greenberg": {
+      "token_id": 6371,
+      "first_seen": "Joel Greenberg (historian)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bletchley": {
+      "token_id": 5181,
+      "first_seen": "Joel Greenberg (historian)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "swanstrom": {
+      "token_id": 5623,
+      "first_seen": "J. Edward Swanstrom",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fimbriated": {
+      "token_id": 7259,
+      "first_seen": "Flag of Groningen (province)",
+      "has_definition": true,
+      "definition": "Having a fringed border."
+    },
+    "groningen": {
+      "token_id": 4285,
+      "first_seen": "Flag of Groningen (province)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ommelanden": {
+      "token_id": 502,
+      "first_seen": "Flag of Groningen (province)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "symbolizes": {
+      "token_id": 3462,
+      "first_seen": "Flag of Groningen (province)",
+      "has_definition": true,
+      "definition": "To be symbolic of; to represent."
+    },
+    "fact": {
+      "token_id": 814,
+      "first_seen": "Flag of Groningen (province)",
+      "has_definition": true,
+      "definition": "Something actual as opposed to invented."
+    },
+    "groningen's": {
+      "token_id": 2232,
+      "first_seen": "Flag of Groningen (province)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coincidence": {
+      "token_id": 5377,
+      "first_seen": "Flag of Groningen (province)",
+      "has_definition": true,
+      "definition": "Of objects, the property of being coincident; occurring at the same time or place."
     }
   },
-  "total_articles": 3718,
-  "total_words": 24377
+  "total_articles": 3748,
+  "total_words": 24488
 }
