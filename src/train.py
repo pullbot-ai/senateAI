@@ -1,6 +1,7 @@
 """
 Senate AI - Topic-Based Training with AI Grading
 Uses shared wordbank for tokenization. AI-guided parameter selection.
+Strict AI grading to prevent inflated scores.
 """
 
 import torch
@@ -185,7 +186,7 @@ def train_senator_on_topics(senator, topics, wordbank, epochs=15, lr=0.0005, bat
 
 
 def grade_senator_with_ai(senator, qa_pairs, wordbank):
-    """Grade senator using AI judge"""
+    """Grade senator using STRICT AI judge"""
     senator.eval()
     scores = []
     
@@ -213,18 +214,21 @@ def grade_senator_with_ai(senator, qa_pairs, wordbank):
         
         senator_answer = wordbank.decode(torch.tensor(generated))
         
-        grading_prompt = f"""You are grading an AI senator's answer.
+        grading_prompt = f"""You are a STRICT grader evaluating an AI senator's answer.
 
 Question: {question}
 Correct answer: {correct_answer}
 Senator's answer: {senator_answer}
 
-Score the senator's answer from 0-100 based on:
-- Correctness (60%)
-- Relevance (20%)
-- Clarity (20%)
+Score from 0-100:
+- 0-10: Complete gibberish or irrelevant
+- 10-30: Some relevant words but no coherent meaning
+- 30-50: Partially correct but poor phrasing
+- 50-70: Mostly correct with some errors
+- 70-90: Correct and clear
+- 90-100: Excellent
 
-Return ONLY a number between 0 and 100."""
+Score STRICTLY. Gibberish gets 0-10. Return ONLY a number."""
         
         ai_score = call_ai(grading_prompt, max_tokens=10)
         
