@@ -1,8 +1,7 @@
 """
 Senate AI - The Parliament Runtime
-Real senator inference with trained models.
-Uses shared wordbank. AI Grouper. Reliability-weighted voting.
-Dynamic senator activation. Adaptive response length.
+Real senator inference. Learned router. Reliability-weighted voting.
+Dynamic activation. Performance tracking.
 """
 
 import torch
@@ -13,6 +12,7 @@ from collections import defaultdict
 from difflib import SequenceMatcher
 from wordbank import get_wordbank
 from ai_client import call_ai
+from challenger import Challenger
 import random
 import sys
 import re
@@ -33,6 +33,7 @@ class Senate:
         self.session_history = []
         
         self.wordbank = get_wordbank()
+        self.challenger = Challenger()
         
         print(f"Senate ready: {len(self.index.get('senators', []))} senators")
     
@@ -84,14 +85,14 @@ class Senate:
         return senator
     
     def _get_senator_reliability(self, senator_id, relevant_topics=None):
-        """Get senator's reliability score, optionally weighted by topic relevance"""
+        """Get senator's reliability score"""
         senator_info = next(
             (s for s in self.index['senators'] if s['senator_id'] == senator_id),
             None
         )
         
         if not senator_info:
-            return 20.0  # Default low reliability
+            return 20.0
         
         performance = senator_info.get('performance', {})
         
@@ -99,7 +100,6 @@ class Senate:
             return 20.0
         
         if relevant_topics:
-            # Weight by topic relevance
             relevant_scores = []
             for topic in relevant_topics:
                 if topic in performance:
@@ -108,7 +108,6 @@ class Senate:
             if relevant_scores:
                 return sum(relevant_scores) / len(relevant_scores)
         
-        # Fallback: average all performance
         return sum(performance.values()) / len(performance) * 100
     
     def _tokenize(self, text, max_len=32):
@@ -194,7 +193,38 @@ class Senate:
         return raw_answer
     
     def router(self, question):
-        """Keyword-based router"""
+        """Use trained neural router if available, fallback to keywords"""
+        
+        router_path = Path('models/router.pt')
+        if router_path.exists():
+            try:
+                from router_model import SenateRouter, tokenize
+                checkpoint = torch.load(router_path, map_location='cpu')
+                router = SenateRouter(num_bundles=checkpoint['num_bundles'])
+                router.load_state_dict(checkpoint['model_state'])
+                router.eval()
+                
+                tokens = tokenize(question)
+                input_ids = torch.tensor([tokens])
+                
+                selected = router.select_senators(input_ids, top_k=25)
+                
+                relevant_topics = set()
+                for s in selected:
+                    senator_id = s['senator_id']
+                    info = next((x for x in self.index['senators'] if x['senator_id'] == senator_id), None)
+                    if info:
+                        relevant_topics.update(info['specialties'])
+                
+                if relevant_topics:
+                    return list(relevant_topics)[:8]
+            except Exception as e:
+                print(f"   Router failed, using keyword fallback: {e}")
+        
+        return self._keyword_router(question)
+    
+    def _keyword_router(self, question):
+        """Keyword-based router fallback"""
         question_lower = question.lower()
         
         topic_keywords = {
@@ -245,8 +275,6 @@ class Senate:
             if overlap:
                 relevance = len(overlap) / len(relevant_set)
                 reliability = self._get_senator_reliability(senator_info['senator_id'], relevant_topics)
-                
-                # Combine relevance and reliability
                 score = relevance * 0.6 + (reliability / 100) * 0.4
                 senator_scores.append((senator_info, score))
         
@@ -341,31 +369,6 @@ Return JSON:
         groups.sort(key=lambda x: x['count'], reverse=True)
         return groups
     
-    def challenger_review(self, consensus, question):
-        """Challenge the current consensus using AI"""
-        
-        prompt = f"""You are the Challenger in an AI parliament debate.
-
-Question: {question}
-Current consensus: {consensus}
-
-Find flaws, missing conditions, edge cases, or better explanations.
-Return a brief critique."""
-        
-        response = call_ai(prompt, max_tokens=100)
-        
-        if response and len(response) > 5:
-            return response
-        
-        challenges = [
-            "Are there unstated assumptions?",
-            "Does this cover edge cases?",
-            "Is there evidence for this?",
-            "Could there be alternative explanations?",
-            "Is the reasoning complete?",
-        ]
-        return random.choice(challenges)
-    
     def vote(self, groups, relevant_topics=None):
         """Reliability-weighted voting"""
         if not groups:
@@ -376,7 +379,7 @@ Return a brief critique."""
             weight = 0
             for senator_id in group['senators']:
                 reliability = self._get_senator_reliability(senator_id, relevant_topics)
-                weight += 1 + (reliability / 50)  # Base 1, up to 3 for high performers
+                weight += 1 + (reliability / 50)
             
             group['weight'] = weight
             weighted_groups.append(group)
@@ -392,6 +395,22 @@ Return a brief critique."""
         confidence = leading['weight'] / total_weight if total_weight > 0 else 0.0
         
         return leading['answer'], confidence
+    
+    def save_performance_log(self, path='performance_log.json'):
+        """Save all senator scores to a log file"""
+        data = []
+        for senator_info in self.index['senators']:
+            data.append({
+                'id': senator_info['senator_id'],
+                'bundle': senator_info['bundle_id'],
+                'specialties': senator_info['specialties'],
+                'performance': senator_info.get('performance', {})
+            })
+        
+        with open(path, 'w') as f:
+            json.dump(data, f, indent=2)
+        
+        print(f"Performance log saved to {path}")
     
     def ask(self, question):
         """Public interface: Ask the Senate with dynamic activation"""
@@ -412,8 +431,6 @@ Return a brief critique."""
         for s in selected[:10]:
             reliability = self._get_senator_reliability(s['senator_id'], relevant_topics)
             print(f"  Senator {s['senator_id']} [{', '.join(s['specialties'][:2])}] (rel: {reliability:.0f}%)")
-        if len(selected) > 10:
-            print(f"  ... and {len(selected)-10} more")
         sys.stdout.flush()
         
         print(f"\n{'─'*60}")
@@ -422,7 +439,7 @@ Return a brief critique."""
         sys.stdout.flush()
         
         answers = []
-        for i, senator_info in enumerate(selected):
+        for senator_info in selected:
             senator = self._load_senator(senator_info)
             if senator is None:
                 continue
@@ -446,7 +463,6 @@ Return a brief critique."""
         
         consensus, confidence = self.vote(groups, relevant_topics)
         
-        # Dynamic activation: if confidence too low, activate more senators
         if confidence < 0.4 and len(selected) < 40:
             print(f"\n  Low confidence ({confidence:.1%}). Activating more senators...")
             extra = self.select_senators(relevant_topics, max_senators=40)
@@ -469,7 +485,7 @@ Return a brief critique."""
         print(f"{'─'*60}")
         sys.stdout.flush()
         
-        challenge = self.challenger_review(consensus, question)
+        challenge = self.challenger.review(consensus, question)
         print(f"  Current consensus: \"{consensus[:80]}...\"")
         print(f"  Challenge: {challenge[:80]}...")
         sys.stdout.flush()
