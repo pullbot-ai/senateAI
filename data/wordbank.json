@@ -181505,8 +181505,650 @@
       "first_seen": "Momoiro Punch",
       "has_definition": false,
       "definition": ""
+    },
+    "topology": {
+      "token_id": 7052,
+      "first_seen": "Walter Neumann",
+      "has_definition": true,
+      "definition": "A branch of mathematics studying those properties of a geometric figure or solid that are not changed by stretching, bending and similar homeomorphisms."
+    },
+    "hirzebruch": {
+      "token_id": 4723,
+      "first_seen": "Walter Neumann",
+      "has_definition": false,
+      "definition": ""
+    },
+    "geometric": {
+      "token_id": 1582,
+      "first_seen": "Walter Neumann",
+      "has_definition": true,
+      "definition": "Of or relating to geometry."
+    },
+    "singularity": {
+      "token_id": 6553,
+      "first_seen": "Walter Neumann",
+      "has_definition": true,
+      "definition": "The state of being singular, distinct, peculiar, uncommon or unusual"
+    },
+    "ph.d": {
+      "token_id": 7169,
+      "first_seen": "Walter Neumann",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jnich": {
+      "token_id": 4546,
+      "first_seen": "Walter Neumann",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grandeur": {
+      "token_id": 4705,
+      "first_seen": "Rococo Revival",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rococo": {
+      "token_id": 4317,
+      "first_seen": "Rococo Revival",
+      "has_definition": false,
+      "definition": ""
+    },
+    "epitomized": {
+      "token_id": 5006,
+      "first_seen": "Rococo Revival",
+      "has_definition": false,
+      "definition": ""
+    },
+    "romanticism": {
+      "token_id": 1469,
+      "first_seen": "Rococo Revival",
+      "has_definition": true,
+      "definition": "A romantic quality, spirit or action."
+    },
+    "reemergence": {
+      "token_id": 2049,
+      "first_seen": "Rococo Revival",
+      "has_definition": true,
+      "definition": "A second or subsequent emergence after being hidden etc."
+    },
+    "draught": {
+      "token_id": 4207,
+      "first_seen": "Lithuanian Heavy Draught",
+      "has_definition": false,
+      "definition": ""
+    },
+    "keisuke": {
+      "token_id": 5179,
+      "first_seen": "Mugiko-san to",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yoshida": {
+      "token_id": 7457,
+      "first_seen": "Mugiko-san to",
+      "has_definition": false,
+      "definition": ""
+    },
+    "horikita": {
+      "token_id": 5280,
+      "first_seen": "Mugiko-san to",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nocturnal": {
+      "token_id": 4450,
+      "first_seen": "Dark spiny tree-rat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tree-rat": {
+      "token_id": 7126,
+      "first_seen": "Dark spiny tree-rat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "echimyidae": {
+      "token_id": 4221,
+      "first_seen": "Dark spiny tree-rat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "visionaries": {
+      "token_id": 2066,
+      "first_seen": "Vanguard Visionaries (Doc Watson album)",
+      "has_definition": true,
+      "definition": "Someone who has visions; a seer"
+    },
+    "astrofisica": {
+      "token_id": 7440,
+      "first_seen": "Tenerife Experiment",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cmb": {
+      "token_id": 942,
+      "first_seen": "Tenerife Experiment",
+      "has_definition": false,
+      "definition": ""
+    },
+    "canarias": {
+      "token_id": 2336,
+      "first_seen": "Tenerife Experiment",
+      "has_definition": false,
+      "definition": ""
+    },
+    "observatorio": {
+      "token_id": 5389,
+      "first_seen": "Tenerife Experiment",
+      "has_definition": false,
+      "definition": ""
+    },
+    "instituto": {
+      "token_id": 3770,
+      "first_seen": "Tenerife Experiment",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nuffield": {
+      "token_id": 2019,
+      "first_seen": "Tenerife Experiment",
+      "has_definition": false,
+      "definition": ""
+    },
+    "upgrades": {
+      "token_id": 7755,
+      "first_seen": "Tenerife Experiment",
+      "has_definition": true,
+      "definition": "An upward grade or slope."
+    },
+    "iac": {
+      "token_id": 623,
+      "first_seen": "Tenerife Experiment",
+      "has_definition": false,
+      "definition": ""
+    },
+    "microwave": {
+      "token_id": 5873,
+      "first_seen": "Tenerife Experiment",
+      "has_definition": true,
+      "definition": "An electromagnetic wave with wavelength between that of infrared light and radio waves."
+    },
+    "teide": {
+      "token_id": 4195,
+      "first_seen": "Tenerife Experiment",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jodrell": {
+      "token_id": 6529,
+      "first_seen": "Tenerife Experiment",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nordskov": {
+      "token_id": 1888,
+      "first_seen": "Kongeegen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jgerspris": {
+      "token_id": 696,
+      "first_seen": "Kongeegen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "storkeegen": {
+      "token_id": 2357,
+      "first_seen": "Kongeegen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kongeegen": {
+      "token_id": 7792,
+      "first_seen": "Kongeegen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sjlland": {
+      "token_id": 5102,
+      "first_seen": "Kongeegen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tree's": {
+      "token_id": 7961,
+      "first_seen": "Kongeegen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "snoegen": {
+      "token_id": 7213,
+      "first_seen": "Kongeegen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "prototyping": {
+      "token_id": 6132,
+      "first_seen": "Special Operations Logistics Squadron",
+      "has_definition": true,
+      "definition": "The rapid creation of prototypes of a new product for demonstration and research purposes"
+    },
+    "logistical": {
+      "token_id": 1216,
+      "first_seen": "Special Operations Logistics Squadron",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trades": {
+      "token_id": 2236,
+      "first_seen": "Special Operations Logistics Squadron",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fabrication": {
+      "token_id": 7200,
+      "first_seen": "Special Operations Logistics Squadron",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sols": {
+      "token_id": 849,
+      "first_seen": "Special Operations Logistics Squadron",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nekrasov": {
+      "token_id": 6001,
+      "first_seen": "Gravity (Zlata Ognevich song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zlata": {
+      "token_id": 2977,
+      "first_seen": "Gravity (Zlata Ognevich song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kavaleryan": {
+      "token_id": 7331,
+      "first_seen": "Gravity (Zlata Ognevich song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ognevich": {
+      "token_id": 5202,
+      "first_seen": "Gravity (Zlata Ognevich song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nicks": {
+      "token_id": 2609,
+      "first_seen": "Sara (Fleetwood Mac song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fleetwood": {
+      "token_id": 7508,
+      "first_seen": "Sara (Fleetwood Mac song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "demoed": {
+      "token_id": 6605,
+      "first_seen": "Sara (Fleetwood Mac song)",
+      "has_definition": true,
+      "definition": "To record a demo version of a song, usually not intended for commercial release."
+    },
+    "instrumentation": {
+      "token_id": 4067,
+      "first_seen": "Sara (Fleetwood Mac song)",
+      "has_definition": true,
+      "definition": "The act of using or adapting as an instrument; a series or combination of instruments"
+    },
+    "run-time": {
+      "token_id": 4354,
+      "first_seen": "Sara (Fleetwood Mac song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mardi": {
+      "token_id": 623,
+      "first_seen": "Half-Fast Walking Club",
+      "has_definition": false,
+      "definition": ""
+    },
+    "floats": {
+      "token_id": 6352,
+      "first_seen": "Half-Fast Walking Club",
+      "has_definition": false,
+      "definition": ""
+    },
+    "commander's": {
+      "token_id": 6288,
+      "first_seen": "Half-Fast Walking Club",
+      "has_definition": false,
+      "definition": ""
+    },
+    "half-fast": {
+      "token_id": 4147,
+      "first_seen": "Half-Fast Walking Club",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gras": {
+      "token_id": 887,
+      "first_seen": "Half-Fast Walking Club",
+      "has_definition": false,
+      "definition": ""
+    },
+    "interlude": {
+      "token_id": 7465,
+      "first_seen": "Half-Fast Walking Club",
+      "has_definition": false,
+      "definition": ""
+    },
+    "krewe": {
+      "token_id": 897,
+      "first_seen": "Half-Fast Walking Club",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brief": {
+      "token_id": 6567,
+      "first_seen": "Half-Fast Walking Club",
+      "has_definition": true,
+      "definition": "A writ summoning one to answer to any action."
+    },
+    "monteleone": {
+      "token_id": 1700,
+      "first_seen": "Half-Fast Walking Club",
+      "has_definition": false,
+      "definition": ""
+    },
+    "world-famous": {
+      "token_id": 6377,
+      "first_seen": "Half-Fast Walking Club",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bourbon": {
+      "token_id": 2755,
+      "first_seen": "Half-Fast Walking Club",
+      "has_definition": true,
+      "definition": "A whiskey distilled from a mixture of grains in which at least 51% is corn, aged in charred, new oak barrels. Made in the United States."
+    },
+    "krewe's": {
+      "token_id": 7006,
+      "first_seen": "Half-Fast Walking Club",
+      "has_definition": false,
+      "definition": ""
+    },
+    "strangest": {
+      "token_id": 7719,
+      "first_seen": "Moe Berg",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stengel": {
+      "token_id": 3653,
+      "first_seen": "Moe Berg",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brainiest": {
+      "token_id": 1762,
+      "first_seen": "Moe Berg",
+      "has_definition": true,
+      "definition": "Very intellectually capable."
+    },
+    "mlnkov": {
+      "token_id": 1626,
+      "first_seen": "Nat\u00e1lie Ml\u00fdnkov\u00e1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "natlie": {
+      "token_id": 3486,
+      "first_seen": "Nat\u00e1lie Ml\u00fdnkov\u00e1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "victoire": {
+      "token_id": 7194,
+      "first_seen": "Nat\u00e1lie Ml\u00fdnkov\u00e1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "decadent": {
+      "token_id": 4166,
+      "first_seen": "Stephen Tennant",
+      "has_definition": true,
+      "definition": "A person affected by moral decay."
+    },
+    "eccentric": {
+      "token_id": 4874,
+      "first_seen": "Stephen Tennant",
+      "has_definition": true,
+      "definition": "One who does not behave like others."
+    },
+    "tabloid": {
+      "token_id": 5552,
+      "first_seen": "Stephen Tennant",
+      "has_definition": true,
+      "definition": "A newspaper having pages half the dimensions of the standard format."
+    },
+    "demeanor": {
+      "token_id": 3947,
+      "first_seen": "Stephen Tennant",
+      "has_definition": true,
+      "definition": "The social, non-verbal behaviours (such as body language and facial expressions) that are characteristic of a person."
+    },
+    "theatercafen": {
+      "token_id": 4153,
+      "first_seen": "Theatercaf\u00e9en",
+      "has_definition": false,
+      "definition": ""
+    },
+    "america-rj": {
+      "token_id": 3673,
+      "first_seen": "Marcos Leandro",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lac-des-rouges-truites": {
+      "token_id": 7380,
+      "first_seen": "Lac-des-Rouges-Truites",
+      "has_definition": false,
+      "definition": ""
+    },
+    "truites": {
+      "token_id": 2817,
+      "first_seen": "Lac-des-Rouges-Truites",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rouges": {
+      "token_id": 591,
+      "first_seen": "Lac-des-Rouges-Truites",
+      "has_definition": false,
+      "definition": ""
+    },
+    "timo": {
+      "token_id": 7894,
+      "first_seen": "Timo Rose",
+      "has_definition": false,
+      "definition": ""
+    },
+    "filmworks": {
+      "token_id": 6401,
+      "first_seen": "Timo Rose",
+      "has_definition": false,
+      "definition": ""
+    },
+    "epinephelus": {
+      "token_id": 3649,
+      "first_seen": "Pseudorhabdosynochus malabaricus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "monogenean": {
+      "token_id": 6038,
+      "first_seen": "Pseudorhabdosynochus malabaricus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "diplectanid": {
+      "token_id": 2336,
+      "first_seen": "Pseudorhabdosynochus malabaricus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pseudorhabdosynochus": {
+      "token_id": 1884,
+      "first_seen": "Pseudorhabdosynochus malabaricus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "malabaricus": {
+      "token_id": 3153,
+      "first_seen": "Pseudorhabdosynochus malabaricus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grouper": {
+      "token_id": 1015,
+      "first_seen": "Pseudorhabdosynochus malabaricus",
+      "has_definition": true,
+      "definition": "Any of various large food and game fishes of the subfamily Epinephelinae, especially the genera Epinephelus and Mycteroperca, which inhabit warm seas."
+    },
+    "hctor": {
+      "token_id": 1482,
+      "first_seen": "Season Finale (H\u00e9ctor & Tito album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vi": {
+      "token_id": 179,
+      "first_seen": "Season Finale (H\u00e9ctor & Tito album)",
+      "has_definition": true,
+      "definition": "(grammar) Initialism of verb intransitive or intransitive verb (often in dictionaries)"
+    },
+    "machete": {
+      "token_id": 6144,
+      "first_seen": "Season Finale (H\u00e9ctor & Tito album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cdz": {
+      "token_id": 3919,
+      "first_seen": "Chief of Civil Administration",
+      "has_definition": false,
+      "definition": ""
+    },
+    "administer": {
+      "token_id": 6352,
+      "first_seen": "Chief of Civil Administration",
+      "has_definition": true,
+      "definition": "To cause to ingest (a drug), either by openly offering or through deceit."
+    },
+    "menispermaceae": {
+      "token_id": 2092,
+      "first_seen": "Hypserpa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hypserpa": {
+      "token_id": 2612,
+      "first_seen": "Hypserpa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sokol": {
+      "token_id": 1527,
+      "first_seen": "Sinfonietta (Jan\u00e1\u010dek)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sinfonietta": {
+      "token_id": 592,
+      "first_seen": "Sinfonietta (Jan\u00e1\u010dek)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vclav": {
+      "token_id": 1448,
+      "first_seen": "Sinfonietta (Jan\u00e1\u010dek)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "talich": {
+      "token_id": 6105,
+      "first_seen": "Sinfonietta (Jan\u00e1\u010dek)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fanfares": {
+      "token_id": 4837,
+      "first_seen": "Sinfonietta (Jan\u00e1\u010dek)",
+      "has_definition": true,
+      "definition": "A flourish of trumpets or horns as to announce; a short and lively air performed on hunting horns during the chase."
+    },
+    "janek": {
+      "token_id": 258,
+      "first_seen": "Sinfonietta (Jan\u00e1\u010dek)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gymnastic": {
+      "token_id": 4923,
+      "first_seen": "Sinfonietta (Jan\u00e1\u010dek)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kamrussamad": {
+      "token_id": 6588,
+      "first_seen": "Kamrussamad",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gerindra": {
+      "token_id": 41,
+      "first_seen": "Kamrussamad",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nogai": {
+      "token_id": 3532,
+      "first_seen": "Urusov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "urusovaouroussoff": {
+      "token_id": 7731,
+      "first_seen": "Urusov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "urusovouroussoff": {
+      "token_id": 6792,
+      "first_seen": "Urusov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "urusov": {
+      "token_id": 7092,
+      "first_seen": "Urusov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "birgin": {
+      "token_id": 922,
+      "first_seen": "Clare Birgin",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 4948,
-  "total_words": 30251
+  "total_articles": 4978,
+  "total_words": 30358
 }
