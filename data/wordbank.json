@@ -158129,8 +158129,938 @@
       "first_seen": "Sukhinichsky District",
       "has_definition": false,
       "definition": ""
+    },
+    "libreoffice": {
+      "token_id": 944,
+      "first_seen": "LibreOffice Calc",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spreadsheet": {
+      "token_id": 1698,
+      "first_seen": "LibreOffice Calc",
+      "has_definition": true,
+      "definition": "A sheet of paper, marked with a grid, in which financial data is recorded and totals calculated manually."
+    },
+    "calc": {
+      "token_id": 7616,
+      "first_seen": "LibreOffice Calc",
+      "has_definition": true,
+      "definition": "The act or process of calculating."
+    },
+    "computational": {
+      "token_id": 3960,
+      "first_seen": "Michal Linial",
+      "has_definition": false,
+      "definition": ""
+    },
+    "linial": {
+      "token_id": 5909,
+      "first_seen": "Michal Linial",
+      "has_definition": false,
+      "definition": ""
+    },
+    "michal": {
+      "token_id": 5631,
+      "first_seen": "Michal Linial",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bioinformatics": {
+      "token_id": 1912,
+      "first_seen": "Michal Linial",
+      "has_definition": true,
+      "definition": "A field of science in which biology, computer science, and information technology merge into a single discipline to analyse biological information using computers and statistical techniques."
+    },
+    "sudarsky": {
+      "token_id": 3534,
+      "first_seen": "Michal Linial",
+      "has_definition": false,
+      "definition": ""
+    },
+    "elixir-israel": {
+      "token_id": 2424,
+      "first_seen": "Michal Linial",
+      "has_definition": false,
+      "definition": ""
+    },
+    "biochemistry": {
+      "token_id": 5284,
+      "first_seen": "Michal Linial",
+      "has_definition": true,
+      "definition": "The chemistry of those compounds that occur in living organisms, and the processes that occur in their metabolism and catabolism"
+    },
+    "huji": {
+      "token_id": 6650,
+      "first_seen": "Michal Linial",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ushnisha": {
+      "token_id": 1413,
+      "first_seen": "Ushnisha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "protuberance": {
+      "token_id": 50,
+      "first_seen": "Ushnisha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "soy": {
+      "token_id": 7836,
+      "first_seen": "Da jiu-jia",
+      "has_definition": true,
+      "definition": "A common East Asian liquid sauce, made by subjecting boiled beans to long fermentation and then long digestion in salt and water."
+    },
+    "sauce": {
+      "token_id": 3683,
+      "first_seen": "Da jiu-jia",
+      "has_definition": true,
+      "definition": "A liquid (often thickened) condiment or accompaniment to food."
+    },
+    "jiu-jia": {
+      "token_id": 7300,
+      "first_seen": "Da jiu-jia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stir-fry": {
+      "token_id": 5302,
+      "first_seen": "Da jiu-jia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "erkuai": {
+      "token_id": 4891,
+      "first_seen": "Da jiu-jia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paired": {
+      "token_id": 1761,
+      "first_seen": "Da jiu-jia",
+      "has_definition": true,
+      "definition": "To group into one or more sets of two."
+    },
+    "slices": {
+      "token_id": 321,
+      "first_seen": "Da jiu-jia",
+      "has_definition": true,
+      "definition": "That which is thin and broad."
+    },
+    "ozaki": {
+      "token_id": 7961,
+      "first_seen": "Nonoka Ozaki",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nonoka": {
+      "token_id": 1215,
+      "first_seen": "Nonoka Ozaki",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flashes": {
+      "token_id": 4526,
+      "first_seen": "Jack Lambert (American football)",
+      "has_definition": true,
+      "definition": "A device that produces a short flash of light to help illuminate a scene, mostly for night-time or indoors photography."
+    },
+    "bowl-winning": {
+      "token_id": 4800,
+      "first_seen": "Jack Lambert (American football)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "allied-occupied": {
+      "token_id": 5200,
+      "first_seen": "Robert T. Frederick",
+      "has_definition": false,
+      "definition": ""
+    },
+    "devil's": {
+      "token_id": 4724,
+      "first_seen": "Robert T. Frederick",
+      "has_definition": false,
+      "definition": ""
+    },
+    "division-sized": {
+      "token_id": 3080,
+      "first_seen": "Robert T. Frederick",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dragoon": {
+      "token_id": 5686,
+      "first_seen": "Robert T. Frederick",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hoc": {
+      "token_id": 2595,
+      "first_seen": "Robert T. Frederick",
+      "has_definition": false,
+      "definition": ""
+    },
+    "addenbrooke's": {
+      "token_id": 2549,
+      "first_seen": "School of Clinical Medicine, University of Cambridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arboreal": {
+      "token_id": 7087,
+      "first_seen": "Brazilian arboreal mouse",
+      "has_definition": true,
+      "definition": "Any tree-dwelling creature."
+    },
+    "spines": {
+      "token_id": 1253,
+      "first_seen": "Brazilian arboreal mouse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "longilingua": {
+      "token_id": 1808,
+      "first_seen": "Brazilian arboreal mouse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "deforestation": {
+      "token_id": 1669,
+      "first_seen": "Brazilian arboreal mouse",
+      "has_definition": true,
+      "definition": "The process of destroying a forest and replacing it with something else, especially with an agricultural system."
+    },
+    "threatens": {
+      "token_id": 4386,
+      "first_seen": "Brazilian arboreal mouse",
+      "has_definition": true,
+      "definition": "To make a threat against someone; to use threats."
+    },
+    "sightings": {
+      "token_id": 4172,
+      "first_seen": "Brazilian arboreal mouse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "assessed": {
+      "token_id": 4185,
+      "first_seen": "Brazilian arboreal mouse",
+      "has_definition": true,
+      "definition": "To determine, estimate or judge the value of; to evaluate"
+    },
+    "thickets": {
+      "token_id": 7723,
+      "first_seen": "Brazilian arboreal mouse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rhagomys": {
+      "token_id": 6297,
+      "first_seen": "Brazilian arboreal mouse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cricetidae": {
+      "token_id": 7460,
+      "first_seen": "Brazilian arboreal mouse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vulnerable": {
+      "token_id": 1530,
+      "first_seen": "Brazilian arboreal mouse",
+      "has_definition": true,
+      "definition": "More or most likely to be exposed to the chance of being attacked or harmed, either physically or emotionally."
+    },
+    "telaprevir": {
+      "token_id": 2902,
+      "first_seen": "Joshua Boger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alkeus": {
+      "token_id": 2552,
+      "first_seen": "Joshua Boger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kalydeco": {
+      "token_id": 2403,
+      "first_seen": "Joshua Boger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boger": {
+      "token_id": 1492,
+      "first_seen": "Joshua Boger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "structure-based": {
+      "token_id": 5273,
+      "first_seen": "Joshua Boger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "protease": {
+      "token_id": 4075,
+      "first_seen": "Joshua Boger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fibrosis": {
+      "token_id": 5602,
+      "first_seen": "Joshua Boger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vertex": {
+      "token_id": 7971,
+      "first_seen": "Joshua Boger",
+      "has_definition": true,
+      "definition": "The highest point of something."
+    },
+    "cystic": {
+      "token_id": 2870,
+      "first_seen": "Joshua Boger",
+      "has_definition": true,
+      "definition": "Of or pertaining to a cyst."
+    },
+    "amprenavir": {
+      "token_id": 4613,
+      "first_seen": "Joshua Boger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inspiring": {
+      "token_id": 2572,
+      "first_seen": "Jacob Two-Two Meets the Hooded Fang (1978 film)",
+      "has_definition": true,
+      "definition": "To infuse into the mind; to communicate to the spirit; to convey, as by a divine or supernatural influence; to disclose preternaturally; to produce in, as by inspiration."
+    },
+    "two-two": {
+      "token_id": 4858,
+      "first_seen": "Jacob Two-Two Meets the Hooded Fang (1978 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "richler's": {
+      "token_id": 2209,
+      "first_seen": "Jacob Two-Two Meets the Hooded Fang (1978 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mordecai": {
+      "token_id": 4927,
+      "first_seen": "Jacob Two-Two Meets the Hooded Fang (1978 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sc": {
+      "token_id": 4132,
+      "first_seen": "South Carolina Highway 262",
+      "has_definition": true,
+      "definition": "Capital letters shown in the same form but in small size (typically of the same size as lower-case letters)."
+    },
+    "azerbaijani": {
+      "token_id": 3349,
+      "first_seen": "Telman Zeynalov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "heydar": {
+      "token_id": 4048,
+      "first_seen": "Telman Zeynalov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "telman": {
+      "token_id": 5135,
+      "first_seen": "Telman Zeynalov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "humay": {
+      "token_id": 4596,
+      "first_seen": "Telman Zeynalov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zeynalov": {
+      "token_id": 325,
+      "first_seen": "Telman Zeynalov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pensioner": {
+      "token_id": 6701,
+      "first_seen": "Telman Zeynalov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oghlu": {
+      "token_id": 402,
+      "first_seen": "Telman Zeynalov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neapolitan": {
+      "token_id": 1077,
+      "first_seen": "Italian wedding soup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "meatballs": {
+      "token_id": 1418,
+      "first_seen": "Italian wedding soup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "diners": {
+      "token_id": 4689,
+      "first_seen": "Italian wedding soup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "minestra": {
+      "token_id": 5022,
+      "first_seen": "Italian wedding soup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "italian-american": {
+      "token_id": 5378,
+      "first_seen": "Italian wedding soup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "broth": {
+      "token_id": 1468,
+      "first_seen": "Italian wedding soup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "maritata": {
+      "token_id": 3261,
+      "first_seen": "Italian wedding soup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "soups": {
+      "token_id": 4658,
+      "first_seen": "Italian wedding soup",
+      "has_definition": false,
+      "definition": ""
+    },
+    "condominium": {
+      "token_id": 2619,
+      "first_seen": "1049 Fifth Avenue",
+      "has_definition": true,
+      "definition": "Joint sovereignty over a territory by two or more countries."
+    },
+    "highest-priced": {
+      "token_id": 6932,
+      "first_seen": "1049 Fifth Avenue",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hieronymus": {
+      "token_id": 1587,
+      "first_seen": "Johann Hieronymus Chemnitz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "helsingr": {
+      "token_id": 3035,
+      "first_seen": "Johann Hieronymus Chemnitz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "conchologist": {
+      "token_id": 4594,
+      "first_seen": "Johann Hieronymus Chemnitz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "magdeburg": {
+      "token_id": 1545,
+      "first_seen": "Johann Hieronymus Chemnitz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chemnitz": {
+      "token_id": 5780,
+      "first_seen": "Johann Hieronymus Chemnitz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "quad-flat": {
+      "token_id": 1329,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "array": {
+      "token_id": 1432,
+      "first_seen": "Flat no-leads package",
+      "has_definition": true,
+      "definition": "Clothing and ornamentation."
+    },
+    "pad": {
+      "token_id": 798,
+      "first_seen": "Flat no-leads package",
+      "has_definition": true,
+      "definition": "A flattened mass of anything soft, to sit or lie on."
+    },
+    "electrically": {
+      "token_id": 7335,
+      "first_seen": "Flat no-leads package",
+      "has_definition": true,
+      "definition": "In an electric manner; by means of electricity."
+    },
+    "connect": {
+      "token_id": 600,
+      "first_seen": "Flat no-leads package",
+      "has_definition": true,
+      "definition": "(of an object) To join (to another object): to attach, or to be intended to attach or capable of attaching, to another object."
+    },
+    "no-lead": {
+      "token_id": 4040,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "through-holes": {
+      "token_id": 4165,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "qfp": {
+      "token_id": 468,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vias": {
+      "token_id": 2170,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "perimeter": {
+      "token_id": 2492,
+      "first_seen": "Flat no-leads package",
+      "has_definition": true,
+      "definition": "The sum of the distance of all the lengths of the sides of an object."
+    },
+    "pcbs": {
+      "token_id": 1091,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "qfn": {
+      "token_id": 148,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "encapsulated": {
+      "token_id": 132,
+      "first_seen": "Flat no-leads package",
+      "has_definition": true,
+      "definition": "To enclose something as if in a capsule."
+    },
+    "pcb": {
+      "token_id": 2258,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thermally": {
+      "token_id": 4674,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ics": {
+      "token_id": 4497,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "surface-mount": {
+      "token_id": 5931,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "package": {
+      "token_id": 2727,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dfn": {
+      "token_id": 1503,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "physically": {
+      "token_id": 121,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leadframe": {
+      "token_id": 49,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "facilitated": {
+      "token_id": 3772,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dual-flat": {
+      "token_id": 116,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mlf": {
+      "token_id": 79,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chip": {
+      "token_id": 956,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ic": {
+      "token_id": 668,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "no-leads": {
+      "token_id": 3183,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "circuits": {
+      "token_id": 4323,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bga": {
+      "token_id": 5153,
+      "first_seen": "Flat no-leads package",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iheartmedia": {
+      "token_id": 1926,
+      "first_seen": "WQGA",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ihm": {
+      "token_id": 2664,
+      "first_seen": "WQGA",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wqga": {
+      "token_id": 5175,
+      "first_seen": "WQGA",
+      "has_definition": false,
+      "definition": ""
+    },
+    "waycross": {
+      "token_id": 737,
+      "first_seen": "WQGA",
+      "has_definition": false,
+      "definition": ""
+    },
+    "licenses": {
+      "token_id": 6830,
+      "first_seen": "WQGA",
+      "has_definition": true,
+      "definition": "A legal document giving official permission to do something; a permit."
+    },
+    "icons": {
+      "token_id": 5995,
+      "first_seen": "First Church of Christ, Scientist (Mason City, Iowa)",
+      "has_definition": true,
+      "definition": "An image, symbol, picture, or other representation usually as an object of religious devotion."
+    },
+    "reflects": {
+      "token_id": 7721,
+      "first_seen": "First Church of Christ, Scientist (Mason City, Iowa)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nrhp": {
+      "token_id": 6964,
+      "first_seen": "First Church of Christ, Scientist (Mason City, Iowa)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eclecticism": {
+      "token_id": 4631,
+      "first_seen": "First Church of Christ, Scientist (Mason City, Iowa)",
+      "has_definition": true,
+      "definition": "The quality of being eclectic"
+    },
+    "n.w": {
+      "token_id": 2726,
+      "first_seen": "First Church of Christ, Scientist (Mason City, Iowa)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "propensity": {
+      "token_id": 6338,
+      "first_seen": "First Church of Christ, Scientist (Mason City, Iowa)",
+      "has_definition": true,
+      "definition": "An inclination, disposition, tendency, preference, or attraction."
+    },
+    "symbols": {
+      "token_id": 6209,
+      "first_seen": "First Church of Christ, Scientist (Mason City, Iowa)",
+      "has_definition": true,
+      "definition": "A character or glyph representing an idea, concept or object."
+    },
+    "southward": {
+      "token_id": 2026,
+      "first_seen": "Sobral Peninsula",
+      "has_definition": true,
+      "definition": "The direction or area lying to the south of a place."
+    },
+    "sobral": {
+      "token_id": 5633,
+      "first_seen": "Sobral Peninsula",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ice-covered": {
+      "token_id": 3658,
+      "first_seen": "Sobral Peninsula",
+      "has_definition": true,
+      "definition": "Covered with a layer of ice, e.g. water; frozen over"
+    },
+    "inlet": {
+      "token_id": 2833,
+      "first_seen": "Sobral Peninsula",
+      "has_definition": true,
+      "definition": "To let in; admit."
+    },
+    "pakham": {
+      "token_id": 6113,
+      "first_seen": "Pakham district",
+      "has_definition": false,
+      "definition": ""
+    },
+    "buriram": {
+      "token_id": 5507,
+      "first_seen": "Pakham district",
+      "has_definition": false,
+      "definition": ""
+    },
+    "long-time": {
+      "token_id": 2806,
+      "first_seen": "William O'Shea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ex-husband": {
+      "token_id": 1678,
+      "first_seen": "William O'Shea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "parnell": {
+      "token_id": 5565,
+      "first_seen": "William O'Shea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "o'shea": {
+      "token_id": 7440,
+      "first_seen": "William O'Shea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mrgrim": {
+      "token_id": 4870,
+      "first_seen": "Alan Schaaf",
+      "has_definition": false,
+      "definition": ""
+    },
+    "imgur": {
+      "token_id": 7089,
+      "first_seen": "Alan Schaaf",
+      "has_definition": false,
+      "definition": ""
+    },
+    "schaaf": {
+      "token_id": 4005,
+      "first_seen": "Alan Schaaf",
+      "has_definition": false,
+      "definition": ""
+    },
+    "berdn": {
+      "token_id": 1760,
+      "first_seen": "Bini\u00e9s",
+      "has_definition": false,
+      "definition": ""
+    },
+    "binis": {
+      "token_id": 5432,
+      "first_seen": "Bini\u00e9s",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gullikson": {
+      "token_id": 7576,
+      "first_seen": "Tim Gullikson",
+      "has_definition": false,
+      "definition": ""
+    },
+    "onalaska": {
+      "token_id": 7390,
+      "first_seen": "Tim Gullikson",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grevillea": {
+      "token_id": 4168,
+      "first_seen": "Grevillea hodgei",
+      "has_definition": true,
+      "definition": "Any of many Australian shrubs and trees of the genus Grevillea."
+    },
+    "coochin": {
+      "token_id": 3655,
+      "first_seen": "Grevillea hodgei",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leaflets": {
+      "token_id": 5601,
+      "first_seen": "Grevillea hodgei",
+      "has_definition": true,
+      "definition": "One of the components of a compound leaf."
+    },
+    "hodgei": {
+      "token_id": 3825,
+      "first_seen": "Grevillea hodgei",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cream-coloured": {
+      "token_id": 6030,
+      "first_seen": "Grevillea hodgei",
+      "has_definition": false,
+      "definition": ""
+    },
+    "north-northwest": {
+      "token_id": 3006,
+      "first_seen": "Fogo Island Radar Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "radar": {
+      "token_id": 5348,
+      "first_seen": "Fogo Island Radar Station",
+      "has_definition": true,
+      "definition": "A method of detecting distant objects and determining their position, velocity, or other characteristics by analysis of sent radio waves (usually microwaves) reflected from their surfaces"
+    },
+    "dominion": {
+      "token_id": 4497,
+      "first_seen": "Fogo Island Radar Station",
+      "has_definition": true,
+      "definition": "Power or the use of power; sovereignty over something; stewardship, supremacy."
+    },
+    "goose": {
+      "token_id": 1329,
+      "first_seen": "Fogo Island Radar Station",
+      "has_definition": true,
+      "definition": "Any of various grazing waterfowl of the family Anatidae, which have feathers and webbed feet and are capable of flying, swimming, and walking on land, and which are bigger than ducks."
+    },
+    "fogo": {
+      "token_id": 1338,
+      "first_seen": "Fogo Island Radar Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gander": {
+      "token_id": 1631,
+      "first_seen": "Fogo Island Radar Station",
+      "has_definition": true,
+      "definition": "A male goose."
+    },
+    "vaikuntanatha": {
+      "token_id": 7257,
+      "first_seen": "Vaikuntanatha Temple, Therani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vishnu": {
+      "token_id": 2047,
+      "first_seen": "Vaikuntanatha Temple, Therani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vaishnavite": {
+      "token_id": 1507,
+      "first_seen": "Vaikuntanatha Temple, Therani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "therani": {
+      "token_id": 1429,
+      "first_seen": "Vaikuntanatha Temple, Therani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "swamy": {
+      "token_id": 4114,
+      "first_seen": "Vaikuntanatha Temple, Therani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nagari": {
+      "token_id": 3742,
+      "first_seen": "Vaikuntanatha Temple, Therani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chittoor": {
+      "token_id": 24,
+      "first_seen": "Vaikuntanatha Temple, Therani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kushasthali": {
+      "token_id": 297,
+      "first_seen": "Vaikuntanatha Temple, Therani",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 4138,
-  "total_words": 26355
+  "total_articles": 4168,
+  "total_words": 26510
 }
