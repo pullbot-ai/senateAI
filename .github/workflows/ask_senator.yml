@@ -20,16 +20,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Clean disk space
-        run: |
-          sudo rm -rf /usr/share/dotnet
-          sudo rm -rf /usr/local/lib/android
-          sudo rm -rf /opt/ghc
-          sudo rm -rf /usr/local/.ghcup
-          sudo rm -rf /usr/local/share/powershell
-          sudo rm -rf /usr/local/share/chromium
-          sudo apt-get clean
-      
       - name: Get senator's bundle ID
         id: bundle
         run: |
@@ -67,7 +57,7 @@ jobs:
       - name: Ask senator
         run: |
           cat > ask_senator.py << 'EOF'
-          import sys, json
+          import sys, json, torch
           sys.path.insert(0, 'src')
           from model_template import SenateBundle
           from wordbank import get_wordbank
@@ -96,7 +86,6 @@ jobs:
           tokens = wordbank.tokenize(question, max_len=32)
           input_ids = torch.tensor([tokens])
           
-          import torch
           with torch.no_grad():
               generated = []
               current = input_ids
@@ -128,7 +117,6 @@ jobs:
           print(f'ANSWER: {answer}')
           print()
           
-          # Show performance
           performance = senator.performance
           if performance:
               print('Performance:')
