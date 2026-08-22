@@ -168773,8 +168773,788 @@
       "first_seen": "Photo District News",
       "has_definition": true,
       "definition": "One who takes photographs, typically as an occupation."
+    },
+    "stardust": {
+      "token_id": 3007,
+      "first_seen": "Honky-Tonk Stardust Cowboy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "honky-tonk": {
+      "token_id": 5421,
+      "first_seen": "Honky-Tonk Stardust Cowboy",
+      "has_definition": true,
+      "definition": "A bar or nightclub that caters to Southern patrons and provides country music for entertainment."
+    },
+    "tanya": {
+      "token_id": 6532,
+      "first_seen": "Tanya Beckett",
+      "has_definition": false,
+      "definition": ""
+    },
+    "amprey": {
+      "token_id": 5483,
+      "first_seen": "Marlon Amprey",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marlon": {
+      "token_id": 4410,
+      "first_seen": "Marlon Amprey",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sulemanabad": {
+      "token_id": 5296,
+      "first_seen": "Sulemanabad railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "attock": {
+      "token_id": 2256,
+      "first_seen": "Sulemanabad railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cta": {
+      "token_id": 1657,
+      "first_seen": "Berlin Wall Monument (Chicago)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "enclave": {
+      "token_id": 2080,
+      "first_seen": "Berlin Wall Monument (Chicago)",
+      "has_definition": true,
+      "definition": "A political, cultural or social entity or part thereof that is completely surrounded by another."
+    },
+    "plaque": {
+      "token_id": 4439,
+      "first_seen": "Berlin Wall Monument (Chicago)",
+      "has_definition": true,
+      "definition": "Any flat, thin piece of clay, ivory, metal, etc., used for ornament, or for painting pictures upon, as a dish, plate, slab, etc., hung upon a wall; also, a smaller decoration worn by a person, such as a brooch."
+    },
+    "ideological": {
+      "token_id": 3360,
+      "first_seen": "Berlin Wall Monument (Chicago)",
+      "has_definition": true,
+      "definition": "Of or pertaining to an ideology."
+    },
+    "exhibit": {
+      "token_id": 7447,
+      "first_seen": "Berlin Wall Monument (Chicago)",
+      "has_definition": true,
+      "definition": "An instance of exhibiting."
+    },
+    "german-american": {
+      "token_id": 3690,
+      "first_seen": "Berlin Wall Monument (Chicago)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "scorpions": {
+      "token_id": 4294,
+      "first_seen": "Mastigoproctus tohono",
+      "has_definition": true,
+      "definition": "Any of various arachnids of the order Scorpiones, related to the spiders, characterised by two large front pincers and a curved tail with a venomous sting in the end."
+    },
+    "huachuca": {
+      "token_id": 3288,
+      "first_seen": "Mastigoproctus tohono",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chiricahua": {
+      "token_id": 4537,
+      "first_seen": "Mastigoproctus tohono",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vinegaroon": {
+      "token_id": 354,
+      "first_seen": "Mastigoproctus tohono",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tohono": {
+      "token_id": 3383,
+      "first_seen": "Mastigoproctus tohono",
+      "has_definition": false,
+      "definition": ""
+    },
+    "whipscorpion": {
+      "token_id": 5731,
+      "first_seen": "Mastigoproctus tohono",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cochise": {
+      "token_id": 782,
+      "first_seen": "Mastigoproctus tohono",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mastigoproctus": {
+      "token_id": 3890,
+      "first_seen": "Mastigoproctus tohono",
+      "has_definition": false,
+      "definition": ""
+    },
+    "uropygi": {
+      "token_id": 1869,
+      "first_seen": "Mastigoproctus tohono",
+      "has_definition": false,
+      "definition": ""
+    },
+    "timor-leste": {
+      "token_id": 331,
+      "first_seen": "Minister of Petroleum and Minerals (Timor-Leste)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "khimki": {
+      "token_id": 4417,
+      "first_seen": "Aleksandr Alkhazov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aleksandr": {
+      "token_id": 3321,
+      "first_seen": "Aleksandr Alkhazov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alkhazov": {
+      "token_id": 4867,
+      "first_seen": "Aleksandr Alkhazov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nikolayevich": {
+      "token_id": 6837,
+      "first_seen": "Aleksandr Alkhazov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "une": {
+      "token_id": 3584,
+      "first_seen": "Notre-Dame, une fin d'apr\u00e8s-midi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "notre-dame": {
+      "token_id": 519,
+      "first_seen": "Notre-Dame, une fin d'apr\u00e8s-midi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "somber": {
+      "token_id": 6619,
+      "first_seen": "Notre-Dame, une fin d'apr\u00e8s-midi",
+      "has_definition": true,
+      "definition": "To make sombre or dark; to make shady."
+    },
+    "d'aprs-midi": {
+      "token_id": 6460,
+      "first_seen": "Notre-Dame, une fin d'apr\u00e8s-midi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coloration": {
+      "token_id": 2687,
+      "first_seen": "Notre-Dame, une fin d'apr\u00e8s-midi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dolla": {
+      "token_id": 4666,
+      "first_seen": "Tantra (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "minaj": {
+      "token_id": 1573,
+      "first_seen": "Tantra (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "robby": {
+      "token_id": 5056,
+      "first_seen": "Tantra (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tantra": {
+      "token_id": 5907,
+      "first_seen": "Tantra (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "preme": {
+      "token_id": 1388,
+      "first_seen": "Tantra (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "daye": {
+      "token_id": 7707,
+      "first_seen": "Tantra (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hale": {
+      "token_id": 5503,
+      "first_seen": "Tantra (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yung": {
+      "token_id": 120,
+      "first_seen": "Tantra (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ne-yo": {
+      "token_id": 6621,
+      "first_seen": "Tantra (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ty": {
+      "token_id": 1563,
+      "first_seen": "Tantra (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "teldrick": {
+      "token_id": 5241,
+      "first_seen": "Tantra (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "synco": {
+      "token_id": 4298,
+      "first_seen": "Tantra (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fivio": {
+      "token_id": 62,
+      "first_seen": "Tantra (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "murda": {
+      "token_id": 6656,
+      "first_seen": "Tantra (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zayn": {
+      "token_id": 2173,
+      "first_seen": "Tantra (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jarosaw": {
+      "token_id": 1399,
+      "first_seen": "Jaros\u0142aw Kr\u00f3lewski",
+      "has_definition": false,
+      "definition": ""
+    },
+    "synerise": {
+      "token_id": 3209,
+      "first_seen": "Jaros\u0142aw Kr\u00f3lewski",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wisa": {
+      "token_id": 5181,
+      "first_seen": "Jaros\u0142aw Kr\u00f3lewski",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tusk": {
+      "token_id": 3209,
+      "first_seen": "Jaros\u0142aw Kr\u00f3lewski",
+      "has_definition": false,
+      "definition": ""
+    },
+    "krakow": {
+      "token_id": 307,
+      "first_seen": "Jaros\u0142aw Kr\u00f3lewski",
+      "has_definition": false,
+      "definition": ""
+    },
+    "agh": {
+      "token_id": 7290,
+      "first_seen": "Jaros\u0142aw Kr\u00f3lewski",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nawrocki": {
+      "token_id": 6085,
+      "first_seen": "Jaros\u0142aw Kr\u00f3lewski",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stakeholder": {
+      "token_id": 2158,
+      "first_seen": "Jaros\u0142aw Kr\u00f3lewski",
+      "has_definition": false,
+      "definition": ""
+    },
+    "krlewski": {
+      "token_id": 4991,
+      "first_seen": "Jaros\u0142aw Kr\u00f3lewski",
+      "has_definition": false,
+      "definition": ""
+    },
+    "haczowa": {
+      "token_id": 4844,
+      "first_seen": "Jaros\u0142aw Kr\u00f3lewski",
+      "has_definition": false,
+      "definition": ""
+    },
+    "talley": {
+      "token_id": 6410,
+      "first_seen": "Rise Up (Cain album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pardo": {
+      "token_id": 3065,
+      "first_seen": "Rise Up (Cain album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mohilowski": {
+      "token_id": 3576,
+      "first_seen": "Rise Up (Cain album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "provident": {
+      "token_id": 4663,
+      "first_seen": "Rise Up (Cain album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seth": {
+      "token_id": 463,
+      "first_seen": "Rise Up (Cain album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "schwarz": {
+      "token_id": 1995,
+      "first_seen": "Rise Up (Cain album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "op": {
+      "token_id": 6328,
+      "first_seen": "Bagatelles, Op. 126 (Beethoven)",
+      "has_definition": true,
+      "definition": "An operation."
+    },
+    "bagatelles": {
+      "token_id": 4778,
+      "first_seen": "Bagatelles, Op. 126 (Beethoven)",
+      "has_definition": true,
+      "definition": "A trifle; an insubstantial thing."
+    },
+    "schott": {
+      "token_id": 558,
+      "first_seen": "Bagatelles, Op. 126 (Beethoven)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "woodrush": {
+      "token_id": 1746,
+      "first_seen": "Luzula alpinopilosa",
+      "has_definition": true,
+      "definition": "Any of several perennial flowering plants, of the genus Luzula, that have grass-like leaves."
+    },
+    "alpinopilosa": {
+      "token_id": 3530,
+      "first_seen": "Luzula alpinopilosa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "juncaceae": {
+      "token_id": 105,
+      "first_seen": "Luzula alpinopilosa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "luzula": {
+      "token_id": 646,
+      "first_seen": "Luzula alpinopilosa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yarjani": {
+      "token_id": 619,
+      "first_seen": "Yarjani Expressway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "navvab": {
+      "token_id": 1235,
+      "first_seen": "Yarjani Expressway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tondguyan": {
+      "token_id": 6682,
+      "first_seen": "Yarjani Expressway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "morghi": {
+      "token_id": 432,
+      "first_seen": "Yarjani Expressway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "qale": {
+      "token_id": 334,
+      "first_seen": "Yarjani Expressway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "viridana": {
+      "token_id": 591,
+      "first_seen": "Tortrix viridana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leafroller": {
+      "token_id": 1311,
+      "first_seen": "Tortrix viridana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lightly": {
+      "token_id": 2599,
+      "first_seen": "Tortrix viridana",
+      "has_definition": true,
+      "definition": "In a light manner."
+    },
+    "larvae": {
+      "token_id": 6866,
+      "first_seen": "Tortrix viridana",
+      "has_definition": true,
+      "definition": "An early stage of growth for some insects and amphibians, in which after hatching from their egg, insects are wingless and resemble a caterpillar or grub, and amphibians lack limbs and resemble fish."
+    },
+    "forebody": {
+      "token_id": 4653,
+      "first_seen": "Tortrix viridana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hind": {
+      "token_id": 4813,
+      "first_seen": "Tortrix viridana",
+      "has_definition": true,
+      "definition": "Located at the rear (most often said of animals' body parts)."
+    },
+    "millimetres": {
+      "token_id": 846,
+      "first_seen": "Tortrix viridana",
+      "has_definition": true,
+      "definition": "An SI/MKS unit of measure, the length of 1/1000 of a metre. Symbol: mm"
+    },
+    "leases": {
+      "token_id": 7449,
+      "first_seen": "Alexander Robert Richardson",
+      "has_definition": true,
+      "definition": "(chiefly dialectal) To gather."
+    },
+    "pastoral": {
+      "token_id": 3903,
+      "first_seen": "Alexander Robert Richardson",
+      "has_definition": true,
+      "definition": "A poem describing the life and manners of shepherds; a poem in which the speakers assume the character of shepherds; an idyll; a bucolic."
+    },
+    "dezs": {
+      "token_id": 2150,
+      "first_seen": "Daughter of Darkness (1990 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "made-for-television": {
+      "token_id": 4942,
+      "first_seen": "Daughter of Darkness (1990 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "garas": {
+      "token_id": 1770,
+      "first_seen": "Daughter of Darkness (1990 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "narasimhini": {
+      "token_id": 2100,
+      "first_seen": "Pratyangira",
+      "has_definition": false,
+      "definition": ""
+    },
+    "goddesses": {
+      "token_id": 1623,
+      "first_seen": "Pratyangira",
+      "has_definition": true,
+      "definition": "A female deity."
+    },
+    "venerated": {
+      "token_id": 4075,
+      "first_seen": "Pratyangira",
+      "has_definition": true,
+      "definition": "To treat with great respect and deference."
+    },
+    "shakti": {
+      "token_id": 3713,
+      "first_seen": "Pratyangira",
+      "has_definition": true,
+      "definition": "The divine force that pervades the universe."
+    },
+    "narasimha": {
+      "token_id": 133,
+      "first_seen": "Pratyangira",
+      "has_definition": false,
+      "definition": ""
+    },
+    "matrikas": {
+      "token_id": 5839,
+      "first_seen": "Pratyangira",
+      "has_definition": false,
+      "definition": ""
+    },
+    "atharvana": {
+      "token_id": 2748,
+      "first_seen": "Pratyangira",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nikumbhila": {
+      "token_id": 4038,
+      "first_seen": "Pratyangira",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bhadrakali": {
+      "token_id": 7619,
+      "first_seen": "Pratyangira",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pratyangira": {
+      "token_id": 4623,
+      "first_seen": "Pratyangira",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shakta": {
+      "token_id": 4736,
+      "first_seen": "Pratyangira",
+      "has_definition": false,
+      "definition": ""
+    },
+    "glaize": {
+      "token_id": 385,
+      "first_seen": "The Gallic Women: Episode from the Roman Invasion",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gallic": {
+      "token_id": 887,
+      "first_seen": "The Gallic Women: Episode from the Roman Invasion",
+      "has_definition": false,
+      "definition": ""
+    },
+    "auguste-barthlemy": {
+      "token_id": 5291,
+      "first_seen": "The Gallic Women: Episode from the Roman Invasion",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dupa": {
+      "token_id": 359,
+      "first_seen": "Dupa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "montignies-sur-sambre": {
+      "token_id": 7462,
+      "first_seen": "Dupa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cubitus": {
+      "token_id": 4064,
+      "first_seen": "Dupa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ottignies": {
+      "token_id": 7097,
+      "first_seen": "Dupa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wowser": {
+      "token_id": 4617,
+      "first_seen": "Dupa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dupanloup": {
+      "token_id": 6985,
+      "first_seen": "Dupa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "armenia": {
+      "token_id": 6044,
+      "first_seen": "Verin Karmiraghbyur",
+      "has_definition": false,
+      "definition": ""
+    },
+    "berd": {
+      "token_id": 7442,
+      "first_seen": "Verin Karmiraghbyur",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tavush": {
+      "token_id": 3495,
+      "first_seen": "Verin Karmiraghbyur",
+      "has_definition": false,
+      "definition": ""
+    },
+    "verin": {
+      "token_id": 4358,
+      "first_seen": "Verin Karmiraghbyur",
+      "has_definition": false,
+      "definition": ""
+    },
+    "karmiraghbyur": {
+      "token_id": 5640,
+      "first_seen": "Verin Karmiraghbyur",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fragile": {
+      "token_id": 4729,
+      "first_seen": "We're in This Together (Nine Inch Nails song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "we're": {
+      "token_id": 3212,
+      "first_seen": "We're in This Together (Nine Inch Nails song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "three-disc": {
+      "token_id": 3284,
+      "first_seen": "We're in This Together (Nine Inch Nails song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "built-in": {
+      "token_id": 878,
+      "first_seen": "Thomson MO6",
+      "has_definition": false,
+      "definition": ""
+    },
+    "compatibility": {
+      "token_id": 7794,
+      "first_seen": "Thomson MO6",
+      "has_definition": false,
+      "definition": ""
+    },
+    "e-based": {
+      "token_id": 7482,
+      "first_seen": "Thomson MO6",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kb": {
+      "token_id": 4929,
+      "first_seen": "Thomson MO6",
+      "has_definition": false,
+      "definition": ""
+    },
+    "camellia": {
+      "token_id": 2966,
+      "first_seen": "Camellia Line",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hakata": {
+      "token_id": 6729,
+      "first_seen": "Camellia Line",
+      "has_definition": false,
+      "definition": ""
+    },
+    "koryo": {
+      "token_id": 3288,
+      "first_seen": "Camellia Line",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nyk": {
+      "token_id": 6794,
+      "first_seen": "Camellia Line",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nigrivenosus": {
+      "token_id": 4462,
+      "first_seen": "Anomoeotes nigrivenosus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anomoeotes": {
+      "token_id": 1147,
+      "first_seen": "Anomoeotes nigrivenosus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anomoeotidae": {
+      "token_id": 5930,
+      "first_seen": "Anomoeotes nigrivenosus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bargate": {
+      "token_id": 4506,
+      "first_seen": "All Saints' Church, Southampton",
+      "has_definition": false,
+      "definition": ""
+    },
+    "disneyland": {
+      "token_id": 7949,
+      "first_seen": "Celebrate the Magic",
+      "has_definition": false,
+      "definition": ""
+    },
+    "celebrate": {
+      "token_id": 2132,
+      "first_seen": "Celebrate the Magic",
+      "has_definition": true,
+      "definition": "To extol or honour in a solemn manner."
+    },
+    "nighttime": {
+      "token_id": 202,
+      "first_seen": "Celebrate the Magic",
+      "has_definition": true,
+      "definition": "The hours of darkness between sunset and sunrise; the night."
     }
   },
-  "total_articles": 4498,
-  "total_words": 28129
+  "total_articles": 4528,
+  "total_words": 28259
 }
