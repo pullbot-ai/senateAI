@@ -178937,8 +178937,896 @@
       "first_seen": "Siesta (album)",
       "has_definition": false,
       "definition": ""
+    },
+    "developers": {
+      "token_id": 1717,
+      "first_seen": "Poole and Hunt Company Buildings",
+      "has_definition": false,
+      "definition": ""
+    },
+    "woodberry": {
+      "token_id": 888,
+      "first_seen": "Poole and Hunt Company Buildings",
+      "has_definition": false,
+      "definition": ""
+    },
+    "foundry": {
+      "token_id": 4799,
+      "first_seen": "Poole and Hunt Company Buildings",
+      "has_definition": true,
+      "definition": "A facility that melts metals in special furnaces and pours the molten metal into molds to make products. Foundries are usually specified according to the type of metal dealt with: iron foundry, brass foundry, etc."
+    },
+    "blacksmith": {
+      "token_id": 7291,
+      "first_seen": "Poole and Hunt Company Buildings",
+      "has_definition": true,
+      "definition": "A person who forges iron."
+    },
+    "clipper": {
+      "token_id": 7568,
+      "first_seen": "Poole and Hunt Company Buildings",
+      "has_definition": true,
+      "definition": "Anything that clips."
+    },
+    "erecting": {
+      "token_id": 2336,
+      "first_seen": "Poole and Hunt Company Buildings",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iron-based": {
+      "token_id": 3267,
+      "first_seen": "Poole and Hunt Company Buildings",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boron": {
+      "token_id": 641,
+      "first_seen": "Boron, Territoire de Belfort",
+      "has_definition": false,
+      "definition": ""
+    },
+    "belfort": {
+      "token_id": 207,
+      "first_seen": "Boron, Territoire de Belfort",
+      "has_definition": false,
+      "definition": ""
+    },
+    "territoire": {
+      "token_id": 2270,
+      "first_seen": "Boron, Territoire de Belfort",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bourgogne-franche-comt": {
+      "token_id": 4240,
+      "first_seen": "Boron, Territoire de Belfort",
+      "has_definition": false,
+      "definition": ""
+    },
+    "army's": {
+      "token_id": 6889,
+      "first_seen": "15th Special Forces Division",
+      "has_definition": false,
+      "definition": ""
+    },
+    "as-suwayda": {
+      "token_id": 2146,
+      "first_seen": "15th Special Forces Division",
+      "has_definition": false,
+      "definition": ""
+    },
+    "astro-bluebonnet": {
+      "token_id": 1338,
+      "first_seen": "1969 Auburn Tigers football team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ssee": {
+      "token_id": 7778,
+      "first_seen": "St. Rose's High School (Guyana)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grade-a": {
+      "token_id": 4119,
+      "first_seen": "St. Rose's High School (Guyana)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rose's": {
+      "token_id": 4839,
+      "first_seen": "St. Rose's High School (Guyana)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "convergence": {
+      "token_id": 608,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": true,
+      "definition": "The act of moving toward union or uniformity."
+    },
+    "exacerbated": {
+      "token_id": 348,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": true,
+      "definition": "To make worse (a problem, bad situation, negative feeling, etc.); aggravate; exasperate."
+    },
+    "waves": {
+      "token_id": 5374,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neisse": {
+      "token_id": 2584,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oawa": {
+      "token_id": 3049,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "devastated": {
+      "token_id": 7715,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": true,
+      "definition": "To ruin many or all things over a large area, such as most or all buildings of a city, or cities of a region, or trees of a forest."
+    },
+    "kwisa": {
+      "token_id": 1314,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wrocaw": {
+      "token_id": 2949,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "widawa": {
+      "token_id": 3590,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inundated": {
+      "token_id": 4627,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": true,
+      "definition": "To cover with large amounts of water; to flood."
+    },
+    "oder": {
+      "token_id": 2436,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "olza": {
+      "token_id": 4392,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "overflow": {
+      "token_id": 210,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": true,
+      "definition": "The spillage resultant from overflow; excess."
+    },
+    "panew": {
+      "token_id": 3568,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "floodwaters": {
+      "token_id": 5235,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": true,
+      "definition": "The waters of a flood"
+    },
+    "kaczawa": {
+      "token_id": 5929,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flooding": {
+      "token_id": 7467,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": true,
+      "definition": "To overflow, as by water from excessive rainfall."
+    },
+    "bbr": {
+      "token_id": 7802,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bystrzyca": {
+      "token_id": 4278,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wrocaw's": {
+      "token_id": 5570,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lusatian": {
+      "token_id": 2187,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lza": {
+      "token_id": 5691,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "refusal": {
+      "token_id": 3538,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "maa": {
+      "token_id": 3423,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "receded": {
+      "token_id": 7884,
+      "first_seen": "1997 Central European flood in Wroc\u0142aw",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vadym": {
+      "token_id": 250,
+      "first_seen": "Vadym Gutzeit",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ukraine's": {
+      "token_id": 2199,
+      "first_seen": "Vadym Gutzeit",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gutzeit": {
+      "token_id": 1864,
+      "first_seen": "Vadym Gutzeit",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dso": {
+      "token_id": 834,
+      "first_seen": "Arthur Murray, 3rd Viscount Elibank",
+      "has_definition": false,
+      "definition": ""
+    },
+    "elibank": {
+      "token_id": 3904,
+      "first_seen": "Arthur Murray, 3rd Viscount Elibank",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lieutenant-colonel": {
+      "token_id": 212,
+      "first_seen": "Arthur Murray, 3rd Viscount Elibank",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wayne's": {
+      "token_id": 6199,
+      "first_seen": "Kant Nobody",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sampled": {
+      "token_id": 2728,
+      "first_seen": "Kant Nobody",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dmx": {
+      "token_id": 2137,
+      "first_seen": "Kant Nobody",
+      "has_definition": false,
+      "definition": ""
+    },
+    "explorers": {
+      "token_id": 7241,
+      "first_seen": "Sioux City Explorers",
+      "has_definition": true,
+      "definition": "One who explores something"
+    },
+    "suzhou": {
+      "token_id": 1722,
+      "first_seen": "Xutu Gang station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "xiangcheng": {
+      "token_id": 1654,
+      "first_seen": "Xutu Gang station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "xutu": {
+      "token_id": 2006,
+      "first_seen": "Xutu Gang station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "middle-class": {
+      "token_id": 3457,
+      "first_seen": "Saying Grace (Chardin)",
+      "has_definition": true,
+      "definition": "Occupying a position between the upper class and the working class"
+    },
+    "meal": {
+      "token_id": 3402,
+      "first_seen": "Saying Grace (Chardin)",
+      "has_definition": true,
+      "definition": "Food that is prepared and eaten, usually at a specific time, and usually in a comparatively large quantity (as opposed to a snack)."
+    },
+    "chardin's": {
+      "token_id": 72,
+      "first_seen": "Saying Grace (Chardin)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "saying": {
+      "token_id": 7582,
+      "first_seen": "Saying Grace (Chardin)",
+      "has_definition": true,
+      "definition": "To pronounce."
+    },
+    "xv": {
+      "token_id": 5461,
+      "first_seen": "Saying Grace (Chardin)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sentimentality": {
+      "token_id": 3576,
+      "first_seen": "Saying Grace (Chardin)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tranquillity": {
+      "token_id": 2252,
+      "first_seen": "Saying Grace (Chardin)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "uncharacteristic": {
+      "token_id": 4315,
+      "first_seen": "Saying Grace (Chardin)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bourgeois": {
+      "token_id": 6284,
+      "first_seen": "Saying Grace (Chardin)",
+      "has_definition": true,
+      "definition": "(usually in the plural) The middle class."
+    },
+    "chardin": {
+      "token_id": 7173,
+      "first_seen": "Saying Grace (Chardin)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "simeon": {
+      "token_id": 3558,
+      "first_seen": "Saying Grace (Chardin)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tecla": {
+      "token_id": 4072,
+      "first_seen": "Col\u00f3n, El Salvador",
+      "has_definition": false,
+      "definition": ""
+    },
+    "talnique": {
+      "token_id": 6442,
+      "first_seen": "Col\u00f3n, El Salvador",
+      "has_definition": false,
+      "definition": ""
+    },
+    "opico": {
+      "token_id": 3315,
+      "first_seen": "Col\u00f3n, El Salvador",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guarumal": {
+      "token_id": 4385,
+      "first_seen": "Col\u00f3n, El Salvador",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ciudad": {
+      "token_id": 5480,
+      "first_seen": "Col\u00f3n, El Salvador",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sacacoyo": {
+      "token_id": 5364,
+      "first_seen": "Col\u00f3n, El Salvador",
+      "has_definition": false,
+      "definition": ""
+    },
+    "libertad": {
+      "token_id": 2389,
+      "first_seen": "Col\u00f3n, El Salvador",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coln": {
+      "token_id": 2322,
+      "first_seen": "Col\u00f3n, El Salvador",
+      "has_definition": false,
+      "definition": ""
+    },
+    "heves": {
+      "token_id": 5203,
+      "first_seen": "Nagyf\u00fcged",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nagyfged": {
+      "token_id": 4719,
+      "first_seen": "Nagyf\u00fcged",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shoreditch": {
+      "token_id": 700,
+      "first_seen": "Metropolitan Borough of Shoreditch",
+      "has_definition": false,
+      "definition": ""
+    },
+    "newington": {
+      "token_id": 782,
+      "first_seen": "Metropolitan Borough of Shoreditch",
+      "has_definition": false,
+      "definition": ""
+    },
+    "awaji-class": {
+      "token_id": 7599,
+      "first_seen": "JS Etajima",
+      "has_definition": false,
+      "definition": ""
+    },
+    "etajima": {
+      "token_id": 7617,
+      "first_seen": "JS Etajima",
+      "has_definition": false,
+      "definition": ""
+    },
+    "minesweepers": {
+      "token_id": 1436,
+      "first_seen": "JS Etajima",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mso": {
+      "token_id": 7702,
+      "first_seen": "JS Etajima",
+      "has_definition": false,
+      "definition": ""
+    },
+    "self-defense": {
+      "token_id": 5328,
+      "first_seen": "JS Etajima",
+      "has_definition": false,
+      "definition": ""
+    },
+    "js": {
+      "token_id": 6614,
+      "first_seen": "JS Etajima",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jmsdf": {
+      "token_id": 6684,
+      "first_seen": "JS Etajima",
+      "has_definition": false,
+      "definition": ""
+    },
+    "loren": {
+      "token_id": 3820,
+      "first_seen": "Super Blood Hockey",
+      "has_definition": false,
+      "definition": ""
+    },
+    "update": {
+      "token_id": 2439,
+      "first_seen": "Super Blood Hockey",
+      "has_definition": true,
+      "definition": "An advisement providing more up-to-date information than currently known."
+    },
+    "lemcke": {
+      "token_id": 6186,
+      "first_seen": "Super Blood Hockey",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eshop": {
+      "token_id": 6017,
+      "first_seen": "Super Blood Hockey",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inkling": {
+      "token_id": 4181,
+      "first_seen": "Inkling (company)",
+      "has_definition": true,
+      "definition": "Usually preceded by forms of to give: a slight hint, implication, or suggestion given."
+    },
+    "niponicus": {
+      "token_id": 6095,
+      "first_seen": "Granulifusus niponicus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tulip": {
+      "token_id": 5890,
+      "first_seen": "Granulifusus niponicus",
+      "has_definition": true,
+      "definition": "A type of flowering plant, genus Tulipa."
+    },
+    "fasciolariidae": {
+      "token_id": 7740,
+      "first_seen": "Granulifusus niponicus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spindle": {
+      "token_id": 4531,
+      "first_seen": "Granulifusus niponicus",
+      "has_definition": true,
+      "definition": "(spinning) A rod used for spinning and then winding natural fibres (especially wool), usually consisting of a shaft and a circular whorl positioned at either the upper or lower end of the shaft when suspended vertically from the forming thread."
+    },
+    "granulifusus": {
+      "token_id": 6776,
+      "first_seen": "Granulifusus niponicus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hippocampus": {
+      "token_id": 7206,
+      "first_seen": "Calcar avis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "calcar": {
+      "token_id": 7064,
+      "first_seen": "Calcar avis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "posterior": {
+      "token_id": 5411,
+      "first_seen": "Calcar avis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "calcarine": {
+      "token_id": 5810,
+      "first_seen": "Calcar avis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ventricle's": {
+      "token_id": 3042,
+      "first_seen": "Calcar avis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "avis": {
+      "token_id": 1872,
+      "first_seen": "Calcar avis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "involution": {
+      "token_id": 409,
+      "first_seen": "Calcar avis",
+      "has_definition": true,
+      "definition": "Entanglement; a spiralling inwards; intricacy."
+    },
+    "ortsgemeinde": {
+      "token_id": 2824,
+      "first_seen": "Oberbrombach",
+      "has_definition": false,
+      "definition": ""
+    },
+    "like-named": {
+      "token_id": 3051,
+      "first_seen": "Oberbrombach",
+      "has_definition": false,
+      "definition": ""
+    },
+    "verbandsgemeinde": {
+      "token_id": 1927,
+      "first_seen": "Oberbrombach",
+      "has_definition": false,
+      "definition": ""
+    },
+    "birkenfeld": {
+      "token_id": 6197,
+      "first_seen": "Oberbrombach",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rhineland-palatinate": {
+      "token_id": 5933,
+      "first_seen": "Oberbrombach",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oberbrombach": {
+      "token_id": 1405,
+      "first_seen": "Oberbrombach",
+      "has_definition": false,
+      "definition": ""
+    },
+    "isidra": {
+      "token_id": 4950,
+      "first_seen": "Mar\u00eda Isidra de Guzm\u00e1n y de la Cerda",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cerda": {
+      "token_id": 6716,
+      "first_seen": "Mar\u00eda Isidra de Guzm\u00e1n y de la Cerda",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guzmn": {
+      "token_id": 6165,
+      "first_seen": "Mar\u00eda Isidra de Guzm\u00e1n y de la Cerda",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dehaani": {
+      "token_id": 2720,
+      "first_seen": "Parawixia dehaani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "parawixia": {
+      "token_id": 1733,
+      "first_seen": "Parawixia dehaani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "abandoned-web": {
+      "token_id": 2209,
+      "first_seen": "Parawixia dehaani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dehaanii": {
+      "token_id": 1201,
+      "first_seen": "Parawixia dehaani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "australasia": {
+      "token_id": 4683,
+      "first_seen": "Parawixia dehaani",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dungannon": {
+      "token_id": 2522,
+      "first_seen": "Bockets",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tyrone": {
+      "token_id": 6008,
+      "first_seen": "Bockets",
+      "has_definition": false,
+      "definition": ""
+    },
+    "killeeshil": {
+      "token_id": 2059,
+      "first_seen": "Bockets",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bockets": {
+      "token_id": 5657,
+      "first_seen": "Bockets",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kusel-altenglan": {
+      "token_id": 175,
+      "first_seen": "Niederalben",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kusel": {
+      "token_id": 2238,
+      "first_seen": "Niederalben",
+      "has_definition": false,
+      "definition": ""
+    },
+    "niederalben": {
+      "token_id": 473,
+      "first_seen": "Niederalben",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boerum": {
+      "token_id": 4934,
+      "first_seen": "Jo Anne Simon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "redrawn": {
+      "token_id": 948,
+      "first_seen": "Jo Anne Simon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gowanus": {
+      "token_id": 1831,
+      "first_seen": "Jo Anne Simon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dumbo": {
+      "token_id": 1542,
+      "first_seen": "Jo Anne Simon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cobble": {
+      "token_id": 4097,
+      "first_seen": "Jo Anne Simon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jo": {
+      "token_id": 3787,
+      "first_seen": "Jo Anne Simon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "echinosteliidae": {
+      "token_id": 3793,
+      "first_seen": "Echinostelium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "echinosteliaceae": {
+      "token_id": 5353,
+      "first_seen": "Echinostelium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vegetatively": {
+      "token_id": 5698,
+      "first_seen": "Echinostelium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "asexual": {
+      "token_id": 2510,
+      "first_seen": "Echinostelium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "echinostelium": {
+      "token_id": 347,
+      "first_seen": "Echinostelium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mould": {
+      "token_id": 6781,
+      "first_seen": "Echinostelium",
+      "has_definition": true,
+      "definition": "A hollow form or matrix for shaping a fluid or plastic substance."
+    },
+    "plasmodium": {
+      "token_id": 5298,
+      "first_seen": "Echinostelium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "distinguish": {
+      "token_id": 822,
+      "first_seen": "Echinostelium",
+      "has_definition": true,
+      "definition": "To recognize someone or something as different from others based on its characteristics."
+    },
+    "plasmotomy": {
+      "token_id": 7940,
+      "first_seen": "Echinostelium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bary": {
+      "token_id": 2347,
+      "first_seen": "Echinostelium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "slime": {
+      "token_id": 4145,
+      "first_seen": "Echinostelium",
+      "has_definition": true,
+      "definition": "Soft, moist earth or clay, having an adhesive quality; viscous mud; any substance of a dirty nature, that is moist, soft, and adhesive; bitumen; mud containing metallic ore, obtained in the preparatory dressing."
+    },
+    "alright": {
+      "token_id": 4517,
+      "first_seen": "Hot Shock",
+      "has_definition": true,
+      "definition": "Good; in acceptable, if not excellent condition."
+    },
+    "wanna": {
+      "token_id": 2061,
+      "first_seen": "Hot Shock",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hotwax": {
+      "token_id": 3308,
+      "first_seen": "Hot Shock",
+      "has_definition": false,
+      "definition": ""
+    },
+    "doll": {
+      "token_id": 1328,
+      "first_seen": "Hot Shock",
+      "has_definition": true,
+      "definition": "A toy in the form of a human."
+    },
+    "everything's": {
+      "token_id": 1175,
+      "first_seen": "Hot Shock",
+      "has_definition": false,
+      "definition": ""
+    },
+    "she's": {
+      "token_id": 552,
+      "first_seen": "Hot Shock",
+      "has_definition": false,
+      "definition": ""
+    },
+    "t-mobile": {
+      "token_id": 2662,
+      "first_seen": "2022 Seattle Mariners season",
+      "has_definition": false,
+      "definition": ""
+    },
+    "equaling": {
+      "token_id": 7801,
+      "first_seen": "2022 Seattle Mariners season",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 4858,
-  "total_words": 29823
+  "total_articles": 4888,
+  "total_words": 29971
 }
