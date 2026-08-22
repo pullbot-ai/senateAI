@@ -196319,8 +196319,776 @@
       "first_seen": "Enterprise I.O.O.F. Hall",
       "has_definition": false,
       "definition": ""
+    },
+    "congo-brazzaville": {
+      "token_id": 326,
+      "first_seen": "Henri Lopes",
+      "has_definition": false,
+      "definition": ""
+    },
+    "congo-brazzaville's": {
+      "token_id": 4962,
+      "first_seen": "Henri Lopes",
+      "has_definition": false,
+      "definition": ""
+    },
+    "congolese": {
+      "token_id": 3054,
+      "first_seen": "Henri Lopes",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jewish-american": {
+      "token_id": 309,
+      "first_seen": "Miriam Del Banco",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guadalcanal": {
+      "token_id": 2182,
+      "first_seen": "Indispensable Strait",
+      "has_definition": false,
+      "definition": ""
+    },
+    "malaita": {
+      "token_id": 5792,
+      "first_seen": "Indispensable Strait",
+      "has_definition": false,
+      "definition": ""
+    },
+    "makira": {
+      "token_id": 47,
+      "first_seen": "Indispensable Strait",
+      "has_definition": false,
+      "definition": ""
+    },
+    "indispensable": {
+      "token_id": 4155,
+      "first_seen": "Indispensable Strait",
+      "has_definition": true,
+      "definition": "A thing that is not dispensable; a necessity."
+    },
+    "nggela": {
+      "token_id": 7440,
+      "first_seen": "Indispensable Strait",
+      "has_definition": false,
+      "definition": ""
+    },
+    "northwest-southeast": {
+      "token_id": 4548,
+      "first_seen": "Indispensable Strait",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brahmi": {
+      "token_id": 7018,
+      "first_seen": "Tocharian script",
+      "has_definition": false,
+      "definition": ""
+    },
+    "agnean": {
+      "token_id": 5324,
+      "first_seen": "Tocharian script",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tarim": {
+      "token_id": 3042,
+      "first_seen": "Tocharian script",
+      "has_definition": false,
+      "definition": ""
+    },
+    "diacritical": {
+      "token_id": 72,
+      "first_seen": "Tocharian script",
+      "has_definition": true,
+      "definition": "A diacritic (mark)."
+    },
+    "tokharoi": {
+      "token_id": 1517,
+      "first_seen": "Tocharian script",
+      "has_definition": false,
+      "definition": ""
+    },
+    "turkestan": {
+      "token_id": 704,
+      "first_seen": "Tocharian script",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brahmic": {
+      "token_id": 4896,
+      "first_seen": "Tocharian script",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tokharistan": {
+      "token_id": 606,
+      "first_seen": "Tocharian script",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kuchean": {
+      "token_id": 6861,
+      "first_seen": "Tocharian script",
+      "has_definition": false,
+      "definition": ""
+    },
+    "slanting": {
+      "token_id": 2867,
+      "first_seen": "Tocharian script",
+      "has_definition": true,
+      "definition": "To lean, tilt or incline."
+    },
+    "scripts": {
+      "token_id": 1250,
+      "first_seen": "Tocharian script",
+      "has_definition": true,
+      "definition": "A writing; a written document."
+    },
+    "indo-european": {
+      "token_id": 4519,
+      "first_seen": "Tocharian script",
+      "has_definition": false,
+      "definition": ""
+    },
+    "karasahr": {
+      "token_id": 1197,
+      "first_seen": "Tocharian script",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tocharian": {
+      "token_id": 260,
+      "first_seen": "Tocharian script",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brhm": {
+      "token_id": 6788,
+      "first_seen": "Tocharian script",
+      "has_definition": false,
+      "definition": ""
+    },
+    "abugida": {
+      "token_id": 1395,
+      "first_seen": "Tocharian script",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kucha": {
+      "token_id": 2175,
+      "first_seen": "Tocharian script",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mural": {
+      "token_id": 1996,
+      "first_seen": "Tocharian script",
+      "has_definition": true,
+      "definition": "A large painting, usually drawn on a wall."
+    },
+    "consonant": {
+      "token_id": 56,
+      "first_seen": "Tocharian script",
+      "has_definition": true,
+      "definition": "A sound that results from the passage of air through restrictions of the oral cavity; any sound that is not the dominant sound of a syllable, the dominant sound generally being a vowel."
+    },
+    "arndt": {
+      "token_id": 1683,
+      "first_seen": "Harry Arndt",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bolshoye": {
+      "token_id": 3953,
+      "first_seen": "Bolshoye Murashkino, Nizhny Novgorod Oblast",
+      "has_definition": false,
+      "definition": ""
+    },
+    "murashkino": {
+      "token_id": 1152,
+      "first_seen": "Bolshoye Murashkino, Nizhny Novgorod Oblast",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bolshemurashkinsky": {
+      "token_id": 2351,
+      "first_seen": "Bolshoye Murashkino, Nizhny Novgorod Oblast",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thomisidae": {
+      "token_id": 2018,
+      "first_seen": "Oxytate leruthi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leruthi": {
+      "token_id": 7570,
+      "first_seen": "Oxytate leruthi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leruthi's": {
+      "token_id": 3300,
+      "first_seen": "Oxytate leruthi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oxytate": {
+      "token_id": 2185,
+      "first_seen": "Oxytate leruthi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alternanthera": {
+      "token_id": 5255,
+      "first_seen": "Alternanthera flavicoma",
+      "has_definition": false,
+      "definition": ""
+    },
+    "galpagos": {
+      "token_id": 4667,
+      "first_seen": "Alternanthera flavicoma",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flavicoma": {
+      "token_id": 5857,
+      "first_seen": "Alternanthera flavicoma",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lifted": {
+      "token_id": 6090,
+      "first_seen": "Lifted (Hayden James album)",
+      "has_definition": true,
+      "definition": "To raise or rise."
+    },
+    "renvall": {
+      "token_id": 6884,
+      "first_seen": "Johan Renvall",
+      "has_definition": false,
+      "definition": ""
+    },
+    "soaring": {
+      "token_id": 6643,
+      "first_seen": "Johan Renvall",
+      "has_definition": true,
+      "definition": "To fly high with little effort, like a bird."
+    },
+    "leaps": {
+      "token_id": 3709,
+      "first_seen": "Johan Renvall",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nuances": {
+      "token_id": 7535,
+      "first_seen": "Johan Renvall",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bengt": {
+      "token_id": 3711,
+      "first_seen": "Johan Renvall",
+      "has_definition": false,
+      "definition": ""
+    },
+    "astounding": {
+      "token_id": 5915,
+      "first_seen": "Johan Renvall",
+      "has_definition": true,
+      "definition": "To astonish, bewilder or dazzle."
+    },
+    "bravura": {
+      "token_id": 1103,
+      "first_seen": "Johan Renvall",
+      "has_definition": true,
+      "definition": "A highly technical or difficult piece, usually written for effect."
+    },
+    "coraline": {
+      "token_id": 4688,
+      "first_seen": "Coraline (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "teri": {
+      "token_id": 1687,
+      "first_seen": "Coraline (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "idealized": {
+      "token_id": 4716,
+      "first_seen": "Coraline (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sinister": {
+      "token_id": 3348,
+      "first_seen": "Coraline (film)",
+      "has_definition": true,
+      "definition": "Inauspicious, ominous, unlucky, illegitimate (as in bar sinister)."
+    },
+    "selick": {
+      "token_id": 6814,
+      "first_seen": "Coraline (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gaiman": {
+      "token_id": 7940,
+      "first_seen": "Coraline (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hatcher": {
+      "token_id": 4118,
+      "first_seen": "Coraline (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aegee": {
+      "token_id": 7709,
+      "first_seen": "AEGEE Yerevan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yerevan": {
+      "token_id": 6825,
+      "first_seen": "AEGEE Yerevan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aegee-europe": {
+      "token_id": 5039,
+      "first_seen": "AEGEE Yerevan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antipathidae": {
+      "token_id": 632,
+      "first_seen": "Aphanipathidae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blunt": {
+      "token_id": 2269,
+      "first_seen": "Aphanipathidae",
+      "has_definition": true,
+      "definition": "A fencer's practice foil with a soft tip."
+    },
+    "aphanipathidae": {
+      "token_id": 6866,
+      "first_seen": "Aphanipathidae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antipatharia": {
+      "token_id": 3289,
+      "first_seen": "Aphanipathidae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tubercles": {
+      "token_id": 5555,
+      "first_seen": "Aphanipathidae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "polyp": {
+      "token_id": 6976,
+      "first_seen": "Aphanipathidae",
+      "has_definition": true,
+      "definition": "An abnormal growth protruding from a mucous membrane"
+    },
+    "corals": {
+      "token_id": 5589,
+      "first_seen": "Aphanipathidae",
+      "has_definition": true,
+      "definition": "A hard substance made of the limestone skeletons of marine polyps."
+    },
+    "butthead": {
+      "token_id": 5467,
+      "first_seen": "Show (The Jesus Lizard album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cbgb's": {
+      "token_id": 449,
+      "first_seen": "Show (The Jesus Lizard album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "glamorous": {
+      "token_id": 660,
+      "first_seen": "Show (The Jesus Lizard album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "beavis": {
+      "token_id": 3674,
+      "first_seen": "Show (The Jesus Lizard album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nrbq": {
+      "token_id": 5294,
+      "first_seen": "Joey Spampinato",
+      "has_definition": false,
+      "definition": ""
+    },
+    "group's": {
+      "token_id": 7524,
+      "first_seen": "Joey Spampinato",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mersey-beats": {
+      "token_id": 3015,
+      "first_seen": "Joey Spampinato",
+      "has_definition": false,
+      "definition": ""
+    },
+    "multi-instrumentalist": {
+      "token_id": 1571,
+      "first_seen": "Joey Spampinato",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jody": {
+      "token_id": 3131,
+      "first_seen": "Joey Spampinato",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spampinato": {
+      "token_id": 5488,
+      "first_seen": "Joey Spampinato",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stalf": {
+      "token_id": 5402,
+      "first_seen": "Valentin Stalf",
+      "has_definition": false,
+      "definition": ""
+    },
+    "michelsen": {
+      "token_id": 5746,
+      "first_seen": "Hans Michelsen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cabaas": {
+      "token_id": 928,
+      "first_seen": "Armando Caba\u00f1as",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ballclubs": {
+      "token_id": 1113,
+      "first_seen": "Armando Caba\u00f1as",
+      "has_definition": false,
+      "definition": ""
+    },
+    "habana": {
+      "token_id": 5717,
+      "first_seen": "Armando Caba\u00f1as",
+      "has_definition": false,
+      "definition": ""
+    },
+    "almendares": {
+      "token_id": 1290,
+      "first_seen": "Armando Caba\u00f1as",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hohenstaufen": {
+      "token_id": 4097,
+      "first_seen": "Agnes of the Palatinate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wittelsbach": {
+      "token_id": 4837,
+      "first_seen": "Agnes of the Palatinate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "conrad": {
+      "token_id": 6233,
+      "first_seen": "Agnes of the Palatinate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "agnes": {
+      "token_id": 3464,
+      "first_seen": "Agnes of the Palatinate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "printemps": {
+      "token_id": 6661,
+      "first_seen": "Yvonne Printemps",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stardom": {
+      "token_id": 460,
+      "first_seen": "Yvonne Printemps",
+      "has_definition": true,
+      "definition": "The status or position of a performer acknowledged to be a star; fame; celebrity."
+    },
+    "ledani": {
+      "token_id": 3605,
+      "first_seen": "Casanova (Paulina Rubio song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "casanova": {
+      "token_id": 3820,
+      "first_seen": "Casanova (Paulina Rubio song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rubio": {
+      "token_id": 3030,
+      "first_seen": "Casanova (Paulina Rubio song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gaustella": {
+      "token_id": 5420,
+      "first_seen": "Casanova (Paulina Rubio song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "baila": {
+      "token_id": 3526,
+      "first_seen": "Casanova (Paulina Rubio song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jeeve": {
+      "token_id": 2845,
+      "first_seen": "Casanova (Paulina Rubio song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "colbert": {
+      "token_id": 3715,
+      "first_seen": "Casanova (Paulina Rubio song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "calanit": {
+      "token_id": 5096,
+      "first_seen": "Casanova (Paulina Rubio song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paulina": {
+      "token_id": 4438,
+      "first_seen": "Casanova (Paulina Rubio song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spoke": {
+      "token_id": 7465,
+      "first_seen": "Bass Reeves",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tracker": {
+      "token_id": 2555,
+      "first_seen": "Bass Reeves",
+      "has_definition": true,
+      "definition": "Agent noun of track; one who, or that which, tracks or pursues, as a man or dog that follows game."
+    },
+    "muscogee": {
+      "token_id": 3604,
+      "first_seen": "Bass Reeves",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reeves": {
+      "token_id": 1603,
+      "first_seen": "Bass Reeves",
+      "has_definition": true,
+      "definition": "Any of several local officials, with varying responsibilities."
+    },
+    "arrests": {
+      "token_id": 466,
+      "first_seen": "Bass Reeves",
+      "has_definition": true,
+      "definition": "A check, stop, an act or instance of arresting something."
+    },
+    "chickasaw": {
+      "token_id": 6206,
+      "first_seen": "Bass Reeves",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seminole": {
+      "token_id": 5048,
+      "first_seen": "Bass Reeves",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mexicans": {
+      "token_id": 7709,
+      "first_seen": "Battle of Ca\u00f1ada",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mexicanamerican": {
+      "token_id": 5766,
+      "first_seen": "Battle of Ca\u00f1ada",
+      "has_definition": false,
+      "definition": ""
+    },
+    "caada": {
+      "token_id": 7665,
+      "first_seen": "Battle of Ca\u00f1ada",
+      "has_definition": false,
+      "definition": ""
+    },
+    "taos": {
+      "token_id": 145,
+      "first_seen": "Battle of Ca\u00f1ada",
+      "has_definition": true,
+      "definition": "The act of moving or revolving around, or as in a circle or orbit; a revolution"
+    },
+    "asset": {
+      "token_id": 5699,
+      "first_seen": "Concorde Capital",
+      "has_definition": true,
+      "definition": "Something or someone of any value; any portion of one's property or effects so considered."
+    },
+    "concorde": {
+      "token_id": 1635,
+      "first_seen": "Concorde Capital",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boids": {
+      "token_id": 5508,
+      "first_seen": "Boidae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nonvenomous": {
+      "token_id": 7977,
+      "first_seen": "Boidae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boas": {
+      "token_id": 7852,
+      "first_seen": "Boidae",
+      "has_definition": true,
+      "definition": "Any of a group of large American snakes, of the genus Boa, subfamily Boinae, or family Boidae, including the boa constrictor, the emperor boa of Mexico, and the chevalier boa of Peru."
+    },
+    "second-longest": {
+      "token_id": 3715,
+      "first_seen": "Boidae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boidae": {
+      "token_id": 730,
+      "first_seen": "Boidae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "evaa": {
+      "token_id": 1480,
+      "first_seen": "EVA1A",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brickhaven": {
+      "token_id": 6309,
+      "first_seen": "Brickhaven, North Carolina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "panhandle": {
+      "token_id": 3690,
+      "first_seen": "Brickhaven, North Carolina",
+      "has_definition": true,
+      "definition": "The handle of a pan."
+    },
+    "harnett": {
+      "token_id": 5333,
+      "first_seen": "Brickhaven, North Carolina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "moncure": {
+      "token_id": 4212,
+      "first_seen": "Brickhaven, North Carolina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "corinth": {
+      "token_id": 811,
+      "first_seen": "Brickhaven, North Carolina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "whitefield": {
+      "token_id": 3629,
+      "first_seen": "Whitefield, New Hampshire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cos": {
+      "token_id": 2325,
+      "first_seen": "Whitefield, New Hampshire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blanco": {
+      "token_id": 585,
+      "first_seen": "Hay's Ranch Bridge",
+      "has_definition": true,
+      "definition": "To polish using Blanco."
+    },
+    "meeker": {
+      "token_id": 993,
+      "first_seen": "Hay's Ranch Bridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hay's": {
+      "token_id": 231,
+      "first_seen": "Hay's Ranch Bridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "papp": {
+      "token_id": 6316,
+      "first_seen": "D\u00f3ra Papp",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eredivisie": {
+      "token_id": 1580,
+      "first_seen": "D\u00f3ra Papp",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alkmaar": {
+      "token_id": 2394,
+      "first_seen": "D\u00f3ra Papp",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 5578,
-  "total_words": 32720
+  "total_articles": 5608,
+  "total_words": 32848
 }
