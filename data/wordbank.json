@@ -153869,8 +153869,956 @@
       "first_seen": "Antigua and Barbuda at the Pan American Games",
       "has_definition": false,
       "definition": ""
+    },
+    "taliban": {
+      "token_id": 5857,
+      "first_seen": "Sami-ul-Haq",
+      "has_definition": false,
+      "definition": ""
+    },
+    "haqqania": {
+      "token_id": 7705,
+      "first_seen": "Sami-ul-Haq",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sami-ul-haq": {
+      "token_id": 6188,
+      "first_seen": "Sami-ul-Haq",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ideologue": {
+      "token_id": 2210,
+      "first_seen": "Sami-ul-Haq",
+      "has_definition": true,
+      "definition": "A person who advocates an ideology, especially as an official or preeminent advocate."
+    },
+    "uloom": {
+      "token_id": 667,
+      "first_seen": "Sami-ul-Haq",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mullah": {
+      "token_id": 1996,
+      "first_seen": "Sami-ul-Haq",
+      "has_definition": false,
+      "definition": ""
+    },
+    "malvik": {
+      "token_id": 3889,
+      "first_seen": "Strinda Municipality",
+      "has_definition": false,
+      "definition": ""
+    },
+    "urbanized": {
+      "token_id": 4950,
+      "first_seen": "Strinda Municipality",
+      "has_definition": true,
+      "definition": "To make something more urban in character."
+    },
+    "jonsvatnet": {
+      "token_id": 2135,
+      "first_seen": "Strinda Municipality",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sr-trndelag": {
+      "token_id": 6645,
+      "first_seen": "Strinda Municipality",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kjpmansgata": {
+      "token_id": 949,
+      "first_seen": "Strinda Municipality",
+      "has_definition": false,
+      "definition": ""
+    },
+    "square-kilometre": {
+      "token_id": 2785,
+      "first_seen": "Strinda Municipality",
+      "has_definition": false,
+      "definition": ""
+    },
+    "strinda": {
+      "token_id": 2831,
+      "first_seen": "Strinda Municipality",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cedarville": {
+      "token_id": 4177,
+      "first_seen": "Great Herring Pond",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pondville": {
+      "token_id": 1356,
+      "first_seen": "Great Herring Pond",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bourne": {
+      "token_id": 5274,
+      "first_seen": "Great Herring Pond",
+      "has_definition": true,
+      "definition": "A boundary."
+    },
+    "hand-carried": {
+      "token_id": 1744,
+      "first_seen": "Great Herring Pond",
+      "has_definition": false,
+      "definition": ""
+    },
+    "suited": {
+      "token_id": 2493,
+      "first_seen": "Great Herring Pond",
+      "has_definition": true,
+      "definition": "To make proper or suitable; to adapt or fit."
+    },
+    "herring": {
+      "token_id": 1750,
+      "first_seen": "Great Herring Pond",
+      "has_definition": true,
+      "definition": "A type of small, oily fish of the genus Clupea, often used as food."
+    },
+    "muck": {
+      "token_id": 5258,
+      "first_seen": "Great Herring Pond",
+      "has_definition": true,
+      "definition": "(slimy) mud, sludge."
+    },
+    "shallow-draft": {
+      "token_id": 6109,
+      "first_seen": "Great Herring Pond",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rubble": {
+      "token_id": 2987,
+      "first_seen": "Great Herring Pond",
+      "has_definition": true,
+      "definition": "The broken remains of an object, usually rock or masonry."
+    },
+    "inflow": {
+      "token_id": 1144,
+      "first_seen": "Great Herring Pond",
+      "has_definition": true,
+      "definition": "The act or process of flowing in or into"
+    },
+    "ramp": {
+      "token_id": 5820,
+      "first_seen": "Great Herring Pond",
+      "has_definition": true,
+      "definition": "An inclined surface that connects two levels; an incline."
+    },
+    "canoes": {
+      "token_id": 3744,
+      "first_seen": "Great Herring Pond",
+      "has_definition": true,
+      "definition": "A small long and narrow boat, propelled by one or more people (depending on the size of canoe), using single-bladed paddles. The paddlers face in the direction of travel, in either a seated position, or kneeling on the bottom of the boat. Canoes are open on top, and pointed at both ends."
+    },
+    "outflow": {
+      "token_id": 5683,
+      "first_seen": "Great Herring Pond",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inflatable": {
+      "token_id": 7901,
+      "first_seen": "Great Herring Pond",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tarik": {
+      "token_id": 92,
+      "first_seen": "Tarik Black",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rockets": {
+      "token_id": 3236,
+      "first_seen": "Tarik Black",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lidell": {
+      "token_id": 4495,
+      "first_seen": "Kurt Schmoke",
+      "has_definition": false,
+      "definition": ""
+    },
+    "schmoke": {
+      "token_id": 1231,
+      "first_seen": "Kurt Schmoke",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kita": {
+      "token_id": 223,
+      "first_seen": "Akabane Nature Observatory Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "akabane": {
+      "token_id": 7650,
+      "first_seen": "Akabane Nature Observatory Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "undisputed": {
+      "token_id": 6401,
+      "first_seen": "Shane Mosley vs. Winky Wright",
+      "has_definition": false,
+      "definition": ""
+    },
+    "middleweight": {
+      "token_id": 1014,
+      "first_seen": "Shane Mosley vs. Winky Wright",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mosley": {
+      "token_id": 4534,
+      "first_seen": "Shane Mosley vs. Winky Wright",
+      "has_definition": false,
+      "definition": ""
+    },
+    "winky": {
+      "token_id": 6691,
+      "first_seen": "Shane Mosley vs. Winky Wright",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coal-hauling": {
+      "token_id": 648,
+      "first_seen": "Mauch Chunk Switchback Railway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "switchback": {
+      "token_id": 363,
+      "first_seen": "Mauch Chunk Switchback Railway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mauch": {
+      "token_id": 6098,
+      "first_seen": "Mauch Chunk Switchback Railway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "downhill": {
+      "token_id": 7531,
+      "first_seen": "Mauch Chunk Switchback Railway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chunk": {
+      "token_id": 6665,
+      "first_seen": "Mauch Chunk Switchback Railway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arjuna": {
+      "token_id": 6354,
+      "first_seen": "Indira Gandhi Athletic Stadium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guwahati": {
+      "token_id": 4148,
+      "first_seen": "Indira Gandhi Athletic Stadium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bhogeswar": {
+      "token_id": 4124,
+      "first_seen": "Indira Gandhi Athletic Stadium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sarusajai": {
+      "token_id": 5565,
+      "first_seen": "Indira Gandhi Athletic Stadium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lokhra": {
+      "token_id": 829,
+      "first_seen": "Indira Gandhi Athletic Stadium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kashi": {
+      "token_id": 7175,
+      "first_seen": "Indira Gandhi Athletic Stadium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "baruah": {
+      "token_id": 55,
+      "first_seen": "Indira Gandhi Athletic Stadium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boonville": {
+      "token_id": 5719,
+      "first_seen": "Boonville High School",
+      "has_definition": false,
+      "definition": ""
+    },
+    "warrick": {
+      "token_id": 497,
+      "first_seen": "Boonville High School",
+      "has_definition": false,
+      "definition": ""
+    },
+    "keytesville": {
+      "token_id": 427,
+      "first_seen": "Keytesville, Missouri",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chariton": {
+      "token_id": 5422,
+      "first_seen": "Keytesville, Missouri",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mitrovica": {
+      "token_id": 434,
+      "first_seen": "FK Srem",
+      "has_definition": false,
+      "definition": ""
+    },
+    "srem": {
+      "token_id": 458,
+      "first_seen": "FK Srem",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fk": {
+      "token_id": 6654,
+      "first_seen": "FK Srem",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sremska": {
+      "token_id": 1456,
+      "first_seen": "FK Srem",
+      "has_definition": false,
+      "definition": ""
+    },
+    "encaustic": {
+      "token_id": 4407,
+      "first_seen": "Theodor Grosse",
+      "has_definition": true,
+      "definition": "A wax-based paint that is fixed in place by heating"
+    },
+    "mulde": {
+      "token_id": 323,
+      "first_seen": "Theodor Grosse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "solms": {
+      "token_id": 4931,
+      "first_seen": "Theodor Grosse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bacchus": {
+      "token_id": 1246,
+      "first_seen": "Theodor Grosse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "purgatory": {
+      "token_id": 1129,
+      "first_seen": "Theodor Grosse",
+      "has_definition": true,
+      "definition": "Alternative letter-case form of Purgatory"
+    },
+    "loggia": {
+      "token_id": 5112,
+      "first_seen": "Theodor Grosse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leipzig": {
+      "token_id": 4534,
+      "first_seen": "Theodor Grosse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bendemann": {
+      "token_id": 7414,
+      "first_seen": "Theodor Grosse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "include:\"leda": {
+      "token_id": 3051,
+      "first_seen": "Theodor Grosse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wildenfels": {
+      "token_id": 1858,
+      "first_seen": "Theodor Grosse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "schrenckii": {
+      "token_id": 3207,
+      "first_seen": "Amur sturgeon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "over-fishing": {
+      "token_id": 6051,
+      "first_seen": "Amur sturgeon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kg": {
+      "token_id": 2102,
+      "first_seen": "Amur sturgeon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "migrator": {
+      "token_id": 1716,
+      "first_seen": "Amur sturgeon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "potamodromous": {
+      "token_id": 7474,
+      "first_seen": "Amur sturgeon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sinosturio": {
+      "token_id": 7309,
+      "first_seen": "Amur sturgeon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "caviar": {
+      "token_id": 4172,
+      "first_seen": "Amur sturgeon",
+      "has_definition": true,
+      "definition": "Roe of the sturgeon or other large fish, considered a delicacy."
+    },
+    "migrations": {
+      "token_id": 5037,
+      "first_seen": "Amur sturgeon",
+      "has_definition": true,
+      "definition": "An instance of moving to live in another place for a while."
+    },
+    "morphs": {
+      "token_id": 4684,
+      "first_seen": "Amur sturgeon",
+      "has_definition": true,
+      "definition": "(grammar) A physical form representing some morpheme in language. It is a recurrent distinctive sound or sequence of sounds."
+    },
+    "gowerton": {
+      "token_id": 4204,
+      "first_seen": "Gowerton (electoral ward)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coterminous": {
+      "token_id": 282,
+      "first_seen": "Gowerton (electoral ward)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lapeer": {
+      "token_id": 3288,
+      "first_seen": "Millers Lake, Michigan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "millers": {
+      "token_id": 5985,
+      "first_seen": "Millers Lake, Michigan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cdps": {
+      "token_id": 728,
+      "first_seen": "Millers Lake, Michigan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mayville": {
+      "token_id": 4437,
+      "first_seen": "Millers Lake, Michigan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "deerfield": {
+      "token_id": 6753,
+      "first_seen": "Millers Lake, Michigan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rouer": {
+      "token_id": 3651,
+      "first_seen": "Germaine Rouer",
+      "has_definition": false,
+      "definition": ""
+    },
+    "comdie-franaise": {
+      "token_id": 3958,
+      "first_seen": "Germaine Rouer",
+      "has_definition": false,
+      "definition": ""
+    },
+    "digable": {
+      "token_id": 1980,
+      "first_seen": "Michael Mangini",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mangini": {
+      "token_id": 3462,
+      "first_seen": "Michael Mangini",
+      "has_definition": false,
+      "definition": ""
+    },
+    "baha": {
+      "token_id": 5879,
+      "first_seen": "Michael Mangini",
+      "has_definition": false,
+      "definition": ""
+    },
+    "imani": {
+      "token_id": 6545,
+      "first_seen": "Michael Mangini",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coppola": {
+      "token_id": 2674,
+      "first_seen": "Michael Mangini",
+      "has_definition": false,
+      "definition": ""
+    },
+    "province's": {
+      "token_id": 3634,
+      "first_seen": "Nova Scotia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "maritimes": {
+      "token_id": 4675,
+      "first_seen": "Nova Scotia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "second-smallest": {
+      "token_id": 7277,
+      "first_seen": "Nova Scotia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "isthmus": {
+      "token_id": 7676,
+      "first_seen": "Nova Scotia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chignecto": {
+      "token_id": 188,
+      "first_seen": "Nova Scotia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "second-most": {
+      "token_id": 6850,
+      "first_seen": "Nova Scotia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eryopoid": {
+      "token_id": 5309,
+      "first_seen": "Stegops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "divaricata": {
+      "token_id": 738,
+      "first_seen": "Stegops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stegops": {
+      "token_id": 1199,
+      "first_seen": "Stegops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "temnospondyl": {
+      "token_id": 3038,
+      "first_seen": "Stegops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "linton": {
+      "token_id": 5829,
+      "first_seen": "Stegops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "euskelian": {
+      "token_id": 5604,
+      "first_seen": "Stegops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zatrachydidae": {
+      "token_id": 3714,
+      "first_seen": "Stegops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "newberryi": {
+      "token_id": 7414,
+      "first_seen": "Stegops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cope": {
+      "token_id": 2646,
+      "first_seen": "Stegops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "synonymized": {
+      "token_id": 7624,
+      "first_seen": "Stegops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sauropleura": {
+      "token_id": 654,
+      "first_seen": "Stegops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dissorophoid": {
+      "token_id": 245,
+      "first_seen": "Stegops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "description": {
+      "token_id": 7651,
+      "first_seen": "Stegops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pennsylvanian": {
+      "token_id": 6635,
+      "first_seen": "Stegops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "drinker": {
+      "token_id": 1433,
+      "first_seen": "Stegops",
+      "has_definition": true,
+      "definition": "Agent noun of drink; someone or something that drinks."
+    },
+    "zatrachydids": {
+      "token_id": 1683,
+      "first_seen": "Stegops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "momopie": {
+      "token_id": 7047,
+      "first_seen": "Painter Momopie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "foes": {
+      "token_id": 2577,
+      "first_seen": "Painter Momopie",
+      "has_definition": true,
+      "definition": "An enemy."
+    },
+    "acquires": {
+      "token_id": 7612,
+      "first_seen": "Painter Momopie",
+      "has_definition": true,
+      "definition": "To get."
+    },
+    "cleaning": {
+      "token_id": 1118,
+      "first_seen": "Painter Momopie",
+      "has_definition": true,
+      "definition": "To remove dirt from a place or object."
+    },
+    "witch": {
+      "token_id": 3861,
+      "first_seen": "Painter Momopie",
+      "has_definition": true,
+      "definition": "A person who practices witchcraft; a woman or man who practices witchcraft."
+    },
+    "domino": {
+      "token_id": 5362,
+      "first_seen": "There'd Better Be a Mirrorball",
+      "has_definition": true,
+      "definition": "A tile divided into two squares, each having 0 to 6 (or sometimes more) dots or pips (as in dice), used in the game of dominoes."
+    },
+    "there'd": {
+      "token_id": 166,
+      "first_seen": "There'd Better Be a Mirrorball",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mirrorball": {
+      "token_id": 2748,
+      "first_seen": "There'd Better Be a Mirrorball",
+      "has_definition": true,
+      "definition": "A disco ball."
+    },
+    "composing": {
+      "token_id": 4212,
+      "first_seen": "There'd Better Be a Mirrorball",
+      "has_definition": false,
+      "definition": ""
+    },
+    "abdalla": {
+      "token_id": 4716,
+      "first_seen": "Yaseen Abdalla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "volunteers": {
+      "token_id": 2213,
+      "first_seen": "Yaseen Abdalla",
+      "has_definition": true,
+      "definition": "One who enters into, or offers for, any service of his/her own free will, especially when done without pay."
+    },
+    "sudanese-american": {
+      "token_id": 2276,
+      "first_seen": "Yaseen Abdalla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yaseen": {
+      "token_id": 1521,
+      "first_seen": "Yaseen Abdalla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anchoring": {
+      "token_id": 7226,
+      "first_seen": "Yaseen Abdalla",
+      "has_definition": true,
+      "definition": "To connect an object, especially a ship or a boat, to a fixed point."
+    },
+    "long-distance": {
+      "token_id": 2273,
+      "first_seen": "Yaseen Abdalla",
+      "has_definition": true,
+      "definition": "Over a great length or distance."
+    },
+    "longhorns": {
+      "token_id": 2531,
+      "first_seen": "Yaseen Abdalla",
+      "has_definition": true,
+      "definition": "A breed of beef cattle, having long horns, bred in Texas and other parts of southwest United States."
+    },
+    "mehsi": {
+      "token_id": 5453,
+      "first_seen": "Narkatiaganj",
+      "has_definition": false,
+      "definition": ""
+    },
+    "narkatiaganj": {
+      "token_id": 2940,
+      "first_seen": "Narkatiaganj",
+      "has_definition": false,
+      "definition": ""
+    },
+    "patna": {
+      "token_id": 2378,
+      "first_seen": "Narkatiaganj",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tirhut": {
+      "token_id": 6544,
+      "first_seen": "Narkatiaganj",
+      "has_definition": false,
+      "definition": ""
+    },
+    "champaran": {
+      "token_id": 6223,
+      "first_seen": "Narkatiaganj",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gematria": {
+      "token_id": 1681,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "explanations": {
+      "token_id": 1750,
+      "first_seen": "The Law is for All",
+      "has_definition": true,
+      "definition": "The act or process of explaining."
+    },
+    "introduction": {
+      "token_id": 3272,
+      "first_seen": "The Law is for All",
+      "has_definition": true,
+      "definition": "The act or process of introducing."
+    },
+    "lean": {
+      "token_id": 4706,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wilt": {
+      "token_id": 3219,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "legis": {
+      "token_id": 591,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reader": {
+      "token_id": 5605,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rightly": {
+      "token_id": 2599,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "understanding": {
+      "token_id": 7851,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aleister": {
+      "token_id": 1268,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "opaque": {
+      "token_id": 6101,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "omits": {
+      "token_id": 4421,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "qabalistic": {
+      "token_id": 66,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wilkinson": {
+      "token_id": 6399,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thelema": {
+      "token_id": 7658,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "primer": {
+      "token_id": 1991,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thou": {
+      "token_id": 3082,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "crowley's": {
+      "token_id": 6576,
+      "first_seen": "The Law is for All",
+      "has_definition": false,
+      "definition": ""
+    },
+    "akashi": {
+      "token_id": 6455,
+      "first_seen": "Akashi Castle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kink": {
+      "token_id": 2516,
+      "first_seen": "Akashi Castle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hygo": {
+      "token_id": 6241,
+      "first_seen": "Akashi Castle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kiharu": {
+      "token_id": 6378,
+      "first_seen": "Akashi Castle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sikkim": {
+      "token_id": 6937,
+      "first_seen": "Calleremites",
+      "has_definition": false,
+      "definition": ""
+    },
+    "calleremites": {
+      "token_id": 7052,
+      "first_seen": "Calleremites",
+      "has_definition": false,
+      "definition": ""
+    },
+    "subornata": {
+      "token_id": 3771,
+      "first_seen": "Calleremites",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 3988,
-  "total_words": 25645
+  "total_articles": 4018,
+  "total_words": 25803
 }
