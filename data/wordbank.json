@@ -170297,8 +170297,596 @@
       "first_seen": "Nimba otter shrew",
       "has_definition": false,
       "definition": ""
+    },
+    "homeported": {
+      "token_id": 4210,
+      "first_seen": "USNS Waters",
+      "has_definition": false,
+      "definition": ""
+    },
+    "navigation-system": {
+      "token_id": 3366,
+      "first_seen": "USNS Waters",
+      "has_definition": false,
+      "definition": ""
+    },
+    "t-ags": {
+      "token_id": 5277,
+      "first_seen": "USNS Waters",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ilocano": {
+      "token_id": 6410,
+      "first_seen": "Biag ni Lam-ang",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ilocos": {
+      "token_id": 2543,
+      "first_seen": "Biag ni Lam-ang",
+      "has_definition": false,
+      "definition": ""
+    },
+    "epics": {
+      "token_id": 3248,
+      "first_seen": "Biag ni Lam-ang",
+      "has_definition": false,
+      "definition": ""
+    },
+    "christianized": {
+      "token_id": 4035,
+      "first_seen": "Biag ni Lam-ang",
+      "has_definition": false,
+      "definition": ""
+    },
+    "biag": {
+      "token_id": 4820,
+      "first_seen": "Biag ni Lam-ang",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bicolano": {
+      "token_id": 1800,
+      "first_seen": "Biag ni Lam-ang",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ni": {
+      "token_id": 62,
+      "first_seen": "Biag ni Lam-ang",
+      "has_definition": false,
+      "definition": ""
+    },
+    "storytelling": {
+      "token_id": 4276,
+      "first_seen": "Biag ni Lam-ang",
+      "has_definition": true,
+      "definition": "The act and skills of presenting stories and tales."
+    },
+    "lam-ang": {
+      "token_id": 3954,
+      "first_seen": "Biag ni Lam-ang",
+      "has_definition": false,
+      "definition": ""
+    },
+    "handiong": {
+      "token_id": 2765,
+      "first_seen": "Biag ni Lam-ang",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aviao": {
+      "token_id": 4556,
+      "first_seen": "Atl\u00e9tico Sport Avia\u00e7\u00e3o (basketball)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "asa": {
+      "token_id": 7500,
+      "first_seen": "Atl\u00e9tico Sport Avia\u00e7\u00e3o (basketball)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "atltico": {
+      "token_id": 5275,
+      "first_seen": "Atl\u00e9tico Sport Avia\u00e7\u00e3o (basketball)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reux": {
+      "token_id": 110,
+      "first_seen": "Ch\u00e2teau de Reux",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chteau": {
+      "token_id": 6827,
+      "first_seen": "Ch\u00e2teau de Reux",
+      "has_definition": false,
+      "definition": ""
+    },
+    "syncarpha": {
+      "token_id": 7463,
+      "first_seen": "Syncarpha lepidopodium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lepidopodium": {
+      "token_id": 3791,
+      "first_seen": "Syncarpha lepidopodium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rapides": {
+      "token_id": 5271,
+      "first_seen": "Pineville High School (Louisiana)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pineville": {
+      "token_id": 5544,
+      "first_seen": "Pineville High School (Louisiana)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "phs": {
+      "token_id": 5412,
+      "first_seen": "Pineville High School (Louisiana)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kyffhuserkreis": {
+      "token_id": 2483,
+      "first_seen": "Freienbessingen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "freienbessingen": {
+      "token_id": 5836,
+      "first_seen": "Freienbessingen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thuringia": {
+      "token_id": 6290,
+      "first_seen": "Freienbessingen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "m.s.l": {
+      "token_id": 2226,
+      "first_seen": "Lake Mis\u00e9rin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "misrin": {
+      "token_id": 5069,
+      "first_seen": "Lake Mis\u00e9rin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "champorcher": {
+      "token_id": 2347,
+      "first_seen": "Lake Mis\u00e9rin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "faroe": {
+      "token_id": 6471,
+      "first_seen": "Elton John 2010 European Tour",
+      "has_definition": false,
+      "definition": ""
+    },
+    "girardeau": {
+      "token_id": 4688,
+      "first_seen": "John Joseph Leibrecht",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leibrecht": {
+      "token_id": 3651,
+      "first_seen": "John Joseph Leibrecht",
+      "has_definition": false,
+      "definition": ""
+    },
+    "springfield-cape": {
+      "token_id": 5386,
+      "first_seen": "John Joseph Leibrecht",
+      "has_definition": false,
+      "definition": ""
+    },
+    "moquegua": {
+      "token_id": 5931,
+      "first_seen": "Lake Vizcacha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vizcacha": {
+      "token_id": 1222,
+      "first_seen": "Lake Vizcacha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cees": {
+      "token_id": 276,
+      "first_seen": "Lost Paradise (novel)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nooteboom": {
+      "token_id": 207,
+      "first_seen": "Lost Paradise (novel)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "middle-aged": {
+      "token_id": 428,
+      "first_seen": "Lost Paradise (novel)",
+      "has_definition": true,
+      "definition": "Of, or relating to middle age; neither old nor young"
+    },
+    "kms": {
+      "token_id": 7979,
+      "first_seen": "Theta Octantis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "theta": {
+      "token_id": 3032,
+      "first_seen": "Theta Octantis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "octans": {
+      "token_id": 3095,
+      "first_seen": "Theta Octantis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "circumpolar": {
+      "token_id": 7748,
+      "first_seen": "Theta Octantis",
+      "has_definition": true,
+      "definition": "Located or found throughout a polar region."
+    },
+    "octantis": {
+      "token_id": 5626,
+      "first_seen": "Theta Octantis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "faint": {
+      "token_id": 1917,
+      "first_seen": "Theta Octantis",
+      "has_definition": true,
+      "definition": "The act of fainting, syncope."
+    },
+    "hydrus": {
+      "token_id": 1766,
+      "first_seen": "Theta Octantis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "drifting": {
+      "token_id": 4328,
+      "first_seen": "Theta Octantis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "auriculariaceae": {
+      "token_id": 449,
+      "first_seen": "Ulocolla saccharina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ulocolla": {
+      "token_id": 5152,
+      "first_seen": "Ulocolla saccharina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "button-shaped": {
+      "token_id": 3543,
+      "first_seen": "Ulocolla saccharina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "saccharina": {
+      "token_id": 4236,
+      "first_seen": "Ulocolla saccharina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coalescing": {
+      "token_id": 6861,
+      "first_seen": "Ulocolla saccharina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "saprotroph": {
+      "token_id": 7493,
+      "first_seen": "Ulocolla saccharina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kenn": {
+      "token_id": 1245,
+      "first_seen": "This Is All: The Pillow Book of Cordelia Kenn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cordelia": {
+      "token_id": 897,
+      "first_seen": "This Is All: The Pillow Book of Cordelia Kenn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pillow": {
+      "token_id": 806,
+      "first_seen": "This Is All: The Pillow Book of Cordelia Kenn",
+      "has_definition": true,
+      "definition": "A soft cushion used to support the head in bed."
+    },
+    "prm": {
+      "token_id": 7039,
+      "first_seen": "Pr\u00fcm Convention",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chuard": {
+      "token_id": 5092,
+      "first_seen": "Ernest Chuard",
+      "has_definition": false,
+      "definition": ""
+    },
+    "conchords": {
+      "token_id": 2856,
+      "first_seen": "Bowie (Flight of the Conchords)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "honky": {
+      "token_id": 6710,
+      "first_seen": "Honky Reduction",
+      "has_definition": true,
+      "definition": "(racial slur) A Caucasian person."
+    },
+    "nosebleed": {
+      "token_id": 7929,
+      "first_seen": "Honky Reduction",
+      "has_definition": true,
+      "definition": "A haemorrhage from the nose; most specifically, blood flow exiting the nostrils that originates from the nasal cavity."
+    },
+    "agoraphobic": {
+      "token_id": 2254,
+      "first_seen": "Honky Reduction",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reduction": {
+      "token_id": 2353,
+      "first_seen": "Honky Reduction",
+      "has_definition": true,
+      "definition": "The act, process, or result of reducing."
+    },
+    "rosselli": {
+      "token_id": 4278,
+      "first_seen": "Religion and Gun Practice",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rex": {
+      "token_id": 2298,
+      "first_seen": "Religion and Gun Practice",
+      "has_definition": true,
+      "definition": "An animal which has a genetic recessive variation that causes the guard hairs to be very short or fully lacking."
+    },
+    "mix's": {
+      "token_id": 1448,
+      "first_seen": "Religion and Gun Practice",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stedman": {
+      "token_id": 2828,
+      "first_seen": "Religion and Gun Practice",
+      "has_definition": false,
+      "definition": ""
+    },
+    "edtech": {
+      "token_id": 7698,
+      "first_seen": "Akram Ahmad",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pharmacist": {
+      "token_id": 3727,
+      "first_seen": "Akram Ahmad",
+      "has_definition": true,
+      "definition": "A professional who dispenses prescription drugs in a hospital or retail pharmacy."
+    },
+    "bridging": {
+      "token_id": 1592,
+      "first_seen": "Akram Ahmad",
+      "has_definition": true,
+      "definition": "To be or make a bridge over something."
+    },
+    "akram": {
+      "token_id": 7100,
+      "first_seen": "Akram Ahmad",
+      "has_definition": false,
+      "definition": ""
+    },
+    "south-western": {
+      "token_id": 1155,
+      "first_seen": "Gozdno, Lower Silesian Voivodeship",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zotoryja": {
+      "token_id": 2126,
+      "first_seen": "Gozdno, Lower Silesian Voivodeship",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gozdno": {
+      "token_id": 7312,
+      "first_seen": "Gozdno, Lower Silesian Voivodeship",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wierzawa": {
+      "token_id": 7689,
+      "first_seen": "Gozdno, Lower Silesian Voivodeship",
+      "has_definition": false,
+      "definition": ""
+    },
+    "scc": {
+      "token_id": 6255,
+      "first_seen": "Montr\u00e9al (City of) v 2952-1366 Qu\u00e9bec Inc",
+      "has_definition": false,
+      "definition": ""
+    },
+    "violation": {
+      "token_id": 4081,
+      "first_seen": "Montr\u00e9al (City of) v 2952-1366 Qu\u00e9bec Inc",
+      "has_definition": true,
+      "definition": "The act or an instance of violating or the condition of being violated."
+    },
+    "freedoms": {
+      "token_id": 5926,
+      "first_seen": "Montr\u00e9al (City of) v 2952-1366 Qu\u00e9bec Inc",
+      "has_definition": false,
+      "definition": ""
+    },
+    "considering": {
+      "token_id": 2120,
+      "first_seen": "Montr\u00e9al (City of) v 2952-1366 Qu\u00e9bec Inc",
+      "has_definition": true,
+      "definition": "To think about seriously."
+    },
+    "montral": {
+      "token_id": 7141,
+      "first_seen": "Montr\u00e9al (City of) v 2952-1366 Qu\u00e9bec Inc",
+      "has_definition": false,
+      "definition": ""
+    },
+    "qubec": {
+      "token_id": 7248,
+      "first_seen": "Montr\u00e9al (City of) v 2952-1366 Qu\u00e9bec Inc",
+      "has_definition": false,
+      "definition": ""
+    },
+    "s.c.r": {
+      "token_id": 7534,
+      "first_seen": "Montr\u00e9al (City of) v 2952-1366 Qu\u00e9bec Inc",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gunfight": {
+      "token_id": 5446,
+      "first_seen": "Young Ireland rebellion",
+      "has_definition": true,
+      "definition": "A battle (or a duel) using small arms."
+    },
+    "several-hour": {
+      "token_id": 5473,
+      "first_seen": "Young Ireland rebellion",
+      "has_definition": false,
+      "definition": ""
+    },
+    "constabulary": {
+      "token_id": 2737,
+      "first_seen": "Young Ireland rebellion",
+      "has_definition": false,
+      "definition": ""
+    },
+    "irelanders": {
+      "token_id": 1572,
+      "first_seen": "Young Ireland rebellion",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chased": {
+      "token_id": 5003,
+      "first_seen": "Young Ireland rebellion",
+      "has_definition": false,
+      "definition": ""
+    },
+    "revolutions": {
+      "token_id": 3092,
+      "first_seen": "Young Ireland rebellion",
+      "has_definition": false,
+      "definition": ""
+    },
+    "farranrory": {
+      "token_id": 7222,
+      "first_seen": "Young Ireland rebellion",
+      "has_definition": false,
+      "definition": ""
+    },
+    "irelander": {
+      "token_id": 3399,
+      "first_seen": "Young Ireland rebellion",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ballingarry": {
+      "token_id": 7826,
+      "first_seen": "Young Ireland rebellion",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hostages": {
+      "token_id": 7302,
+      "first_seen": "Young Ireland rebellion",
+      "has_definition": true,
+      "definition": "A person given as a pledge or security for the performance of the conditions of a treaty or similar agreement, such as to ensure the status of a vassal."
+    },
+    "innkeeper": {
+      "token_id": 7967,
+      "first_seen": "Christian Jacob Wolle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "collector": {
+      "token_id": 2783,
+      "first_seen": "Christian Jacob Wolle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wolle": {
+      "token_id": 5293,
+      "first_seen": "Christian Jacob Wolle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "moravian": {
+      "token_id": 3804,
+      "first_seen": "Christian Jacob Wolle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "diambou": {
+      "token_id": 700,
+      "first_seen": "Mamady Diambou",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mamady": {
+      "token_id": 7660,
+      "first_seen": "Mamady Diambou",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brno": {
+      "token_id": 7115,
+      "first_seen": "Josef Lidl",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 4558,
-  "total_words": 28383
+  "total_articles": 4588,
+  "total_words": 28481
 }
