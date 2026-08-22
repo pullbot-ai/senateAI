@@ -195605,8 +195605,722 @@
       "first_seen": "Laurent Casimir",
       "has_definition": false,
       "definition": ""
+    },
+    "shark": {
+      "token_id": 2421,
+      "first_seen": "Go Bang!",
+      "has_definition": true,
+      "definition": "A scaleless, predatory fish of the superorder Selachimorpha, with a cartilaginous skeleton and 5 to 7 gill slits on each side of its head."
+    },
+    "intoxication": {
+      "token_id": 2036,
+      "first_seen": "Go Bang!",
+      "has_definition": true,
+      "definition": "A poisoning, as by a spirituous or a narcotic substance."
+    },
+    "shriekback": {
+      "token_id": 1275,
+      "first_seen": "Go Bang!",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kladno": {
+      "token_id": 5343,
+      "first_seen": "P\u00e1le\u010d",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ple": {
+      "token_id": 6849,
+      "first_seen": "P\u00e1le\u010d",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fofana": {
+      "token_id": 6877,
+      "first_seen": "Seko Fofana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rennes": {
+      "token_id": 7347,
+      "first_seen": "Seko Fofana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seko": {
+      "token_id": 3773,
+      "first_seen": "Seko Fofana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stetter": {
+      "token_id": 7321,
+      "first_seen": "Florian Stetter",
+      "has_definition": false,
+      "definition": ""
+    },
+    "theater's": {
+      "token_id": 1420,
+      "first_seen": "St. Johns Twin Cinema",
+      "has_definition": false,
+      "definition": ""
+    },
+    "northgate": {
+      "token_id": 7607,
+      "first_seen": "St. Johns Twin Cinema",
+      "has_definition": false,
+      "definition": ""
+    },
+    "samuele": {
+      "token_id": 1739,
+      "first_seen": "San Samuele, Venice",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grassi": {
+      "token_id": 1209,
+      "first_seen": "San Samuele, Venice",
+      "has_definition": false,
+      "definition": ""
+    },
+    "relics": {
+      "token_id": 7316,
+      "first_seen": "San Samuele, Venice",
+      "has_definition": true,
+      "definition": "That which remains; that which is left after loss or decay; a remaining portion."
+    },
+    "biblical": {
+      "token_id": 3315,
+      "first_seen": "San Samuele, Venice",
+      "has_definition": true,
+      "definition": "Of or relating to the Bible."
+    },
+    "malipiero": {
+      "token_id": 2013,
+      "first_seen": "San Samuele, Venice",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stiff": {
+      "token_id": 874,
+      "first_seen": "Crete spiny mouse",
+      "has_definition": true,
+      "definition": "An average person, usually male, of no particular distinction, skill, or education, often a working stiff or lucky stiff."
+    },
+    "forager": {
+      "token_id": 7322,
+      "first_seen": "Crete spiny mouse",
+      "has_definition": true,
+      "definition": "An animal or person who forages"
+    },
+    "grayer": {
+      "token_id": 5164,
+      "first_seen": "Crete spiny mouse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rudimentary": {
+      "token_id": 5848,
+      "first_seen": "Crete spiny mouse",
+      "has_definition": true,
+      "definition": "(usually in the plural) One of the rudimentary mammae of boars."
+    },
+    "lodewijk": {
+      "token_id": 1926,
+      "first_seen": "Lou Ottens",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ottens": {
+      "token_id": 6371,
+      "first_seen": "Lou Ottens",
+      "has_definition": false,
+      "definition": ""
+    },
+    "monandrous": {
+      "token_id": 7238,
+      "first_seen": "Orchidoideae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "basitonic": {
+      "token_id": 6154,
+      "first_seen": "Orchidoideae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "orchidoid": {
+      "token_id": 5732,
+      "first_seen": "Orchidoideae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "orchidoideae": {
+      "token_id": 2463,
+      "first_seen": "Orchidoideae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "orchidaceae": {
+      "token_id": 428,
+      "first_seen": "Orchidoideae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anther": {
+      "token_id": 5174,
+      "first_seen": "Orchidoideae",
+      "has_definition": true,
+      "definition": "The pollen-bearing part of the stamen of a flower."
+    },
+    "jeremiah": {
+      "token_id": 2330,
+      "first_seen": "Albert J. Beveridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "beveridge": {
+      "token_id": 1815,
+      "first_seen": "Albert J. Beveridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "piracy": {
+      "token_id": 6922,
+      "first_seen": "Nathaniel Gordon",
+      "has_definition": true,
+      "definition": "Robbery at sea, a violation of international law; taking a ship away from the control of those who are legally entitled to it."
+    },
+    "trader": {
+      "token_id": 1980,
+      "first_seen": "Nathaniel Gordon",
+      "has_definition": true,
+      "definition": "One who earns a living by trading goods or securities."
+    },
+    "gangsters": {
+      "token_id": 3918,
+      "first_seen": "Kitty and the Bagman",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tilly": {
+      "token_id": 4932,
+      "first_seen": "Kitty and the Bagman",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bagman": {
+      "token_id": 5311,
+      "first_seen": "Kitty and the Bagman",
+      "has_definition": true,
+      "definition": "A person who collects, transports, or distributes illicit money, especially for the purpose of bribery, extortion, or the making of other improper payments."
+    },
+    "pdp": {
+      "token_id": 6225,
+      "first_seen": "Mugwump (video game)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "text-based": {
+      "token_id": 7859,
+      "first_seen": "Mugwump (video game)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mugwumps": {
+      "token_id": 7739,
+      "first_seen": "Mugwump (video game)",
+      "has_definition": true,
+      "definition": "An independent neutral politician, especially in reference to the 1884 U.S. presidential election."
+    },
+    "mugwump": {
+      "token_id": 5566,
+      "first_seen": "Mugwump (video game)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "randomly": {
+      "token_id": 4466,
+      "first_seen": "Mugwump (video game)",
+      "has_definition": true,
+      "definition": "In a random manner."
+    },
+    "corneti": {
+      "token_id": 139,
+      "first_seen": "H\u0103\u0219date (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "turda": {
+      "token_id": 1050,
+      "first_seen": "H\u0103\u0219date (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "svdisla": {
+      "token_id": 5593,
+      "first_seen": "H\u0103\u0219date (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arie": {
+      "token_id": 1578,
+      "first_seen": "H\u0103\u0219date (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cluj": {
+      "token_id": 2934,
+      "first_seen": "H\u0103\u0219date (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "petretii": {
+      "token_id": 3439,
+      "first_seen": "H\u0103\u0219date (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "turzii": {
+      "token_id": 714,
+      "first_seen": "H\u0103\u0219date (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "apuseni": {
+      "token_id": 5592,
+      "first_seen": "H\u0103\u0219date (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hdate": {
+      "token_id": 2410,
+      "first_seen": "H\u0103\u0219date (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ciurila": {
+      "token_id": 4432,
+      "first_seen": "H\u0103\u0219date (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cheile": {
+      "token_id": 999,
+      "first_seen": "H\u0103\u0219date (river)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trigonobalanus": {
+      "token_id": 1150,
+      "first_seen": "Trigonobalanus doichangensis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "doichangensis": {
+      "token_id": 3289,
+      "first_seen": "Trigonobalanus doichangensis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chiang": {
+      "token_id": 5772,
+      "first_seen": "Trigonobalanus doichangensis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fagaceae": {
+      "token_id": 3887,
+      "first_seen": "Trigonobalanus doichangensis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ellsworth": {
+      "token_id": 6430,
+      "first_seen": "Nell Peak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nell": {
+      "token_id": 4794,
+      "first_seen": "Nell Peak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bas-bulgarian": {
+      "token_id": 1995,
+      "first_seen": "Nell Peak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ice-free": {
+      "token_id": 4888,
+      "first_seen": "Nell Peak",
+      "has_definition": true,
+      "definition": "Free of all ice, not covered in ice."
+    },
+    "blepharomastix": {
+      "token_id": 4487,
+      "first_seen": "Blepharomastix",
+      "has_definition": false,
+      "definition": ""
+    },
+    "snows": {
+      "token_id": 1943,
+      "first_seen": "National Shrine of Saint Joseph (Karlovac)",
+      "has_definition": true,
+      "definition": "The frozen, crystalline state of water that falls as precipitation."
+    },
+    "karlovac": {
+      "token_id": 3,
+      "first_seen": "National Shrine of Saint Joseph (Karlovac)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "basslet": {
+      "token_id": 5937,
+      "first_seen": "Liopropoma aurora",
+      "has_definition": false,
+      "definition": ""
+    },
+    "liopropomatidae": {
+      "token_id": 6608,
+      "first_seen": "Liopropoma aurora",
+      "has_definition": false,
+      "definition": ""
+    },
+    "liopropoma": {
+      "token_id": 5518,
+      "first_seen": "Liopropoma aurora",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aurora": {
+      "token_id": 6429,
+      "first_seen": "Liopropoma aurora",
+      "has_definition": true,
+      "definition": "An atmospheric phenomenon created by charged particles from the sun striking the upper atmosphere, creating coloured lights in the sky. It is usually named australis or borealis based on whether it is in the Southern or Northern Hemisphere respectively."
+    },
+    "perciformes": {
+      "token_id": 6052,
+      "first_seen": "Liopropoma aurora",
+      "has_definition": false,
+      "definition": ""
+    },
+    "deep-reef": {
+      "token_id": 795,
+      "first_seen": "Liopropoma aurora",
+      "has_definition": false,
+      "definition": ""
+    },
+    "numazu": {
+      "token_id": 2312,
+      "first_seen": "Azul Claro Numazu",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shizuoka": {
+      "token_id": 5398,
+      "first_seen": "Azul Claro Numazu",
+      "has_definition": false,
+      "definition": ""
+    },
+    "claro": {
+      "token_id": 153,
+      "first_seen": "Azul Claro Numazu",
+      "has_definition": false,
+      "definition": ""
+    },
+    "phenomena": {
+      "token_id": 2223,
+      "first_seen": "Ayana Holloway Arce",
+      "has_definition": true,
+      "definition": "A thing or being, event or process, perceptible through senses; or a fact or occurrence thereof."
+    },
+    "tamu": {
+      "token_id": 5824,
+      "first_seen": "Ayana Holloway Arce",
+      "has_definition": false,
+      "definition": ""
+    },
+    "understand": {
+      "token_id": 6597,
+      "first_seen": "Ayana Holloway Arce",
+      "has_definition": true,
+      "definition": "To grasp a concept fully and thoroughly, especially (of words, statements, art, etc.) to be aware of the meaning of and (of people) to be aware of the intent of."
+    },
+    "hadron": {
+      "token_id": 7688,
+      "first_seen": "Ayana Holloway Arce",
+      "has_definition": false,
+      "definition": ""
+    },
+    "collider": {
+      "token_id": 5485,
+      "first_seen": "Ayana Holloway Arce",
+      "has_definition": true,
+      "definition": "Any of several forms of particle accelerator in which two opposing beams of particles collide."
+    },
+    "ayana": {
+      "token_id": 4162,
+      "first_seen": "Ayana Holloway Arce",
+      "has_definition": false,
+      "definition": ""
+    },
+    "soyud": {
+      "token_id": 5823,
+      "first_seen": "Eli Soyud",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pvl": {
+      "token_id": 1464,
+      "first_seen": "Eli Soyud",
+      "has_definition": false,
+      "definition": ""
+    },
+    "akari": {
+      "token_id": 138,
+      "first_seen": "Eli Soyud",
+      "has_definition": false,
+      "definition": ""
+    },
+    "esh": {
+      "token_id": 5182,
+      "first_seen": "Cornsay Colliery",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cornsay": {
+      "token_id": 5832,
+      "first_seen": "Cornsay Colliery",
+      "has_definition": false,
+      "definition": ""
+    },
+    "colliery": {
+      "token_id": 6029,
+      "first_seen": "Cornsay Colliery",
+      "has_definition": true,
+      "definition": "An underground coal mine, together with its surface buildings."
+    },
+    "farino": {
+      "token_id": 3464,
+      "first_seen": "Farino",
+      "has_definition": false,
+      "definition": ""
+    },
+    "landlocked": {
+      "token_id": 7356,
+      "first_seen": "Farino",
+      "has_definition": true,
+      "definition": "(of a country, geographical region, etc.) Surrounded by land (having no borders with the sea)."
+    },
+    "terre": {
+      "token_id": 4675,
+      "first_seen": "Farino",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sarrama": {
+      "token_id": 736,
+      "first_seen": "Farino",
+      "has_definition": false,
+      "definition": ""
+    },
+    "caledonia": {
+      "token_id": 480,
+      "first_seen": "Farino",
+      "has_definition": false,
+      "definition": ""
+    },
+    "whelks": {
+      "token_id": 5685,
+      "first_seen": "Demoulia abbreviata",
+      "has_definition": true,
+      "definition": "Certain edible sea snails, especially, any one of numerous species of large marine gastropods belonging to Buccinidae, much used as food in Europe."
+    },
+    "nassariidae": {
+      "token_id": 5001,
+      "first_seen": "Demoulia abbreviata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "demoulia": {
+      "token_id": 5720,
+      "first_seen": "Demoulia abbreviata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nassa": {
+      "token_id": 3324,
+      "first_seen": "Demoulia abbreviata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "abbreviata": {
+      "token_id": 6452,
+      "first_seen": "Demoulia abbreviata",
+      "has_definition": false,
+      "definition": ""
+    },
+    "galizia": {
+      "token_id": 7775,
+      "first_seen": "Portrait of Paolo Morigia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "morigia": {
+      "token_id": 687,
+      "first_seen": "Portrait of Paolo Morigia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ambrosiana": {
+      "token_id": 2947,
+      "first_seen": "Portrait of Paolo Morigia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gerolamo": {
+      "token_id": 7358,
+      "first_seen": "Portrait of Paolo Morigia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pinacoteca": {
+      "token_id": 1603,
+      "first_seen": "Portrait of Paolo Morigia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fede": {
+      "token_id": 4598,
+      "first_seen": "Portrait of Paolo Morigia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mondjar": {
+      "token_id": 5162,
+      "first_seen": "\u00cd\u00f1igo L\u00f3pez de Mendoza y Qui\u00f1ones",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tendilla": {
+      "token_id": 6667,
+      "first_seen": "\u00cd\u00f1igo L\u00f3pez de Mendoza y Qui\u00f1ones",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marquis": {
+      "token_id": 2479,
+      "first_seen": "\u00cd\u00f1igo L\u00f3pez de Mendoza y Qui\u00f1ones",
+      "has_definition": false,
+      "definition": ""
+    },
+    "santillana": {
+      "token_id": 7969,
+      "first_seen": "\u00cd\u00f1igo L\u00f3pez de Mendoza y Qui\u00f1ones",
+      "has_definition": false,
+      "definition": ""
+    },
+    "quiones": {
+      "token_id": 5399,
+      "first_seen": "\u00cd\u00f1igo L\u00f3pez de Mendoza y Qui\u00f1ones",
+      "has_definition": false,
+      "definition": ""
+    },
+    "igo": {
+      "token_id": 507,
+      "first_seen": "\u00cd\u00f1igo L\u00f3pez de Mendoza y Qui\u00f1ones",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wagram": {
+      "token_id": 3171,
+      "first_seen": "Treaty of Sch\u00f6nbrunn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "schnbrunn": {
+      "token_id": 182,
+      "first_seen": "Treaty of Sch\u00f6nbrunn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tent": {
+      "token_id": 5261,
+      "first_seen": "TPP Nikola Tesla",
+      "has_definition": true,
+      "definition": "A pavilion or portable lodge consisting of skins, canvas, or some strong cloth, stretched and sustained by poles, used for sheltering people from the weather."
+    },
+    "gwh": {
+      "token_id": 3730,
+      "first_seen": "TPP Nikola Tesla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "belgrade": {
+      "token_id": 1690,
+      "first_seen": "TPP Nikola Tesla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tesla": {
+      "token_id": 3246,
+      "first_seen": "TPP Nikola Tesla",
+      "has_definition": true,
+      "definition": "In the International System of Units, the derived unit of magnetic flux density or magnetic inductivity. Symbol: T"
+    },
+    "serbia's": {
+      "token_id": 920,
+      "first_seen": "TPP Nikola Tesla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "elektroprivreda": {
+      "token_id": 6872,
+      "first_seen": "TPP Nikola Tesla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "obrenovac": {
+      "token_id": 7917,
+      "first_seen": "TPP Nikola Tesla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tpp": {
+      "token_id": 1511,
+      "first_seen": "TPP Nikola Tesla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "srbije": {
+      "token_id": 2763,
+      "first_seen": "TPP Nikola Tesla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "enterprise's": {
+      "token_id": 3648,
+      "first_seen": "Enterprise I.O.O.F. Hall",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oregon's": {
+      "token_id": 1322,
+      "first_seen": "Enterprise I.O.O.F. Hall",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ioof": {
+      "token_id": 5519,
+      "first_seen": "Enterprise I.O.O.F. Hall",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 5548,
-  "total_words": 32601
+  "total_articles": 5578,
+  "total_words": 32720
 }
