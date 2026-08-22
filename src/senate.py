@@ -1,7 +1,8 @@
 """
 Senate AI - The Parliament Runtime
 Real senator inference with trained models.
-Uses shared wordbank. AI Grouper. Adaptive response length.
+Uses shared wordbank. AI Grouper. Reliability-weighted voting.
+Dynamic senator activation. Adaptive response length.
 """
 
 import torch
@@ -82,6 +83,34 @@ class Senate:
         self.active_senators[senator_id] = senator
         return senator
     
+    def _get_senator_reliability(self, senator_id, relevant_topics=None):
+        """Get senator's reliability score, optionally weighted by topic relevance"""
+        senator_info = next(
+            (s for s in self.index['senators'] if s['senator_id'] == senator_id),
+            None
+        )
+        
+        if not senator_info:
+            return 20.0  # Default low reliability
+        
+        performance = senator_info.get('performance', {})
+        
+        if not performance:
+            return 20.0
+        
+        if relevant_topics:
+            # Weight by topic relevance
+            relevant_scores = []
+            for topic in relevant_topics:
+                if topic in performance:
+                    relevant_scores.append(performance[topic] * 100)
+            
+            if relevant_scores:
+                return sum(relevant_scores) / len(relevant_scores)
+        
+        # Fallback: average all performance
+        return sum(performance.values()) / len(performance) * 100
+    
     def _tokenize(self, text, max_len=32):
         """Tokenize using shared wordbank"""
         tokens = self.wordbank.tokenize(text, max_len=max_len)
@@ -96,7 +125,6 @@ class Senate:
         
         question_lower = question.lower()
         
-        # Check for math expressions
         math_match = re.search(r'(\d+\.?\d*)\s*([+\-*/])\s*(\d+\.?\d*)', question_lower)
         if math_match:
             a = float(math_match.group(1))
@@ -113,7 +141,6 @@ class Senate:
                 return str(int(result))
             return str(result)
         
-        # Simple question patterns
         simple_patterns = [
             r'^what is ',
             r'^who is ',
@@ -159,7 +186,6 @@ class Senate:
         
         raw_answer = self._decode(torch.tensor(generated))
         
-        # Basic cleanup
         raw_answer = re.sub(r'\[\d+\]', '', raw_answer)
         raw_answer = re.sub(r'\s+', ' ', raw_answer).strip()
         if raw_answer and raw_answer[-1] not in '.!?':
@@ -208,7 +234,7 @@ class Senate:
         return [topic for topic, _ in sorted_topics[:8]]
     
     def select_senators(self, relevant_topics, max_senators=25):
-        """Select senators matching relevant topics"""
+        """Select senators matching relevant topics, sorted by reliability"""
         senator_scores = []
         
         for senator_info in self.index['senators']:
@@ -217,9 +243,12 @@ class Senate:
             overlap = senator_topics & relevant_set
             
             if overlap:
-                score = len(overlap) / len(relevant_set)
-                bonus = sum(1 for t in overlap if t in senator_topics) * 0.1
-                senator_scores.append((senator_info, score + bonus))
+                relevance = len(overlap) / len(relevant_set)
+                reliability = self._get_senator_reliability(senator_info['senator_id'], relevant_topics)
+                
+                # Combine relevance and reliability
+                score = relevance * 0.6 + (reliability / 100) * 0.4
+                senator_scores.append((senator_info, score))
         
         senator_scores.sort(key=lambda x: x[1], reverse=True)
         
@@ -337,20 +366,35 @@ Return a brief critique."""
         ]
         return random.choice(challenges)
     
-    def vote(self, groups):
-        """Vote on answer groups"""
+    def vote(self, groups, relevant_topics=None):
+        """Reliability-weighted voting"""
         if not groups:
             return "No consensus reached.", 0.0
         
-        total_votes = sum(g['count'] for g in groups)
-        if total_votes == 0:
+        weighted_groups = []
+        for group in groups:
+            weight = 0
+            for senator_id in group['senators']:
+                reliability = self._get_senator_reliability(senator_id, relevant_topics)
+                weight += 1 + (reliability / 50)  # Base 1, up to 3 for high performers
+            
+            group['weight'] = weight
+            weighted_groups.append(group)
+        
+        weighted_groups.sort(key=lambda x: x['weight'], reverse=True)
+        
+        if not weighted_groups:
             return "No consensus reached.", 0.0
         
-        leading = groups[0]
-        return leading['answer'], leading['count'] / total_votes
+        leading = weighted_groups[0]
+        total_weight = sum(g['weight'] for g in weighted_groups)
+        
+        confidence = leading['weight'] / total_weight if total_weight > 0 else 0.0
+        
+        return leading['answer'], confidence
     
     def ask(self, question):
-        """Public interface: Ask the Senate a question with real inference"""
+        """Public interface: Ask the Senate with dynamic activation"""
         print(f"\n{'='*60}")
         print(f"  SENATE DEBATE")
         print(f"{'='*60}")
@@ -366,7 +410,8 @@ Return a brief critique."""
         selected = self.select_senators(relevant_topics, max_senators=25)
         print(f"{len(selected)} senators selected")
         for s in selected[:10]:
-            print(f"  Senator {s['senator_id']}: {', '.join(s['specialties'][:3])}")
+            reliability = self._get_senator_reliability(s['senator_id'], relevant_topics)
+            print(f"  Senator {s['senator_id']} [{', '.join(s['specialties'][:2])}] (rel: {reliability:.0f}%)")
         if len(selected) > 10:
             print(f"  ... and {len(selected)-10} more")
         sys.stdout.flush()
@@ -397,11 +442,27 @@ Return a brief critique."""
         print(f"\n  Groups formed: {len(groups)}")
         for i, g in enumerate(groups[:8]):
             print(f"  Group {i+1}: {g['count']} votes - \"{g['answer'][:60]}...\"")
-        if len(groups) > 8:
-            print(f"  ... and {len(groups)-8} more groups")
         sys.stdout.flush()
         
-        consensus, confidence = self.vote(groups)
+        consensus, confidence = self.vote(groups, relevant_topics)
+        
+        # Dynamic activation: if confidence too low, activate more senators
+        if confidence < 0.4 and len(selected) < 40:
+            print(f"\n  Low confidence ({confidence:.1%}). Activating more senators...")
+            extra = self.select_senators(relevant_topics, max_senators=40)
+            extra = [s for s in extra if s not in selected][:15]
+            
+            for senator_info in extra:
+                senator = self._load_senator(senator_info)
+                if senator is None:
+                    continue
+                
+                answer = self._senator_inference(senator, question)
+                answers.append((senator_info['senator_id'], answer))
+            
+            groups = self.grouper(answers)
+            consensus, confidence = self.vote(groups, relevant_topics)
+            print(f"  New confidence: {confidence:.1%} with {len(answers)} senators")
         
         print(f"\n{'─'*60}")
         print("  ROUND 2 - Reconsider with Challenge")
@@ -414,7 +475,7 @@ Return a brief critique."""
         sys.stdout.flush()
         
         answers2 = []
-        for i, senator_info in enumerate(selected):
+        for senator_info in selected:
             senator = self._load_senator(senator_info)
             if senator is None:
                 continue
@@ -426,17 +487,12 @@ Return a brief critique."""
                 f"Provide your revised answer:"
             )
             
-            print(f"  [{len(answers2)+1}/{len(selected)}] Senator {senator_info['senator_id']}...", end=' ')
-            sys.stdout.flush()
-            
             answer = self._senator_inference(senator, reconsider_prompt)
             answers2.append((senator_info['senator_id'], answer))
-            print(f'"{answer[:80]}"')
-            sys.stdout.flush()
         
         if answers2:
             groups2 = self.grouper(answers2)
-            consensus2, confidence2 = self.vote(groups2)
+            consensus2, confidence2 = self.vote(groups2, relevant_topics)
             
             if confidence2 >= confidence:
                 consensus = consensus2
