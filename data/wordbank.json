@@ -154817,8 +154817,902 @@
       "first_seen": "Calleremites",
       "has_definition": false,
       "definition": ""
+    },
+    "airplanes": {
+      "token_id": 3120,
+      "first_seen": "Lowe, Willard & Fowler Engineering Company",
+      "has_definition": true,
+      "definition": "A powered heavier-than-air aircraft with fixed wings."
+    },
+    "wu": {
+      "token_id": 6835,
+      "first_seen": "Overheard 2",
+      "has_definition": true,
+      "definition": "A Chinese shaman."
+    },
+    "overheard": {
+      "token_id": 2376,
+      "first_seen": "Overheard 2",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ching-wan": {
+      "token_id": 2925,
+      "first_seen": "Overheard 2",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mak": {
+      "token_id": 2964,
+      "first_seen": "Overheard 2",
+      "has_definition": false,
+      "definition": ""
+    },
+    "moldovan": {
+      "token_id": 6255,
+      "first_seen": "Valeriu Matei",
+      "has_definition": false,
+      "definition": ""
+    },
+    "matei": {
+      "token_id": 7863,
+      "first_seen": "Valeriu Matei",
+      "has_definition": false,
+      "definition": ""
+    },
+    "moldova": {
+      "token_id": 432,
+      "first_seen": "Valeriu Matei",
+      "has_definition": false,
+      "definition": ""
+    },
+    "honorific": {
+      "token_id": 655,
+      "first_seen": "Valeriu Matei",
+      "has_definition": true,
+      "definition": "A title. (e.g., Mister, Misses, Doctor, Professor)"
+    },
+    "valeriu": {
+      "token_id": 879,
+      "first_seen": "Valeriu Matei",
+      "has_definition": false,
+      "definition": ""
+    },
+    "macarol": {
+      "token_id": 3896,
+      "first_seen": "Tina Mrak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "koper": {
+      "token_id": 7949,
+      "first_seen": "Tina Mrak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "erne": {
+      "token_id": 5885,
+      "first_seen": "Tina Mrak",
+      "has_definition": true,
+      "definition": "A sea eagle (Haliaeetus), especially the white-tailed eagle (Haliaeetus albicilla)"
+    },
+    "mrak": {
+      "token_id": 1183,
+      "first_seen": "Tina Mrak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "theasaloniki": {
+      "token_id": 733,
+      "first_seen": "Tina Mrak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "teja": {
+      "token_id": 6175,
+      "first_seen": "Tina Mrak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "veronika": {
+      "token_id": 611,
+      "first_seen": "Tina Mrak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "krakw": {
+      "token_id": 6123,
+      "first_seen": "Stare Miasto, Krak\u00f3w (district)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sukkur-i": {
+      "token_id": 2235,
+      "first_seen": "PS-22 Sukkur-I",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tolland-class": {
+      "token_id": 3825,
+      "first_seen": "USS Torrance",
+      "has_definition": false,
+      "definition": ""
+    },
+    "torrance": {
+      "token_id": 5187,
+      "first_seen": "USS Torrance",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ikegami": {
+      "token_id": 2817,
+      "first_seen": "Togoshi-ginza Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tokyu": {
+      "token_id": 3179,
+      "first_seen": "Togoshi-ginza Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shinagawa": {
+      "token_id": 6938,
+      "first_seen": "Togoshi-ginza Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "togoshi-ginza": {
+      "token_id": 1734,
+      "first_seen": "Togoshi-ginza Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "understandings": {
+      "token_id": 4864,
+      "first_seen": "Wet Prairie",
+      "has_definition": true,
+      "definition": "(gerund) The act of one that understands or comprehends; comprehension; knowledge; discernment."
+    },
+    "bower": {
+      "token_id": 5856,
+      "first_seen": "Wet Prairie",
+      "has_definition": true,
+      "definition": "A bedroom or private apartments, especially for a woman in a medieval castle."
+    },
+    "interplay": {
+      "token_id": 4729,
+      "first_seen": "Wet Prairie",
+      "has_definition": true,
+      "definition": "Interaction; reciprocal relationship."
+    },
+    "differing": {
+      "token_id": 3215,
+      "first_seen": "Wet Prairie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "demonstrates": {
+      "token_id": 2309,
+      "first_seen": "Wet Prairie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "prairies": {
+      "token_id": 6792,
+      "first_seen": "Wet Prairie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "liberalisms": {
+      "token_id": 4302,
+      "first_seen": "Wet Prairie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tensions": {
+      "token_id": 3937,
+      "first_seen": "Wet Prairie",
+      "has_definition": true,
+      "definition": "The condition of being held in a state between two or more forces, which are acting in opposition to each other."
+    },
+    "stunden": {
+      "token_id": 3358,
+      "first_seen": "Wet Prairie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "understood": {
+      "token_id": 3897,
+      "first_seen": "Wet Prairie",
+      "has_definition": true,
+      "definition": "To grasp a concept fully and thoroughly, especially (of words, statements, art, etc.) to be aware of the meaning of and (of people) to be aware of the intent of."
+    },
+    "ideologies": {
+      "token_id": 6945,
+      "first_seen": "Wet Prairie",
+      "has_definition": true,
+      "definition": "Doctrine, philosophy, body of beliefs or principles belonging to an individual or group."
+    },
+    "shannon": {
+      "token_id": 6008,
+      "first_seen": "Wet Prairie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tax": {
+      "token_id": 2239,
+      "first_seen": "Wet Prairie",
+      "has_definition": true,
+      "definition": "Money paid to the government other than for transaction-specific goods and services."
+    },
+    "canadas": {
+      "token_id": 2244,
+      "first_seen": "Wet Prairie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "context": {
+      "token_id": 6366,
+      "first_seen": "Wet Prairie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aridity": {
+      "token_id": 3248,
+      "first_seen": "Wet Prairie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inagawa": {
+      "token_id": 7267,
+      "first_seen": "Inagawa Dam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kuwa": {
+      "token_id": 1808,
+      "first_seen": "Inagawa Dam",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boolteens": {
+      "token_id": 4095,
+      "first_seen": "Kilgarrylander",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fybagh": {
+      "token_id": 3248,
+      "first_seen": "Kilgarrylander",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kilgarrylander": {
+      "token_id": 5741,
+      "first_seen": "Kilgarrylander",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trughanacmy": {
+      "token_id": 4931,
+      "first_seen": "Kilgarrylander",
+      "has_definition": false,
+      "definition": ""
+    },
+    "castlemaine": {
+      "token_id": 4069,
+      "first_seen": "Kilgarrylander",
+      "has_definition": false,
+      "definition": ""
+    },
+    "decree": {
+      "token_id": 1390,
+      "first_seen": "Russian Federation Presidential Certificate of Honour",
+      "has_definition": false,
+      "definition": ""
+    },
+    "amended": {
+      "token_id": 1560,
+      "first_seen": "Russian Federation Presidential Certificate of Honour",
+      "has_definition": false,
+      "definition": ""
+    },
+    "regulations": {
+      "token_id": 6561,
+      "first_seen": "Russian Federation Presidential Certificate of Honour",
+      "has_definition": false,
+      "definition": ""
+    },
+    "deserving": {
+      "token_id": 4303,
+      "first_seen": "Russian Federation Presidential Certificate of Honour",
+      "has_definition": false,
+      "definition": ""
+    },
+    "labatut": {
+      "token_id": 7812,
+      "first_seen": "Magdalena campaign",
+      "has_definition": false,
+      "definition": ""
+    },
+    "simn": {
+      "token_id": 1326,
+      "first_seen": "Magdalena campaign",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bolvar": {
+      "token_id": 2665,
+      "first_seen": "Magdalena campaign",
+      "has_definition": false,
+      "definition": ""
+    },
+    "royalists": {
+      "token_id": 258,
+      "first_seen": "Magdalena campaign",
+      "has_definition": false,
+      "definition": ""
+    },
+    "magdalena": {
+      "token_id": 2657,
+      "first_seen": "Magdalena campaign",
+      "has_definition": false,
+      "definition": ""
+    },
+    "independentists": {
+      "token_id": 2692,
+      "first_seen": "Magdalena campaign",
+      "has_definition": false,
+      "definition": ""
+    },
+    "meinersen": {
+      "token_id": 935,
+      "first_seen": "Hillerse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gifhorn": {
+      "token_id": 3970,
+      "first_seen": "Hillerse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "volkse": {
+      "token_id": 7135,
+      "first_seen": "Hillerse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hillerse": {
+      "token_id": 4644,
+      "first_seen": "Hillerse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "samtgemeinde": {
+      "token_id": 1464,
+      "first_seen": "Hillerse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "steam-powered": {
+      "token_id": 2205,
+      "first_seen": "Bertha (drag boat)",
+      "has_definition": true,
+      "definition": "Using steam power."
+    },
+    "bridgwater": {
+      "token_id": 4680,
+      "first_seen": "Bertha (drag boat)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "silt": {
+      "token_id": 218,
+      "first_seen": "Bertha (drag boat)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "legally": {
+      "token_id": 883,
+      "first_seen": "Haydark\u00f6y, Mut",
+      "has_definition": true,
+      "definition": "As permitted by law; not contrary to law."
+    },
+    "haydar": {
+      "token_id": 2164,
+      "first_seen": "Haydark\u00f6y, Mut",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pomegranate": {
+      "token_id": 3622,
+      "first_seen": "Haydark\u00f6y, Mut",
+      "has_definition": true,
+      "definition": "A fruit-bearing shrub or small tree, Punica granatum."
+    },
+    "mut": {
+      "token_id": 7451,
+      "first_seen": "Haydark\u00f6y, Mut",
+      "has_definition": false,
+      "definition": ""
+    },
+    "apricot": {
+      "token_id": 5852,
+      "first_seen": "Haydark\u00f6y, Mut",
+      "has_definition": true,
+      "definition": "A round sweet and juicy stone fruit, resembling peach or plum in taste, with a yellow-orange flesh, lightly fuzzy skin and a large seed inside."
+    },
+    "haydarky": {
+      "token_id": 4771,
+      "first_seen": "Haydark\u00f6y, Mut",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gksu": {
+      "token_id": 5726,
+      "first_seen": "Haydark\u00f6y, Mut",
+      "has_definition": false,
+      "definition": ""
+    },
+    "monumental": {
+      "token_id": 4060,
+      "first_seen": "Haydark\u00f6y, Mut",
+      "has_definition": true,
+      "definition": "In the manner of a monument."
+    },
+    "toros": {
+      "token_id": 5628,
+      "first_seen": "Haydark\u00f6y, Mut",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rit": {
+      "token_id": 2730,
+      "first_seen": "2023\u201324 RIT Tigers men's ice hockey season",
+      "has_definition": true,
+      "definition": "A scratch, a score or a groove."
+    },
+    "moretz": {
+      "token_id": 1058,
+      "first_seen": "2023\u201324 RIT Tigers men's ice hockey season",
+      "has_definition": false,
+      "definition": ""
+    },
+    "polisseni": {
+      "token_id": 4617,
+      "first_seen": "2023\u201324 RIT Tigers men's ice hockey season",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bihoro": {
+      "token_id": 2362,
+      "first_seen": "Japan National Route 334",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rausu": {
+      "token_id": 7154,
+      "first_seen": "Japan National Route 334",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fathers": {
+      "token_id": 1169,
+      "first_seen": "John Hamilton Gray (Prince Edward Island politician)",
+      "has_definition": true,
+      "definition": "A (generally human) male who begets a child."
+    },
+    "saroja": {
+      "token_id": 5883,
+      "first_seen": "Kamadhenu (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nandalal": {
+      "token_id": 7985,
+      "first_seen": "Kamadhenu (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vatsal": {
+      "token_id": 6449,
+      "first_seen": "Kamadhenu (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iyer": {
+      "token_id": 4068,
+      "first_seen": "Kamadhenu (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pattu": {
+      "token_id": 1957,
+      "first_seen": "Kamadhenu (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kamadhenu": {
+      "token_id": 7180,
+      "first_seen": "Kamadhenu (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vatsala": {
+      "token_id": 7618,
+      "first_seen": "Kamadhenu (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jaswantalal": {
+      "token_id": 3211,
+      "first_seen": "Kamadhenu (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "directa": {
+      "token_id": 1559,
+      "first_seen": "Synemon directa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "synemon": {
+      "token_id": 5526,
+      "first_seen": "Synemon directa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "white-banded": {
+      "token_id": 7288,
+      "first_seen": "Synemon directa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "castniidae": {
+      "token_id": 6277,
+      "first_seen": "Synemon directa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cabinet-level": {
+      "token_id": 1580,
+      "first_seen": "Ministry of Housing (Saudi Arabia)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stimulate": {
+      "token_id": 6566,
+      "first_seen": "Ministry of Housing (Saudi Arabia)",
+      "has_definition": true,
+      "definition": "To encourage into action."
+    },
+    "supplying": {
+      "token_id": 439,
+      "first_seen": "Ministry of Housing (Saudi Arabia)",
+      "has_definition": true,
+      "definition": "To provide (something), to make (something) available for use."
+    },
+    "al-hogail": {
+      "token_id": 1530,
+      "first_seen": "Ministry of Housing (Saudi Arabia)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "majid": {
+      "token_id": 2372,
+      "first_seen": "Ministry of Housing (Saudi Arabia)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lobbyist": {
+      "token_id": 2530,
+      "first_seen": "Steve Israel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nassau": {
+      "token_id": 119,
+      "first_seen": "Steve Israel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bookseller": {
+      "token_id": 4648,
+      "first_seen": "Steve Israel",
+      "has_definition": true,
+      "definition": "A person engaged in the business of selling books."
+    },
+    "york's": {
+      "token_id": 765,
+      "first_seen": "Steve Israel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aluf": {
+      "token_id": 3143,
+      "first_seen": "Michel Yanko",
+      "has_definition": false,
+      "definition": ""
+    },
+    "technological": {
+      "token_id": 3304,
+      "first_seen": "Michel Yanko",
+      "has_definition": false,
+      "definition": ""
+    },
+    "idf": {
+      "token_id": 5629,
+      "first_seen": "Michel Yanko",
+      "has_definition": false,
+      "definition": ""
+    },
+    "atal": {
+      "token_id": 4816,
+      "first_seen": "Michel Yanko",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yanko": {
+      "token_id": 3948,
+      "first_seen": "Michel Yanko",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nazianzus": {
+      "token_id": 6862,
+      "first_seen": "Perichoresis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "explicit": {
+      "token_id": 6306,
+      "first_seen": "Perichoresis",
+      "has_definition": true,
+      "definition": "Very specific, clear, or detailed."
+    },
+    "interpenetration": {
+      "token_id": 2699,
+      "first_seen": "Perichoresis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "latin-derived": {
+      "token_id": 557,
+      "first_seen": "Perichoresis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "circumincession": {
+      "token_id": 5376,
+      "first_seen": "Perichoresis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "natures": {
+      "token_id": 3510,
+      "first_seen": "Perichoresis",
+      "has_definition": true,
+      "definition": "The natural world; that which consists of all things unaffected by or predating human technology, production, and design. (Compare ecosystem.)"
+    },
+    "hillary's": {
+      "token_id": 224,
+      "first_seen": "Perichoresis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trinitate": {
+      "token_id": 5020,
+      "first_seen": "Perichoresis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "confessor": {
+      "token_id": 6699,
+      "first_seen": "Perichoresis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "triune": {
+      "token_id": 7259,
+      "first_seen": "Perichoresis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "verb": {
+      "token_id": 2416,
+      "first_seen": "Perichoresis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "noun": {
+      "token_id": 4818,
+      "first_seen": "Perichoresis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "perichoreo": {
+      "token_id": 7604,
+      "first_seen": "Perichoresis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "theologically": {
+      "token_id": 2759,
+      "first_seen": "Perichoresis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "maximus": {
+      "token_id": 3772,
+      "first_seen": "Perichoresis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "perichoresis": {
+      "token_id": 926,
+      "first_seen": "Perichoresis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "su-jeong": {
+      "token_id": 6151,
+      "first_seen": "Son Ji-yoon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ji-yoon": {
+      "token_id": 656,
+      "first_seen": "Son Ji-yoon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fog": {
+      "token_id": 1307,
+      "first_seen": "Son Ji-yoon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "countryside": {
+      "token_id": 3791,
+      "first_seen": "Western Area",
+      "has_definition": false,
+      "definition": ""
+    },
+    "freetown": {
+      "token_id": 671,
+      "first_seen": "Western Area",
+      "has_definition": false,
+      "definition": ""
+    },
+    "divisions": {
+      "token_id": 3051,
+      "first_seen": "Western Area",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bkerk": {
+      "token_id": 3790,
+      "first_seen": "Bkerk\u00e9",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antioch": {
+      "token_id": 4146,
+      "first_seen": "Bkerk\u00e9",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jounieh": {
+      "token_id": 7151,
+      "first_seen": "Bkerk\u00e9",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bijoaraneus": {
+      "token_id": 7470,
+      "first_seen": "Bijoaraneus mitificus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kidney": {
+      "token_id": 3168,
+      "first_seen": "Bijoaraneus mitificus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "orb-weaver": {
+      "token_id": 4816,
+      "first_seen": "Bijoaraneus mitificus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pale": {
+      "token_id": 3416,
+      "first_seen": "Bijoaraneus mitificus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mitificus": {
+      "token_id": 5358,
+      "first_seen": "Bijoaraneus mitificus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "composite": {
+      "token_id": 3254,
+      "first_seen": "Quantum chromodynamics",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neutron": {
+      "token_id": 4844,
+      "first_seen": "Quantum chromodynamics",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chromodynamics": {
+      "token_id": 4752,
+      "first_seen": "Quantum chromodynamics",
+      "has_definition": false,
+      "definition": ""
+    },
+    "non-abelian": {
+      "token_id": 7022,
+      "first_seen": "Quantum chromodynamics",
+      "has_definition": false,
+      "definition": ""
+    },
+    "photons": {
+      "token_id": 186,
+      "first_seen": "Quantum chromodynamics",
+      "has_definition": false,
+      "definition": ""
+    },
+    "proton": {
+      "token_id": 2072,
+      "first_seen": "Quantum chromodynamics",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gluons": {
+      "token_id": 7007,
+      "first_seen": "Quantum chromodynamics",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hadrons": {
+      "token_id": 1591,
+      "first_seen": "Quantum chromodynamics",
+      "has_definition": false,
+      "definition": ""
+    },
+    "qcd": {
+      "token_id": 2957,
+      "first_seen": "Quantum chromodynamics",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pion": {
+      "token_id": 3987,
+      "first_seen": "Quantum chromodynamics",
+      "has_definition": true,
+      "definition": "Any of three semistable mesons, having positive, negative or neutral charge, composed of up and down quarks/antiquarks."
+    },
+    "quarks": {
+      "token_id": 464,
+      "first_seen": "Quantum chromodynamics",
+      "has_definition": true,
+      "definition": "In the Standard Model, an elementary subatomic particle that forms matter. They combine to form hadrons, such as protons and neutrons."
+    },
+    "analog": {
+      "token_id": 3140,
+      "first_seen": "Quantum chromodynamics",
+      "has_definition": true,
+      "definition": "Something that bears an analogy to something else"
     }
   },
-  "total_articles": 4018,
-  "total_words": 25803
+  "total_articles": 4048,
+  "total_words": 25952
 }
