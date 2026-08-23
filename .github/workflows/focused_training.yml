@@ -1,0 +1,185 @@
+name: Focused Training
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_senators:
+        description: 'Number of low performers to train'
+        required: false
+        default: '10'
+      epochs:
+        description: 'Training epochs'
+        required: false
+        default: '30'
+
+permissions:
+  contents: write
+
+jobs:
+  find-low-performers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            senate_bundles/senate_index.json
+          sparse-checkout-cone-mode: false
+          show-progress: false
+      
+      - name: Find worst senators
+        id: worst
+        run: |
+          cat > find_worst.py << 'EOF'
+          import json
+          
+          with open('senate_bundles/senate_index.json') as f:
+              index = json.load(f)
+          
+          senators = []
+          for s in index['senators']:
+              performance = s.get('performance', {})
+              avg = sum(performance.values()) / len(performance) * 100 if performance else 0
+              senators.append((s['senator_id'], s['bundle_id'], s['specialties'], avg))
+          
+          senators.sort(key=lambda x: x[3])
+          
+          worst = senators[:${{ github.event.inputs.max_senators }}]
+          
+          with open('worst_senators.json', 'w') as f:
+              json.dump([{'senator_id': w[0], 'bundle_id': w[1], 'specialties': w[2], 'score': w[3]} for w in worst], f)
+          
+          for w in worst[:10]:
+              print(f"  Senator {w[0]}: {w[3]:.1f}% - {', '.join(w[2][:2])}")
+          EOF
+          python find_worst.py
+
+  train-worst:
+    needs: find-low-performers
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        index: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            src/
+            senate_bundles/senate_index.json
+            data/wordbank.json
+            config.yaml
+          sparse-checkout-cone-mode: false
+          submodules: false
+          lfs: false
+          show-progress: false
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ runner.os }}
+          restore-keys: pip-${{ runner.os }}-
+      
+      - run: pip install torch numpy pyyaml requests
+      - run: npm install @heyputer/puter.js
+      
+      - name: Train worst senator ${{ matrix.index }}
+        run: |
+          cat > train_one.py << 'EOF'
+          import sys, json
+          sys.path.insert(0, 'src')
+          from model_template import SenateBundle
+          from train import train_senator_on_topics, grade_and_update
+          from wordbank import get_wordbank
+          
+          import torch
+          torch.set_num_threads(1)
+          
+          with open('worst_senators.json') as f:
+              worst = json.load(f)
+          
+          if ${{ matrix.index }} >= len(worst):
+              print('No more senators to train')
+              sys.exit(0)
+          
+          senator_data = worst[${{ matrix.index }}]
+          senator_id = senator_data['senator_id']
+          bundle_id = senator_data['bundle_id']
+          
+          bundle_path = f'senate_bundles/bundle_{bundle_id:03d}.pt'
+          bundle = SenateBundle.load(bundle_path)
+          senator = bundle.get_senator(senator_id)
+          
+          if senator is None:
+              print(f'Senator {senator_id} not found')
+              sys.exit(1)
+          
+          wordbank = get_wordbank()
+          specialties = senator.specialties
+          
+          print(f'Training Senator {senator_id} [{", ".join(specialties[:2])}]')
+          print(f'Epochs: ${{ github.event.inputs.epochs }}')
+          
+          losses = train_senator_on_topics(
+              senator, specialties, wordbank,
+              epochs=${{ github.event.inputs.epochs }},
+              lr=0.0003,
+              ai_guided=True
+          )
+          
+          result = grade_and_update(senator, specialties, wordbank, losses)
+          
+          if result:
+              print(f'New grade: {result["average_score"]:.1f}/100')
+          
+          bundle.save(bundle_path)
+          print(f'Saved bundle {bundle_id}')
+          EOF
+          python train_one.py
+      
+      - name: Upload trained bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: focused-bundle-${{ matrix.index }}
+          path: senate_bundles/*.pt
+
+  push-focused:
+    needs: train-worst
+    if: success() || failure()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download focused bundles
+        uses: actions/download-artifact@v4
+        with:
+          pattern: focused-bundle-*
+          merge-multiple: true
+          path: senate_bundles/
+      - name: Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git stash
+          git pull --rebase origin main
+          git stash pop || true
+          git add senate_bundles/
+          git commit -m "Focused training - low performers" || echo "No changes"
+          for attempt in $(seq 1 20); do
+            if git push; then
+              echo "Pushed (attempt $attempt)!"
+              break
+            fi
+            echo "Retry $attempt/20..."
+            git pull --rebase origin main 2>/dev/null || true
+            sleep 10
+          done
