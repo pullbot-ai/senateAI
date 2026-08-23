@@ -231845,8 +231845,824 @@
       "first_seen": "Augusta Triumphans",
       "has_definition": true,
       "definition": "In addition to what has been said; furthermore; additionally."
+    },
+    "delves": {
+      "token_id": 139,
+      "first_seen": "I, Human",
+      "has_definition": true,
+      "definition": "To dig the ground, especially with a shovel."
+    },
+    "thought-provoking": {
+      "token_id": 2092,
+      "first_seen": "I, Human",
+      "has_definition": true,
+      "definition": "Interesting in a way that challenges one's beliefs, attitudes, or perspective."
+    },
+    "warhammer": {
+      "token_id": 2533,
+      "first_seen": "I, Human",
+      "has_definition": false,
+      "definition": ""
+    },
+    "clone": {
+      "token_id": 1024,
+      "first_seen": "I, Human",
+      "has_definition": true,
+      "definition": "A living organism (originally a plant) produced asexually from a single ancestor, to which it is genetically identical."
+    },
+    "awaking": {
+      "token_id": 5265,
+      "first_seen": "I, Human",
+      "has_definition": true,
+      "definition": "To become conscious after having slept."
+    },
+    "fears": {
+      "token_id": 1922,
+      "first_seen": "I, Human",
+      "has_definition": true,
+      "definition": "A strong, uncontrollable, unpleasant emotion or feeling caused by actual or perceived danger or threat."
+    },
+    "cloning": {
+      "token_id": 6943,
+      "first_seen": "I, Human",
+      "has_definition": true,
+      "definition": "To create a clone of."
+    },
+    "a.i": {
+      "token_id": 7575,
+      "first_seen": "I, Human",
+      "has_definition": false,
+      "definition": ""
+    },
+    "divulges": {
+      "token_id": 2541,
+      "first_seen": "I, Human",
+      "has_definition": false,
+      "definition": ""
+    },
+    "possibility": {
+      "token_id": 7530,
+      "first_seen": "I, Human",
+      "has_definition": true,
+      "definition": "The quality of being possible."
+    },
+    "shifting": {
+      "token_id": 7011,
+      "first_seen": "I, Human",
+      "has_definition": true,
+      "definition": "(sometimes figurative) To move from one place to another; to redistribute."
+    },
+    "interjections": {
+      "token_id": 2064,
+      "first_seen": "I, Human",
+      "has_definition": true,
+      "definition": "(grammar) An exclamation or filled pause; a word or phrase with no particular grammatical relation to a sentence, often an expression of emotion."
+    },
+    "machina": {
+      "token_id": 798,
+      "first_seen": "I, Human",
+      "has_definition": false,
+      "definition": ""
+    },
+    "edgy": {
+      "token_id": 913,
+      "first_seen": "I, Human",
+      "has_definition": true,
+      "definition": "Nervous, apprehensive."
+    },
+    "lyrical": {
+      "token_id": 7276,
+      "first_seen": "I, Human",
+      "has_definition": true,
+      "definition": "Appropriate for or suggestive of singing."
+    },
+    "malcom": {
+      "token_id": 689,
+      "first_seen": "Malcom (footballer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jazira": {
+      "token_id": 1943,
+      "first_seen": "Malcom (footballer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oliveira": {
+      "token_id": 1942,
+      "first_seen": "Malcom (footballer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "filipe": {
+      "token_id": 736,
+      "first_seen": "Malcom (footballer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cvl": {
+      "token_id": 4059,
+      "first_seen": "USS Independence (CVL-22)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cauligenella": {
+      "token_id": 845,
+      "first_seen": "Caryocolum cauligenella",
+      "has_definition": false,
+      "definition": ""
+    },
+    "olson": {
+      "token_id": 6445,
+      "first_seen": "Champions (2023 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rizzo": {
+      "token_id": 3841,
+      "first_seen": "Champions (2023 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "temperamental": {
+      "token_id": 2645,
+      "first_seen": "Champions (2023 film)",
+      "has_definition": true,
+      "definition": "(notcomp) Of, related to, or caused by temperament."
+    },
+    "cheech": {
+      "token_id": 3576,
+      "first_seen": "Champions (2023 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "farrelly": {
+      "token_id": 5087,
+      "first_seen": "Champions (2023 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "harrelson": {
+      "token_id": 474,
+      "first_seen": "Champions (2023 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kaitlin": {
+      "token_id": 3154,
+      "first_seen": "Champions (2023 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pinnick": {
+      "token_id": 3021,
+      "first_seen": "Princess Cyd",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ro": {
+      "token_id": 4139,
+      "first_seen": "Princess Cyd",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spence": {
+      "token_id": 2463,
+      "first_seen": "Princess Cyd",
+      "has_definition": true,
+      "definition": "A buttery or pantry"
+    },
+    "cyd": {
+      "token_id": 4140,
+      "first_seen": "Princess Cyd",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jean-charles": {
+      "token_id": 3916,
+      "first_seen": "Jean-Claude Decaux",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jean-claude": {
+      "token_id": 6538,
+      "first_seen": "Jean-Claude Decaux",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jean-franois": {
+      "token_id": 4039,
+      "first_seen": "Jean-Claude Decaux",
+      "has_definition": false,
+      "definition": ""
+    },
+    "decaux": {
+      "token_id": 5364,
+      "first_seen": "Jean-Claude Decaux",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jcdecaux": {
+      "token_id": 3024,
+      "first_seen": "Jean-Claude Decaux",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hogg": {
+      "token_id": 5219,
+      "first_seen": "Metrical Phonology: A Coursebook",
+      "has_definition": true,
+      "definition": "A young sheep of either gender, until it cuts its first two teeth; a hogget."
+    },
+    "mccully": {
+      "token_id": 64,
+      "first_seen": "Metrical Phonology: A Coursebook",
+      "has_definition": false,
+      "definition": ""
+    },
+    "phonology": {
+      "token_id": 2875,
+      "first_seen": "Metrical Phonology: A Coursebook",
+      "has_definition": false,
+      "definition": ""
+    },
+    "metrical": {
+      "token_id": 6244,
+      "first_seen": "Metrical Phonology: A Coursebook",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kagawa": {
+      "token_id": 2172,
+      "first_seen": "Orange Town Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sanuki": {
+      "token_id": 2959,
+      "first_seen": "Orange Town Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "diwopu": {
+      "token_id": 4050,
+      "first_seen": "China Northern Airlines Flight 6901",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rmqi": {
+      "token_id": 7468,
+      "first_seen": "China Northern Airlines Flight 6901",
+      "has_definition": false,
+      "definition": ""
+    },
+    "beijing's": {
+      "token_id": 3268,
+      "first_seen": "China Northern Airlines Flight 6901",
+      "has_definition": false,
+      "definition": ""
+    },
+    "expocenter": {
+      "token_id": 3841,
+      "first_seen": "Echelon Place",
+      "has_definition": false,
+      "definition": ""
+    },
+    "co-developed": {
+      "token_id": 3551,
+      "first_seen": "Echelon Place",
+      "has_definition": false,
+      "definition": ""
+    },
+    "echelon": {
+      "token_id": 4766,
+      "first_seen": "Echelon Place",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shangri-la": {
+      "token_id": 833,
+      "first_seen": "Echelon Place",
+      "has_definition": false,
+      "definition": ""
+    },
+    "promenade": {
+      "token_id": 1306,
+      "first_seen": "Echelon Place",
+      "has_definition": false,
+      "definition": ""
+    },
+    "morgans": {
+      "token_id": 176,
+      "first_seen": "Echelon Place",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mixed-use": {
+      "token_id": 7846,
+      "first_seen": "Echelon Place",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mondrian": {
+      "token_id": 1458,
+      "first_seen": "Echelon Place",
+      "has_definition": false,
+      "definition": ""
+    },
+    "delano": {
+      "token_id": 650,
+      "first_seen": "Echelon Place",
+      "has_definition": false,
+      "definition": ""
+    },
+    "viennois": {
+      "token_id": 2980,
+      "first_seen": "Louis, Duke of Guyenne",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guyenne": {
+      "token_id": 7378,
+      "first_seen": "Louis, Duke of Guyenne",
+      "has_definition": false,
+      "definition": ""
+    },
+    "isabeau": {
+      "token_id": 5299,
+      "first_seen": "Louis, Duke of Guyenne",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dauphin": {
+      "token_id": 852,
+      "first_seen": "Louis, Duke of Guyenne",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inheriting": {
+      "token_id": 3960,
+      "first_seen": "Louis, Duke of Guyenne",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ionov": {
+      "token_id": 5180,
+      "first_seen": "Anatoli Ionov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anatoli": {
+      "token_id": 1227,
+      "first_seen": "Anatoli Ionov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sovetov": {
+      "token_id": 3607,
+      "first_seen": "Anatoli Ionov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hc": {
+      "token_id": 589,
+      "first_seen": "Anatoli Ionov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "elektrostal": {
+      "token_id": 5610,
+      "first_seen": "Anatoli Ionov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "semyonovich": {
+      "token_id": 198,
+      "first_seen": "Anatoli Ionov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "krylya": {
+      "token_id": 1424,
+      "first_seen": "Anatoli Ionov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kristall": {
+      "token_id": 5437,
+      "first_seen": "Anatoli Ionov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "borsoniidae": {
+      "token_id": 4157,
+      "first_seen": "Awateria optabilis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "awateria": {
+      "token_id": 2165,
+      "first_seen": "Awateria optabilis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "optabilis": {
+      "token_id": 5004,
+      "first_seen": "Awateria optabilis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "glenelg": {
+      "token_id": 1658,
+      "first_seen": "Lake Bolac",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bolac": {
+      "token_id": 4346,
+      "first_seen": "Lake Bolac",
+      "has_definition": false,
+      "definition": ""
+    },
+    "redhawk": {
+      "token_id": 5507,
+      "first_seen": "2025\u201326 Seattle Redhawks women's basketball team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "redhawks": {
+      "token_id": 4255,
+      "first_seen": "2025\u201326 Seattle Redhawks women's basketball team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "skyler": {
+      "token_id": 4744,
+      "first_seen": "2025\u201326 Seattle Redhawks women's basketball team",
+      "has_definition": false,
+      "definition": ""
+    },
+    "abscess": {
+      "token_id": 1559,
+      "first_seen": "Empyema",
+      "has_definition": true,
+      "definition": "A cavity caused by tissue destruction, usually because of infection, filled with pus and surrounded by inflamed tissue."
+    },
+    "pus": {
+      "token_id": 6477,
+      "first_seen": "Empyema",
+      "has_definition": true,
+      "definition": "A whitish-yellow or yellow substance composed primarily of dead white blood cells and dead pyogenic bacteria; normally found in regions of bacterial infection."
+    },
+    "pleural": {
+      "token_id": 1109,
+      "first_seen": "Empyema",
+      "has_definition": false,
+      "definition": ""
+    },
+    "empyema": {
+      "token_id": 694,
+      "first_seen": "Empyema",
+      "has_definition": false,
+      "definition": ""
+    },
+    "appendicular": {
+      "token_id": 7292,
+      "first_seen": "Empyema",
+      "has_definition": false,
+      "definition": ""
+    },
+    "scooter": {
+      "token_id": 7602,
+      "first_seen": "Lagoon Carousel",
+      "has_definition": true,
+      "definition": "A kick scooter or push scooter; a human-powered land vehicle with a handlebar, deck and wheels that is propelled by a rider pushing off the ground."
+    },
+    "carousel": {
+      "token_id": 1701,
+      "first_seen": "Lagoon Carousel",
+      "has_definition": true,
+      "definition": "A merry-go-round (type of ride on rotating platform)."
+    },
+    "farmington": {
+      "token_id": 3926,
+      "first_seen": "Lagoon Carousel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anne-marie": {
+      "token_id": 2874,
+      "first_seen": "Palace Hotel (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "steckel": {
+      "token_id": 1682,
+      "first_seen": "Palace Hotel (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bellerive": {
+      "token_id": 4348,
+      "first_seen": "Palace Hotel (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "d'eaubonne": {
+      "token_id": 7955,
+      "first_seen": "Palace Hotel (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hubschmid": {
+      "token_id": 857,
+      "first_seen": "Palace Hotel (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "swiss-west": {
+      "token_id": 3150,
+      "first_seen": "Palace Hotel (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "berna": {
+      "token_id": 1520,
+      "first_seen": "Palace Hotel (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kthe": {
+      "token_id": 5993,
+      "first_seen": "Palace Hotel (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "korea-japan": {
+      "token_id": 5216,
+      "first_seen": "Belgium\u2013Netherlands 2018 FIFA World Cup bid",
+      "has_definition": false,
+      "definition": ""
+    },
+    "benelux": {
+      "token_id": 5735,
+      "first_seen": "Belgium\u2013Netherlands 2018 FIFA World Cup bid",
+      "has_definition": false,
+      "definition": ""
+    },
+    "courtois": {
+      "token_id": 7281,
+      "first_seen": "Belgium\u2013Netherlands 2018 FIFA World Cup bid",
+      "has_definition": false,
+      "definition": ""
+    },
+    "concentrate": {
+      "token_id": 5572,
+      "first_seen": "Belgium\u2013Netherlands 2018 FIFA World Cup bid",
+      "has_definition": true,
+      "definition": "A substance that is in a condensed form."
+    },
+    "elmendorf": {
+      "token_id": 4079,
+      "first_seen": "Elmendorf Reformed Church",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sylvan": {
+      "token_id": 4417,
+      "first_seen": "Elmendorf Reformed Church",
+      "has_definition": true,
+      "definition": "One who resides in the woods."
+    },
+    "auspices": {
+      "token_id": 2583,
+      "first_seen": "Elmendorf Reformed Church",
+      "has_definition": true,
+      "definition": "(chiefly in the plural) Patronage or protection."
+    },
+    "church's": {
+      "token_id": 3116,
+      "first_seen": "Elmendorf Reformed Church",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mta": {
+      "token_id": 5412,
+      "first_seen": "Elmendorf Reformed Church",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rev": {
+      "token_id": 3808,
+      "first_seen": "Elmendorf Reformed Church",
+      "has_definition": true,
+      "definition": "To increase the speed of a motor, or to operate at a higher speed."
+    },
+    "digging": {
+      "token_id": 7888,
+      "first_seen": "Elmendorf Reformed Church",
+      "has_definition": true,
+      "definition": "To move hard-packed earth out of the way, especially downward to make a hole with a shovel. Or to drill, or the like, through rocks, roads, or the like. More generally, to make any similar hole by moving material out of the way."
+    },
+    "beginnings": {
+      "token_id": 757,
+      "first_seen": "Elmendorf Reformed Church",
+      "has_definition": true,
+      "definition": "The act of doing that which begins anything; commencement of an action, state, or space of time; entrance into being or upon a course; the first act, effort, or state of a succession of acts or states."
+    },
+    "congregants": {
+      "token_id": 3896,
+      "first_seen": "Elmendorf Reformed Church",
+      "has_definition": true,
+      "definition": "A member of a congregation."
+    },
+    "sanctuaries": {
+      "token_id": 1602,
+      "first_seen": "Elmendorf Reformed Church",
+      "has_definition": false,
+      "definition": ""
+    },
+    "briefer": {
+      "token_id": 7686,
+      "first_seen": "Daphne Ose\u00f1a-Paez",
+      "has_definition": true,
+      "definition": "Of short duration; happening quickly."
+    },
+    "malacaan": {
+      "token_id": 770,
+      "first_seen": "Daphne Ose\u00f1a-Paez",
+      "has_definition": false,
+      "definition": ""
+    },
+    "osea-paez": {
+      "token_id": 1983,
+      "first_seen": "Daphne Ose\u00f1a-Paez",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pareti": {
+      "token_id": 529,
+      "first_seen": "Bella da morire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "morire": {
+      "token_id": 930,
+      "first_seen": "Bella da morire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pop-rock": {
+      "token_id": 4015,
+      "first_seen": "Bella da morire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "homo": {
+      "token_id": 5515,
+      "first_seen": "Bella da morire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sapiens": {
+      "token_id": 4334,
+      "first_seen": "Bella da morire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "slide": {
+      "token_id": 4082,
+      "first_seen": "1996 Yosemite Valley landslide",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mariposa": {
+      "token_id": 7682,
+      "first_seen": "1996 Yosemite Valley landslide",
+      "has_definition": false,
+      "definition": ""
+    },
+    "campershikers": {
+      "token_id": 7644,
+      "first_seen": "1996 Yosemite Valley landslide",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yosemite": {
+      "token_id": 4640,
+      "first_seen": "1996 Yosemite Valley landslide",
+      "has_definition": false,
+      "definition": ""
+    },
+    "campground": {
+      "token_id": 6663,
+      "first_seen": "1996 Yosemite Valley landslide",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wd": {
+      "token_id": 6973,
+      "first_seen": "Coal Clough Wind Farm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "overtook": {
+      "token_id": 2808,
+      "first_seen": "Coal Clough Wind Farm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vestas": {
+      "token_id": 6158,
+      "first_seen": "Coal Clough Wind Farm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mw": {
+      "token_id": 7879,
+      "first_seen": "Coal Clough Wind Farm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "penrhyddlan": {
+      "token_id": 4332,
+      "first_seen": "Coal Clough Wind Farm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "clough": {
+      "token_id": 3798,
+      "first_seen": "Coal Clough Wind Farm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stiperden": {
+      "token_id": 1477,
+      "first_seen": "Coal Clough Wind Farm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "llidiartywaun": {
+      "token_id": 5577,
+      "first_seen": "Coal Clough Wind Farm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cliviger": {
+      "token_id": 3029,
+      "first_seen": "Coal Clough Wind Farm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "whitelee": {
+      "token_id": 1372,
+      "first_seen": "Coal Clough Wind Farm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "powys": {
+      "token_id": 3423,
+      "first_seen": "Coal Clough Wind Farm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coldham": {
+      "token_id": 4973,
+      "first_seen": "Coal Clough Wind Farm",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wolfau": {
+      "token_id": 4875,
+      "first_seen": "Wolfau",
+      "has_definition": false,
+      "definition": ""
+    },
+    "christikingsvillealice": {
+      "token_id": 4601,
+      "first_seen": "Kingsville micropolitan area, Texas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kingsville": {
+      "token_id": 6618,
+      "first_seen": "Kingsville micropolitan area, Texas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kenedy": {
+      "token_id": 3432,
+      "first_seen": "Kingsville micropolitan area, Texas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "countykleberg": {
+      "token_id": 7090,
+      "first_seen": "Kingsville micropolitan area, Texas",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 7108,
-  "total_words": 38641
+  "total_articles": 7138,
+  "total_words": 38777
 }
