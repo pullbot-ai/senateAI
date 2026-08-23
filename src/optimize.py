@@ -1,13 +1,10 @@
 """
-Senate AI - 4-Stage Model Optimizer (Vectorized)
-1. Smart Prune (redistribute weak to strong)
-2. Safe Precision Prune (merge insignificant)
-3. Progressive Bit Reduction
-4. 8-bit Quantize
+Senate AI - Smart Prune (Original Careful Version)
+Redistributes weak weights to strong ones per-row.
+Slow but preserves knowledge.
 """
 
 import torch
-import torch.nn as nn
 import time
 import os
 import sys
@@ -22,14 +19,14 @@ def progress_bar(done, total, label="", width=30):
 
 
 class SenateOptimizer:
-    """Optimizes a Senate bundle through 4 stages"""
+    """Optimizes a Senate bundle through careful smart pruning"""
     
     def __init__(self, bundle_path, output_path=None):
         self.bundle_path = bundle_path
         self.output_path = output_path or bundle_path
         
         print(f"\n{'='*50}")
-        print(f"  SENATE OPTIMIZER (VECTORIZED)")
+        print(f"  SENATE OPTIMIZER (CAREFUL)")
         print(f"{'='*50}")
         print(f"   Bundle: {bundle_path}")
         
@@ -50,7 +47,7 @@ class SenateOptimizer:
                     non_zero += (param != 0).sum().item()
         
         sparsity = (1 - non_zero / max(total_params, 1)) * 100
-        size_mb = total_params * 4 / (1024 * 1024)
+        size_mb = total_params * 2 / (1024 * 1024)  # float16
         
         return {
             'total_params': total_params,
@@ -59,16 +56,20 @@ class SenateOptimizer:
             'size_mb': size_mb
         }
     
-    def smart_prune(self, target_sparsity=0.5):
-        """Vectorized smart prune - redistribute weak weights to strong ones"""
+    def smart_prune(self, target_sparsity=0.5, max_time_minutes=30):
+        """Original careful smart prune - redistribute weak to strong per row"""
         print(f"\n  STAGE 1: SMART PRUNE (target: {target_sparsity*100:.0f}%)")
         sys.stdout.flush()
         
         total_redistributed = 0
-        total_params = 0
         start_time = time.time()
+        timeout = max_time_minutes * 60
         
-        for senator_id, data in self.senators.items():
+        for senator_idx, (senator_id, data) in enumerate(self.senators.items()):
+            if time.time() - start_time > timeout:
+                print(f"\n  Timeout after {max_time_minutes}min")
+                break
+            
             state_dict = data['state_dict'] if 'state_dict' in data else data
             
             for param_name, param in state_dict.items():
@@ -76,109 +77,69 @@ class SenateOptimizer:
                     continue
                 
                 weight = param.float()
-                total_params += weight.numel()
                 
-                # Vectorized: find strong and weak weights per row
-                abs_weight = weight.abs()
-                k = max(1, int((1 - target_sparsity) * weight.shape[1]))
+                for row_idx in range(weight.shape[0]):
+                    if time.time() - start_time > timeout:
+                        break
+                    
+                    row = weight[row_idx]
+                    abs_row = row.abs()
+                    
+                    if abs_row.sum() == 0:
+                        continue
+                    
+                    k = max(1, int((1 - target_sparsity) * len(row)))
+                    if k >= len(row):
+                        continue
+                    
+                    threshold = torch.kthvalue(abs_row, len(row) - k).values
+                    strong_mask = abs_row >= threshold
+                    strong_idx = torch.where(strong_mask)[0]
+                    weak_idx = torch.where(~strong_mask)[0]
+                    
+                    if len(strong_idx) == 0 or len(weak_idx) == 0:
+                        continue
+                    
+                    for wi in weak_idx:
+                        weak_val = row[wi]
+                        if abs(weak_val) < 0.00001:
+                            row[wi] = 0
+                            continue
+                        
+                        # Find most similar strong weight
+                        best_si = strong_idx[0]
+                        best_sim = -999
+                        
+                        for si in strong_idx[:min(20, len(strong_idx))]:
+                            sign_match = 1 if (weak_val * row[si]) > 0 else -1
+                            sim = sign_match * (1 - min(abs(weak_val - row[si].abs()), 1.0))
+                            if sim > best_sim:
+                                best_sim = sim
+                                best_si = si
+                        
+                        row[best_si] += weak_val * 0.6
+                        row[wi] = 0
+                        total_redistributed += 1
                 
-                # Get threshold per row
-                thresholds = torch.kthvalue(abs_weight, weight.shape[1] - k, dim=1, keepdim=True).values
-                strong_mask = abs_weight >= thresholds
-                
-                # Redistribute weak to strong (approximation)
-                weak_vals = weight * (~strong_mask)
-                strong_vals = weight * strong_mask
-                
-                # Add weak sum to strong weights proportionally
-                weak_sum = weak_vals.abs().sum(dim=1, keepdim=True)
-                strong_sign = torch.sign(strong_vals)
-                
-                # Redistribute: add weak magnitude to strong weights
-                redistribution = weak_sum * strong_sign / max(strong_mask.sum(dim=1, keepdim=True).float().max(), 1)
-                weight = strong_vals + redistribution * strong_mask
-                
-                # Zero out weak weights
-                weight = weight * strong_mask
-                
-                total_redistributed += (~strong_mask).sum().item()
                 param.data = weight.to(param.dtype)
+            
+            # Progress update
+            elapsed = (time.time() - start_time) / 60
+            print(f"\r{progress_bar(senator_idx+1, len(self.senators), f'Smart Prune ({elapsed:.1f}min)')}", end='')
+            sys.stdout.flush()
         
         elapsed = (time.time() - start_time) / 60
+        print(f"\r{progress_bar(len(self.senators), len(self.senators), 'Smart Prune')}")
         print(f"   Redistributed: {total_redistributed:,} weights | Time: {elapsed:.1f}min")
         sys.stdout.flush()
         return total_redistributed
     
-    def precision_prune_safe(self, significance=2):
-        """Vectorized precision prune"""
-        print(f"\n  STAGE 2: SAFE PRECISION PRUNE")
-        sys.stdout.flush()
-        
-        total_merged = 0
-        start_time = time.time()
-        
-        for senator_id, data in self.senators.items():
-            state_dict = data['state_dict'] if 'state_dict' in data else data
-            
-            for param_name, param in state_dict.items():
-                if not isinstance(param, torch.Tensor) or param.dim() < 2:
-                    continue
-                
-                weight = param.float()
-                abs_weight = weight.abs()
-                
-                # Find insignificant weights (close to 0)
-                insignificant = abs_weight < (10 ** -(significance + 1))
-                
-                # Zero them out
-                weight[insignificant] = 0
-                total_merged += insignificant.sum().item()
-                
-                param.data = weight.to(param.dtype)
-        
-        elapsed = (time.time() - start_time) / 60
-        print(f"   Merged: {total_merged:,} | Time: {elapsed:.1f}min")
-        sys.stdout.flush()
-        return total_merged
-    
-    def progressive_bit_reduce(self, target_bits=8):
-        """Vectorized bit reduction"""
-        print(f"\n  STAGE 3: PROGRESSIVE BITS")
-        sys.stdout.flush()
-        
-        start_time = time.time()
-        total_reduced = 0
-        
-        for senator_id, data in self.senators.items():
-            state_dict = data['state_dict'] if 'state_dict' in data else data
-            
-            for param_name, param in state_dict.items():
-                if not isinstance(param, torch.Tensor) or param.dim() < 2:
-                    continue
-                
-                weight = param.float()
-                
-                # Quantize to target bits
-                max_val = weight.abs().max()
-                if max_val > 0:
-                    scale = max_val / (2 ** (target_bits - 1) - 1)
-                    weight = torch.round(weight / scale) * scale
-                    total_reduced += weight.numel()
-                
-                param.data = weight.to(param.dtype)
-        
-        elapsed = (time.time() - start_time) / 60
-        print(f"   Reduced: {total_reduced:,} weights | Time: {elapsed:.1f}min")
-        sys.stdout.flush()
-        return total_reduced
-    
-    def quantize_senators(self):
-        """Convert to float16"""
-        print(f"\n  STAGE 4: QUANTIZE TO FLOAT16")
+    def quantize_to_float16(self):
+        """Safe quantization to float16"""
+        print(f"\n  STAGE 2: QUANTIZE TO FLOAT16")
         sys.stdout.flush()
         
         quantized_count = 0
-        
         for senator_id, data in self.senators.items():
             state_dict = data['state_dict'] if 'state_dict' in data else data
             
@@ -197,10 +158,8 @@ class SenateOptimizer:
         print(f"\n  Before: {before['total_params']:,} params, {before['size_mb']:.1f}MB")
         sys.stdout.flush()
         
-        self.smart_prune(target_sparsity=target_sparsity)
-        self.precision_prune_safe()
-        self.progressive_bit_reduce(target_bits=8)
-        self.quantize_senators()
+        self.smart_prune(target_sparsity=target_sparsity, max_time_minutes=30)
+        self.quantize_to_float16()
         
         after = self.get_bundle_size()
         saved_mb = before['size_mb'] - after['size_mb']
