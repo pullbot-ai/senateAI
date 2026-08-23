@@ -240707,8 +240707,596 @@
       "first_seen": "Library Lion",
       "has_definition": false,
       "definition": ""
+    },
+    "confection": {
+      "token_id": 859,
+      "first_seen": "Peppermint bark",
+      "has_definition": true,
+      "definition": "A food item prepared very sweet, frequently decorated in fine detail, and often preserved with sugar, such as a candy, sweetmeat, fruit preserve, pastry, or cake."
+    },
+    "peppermint": {
+      "token_id": 575,
+      "first_seen": "Peppermint bark",
+      "has_definition": true,
+      "definition": "A hybrid herb of the mint family (Mentha \u00d7 piperita), formed by crossing watermint and spearmint, which has a high menthol content and a sharp flavor and is used in cooking, especially in herb teas and in confections."
+    },
+    "canes": {
+      "token_id": 4455,
+      "first_seen": "Peppermint bark",
+      "has_definition": true,
+      "definition": "A plant with simple stems, like bamboo or sugar cane, or the stem thereof"
+    },
+    "candy": {
+      "token_id": 3797,
+      "first_seen": "Peppermint bark",
+      "has_definition": true,
+      "definition": "Edible, sweet-tasting confectionery containing sugar, or sometimes artificial sweeteners, and often flavored with fruit, chocolate, nuts, herbs and spices, or artificial flavors."
+    },
+    "credentials": {
+      "token_id": 2388,
+      "first_seen": "Martin Dahinden",
+      "has_definition": true,
+      "definition": "(chiefly in the plural) documentary or electronic evidence that a person has certain status or privileges"
+    },
+    "dahinden": {
+      "token_id": 5596,
+      "first_seen": "Martin Dahinden",
+      "has_definition": false,
+      "definition": ""
+    },
+    "communiqu": {
+      "token_id": 7366,
+      "first_seen": "Lesser Kurils Zakaznik",
+      "has_definition": false,
+      "definition": ""
+    },
+    "japan-soviet": {
+      "token_id": 2242,
+      "first_seen": "Lesser Kurils Zakaznik",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kuril": {
+      "token_id": 3599,
+      "first_seen": "Lesser Kurils Zakaznik",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sakhalin": {
+      "token_id": 2067,
+      "first_seen": "Lesser Kurils Zakaznik",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kurils": {
+      "token_id": 5519,
+      "first_seen": "Lesser Kurils Zakaznik",
+      "has_definition": false,
+      "definition": ""
+    },
+    "federal-level": {
+      "token_id": 4246,
+      "first_seen": "Lesser Kurils Zakaznik",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nemuro": {
+      "token_id": 1650,
+      "first_seen": "Lesser Kurils Zakaznik",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zakaznik": {
+      "token_id": 1935,
+      "first_seen": "Lesser Kurils Zakaznik",
+      "has_definition": false,
+      "definition": ""
+    },
+    "suddenly": {
+      "token_id": 599,
+      "first_seen": "Suddenly Last Summer (song)",
+      "has_definition": true,
+      "definition": "Happening quickly and with little or no warning; in a sudden manner."
+    },
+    "th-best-selling": {
+      "token_id": 5833,
+      "first_seen": "Suddenly Last Summer (song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "b-side": {
+      "token_id": 5798,
+      "first_seen": "Suddenly Last Summer (song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "climbed": {
+      "token_id": 6163,
+      "first_seen": "Suddenly Last Summer (song)",
+      "has_definition": true,
+      "definition": "To ascend; rise; to go up."
+    },
+    "sm-sarja": {
+      "token_id": 6036,
+      "first_seen": "1934\u201335 SM-sarja season",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lotman": {
+      "token_id": 274,
+      "first_seen": "Zara Mints",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mints": {
+      "token_id": 1224,
+      "first_seen": "Zara Mints",
+      "has_definition": true,
+      "definition": "A building or institution where money (originally, only coins) is produced under government licence."
+    },
+    "zara": {
+      "token_id": 442,
+      "first_seen": "Zara Mints",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grigoryevna": {
+      "token_id": 3139,
+      "first_seen": "Zara Mints",
+      "has_definition": false,
+      "definition": ""
+    },
+    "juri": {
+      "token_id": 6665,
+      "first_seen": "Zara Mints",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pyrnes-orientales": {
+      "token_id": 6107,
+      "first_seen": "Ille-sur-T\u00eat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ille-sur-tt": {
+      "token_id": 4703,
+      "first_seen": "Ille-sur-T\u00eat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "walcot": {
+      "token_id": 63,
+      "first_seen": "River Roden, Shropshire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wem": {
+      "token_id": 3035,
+      "first_seen": "River Roden, Shropshire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "llangollen": {
+      "token_id": 285,
+      "first_seen": "River Roden, Shropshire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tern": {
+      "token_id": 1169,
+      "first_seen": "River Roden, Shropshire",
+      "has_definition": true,
+      "definition": "Any of various sea birds of the family Sternidae that are similar to gulls but are smaller and have a forked tail."
+    },
+    "roden": {
+      "token_id": 2528,
+      "first_seen": "River Roden, Shropshire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fourth-least": {
+      "token_id": 7726,
+      "first_seen": "Zilwaukee Township, Michigan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barques": {
+      "token_id": 5895,
+      "first_seen": "Zilwaukee Township, Michigan",
+      "has_definition": true,
+      "definition": "A sailing vessel of three or more masts, with all masts but the sternmost square-rigged, the sternmost being fore-and-aft-rigged"
+    },
+    "hualien": {
+      "token_id": 923,
+      "first_seen": "Shoufeng River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shoufong": {
+      "token_id": 4410,
+      "first_seen": "Shoufeng River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shoufeng": {
+      "token_id": 1407,
+      "first_seen": "Shoufeng River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vladimirovna": {
+      "token_id": 7383,
+      "first_seen": "Elena Temnikova",
+      "has_definition": false,
+      "definition": ""
+    },
+    "temnikova": {
+      "token_id": 6856,
+      "first_seen": "Elena Temnikova",
+      "has_definition": false,
+      "definition": ""
+    },
+    "serebro": {
+      "token_id": 3765,
+      "first_seen": "Elena Temnikova",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kloten": {
+      "token_id": 4636,
+      "first_seen": "Kloten railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "winterthur": {
+      "token_id": 5894,
+      "first_seen": "Kloten railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zurich": {
+      "token_id": 7200,
+      "first_seen": "Kloten railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zrcher": {
+      "token_id": 5784,
+      "first_seen": "Kloten railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "verkehrsverbund": {
+      "token_id": 5771,
+      "first_seen": "Kloten railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zvv": {
+      "token_id": 3069,
+      "first_seen": "Kloten railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antunes": {
+      "token_id": 7288,
+      "first_seen": "Michel Lugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "milesi": {
+      "token_id": 4471,
+      "first_seen": "Alessandro Milesi (painter)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hermitage": {
+      "token_id": 4367,
+      "first_seen": "Ermita de la Virgen del Val",
+      "has_definition": false,
+      "definition": ""
+    },
+    "virgen": {
+      "token_id": 2116,
+      "first_seen": "Ermita de la Virgen del Val",
+      "has_definition": false,
+      "definition": ""
+    },
+    "soria": {
+      "token_id": 753,
+      "first_seen": "Ermita de la Virgen del Val",
+      "has_definition": false,
+      "definition": ""
+    },
+    "montejo": {
+      "token_id": 2202,
+      "first_seen": "Ermita de la Virgen del Val",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tiermes": {
+      "token_id": 3051,
+      "first_seen": "Ermita de la Virgen del Val",
+      "has_definition": false,
+      "definition": ""
+    },
+    "widows": {
+      "token_id": 6050,
+      "first_seen": "The Home of the Friendless",
+      "has_definition": false,
+      "definition": ""
+    },
+    "suffering": {
+      "token_id": 6665,
+      "first_seen": "The Home of the Friendless",
+      "has_definition": false,
+      "definition": ""
+    },
+    "friendless": {
+      "token_id": 7344,
+      "first_seen": "The Home of the Friendless",
+      "has_definition": false,
+      "definition": ""
+    },
+    "charless": {
+      "token_id": 598,
+      "first_seen": "The Home of the Friendless",
+      "has_definition": false,
+      "definition": ""
+    },
+    "legolas": {
+      "token_id": 6575,
+      "first_seen": "Steffen Peters",
+      "has_definition": false,
+      "definition": ""
+    },
+    "white-o'connor": {
+      "token_id": 3737,
+      "first_seen": "Steffen Peters",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rosamunde": {
+      "token_id": 5123,
+      "first_seen": "Steffen Peters",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dressage": {
+      "token_id": 6017,
+      "first_seen": "Steffen Peters",
+      "has_definition": false,
+      "definition": ""
+    },
+    "steffen": {
+      "token_id": 4927,
+      "first_seen": "Steffen Peters",
+      "has_definition": false,
+      "definition": ""
+    },
+    "phf": {
+      "token_id": 3611,
+      "first_seen": "Celeste Brown (ice hockey)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nwhl": {
+      "token_id": 1840,
+      "first_seen": "Celeste Brown (ice hockey)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "riveters": {
+      "token_id": 4205,
+      "first_seen": "Celeste Brown (ice hockey)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nawafez": {
+      "token_id": 4866,
+      "first_seen": "Hassan Daoud",
+      "has_definition": false,
+      "definition": ""
+    },
+    "beiruti": {
+      "token_id": 5390,
+      "first_seen": "Hassan Daoud",
+      "has_definition": false,
+      "definition": ""
+    },
+    "daoud": {
+      "token_id": 6965,
+      "first_seen": "Hassan Daoud",
+      "has_definition": false,
+      "definition": ""
+    },
+    "noumairieh": {
+      "token_id": 3426,
+      "first_seen": "Hassan Daoud",
+      "has_definition": false,
+      "definition": ""
+    },
+    "al-hayat": {
+      "token_id": 2535,
+      "first_seen": "Hassan Daoud",
+      "has_definition": false,
+      "definition": ""
+    },
+    "al-mustaqbal": {
+      "token_id": 6781,
+      "first_seen": "Hassan Daoud",
+      "has_definition": false,
+      "definition": ""
+    },
+    "abegg": {
+      "token_id": 5226,
+      "first_seen": "Abegg Trio",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chroma": {
+      "token_id": 5456,
+      "first_seen": "Kevin Moore",
+      "has_definition": true,
+      "definition": "The colorfulness relative to the brightness of a similarly illuminated area"
+    },
+    "o.s.i": {
+      "token_id": 4877,
+      "first_seen": "Kevin Moore",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wiseman": {
+      "token_id": 876,
+      "first_seen": "Monrovia, Indiana (film)",
+      "has_definition": true,
+      "definition": "A man who is wise."
+    },
+    "monrovia": {
+      "token_id": 5053,
+      "first_seen": "Monrovia, Indiana (film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "unconditional": {
+      "token_id": 891,
+      "first_seen": "Unconditional (2012 film)",
+      "has_definition": true,
+      "definition": "Absolute; without conditions, limitations, reservations or qualifications."
+    },
+    "harbinger": {
+      "token_id": 5828,
+      "first_seen": "Unconditional (2012 film)",
+      "has_definition": true,
+      "definition": "A person or thing that foreshadows or foretells the coming of someone or something."
+    },
+    "partnered": {
+      "token_id": 2533,
+      "first_seen": "Unconditional (2012 film)",
+      "has_definition": true,
+      "definition": "To join as a partner."
+    },
+    "inspire": {
+      "token_id": 393,
+      "first_seen": "Unconditional (2012 film)",
+      "has_definition": true,
+      "definition": "To infuse into the mind; to communicate to the spirit; to convey, as by a divine or supernatural influence; to disclose preternaturally; to produce in, as by inspiration."
+    },
+    "mccorkle": {
+      "token_id": 6308,
+      "first_seen": "Unconditional (2012 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "moviegoers": {
+      "token_id": 7379,
+      "first_seen": "Unconditional (2012 film)",
+      "has_definition": true,
+      "definition": "Person who regularly frequents movie theaters."
+    },
+    "schrems": {
+      "token_id": 6093,
+      "first_seen": "Schrems bei Frohnleiten",
+      "has_definition": false,
+      "definition": ""
+    },
+    "frohnleiten": {
+      "token_id": 7711,
+      "first_seen": "Schrems bei Frohnleiten",
+      "has_definition": false,
+      "definition": ""
+    },
+    "graz-umgebung": {
+      "token_id": 7187,
+      "first_seen": "Schrems bei Frohnleiten",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bei": {
+      "token_id": 688,
+      "first_seen": "Schrems bei Frohnleiten",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pughs": {
+      "token_id": 801,
+      "first_seen": "Murders of Harold and Joey Pugh",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pugh": {
+      "token_id": 518,
+      "first_seen": "Murders of Harold and Joey Pugh",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aichi": {
+      "token_id": 3721,
+      "first_seen": "Hon-Nagashino Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shinshiro": {
+      "token_id": 7370,
+      "first_seen": "Hon-Nagashino Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hon-nagashino": {
+      "token_id": 855,
+      "first_seen": "Hon-Nagashino Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shallows": {
+      "token_id": 2280,
+      "first_seen": "Racine Reef Light",
+      "has_definition": true,
+      "definition": "A shallow portion of an otherwise deep body of water."
+    },
+    "goebelianus": {
+      "token_id": 7165,
+      "first_seen": "Coleocephalocereus goebelianus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coleocephalocereus": {
+      "token_id": 3346,
+      "first_seen": "Coleocephalocereus goebelianus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cactaceae": {
+      "token_id": 1525,
+      "first_seen": "Coleocephalocereus goebelianus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thorne": {
+      "token_id": 3876,
+      "first_seen": "Love Will Grow \u2013 Rosebud Volume 1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rosebud": {
+      "token_id": 3217,
+      "first_seen": "Love Will Grow \u2013 Rosebud Volume 1",
+      "has_definition": true,
+      "definition": "The bud of a rose."
+    },
+    "matar": {
+      "token_id": 1256,
+      "first_seen": "Florence of Arabia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "farfaletti": {
+      "token_id": 1505,
+      "first_seen": "Florence of Arabia",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 7528,
-  "total_words": 40118
+  "total_articles": 7558,
+  "total_words": 40216
 }
