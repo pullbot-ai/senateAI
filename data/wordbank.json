@@ -234125,8 +234125,584 @@
       "first_seen": "Gore (road)",
       "has_definition": false,
       "definition": ""
+    },
+    "emulating": {
+      "token_id": 152,
+      "first_seen": "Minhwa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "minhwa": {
+      "token_id": 1533,
+      "first_seen": "Minhwa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "weissemburg": {
+      "token_id": 2360,
+      "first_seen": "Weissenburg Abbey, Alsace",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wissembourg": {
+      "token_id": 1744,
+      "first_seen": "Weissenburg Abbey, Alsace",
+      "has_definition": false,
+      "definition": ""
+    },
+    "loverde": {
+      "token_id": 3052,
+      "first_seen": "Paul Loverde",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bangkwang": {
+      "token_id": 4205,
+      "first_seen": "The Damage Done (book)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "notorious": {
+      "token_id": 3503,
+      "first_seen": "The Damage Done (book)",
+      "has_definition": true,
+      "definition": "Widely known, especially for something negative; infamous."
+    },
+    "heroin": {
+      "token_id": 500,
+      "first_seen": "The Damage Done (book)",
+      "has_definition": true,
+      "definition": "A powerful and addictive drug derived from opium producing intense euphoria classed as an illegal narcotic in most of the world."
+    },
+    "artworks": {
+      "token_id": 3114,
+      "first_seen": "Costa Rican Museum of Art",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sokolova": {
+      "token_id": 1396,
+      "first_seen": "Elena Sokolova",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sergeyevna": {
+      "token_id": 7157,
+      "first_seen": "Elena Sokolova",
+      "has_definition": false,
+      "definition": ""
+    },
+    "elena": {
+      "token_id": 874,
+      "first_seen": "Elena Sokolova",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mcgowan": {
+      "token_id": 508,
+      "first_seen": "Bear Shooters",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shooters": {
+      "token_id": 390,
+      "first_seen": "Bear Shooters",
+      "has_definition": true,
+      "definition": "Someone who shoots something; a gunner, archer etc."
+    },
+    "genders": {
+      "token_id": 2494,
+      "first_seen": "Gender neutrality in Portuguese",
+      "has_definition": true,
+      "definition": "Class; kind."
+    },
+    "non-sexist": {
+      "token_id": 1803,
+      "first_seen": "Gender neutrality in Portuguese",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neuter": {
+      "token_id": 3609,
+      "first_seen": "Gender neutrality in Portuguese",
+      "has_definition": true,
+      "definition": "An organism, either vegetable or animal, which at its maturity has no generative organs, or but imperfectly developed ones, as a plant without stamens or pistils, as the garden Hydrangea; especially, one of the imperfectly developed females of certain social insects, as of the ant and the common honeybee, which perform the labors of the community, and are called workers."
+    },
+    "gender-neutral": {
+      "token_id": 2031,
+      "first_seen": "Gender neutrality in Portuguese",
+      "has_definition": true,
+      "definition": "Applicable or available to all genders."
+    },
+    "strand": {
+      "token_id": 3551,
+      "first_seen": "Gender neutrality in Portuguese",
+      "has_definition": true,
+      "definition": "The shore or beach of the sea or ocean; shore; beach."
+    },
+    "neolanguage": {
+      "token_id": 5531,
+      "first_seen": "Gender neutrality in Portuguese",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ballon": {
+      "token_id": 6436,
+      "first_seen": "Unseen Masters",
+      "has_definition": true,
+      "definition": "The quality of a jump by which a ballet dancer appears to pause in midair"
+    },
+    "harpold": {
+      "token_id": 4551,
+      "first_seen": "Unseen Masters",
+      "has_definition": false,
+      "definition": ""
+    },
+    "unseen": {
+      "token_id": 5359,
+      "first_seen": "Unseen Masters",
+      "has_definition": true,
+      "definition": "Not seen or discovered; invisible."
+    },
+    "tetrahydroxyquinone": {
+      "token_id": 411,
+      "first_seen": "Tetrahydroxy-1,4-benzoquinone",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tetrahydroxy-,-benzoquinone": {
+      "token_id": 3063,
+      "first_seen": "Tetrahydroxy-1,4-benzoquinone",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tetrahydroxybenzoquinone": {
+      "token_id": 2885,
+      "first_seen": "Tetrahydroxy-1,4-benzoquinone",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cyclohexadiene": {
+      "token_id": 2197,
+      "first_seen": "Tetrahydroxy-1,4-benzoquinone",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cooh": {
+      "token_id": 7900,
+      "first_seen": "Tetrahydroxy-1,4-benzoquinone",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hydroxyl": {
+      "token_id": 7223,
+      "first_seen": "Tetrahydroxy-1,4-benzoquinone",
+      "has_definition": true,
+      "definition": "A univalent radical or functional group (\u2013OH) in organic chemistry; present in alcohols, phenols, carboxylic acids and certain other classes of compounds."
+    },
+    "tetrahydroxy-p-benzoquinone": {
+      "token_id": 6940,
+      "first_seen": "Tetrahydroxy-1,4-benzoquinone",
+      "has_definition": false,
+      "definition": ""
+    },
+    "csar": {
+      "token_id": 6983,
+      "first_seen": "Enrique Gonz\u00e1lez (baseball)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bh": {
+      "token_id": 6626,
+      "first_seen": "Juan Jos\u00e9 Oroz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pharma": {
+      "token_id": 16,
+      "first_seen": "Juan Jos\u00e9 Oroz",
+      "has_definition": true,
+      "definition": "The pharmaceutical or drug-making sector."
+    },
+    "pinoroad": {
+      "token_id": 4125,
+      "first_seen": "Juan Jos\u00e9 Oroz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "equipo": {
+      "token_id": 4696,
+      "first_seen": "Juan Jos\u00e9 Oroz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ugalde": {
+      "token_id": 4221,
+      "first_seen": "Juan Jos\u00e9 Oroz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kaiku": {
+      "token_id": 7711,
+      "first_seen": "Juan Jos\u00e9 Oroz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oroz": {
+      "token_id": 2774,
+      "first_seen": "Juan Jos\u00e9 Oroz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sda": {
+      "token_id": 3179,
+      "first_seen": "Juan Jos\u00e9 Oroz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "proteam": {
+      "token_id": 3572,
+      "first_seen": "Juan Jos\u00e9 Oroz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "euskalteleuskadi": {
+      "token_id": 5097,
+      "first_seen": "Juan Jos\u00e9 Oroz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "orbeaoreka": {
+      "token_id": 1939,
+      "first_seen": "Juan Jos\u00e9 Oroz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jowitt": {
+      "token_id": 3395,
+      "first_seen": "Frequency (IQ album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neo-prog": {
+      "token_id": 821,
+      "first_seen": "Frequency (IQ album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "redbridge": {
+      "token_id": 6717,
+      "first_seen": "Frequency (IQ album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "westworth": {
+      "token_id": 3093,
+      "first_seen": "Frequency (IQ album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aubitt": {
+      "token_id": 7944,
+      "first_seen": "Frequency (IQ album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mdccclviii": {
+      "token_id": 4390,
+      "first_seen": "1858",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gregorian": {
+      "token_id": 3672,
+      "first_seen": "1858",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wednesday": {
+      "token_id": 1520,
+      "first_seen": "1858",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sf": {
+      "token_id": 1742,
+      "first_seen": "Rowoon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rowoon": {
+      "token_id": 2684,
+      "first_seen": "Rowoon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seok-woo": {
+      "token_id": 3289,
+      "first_seen": "Rowoon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bemidji": {
+      "token_id": 2079,
+      "first_seen": "KBUN-FM",
+      "has_definition": false,
+      "definition": ""
+    },
+    "beltrami": {
+      "token_id": 2600,
+      "first_seen": "KBUN-FM",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kbun-fm": {
+      "token_id": 3141,
+      "first_seen": "KBUN-FM",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blackduck": {
+      "token_id": 792,
+      "first_seen": "KBUN-FM",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sumac": {
+      "token_id": 995,
+      "first_seen": "KBUN-FM",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eldership": {
+      "token_id": 5939,
+      "first_seen": "Leipalingis Eldership",
+      "has_definition": false,
+      "definition": ""
+    },
+    "druskininkai": {
+      "token_id": 6614,
+      "first_seen": "Leipalingis Eldership",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leipalingis": {
+      "token_id": 2614,
+      "first_seen": "Leipalingis Eldership",
+      "has_definition": false,
+      "definition": ""
+    },
+    "skoryk": {
+      "token_id": 133,
+      "first_seen": "Lviv National Philharmonic",
+      "has_definition": false,
+      "definition": ""
+    },
+    "myroslav": {
+      "token_id": 5152,
+      "first_seen": "Lviv National Philharmonic",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mdxvii": {
+      "token_id": 550,
+      "first_seen": "1517",
+      "has_definition": false,
+      "definition": ""
+    },
+    "granicollis": {
+      "token_id": 2742,
+      "first_seen": "Laxta granicollis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blaberidae": {
+      "token_id": 5517,
+      "first_seen": "Laxta granicollis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lacks": {
+      "token_id": 1497,
+      "first_seen": "Laxta granicollis",
+      "has_definition": true,
+      "definition": "A defect or failing; moral or spiritual degeneracy."
+    },
+    "cockroach": {
+      "token_id": 2667,
+      "first_seen": "Laxta granicollis",
+      "has_definition": true,
+      "definition": "A black or brown straight-winged insect of the order Blattodea."
+    },
+    "laxta": {
+      "token_id": 7618,
+      "first_seen": "Laxta granicollis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "elh": {
+      "token_id": 4635,
+      "first_seen": "Erik de la Rose",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vtkovice": {
+      "token_id": 4367,
+      "first_seen": "Erik de la Rose",
+      "has_definition": false,
+      "definition": ""
+    },
+    "semi-automatic": {
+      "token_id": 1137,
+      "first_seen": "GRAM 63 battle rifle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gustaf": {
+      "token_id": 659,
+      "first_seen": "GRAM 63 battle rifle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "license-produced": {
+      "token_id": 1089,
+      "first_seen": "GRAM 63 battle rifle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bofors": {
+      "token_id": 6098,
+      "first_seen": "GRAM 63 battle rifle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wuppertal": {
+      "token_id": 7148,
+      "first_seen": "Elberfeld\u2013Dortmund railway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "elberfelddortmund": {
+      "token_id": 3455,
+      "first_seen": "Elberfeld\u2013Dortmund railway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brazilian-paraguayan": {
+      "token_id": 2237,
+      "first_seen": "Gloria Cabral",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arquitectura": {
+      "token_id": 6184,
+      "first_seen": "Gloria Cabral",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gemmill": {
+      "token_id": 1462,
+      "first_seen": "Gloria Cabral",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gabinete": {
+      "token_id": 5041,
+      "first_seen": "Gloria Cabral",
+      "has_definition": false,
+      "definition": ""
+    },
+    "biennale": {
+      "token_id": 2256,
+      "first_seen": "Gloria Cabral",
+      "has_definition": true,
+      "definition": "A biennial celebration or exhibition"
+    },
+    "inscore": {
+      "token_id": 295,
+      "first_seen": "The Good Side",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rechtshaid": {
+      "token_id": 1851,
+      "first_seen": "The Good Side",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sivan": {
+      "token_id": 3756,
+      "first_seen": "The Good Side",
+      "has_definition": false,
+      "definition": ""
+    },
+    "troye": {
+      "token_id": 2289,
+      "first_seen": "The Good Side",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leland": {
+      "token_id": 1133,
+      "first_seen": "The Good Side",
+      "has_definition": false,
+      "definition": ""
+    },
+    "freshly": {
+      "token_id": 7256,
+      "first_seen": "Carvery",
+      "has_definition": true,
+      "definition": "Recently, newly."
+    },
+    "carvery": {
+      "token_id": 4681,
+      "first_seen": "Carvery",
+      "has_definition": true,
+      "definition": "A restaurant specializing in roast meat, particularly roast beef and Sunday roast."
+    },
+    "sliced": {
+      "token_id": 2349,
+      "first_seen": "Carvery",
+      "has_definition": true,
+      "definition": "To cut into slices."
+    },
+    "servings": {
+      "token_id": 2036,
+      "first_seen": "Carvery",
+      "has_definition": true,
+      "definition": "The action of the verb to serve."
+    },
+    "underdeveloped": {
+      "token_id": 4677,
+      "first_seen": "Mutual Security Act",
+      "has_definition": true,
+      "definition": "To develop insufficiently."
+    },
+    "shoring": {
+      "token_id": 3639,
+      "first_seen": "Mutual Security Act",
+      "has_definition": false,
+      "definition": ""
+    },
+    "us-allied": {
+      "token_id": 7603,
+      "first_seen": "Mutual Security Act",
+      "has_definition": false,
+      "definition": ""
+    },
+    "authorizations": {
+      "token_id": 6784,
+      "first_seen": "Mutual Security Act",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aruban": {
+      "token_id": 3429,
+      "first_seen": "Aruba at the 2000 Summer Olympics",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 7198,
-  "total_words": 39021
+  "total_articles": 7228,
+  "total_words": 39117
 }
