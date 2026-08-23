@@ -248669,8 +248669,620 @@
       "first_seen": "Bethesda Methodist Chapel, Hanley",
       "has_definition": true,
       "definition": "A place of worship, smaller than or subordinate to a church."
+    },
+    "morozov": {
+      "token_id": 1926,
+      "first_seen": "Mikhail Mikhailovich Morozov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tilbrook": {
+      "token_id": 4446,
+      "first_seen": "Activate (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "drumming": {
+      "token_id": 1607,
+      "first_seen": "Activate (album)",
+      "has_definition": true,
+      "definition": "The act of beating a drum."
+    },
+    "elp": {
+      "token_id": 516,
+      "first_seen": "Activate (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hicks": {
+      "token_id": 5117,
+      "first_seen": "Activate (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "redwoods": {
+      "token_id": 2462,
+      "first_seen": "Fern Canyon",
+      "has_definition": true,
+      "definition": "(USDA-preferred term) The species Sequoia sempervirens."
+    },
+    "barbecue": {
+      "token_id": 5514,
+      "first_seen": "Pig snoot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "louis-style": {
+      "token_id": 6774,
+      "first_seen": "Pig snoot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "snoot": {
+      "token_id": 968,
+      "first_seen": "Pig snoot",
+      "has_definition": true,
+      "definition": "An elitist individual; one who looks down upon lower social classes."
+    },
+    "crickets": {
+      "token_id": 754,
+      "first_seen": "Please Don't Ever Change",
+      "has_definition": true,
+      "definition": "An insect in the order Orthoptera, especially family Gryllidae, that makes a chirping sound by rubbing its wing casings against combs on its hind legs."
+    },
+    "goffinking": {
+      "token_id": 4997,
+      "first_seen": "Please Don't Ever Change",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brinsley": {
+      "token_id": 1268,
+      "first_seen": "Please Don't Ever Change",
+      "has_definition": false,
+      "definition": ""
+    },
+    "consultative": {
+      "token_id": 2536,
+      "first_seen": "Committee for Social and Legal Affairs",
+      "has_definition": true,
+      "definition": "That gives advice or consultation; advisory."
+    },
+    "aho": {
+      "token_id": 4804,
+      "first_seen": "Eric Aho",
+      "has_definition": false,
+      "definition": ""
+    },
+    "testaments": {
+      "token_id": 7164,
+      "first_seen": "Moffatt, New Translation",
+      "has_definition": false,
+      "definition": ""
+    },
+    "montaione": {
+      "token_id": 7636,
+      "first_seen": "Montaione",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pi": {
+      "token_id": 5557,
+      "first_seen": "Montaione",
+      "has_definition": true,
+      "definition": "The 16th letter of the Classical and Modern Greek alphabets and the seventeenth in Old Greek."
+    },
+    "borghi": {
+      "token_id": 4156,
+      "first_seen": "Montaione",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mole-rat": {
+      "token_id": 6268,
+      "first_seen": "Naked mole-rat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blesmols": {
+      "token_id": 1410,
+      "first_seen": "Naked mole-rat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "heterocephalus": {
+      "token_id": 1993,
+      "first_seen": "Naked mole-rat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "isl": {
+      "token_id": 7899,
+      "first_seen": "ISL1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "enhancer": {
+      "token_id": 3691,
+      "first_seen": "ISL1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "insulin": {
+      "token_id": 7273,
+      "first_seen": "ISL1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "osteoderms": {
+      "token_id": 3137,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "skulls": {
+      "token_id": 2770,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "femur": {
+      "token_id": 1084,
+      "first_seen": "Vancleavea",
+      "has_definition": true,
+      "definition": "A thighbone."
+    },
+    "bizarre": {
+      "token_id": 5375,
+      "first_seen": "Vancleavea",
+      "has_definition": true,
+      "definition": "Strangely unconventional in style or appearance."
+    },
+    "crocodilians": {
+      "token_id": 1438,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "archosauriforms": {
+      "token_id": 942,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "non-archosaurian": {
+      "token_id": 7819,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "laterosphenoid": {
+      "token_id": 3228,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "archosauriform": {
+      "token_id": 7535,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "campi": {
+      "token_id": 1845,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "archosaurs": {
+      "token_id": 2130,
+      "first_seen": "Vancleavea",
+      "has_definition": true,
+      "definition": "A reptile of the taxon Archosauria, which includes the extinct dinosaurs, plesiosaurs, pterosaurs and ichthyosaurs and modern crocodiles and birds."
+    },
+    "intercentra": {
+      "token_id": 1677,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "murry": {
+      "token_id": 7213,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "litorosuchus": {
+      "token_id": 6369,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aberrant": {
+      "token_id": 2576,
+      "first_seen": "Vancleavea",
+      "has_definition": true,
+      "definition": "A person or object that deviates from the rest of a group."
+    },
+    "reptiles": {
+      "token_id": 1649,
+      "first_seen": "Vancleavea",
+      "has_definition": true,
+      "definition": "A cold-blooded vertebrate of the class Reptilia."
+    },
+    "supratemporal": {
+      "token_id": 5244,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paleontologists": {
+      "token_id": 6464,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antorbital": {
+      "token_id": 3258,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ossified": {
+      "token_id": 6106,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "adaptations": {
+      "token_id": 6848,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mandibular": {
+      "token_id": 5193,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vancleavea": {
+      "token_id": 6739,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "snouts": {
+      "token_id": 2920,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "weight-saving": {
+      "token_id": 1974,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fang-like": {
+      "token_id": 3777,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fenestrae": {
+      "token_id": 3997,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "semiaquatic": {
+      "token_id": 1029,
+      "first_seen": "Vancleavea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "scruggs": {
+      "token_id": 3598,
+      "first_seen": "Greg Scruggs",
+      "has_definition": false,
+      "definition": ""
+    },
+    "malayalamlanguage": {
+      "token_id": 6979,
+      "first_seen": "Vijayalakshmi (poet)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vijayalakshmi": {
+      "token_id": 6941,
+      "first_seen": "Vijayalakshmi (poet)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "redding": {
+      "token_id": 1839,
+      "first_seen": "Palo Cedro, California",
+      "has_definition": true,
+      "definition": "To free from entanglement."
+    },
+    "cedro": {
+      "token_id": 129,
+      "first_seen": "Palo Cedro, California",
+      "has_definition": false,
+      "definition": ""
+    },
+    "palo": {
+      "token_id": 2829,
+      "first_seen": "Palo Cedro, California",
+      "has_definition": false,
+      "definition": ""
+    },
+    "beane": {
+      "token_id": 5351,
+      "first_seen": "Richmond P. Davis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "keech": {
+      "token_id": 5986,
+      "first_seen": "Richmond P. Davis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fenner": {
+      "token_id": 403,
+      "first_seen": "Richmond P. Davis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "harriman": {
+      "token_id": 4055,
+      "first_seen": "Richmond P. Davis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bridgerton": {
+      "token_id": 2180,
+      "first_seen": "Reg\u00e9-Jean Page",
+      "has_definition": false,
+      "definition": ""
+    },
+    "british-zimbabwean": {
+      "token_id": 4639,
+      "first_seen": "Reg\u00e9-Jean Page",
+      "has_definition": false,
+      "definition": ""
+    },
+    "netflix's": {
+      "token_id": 4546,
+      "first_seen": "Reg\u00e9-Jean Page",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reg-jean": {
+      "token_id": 5462,
+      "first_seen": "Reg\u00e9-Jean Page",
+      "has_definition": false,
+      "definition": ""
+    },
+    "caper": {
+      "token_id": 2928,
+      "first_seen": "Reg\u00e9-Jean Page",
+      "has_definition": true,
+      "definition": "A playful leap or jump."
+    },
+    "guzhavin": {
+      "token_id": 1488,
+      "first_seen": "Mikhail Guzhavin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "markelovich": {
+      "token_id": 5559,
+      "first_seen": "Mikhail Guzhavin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "j.j": {
+      "token_id": 1650,
+      "first_seen": "J.J. Inc.",
+      "has_definition": false,
+      "definition": ""
+    },
+    "holman": {
+      "token_id": 5151,
+      "first_seen": "Holman ministry (1913\u20131916)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "watase": {
+      "token_id": 756,
+      "first_seen": "Absolute Boyfriend (Japanese TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yuu": {
+      "token_id": 2689,
+      "first_seen": "Absolute Boyfriend (Japanese TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "provo": {
+      "token_id": 6142,
+      "first_seen": "Bertrand F. Harrison Arboretum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nautilus": {
+      "token_id": 5754,
+      "first_seen": "Cephalopod",
+      "has_definition": true,
+      "definition": "A marine mollusc, of the family Nautilidae native to the Pacific Ocean and Indian Ocean, which has tentacles and a spiral shell with a series of air-filled chambers, of which Nautilus is the type genus."
+    },
+    "ink": {
+      "token_id": 7953,
+      "first_seen": "Cephalopod",
+      "has_definition": true,
+      "definition": "A pigment (or dye)-based fluid used for writing, printing etc."
+    },
+    "squid": {
+      "token_id": 7120,
+      "first_seen": "Cephalopod",
+      "has_definition": true,
+      "definition": "Any of several carnivorous marine cephalopod mollusks, of the order Teuthida, having a mantle, eight arms, and a pair of tentacles"
+    },
+    "cephalopods": {
+      "token_id": 1614,
+      "first_seen": "Cephalopod",
+      "has_definition": true,
+      "definition": "Any mollusc, of the class Cephalopoda, which includes squid, cuttlefish, octopus, nautiloids etc."
+    },
+    "squirt": {
+      "token_id": 5719,
+      "first_seen": "Cephalopod",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cephalopod": {
+      "token_id": 1323,
+      "first_seen": "Cephalopod",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inkfish": {
+      "token_id": 3600,
+      "first_seen": "Cephalopod",
+      "has_definition": false,
+      "definition": ""
+    },
+    "malacology": {
+      "token_id": 3003,
+      "first_seen": "Cephalopod",
+      "has_definition": true,
+      "definition": "The study of molluscs."
+    },
+    "molluscan": {
+      "token_id": 625,
+      "first_seen": "Cephalopod",
+      "has_definition": false,
+      "definition": ""
+    },
+    "teuthology": {
+      "token_id": 5914,
+      "first_seen": "Cephalopod",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fishers": {
+      "token_id": 461,
+      "first_seen": "Cephalopod",
+      "has_definition": true,
+      "definition": "A person who catches fish, especially for a living or for sport."
+    },
+    "cephalopoda": {
+      "token_id": 4273,
+      "first_seen": "Cephalopod",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cuttlefish": {
+      "token_id": 1610,
+      "first_seen": "Cephalopod",
+      "has_definition": true,
+      "definition": "Any of various squid-like cephalopods (marine mollusks) of the order Sepiida that have eight arms, two retractable tentacles, and a calcareous internal shell, and can eject a dark ink when threatened"
+    },
+    "poussin": {
+      "token_id": 4495,
+      "first_seen": "\u00c9tienne de La Vall\u00e9e Poussin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tienne": {
+      "token_id": 971,
+      "first_seen": "\u00c9tienne de La Vall\u00e9e Poussin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "delavalle-poussin": {
+      "token_id": 6395,
+      "first_seen": "\u00c9tienne de La Vall\u00e9e Poussin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trillo": {
+      "token_id": 289,
+      "first_seen": "My Faithful Husband",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jennylyn": {
+      "token_id": 2074,
+      "first_seen": "My Faithful Husband",
+      "has_definition": false,
+      "definition": ""
+    },
+    "telebabad": {
+      "token_id": 924,
+      "first_seen": "My Faithful Husband",
+      "has_definition": false,
+      "definition": ""
+    },
+    "faithful": {
+      "token_id": 1330,
+      "first_seen": "My Faithful Husband",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mercado": {
+      "token_id": 2522,
+      "first_seen": "My Faithful Husband",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rocca": {
+      "token_id": 7191,
+      "first_seen": "Monte Cavo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cavo": {
+      "token_id": 1751,
+      "first_seen": "Monte Cavo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "italic": {
+      "token_id": 10,
+      "first_seen": "Monte Cavo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cabum": {
+      "token_id": 4305,
+      "first_seen": "Monte Cavo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alban": {
+      "token_id": 2830,
+      "first_seen": "Monte Cavo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jean-paul": {
+      "token_id": 810,
+      "first_seen": "Jean Paul Richter",
+      "has_definition": false,
+      "definition": ""
+    },
+    "richter": {
+      "token_id": 7227,
+      "first_seen": "Jean Paul Richter",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 7858,
-  "total_words": 41445
+  "total_articles": 7888,
+  "total_words": 41547
 }
