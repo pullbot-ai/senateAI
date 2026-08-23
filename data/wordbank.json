@@ -204245,8 +204245,614 @@
       "first_seen": "Sono Station",
       "has_definition": false,
       "definition": ""
+    },
+    "goulburn": {
+      "token_id": 1363,
+      "first_seen": "New South Wales Country Eagles",
+      "has_definition": false,
+      "definition": ""
+    },
+    "armidale": {
+      "token_id": 5223,
+      "first_seen": "New South Wales Country Eagles",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nrc": {
+      "token_id": 985,
+      "first_seen": "New South Wales Country Eagles",
+      "has_definition": false,
+      "definition": ""
+    },
+    "unconscious": {
+      "token_id": 2139,
+      "first_seen": "Twilight anesthesia",
+      "has_definition": true,
+      "definition": "Unconscious mind"
+    },
+    "responsive": {
+      "token_id": 6372,
+      "first_seen": "Twilight anesthesia",
+      "has_definition": true,
+      "definition": "Answering, replying or responding"
+    },
+    "sedated": {
+      "token_id": 7656,
+      "first_seen": "Twilight anesthesia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hypnosis": {
+      "token_id": 6149,
+      "first_seen": "Twilight anesthesia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "patient": {
+      "token_id": 7931,
+      "first_seen": "Twilight anesthesia",
+      "has_definition": true,
+      "definition": "A person or animal who receives treatment from a doctor or other medically educated person."
+    },
+    "anterograde": {
+      "token_id": 3847,
+      "first_seen": "Twilight anesthesia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anesthetic": {
+      "token_id": 7132,
+      "first_seen": "Twilight anesthesia",
+      "has_definition": true,
+      "definition": "A substance administered to reduce the perception of pain or to induce numbness for surgery and may render the recipient unconscious."
+    },
+    "mild": {
+      "token_id": 3836,
+      "first_seen": "Twilight anesthesia",
+      "has_definition": true,
+      "definition": "A relatively low-gravity beer, often with a dark colour; mild ale"
+    },
+    "sleepy": {
+      "token_id": 2362,
+      "first_seen": "Twilight anesthesia",
+      "has_definition": true,
+      "definition": "The gum that builds up in the eye; sleep, gound."
+    },
+    "anxiolysis": {
+      "token_id": 1310,
+      "first_seen": "Twilight anesthesia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anesthesia": {
+      "token_id": 5,
+      "first_seen": "Twilight anesthesia",
+      "has_definition": true,
+      "definition": "An artificial method of preventing sensation, used to eliminate pain without causing loss of vital functions, by the administration of one or more agents which block pain impulses before transmitted to the brain."
+    },
+    "sedation": {
+      "token_id": 5469,
+      "first_seen": "Twilight anesthesia",
+      "has_definition": true,
+      "definition": "The act of sedating, especially by use of sedatives."
+    },
+    "kroon": {
+      "token_id": 3686,
+      "first_seen": "Ron Kroon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mahor": {
+      "token_id": 5058,
+      "first_seen": "Luxury Cabin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "casal": {
+      "token_id": 875,
+      "first_seen": "Luxury Cabin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "weston": {
+      "token_id": 962,
+      "first_seen": "Weston Bousfield",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bousfield": {
+      "token_id": 3804,
+      "first_seen": "Weston Bousfield",
+      "has_definition": false,
+      "definition": ""
+    },
+    "uconn": {
+      "token_id": 15,
+      "first_seen": "Weston Bousfield",
+      "has_definition": false,
+      "definition": ""
+    },
+    "corday": {
+      "token_id": 5890,
+      "first_seen": "Raw Edge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gilmore": {
+      "token_id": 2245,
+      "first_seen": "Raw Edge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "theophilus": {
+      "token_id": 6970,
+      "first_seen": "Theophilus C. Abbot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "capen": {
+      "token_id": 4305,
+      "first_seen": "Theophilus C. Abbot",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mozardi": {
+      "token_id": 1860,
+      "first_seen": "Languria mozardi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "borer": {
+      "token_id": 7273,
+      "first_seen": "Languria mozardi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "languria": {
+      "token_id": 662,
+      "first_seen": "Languria mozardi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nudist": {
+      "token_id": 3445,
+      "first_seen": "Harrison Marks",
+      "has_definition": true,
+      "definition": "A person who practices nudism."
+    },
+    "battalions": {
+      "token_id": 2794,
+      "first_seen": "Battle of Minh Thanh Road",
+      "has_definition": true,
+      "definition": "An army unit having two or more companies, etc. and a headquarters. Traditionally forming part of a regiment."
+    },
+    "rpg": {
+      "token_id": 823,
+      "first_seen": "Battle of Minh Thanh Road",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rifles": {
+      "token_id": 5331,
+      "first_seen": "Battle of Minh Thanh Road",
+      "has_definition": true,
+      "definition": "A shouldered firearm with a long, rifled barrel to improve range and accuracy."
+    },
+    "thanh": {
+      "token_id": 1775,
+      "first_seen": "Battle of Minh Thanh Road",
+      "has_definition": false,
+      "definition": ""
+    },
+    "recoilless": {
+      "token_id": 2391,
+      "first_seen": "Battle of Minh Thanh Road",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oiler": {
+      "token_id": 6937,
+      "first_seen": "USS Sapelo",
+      "has_definition": true,
+      "definition": "One who or that which oils."
+    },
+    "sapelo": {
+      "token_id": 3132,
+      "first_seen": "USS Sapelo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "patoka-class": {
+      "token_id": 3106,
+      "first_seen": "USS Sapelo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "finances": {
+      "token_id": 305,
+      "first_seen": "Ministry of Finances and Economy (Albania)",
+      "has_definition": true,
+      "definition": "The management of money and other assets."
+    },
+    "shemiran": {
+      "token_id": 7804,
+      "first_seen": "Ekhtiarieh",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ekhtiyariyeh": {
+      "token_id": 3542,
+      "first_seen": "Ekhtiarieh",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wrttembergian": {
+      "token_id": 6661,
+      "first_seen": "Karl Albert von Schott",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sane-et-loire": {
+      "token_id": 3945,
+      "first_seen": "Saint-Germain-l\u00e8s-Buxy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "saint-germain-ls-buxy": {
+      "token_id": 1428,
+      "first_seen": "Saint-Germain-l\u00e8s-Buxy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bouriat": {
+      "token_id": 7737,
+      "first_seen": "Guy Bouriat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tzai": {
+      "token_id": 7159,
+      "first_seen": "Aobayama Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aoba-ku": {
+      "token_id": 5281,
+      "first_seen": "Aobayama Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aobayama": {
+      "token_id": 7262,
+      "first_seen": "Aobayama Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "para-cyclist": {
+      "token_id": 458,
+      "first_seen": "Pavlo Bal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "para-athlete": {
+      "token_id": 909,
+      "first_seen": "Pavlo Bal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "para-biathlete": {
+      "token_id": 6709,
+      "first_seen": "Pavlo Bal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pavlo": {
+      "token_id": 6023,
+      "first_seen": "Pavlo Bal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "publicity": {
+      "token_id": 133,
+      "first_seen": "Show City Times",
+      "has_definition": true,
+      "definition": "Advertising or other activity designed to rouse public interest in something."
+    },
+    "feng": {
+      "token_id": 4917,
+      "first_seen": "Show City Times",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ex-boyfriend": {
+      "token_id": 3246,
+      "first_seen": "Show City Times",
+      "has_definition": false,
+      "definition": ""
+    },
+    "techman": {
+      "token_id": 6099,
+      "first_seen": "Techman",
+      "has_definition": false,
+      "definition": ""
+    },
+    "quanta": {
+      "token_id": 6629,
+      "first_seen": "Techman",
+      "has_definition": true,
+      "definition": "The total amount of something; quantity."
+    },
+    "cobot": {
+      "token_id": 376,
+      "first_seen": "Techman",
+      "has_definition": false,
+      "definition": ""
+    },
+    "computex": {
+      "token_id": 212,
+      "first_seen": "Techman",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tars": {
+      "token_id": 7290,
+      "first_seen": "Techman",
+      "has_definition": true,
+      "definition": "(usually uncountable) A black, oily, sticky, viscous substance, consisting mainly of hydrocarbons derived from organic materials such as wood, peat, or coal."
+    },
+    "tm": {
+      "token_id": 4015,
+      "first_seen": "Techman",
+      "has_definition": false,
+      "definition": ""
+    },
+    "macc": {
+      "token_id": 5607,
+      "first_seen": "Moberly Area Community College",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kirksville": {
+      "token_id": 2320,
+      "first_seen": "Moberly Area Community College",
+      "has_definition": false,
+      "definition": ""
+    },
+    "moberly": {
+      "token_id": 5611,
+      "first_seen": "Moberly Area Community College",
+      "has_definition": false,
+      "definition": ""
+    },
+    "desmarest's": {
+      "token_id": 2626,
+      "first_seen": "Desmarest's spiny pocket mouse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "heteromyidae": {
+      "token_id": 4264,
+      "first_seen": "Desmarest's spiny pocket mouse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "visakhapatnam": {
+      "token_id": 3040,
+      "first_seen": "Tatipudi Reservoir",
+      "has_definition": false,
+      "definition": ""
+    },
+    "utilizes": {
+      "token_id": 6037,
+      "first_seen": "Tatipudi Reservoir",
+      "has_definition": true,
+      "definition": "To make use of; to use."
+    },
+    "tatipudi": {
+      "token_id": 2934,
+      "first_seen": "Tatipudi Reservoir",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gantyada": {
+      "token_id": 5490,
+      "first_seen": "Tatipudi Reservoir",
+      "has_definition": false,
+      "definition": ""
+    },
+    "s.kota": {
+      "token_id": 1938,
+      "first_seen": "Tatipudi Reservoir",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jami": {
+      "token_id": 5190,
+      "first_seen": "Tatipudi Reservoir",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ayacut": {
+      "token_id": 2731,
+      "first_seen": "Tatipudi Reservoir",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tmcft": {
+      "token_id": 7381,
+      "first_seen": "Tatipudi Reservoir",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rs": {
+      "token_id": 1642,
+      "first_seen": "Tatipudi Reservoir",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vizianagaram": {
+      "token_id": 5094,
+      "first_seen": "Tatipudi Reservoir",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stabilised": {
+      "token_id": 5435,
+      "first_seen": "Tatipudi Reservoir",
+      "has_definition": true,
+      "definition": "To make stable."
+    },
+    "thatipudi": {
+      "token_id": 276,
+      "first_seen": "Tatipudi Reservoir",
+      "has_definition": false,
+      "definition": ""
+    },
+    "crores": {
+      "token_id": 630,
+      "first_seen": "Tatipudi Reservoir",
+      "has_definition": true,
+      "definition": "Ten million; 10,000,000. Often used with units of money."
+    },
+    "gosthani": {
+      "token_id": 346,
+      "first_seen": "Tatipudi Reservoir",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hh": {
+      "token_id": 201,
+      "first_seen": "H&H Bagels",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iconic": {
+      "token_id": 7483,
+      "first_seen": "H&H Bagels",
+      "has_definition": true,
+      "definition": "Relating to, or having the characteristics of, an icon."
+    },
+    "bagels": {
+      "token_id": 4667,
+      "first_seen": "H&H Bagels",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bagel": {
+      "token_id": 7409,
+      "first_seen": "H&H Bagels",
+      "has_definition": true,
+      "definition": "A toroidal bread roll that is boiled before it is baked."
+    },
+    "baringo": {
+      "token_id": 5085,
+      "first_seen": "Baringo Central Constituency",
+      "has_definition": false,
+      "definition": ""
+    },
+    "killyman": {
+      "token_id": 5693,
+      "first_seen": "Killyman",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oneilland": {
+      "token_id": 5008,
+      "first_seen": "Killyman",
+      "has_definition": false,
+      "definition": ""
+    },
+    "armagh": {
+      "token_id": 751,
+      "first_seen": "Killyman",
+      "has_definition": false,
+      "definition": ""
+    },
+    "townlands": {
+      "token_id": 4280,
+      "first_seen": "Killyman",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sarmte": {
+      "token_id": 5102,
+      "first_seen": "Sarm\u012bte \u0112lerte",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lerte": {
+      "token_id": 4549,
+      "first_seen": "Sarm\u012bte \u0112lerte",
+      "has_definition": false,
+      "definition": ""
+    },
+    "banning": {
+      "token_id": 6934,
+      "first_seen": "Swaziland Progressive Party",
+      "has_definition": true,
+      "definition": "To summon; to call out."
+    },
+    "swaziland": {
+      "token_id": 7665,
+      "first_seen": "Swaziland Progressive Party",
+      "has_definition": false,
+      "definition": ""
+    },
+    "finis": {
+      "token_id": 317,
+      "first_seen": "My Lady's Latchkey",
+      "has_definition": true,
+      "definition": "The end (of a book or other work)."
+    },
+    "lynard": {
+      "token_id": 3002,
+      "first_seen": "My Lady's Latchkey",
+      "has_definition": false,
+      "definition": ""
+    },
+    "latchkey": {
+      "token_id": 7851,
+      "first_seen": "My Lady's Latchkey",
+      "has_definition": true,
+      "definition": "A key, especially to an outside door."
+    },
+    "lady's": {
+      "token_id": 2046,
+      "first_seen": "My Lady's Latchkey",
+      "has_definition": false,
+      "definition": ""
+    },
+    "carewe": {
+      "token_id": 2527,
+      "first_seen": "My Lady's Latchkey",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lenore": {
+      "token_id": 119,
+      "first_seen": "My Lady's Latchkey",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tadjoura": {
+      "token_id": 6752,
+      "first_seen": "Mouddo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "andabba": {
+      "token_id": 7677,
+      "first_seen": "Mouddo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mouddo": {
+      "token_id": 5580,
+      "first_seen": "Mouddo",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 5878,
-  "total_words": 34041
+  "total_articles": 5908,
+  "total_words": 34142
 }
