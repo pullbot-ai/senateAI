@@ -49,10 +49,17 @@ jobs:
           with open('worst_senators.json', 'w') as f:
               json.dump([{'senator_id': w[0], 'bundle_id': w[1], 'specialties': w[2], 'score': w[3]} for w in worst], f)
           
+          print(f'Found {len(worst)} low performers:')
           for w in worst[:10]:
-              print(f"  Senator {w[0]}: {w[3]:.1f}% - {', '.join(w[2][:2])}")
+              print(f'  Senator {w[0]} (Bundle {w[1]}): {w[3]:.1f}% - {", ".join(w[2][:2])}')
           EOF
           python find_worst.py
+      
+      - name: Upload worst senators list
+        uses: actions/upload-artifact@v4
+        with:
+          name: worst-senators
+          path: worst_senators.json
 
   train-worst:
     needs: find-low-performers
@@ -76,6 +83,11 @@ jobs:
           lfs: false
           show-progress: false
       
+      - name: Download worst senators list
+        uses: actions/download-artifact@v4
+        with:
+          name: worst-senators
+      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
@@ -96,13 +108,12 @@ jobs:
       - name: Train worst senator ${{ matrix.index }}
         run: |
           cat > train_one.py << 'EOF'
-          import sys, json
+          import sys, json, torch
           sys.path.insert(0, 'src')
           from model_template import SenateBundle
           from train import train_senator_on_topics, grade_and_update
           from wordbank import get_wordbank
           
-          import torch
           torch.set_num_threads(1)
           
           with open('worst_senators.json') as f:
@@ -129,6 +140,7 @@ jobs:
           
           print(f'Training Senator {senator_id} [{", ".join(specialties[:2])}]')
           print(f'Epochs: ${{ github.event.inputs.epochs }}')
+          print(f'Previous score: {senator_data["score"]:.1f}%')
           
           losses = train_senator_on_topics(
               senator, specialties, wordbank,
@@ -151,7 +163,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: focused-bundle-${{ matrix.index }}
-          path: senate_bundles/*.pt
+          path: senate_bundles/
 
   push-focused:
     needs: train-worst
