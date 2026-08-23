@@ -20,38 +20,65 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
+      - uses: actions/setup-python@v5
         with:
-          fetch-depth: 1
-          sparse-checkout: |
-            senate_bundles/senate_index.json
-          sparse-checkout-cone-mode: false
-          show-progress: false
+          python-version: '3.10'
+      
+      - run: pip install torch
       
       - name: Find worst senators
-        id: worst
         run: |
           cat > find_worst.py << 'EOF'
-          import json
+          import json, torch
+          from pathlib import Path
           
-          with open('senate_bundles/senate_index.json') as f:
-              index = json.load(f)
+          worst = []
           
-          senators = []
-          for s in index['senators']:
-              performance = s.get('performance', {})
-              avg = sum(performance.values()) / len(performance) * 100 if performance else 0
-              senators.append((s['senator_id'], s['bundle_id'], s['specialties'], avg))
+          for bundle_file in sorted(Path('senate_bundles').glob('bundle_*.pt')):
+              if bundle_file.stem == 'senate_index':
+                  continue
+              
+              try:
+                  bundle_id = int(bundle_file.stem.split('_')[1])
+                  bundle = torch.load(bundle_file, map_location='cpu', weights_only=False)
+                  senators = bundle.get('senators', {})
+                  
+                  for senator_id_str, data in senators.items():
+                      try:
+                          senator_id = int(senator_id_str)
+                      except:
+                          senator_id = int(data.get('config', {}).get('model_id', 0))
+                      
+                      config = data.get('config', {})
+                      performance = config.get('performance', {})
+                      
+                      if performance:
+                          avg = sum(performance.values()) / len(performance) * 100
+                      else:
+                          avg = 0
+                      
+                      specialties = config.get('specialties', [])
+                      worst.append({
+                          'senator_id': senator_id,
+                          'bundle_id': bundle_id,
+                          'specialties': specialties,
+                          'score': avg
+                      })
+              except Exception as e:
+                  print(f'  Error loading {bundle_file}: {e}')
           
-          senators.sort(key=lambda x: x[3])
+          worst.sort(key=lambda x: x['score'])
           
-          worst = senators[:${{ github.event.inputs.max_senators }}]
+          top_worst = worst[:${{ github.event.inputs.max_senators }}]
           
           with open('worst_senators.json', 'w') as f:
-              json.dump([{'senator_id': w[0], 'bundle_id': w[1], 'specialties': w[2], 'score': w[3]} for w in worst], f)
+              json.dump(top_worst, f)
           
-          print(f'Found {len(worst)} low performers:')
-          for w in worst[:10]:
-              print(f'  Senator {w[0]} (Bundle {w[1]}): {w[3]:.1f}% - {", ".join(w[2][:2])}')
+          print(f'\nFound {len(worst)} senators total')
+          print(f'Lowest performers:')
+          for w in top_worst[:15]:
+              print(f'  Senator {w["senator_id"]} (Bundle {w["bundle_id"]}): {w["score"]:.1f}% - {", ".join(w["specialties"][:2])}')
           EOF
           python find_worst.py
       
@@ -87,6 +114,26 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: worst-senators
+      
+      - name: Download needed bundle
+        run: |
+          cat > get_bundle.py << 'EOF'
+          import json, subprocess, sys
+          
+          with open('worst_senators.json') as f:
+              worst = json.load(f)
+          
+          if ${{ matrix.index }} >= len(worst):
+              sys.exit(0)
+          
+          senator_data = worst[${{ matrix.index }}]
+          bundle_id = senator_data['bundle_id']
+          bundle_file = f'senate_bundles/bundle_{bundle_id:03d}.pt'
+          
+          subprocess.run(['git', 'sparse-checkout', 'add', bundle_file], check=True)
+          print(f'Downloaded {bundle_file}')
+          EOF
+          python get_bundle.py
       
       - uses: actions/setup-python@v5
         with:
