@@ -203357,8 +203357,896 @@
       "first_seen": "Wide Prairie",
       "has_definition": false,
       "definition": ""
+    },
+    "alarm": {
+      "token_id": 1673,
+      "first_seen": "Alarm Clock Theatre Company",
+      "has_definition": true,
+      "definition": "A summons to arms, as on the approach of an enemy."
+    },
+    "semi-annual": {
+      "token_id": 3548,
+      "first_seen": "Alarm Clock Theatre Company",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gyau": {
+      "token_id": 3017,
+      "first_seen": "Mia Gyau",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stoneware": {
+      "token_id": 7382,
+      "first_seen": "Terra nigra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gaul": {
+      "token_id": 7924,
+      "first_seen": "Terra nigra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "silver-grey": {
+      "token_id": 4363,
+      "first_seen": "Terra nigra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "caranta": {
+      "token_id": 5326,
+      "first_seen": "Jules Caranta",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eurocup": {
+      "token_id": 7614,
+      "first_seen": "Jules Caranta",
+      "has_definition": false,
+      "definition": ""
+    },
+    "virginmediatelevision.ie": {
+      "token_id": 3834,
+      "first_seen": "Virgin Media News",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eightterm": {
+      "token_id": 4540,
+      "first_seen": "Charles Beach",
+      "has_definition": false,
+      "definition": ""
+    },
+    "threeyear": {
+      "token_id": 5573,
+      "first_seen": "Charles Beach",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spoiled": {
+      "token_id": 4384,
+      "first_seen": "Charles Beach",
+      "has_definition": true,
+      "definition": "To strip (someone who has been killed or defeated) of their arms or armour."
+    },
+    "fibonacci": {
+      "token_id": 1707,
+      "first_seen": "Seiobo There Below",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seiobo": {
+      "token_id": 6676,
+      "first_seen": "Seiobo There Below",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lszl": {
+      "token_id": 2691,
+      "first_seen": "Seiobo There Below",
+      "has_definition": false,
+      "definition": ""
+    },
+    "krasznahorkai": {
+      "token_id": 3202,
+      "first_seen": "Seiobo There Below",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cocteau": {
+      "token_id": 2690,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marie-laure": {
+      "token_id": 6092,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "auric": {
+      "token_id": 5765,
+      "first_seen": "Jean Hugo",
+      "has_definition": true,
+      "definition": "Of or pertaining to trivalent gold."
+    },
+    "parisian": {
+      "token_id": 4854,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "maritain": {
+      "token_id": 5055,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "noailles": {
+      "token_id": 2730,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "proust": {
+      "token_id": 6586,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "beaton": {
+      "token_id": 4663,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fourques": {
+      "token_id": 2153,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dullin": {
+      "token_id": 4096,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ferment": {
+      "token_id": 6156,
+      "first_seen": "Jean Hugo",
+      "has_definition": true,
+      "definition": "Something, such as a yeast or barm, that causes fermentation."
+    },
+    "vilmorin": {
+      "token_id": 3998,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "circles": {
+      "token_id": 7290,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "radiguet": {
+      "token_id": 6253,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "satie": {
+      "token_id": 5562,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "poulenc": {
+      "token_id": 4308,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dreyer": {
+      "token_id": 3716,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cendrars": {
+      "token_id": 484,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eluard": {
+      "token_id": 6740,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blaise": {
+      "token_id": 1672,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lunel": {
+      "token_id": 5467,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jouvet": {
+      "token_id": 3781,
+      "first_seen": "Jean Hugo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "monarch's": {
+      "token_id": 7395,
+      "first_seen": "Gediminas's Cap",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inaugurations": {
+      "token_id": 2330,
+      "first_seen": "Gediminas's Cap",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gediminas's": {
+      "token_id": 3155,
+      "first_seen": "Gediminas's Cap",
+      "has_definition": false,
+      "definition": ""
+    },
+    "regalia": {
+      "token_id": 4532,
+      "first_seen": "Gediminas's Cap",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flagstone": {
+      "token_id": 5844,
+      "first_seen": "Roscoe Diner",
+      "has_definition": true,
+      "definition": "A flat, rectangular piece of rock or stone used for paving or roofing."
+    },
+    "flyfishermen": {
+      "token_id": 742,
+      "first_seen": "Roscoe Diner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "roscoelew": {
+      "token_id": 4261,
+      "first_seen": "Roscoe Diner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "exit": {
+      "token_id": 4258,
+      "first_seen": "Roscoe Diner",
+      "has_definition": true,
+      "definition": "An act of going out or going away, or leaving; a departure."
+    },
+    "one-story": {
+      "token_id": 2713,
+      "first_seen": "Roscoe Diner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stopping": {
+      "token_id": 4160,
+      "first_seen": "Roscoe Diner",
+      "has_definition": true,
+      "definition": "To cease moving."
+    },
+    "whig": {
+      "token_id": 4313,
+      "first_seen": "Henry Boyle, 1st Baron Carleton",
+      "has_definition": false,
+      "definition": ""
+    },
+    "carleton": {
+      "token_id": 7488,
+      "first_seen": "Henry Boyle, 1st Baron Carleton",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pyrenees": {
+      "token_id": 5717,
+      "first_seen": "Caryocolum kroesmanniella",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kroesmanniella": {
+      "token_id": 3271,
+      "first_seen": "Caryocolum kroesmanniella",
+      "has_definition": false,
+      "definition": ""
+    },
+    "caryocolum": {
+      "token_id": 1003,
+      "first_seen": "Caryocolum kroesmanniella",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fennoscandia": {
+      "token_id": 4053,
+      "first_seen": "Caryocolum kroesmanniella",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rebisco": {
+      "token_id": 2060,
+      "first_seen": "Creamline Cool Smashers",
+      "has_definition": false,
+      "definition": ""
+    },
+    "smashers": {
+      "token_id": 577,
+      "first_seen": "Creamline Cool Smashers",
+      "has_definition": true,
+      "definition": "Something that, or someone who, smashes."
+    },
+    "creamline": {
+      "token_id": 7880,
+      "first_seen": "Creamline Cool Smashers",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rebisco's": {
+      "token_id": 1880,
+      "first_seen": "Creamline Cool Smashers",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marrow": {
+      "token_id": 1459,
+      "first_seen": "Mount Marrow, Queensland",
+      "has_definition": true,
+      "definition": "The substance inside bones which produces blood cells."
+    },
+    "poyle": {
+      "token_id": 1246,
+      "first_seen": "Poyle Estate Halt railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "relic": {
+      "token_id": 887,
+      "first_seen": "Poyle Estate Halt railway station",
+      "has_definition": true,
+      "definition": "That which remains; that which is left after loss or decay; a remaining portion."
+    },
+    "colnbrook": {
+      "token_id": 5114,
+      "first_seen": "Poyle Estate Halt railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "staines": {
+      "token_id": 3301,
+      "first_seen": "Poyle Estate Halt railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bowen": {
+      "token_id": 1390,
+      "first_seen": "Cyrtophora hirta",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hirta": {
+      "token_id": 3193,
+      "first_seen": "Cyrtophora hirta",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cyrtophora": {
+      "token_id": 7187,
+      "first_seen": "Cyrtophora hirta",
+      "has_definition": false,
+      "definition": ""
+    },
+    "originality": {
+      "token_id": 4492,
+      "first_seen": "Walter v Lane",
+      "has_definition": true,
+      "definition": "The quality of being original or novel."
+    },
+    "authorship": {
+      "token_id": 4261,
+      "first_seen": "Walter v Lane",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tulagi": {
+      "token_id": 5388,
+      "first_seen": "USS Kanawha (AO-1)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nord-du-qubec": {
+      "token_id": 5882,
+      "first_seen": "Waswanipi River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "waswanipi": {
+      "token_id": 5977,
+      "first_seen": "Waswanipi River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "matagami": {
+      "token_id": 3621,
+      "first_seen": "Waswanipi River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "baie-james": {
+      "token_id": 70,
+      "first_seen": "Waswanipi River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eeyou": {
+      "token_id": 5301,
+      "first_seen": "Waswanipi River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "istchee": {
+      "token_id": 1751,
+      "first_seen": "Waswanipi River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bashkortostan": {
+      "token_id": 6427,
+      "first_seen": "Krymsky, Republic of Bashkortostan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "abdrashitovsky": {
+      "token_id": 6095,
+      "first_seen": "Krymsky, Republic of Bashkortostan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alsheyevsky": {
+      "token_id": 6864,
+      "first_seen": "Krymsky, Republic of Bashkortostan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "krymsky": {
+      "token_id": 5875,
+      "first_seen": "Krymsky, Republic of Bashkortostan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mendocino": {
+      "token_id": 5522,
+      "first_seen": "Lisa Teasley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "teasley": {
+      "token_id": 4303,
+      "first_seen": "Lisa Teasley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "intercultural": {
+      "token_id": 1839,
+      "first_seen": "Lisa Teasley",
+      "has_definition": true,
+      "definition": "Of, relating to, or between different cultures"
+    },
+    "passion": {
+      "token_id": 1738,
+      "first_seen": "Lisa Teasley",
+      "has_definition": true,
+      "definition": "Any great, strong, powerful emotion, especially romantic love or extreme hate."
+    },
+    "pacificus": {
+      "token_id": 541,
+      "first_seen": "Lisa Teasley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "prom": {
+      "token_id": 2522,
+      "first_seen": "Lisa Teasley",
+      "has_definition": true,
+      "definition": "A promenade concert"
+    },
+    "teasleys": {
+      "token_id": 7592,
+      "first_seen": "Lisa Teasley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "buchan": {
+      "token_id": 830,
+      "first_seen": "Punks Not Dead",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wattie": {
+      "token_id": 4051,
+      "first_seen": "Punks Not Dead",
+      "has_definition": false,
+      "definition": ""
+    },
+    "exploited": {
+      "token_id": 5425,
+      "first_seen": "Punks Not Dead",
+      "has_definition": true,
+      "definition": "To use for one\u2019s own advantage."
+    },
+    "mods": {
+      "token_id": 4705,
+      "first_seen": "Punks Not Dead",
+      "has_definition": false,
+      "definition": ""
+    },
+    "impulses": {
+      "token_id": 2795,
+      "first_seen": "Punks Not Dead",
+      "has_definition": false,
+      "definition": ""
+    },
+    "squaddie": {
+      "token_id": 1536,
+      "first_seen": "Punks Not Dead",
+      "has_definition": false,
+      "definition": ""
+    },
+    "punks": {
+      "token_id": 3652,
+      "first_seen": "Punks Not Dead",
+      "has_definition": true,
+      "definition": "A person used for sex, particularly:"
+    },
+    "lifefuck": {
+      "token_id": 500,
+      "first_seen": "Punks Not Dead",
+      "has_definition": false,
+      "definition": ""
+    },
+    "optionals": {
+      "token_id": 1965,
+      "first_seen": "Melitta R\u00fchn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "melitta": {
+      "token_id": 4238,
+      "first_seen": "Melitta R\u00fchn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "medal-winning": {
+      "token_id": 2709,
+      "first_seen": "Melitta R\u00fchn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vault": {
+      "token_id": 3565,
+      "first_seen": "Melitta R\u00fchn",
+      "has_definition": true,
+      "definition": "An arched masonry structure supporting and forming a ceiling, whether freestanding or forming part of a larger building."
+    },
+    "rhn": {
+      "token_id": 7689,
+      "first_seen": "Melitta R\u00fchn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "palikrowy": {
+      "token_id": 3520,
+      "first_seen": "Palikrowy massacre",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ss-galizien": {
+      "token_id": 6003,
+      "first_seen": "Palikrowy massacre",
+      "has_definition": false,
+      "definition": ""
+    },
+    "svk": {
+      "token_id": 7945,
+      "first_seen": "Palikrowy massacre",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ss-regiment": {
+      "token_id": 7775,
+      "first_seen": "Palikrowy massacre",
+      "has_definition": false,
+      "definition": ""
+    },
+    "insurgent": {
+      "token_id": 112,
+      "first_seen": "Palikrowy massacre",
+      "has_definition": true,
+      "definition": "One of several people who take up arms against the local state authority; a participant in insurgency."
+    },
+    "thakrar": {
+      "token_id": 1925,
+      "first_seen": "Shabnam Masood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zahra": {
+      "token_id": 7984,
+      "first_seen": "Shabnam Masood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shabnam": {
+      "token_id": 5043,
+      "first_seen": "Shabnam Masood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ahmadi": {
+      "token_id": 484,
+      "first_seen": "Shabnam Masood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "masood": {
+      "token_id": 2098,
+      "first_seen": "Shabnam Masood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rakhee": {
+      "token_id": 2381,
+      "first_seen": "Shabnam Masood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shabnam's": {
+      "token_id": 2239,
+      "first_seen": "Shabnam Masood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wolfson": {
+      "token_id": 2118,
+      "first_seen": "The Butchering Art",
+      "has_definition": false,
+      "definition": ""
+    },
+    "unclean": {
+      "token_id": 3106,
+      "first_seen": "The Butchering Art",
+      "has_definition": true,
+      "definition": "Dirty, soiled or foul."
+    },
+    "revolutionized": {
+      "token_id": 3825,
+      "first_seen": "The Butchering Art",
+      "has_definition": true,
+      "definition": "To radically or significantly change, as in a revolution"
+    },
+    "quest": {
+      "token_id": 5746,
+      "first_seen": "The Butchering Art",
+      "has_definition": true,
+      "definition": "A journey or effort in pursuit of a goal (often lengthy, ambitious, or fervent); a mission."
+    },
+    "fitzharris": {
+      "token_id": 1069,
+      "first_seen": "The Butchering Art",
+      "has_definition": false,
+      "definition": ""
+    },
+    "straus": {
+      "token_id": 6687,
+      "first_seen": "The Butchering Art",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lister's": {
+      "token_id": 5664,
+      "first_seen": "The Butchering Art",
+      "has_definition": false,
+      "definition": ""
+    },
+    "farrar": {
+      "token_id": 5822,
+      "first_seen": "The Butchering Art",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wellcome": {
+      "token_id": 489,
+      "first_seen": "The Butchering Art",
+      "has_definition": false,
+      "definition": ""
+    },
+    "butchering": {
+      "token_id": 6621,
+      "first_seen": "The Butchering Art",
+      "has_definition": false,
+      "definition": ""
+    },
+    "victorian-era": {
+      "token_id": 2486,
+      "first_seen": "The Butchering Art",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pene": {
+      "token_id": 6253,
+      "first_seen": "The Butchering Art",
+      "has_definition": false,
+      "definition": ""
+    },
+    "giroux": {
+      "token_id": 3453,
+      "first_seen": "The Butchering Art",
+      "has_definition": false,
+      "definition": ""
+    },
+    "singletary": {
+      "token_id": 3223,
+      "first_seen": "Lathyrus hirsutus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "caley": {
+      "token_id": 4972,
+      "first_seen": "Lathyrus hirsutus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hairless": {
+      "token_id": 827,
+      "first_seen": "Lathyrus hirsutus",
+      "has_definition": true,
+      "definition": "Destitute of hair."
+    },
+    "vetchling": {
+      "token_id": 1290,
+      "first_seen": "Lathyrus hirsutus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pod": {
+      "token_id": 480,
+      "first_seen": "Lathyrus hirsutus",
+      "has_definition": true,
+      "definition": "A seed case for legumes (e.g. peas, beans, peppers); a seedpod."
+    },
+    "dehiscent": {
+      "token_id": 1516,
+      "first_seen": "Lathyrus hirsutus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hirsutus": {
+      "token_id": 555,
+      "first_seen": "Lathyrus hirsutus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "legume": {
+      "token_id": 7488,
+      "first_seen": "Lathyrus hirsutus",
+      "has_definition": true,
+      "definition": "The fruit or seed of leguminous plants (as peas or beans) used for food."
+    },
+    "tendril": {
+      "token_id": 2810,
+      "first_seen": "Lathyrus hirsutus",
+      "has_definition": true,
+      "definition": "A thin, spirally coiling stem that attaches a plant to its support."
+    },
+    "leaflike": {
+      "token_id": 4070,
+      "first_seen": "Lathyrus hirsutus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bulbous": {
+      "token_id": 4678,
+      "first_seen": "Lathyrus hirsutus",
+      "has_definition": true,
+      "definition": "Having the shape of or resembling a bulb, bloated."
+    },
+    "winged": {
+      "token_id": 809,
+      "first_seen": "Lathyrus hirsutus",
+      "has_definition": true,
+      "definition": "Having wings."
+    },
+    "lathyrus": {
+      "token_id": 6642,
+      "first_seen": "Lathyrus hirsutus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lullabies": {
+      "token_id": 3822,
+      "first_seen": "All the Way to the Ocean",
+      "has_definition": true,
+      "definition": "A cradlesong, a soothing song to calm children or lull them to sleep."
+    },
+    "sing-a-longs": {
+      "token_id": 830,
+      "first_seen": "All the Way to the Ocean",
+      "has_definition": false,
+      "definition": ""
+    },
+    "magazine's": {
+      "token_id": 1956,
+      "first_seen": "All the Way to the Ocean",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rowell": {
+      "token_id": 3060,
+      "first_seen": "All the Way to the Ocean",
+      "has_definition": false,
+      "definition": ""
+    },
+    "michels": {
+      "token_id": 698,
+      "first_seen": "All the Way to the Ocean",
+      "has_definition": false,
+      "definition": ""
+    },
+    "voice-overs": {
+      "token_id": 7936,
+      "first_seen": "All the Way to the Ocean",
+      "has_definition": true,
+      "definition": "A production technique, in which pictures are accompanied by the voice of an unseen actor or reporter."
+    },
+    "curious": {
+      "token_id": 3595,
+      "first_seen": "All the Way to the Ocean",
+      "has_definition": true,
+      "definition": "Tending to ask questions, or to want to explore or investigate; inquisitive; (with a negative connotation) nosy, prying."
+    },
+    "spear": {
+      "token_id": 1978,
+      "first_seen": "All the Way to the Ocean",
+      "has_definition": true,
+      "definition": "A long stick with a sharp tip used as a weapon for throwing or thrusting, or anything used to make a thrusting motion."
+    },
+    "izumo": {
+      "token_id": 2168,
+      "first_seen": "Sono Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ichibata": {
+      "token_id": 6471,
+      "first_seen": "Sono Station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sono": {
+      "token_id": 324,
+      "first_seen": "Sono Station",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 5848,
-  "total_words": 33893
+  "total_articles": 5878,
+  "total_words": 34041
 }
