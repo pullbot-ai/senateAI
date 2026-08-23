@@ -15,19 +15,8 @@ permissions:
 jobs:
   debate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
-      - name: Clean disk space
-        run: |
-          sudo rm -rf /usr/share/dotnet
-          sudo rm -rf /usr/local/lib/android
-          sudo rm -rf /opt/ghc
-          sudo rm -rf /usr/local/.ghcup
-          sudo rm -rf /usr/local/share/powershell
-          sudo rm -rf /usr/local/share/chromium
-          sudo rm -rf /usr/local/lib/node_modules
-          sudo rm -rf /opt/hostedtoolcache/node
-          sudo apt-get clean
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
@@ -45,48 +34,93 @@ jobs:
           submodules: false
           lfs: false
           show-progress: false
+      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
+      
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
           restore-keys: pip-${{ runner.os }}-
+      
       - run: pip install torch numpy pyyaml
+      
       - name: Write router script
         run: |
           cat > router_select.py << 'EOF'
           import sys, json
           sys.path.insert(0, 'src')
           from senate import Senate
+          
           senate = Senate()
           question = """${{ github.event.inputs.question }}"""
+          
           relevant_topics = senate.router(question)
           selected = senate.select_senators(relevant_topics, max_senators=25)
+          
           bundle_ids = sorted(set(s['bundle_id'] for s in selected))
+          
           with open('selected_bundles.json', 'w') as f:
-              json.dump({'bundle_ids': bundle_ids, 'question': question}, f)
+              json.dump({'bundle_ids': bundle_ids, 'selected_count': len(selected)}, f)
+          
           print(f'Selected {len(selected)} senators from {len(bundle_ids)} bundles')
+          for s in selected[:10]:
+              print(f'  Senator {s["senator_id"]} (Bundle {s["bundle_id"]}): {", ".join(s["specialties"][:2])}')
           EOF
-      - name: Run router
-        run: python router_select.py
+          python router_select.py
+      
       - name: Download selected senator bundles
-        run: python -c "import json, subprocess; data = json.load(open('selected_bundles.json')); [subprocess.run(['git', 'sparse-checkout', 'add', f'senate_bundles/bundle_{bid:03d}.pt'], check=True) for bid in data['bundle_ids']]"
+        run: |
+          cat > download_bundles.py << 'EOF'
+          import json, subprocess, sys
+          
+          with open('selected_bundles.json') as f:
+              data = json.load(f)
+          
+          print(f'Downloading {len(data["bundle_ids"])} bundles...')
+          
+          for bid in data['bundle_ids']:
+              bundle_file = f'senate_bundles/bundle_{bid:03d}.pt'
+              result = subprocess.run(
+                  ['git', 'sparse-checkout', 'add', bundle_file],
+                  capture_output=True, text=True
+              )
+              if result.returncode == 0:
+                  print(f'  Downloaded bundle {bid:03d}')
+              else:
+                  print(f'  Failed bundle {bid:03d}: {result.stderr[:100]}')
+          
+          # Verify bundles exist
+          from pathlib import Path
+          for bid in data['bundle_ids']:
+              bundle_file = Path(f'senate_bundles/bundle_{bid:03d}.pt')
+              if bundle_file.exists():
+                  print(f'  Verified bundle {bid:03d} ({bundle_file.stat().st_size / 1024 / 1024:.0f}MB)')
+              else:
+                  print(f'  MISSING bundle {bid:03d}')
+          EOF
+          python download_bundles.py
+      
       - name: Write debate script
         run: |
           cat > run_debate.py << 'EOF'
           import sys, json
           sys.path.insert(0, 'src')
           from senate import Senate
+          
           question = """${{ github.event.inputs.question }}"""
           senate = Senate()
           result = senate.ask(question)
+          
           with open('debate_result.json', 'w') as f:
               json.dump(result, f)
+          
+          print(f'\nDebate complete: {result["senators_involved"]} senators involved')
           EOF
-      - name: Run debate
-        run: python run_debate.py
+          python run_debate.py
+      
       - name: Push result
         run: |
           git config user.name "github-actions"
