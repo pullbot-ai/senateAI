@@ -205673,8 +205673,626 @@
       "first_seen": "Kick Ass (We Are Young)",
       "has_definition": false,
       "definition": ""
+    },
+    "luzill": {
+      "token_id": 2572,
+      "first_seen": "Luzill\u00e9",
+      "has_definition": false,
+      "definition": ""
+    },
+    "indre-et-loire": {
+      "token_id": 3049,
+      "first_seen": "Luzill\u00e9",
+      "has_definition": false,
+      "definition": ""
+    },
+    "clocktower": {
+      "token_id": 5260,
+      "first_seen": "Stadthuys",
+      "has_definition": true,
+      "definition": "A tower, usually in a prominent position, having a large clock in a high position, often with several faces."
+    },
+    "stadthuys": {
+      "token_id": 1496,
+      "first_seen": "Stadthuys",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ibirapitanga": {
+      "token_id": 156,
+      "first_seen": "Ibirapitanga",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ojeda": {
+      "token_id": 2987,
+      "first_seen": "Sancha Alfonso of Le\u00f3n",
+      "has_definition": false,
+      "definition": ""
+    },
+    "illegitimate": {
+      "token_id": 2345,
+      "first_seen": "Sancha Alfonso of Le\u00f3n",
+      "has_definition": true,
+      "definition": "A person born to unmarried parents."
+    },
+    "cozuelos": {
+      "token_id": 6375,
+      "first_seen": "Sancha Alfonso of Le\u00f3n",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eufemia": {
+      "token_id": 5730,
+      "first_seen": "Sancha Alfonso of Le\u00f3n",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sancha": {
+      "token_id": 7005,
+      "first_seen": "Sancha Alfonso of Le\u00f3n",
+      "has_definition": false,
+      "definition": ""
+    },
+    "doa": {
+      "token_id": 4131,
+      "first_seen": "Sancha Alfonso of Le\u00f3n",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ivrea": {
+      "token_id": 1247,
+      "first_seen": "Sancha Alfonso of Le\u00f3n",
+      "has_definition": false,
+      "definition": ""
+    },
+    "soverosa": {
+      "token_id": 7459,
+      "first_seen": "Sancha Alfonso of Le\u00f3n",
+      "has_definition": false,
+      "definition": ""
+    },
+    "castilian": {
+      "token_id": 6393,
+      "first_seen": "Sancha Alfonso of Le\u00f3n",
+      "has_definition": false,
+      "definition": ""
+    },
+    "foundress": {
+      "token_id": 3350,
+      "first_seen": "Sancha Alfonso of Le\u00f3n",
+      "has_definition": false,
+      "definition": ""
+    },
+    "maid's": {
+      "token_id": 1317,
+      "first_seen": "Fair Maid's House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "storeys": {
+      "token_id": 589,
+      "first_seen": "Fair Maid's House",
+      "has_definition": true,
+      "definition": "A building; an edifice."
+    },
+    "kinross": {
+      "token_id": 3472,
+      "first_seen": "Fair Maid's House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "scott's": {
+      "token_id": 357,
+      "first_seen": "Fair Maid's House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rockefeller": {
+      "token_id": 716,
+      "first_seen": "Rockefeller Building (Cleveland)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "massively": {
+      "token_id": 3464,
+      "first_seen": "Rockefeller Building (Cleveland)",
+      "has_definition": true,
+      "definition": "In a massive manner, in a way that appears large, heavy or imposing."
+    },
+    "warehouse": {
+      "token_id": 502,
+      "first_seen": "Rockefeller Building (Cleveland)",
+      "has_definition": true,
+      "definition": "A place for storing large amounts of products. In logistics, a place where products go to from the manufacturer before going to the retailer."
+    },
+    "caffarra": {
+      "token_id": 5436,
+      "first_seen": "Carlo Caffarra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "xvi": {
+      "token_id": 1195,
+      "first_seen": "Carlo Caffarra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ferrara-comacchio": {
+      "token_id": 6435,
+      "first_seen": "Carlo Caffarra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "altai": {
+      "token_id": 4989,
+      "first_seen": "Povalikha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pervomaysky": {
+      "token_id": 5481,
+      "first_seen": "Povalikha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "povalikha": {
+      "token_id": 779,
+      "first_seen": "Povalikha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "povalikhinsky": {
+      "token_id": 1890,
+      "first_seen": "Povalikha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tmrw": {
+      "token_id": 7,
+      "first_seen": "TGL (golf league)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "weeknights": {
+      "token_id": 5871,
+      "first_seen": "TGL (golf league)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mcilroy": {
+      "token_id": 2058,
+      "first_seen": "TGL (golf league)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "golfers": {
+      "token_id": 7529,
+      "first_seen": "TGL (golf league)",
+      "has_definition": true,
+      "definition": "Someone who plays golf."
+    },
+    "mccarley": {
+      "token_id": 4751,
+      "first_seen": "TGL (golf league)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tgl": {
+      "token_id": 2434,
+      "first_seen": "TGL (golf league)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "schedule": {
+      "token_id": 95,
+      "first_seen": "TGL (golf league)",
+      "has_definition": true,
+      "definition": "A slip of paper; a short note."
+    },
+    "campaigning": {
+      "token_id": 1376,
+      "first_seen": "Anna Munro",
+      "has_definition": false,
+      "definition": ""
+    },
+    "temperance": {
+      "token_id": 4249,
+      "first_seen": "Anna Munro",
+      "has_definition": true,
+      "definition": "Habitual moderation in regard to the indulgence of the natural appetites and passions; restrained or moderate indulgence"
+    },
+    "thatcham": {
+      "token_id": 3227,
+      "first_seen": "Anna Munro",
+      "has_definition": false,
+      "definition": ""
+    },
+    "munro": {
+      "token_id": 7587,
+      "first_seen": "Anna Munro",
+      "has_definition": true,
+      "definition": "Any Scottish mountain having a height of more than 3,000 feet; named after Sir Hugh Thomas Munro, Scottish mountaineer"
+    },
+    "aldermaston": {
+      "token_id": 3530,
+      "first_seen": "Anna Munro",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gillies": {
+      "token_id": 3121,
+      "first_seen": "Anna Munro",
+      "has_definition": true,
+      "definition": "A male attendant of a Scottish Highland chief."
+    },
+    "padworth": {
+      "token_id": 7098,
+      "first_seen": "Anna Munro",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gubernatorial": {
+      "token_id": 6636,
+      "first_seen": "1972 North Carolina lieutenant gubernatorial election",
+      "has_definition": true,
+      "definition": "Of or pertaining to a governor."
+    },
+    "turcilingian": {
+      "token_id": 6785,
+      "first_seen": "Turcilingi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "non-roman": {
+      "token_id": 3916,
+      "first_seen": "Turcilingi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "interpret": {
+      "token_id": 5612,
+      "first_seen": "Turcilingi",
+      "has_definition": true,
+      "definition": "To explain or tell the meaning of; to translate orally into intelligible or familiar language or terms. applied especially to language, but also to dreams, signs, conduct, mysteries, etc."
+    },
+    "odoacer's": {
+      "token_id": 3945,
+      "first_seen": "Turcilingi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "turcilingi": {
+      "token_id": 1037,
+      "first_seen": "Turcilingi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barbarian": {
+      "token_id": 1075,
+      "first_seen": "Turcilingi",
+      "has_definition": true,
+      "definition": "A non-Greek or a non-Roman."
+    },
+    "odoacer": {
+      "token_id": 4520,
+      "first_seen": "Turcilingi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jordanes": {
+      "token_id": 1402,
+      "first_seen": "Turcilingi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "batkivshchyna": {
+      "token_id": 2262,
+      "first_seen": "Oleksiy Remeniuk",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rada": {
+      "token_id": 1404,
+      "first_seen": "Oleksiy Remeniuk",
+      "has_definition": false,
+      "definition": ""
+    },
+    "verkhovna": {
+      "token_id": 2935,
+      "first_seen": "Oleksiy Remeniuk",
+      "has_definition": false,
+      "definition": ""
+    },
+    "remeniuk": {
+      "token_id": 2220,
+      "first_seen": "Oleksiy Remeniuk",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oleksiy": {
+      "token_id": 1284,
+      "first_seen": "Oleksiy Remeniuk",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ivanovych": {
+      "token_id": 6714,
+      "first_seen": "Oleksiy Remeniuk",
+      "has_definition": false,
+      "definition": ""
+    },
+    "piazzolla": {
+      "token_id": 4785,
+      "first_seen": "Winter Was Hard",
+      "has_definition": false,
+      "definition": ""
+    },
+    "webern": {
+      "token_id": 314,
+      "first_seen": "Winter Was Hard",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kronos": {
+      "token_id": 5468,
+      "first_seen": "Winter Was Hard",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sallinen": {
+      "token_id": 4590,
+      "first_seen": "Winter Was Hard",
+      "has_definition": false,
+      "definition": ""
+    },
+    "schnittke": {
+      "token_id": 3768,
+      "first_seen": "Winter Was Hard",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mapha": {
+      "token_id": 3219,
+      "first_seen": "Pang Mapha district",
+      "has_definition": false,
+      "definition": ""
+    },
+    "non-official": {
+      "token_id": 4646,
+      "first_seen": "Oleksandr Chizhevskiy club",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chizhevskiy": {
+      "token_id": 1408,
+      "first_seen": "Oleksandr Chizhevskiy club",
+      "has_definition": false,
+      "definition": ""
+    },
+    "miserey-salines": {
+      "token_id": 2311,
+      "first_seen": "Miserey-Salines",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pelican": {
+      "token_id": 7726,
+      "first_seen": "Pelecanus paranensis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paran": {
+      "token_id": 4375,
+      "first_seen": "Pelecanus paranensis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pelecanus": {
+      "token_id": 7357,
+      "first_seen": "Pelecanus paranensis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paranensis": {
+      "token_id": 1302,
+      "first_seen": "Pelecanus paranensis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "toure": {
+      "token_id": 4828,
+      "first_seen": "Black Guns Matter",
+      "has_definition": false,
+      "definition": ""
+    },
+    "educating": {
+      "token_id": 3006,
+      "first_seen": "Black Guns Matter",
+      "has_definition": false,
+      "definition": ""
+    },
+    "basics": {
+      "token_id": 2229,
+      "first_seen": "Black Guns Matter",
+      "has_definition": true,
+      "definition": "A necessary commodity, a staple requirement."
+    },
+    "workshops": {
+      "token_id": 6846,
+      "first_seen": "Black Guns Matter",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lichtenstein": {
+      "token_id": 4963,
+      "first_seen": "Lichtenstein Castle (Graub\u00fcnden)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "haldenstein": {
+      "token_id": 196,
+      "first_seen": "Lichtenstein Castle (Graub\u00fcnden)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "graubnden": {
+      "token_id": 4665,
+      "first_seen": "Lichtenstein Castle (Graub\u00fcnden)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "producerdirector": {
+      "token_id": 1597,
+      "first_seen": "Death in Gaza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "najla": {
+      "token_id": 5166,
+      "first_seen": "Death in Gaza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spends": {
+      "token_id": 1511,
+      "first_seen": "Death in Gaza",
+      "has_definition": true,
+      "definition": "Amount of money spent (during a period); expenditure."
+    },
+    "israelipalestinian": {
+      "token_id": 7463,
+      "first_seen": "Death in Gaza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rafah": {
+      "token_id": 6080,
+      "first_seen": "Death in Gaza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "concentrates": {
+      "token_id": 903,
+      "first_seen": "Death in Gaza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anglophone": {
+      "token_id": 7045,
+      "first_seen": "Southern Suburbs, Cape Town",
+      "has_definition": true,
+      "definition": "One who speaks English."
+    },
+    "tree-lined": {
+      "token_id": 7119,
+      "first_seen": "Southern Suburbs, Cape Town",
+      "has_definition": true,
+      "definition": "Lined with trees."
+    },
+    "discontinue": {
+      "token_id": 956,
+      "first_seen": "United Nations Security Council Resolution 342",
+      "has_definition": true,
+      "definition": "To interrupt the continuance of; to put an end to, especially as regards commercial productions; to stop producing, making, or supplying something."
+    },
+    "requested": {
+      "token_id": 2733,
+      "first_seen": "United Nations Security Council Resolution 342",
+      "has_definition": true,
+      "definition": "To ask for (something)."
+    },
+    "noting": {
+      "token_id": 5370,
+      "first_seen": "United Nations Security Council Resolution 342",
+      "has_definition": true,
+      "definition": "To notice with care; to observe; to remark; to heed."
+    },
+    "appreciation": {
+      "token_id": 902,
+      "first_seen": "United Nations Security Council Resolution 342",
+      "has_definition": true,
+      "definition": "A fair valuation or estimate of merit, worth, weight, etc.; recognition of excellence."
+    },
+    "shitenn": {
+      "token_id": 5218,
+      "first_seen": "Bakush\u014d! Star Monomane Shitenn\u014d",
+      "has_definition": false,
+      "definition": ""
+    },
+    "simulation": {
+      "token_id": 1156,
+      "first_seen": "Bakush\u014d! Star Monomane Shitenn\u014d",
+      "has_definition": true,
+      "definition": "Something that simulates a system or environment in order to predict actual behaviour."
+    },
+    "bakush": {
+      "token_id": 4804,
+      "first_seen": "Bakush\u014d! Star Monomane Shitenn\u014d",
+      "has_definition": false,
+      "definition": ""
+    },
+    "terribly": {
+      "token_id": 4747,
+      "first_seen": "Bakush\u014d! Star Monomane Shitenn\u014d",
+      "has_definition": true,
+      "definition": "So as to cause terror or awe."
+    },
+    "monomane": {
+      "token_id": 1052,
+      "first_seen": "Bakush\u014d! Star Monomane Shitenn\u014d",
+      "has_definition": false,
+      "definition": ""
+    },
+    "murderer": {
+      "token_id": 5578,
+      "first_seen": "Shell Lake murders",
+      "has_definition": true,
+      "definition": "A person who commits murder."
+    },
+    "adoratrice": {
+      "token_id": 7306,
+      "first_seen": "TT191",
+      "has_definition": false,
+      "definition": ""
+    },
+    "psamtik": {
+      "token_id": 232,
+      "first_seen": "TT191",
+      "has_definition": false,
+      "definition": ""
+    },
+    "el-assasif": {
+      "token_id": 6356,
+      "first_seen": "TT191",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wahibre-nebpehti": {
+      "token_id": 7174,
+      "first_seen": "TT191",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thebes": {
+      "token_id": 1471,
+      "first_seen": "TT191",
+      "has_definition": false,
+      "definition": ""
+    },
+    "supercluster": {
+      "token_id": 5046,
+      "first_seen": "NGC 3951",
+      "has_definition": false,
+      "definition": ""
+    },
+    "masx": {
+      "token_id": 966,
+      "first_seen": "NGC 3951",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 5938,
-  "total_words": 34279
+  "total_articles": 5968,
+  "total_words": 34382
 }
