@@ -21,17 +21,6 @@ jobs:
       matrix:
         bundle: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     steps:
-      - name: Clean disk space
-        run: |
-          sudo rm -rf /usr/share/dotnet
-          sudo rm -rf /usr/local/lib/android
-          sudo rm -rf /opt/ghc
-          sudo rm -rf /usr/local/.ghcup
-          sudo rm -rf /usr/local/share/powershell
-          sudo rm -rf /usr/local/share/chromium
-          sudo rm -rf /usr/local/lib/node_modules
-          sudo rm -rf /opt/hostedtoolcache/node
-          sudo apt-get clean
       - name: Calculate bundle file
         id: bundle
         run: |
@@ -79,17 +68,6 @@ jobs:
       matrix:
         bundle: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
     steps:
-      - name: Clean disk space
-        run: |
-          sudo rm -rf /usr/share/dotnet
-          sudo rm -rf /usr/local/lib/android
-          sudo rm -rf /opt/ghc
-          sudo rm -rf /usr/local/.ghcup
-          sudo rm -rf /usr/local/share/powershell
-          sudo rm -rf /usr/local/share/chromium
-          sudo rm -rf /usr/local/lib/node_modules
-          sudo rm -rf /opt/hostedtoolcache/node
-          sudo apt-get clean
       - name: Calculate bundle file
         id: bundle
         run: |
@@ -137,17 +115,6 @@ jobs:
       matrix:
         bundle: [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
     steps:
-      - name: Clean disk space
-        run: |
-          sudo rm -rf /usr/share/dotnet
-          sudo rm -rf /usr/local/lib/android
-          sudo rm -rf /opt/ghc
-          sudo rm -rf /usr/local/.ghcup
-          sudo rm -rf /usr/local/share/powershell
-          sudo rm -rf /usr/local/share/chromium
-          sudo rm -rf /usr/local/lib/node_modules
-          sudo rm -rf /opt/hostedtoolcache/node
-          sudo apt-get clean
       - name: Calculate bundle file
         id: bundle
         run: |
@@ -195,17 +162,6 @@ jobs:
       matrix:
         bundle: [30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
     steps:
-      - name: Clean disk space
-        run: |
-          sudo rm -rf /usr/share/dotnet
-          sudo rm -rf /usr/local/lib/android
-          sudo rm -rf /opt/ghc
-          sudo rm -rf /usr/local/.ghcup
-          sudo rm -rf /usr/local/share/powershell
-          sudo rm -rf /usr/local/share/chromium
-          sudo rm -rf /usr/local/lib/node_modules
-          sudo rm -rf /opt/hostedtoolcache/node
-          sudo apt-get clean
       - name: Calculate bundle file
         id: bundle
         run: |
@@ -253,17 +209,6 @@ jobs:
       matrix:
         bundle: [40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
     steps:
-      - name: Clean disk space
-        run: |
-          sudo rm -rf /usr/share/dotnet
-          sudo rm -rf /usr/local/lib/android
-          sudo rm -rf /opt/ghc
-          sudo rm -rf /usr/local/.ghcup
-          sudo rm -rf /usr/local/share/powershell
-          sudo rm -rf /usr/local/share/chromium
-          sudo rm -rf /usr/local/lib/node_modules
-          sudo rm -rf /opt/hostedtoolcache/node
-          sudo apt-get clean
       - name: Calculate bundle file
         id: bundle
         run: |
@@ -311,17 +256,6 @@ jobs:
       matrix:
         bundle: [50, 51, 52, 53, 54, 55, 56, 57, 58, 59]
     steps:
-      - name: Clean disk space
-        run: |
-          sudo rm -rf /usr/share/dotnet
-          sudo rm -rf /usr/local/lib/android
-          sudo rm -rf /opt/ghc
-          sudo rm -rf /usr/local/.ghcup
-          sudo rm -rf /usr/local/share/powershell
-          sudo rm -rf /usr/local/share/chromium
-          sudo rm -rf /usr/local/lib/node_modules
-          sudo rm -rf /opt/hostedtoolcache/node
-          sudo apt-get clean
       - name: Calculate bundle file
         id: bundle
         run: |
@@ -369,17 +303,6 @@ jobs:
       matrix:
         bundle: [60, 61, 62, 63, 64, 65, 66, 67, 68, 69]
     steps:
-      - name: Clean disk space
-        run: |
-          sudo rm -rf /usr/share/dotnet
-          sudo rm -rf /usr/local/lib/android
-          sudo rm -rf /opt/ghc
-          sudo rm -rf /usr/local/.ghcup
-          sudo rm -rf /usr/local/share/powershell
-          sudo rm -rf /usr/local/share/chromium
-          sudo rm -rf /usr/local/lib/node_modules
-          sudo rm -rf /opt/hostedtoolcache/node
-          sudo apt-get clean
       - name: Calculate bundle file
         id: bundle
         run: |
@@ -427,17 +350,6 @@ jobs:
       matrix:
         bundle: [70, 71, 72, 73, 74, 75, 76, 77, 78, 79]
     steps:
-      - name: Clean disk space
-        run: |
-          sudo rm -rf /usr/share/dotnet
-          sudo rm -rf /usr/local/lib/android
-          sudo rm -rf /opt/ghc
-          sudo rm -rf /usr/local/.ghcup
-          sudo rm -rf /usr/local/share/powershell
-          sudo rm -rf /usr/local/share/chromium
-          sudo rm -rf /usr/local/lib/node_modules
-          sudo rm -rf /opt/hostedtoolcache/node
-          sudo apt-get clean
       - name: Calculate bundle file
         id: bundle
         run: |
@@ -485,17 +397,6 @@ jobs:
       matrix:
         bundle: [80, 81, 82, 83, 84, 85, 86, 87, 88]
     steps:
-      - name: Clean disk space
-        run: |
-          sudo rm -rf /usr/share/dotnet
-          sudo rm -rf /usr/local/lib/android
-          sudo rm -rf /opt/ghc
-          sudo rm -rf /usr/local/.ghcup
-          sudo rm -rf /usr/local/share/powershell
-          sudo rm -rf /usr/local/share/chromium
-          sudo rm -rf /usr/local/lib/node_modules
-          sudo rm -rf /opt/hostedtoolcache/node
-          sudo apt-get clean
       - name: Calculate bundle file
         id: bundle
         run: |
@@ -553,8 +454,8 @@ jobs:
           git config user.email "actions@github.com"
           git checkout --ours senate_bundles/ 2>/dev/null || true
           git add senate_bundles/
-          for i in $(seq 0 10 40); do
-            end=$((i + 9))
+          for i in $(seq 0 5 45); do
+            end=$((i + 4))
             echo "Pushing bundles $i-$end..."
             for j in $(seq $i $end); do
               padded=$(printf "%03d" $j)
@@ -568,7 +469,7 @@ jobs:
               fi
               echo "Retry $attempt/20..."
               git pull --rebase origin main 2>/dev/null || true
-              sleep 10
+              sleep 15
             done
           done
 
@@ -590,8 +491,8 @@ jobs:
           git config user.email "actions@github.com"
           git checkout --ours senate_bundles/ 2>/dev/null || true
           git add senate_bundles/
-          for i in $(seq 50 10 80); do
-            end=$((i + 9))
+          for i in $(seq 50 5 85); do
+            end=$((i + 4))
             if [ $end -gt 88 ]; then end=88; fi
             echo "Pushing bundles $i-$end..."
             for j in $(seq $i $end); do
@@ -606,7 +507,7 @@ jobs:
               fi
               echo "Retry $attempt/20..."
               git pull --rebase origin main 2>/dev/null || true
-              sleep 10
+              sleep 15
             done
           done
 
