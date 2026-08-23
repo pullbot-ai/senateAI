@@ -215807,8 +215807,752 @@
       "first_seen": "Andy MacPhail",
       "has_definition": false,
       "definition": ""
+    },
+    "maree": {
+      "token_id": 7860,
+      "first_seen": "Alicia Malone",
+      "has_definition": false,
+      "definition": ""
+    },
+    "australianamerican": {
+      "token_id": 5485,
+      "first_seen": "Alicia Malone",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tcm": {
+      "token_id": 4578,
+      "first_seen": "Alicia Malone",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lestinogomphus": {
+      "token_id": 2847,
+      "first_seen": "Lestinogomphus angustus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "angustus": {
+      "token_id": 6204,
+      "first_seen": "Lestinogomphus angustus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dragonfly": {
+      "token_id": 873,
+      "first_seen": "Lestinogomphus angustus",
+      "has_definition": true,
+      "definition": "An insect of the suborder Epiprocta or, more strictly, the infraorder Anisoptera, having four long transparent wings held perpendicular to a long body when perched."
+    },
+    "gomphidae": {
+      "token_id": 2281,
+      "first_seen": "Lestinogomphus angustus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spined": {
+      "token_id": 5612,
+      "first_seen": "Lestinogomphus angustus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fairytail": {
+      "token_id": 6042,
+      "first_seen": "Lestinogomphus angustus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ceresiomilan": {
+      "token_id": 853,
+      "first_seen": "Parabiago railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "domodossolamilan": {
+      "token_id": 6098,
+      "first_seen": "Parabiago railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "parabiago": {
+      "token_id": 1909,
+      "first_seen": "Parabiago railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "luinomilan": {
+      "token_id": 7827,
+      "first_seen": "Parabiago railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "enshrines": {
+      "token_id": 380,
+      "first_seen": "Wat Yannawa",
+      "has_definition": true,
+      "definition": "To enclose (a sacred relic etc.) in a shrine or chest."
+    },
+    "enshrine": {
+      "token_id": 3119,
+      "first_seen": "Wat Yannawa",
+      "has_definition": true,
+      "definition": "To enclose (a sacred relic etc.) in a shrine or chest."
+    },
+    "charoen": {
+      "token_id": 7048,
+      "first_seen": "Wat Yannawa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "viharn": {
+      "token_id": 2308,
+      "first_seen": "Wat Yannawa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lantern": {
+      "token_id": 5554,
+      "first_seen": "Wat Yannawa",
+      "has_definition": true,
+      "definition": "A case of translucent or transparent material made to protect a flame, or light, used to illuminate its surroundings."
+    },
+    "ubosot": {
+      "token_id": 4402,
+      "first_seen": "Wat Yannawa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "krung": {
+      "token_id": 4771,
+      "first_seen": "Wat Yannawa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "junk": {
+      "token_id": 2724,
+      "first_seen": "Wat Yannawa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sathon": {
+      "token_id": 892,
+      "first_seen": "Wat Yannawa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pray": {
+      "token_id": 4645,
+      "first_seen": "Wat Yannawa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "prathip": {
+      "token_id": 2389,
+      "first_seen": "Wat Yannawa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ayutthaya": {
+      "token_id": 3985,
+      "first_seen": "Wat Yannawa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yannawa": {
+      "token_id": 5873,
+      "first_seen": "Wat Yannawa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flaiano": {
+      "token_id": 6049,
+      "first_seen": "Flaiano (crater)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iau": {
+      "token_id": 1112,
+      "first_seen": "Flaiano (crater)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "imaged": {
+      "token_id": 1728,
+      "first_seen": "Flaiano (crater)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mariner": {
+      "token_id": 757,
+      "first_seen": "Flaiano (crater)",
+      "has_definition": true,
+      "definition": "A sailor."
+    },
+    "leger": {
+      "token_id": 7582,
+      "first_seen": "Jack Robinson (horse racing)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "goodwood": {
+      "token_id": 4507,
+      "first_seen": "Jack Robinson (horse racing)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lusitanicum": {
+      "token_id": 7076,
+      "first_seen": "Ophioglossum lusitanicum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "adder's-tongue": {
+      "token_id": 7309,
+      "first_seen": "Ophioglossum lusitanicum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ophioglossaceae": {
+      "token_id": 2416,
+      "first_seen": "Ophioglossum lusitanicum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ophioglossum": {
+      "token_id": 5333,
+      "first_seen": "Ophioglossum lusitanicum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vrbica": {
+      "token_id": 6569,
+      "first_seen": "Vrbica, Osijek-Baranja County",
+      "has_definition": false,
+      "definition": ""
+    },
+    "semeljci": {
+      "token_id": 6268,
+      "first_seen": "Vrbica, Osijek-Baranja County",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ksfx": {
+      "token_id": 2036,
+      "first_seen": "KSFX (AM)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "majestic": {
+      "token_id": 7337,
+      "first_seen": "KSFX (AM)",
+      "has_definition": true,
+      "definition": "Having qualities of splendor or royalty."
+    },
+    "simulcast": {
+      "token_id": 158,
+      "first_seen": "KSFX (AM)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "j.r": {
+      "token_id": 5407,
+      "first_seen": "KSFX (AM)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jukes": {
+      "token_id": 6722,
+      "first_seen": "In Deep (TV series)",
+      "has_definition": true,
+      "definition": "A roadside cafe or bar, especially one with dancing and sometimes prostitution."
+    },
+    "ketman": {
+      "token_id": 7204,
+      "first_seen": "In Deep (TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "o'hanlon": {
+      "token_id": 5916,
+      "first_seen": "In Deep (TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tompkinson": {
+      "token_id": 7388,
+      "first_seen": "In Deep (TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "birthdays": {
+      "token_id": 3707,
+      "first_seen": "Birthdays (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "treasure": {
+      "token_id": 3990,
+      "first_seen": "Unmarked Treasure",
+      "has_definition": true,
+      "definition": "A collection of valuable things; accumulated wealth; a stock of money, jewels, etc."
+    },
+    "emptiness": {
+      "token_id": 3244,
+      "first_seen": "Unmarked Treasure",
+      "has_definition": true,
+      "definition": "The state or feeling of being empty."
+    },
+    "intimate": {
+      "token_id": 4781,
+      "first_seen": "Unmarked Treasure",
+      "has_definition": true,
+      "definition": "A very close friend."
+    },
+    "genty": {
+      "token_id": 472,
+      "first_seen": "Yann Genty",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yann": {
+      "token_id": 3232,
+      "first_seen": "Yann Genty",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aek": {
+      "token_id": 6078,
+      "first_seen": "Yann Genty",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bongbong": {
+      "token_id": 6004,
+      "first_seen": "Hans Cacdac",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cacdac": {
+      "token_id": 6296,
+      "first_seen": "Hans Cacdac",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cordenons": {
+      "token_id": 5761,
+      "first_seen": "Cordenons",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pordenone": {
+      "token_id": 7827,
+      "first_seen": "Cordenons",
+      "has_definition": false,
+      "definition": ""
+    },
+    "decentralization": {
+      "token_id": 4930,
+      "first_seen": "Cordenons",
+      "has_definition": false,
+      "definition": ""
+    },
+    "friuli-venezia": {
+      "token_id": 1552,
+      "first_seen": "Cordenons",
+      "has_definition": false,
+      "definition": ""
+    },
+    "all-africa": {
+      "token_id": 7072,
+      "first_seen": "South Africa at the African Games",
+      "has_definition": false,
+      "definition": ""
+    },
+    "castagnaro": {
+      "token_id": 6716,
+      "first_seen": "Battle of Castagnaro",
+      "has_definition": false,
+      "definition": ""
+    },
+    "condottieri": {
+      "token_id": 2223,
+      "first_seen": "Battle of Castagnaro",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thi": {
+      "token_id": 5859,
+      "first_seen": "Qu\u1ed1c Th\u00e1i",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chu": {
+      "token_id": 6937,
+      "first_seen": "Qu\u1ed1c Th\u00e1i",
+      "has_definition": false,
+      "definition": ""
+    },
+    "quc": {
+      "token_id": 4161,
+      "first_seen": "Qu\u1ed1c Th\u00e1i",
+      "has_definition": false,
+      "definition": ""
+    },
+    "giang": {
+      "token_id": 1951,
+      "first_seen": "Qu\u1ed1c Th\u00e1i",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kepakisan": {
+      "token_id": 4800,
+      "first_seen": "Dalem Baturenggong",
+      "has_definition": false,
+      "definition": ""
+    },
+    "renggong": {
+      "token_id": 7628,
+      "first_seen": "Dalem Baturenggong",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dalem": {
+      "token_id": 2590,
+      "first_seen": "Dalem Baturenggong",
+      "has_definition": false,
+      "definition": ""
+    },
+    "waturenggong": {
+      "token_id": 3672,
+      "first_seen": "Dalem Baturenggong",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aji": {
+      "token_id": 723,
+      "first_seen": "Dalem Baturenggong",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lombok": {
+      "token_id": 6897,
+      "first_seen": "Dalem Baturenggong",
+      "has_definition": false,
+      "definition": ""
+    },
+    "batu": {
+      "token_id": 5029,
+      "first_seen": "Dalem Baturenggong",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blambangan": {
+      "token_id": 1830,
+      "first_seen": "Dalem Baturenggong",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wijaya": {
+      "token_id": 746,
+      "first_seen": "Dalem Baturenggong",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gelgel": {
+      "token_id": 613,
+      "first_seen": "Dalem Baturenggong",
+      "has_definition": false,
+      "definition": ""
+    },
+    "longest-reigning": {
+      "token_id": 3400,
+      "first_seen": "Dalem Baturenggong",
+      "has_definition": false,
+      "definition": ""
+    },
+    "balinese": {
+      "token_id": 3911,
+      "first_seen": "Dalem Baturenggong",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sumbawa": {
+      "token_id": 206,
+      "first_seen": "Dalem Baturenggong",
+      "has_definition": false,
+      "definition": ""
+    },
+    "obue": {
+      "token_id": 3653,
+      "first_seen": "Gdynia Ob\u0142u\u017ce railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gdynia": {
+      "token_id": 4575,
+      "first_seen": "Gdynia Ob\u0142u\u017ce railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "souleymane": {
+      "token_id": 6741,
+      "first_seen": "Souleymane Karamoko",
+      "has_definition": false,
+      "definition": ""
+    },
+    "karamoko": {
+      "token_id": 3369,
+      "first_seen": "Souleymane Karamoko",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hyphal": {
+      "token_id": 6667,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rot": {
+      "token_id": 7008,
+      "first_seen": "Gloeophyllum",
+      "has_definition": true,
+      "definition": "The process of becoming rotten; putrefaction."
+    },
+    "gloeophyllum": {
+      "token_id": 396,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "agaricomycetes": {
+      "token_id": 2314,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "heliocybe": {
+      "token_id": 1355,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "phylogenetically": {
+      "token_id": 3940,
+      "first_seen": "Gloeophyllum",
+      "has_definition": true,
+      "definition": "Based on phylogenetics"
+    },
+    "gloeophyllales": {
+      "token_id": 7671,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "veluticeps": {
+      "token_id": 6327,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neolentinus": {
+      "token_id": 1159,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lamellate": {
+      "token_id": 3724,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "poroid": {
+      "token_id": 3108,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dimitic": {
+      "token_id": 2574,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "revivable": {
+      "token_id": 4908,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trimitic": {
+      "token_id": 5112,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hymenial": {
+      "token_id": 2324,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stipe": {
+      "token_id": 7094,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fruitbodies": {
+      "token_id": 3714,
+      "first_seen": "Gloeophyllum",
+      "has_definition": true,
+      "definition": "Fruiting body"
+    },
+    "daedaleoid": {
+      "token_id": 7318,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shaggy-topped": {
+      "token_id": 1422,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "basidiomycota": {
+      "token_id": 685,
+      "first_seen": "Gloeophyllum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "santeustachio": {
+      "token_id": 5408,
+      "first_seen": "Palazzo Vidoni-Caffarelli",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sudario": {
+      "token_id": 5762,
+      "first_seen": "Palazzo Vidoni-Caffarelli",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vidoni-caffarelli": {
+      "token_id": 339,
+      "first_seen": "Palazzo Vidoni-Caffarelli",
+      "has_definition": false,
+      "definition": ""
+    },
+    "intersections": {
+      "token_id": 1449,
+      "first_seen": "Palazzo Vidoni-Caffarelli",
+      "has_definition": true,
+      "definition": "The junction of two (or more) paths, streets, highways, or other thoroughfares."
+    },
+    "rione": {
+      "token_id": 6776,
+      "first_seen": "Palazzo Vidoni-Caffarelli",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vidoni": {
+      "token_id": 5923,
+      "first_seen": "Palazzo Vidoni-Caffarelli",
+      "has_definition": false,
+      "definition": ""
+    },
+    "overjoyed": {
+      "token_id": 6601,
+      "first_seen": "Overjoyed (Matchbox Twenty song)",
+      "has_definition": true,
+      "definition": "To give great joy, delight or pleasure to"
+    },
+    "ether": {
+      "token_id": 6564,
+      "first_seen": "Ethyl phenyl ether",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ethers": {
+      "token_id": 3685,
+      "first_seen": "Ethyl phenyl ether",
+      "has_definition": false,
+      "definition": ""
+    },
+    "diethyl": {
+      "token_id": 5426,
+      "first_seen": "Ethyl phenyl ether",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ethanol": {
+      "token_id": 2217,
+      "first_seen": "Ethyl phenyl ether",
+      "has_definition": true,
+      "definition": "A simple aliphatic alcohol formally derived from ethane by replacing one hydrogen atom with a hydroxyl group: CH3-CH2-OH."
+    },
+    "peroxides": {
+      "token_id": 6898,
+      "first_seen": "Ethyl phenyl ether",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vapors": {
+      "token_id": 7225,
+      "first_seen": "Ethyl phenyl ether",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kushiro": {
+      "token_id": 6775,
+      "first_seen": "Japan National Route 38",
+      "has_definition": false,
+      "definition": ""
+    },
+    "takikawa": {
+      "token_id": 7115,
+      "first_seen": "Japan National Route 38",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vj": {
+      "token_id": 5711,
+      "first_seen": "VC-7",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aviators": {
+      "token_id": 7693,
+      "first_seen": "VC-7",
+      "has_definition": true,
+      "definition": "An aircraft pilot. The use of the word may imply claims of superior airmanship, as in navy aviator vs. air force pilot."
+    },
+    "tallyhoers": {
+      "token_id": 5884,
+      "first_seen": "VC-7",
+      "has_definition": false,
+      "definition": ""
+    },
+    "miramar": {
+      "token_id": 7271,
+      "first_seen": "VC-7",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bazum": {
+      "token_id": 1580,
+      "first_seen": "Bazum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lori": {
+      "token_id": 319,
+      "first_seen": "Bazum",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 6388,
-  "total_words": 35968
+  "total_articles": 6418,
+  "total_words": 36092
 }
