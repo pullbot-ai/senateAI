@@ -34,6 +34,14 @@ jobs:
             "https://api.github.com/repos/${{ github.repository }}/actions/workflows/train_bundle.yml/dispatches" \
             -d "{\"ref\":\"${{ github.ref_name }}\",\"inputs\":{\"topics\":\"$RANDOM_GROUP\"}}"
       
+      - name: Trigger focused training
+        run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${{ github.token }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/focused_training.yml/dispatches" \
+            -d "{\"ref\":\"${{ github.ref_name }}\",\"inputs\":{\"max_senators\":\"10\",\"epochs\":\"30\"}}"
+      
       - name: Trigger router training
         run: |
           curl -X POST \
