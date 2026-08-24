@@ -285011,8 +285011,722 @@
       "first_seen": "Automatic number-plate recognition",
       "has_definition": false,
       "definition": ""
+    },
+    "parin": {
+      "token_id": 4694,
+      "first_seen": "Abraham Lincoln (Parin d'Aulaire book)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "d'aulaire": {
+      "token_id": 6381,
+      "first_seen": "Abraham Lincoln (Parin d'Aulaire book)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "doubleday": {
+      "token_id": 2743,
+      "first_seen": "Abraham Lincoln (Parin d'Aulaire book)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ingri": {
+      "token_id": 5553,
+      "first_seen": "Abraham Lincoln (Parin d'Aulaire book)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "indra": {
+      "token_id": 5092,
+      "first_seen": "Bruno Koschmider",
+      "has_definition": false,
+      "definition": ""
+    },
+    "koschmider": {
+      "token_id": 7079,
+      "first_seen": "Bruno Koschmider",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kaiserkeller": {
+      "token_id": 7513,
+      "first_seen": "Bruno Koschmider",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kino": {
+      "token_id": 4235,
+      "first_seen": "Bruno Koschmider",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yulia": {
+      "token_id": 1180,
+      "first_seen": "Yulia Polyachikhina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "polyachikhina": {
+      "token_id": 1401,
+      "first_seen": "Yulia Polyachikhina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tamiris": {
+      "token_id": 1635,
+      "first_seen": "Helen Tamiris",
+      "has_definition": false,
+      "definition": ""
+    },
+    "m.a.clem": {
+      "token_id": 3800,
+      "first_seen": "Orthoceras (plant)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "strictum": {
+      "token_id": 4700,
+      "first_seen": "Orthoceras (plant)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "known:orthoceras": {
+      "token_id": 6414,
+      "first_seen": "Orthoceras (plant)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "d.l.jones": {
+      "token_id": 2643,
+      "first_seen": "Orthoceras (plant)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "molloy": {
+      "token_id": 5974,
+      "first_seen": "Orthoceras (plant)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "novae-zeelandiae": {
+      "token_id": 523,
+      "first_seen": "Orthoceras (plant)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "a.rich": {
+      "token_id": 7381,
+      "first_seen": "Orthoceras (plant)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "orthoceras": {
+      "token_id": 3379,
+      "first_seen": "Orthoceras (plant)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "watercraft": {
+      "token_id": 7530,
+      "first_seen": "Bathtub racing",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bathtub": {
+      "token_id": 7097,
+      "first_seen": "Bathtub racing",
+      "has_definition": true,
+      "definition": "A large container for holding water in which a person may bathe (take a bath)."
+    },
+    "bathtubs": {
+      "token_id": 4900,
+      "first_seen": "Bathtub racing",
+      "has_definition": true,
+      "definition": "A large container for holding water in which a person may bathe (take a bath)."
+    },
+    "tmem": {
+      "token_id": 7449,
+      "first_seen": "TMEM51",
+      "has_definition": false,
+      "definition": ""
+    },
+    "orthologs": {
+      "token_id": 5296,
+      "first_seen": "TMEM51",
+      "has_definition": false,
+      "definition": ""
+    },
+    "transmembrane": {
+      "token_id": 5777,
+      "first_seen": "TMEM51",
+      "has_definition": true,
+      "definition": "A transmembrane protein, or the transmembrane portion of a protein"
+    },
+    "chelmer": {
+      "token_id": 3676,
+      "first_seen": "Chelmsford Hockey Club",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chelmsford": {
+      "token_id": 7510,
+      "first_seen": "Chelmsford Hockey Club",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vitalizing": {
+      "token_id": 5660,
+      "first_seen": "Union Main Street Historic District",
+      "has_definition": true,
+      "definition": "To give life to something; to animate."
+    },
+    "union's": {
+      "token_id": 6307,
+      "first_seen": "Union Main Street Historic District",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gresham": {
+      "token_id": 3507,
+      "first_seen": "Civic Drive station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eastside": {
+      "token_id": 2044,
+      "first_seen": "Civic Drive station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eastbound": {
+      "token_id": 4733,
+      "first_seen": "Civic Drive station",
+      "has_definition": true,
+      "definition": "Moving or heading towards the east."
+    },
+    "rabanal": {
+      "token_id": 180,
+      "first_seen": "Francisco Rabanal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "accountant": {
+      "token_id": 1833,
+      "first_seen": "Francisco Rabanal",
+      "has_definition": true,
+      "definition": "One who renders account; one accountable."
+    },
+    "pompeya": {
+      "token_id": 1979,
+      "first_seen": "Francisco Rabanal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "montmorency": {
+      "token_id": 2048,
+      "first_seen": "Bernard de Nogaret de La Valette d'\u00c9pernon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pernon": {
+      "token_id": 444,
+      "first_seen": "Bernard de Nogaret de La Valette d'\u00c9pernon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "valette": {
+      "token_id": 2033,
+      "first_seen": "Bernard de Nogaret de La Valette d'\u00c9pernon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "foix": {
+      "token_id": 1509,
+      "first_seen": "Bernard de Nogaret de La Valette d'\u00c9pernon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "foix-candale": {
+      "token_id": 1111,
+      "first_seen": "Bernard de Nogaret de La Valette d'\u00c9pernon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nogaret": {
+      "token_id": 4994,
+      "first_seen": "Bernard de Nogaret de La Valette d'\u00c9pernon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "co-producer": {
+      "token_id": 7327,
+      "first_seen": "Drinking Alone",
+      "has_definition": false,
+      "definition": ""
+    },
+    "carrie": {
+      "token_id": 5785,
+      "first_seen": "Drinking Alone",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tar": {
+      "token_id": 6577,
+      "first_seen": "Makes Me Sick Makes Me Smile",
+      "has_definition": true,
+      "definition": "(usually uncountable) A black, oily, sticky, viscous substance, consisting mainly of hydrocarbons derived from organic materials such as wood, peat, or coal."
+    },
+    "semiconductor": {
+      "token_id": 3425,
+      "first_seen": "Seiko Instruments",
+      "has_definition": true,
+      "definition": "A substance with electrical properties intermediate between a good conductor and a good insulator."
+    },
+    "seiko": {
+      "token_id": 1843,
+      "first_seen": "Seiko Instruments",
+      "has_definition": false,
+      "definition": ""
+    },
+    "micromechatronics": {
+      "token_id": 2090,
+      "first_seen": "Seiko Instruments",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sii": {
+      "token_id": 689,
+      "first_seen": "Seiko Instruments",
+      "has_definition": false,
+      "definition": ""
+    },
+    "machining": {
+      "token_id": 716,
+      "first_seen": "Seiko Instruments",
+      "has_definition": false,
+      "definition": ""
+    },
+    "commercializes": {
+      "token_id": 2463,
+      "first_seen": "Seiko Instruments",
+      "has_definition": false,
+      "definition": ""
+    },
+    "olsztyn-pieczewo": {
+      "token_id": 5348,
+      "first_seen": "FM- and TV-mast Olsztyn-Pieczewo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "metre-tall": {
+      "token_id": 2112,
+      "first_seen": "FM- and TV-mast Olsztyn-Pieczewo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guyed": {
+      "token_id": 5634,
+      "first_seen": "FM- and TV-mast Olsztyn-Pieczewo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tv-mast": {
+      "token_id": 905,
+      "first_seen": "FM- and TV-mast Olsztyn-Pieczewo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "suzzanna": {
+      "token_id": 3786,
+      "first_seen": "Suzzanna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "osch": {
+      "token_id": 5581,
+      "first_seen": "Suzzanna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pelupessy": {
+      "token_id": 6471,
+      "first_seen": "Suzzanna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "witches": {
+      "token_id": 1874,
+      "first_seen": "Suzzanna",
+      "has_definition": true,
+      "definition": "A person who practices witchcraft; a woman or man who practices witchcraft."
+    },
+    "mieke": {
+      "token_id": 1626,
+      "first_seen": "Suzzanna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "frederika": {
+      "token_id": 4747,
+      "first_seen": "Suzzanna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vice-admiral": {
+      "token_id": 2566,
+      "first_seen": "Arthur Hezlet",
+      "has_definition": true,
+      "definition": "A person holding a naval rank between rear admiral and admiral."
+    },
+    "submariner": {
+      "token_id": 6632,
+      "first_seen": "Arthur Hezlet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hezlet": {
+      "token_id": 902,
+      "first_seen": "Arthur Hezlet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "turk": {
+      "token_id": 7945,
+      "first_seen": "Tur\u00edk",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ruomberok": {
+      "token_id": 3716,
+      "first_seen": "Tur\u00edk",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kastellos": {
+      "token_id": 7974,
+      "first_seen": "Kritsa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "groves": {
+      "token_id": 3386,
+      "first_seen": "Kritsa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "koukistres": {
+      "token_id": 3096,
+      "first_seen": "Kritsa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "palemilos": {
+      "token_id": 943,
+      "first_seen": "Kritsa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pergiolikia": {
+      "token_id": 1445,
+      "first_seen": "Kritsa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kritsa": {
+      "token_id": 2756,
+      "first_seen": "Kritsa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nikolaos": {
+      "token_id": 3850,
+      "first_seen": "Kritsa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "crete's": {
+      "token_id": 7321,
+      "first_seen": "Kritsa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "picturesque": {
+      "token_id": 3256,
+      "first_seen": "Kritsa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "christos": {
+      "token_id": 5038,
+      "first_seen": "Kritsa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "amphitheatrically": {
+      "token_id": 3776,
+      "first_seen": "Kritsa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "square-foot": {
+      "token_id": 7966,
+      "first_seen": "DC USA",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jervois": {
+      "token_id": 2417,
+      "first_seen": "The Jervois",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ndlec": {
+      "token_id": 7260,
+      "first_seen": "The Jervois",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sheung": {
+      "token_id": 5220,
+      "first_seen": "The Jervois",
+      "has_definition": false,
+      "definition": ""
+    },
+    "florent": {
+      "token_id": 1625,
+      "first_seen": "The Jervois",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oglu": {
+      "token_id": 6112,
+      "first_seen": "Imam Mustafayev",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dashdemir": {
+      "token_id": 2702,
+      "first_seen": "Imam Mustafayev",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mustafayev": {
+      "token_id": 5399,
+      "first_seen": "Imam Mustafayev",
+      "has_definition": false,
+      "definition": ""
+    },
+    "avian": {
+      "token_id": 537,
+      "first_seen": "Erwin Stresemann",
+      "has_definition": true,
+      "definition": "A bird."
+    },
+    "zoologie": {
+      "token_id": 3543,
+      "first_seen": "Erwin Stresemann",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ornithological": {
+      "token_id": 352,
+      "first_seen": "Erwin Stresemann",
+      "has_definition": false,
+      "definition": ""
+    },
+    "handbuch": {
+      "token_id": 625,
+      "first_seen": "Erwin Stresemann",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ornithologists": {
+      "token_id": 3902,
+      "first_seen": "Erwin Stresemann",
+      "has_definition": true,
+      "definition": "A person who studies or practices ornithology."
+    },
+    "ornithology": {
+      "token_id": 5587,
+      "first_seen": "Erwin Stresemann",
+      "has_definition": true,
+      "definition": "The branch of zoology that deals with the scientific study of birds."
+    },
+    "monograph": {
+      "token_id": 4441,
+      "first_seen": "Erwin Stresemann",
+      "has_definition": true,
+      "definition": "A scholarly book or a treatise on a single subject or a group of related subjects, usually written by one person."
+    },
+    "paulohi": {
+      "token_id": 1057,
+      "first_seen": "Erwin Stresemann",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stresemann": {
+      "token_id": 2570,
+      "first_seen": "Erwin Stresemann",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ornithologie": {
+      "token_id": 250,
+      "first_seen": "Erwin Stresemann",
+      "has_definition": false,
+      "definition": ""
+    },
+    "breadth": {
+      "token_id": 6368,
+      "first_seen": "Erwin Stresemann",
+      "has_definition": true,
+      "definition": "The extent or measure of how broad or wide something is."
+    },
+    "aulhausen": {
+      "token_id": 6057,
+      "first_seen": "Marienkirche, Aulhausen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marienkirche": {
+      "token_id": 7775,
+      "first_seen": "Marienkirche, Aulhausen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kloster": {
+      "token_id": 6042,
+      "first_seen": "Marienkirche, Aulhausen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marienhausen": {
+      "token_id": 3751,
+      "first_seen": "Marienkirche, Aulhausen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vincenzstift": {
+      "token_id": 5152,
+      "first_seen": "Marienkirche, Aulhausen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "petrolul": {
+      "token_id": 590,
+      "first_seen": "ASC Daco-Getica Bucure\u0219ti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "daco-getica": {
+      "token_id": 1536,
+      "first_seen": "ASC Daco-Getica Bucure\u0219ti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ploieti": {
+      "token_id": 958,
+      "first_seen": "ASC Daco-Getica Bucure\u0219ti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "renaming": {
+      "token_id": 5646,
+      "first_seen": "ASC Daco-Getica Bucure\u0219ti",
+      "has_definition": true,
+      "definition": "To give a new name to."
+    },
+    "asociaia": {
+      "token_id": 5672,
+      "first_seen": "ASC Daco-Getica Bucure\u0219ti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "colentina": {
+      "token_id": 4043,
+      "first_seen": "ASC Daco-Getica Bucure\u0219ti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "juventus": {
+      "token_id": 6327,
+      "first_seen": "ASC Daco-Getica Bucure\u0219ti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bucureti": {
+      "token_id": 6075,
+      "first_seen": "ASC Daco-Getica Bucure\u0219ti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bowser": {
+      "token_id": 1239,
+      "first_seen": "David Bustill Bowser",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bustill": {
+      "token_id": 2352,
+      "first_seen": "David Bustill Bowser",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tsg": {
+      "token_id": 1397,
+      "first_seen": "Shammi Rana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shammi": {
+      "token_id": 1365,
+      "first_seen": "Shammi Rana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rapporteur": {
+      "token_id": 6552,
+      "first_seen": "Shammi Rana",
+      "has_definition": true,
+      "definition": "A person appointed by a deliberative body to investigate an issue or a situation, and report back to that body."
+    },
+    "rana": {
+      "token_id": 2092,
+      "first_seen": "Shammi Rana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ictsg": {
+      "token_id": 3581,
+      "first_seen": "Shammi Rana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "safeguarding": {
+      "token_id": 5036,
+      "first_seen": "Shammi Rana",
+      "has_definition": true,
+      "definition": "To protect, to keep safe."
+    },
+    "murex": {
+      "token_id": 2455,
+      "first_seen": "Bouchetia (gastropod)",
+      "has_definition": true,
+      "definition": "Any of the genus Murex of marine gastropods."
+    },
+    "muricidae": {
+      "token_id": 4890,
+      "first_seen": "Bouchetia (gastropod)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bouchetia": {
+      "token_id": 6062,
+      "first_seen": "Bouchetia (gastropod)",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 9537,
-  "total_words": 47502
+  "total_articles": 9567,
+  "total_words": 47621
 }
