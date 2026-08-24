@@ -55,20 +55,17 @@ jobs:
                       else:
                           avg = 0
                       
-                      # Check if trained (not default 50%)
                       is_trained = abs(avg - 50.0) >= 0.01
                       
-                      # Overfit = trained + low grade (5-20%)
-                      # These are likely memorizing not generalizing
-                      if is_trained and 5 < avg < 20:
+                      # Target: trained + grade 10-25% (likely overfit, not undertrained)
+                      if is_trained and 10 <= avg <= 25:
                           overfit.append({
                               'senator_id': senator_id,
                               'bundle_id': bundle_id,
                               'specialties': specialties,
-                              'score': avg,
-                              'estimated_loss': 'unknown'
+                              'score': avg
                           })
-              except Exception as e:
+              except:
                   pass
           
           overfit.sort(key=lambda x: x['score'])
@@ -78,8 +75,7 @@ jobs:
           with open('overfit_senators.json', 'w') as f:
               json.dump(top_overfit, f)
           
-          print(f'\nTotal senators checked')
-          print(f'Found {len(overfit)} overfit senators (trained, grade 5-20%)')
+          print(f'\nFound {len(overfit)} overfit senators (grade 10-25%)')
           print(f'Selected {len(top_overfit)} for AI editing:')
           for w in top_overfit[:15]:
               print(f'  Senator {w["senator_id"]} (Bundle {w["bundle_id"]}): {w["score"]:.1f}% - {", ".join(w["specialties"][:2])}')
@@ -177,6 +173,8 @@ jobs:
           senator_data = overfit[${{ matrix.index }}]
           senator_id = senator_data['senator_id']
           bundle_id = senator_data['bundle_id']
+          specialties = senator_data['specialties']
+          overfit_score = senator_data['score']
           
           bundle_path = f'senate_bundles/bundle_{bundle_id:03d}.pt'
           bundle = SenateBundle.load(bundle_path)
@@ -187,40 +185,36 @@ jobs:
               sys.exit(1)
           
           wordbank = get_wordbank()
-          specialties = senator.specialties
-          overfit_score = senator_data['score']
           
           print(f'AI editing Senator {senator_id} [{", ".join(specialties[:2])}]')
           print(f'Overfit score: {overfit_score:.1f}%')
           print()
           
-          def ai_direct_edit(senator, overfit_severity):
+          def ai_direct_edit(senator, overfit_severity, specialties):
               param_names = list(dict(senator.named_parameters()).keys())
               
               prompt = f"""You are directly editing a neural network to fix overfitting.
 
-          Senator specializes in: {', '.join(specialties[:3])}
-          Overfit severity score: {overfit_severity:.1f}/100
-          (LOWER score = MORE overfit)
+Senator specialties: {', '.join(specialties[:3])}
+Overfit severity: {overfit_severity:.1f}/100 (lower = more overfit)
 
-          The senator has memorized training data instead of learning general patterns.
+The senator memorized training data instead of learning general patterns.
 
-          To fix overfitting:
-          - ADD_NOISE to weights that memorized specific examples
-          - REDUCE weights that are too large/confident
+Available parameter groups:
+{', '.join(param_names[:10])}
 
-          Parameter groups available:
-          {', '.join(param_names[:15])}
+Fix by:
+- ADD_NOISE: add random noise to break memorized patterns
+- REDUCE: shrink overconfident weights
 
-          Return JSON:
-          {{"edits": [
-            {{"param": "lstm1", "operation": "add_noise", "magnitude": 0.15}},
-            {{"param": "embed", "operation": "reduce", "magnitude": 0.2}}
-          ]}}"""
+Return JSON:
+{{"edits": [{{"param": "lstm1", "operation": "add_noise", "magnitude": 0.15}}]}}"""
               
-              response = call_ai(prompt, max_tokens=300)
+              print(f'  Asking AI to edit weights...')
+              response = call_ai(prompt, max_tokens=200)
               
               if response:
+                  print(f'  AI response: {response[:150]}...')
                   try:
                       match = re.search(r'\{.*\}', response, re.DOTALL)
                       if match:
@@ -246,19 +240,26 @@ jobs:
                           return True
                   except Exception as e:
                       print(f'  Edit parse error: {e}')
+              else:
+                  print(f'  AI returned None')
               return False
           
-          edited = ai_direct_edit(senator, overfit_score)
+          edited = ai_direct_edit(senator, overfit_score, specialties)
           
           if not edited:
-              print('  AI edit failed, applying random noise fallback...')
+              print('  AI edit failed, applying scaled noise fallback...')
               with torch.no_grad():
                   for name, param in senator.named_parameters():
                       if param.dim() >= 2:
                           std = param.data.std()
                           if std > 0:
-                              param.data += torch.randn_like(param.data) * 0.1 * std
-              print('  Applied random noise to all 2D params')
+                              noise_strength = 0.1 * (overfit_score / 100)
+                              param.data += torch.randn_like(param.data) * std * noise_strength
+                              
+                              max_val = param.data.abs().max()
+                              if max_val > 1.0:
+                                  param.data = torch.clamp(param.data, -1.0, 1.0)
+              print('  Applied scaled noise fallback')
           
           from train import grade_and_update
           print()
@@ -273,7 +274,7 @@ jobs:
               if new_score > overfit_score:
                   print(f'  Improvement: +{new_score - overfit_score:.1f}%')
               else:
-                  print(f'  Worsened: {new_score - overfit_score:.1f}%')
+                  print(f'  No improvement')
           
           bundle.save(bundle_path)
           print(f'\n  Saved bundle {bundle_id}')
