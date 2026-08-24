@@ -287399,8 +287399,698 @@
       "first_seen": "DJ Paul",
       "has_definition": false,
       "definition": ""
+    },
+    "deception": {
+      "token_id": 6530,
+      "first_seen": "Military deception",
+      "has_definition": true,
+      "definition": "An instance of actions and/or schemes fabricated to mislead someone into believing a lie or inaccuracy."
+    },
+    "mildec": {
+      "token_id": 811,
+      "first_seen": "Military deception",
+      "has_definition": false,
+      "definition": ""
+    },
+    "deceiving": {
+      "token_id": 3757,
+      "first_seen": "Military deception",
+      "has_definition": false,
+      "definition": ""
+    },
+    "observe": {
+      "token_id": 2423,
+      "first_seen": "Military deception",
+      "has_definition": true,
+      "definition": "To notice or view, especially carefully or with attention to detail."
+    },
+    "explanation": {
+      "token_id": 4035,
+      "first_seen": "Military deception",
+      "has_definition": true,
+      "definition": "The act or process of explaining."
+    },
+    "plausible": {
+      "token_id": 4453,
+      "first_seen": "Military deception",
+      "has_definition": true,
+      "definition": "Seemingly or apparently valid, likely, or acceptable; conceivably true or likely"
+    },
+    "misleading": {
+      "token_id": 5812,
+      "first_seen": "Military deception",
+      "has_definition": true,
+      "definition": "To lead astray, in a false direction."
+    },
+    "opsec": {
+      "token_id": 4616,
+      "first_seen": "Military deception",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inaction": {
+      "token_id": 282,
+      "first_seen": "Military deception",
+      "has_definition": true,
+      "definition": "Lack of action or activity or labor"
+    },
+    "amplifying": {
+      "token_id": 7604,
+      "first_seen": "Military deception",
+      "has_definition": true,
+      "definition": "To render larger, more extended, or more intense."
+    },
+    "conceal": {
+      "token_id": 1531,
+      "first_seen": "Military deception",
+      "has_definition": true,
+      "definition": "To hide something from view or from public knowledge, to try to keep something secret."
+    },
+    "disinformation": {
+      "token_id": 768,
+      "first_seen": "Military deception",
+      "has_definition": true,
+      "definition": "Intentionally false information disseminated to deliberately confuse or mislead."
+    },
+    "athenaeum": {
+      "token_id": 2236,
+      "first_seen": "George Washington (Stuart, Williamstown)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cuchufl": {
+      "token_id": 7985,
+      "first_seen": "Cuchufl\u00ed",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barquillos": {
+      "token_id": 1117,
+      "first_seen": "Cuchufl\u00ed",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cuchufles": {
+      "token_id": 2191,
+      "first_seen": "Cuchufl\u00ed",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fillings": {
+      "token_id": 6970,
+      "first_seen": "Cuchufl\u00ed",
+      "has_definition": true,
+      "definition": "Anything that is used to fill something."
+    },
+    "dulce": {
+      "token_id": 2411,
+      "first_seen": "Cuchufl\u00ed",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vanilla": {
+      "token_id": 7758,
+      "first_seen": "Cuchufl\u00ed",
+      "has_definition": true,
+      "definition": "Any tropical, climbing orchid of the genus Vanilla (especially Vanilla planifolia), bearing podlike fruit yielding an extract used in flavoring food or in perfumes."
+    },
+    "supermarkets": {
+      "token_id": 6521,
+      "first_seen": "Cuchufl\u00ed",
+      "has_definition": true,
+      "definition": "A large self-service store that sells groceries and, usually, medications, household goods and/or clothing."
+    },
+    "leche": {
+      "token_id": 4210,
+      "first_seen": "Cuchufl\u00ed",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lgbtqia": {
+      "token_id": 954,
+      "first_seen": "SQIFF",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sqiff": {
+      "token_id": 7838,
+      "first_seen": "SQIFF",
+      "has_definition": false,
+      "definition": ""
+    },
+    "scotland's": {
+      "token_id": 1005,
+      "first_seen": "SQIFF",
+      "has_definition": false,
+      "definition": ""
+    },
+    "discretionary": {
+      "token_id": 7101,
+      "first_seen": "ESPN Classic (Canada)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "distributors": {
+      "token_id": 2346,
+      "first_seen": "Trek: The Movie",
+      "has_definition": true,
+      "definition": "One who or that which distributes."
+    },
+    "groupthe": {
+      "token_id": 4230,
+      "first_seen": "Trek: The Movie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cokeville": {
+      "token_id": 6982,
+      "first_seen": "Trek: The Movie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bhopal": {
+      "token_id": 7809,
+      "first_seen": "NLIU Bhopal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "system.it": {
+      "token_id": 118,
+      "first_seen": "NLIU Bhopal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "palmer-moore": {
+      "token_id": 5815,
+      "first_seen": "Palmer-Moore Company",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gasoline": {
+      "token_id": 5262,
+      "first_seen": "Palmer-Moore Company",
+      "has_definition": true,
+      "definition": "A flammable liquid consisting of a mixture of refined petroleum hydrocarbons, mainly used as a motor fuel; petrol."
+    },
+    "trucks": {
+      "token_id": 1663,
+      "first_seen": "Palmer-Moore Company",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oahu": {
+      "token_id": 4390,
+      "first_seen": "Charles Stuart Tripler",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tripler": {
+      "token_id": 4639,
+      "first_seen": "Charles Stuart Tripler",
+      "has_definition": false,
+      "definition": ""
+    },
+    "backdated": {
+      "token_id": 3793,
+      "first_seen": "Charles Stuart Tripler",
+      "has_definition": false,
+      "definition": ""
+    },
+    "langenberg": {
+      "token_id": 1059,
+      "first_seen": "Communications Earth & Environment",
+      "has_definition": false,
+      "definition": ""
+    },
+    "constabularies": {
+      "token_id": 1937,
+      "first_seen": "Police Act 1946",
+      "has_definition": true,
+      "definition": "A police force."
+    },
+    "bokeo": {
+      "token_id": 2558,
+      "first_seen": "Bokeo province",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pheung": {
+      "token_id": 3513,
+      "first_seen": "Bokeo province",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bokeo's": {
+      "token_id": 7811,
+      "first_seen": "Bokeo province",
+      "has_definition": false,
+      "definition": ""
+    },
+    "houayxay": {
+      "token_id": 4037,
+      "first_seen": "Bokeo province",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blocker": {
+      "token_id": 3827,
+      "first_seen": "Dmytro Teryomenko",
+      "has_definition": true,
+      "definition": "Agent noun of block; something that blocks something else."
+    },
+    "teryomenko": {
+      "token_id": 5564,
+      "first_seen": "Dmytro Teryomenko",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vb": {
+      "token_id": 3198,
+      "first_seen": "Dmytro Teryomenko",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vasylovych": {
+      "token_id": 3026,
+      "first_seen": "Dmytro Teryomenko",
+      "has_definition": false,
+      "definition": ""
+    },
+    "building's": {
+      "token_id": 4931,
+      "first_seen": "Volcano Express",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reykjavk": {
+      "token_id": 6119,
+      "first_seen": "Volcano Express",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pre-show": {
+      "token_id": 4250,
+      "first_seen": "Volcano Express",
+      "has_definition": false,
+      "definition": ""
+    },
+    "harpa": {
+      "token_id": 3688,
+      "first_seen": "Volcano Express",
+      "has_definition": false,
+      "definition": ""
+    },
+    "subsonic": {
+      "token_id": 5647,
+      "first_seen": "Volcano Express",
+      "has_definition": true,
+      "definition": "An aircraft whose maximum speed is less than the speed of sound"
+    },
+    "volcanism": {
+      "token_id": 6679,
+      "first_seen": "Volcano Express",
+      "has_definition": true,
+      "definition": "Any of the natural phenomena and processes associated with the action of volcanos, geysers and fumaroles"
+    },
+    "short-format": {
+      "token_id": 6633,
+      "first_seen": "Volcano Express",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iceland's": {
+      "token_id": 4190,
+      "first_seen": "Volcano Express",
+      "has_definition": false,
+      "definition": ""
+    },
+    "immersive": {
+      "token_id": 1363,
+      "first_seen": "Volcano Express",
+      "has_definition": false,
+      "definition": ""
+    },
+    "journal's": {
+      "token_id": 2197,
+      "first_seen": "International Small Business Journal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "isbj": {
+      "token_id": 1110,
+      "first_seen": "International Small Business Journal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antique's": {
+      "token_id": 4354,
+      "first_seen": "Rhodora Cadiao",
+      "has_definition": false,
+      "definition": ""
+    },
+    "re-elected": {
+      "token_id": 6652,
+      "first_seen": "Rhodora Cadiao",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cadiao": {
+      "token_id": 3281,
+      "first_seen": "Rhodora Cadiao",
+      "has_definition": false,
+      "definition": ""
+    },
+    "esperanza": {
+      "token_id": 5133,
+      "first_seen": "Rhodora Cadiao",
+      "has_definition": false,
+      "definition": ""
+    },
+    "solis-javier": {
+      "token_id": 4116,
+      "first_seen": "Rhodora Cadiao",
+      "has_definition": false,
+      "definition": ""
+    },
+    "filipina": {
+      "token_id": 1917,
+      "first_seen": "Rhodora Cadiao",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lacson": {
+      "token_id": 905,
+      "first_seen": "Rhodora Cadiao",
+      "has_definition": false,
+      "definition": ""
+    },
+    "exequiel": {
+      "token_id": 7286,
+      "first_seen": "Rhodora Cadiao",
+      "has_definition": false,
+      "definition": ""
+    },
+    "josue": {
+      "token_id": 2141,
+      "first_seen": "Rhodora Cadiao",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rhodora": {
+      "token_id": 5710,
+      "first_seen": "Rhodora Cadiao",
+      "has_definition": true,
+      "definition": "Rhododendron canadense, a deciduous flowering shrub native to northeastern North America."
+    },
+    "reelectionist": {
+      "token_id": 4480,
+      "first_seen": "Rhodora Cadiao",
+      "has_definition": false,
+      "definition": ""
+    },
+    "legarda": {
+      "token_id": 7393,
+      "first_seen": "Rhodora Cadiao",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tipple": {
+      "token_id": 5869,
+      "first_seen": "Dan Tipple",
+      "has_definition": true,
+      "definition": "An area near the entrance of mines which is used to load and unload coal."
+    },
+    "crusty": {
+      "token_id": 3344,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": true,
+      "definition": "A tramp or homeless young person with poor cleanliness."
+    },
+    "lichen-forming": {
+      "token_id": 1792,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "metabolites": {
+      "token_id": 5589,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gilbertaria": {
+      "token_id": 2917,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spore-dispersing": {
+      "token_id": 1432,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "crustose": {
+      "token_id": 3565,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": true,
+      "definition": "Of a lichen, growing tightly appressed to the substrate."
+    },
+    "sphaerophorin": {
+      "token_id": 6602,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lecanorales": {
+      "token_id": 2468,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mazaedial": {
+      "token_id": 6271,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shrub-like": {
+      "token_id": 3511,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fruticose": {
+      "token_id": 7967,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mazaedia": {
+      "token_id": 5619,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "circumscription": {
+      "token_id": 7874,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": true,
+      "definition": "The act of circumscribing or the quality of being circumscribed."
+    },
+    "sphaerophoraceae": {
+      "token_id": 2188,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rainforests": {
+      "token_id": 7710,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": true,
+      "definition": "A forest in a climate with high annual rainfall and no dry season."
+    },
+    "hemispheres": {
+      "token_id": 1959,
+      "first_seen": "Sphaerophoraceae",
+      "has_definition": true,
+      "definition": "Half of the celestial sphere, as divided by either the ecliptic or the celestial equator ."
+    },
+    "bcheresse": {
+      "token_id": 2335,
+      "first_seen": "B\u00e9cheresse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "everus": {
+      "token_id": 1785,
+      "first_seen": "Everus S1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "averaging": {
+      "token_id": 2160,
+      "first_seen": "Covilh\u00e3 International Hill Climb",
+      "has_definition": true,
+      "definition": "To compute the average of, especially the arithmetic mean."
+    },
+    "covilh": {
+      "token_id": 984,
+      "first_seen": "Covilh\u00e3 International Hill Climb",
+      "has_definition": false,
+      "definition": ""
+    },
+    "estrela": {
+      "token_id": 6364,
+      "first_seen": "Covilh\u00e3 International Hill Climb",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hillclimb": {
+      "token_id": 4500,
+      "first_seen": "Covilh\u00e3 International Hill Climb",
+      "has_definition": true,
+      "definition": "An instance of climbing (ascending) a hill in a car, especilly competitively."
+    },
+    "mller-daubermann": {
+      "token_id": 4553,
+      "first_seen": "Kirsten Haglund",
+      "has_definition": false,
+      "definition": ""
+    },
+    "haglund": {
+      "token_id": 4419,
+      "first_seen": "Kirsten Haglund",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iora": {
+      "token_id": 4949,
+      "first_seen": "Kirsten Haglund",
+      "has_definition": true,
+      "definition": "Any of a group of passerine birds, of the family Aegithinidae, found in India and other parts of Asia"
+    },
+    "kirsten": {
+      "token_id": 2906,
+      "first_seen": "Kirsten Haglund",
+      "has_definition": false,
+      "definition": ""
+    },
+    "satyrium": {
+      "token_id": 6570,
+      "first_seen": "Satyrium bicorne",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bicorne": {
+      "token_id": 1361,
+      "first_seen": "Satyrium bicorne",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hungry": {
+      "token_id": 1982,
+      "first_seen": "Hungry Dinosaurs",
+      "has_definition": true,
+      "definition": "Affected by hunger; desiring of food; having a physical need for food."
+    },
+    "sunsoft": {
+      "token_id": 879,
+      "first_seen": "Hungry Dinosaurs",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bertelsmann": {
+      "token_id": 2974,
+      "first_seen": "Sonopress",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sonopress": {
+      "token_id": 5684,
+      "first_seen": "Sonopress",
+      "has_definition": false,
+      "definition": ""
+    },
+    "confucian": {
+      "token_id": 1078,
+      "first_seen": "Confucian Private Secondary School",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hajduch": {
+      "token_id": 3647,
+      "first_seen": "Csenge Hajduch",
+      "has_definition": false,
+      "definition": ""
+    },
+    "csenge": {
+      "token_id": 828,
+      "first_seen": "Csenge Hajduch",
+      "has_definition": false,
+      "definition": ""
+    },
+    "budars": {
+      "token_id": 923,
+      "first_seen": "Csenge Hajduch",
+      "has_definition": false,
+      "definition": ""
+    },
+    "donoho": {
+      "token_id": 175,
+      "first_seen": "Thomas House Hotel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cloyd": {
+      "token_id": 3229,
+      "first_seen": "Thomas House Hotel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "early-th": {
+      "token_id": 1552,
+      "first_seen": "Thomas House Hotel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nontoxic": {
+      "token_id": 2650,
+      "first_seen": "Ascher's syndrome",
+      "has_definition": false,
+      "definition": ""
+    },
+    "goiter": {
+      "token_id": 6722,
+      "first_seen": "Ascher's syndrome",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blepharochalasis": {
+      "token_id": 3236,
+      "first_seen": "Ascher's syndrome",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ascher's": {
+      "token_id": 5375,
+      "first_seen": "Ascher's syndrome",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ascher": {
+      "token_id": 3196,
+      "first_seen": "Ascher's syndrome",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hormonal": {
+      "token_id": 5491,
+      "first_seen": "Ascher's syndrome",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 9657,
-  "total_words": 47900
+  "total_articles": 9687,
+  "total_words": 48015
 }
