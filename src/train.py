@@ -41,7 +41,7 @@ class TopicDataset(Dataset):
         return x, y
 
 
-def generate_training_data(topic, num_examples=10):
+def generate_training_data(topic, num_examples=30):
     """Generate fresh training examples using AI with punctuation"""
     
     prompt = f"""Generate {num_examples} diverse training sentences for a tiny AI specializing in '{topic}'.
@@ -50,7 +50,7 @@ Use commas where appropriate.
 Make them varied: definitions, principles, facts, applications, examples.
 Return as JSON array of strings: ["sentence1.", "sentence2?", "sentence3!"]"""
     
-    response = call_ai(prompt, max_tokens=800)
+    response = call_ai(prompt, max_tokens=1500)
     
     if response:
         try:
@@ -61,7 +61,14 @@ Return as JSON array of strings: ["sentence1.", "sentence2?", "sentence3!"]"""
         except:
             pass
     
-    return [f"{topic} is an important field of study involving key principles and concepts."]
+    # Fallback with multiple examples
+    return [
+        f"{topic} is an important field of study involving key principles and concepts.",
+        f"The study of {topic} requires analytical thinking and practical application.",
+        f"Experts in {topic} apply specialized knowledge to solve complex problems.",
+        f"Understanding {topic} involves mastering fundamental concepts and theories.",
+        f"{topic} continues to evolve with new research and discoveries.",
+    ]
 
 
 def generate_qa_pairs(topic, num_pairs=8):
@@ -125,8 +132,7 @@ Return ONLY as JSON array: ["param1", "param2", "param3", "param4", "param5"]"""
 
 
 def train_senator_on_topics(senator, topics, wordbank, epochs=50, lr=0.0005, batch_size=16, ai_guided=True, refresh_interval=5):
-    """Train senator with fresh data every 5 epochs to prevent overfitting.
-    Default: 50 total epochs, new data every 5 epochs."""
+    """Train senator with fresh data every 5 epochs to prevent overfitting."""
     
     criterion = nn.CrossEntropyLoss(ignore_index=0)
     senator.train()
@@ -139,7 +145,7 @@ def train_senator_on_topics(senator, topics, wordbank, epochs=50, lr=0.0005, bat
         # Generate FRESH training data each round
         all_texts = []
         for topic in topics:
-            texts = generate_training_data(topic, num_examples=10)
+            texts = generate_training_data(topic, num_examples=30)
             all_texts.extend(texts)
         
         random.shuffle(all_texts)
