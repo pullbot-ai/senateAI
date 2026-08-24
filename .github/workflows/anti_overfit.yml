@@ -4,13 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       max_senators:
-        description: 'Number of overfit senators to retrain'
+        description: 'Number of overfit senators to fix'
         required: false
         default: '10'
-      questions_per_senator:
-        description: 'Questions per senator'
-        required: false
-        default: '15'
 
 permissions:
   contents: write
@@ -59,8 +55,8 @@ jobs:
                       else:
                           avg = 0
                       
-                      # Overfit = low grade but likely memorized
-                      if 5 < avg < 20:
+                      # Overfit = low grade (5-20%) but likely has low loss (memorized)
+                      if 5 < avg < 20 and abs(avg - 50.0) >= 0.01:
                           overfit.append({
                               'senator_id': senator_id,
                               'bundle_id': bundle_id,
@@ -70,7 +66,6 @@ jobs:
               except:
                   pass
           
-          # Sort by most likely overfit (low grade)
           overfit.sort(key=lambda x: x['score'])
           
           top_overfit = overfit[:${{ github.event.inputs.max_senators }}]
@@ -79,7 +74,7 @@ jobs:
               json.dump(top_overfit, f)
           
           print(f'\nFound {len(overfit)} potentially overfit senators')
-          print(f'Selected {len(top_overfit)} for anti-overfit training:')
+          print(f'Selected {len(top_overfit)} for AI direct editing:')
           for w in top_overfit[:15]:
               print(f'  Senator {w["senator_id"]} (Bundle {w["bundle_id"]}): {w["score"]:.1f}% - {", ".join(w["specialties"][:2])}')
           EOF
@@ -91,10 +86,10 @@ jobs:
           name: overfit-senators
           path: overfit_senators.json
 
-  train-anti-overfit:
+  fix-overfit:
     needs: find-overfit
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    timeout-minutes: 120
     strategy:
       fail-fast: false
       matrix:
@@ -155,16 +150,14 @@ jobs:
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
       
-      - name: Anti-overfit train senator ${{ matrix.index }}
+      - name: AI direct edit senator ${{ matrix.index }}
         run: |
-          cat > anti_overfit_train.py << 'EOF'
+          cat > ai_edit.py << 'EOF'
           import sys, json, torch, random
           sys.path.insert(0, 'src')
           from model_template import SenateBundle
           from ai_client import call_ai
           from wordbank import get_wordbank
-          import torch.nn as nn
-          from torch.utils.data import Dataset, DataLoader
           
           torch.set_num_threads(1)
           
@@ -189,128 +182,118 @@ jobs:
           
           wordbank = get_wordbank()
           specialties = senator.specialties
+          overfit_score = senator_data['score']
           
-          print(f'Anti-overfit training Senator {senator_id} [{", ".join(specialties[:2])}]')
-          print(f'Strategy: 2 epochs per question, {{{{ github.event.inputs.questions_per_senator }}}} questions')
+          print(f'AI editing Senator {senator_id} [{", ".join(specialties[:2])}]')
+          print(f'Overfit score: {overfit_score:.1f}%')
+          print(f'AI will directly modify weights to reduce memorization...')
+          print()
           
-          def generate_questions(topic, num):
-              prompt = f"""Generate {num} diverse questions about '{topic}'.
-              Each question should be unique and test different aspects.
-              Return as JSON array of strings."""
-              response = call_ai(prompt, max_tokens=500)
-              if response:
-                  try:
-                      import re
-                      match = re.search(r'\[.*\]', response, re.DOTALL)
-                      if match:
-                          return json.loads(match.group())
-                  except:
-                      pass
-              return [f"What is {topic}?"]
+          import re
           
-          def select_params(senator, topic, question_idx):
+          def ai_direct_edit(senator, overfit_severity):
+              """AI directly modifies weights to fix overfitting"""
+              
               param_names = list(dict(senator.named_parameters()).keys())
-              prompt = f"""You are de-overfitting a senator specializing in {', '.join(specialties[:2])}.
-              Currently processing question {question_idx}.
-              Which 3 parameter groups should be updated?
-              Return JSON array of param names."""
-              response = call_ai(prompt, max_tokens=50)
+              
+              prompt = f"""You are directly editing a neural network to fix overfitting.
+
+Senator specializes in: {', '.join(specialties[:3])}
+Overfit severity score: {overfit_severity:.1f}/100
+(LOWER score = MORE overfit)
+
+The senator has memorized training data instead of learning general patterns.
+
+To fix overfitting:
+- ADD_NOISE to weights that memorized specific examples
+- REDUCE weights that are too large/confident
+- STRENGTHEN weights that help generalization
+
+Parameter groups available:
+{', '.join(param_names[:15])}
+
+Return JSON with edits:
+{{"edits": [
+  {{"param": "lstm1", "operation": "add_noise", "magnitude": 0.15}},
+  {{"param": "embed", "operation": "reduce", "magnitude": 0.2}},
+  {{"param": "output", "operation": "strengthen", "magnitude": 0.1}}
+]}}"""
+              
+              response = call_ai(prompt, max_tokens=300)
+              
               if response:
                   try:
-                      import re
-                      match = re.search(r'\[.*\]', response, re.DOTALL)
+                      match = re.search(r'\{.*\}', response, re.DOTALL)
                       if match:
-                          selected = json.loads(match.group())
-                          matched = []
-                          for name, param in senator.named_parameters():
-                              for sel in selected:
-                                  if sel.split('.')[0] in name:
-                                      matched.append(name)
+                          edits = json.loads(match.group()).get('edits', [])
+                          
+                          for edit in edits:
+                              param_hint = edit.get('param', '')
+                              operation = edit.get('operation', 'add_noise')
+                              magnitude = float(edit.get('magnitude', 0.1))
+                              
+                              for name, param in senator.named_parameters():
+                                  if param_hint.lower() in name.lower():
+                                      with torch.no_grad():
+                                          if operation == 'add_noise':
+                                              std = param.data.std()
+                                              if std > 0:
+                                                  param.data += torch.randn_like(param.data) * magnitude * std
+                                              print(f'  Added noise to {name} (mag {magnitude})')
+                                          elif operation == 'reduce':
+                                              param.data *= (1 - magnitude)
+                                              print(f'  Reduced {name} by {magnitude*100:.0f}%')
+                                          elif operation == 'strengthen':
+                                              param.data *= (1 + magnitude * 0.5)
+                                              print(f'  Strengthened {name} by {magnitude*50:.0f}%')
                                       break
-                          return matched[:5] if matched else None
-                  except:
-                      pass
-              return None
+                          return True
+                  except Exception as e:
+                      print(f'  Edit parse error: {e}')
+              return False
           
-          criterion = nn.CrossEntropyLoss(ignore_index=0)
-          all_questions = []
+          # AI diagnoses and edits
+          edited = ai_direct_edit(senator, overfit_score)
           
-          for topic in specialties:
-              questions = generate_questions(topic, ${{ github.event.inputs.questions_per_senator }} // len(specialties))
-              all_questions.extend(questions)
-          
-          print(f'Generated {len(all_questions)} questions')
-          
-          total_losses = []
-          
-          for q_idx, question in enumerate(all_questions):
-              # Generate one training example for this question
-              prompt = f"""Generate a clear answer for: {question}
-              Topic: {', '.join(specialties[:2])}
-              Return just the answer sentence."""
-              answer = call_ai(prompt, max_tokens=100)
-              
-              if not answer:
-                  continue
-              
-              tokens = wordbank.tokenize(answer, max_len=32)
-              input_ids = torch.tensor([tokens])
-              
-              # AI picks params for this question
-              selected_names = select_params(senator, specialties, q_idx)
-              selected_tensors = []
-              
-              if selected_names:
+          if not edited:
+              print('  AI edit failed, applying random noise fallback...')
+              with torch.no_grad():
                   for name, param in senator.named_parameters():
-                      if name in selected_names:
-                          param.requires_grad = True
-                          selected_tensors.append(param)
-                      else:
-                          param.requires_grad = False
-              else:
-                  for param in senator.parameters():
-                      param.requires_grad = True
-                      selected_tensors.append(param)
-              
-              optimizer = torch.optim.Adam(selected_tensors, lr=0.0001)
-              
-              # Train 2 epochs on this question only
-              senator.train()
-              for epoch in range(2):
-                  optimizer.zero_grad()
-                  logits = senator(input_ids[:, :-1])
-                  loss = criterion(logits.permute(0, 2, 1), input_ids[:, 1:])
-                  loss.backward()
-                  torch.nn.utils.clip_grad_norm_(selected_tensors, 1.0)
-                  optimizer.step()
-                  total_losses.append(loss.item())
-              
-              if (q_idx + 1) % 5 == 0:
-                  print(f'  Question {q_idx+1}/{len(all_questions)} done')
+                      if param.dim() >= 2:
+                          std = param.data.std()
+                          if std > 0:
+                              param.data += torch.randn_like(param.data) * 0.1 * std
+              print('  Applied random noise to all 2D params')
           
-          if total_losses:
-              avg_loss = sum(total_losses) / len(total_losses)
-              print(f'Average loss: {avg_loss:.4f}')
-          
-          # Grade after anti-overfit
+          # Re-grade after AI edit
           from train import grade_and_update
-          result = grade_and_update(senator, specialties, wordbank, total_losses)
+          print()
+          print('  Re-grading after AI edit...')
+          result = grade_and_update(senator, specialties, wordbank)
+          
           if result:
-              print(f'New grade: {result["average_score"]:.1f}/100')
+              new_score = result['average_score']
+              print(f'  Previous: {overfit_score:.1f}%')
+              print(f'  After AI edit: {new_score:.1f}%')
+              
+              if new_score > overfit_score:
+                  print(f'  Improvement: +{new_score - overfit_score:.1f}%')
+              else:
+                  print(f'  Worsened: {new_score - overfit_score:.1f}%')
           
           bundle.save(bundle_path)
-          print(f'Saved bundle {bundle_id}')
+          print(f'\n  Saved bundle {bundle_id}')
           EOF
-          python anti_overfit_train.py
+          python ai_edit.py
       
-      - name: Upload trained bundle
+      - name: Upload edited bundle
         uses: actions/upload-artifact@v4
         with:
           name: anti-overfit-bundle-${{ matrix.index }}
           path: senate_bundles/
 
   push-anti-overfit:
-    needs: train-anti-overfit
+    needs: fix-overfit
     if: success() || failure()
     runs-on: ubuntu-latest
     steps:
@@ -329,7 +312,7 @@ jobs:
           git pull --rebase origin main
           git stash pop || true
           git add senate_bundles/
-          git commit -m "Anti-overfit training" || echo "No changes"
+          git commit -m "AI anti-overfit weight editing" || echo "No changes"
           for attempt in $(seq 1 20); do
             if git push; then
               echo "Pushed (attempt $attempt)!"
