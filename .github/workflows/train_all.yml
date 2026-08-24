@@ -10,29 +10,44 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - name: Pick random topics and trigger training
+      - name: Pick random topics from ALL topics
         run: |
-          TOPIC_GROUPS=(
-            "mathematics,algebra,geometry,calculus,statistics"
-            "physics,chemistry,biology,astronomy,environmental_science"
-            "computer_science,algorithms,machine_learning,cybersecurity,networking"
-            "history,ancient_civilizations,world_wars,geography,philosophy"
-            "psychology,economics,political_science,law,linguistics"
-            "art_history,music_theory,literature,poetry,ethics"
-            "medicine,anatomy,neuroscience,genetics,microbiology"
-            "quantum_mechanics,thermodynamics,electromagnetism,organic_chemistry,biochemistry"
-            "climate_science,behavioral_economics,cognitive_science,epistemology,constitutional_law"
-            "microeconomics,macroeconomics,medieval_history,astrophysics,engineering"
+          ALL_TOPICS=(
+            "mathematics" "algebra" "geometry" "calculus" "statistics"
+            "physics" "quantum_mechanics" "thermodynamics" "electromagnetism"
+            "chemistry" "organic_chemistry" "biochemistry"
+            "biology" "genetics" "neuroscience" "microbiology"
+            "computer_science" "algorithms" "machine_learning" "cybersecurity" "networking"
+            "history" "ancient_civilizations" "world_wars" "medieval_history"
+            "geography" "climate_science"
+            "astronomy" "astrophysics"
+            "philosophy" "logic" "ethics" "epistemology"
+            "psychology" "cognitive_science" "behavioral_economics"
+            "linguistics" "literature" "poetry"
+            "economics" "macroeconomics" "microeconomics"
+            "political_science" "law" "constitutional_law"
+            "medicine" "anatomy"
+            "engineering"
+            "music_theory" "art_history" "environmental_science"
           )
           
-          RANDOM_GROUP=${TOPIC_GROUPS[$RANDOM % ${#TOPIC_GROUPS[@]}]}
-          echo "Pinging: $RANDOM_GROUP"
+          # Randomly pick 5 unique topics
+          SELECTED=()
+          while [ ${#SELECTED[@]} -lt 5 ]; do
+            RANDOM_TOPIC=${ALL_TOPICS[$RANDOM % ${#ALL_TOPICS[@]}]}
+            if [[ ! " ${SELECTED[@]} " =~ " ${RANDOM_TOPIC} " ]]; then
+              SELECTED+=("$RANDOM_TOPIC")
+            fi
+          done
+          
+          TOPIC_STRING=$(IFS=','; echo "${SELECTED[*]}")
+          echo "Pinging: $TOPIC_STRING"
           
           curl -X POST \
             -H "Authorization: Bearer ${{ github.token }}" \
             -H "Accept: application/vnd.github.v3+json" \
             "https://api.github.com/repos/${{ github.repository }}/actions/workflows/train_bundle.yml/dispatches" \
-            -d "{\"ref\":\"${{ github.ref_name }}\",\"inputs\":{\"topics\":\"$RANDOM_GROUP\"}}"
+            -d "{\"ref\":\"${{ github.ref_name }}\",\"inputs\":{\"topics\":\"$TOPIC_STRING\"}}"
       
       - name: Trigger focused training
         run: |
@@ -40,7 +55,7 @@ jobs:
             -H "Authorization: Bearer ${{ github.token }}" \
             -H "Accept: application/vnd.github.v3+json" \
             "https://api.github.com/repos/${{ github.repository }}/actions/workflows/focused_training.yml/dispatches" \
-            -d "{\"ref\":\"${{ github.ref_name }}\",\"inputs\":{\"max_senators\":\"10\",\"epochs\":\"30\"}}"
+            -d "{\"ref\":\"${{ github.ref_name }}\",\"inputs\":{\"max_senators\":\"10\",\"epochs\":\"50\"}}"
       
       - name: Trigger router training
         run: |
