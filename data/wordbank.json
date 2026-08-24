@@ -264761,8 +264761,536 @@
       "first_seen": "Poor Ferdinand",
       "has_definition": false,
       "definition": ""
+    },
+    "indulging": {
+      "token_id": 5838,
+      "first_seen": "Sinful Sweets",
+      "has_definition": true,
+      "definition": "(often followed by \"in\"): To yield to a temptation or desire."
+    },
+    "sinful": {
+      "token_id": 5933,
+      "first_seen": "Sinful Sweets",
+      "has_definition": true,
+      "definition": "Constituting a sin; being morally or religiously wrong; wicked; evil"
+    },
+    "desserts": {
+      "token_id": 381,
+      "first_seen": "Sinful Sweets",
+      "has_definition": false,
+      "definition": ""
+    },
+    "balgownie": {
+      "token_id": 761,
+      "first_seen": "Balgownie Rangers FC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rastatt": {
+      "token_id": 2489,
+      "first_seen": "Waggonfabrik Rastatt",
+      "has_definition": false,
+      "definition": ""
+    },
+    "waggonfabrik": {
+      "token_id": 3842,
+      "first_seen": "Waggonfabrik Rastatt",
+      "has_definition": false,
+      "definition": ""
+    },
+    "public-limited": {
+      "token_id": 5513,
+      "first_seen": "Waggonfabrik Rastatt",
+      "has_definition": false,
+      "definition": ""
+    },
+    "batoscelis": {
+      "token_id": 4250,
+      "first_seen": "Batoscelis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mmsr": {
+      "token_id": 3762,
+      "first_seen": "Type 38 rifle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sino-japanese": {
+      "token_id": 4064,
+      "first_seen": "Type 38 rifle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bolt-action": {
+      "token_id": 6945,
+      "first_seen": "Type 38 rifle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arisaka": {
+      "token_id": 1861,
+      "first_seen": "Type 38 rifle",
+      "has_definition": false,
+      "definition": ""
+    },
+    "relegion": {
+      "token_id": 3974,
+      "first_seen": "Epitaph Records",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gurewitz": {
+      "token_id": 4185,
+      "first_seen": "Epitaph Records",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rancid": {
+      "token_id": 178,
+      "first_seen": "Epitaph Records",
+      "has_definition": true,
+      "definition": "Rank in taste or smell."
+    },
+    "hellcat": {
+      "token_id": 4161,
+      "first_seen": "Epitaph Records",
+      "has_definition": true,
+      "definition": "A witch."
+    },
+    "supercarriers": {
+      "token_id": 5949,
+      "first_seen": "Kitty Hawk-class aircraft carrier",
+      "has_definition": false,
+      "definition": ""
+    },
+    "forrestal-class": {
+      "token_id": 3881,
+      "first_seen": "Kitty Hawk-class aircraft carrier",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hawk-class": {
+      "token_id": 5910,
+      "first_seen": "Kitty Hawk-class aircraft carrier",
+      "has_definition": false,
+      "definition": ""
+    },
+    "incremental": {
+      "token_id": 5769,
+      "first_seen": "Kitty Hawk-class aircraft carrier",
+      "has_definition": true,
+      "definition": "Pertaining to an increment."
+    },
+    "vykov-msto": {
+      "token_id": 1687,
+      "first_seen": "Vy\u0161kov-M\u011bsto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vykov": {
+      "token_id": 972,
+      "first_seen": "Vy\u0161kov-M\u011bsto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lennon": {
+      "token_id": 806,
+      "first_seen": "Jimmy Lennon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sauerland": {
+      "token_id": 4410,
+      "first_seen": "Wilfried Sauerland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wilfried": {
+      "token_id": 7610,
+      "first_seen": "Wilfried Sauerland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inspector-general": {
+      "token_id": 799,
+      "first_seen": "Francis Aglen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aglen": {
+      "token_id": 6044,
+      "first_seen": "Francis Aglen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "helman": {
+      "token_id": 5666,
+      "first_seen": "Evil Dead Wrath",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gilford": {
+      "token_id": 5791,
+      "first_seen": "Evil Dead Wrath",
+      "has_definition": false,
+      "definition": ""
+    },
+    "raimi": {
+      "token_id": 7592,
+      "first_seen": "Evil Dead Wrath",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ella": {
+      "token_id": 3527,
+      "first_seen": "Evil Dead Wrath",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tapert": {
+      "token_id": 3367,
+      "first_seen": "Evil Dead Wrath",
+      "has_definition": false,
+      "definition": ""
+    },
+    "galluppi": {
+      "token_id": 1249,
+      "first_seen": "Evil Dead Wrath",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wrath": {
+      "token_id": 7334,
+      "first_seen": "Evil Dead Wrath",
+      "has_definition": true,
+      "definition": "Great anger."
+    },
+    "mcnamee": {
+      "token_id": 1112,
+      "first_seen": "Evil Dead Wrath",
+      "has_definition": false,
+      "definition": ""
+    },
+    "papassio": {
+      "token_id": 3663,
+      "first_seen": "Andrew Lesuuda",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lesuuda": {
+      "token_id": 2612,
+      "first_seen": "Andrew Lesuuda",
+      "has_definition": false,
+      "definition": ""
+    },
+    "andaman": {
+      "token_id": 7668,
+      "first_seen": "Bentinckia nicobarica",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arecaceae": {
+      "token_id": 720,
+      "first_seen": "Bentinckia nicobarica",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bentinckia": {
+      "token_id": 2211,
+      "first_seen": "Bentinckia nicobarica",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nicobar": {
+      "token_id": 1452,
+      "first_seen": "Bentinckia nicobarica",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wildfires": {
+      "token_id": 3670,
+      "first_seen": "2023 United States wildfires",
+      "has_definition": false,
+      "definition": ""
+    },
+    "casualties": {
+      "token_id": 6375,
+      "first_seen": "2023 United States wildfires",
+      "has_definition": false,
+      "definition": ""
+    },
+    "limoniidae": {
+      "token_id": 7268,
+      "first_seen": "Aphrophila",
+      "has_definition": false,
+      "definition": ""
+    },
+    "crane": {
+      "token_id": 6875,
+      "first_seen": "Aphrophila",
+      "has_definition": true,
+      "definition": "Any bird of the family Gruidae, large birds with long legs and a long neck which is extended during flight."
+    },
+    "aphrophila": {
+      "token_id": 879,
+      "first_seen": "Aphrophila",
+      "has_definition": false,
+      "definition": ""
+    },
+    "meridian": {
+      "token_id": 2427,
+      "first_seen": "Legacy Meridian Park Medical Center",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tualatin's": {
+      "token_id": 3861,
+      "first_seen": "Legacy Meridian Park Medical Center",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rails": {
+      "token_id": 2504,
+      "first_seen": "Challenger (train)",
+      "has_definition": true,
+      "definition": "A horizontal bar extending between supports and used for support or as a barrier; a railing."
+    },
+    "depression-era": {
+      "token_id": 1164,
+      "first_seen": "Challenger (train)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cockspur": {
+      "token_id": 2711,
+      "first_seen": "54 Mount Street",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ronson's": {
+      "token_id": 3465,
+      "first_seen": "Only After Dark",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bowie's": {
+      "token_id": 5750,
+      "first_seen": "Only After Dark",
+      "has_definition": false,
+      "definition": ""
+    },
+    "presley": {
+      "token_id": 7790,
+      "first_seen": "Only After Dark",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cogra": {
+      "token_id": 2389,
+      "first_seen": "Hawkesbury River railway bridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hawkesbury": {
+      "token_id": 4668,
+      "first_seen": "Hawkesbury River railway bridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "feat": {
+      "token_id": 6066,
+      "first_seen": "Hawkesbury River railway bridge",
+      "has_definition": true,
+      "definition": "A relatively rare or difficult accomplishment."
+    },
+    "lo-fi": {
+      "token_id": 4035,
+      "first_seen": "Eagleowl",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eagleowl": {
+      "token_id": 5845,
+      "first_seen": "Eagleowl",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rockness": {
+      "token_id": 1442,
+      "first_seen": "RockNess 2009",
+      "has_definition": false,
+      "definition": ""
+    },
+    "biffy": {
+      "token_id": 2088,
+      "first_seen": "RockNess 2009",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jaxx": {
+      "token_id": 4974,
+      "first_seen": "RockNess 2009",
+      "has_definition": false,
+      "definition": ""
+    },
+    "clyro": {
+      "token_id": 6452,
+      "first_seen": "RockNess 2009",
+      "has_definition": false,
+      "definition": ""
+    },
+    "placebo": {
+      "token_id": 5242,
+      "first_seen": "RockNess 2009",
+      "has_definition": true,
+      "definition": "A dummy medicine containing no active ingredients; an inert treatment."
+    },
+    "dizzee": {
+      "token_id": 4877,
+      "first_seen": "RockNess 2009",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eight-lane": {
+      "token_id": 4958,
+      "first_seen": "Bukit Canberra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "polyclinic": {
+      "token_id": 7771,
+      "first_seen": "Bukit Canberra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sheltered": {
+      "token_id": 6068,
+      "first_seen": "Bukit Canberra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "activesg": {
+      "token_id": 5617,
+      "first_seen": "Bukit Canberra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bukit": {
+      "token_id": 2464,
+      "first_seen": "Bukit Canberra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sembawang": {
+      "token_id": 2556,
+      "first_seen": "Bukit Canberra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "six-lane": {
+      "token_id": 1302,
+      "first_seen": "Bukit Canberra",
+      "has_definition": false,
+      "definition": ""
+    },
+    "manitowoc": {
+      "token_id": 1736,
+      "first_seen": "Lutze Housebarn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "housebarn": {
+      "token_id": 6954,
+      "first_seen": "Lutze Housebarn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lutze": {
+      "token_id": 6305,
+      "first_seen": "Lutze Housebarn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tranquebar": {
+      "token_id": 4044,
+      "first_seen": "Cantharus tranquebaricus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "goblet": {
+      "token_id": 2942,
+      "first_seen": "Cantharus tranquebaricus",
+      "has_definition": true,
+      "definition": "A drinking vessel with a foot and stem."
+    },
+    "cantharus": {
+      "token_id": 6474,
+      "first_seen": "Cantharus tranquebaricus",
+      "has_definition": true,
+      "definition": "A large drinking cup with two handles."
+    },
+    "pisaniidae": {
+      "token_id": 2552,
+      "first_seen": "Cantharus tranquebaricus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tranquebaricus": {
+      "token_id": 5509,
+      "first_seen": "Cantharus tranquebaricus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "elaphrinae": {
+      "token_id": 43,
+      "first_seen": "Elaphrinae",
+      "has_definition": false,
+      "definition": ""
+    },
+    "saccades": {
+      "token_id": 7489,
+      "first_seen": "Eye movement in scene viewing",
+      "has_definition": true,
+      "definition": "A sudden jerking movement."
+    },
+    "cognitive": {
+      "token_id": 2080,
+      "first_seen": "Eye movement in scene viewing",
+      "has_definition": true,
+      "definition": "Cognate."
+    },
+    "monitored": {
+      "token_id": 5192,
+      "first_seen": "Eye movement in scene viewing",
+      "has_definition": true,
+      "definition": "To watch over; to guard."
+    },
+    "fixations": {
+      "token_id": 137,
+      "first_seen": "Eye movement in scene viewing",
+      "has_definition": true,
+      "definition": "The act of fixing."
+    },
+    "psychophysics": {
+      "token_id": 4296,
+      "first_seen": "Eye movement in scene viewing",
+      "has_definition": true,
+      "definition": "The branch of psychology concerned with the effects of physical stimuli on mental processes"
+    },
+    "hans-josef": {
+      "token_id": 2963,
+      "first_seen": "Hans-Josef Becker",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paderborn": {
+      "token_id": 7549,
+      "first_seen": "Hans-Josef Becker",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 8578,
-  "total_words": 44127
+  "total_articles": 8607,
+  "total_words": 44215
 }
