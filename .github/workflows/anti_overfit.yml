@@ -25,7 +25,7 @@ jobs:
       
       - name: Find overfit senators
         run: |
-          cat > find_overfit.py << 'EOF'
+          cat > find_overfit.py << 'PYEOF'
           import json, torch
           from pathlib import Path
           
@@ -55,15 +55,20 @@ jobs:
                       else:
                           avg = 0
                       
-                      # Overfit = low grade (5-20%) but likely has low loss (memorized)
-                      if 5 < avg < 20 and abs(avg - 50.0) >= 0.01:
+                      # Check if trained (not default 50%)
+                      is_trained = abs(avg - 50.0) >= 0.01
+                      
+                      # Overfit = trained + low grade (5-20%)
+                      # These are likely memorizing not generalizing
+                      if is_trained and 5 < avg < 20:
                           overfit.append({
                               'senator_id': senator_id,
                               'bundle_id': bundle_id,
                               'specialties': specialties,
-                              'score': avg
+                              'score': avg,
+                              'estimated_loss': 'unknown'
                           })
-              except:
+              except Exception as e:
                   pass
           
           overfit.sort(key=lambda x: x['score'])
@@ -73,11 +78,12 @@ jobs:
           with open('overfit_senators.json', 'w') as f:
               json.dump(top_overfit, f)
           
-          print(f'\nFound {len(overfit)} potentially overfit senators')
-          print(f'Selected {len(top_overfit)} for AI direct editing:')
+          print(f'\nTotal senators checked')
+          print(f'Found {len(overfit)} overfit senators (trained, grade 5-20%)')
+          print(f'Selected {len(top_overfit)} for AI editing:')
           for w in top_overfit[:15]:
               print(f'  Senator {w["senator_id"]} (Bundle {w["bundle_id"]}): {w["score"]:.1f}% - {", ".join(w["specialties"][:2])}')
-          EOF
+          PYEOF
           python find_overfit.py
       
       - name: Upload overfit list
@@ -115,7 +121,7 @@ jobs:
       
       - name: Download needed bundle
         run: |
-          cat > get_bundle.py << 'EOF'
+          cat > get_bundle.py << 'PYEOF'
           import json, subprocess, sys
           
           with open('overfit_senators.json') as f:
@@ -130,7 +136,7 @@ jobs:
           
           subprocess.run(['git', 'sparse-checkout', 'add', bundle_file], check=True)
           print(f'Downloaded {bundle_file}')
-          EOF
+          PYEOF
           python get_bundle.py
       
       - uses: actions/setup-python@v5
@@ -152,8 +158,8 @@ jobs:
       
       - name: AI direct edit senator ${{ matrix.index }}
         run: |
-          cat > ai_edit.py << 'EOF'
-          import sys, json, torch, random
+          cat > ai_edit.py << 'PYEOF'
+          import sys, json, torch, re
           sys.path.insert(0, 'src')
           from model_template import SenateBundle
           from ai_client import call_ai
@@ -186,38 +192,31 @@ jobs:
           
           print(f'AI editing Senator {senator_id} [{", ".join(specialties[:2])}]')
           print(f'Overfit score: {overfit_score:.1f}%')
-          print(f'AI will directly modify weights to reduce memorization...')
           print()
           
-          import re
-          
           def ai_direct_edit(senator, overfit_severity):
-              """AI directly modifies weights to fix overfitting"""
-              
               param_names = list(dict(senator.named_parameters()).keys())
               
               prompt = f"""You are directly editing a neural network to fix overfitting.
 
-Senator specializes in: {', '.join(specialties[:3])}
-Overfit severity score: {overfit_severity:.1f}/100
-(LOWER score = MORE overfit)
+          Senator specializes in: {', '.join(specialties[:3])}
+          Overfit severity score: {overfit_severity:.1f}/100
+          (LOWER score = MORE overfit)
 
-The senator has memorized training data instead of learning general patterns.
+          The senator has memorized training data instead of learning general patterns.
 
-To fix overfitting:
-- ADD_NOISE to weights that memorized specific examples
-- REDUCE weights that are too large/confident
-- STRENGTHEN weights that help generalization
+          To fix overfitting:
+          - ADD_NOISE to weights that memorized specific examples
+          - REDUCE weights that are too large/confident
 
-Parameter groups available:
-{', '.join(param_names[:15])}
+          Parameter groups available:
+          {', '.join(param_names[:15])}
 
-Return JSON with edits:
-{{"edits": [
-  {{"param": "lstm1", "operation": "add_noise", "magnitude": 0.15}},
-  {{"param": "embed", "operation": "reduce", "magnitude": 0.2}},
-  {{"param": "output", "operation": "strengthen", "magnitude": 0.1}}
-]}}"""
+          Return JSON:
+          {{"edits": [
+            {{"param": "lstm1", "operation": "add_noise", "magnitude": 0.15}},
+            {{"param": "embed", "operation": "reduce", "magnitude": 0.2}}
+          ]}}"""
               
               response = call_ai(prompt, max_tokens=300)
               
@@ -243,16 +242,12 @@ Return JSON with edits:
                                           elif operation == 'reduce':
                                               param.data *= (1 - magnitude)
                                               print(f'  Reduced {name} by {magnitude*100:.0f}%')
-                                          elif operation == 'strengthen':
-                                              param.data *= (1 + magnitude * 0.5)
-                                              print(f'  Strengthened {name} by {magnitude*50:.0f}%')
                                       break
                           return True
                   except Exception as e:
                       print(f'  Edit parse error: {e}')
               return False
           
-          # AI diagnoses and edits
           edited = ai_direct_edit(senator, overfit_score)
           
           if not edited:
@@ -265,7 +260,6 @@ Return JSON with edits:
                               param.data += torch.randn_like(param.data) * 0.1 * std
               print('  Applied random noise to all 2D params')
           
-          # Re-grade after AI edit
           from train import grade_and_update
           print()
           print('  Re-grading after AI edit...')
@@ -283,7 +277,7 @@ Return JSON with edits:
           
           bundle.save(bundle_path)
           print(f'\n  Saved bundle {bundle_id}')
-          EOF
+          PYEOF
           python ai_edit.py
       
       - name: Upload edited bundle
