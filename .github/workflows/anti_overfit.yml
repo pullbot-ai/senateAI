@@ -1,0 +1,341 @@
+name: Anti-Overfit Training
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_senators:
+        description: 'Number of overfit senators to retrain'
+        required: false
+        default: '10'
+      questions_per_senator:
+        description: 'Questions per senator'
+        required: false
+        default: '15'
+
+permissions:
+  contents: write
+
+jobs:
+  find-overfit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - run: pip install torch
+      
+      - name: Find overfit senators
+        run: |
+          cat > find_overfit.py << 'EOF'
+          import json, torch
+          from pathlib import Path
+          
+          overfit = []
+          
+          for bundle_file in sorted(Path('senate_bundles').glob('bundle_*.pt')):
+              if bundle_file.stem == 'senate_index':
+                  continue
+              
+              try:
+                  bundle_id = int(bundle_file.stem.split('_')[1])
+                  bundle = torch.load(bundle_file, map_location='cpu', weights_only=False)
+                  senators = bundle.get('senators', {})
+                  
+                  for senator_id_str, data in senators.items():
+                      try:
+                          senator_id = int(senator_id_str)
+                      except:
+                          senator_id = int(data.get('config', {}).get('model_id', 0))
+                      
+                      config = data.get('config', {})
+                      performance = config.get('performance', {})
+                      specialties = config.get('specialties', [])
+                      
+                      if performance:
+                          avg = sum(performance.values()) / len(performance) * 100
+                      else:
+                          avg = 0
+                      
+                      # Overfit = low grade but likely memorized
+                      if 5 < avg < 20:
+                          overfit.append({
+                              'senator_id': senator_id,
+                              'bundle_id': bundle_id,
+                              'specialties': specialties,
+                              'score': avg
+                          })
+              except:
+                  pass
+          
+          # Sort by most likely overfit (low grade)
+          overfit.sort(key=lambda x: x['score'])
+          
+          top_overfit = overfit[:${{ github.event.inputs.max_senators }}]
+          
+          with open('overfit_senators.json', 'w') as f:
+              json.dump(top_overfit, f)
+          
+          print(f'\nFound {len(overfit)} potentially overfit senators')
+          print(f'Selected {len(top_overfit)} for anti-overfit training:')
+          for w in top_overfit[:15]:
+              print(f'  Senator {w["senator_id"]} (Bundle {w["bundle_id"]}): {w["score"]:.1f}% - {", ".join(w["specialties"][:2])}')
+          EOF
+          python find_overfit.py
+      
+      - name: Upload overfit list
+        uses: actions/upload-artifact@v4
+        with:
+          name: overfit-senators
+          path: overfit_senators.json
+
+  train-anti-overfit:
+    needs: find-overfit
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        index: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            src/
+            senate_bundles/senate_index.json
+            data/wordbank.json
+            config.yaml
+          sparse-checkout-cone-mode: false
+          submodules: false
+          lfs: false
+          show-progress: false
+      
+      - name: Download overfit list
+        uses: actions/download-artifact@v4
+        with:
+          name: overfit-senators
+      
+      - name: Download needed bundle
+        run: |
+          cat > get_bundle.py << 'EOF'
+          import json, subprocess, sys
+          
+          with open('overfit_senators.json') as f:
+              overfit = json.load(f)
+          
+          if ${{ matrix.index }} >= len(overfit):
+              sys.exit(0)
+          
+          senator_data = overfit[${{ matrix.index }}]
+          bundle_id = senator_data['bundle_id']
+          bundle_file = f'senate_bundles/bundle_{bundle_id:03d}.pt'
+          
+          subprocess.run(['git', 'sparse-checkout', 'add', bundle_file], check=True)
+          print(f'Downloaded {bundle_file}')
+          EOF
+          python get_bundle.py
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ runner.os }}
+          restore-keys: pip-${{ runner.os }}-
+      
+      - run: pip install torch numpy pyyaml requests
+      - run: npm install @heyputer/puter.js
+      
+      - name: Anti-overfit train senator ${{ matrix.index }}
+        run: |
+          cat > anti_overfit_train.py << 'EOF'
+          import sys, json, torch, random
+          sys.path.insert(0, 'src')
+          from model_template import SenateBundle
+          from ai_client import call_ai
+          from wordbank import get_wordbank
+          import torch.nn as nn
+          from torch.utils.data import Dataset, DataLoader
+          
+          torch.set_num_threads(1)
+          
+          with open('overfit_senators.json') as f:
+              overfit = json.load(f)
+          
+          if ${{ matrix.index }} >= len(overfit):
+              print('No more senators')
+              sys.exit(0)
+          
+          senator_data = overfit[${{ matrix.index }}]
+          senator_id = senator_data['senator_id']
+          bundle_id = senator_data['bundle_id']
+          
+          bundle_path = f'senate_bundles/bundle_{bundle_id:03d}.pt'
+          bundle = SenateBundle.load(bundle_path)
+          senator = bundle.get_senator(senator_id)
+          
+          if senator is None:
+              print(f'Senator {senator_id} not found')
+              sys.exit(1)
+          
+          wordbank = get_wordbank()
+          specialties = senator.specialties
+          
+          print(f'Anti-overfit training Senator {senator_id} [{", ".join(specialties[:2])}]')
+          print(f'Strategy: 2 epochs per question, {{{{ github.event.inputs.questions_per_senator }}}} questions')
+          
+          def generate_questions(topic, num):
+              prompt = f"""Generate {num} diverse questions about '{topic}'.
+              Each question should be unique and test different aspects.
+              Return as JSON array of strings."""
+              response = call_ai(prompt, max_tokens=500)
+              if response:
+                  try:
+                      import re
+                      match = re.search(r'\[.*\]', response, re.DOTALL)
+                      if match:
+                          return json.loads(match.group())
+                  except:
+                      pass
+              return [f"What is {topic}?"]
+          
+          def select_params(senator, topic, question_idx):
+              param_names = list(dict(senator.named_parameters()).keys())
+              prompt = f"""You are de-overfitting a senator specializing in {', '.join(specialties[:2])}.
+              Currently processing question {question_idx}.
+              Which 3 parameter groups should be updated?
+              Return JSON array of param names."""
+              response = call_ai(prompt, max_tokens=50)
+              if response:
+                  try:
+                      import re
+                      match = re.search(r'\[.*\]', response, re.DOTALL)
+                      if match:
+                          selected = json.loads(match.group())
+                          matched = []
+                          for name, param in senator.named_parameters():
+                              for sel in selected:
+                                  if sel.split('.')[0] in name:
+                                      matched.append(name)
+                                      break
+                          return matched[:5] if matched else None
+                  except:
+                      pass
+              return None
+          
+          criterion = nn.CrossEntropyLoss(ignore_index=0)
+          all_questions = []
+          
+          for topic in specialties:
+              questions = generate_questions(topic, ${{ github.event.inputs.questions_per_senator }} // len(specialties))
+              all_questions.extend(questions)
+          
+          print(f'Generated {len(all_questions)} questions')
+          
+          total_losses = []
+          
+          for q_idx, question in enumerate(all_questions):
+              # Generate one training example for this question
+              prompt = f"""Generate a clear answer for: {question}
+              Topic: {', '.join(specialties[:2])}
+              Return just the answer sentence."""
+              answer = call_ai(prompt, max_tokens=100)
+              
+              if not answer:
+                  continue
+              
+              tokens = wordbank.tokenize(answer, max_len=32)
+              input_ids = torch.tensor([tokens])
+              
+              # AI picks params for this question
+              selected_names = select_params(senator, specialties, q_idx)
+              selected_tensors = []
+              
+              if selected_names:
+                  for name, param in senator.named_parameters():
+                      if name in selected_names:
+                          param.requires_grad = True
+                          selected_tensors.append(param)
+                      else:
+                          param.requires_grad = False
+              else:
+                  for param in senator.parameters():
+                      param.requires_grad = True
+                      selected_tensors.append(param)
+              
+              optimizer = torch.optim.Adam(selected_tensors, lr=0.0001)
+              
+              # Train 2 epochs on this question only
+              senator.train()
+              for epoch in range(2):
+                  optimizer.zero_grad()
+                  logits = senator(input_ids[:, :-1])
+                  loss = criterion(logits.permute(0, 2, 1), input_ids[:, 1:])
+                  loss.backward()
+                  torch.nn.utils.clip_grad_norm_(selected_tensors, 1.0)
+                  optimizer.step()
+                  total_losses.append(loss.item())
+              
+              if (q_idx + 1) % 5 == 0:
+                  print(f'  Question {q_idx+1}/{len(all_questions)} done')
+          
+          if total_losses:
+              avg_loss = sum(total_losses) / len(total_losses)
+              print(f'Average loss: {avg_loss:.4f}')
+          
+          # Grade after anti-overfit
+          from train import grade_and_update
+          result = grade_and_update(senator, specialties, wordbank, total_losses)
+          if result:
+              print(f'New grade: {result["average_score"]:.1f}/100')
+          
+          bundle.save(bundle_path)
+          print(f'Saved bundle {bundle_id}')
+          EOF
+          python anti_overfit_train.py
+      
+      - name: Upload trained bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: anti-overfit-bundle-${{ matrix.index }}
+          path: senate_bundles/
+
+  push-anti-overfit:
+    needs: train-anti-overfit
+    if: success() || failure()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download bundles
+        uses: actions/download-artifact@v4
+        with:
+          pattern: anti-overfit-bundle-*
+          merge-multiple: true
+          path: senate_bundles/
+      - name: Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git stash
+          git pull --rebase origin main
+          git stash pop || true
+          git add senate_bundles/
+          git commit -m "Anti-overfit training" || echo "No changes"
+          for attempt in $(seq 1 20); do
+            if git push; then
+              echo "Pushed (attempt $attempt)!"
+              break
+            fi
+            echo "Retry $attempt/20..."
+            git pull --rebase origin main 2>/dev/null || true
+            sleep 10
+          done
