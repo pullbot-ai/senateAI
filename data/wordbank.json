@@ -286313,8 +286313,506 @@
       "first_seen": "Antonio Cantafora",
       "has_definition": false,
       "definition": ""
+    },
+    "davao": {
+      "token_id": 2053,
+      "first_seen": "Coffee Prince (Philippine TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sun-mi": {
+      "token_id": 7645,
+      "first_seen": "Coffee Prince (Philippine TV series)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "waratah": {
+      "token_id": 4739,
+      "first_seen": "Waratah motorcycles",
+      "has_definition": true,
+      "definition": "Any of several species of plants in the genus Telopea, native to southeastern Australia."
+    },
+    "badged": {
+      "token_id": 271,
+      "first_seen": "Waratah motorcycles",
+      "has_definition": true,
+      "definition": "To mark or distinguish with a badge."
+    },
+    "rohaniella": {
+      "token_id": 3458,
+      "first_seen": "Rohaniella",
+      "has_definition": false,
+      "definition": ""
+    },
+    "packard": {
+      "token_id": 3911,
+      "first_seen": "8 East Broad Street",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leveque": {
+      "token_id": 6555,
+      "first_seen": "8 East Broad Street",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bathing": {
+      "token_id": 1066,
+      "first_seen": "Lake DeForest",
+      "has_definition": true,
+      "definition": "To clean oneself by immersion in water or using water; to take a bath, have a bath."
+    },
+    "potable": {
+      "token_id": 1405,
+      "first_seen": "Lake DeForest",
+      "has_definition": true,
+      "definition": "Any drinkable liquid; a beverage."
+    },
+    "clarkstown": {
+      "token_id": 1079,
+      "first_seen": "Lake DeForest",
+      "has_definition": false,
+      "definition": ""
+    },
+    "congers": {
+      "token_id": 51,
+      "first_seen": "Lake DeForest",
+      "has_definition": true,
+      "definition": "Any of several scaleless marine eels, of the genus Conger, found in coastal waters"
+    },
+    "woodcliff": {
+      "token_id": 7021,
+      "first_seen": "Lake DeForest",
+      "has_definition": false,
+      "definition": ""
+    },
+    "deforest": {
+      "token_id": 6449,
+      "first_seen": "Lake DeForest",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oradell": {
+      "token_id": 6473,
+      "first_seen": "Lake DeForest",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gallons": {
+      "token_id": 5494,
+      "first_seen": "Lake DeForest",
+      "has_definition": true,
+      "definition": "A unit of volume, equivalent to eight pints"
+    },
+    "impounding": {
+      "token_id": 5000,
+      "first_seen": "Lake DeForest",
+      "has_definition": true,
+      "definition": "To shut up or place in an enclosure called a pound"
+    },
+    "hackensack": {
+      "token_id": 3603,
+      "first_seen": "Lake DeForest",
+      "has_definition": false,
+      "definition": ""
+    },
+    "viciknez": {
+      "token_id": 7668,
+      "first_seen": "Sa\u0161a Viciknez",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rotherham": {
+      "token_id": 1332,
+      "first_seen": "Rotherham College",
+      "has_definition": false,
+      "definition": ""
+    },
+    "petru": {
+      "token_id": 6684,
+      "first_seen": "Peter P\u0103duraru",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kreibich": {
+      "token_id": 5561,
+      "first_seen": "Karl Kreibich (politician, born 1883)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "functionary": {
+      "token_id": 7020,
+      "first_seen": "Karl Kreibich (politician, born 1883)",
+      "has_definition": true,
+      "definition": "A person employed as an official in a bureaucracy (usually corporate or governmental) who holds limited authority and primarily serves to carry out a simple function for which discretion is not required."
+    },
+    "buraimi": {
+      "token_id": 851,
+      "first_seen": "Al-Buraimi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wilayas": {
+      "token_id": 5586,
+      "first_seen": "Al-Buraimi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mahdah": {
+      "token_id": 597,
+      "first_seen": "Al-Buraimi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dhank": {
+      "token_id": 3068,
+      "first_seen": "Al-Buraimi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wilayah": {
+      "token_id": 2397,
+      "first_seen": "Al-Buraimi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "al-buraimi": {
+      "token_id": 3077,
+      "first_seen": "Al-Buraimi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "montral-est": {
+      "token_id": 3210,
+      "first_seen": "Montreal East Refinery (Gulf Oil Canada)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kavya": {
+      "token_id": 5764,
+      "first_seen": "Lekhnath Paudyal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lekhnath": {
+      "token_id": 7785,
+      "first_seen": "Lekhnath Paudyal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "refinement": {
+      "token_id": 5040,
+      "first_seen": "Lekhnath Paudyal",
+      "has_definition": true,
+      "definition": "The act, or the result of refining; the removal of impurities, or a purified material"
+    },
+    "adhered": {
+      "token_id": 658,
+      "first_seen": "Lekhnath Paudyal",
+      "has_definition": true,
+      "definition": "To stick fast or cleave, as a glutinous substance does; to become joined or united."
+    },
+    "paudyal": {
+      "token_id": 7485,
+      "first_seen": "Lekhnath Paudyal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lekhnath's": {
+      "token_id": 5157,
+      "first_seen": "Lekhnath Paudyal",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tubular-shaped": {
+      "token_id": 7842,
+      "first_seen": "Bian (weapon)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bian": {
+      "token_id": 2846,
+      "first_seen": "Bian (weapon)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inflict": {
+      "token_id": 1014,
+      "first_seen": "Bian (weapon)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "whipping": {
+      "token_id": 7049,
+      "first_seen": "Bian (weapon)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "duchet": {
+      "token_id": 5512,
+      "first_seen": "Roger Duchet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "veterinarian": {
+      "token_id": 7112,
+      "first_seen": "Roger Duchet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anisotome": {
+      "token_id": 3656,
+      "first_seen": "Anisotome",
+      "has_definition": false,
+      "definition": ""
+    },
+    "breastplates": {
+      "token_id": 7912,
+      "first_seen": "Aboriginal breastplate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pre-federation": {
+      "token_id": 6936,
+      "first_seen": "Aboriginal breastplate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "plaques": {
+      "token_id": 3556,
+      "first_seen": "Aboriginal breastplate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "crescent-shaped": {
+      "token_id": 240,
+      "first_seen": "Aboriginal breastplate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cpsl": {
+      "token_id": 6610,
+      "first_seen": "Canadian Professional Soccer League (1983)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jagadish": {
+      "token_id": 4329,
+      "first_seen": "Falimy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dysfunctional": {
+      "token_id": 4572,
+      "first_seen": "Falimy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "manju": {
+      "token_id": 3388,
+      "first_seen": "Falimy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nithish": {
+      "token_id": 3138,
+      "first_seen": "Falimy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "varanasi": {
+      "token_id": 1137,
+      "first_seen": "Falimy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sahadev": {
+      "token_id": 3829,
+      "first_seen": "Falimy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sandeep": {
+      "token_id": 62,
+      "first_seen": "Falimy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "falimy": {
+      "token_id": 3468,
+      "first_seen": "Falimy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "realisations": {
+      "token_id": 4561,
+      "first_seen": "Falimy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pradeep": {
+      "token_id": 5971,
+      "first_seen": "Falimy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "skagen": {
+      "token_id": 1932,
+      "first_seen": "Anna Ancher",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ancher": {
+      "token_id": 7437,
+      "first_seen": "Anna Ancher",
+      "has_definition": false,
+      "definition": ""
+    },
+    "denmark's": {
+      "token_id": 6057,
+      "first_seen": "Anna Ancher",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jylland": {
+      "token_id": 7058,
+      "first_seen": "Anna Ancher",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jehoram": {
+      "token_id": 983,
+      "first_seen": "Jehoram of Israel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ahaziah": {
+      "token_id": 5900,
+      "first_seen": "Jehoram of Israel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ahab": {
+      "token_id": 918,
+      "first_seen": "Jehoram of Israel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "athaliah": {
+      "token_id": 3531,
+      "first_seen": "Jehoram of Israel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "joram": {
+      "token_id": 1228,
+      "first_seen": "Jehoram of Israel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "you've": {
+      "token_id": 5304,
+      "first_seen": "You Get What You Give (song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brainwashed": {
+      "token_id": 3516,
+      "first_seen": "You Get What You Give (song)",
+      "has_definition": true,
+      "definition": "To affect one's mind by using extreme mental pressure or any other mind-affecting process. (e.g. hypnosis)"
+    },
+    "pittwater": {
+      "token_id": 4889,
+      "first_seen": "Careel Bay",
+      "has_definition": false,
+      "definition": ""
+    },
+    "avalon": {
+      "token_id": 7699,
+      "first_seen": "Careel Bay",
+      "has_definition": false,
+      "definition": ""
+    },
+    "careel": {
+      "token_id": 6181,
+      "first_seen": "Careel Bay",
+      "has_definition": false,
+      "definition": ""
+    },
+    "betzigau": {
+      "token_id": 3017,
+      "first_seen": "Betzigau",
+      "has_definition": false,
+      "definition": ""
+    },
+    "buchloelindau": {
+      "token_id": 6778,
+      "first_seen": "Betzigau",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oberallgu": {
+      "token_id": 6745,
+      "first_seen": "Betzigau",
+      "has_definition": false,
+      "definition": ""
+    },
+    "interns": {
+      "token_id": 2499,
+      "first_seen": "Los Angeles County Medical Association",
+      "has_definition": true,
+      "definition": "A person who is interned, forcibly or voluntarily."
+    },
+    "lacma": {
+      "token_id": 1408,
+      "first_seen": "Los Angeles County Medical Association",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jalopy": {
+      "token_id": 7657,
+      "first_seen": "The Flying Jalopy",
+      "has_definition": true,
+      "definition": "An old, dilapidated or unpretentious automobile."
+    },
+    "shagroy": {
+      "token_id": 3966,
+      "first_seen": "South Taconic Trail",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ridgecrest": {
+      "token_id": 7744,
+      "first_seen": "South Taconic Trail",
+      "has_definition": false,
+      "definition": ""
+    },
+    "millerton": {
+      "token_id": 6965,
+      "first_seen": "South Taconic Trail",
+      "has_definition": false,
+      "definition": ""
+    },
+    "catamount": {
+      "token_id": 2319,
+      "first_seen": "South Taconic Trail",
+      "has_definition": false,
+      "definition": ""
+    },
+    "taconic": {
+      "token_id": 1307,
+      "first_seen": "South Taconic Trail",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kellerman": {
+      "token_id": 5493,
+      "first_seen": "Mike Kellerman",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 9597,
-  "total_words": 47719
+  "total_articles": 9627,
+  "total_words": 47802
 }
