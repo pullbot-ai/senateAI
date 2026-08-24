@@ -26,8 +26,6 @@ jobs:
           from pathlib import Path
           
           all_senators = []
-          total_performance = 0
-          total_count = 0
           
           for bundle_file in sorted(Path('senate_bundles').glob('bundle_*.pt')):
               if bundle_file.stem == 'senate_index':
@@ -59,60 +57,65 @@ jobs:
                           'specialties': specialties[:3],
                           'performance': {k: round(v*100, 1) for k, v in performance.items()}
                       })
-                      
-                      total_performance += avg
-                      total_count += 1
               except Exception as e:
                   print(f'  Error loading {bundle_file.name}: {e}')
           
-          all_senators.sort(key=lambda x: x['avg'], reverse=True)
+          # Filter out untrained (exactly 50% = default)
+          real_senators = [s for s in all_senators if abs(s['avg'] - 50.0) > 0.01]
+          untrained_count = len(all_senators) - len(real_senators)
+          
+          real_senators.sort(key=lambda x: x['avg'], reverse=True)
           
           print()
           print('='*70)
-          print('  SENATE AI - PERFORMANCE REPORT')
+          print('  SENATE AI - PERFORMANCE REPORT (EXCLUDING UNTRAINED)')
           print('='*70)
-          print(f'  Total senators: {total_count}')
-          if total_count > 0:
-              print(f'  Average score: {total_performance/total_count:.1f}%')
+          print(f'  Total senators: {len(all_senators)}')
+          print(f'  Untrained (default 50%): {untrained_count}')
+          print(f'  Trained senators: {len(real_senators)}')
+          if real_senators:
+              avg_real = sum(s['avg'] for s in real_senators) / len(real_senators)
+              print(f'  Average (trained only): {avg_real:.1f}%')
           print('='*70)
           print()
           
-          print('  TOP 20 SENATORS:')
-          print('  ' + '-'*66)
-          for s in all_senators[:20]:
-              specs = ', '.join(s['specialties'][:2]) if s['specialties'] else 'none'
-              print(f'  Senator {s["id"]:>4} (Bundle {s["bundle"]:>2}): {s["avg"]:>5.1f}% | {specs}')
-          
-          print()
-          print('  BOTTOM 20 SENATORS:')
-          print('  ' + '-'*66)
-          for s in all_senators[-20:]:
-              specs = ', '.join(s['specialties'][:2]) if s['specialties'] else 'none'
-              print(f'  Senator {s["id"]:>4} (Bundle {s["bundle"]:>2}): {s["avg"]:>5.1f}% | {specs}')
-          
-          # Distribution
-          ranges = [(0,5), (5,10), (10,15), (15,20), (20,25), (25,30), (30,40), (40,50), (50,100)]
-          print()
-          print('  SCORE DISTRIBUTION:')
-          print('  ' + '-'*66)
-          for low, high in ranges:
-              count = sum(1 for s in all_senators if low <= s['avg'] < high)
-              if count > 0:
-                  bar = '█' * min(count // 2, 40)
-                  print(f'  {low:>3}-{high:>3}%: {count:>4} senators {bar}')
-          
-          # Best by specialty
-          specialty_best = {}
-          for s in all_senators:
-              for spec in s['specialties']:
-                  if spec not in specialty_best or s['avg'] > specialty_best[spec]['avg']:
-                      specialty_best[spec] = s
-          
-          print()
-          print('  BEST SENATOR PER SPECIALTY:')
-          print('  ' + '-'*66)
-          for spec, s in sorted(specialty_best.items()):
-              print(f'  {spec:<30} Senator {s["id"]:>4}: {s["avg"]:>5.1f}%')
+          if real_senators:
+              print('  TOP 30 TRAINED SENATORS:')
+              print('  ' + '-'*66)
+              for s in real_senators[:30]:
+                  specs = ', '.join(s['specialties'][:2]) if s['specialties'] else 'none'
+                  print(f'  Senator {s["id"]:>4} (Bundle {s["bundle"]:>2}): {s["avg"]:>5.1f}% | {specs}')
+              
+              print()
+              print('  BOTTOM 20 TRAINED SENATORS:')
+              print('  ' + '-'*66)
+              for s in real_senators[-20:]:
+                  specs = ', '.join(s['specialties'][:2]) if s['specialties'] else 'none'
+                  print(f'  Senator {s["id"]:>4} (Bundle {s["bundle"]:>2}): {s["avg"]:>5.1f}% | {specs}')
+              
+              # Distribution
+              ranges = [(0,5), (5,10), (10,15), (15,20), (20,25), (25,30), (30,35), (35,40), (40,45), (45,50)]
+              print()
+              print('  SCORE DISTRIBUTION (TRAINED ONLY):')
+              print('  ' + '-'*66)
+              for low, high in ranges:
+                  count = sum(1 for s in real_senators if low <= s['avg'] < high)
+                  if count > 0:
+                      bar = '█' * min(count, 40)
+                      print(f'  {low:>3}-{high:>3}%: {count:>4} senators {bar}')
+              
+              # Best by specialty
+              specialty_best = {}
+              for s in real_senators:
+                  for spec in s['specialties']:
+                      if spec not in specialty_best or s['avg'] > specialty_best[spec]['avg']:
+                          specialty_best[spec] = s
+              
+              print()
+              print('  BEST TRAINED SENATOR PER SPECIALTY:')
+              print('  ' + '-'*66)
+              for spec, s in sorted(specialty_best.items()):
+                  print(f'  {spec:<30} Senator {s["id"]:>4}: {s["avg"]:>5.1f}%')
           
           print()
           print('='*70)
