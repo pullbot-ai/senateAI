@@ -1,0 +1,120 @@
+name: View Scores
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scores:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - run: pip install torch
+      
+      - name: Load all senator scores
+        run: |
+          cat > view_scores.py << 'EOF'
+          import torch
+          from pathlib import Path
+          
+          all_senators = []
+          total_performance = 0
+          total_count = 0
+          
+          for bundle_file in sorted(Path('senate_bundles').glob('bundle_*.pt')):
+              if bundle_file.stem == 'senate_index':
+                  continue
+              
+              try:
+                  bundle = torch.load(bundle_file, map_location='cpu', weights_only=False)
+                  senators = bundle.get('senators', {})
+                  
+                  for senator_id_str, data in senators.items():
+                      try:
+                          senator_id = int(senator_id_str)
+                      except:
+                          senator_id = int(data.get('config', {}).get('model_id', 0))
+                      
+                      config = data.get('config', {})
+                      performance = config.get('performance', {})
+                      specialties = config.get('specialties', [])
+                      
+                      if performance:
+                          avg = sum(performance.values()) / len(performance) * 100
+                      else:
+                          avg = 0
+                      
+                      all_senators.append({
+                          'id': senator_id,
+                          'bundle': int(bundle_file.stem.split('_')[1]),
+                          'avg': avg,
+                          'specialties': specialties[:3],
+                          'performance': {k: round(v*100, 1) for k, v in performance.items()}
+                      })
+                      
+                      total_performance += avg
+                      total_count += 1
+              except Exception as e:
+                  print(f'  Error loading {bundle_file.name}: {e}')
+          
+          all_senators.sort(key=lambda x: x['avg'], reverse=True)
+          
+          print()
+          print('='*70)
+          print('  SENATE AI - PERFORMANCE REPORT')
+          print('='*70)
+          print(f'  Total senators: {total_count}')
+          if total_count > 0:
+              print(f'  Average score: {total_performance/total_count:.1f}%')
+          print('='*70)
+          print()
+          
+          print('  TOP 20 SENATORS:')
+          print('  ' + '-'*66)
+          for s in all_senators[:20]:
+              specs = ', '.join(s['specialties'][:2]) if s['specialties'] else 'none'
+              print(f'  Senator {s["id"]:>4} (Bundle {s["bundle"]:>2}): {s["avg"]:>5.1f}% | {specs}')
+          
+          print()
+          print('  BOTTOM 20 SENATORS:')
+          print('  ' + '-'*66)
+          for s in all_senators[-20:]:
+              specs = ', '.join(s['specialties'][:2]) if s['specialties'] else 'none'
+              print(f'  Senator {s["id"]:>4} (Bundle {s["bundle"]:>2}): {s["avg"]:>5.1f}% | {specs}')
+          
+          # Distribution
+          ranges = [(0,5), (5,10), (10,15), (15,20), (20,25), (25,30), (30,40), (40,50), (50,100)]
+          print()
+          print('  SCORE DISTRIBUTION:')
+          print('  ' + '-'*66)
+          for low, high in ranges:
+              count = sum(1 for s in all_senators if low <= s['avg'] < high)
+              if count > 0:
+                  bar = '█' * min(count // 2, 40)
+                  print(f'  {low:>3}-{high:>3}%: {count:>4} senators {bar}')
+          
+          # Best by specialty
+          specialty_best = {}
+          for s in all_senators:
+              for spec in s['specialties']:
+                  if spec not in specialty_best or s['avg'] > specialty_best[spec]['avg']:
+                      specialty_best[spec] = s
+          
+          print()
+          print('  BEST SENATOR PER SPECIALTY:')
+          print('  ' + '-'*66)
+          for spec, s in sorted(specialty_best.items()):
+              print(f'  {spec:<30} Senator {s["id"]:>4}: {s["avg"]:>5.1f}%')
+          
+          print()
+          print('='*70)
+          EOF
+          python view_scores.py
