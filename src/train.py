@@ -1,7 +1,7 @@
 """
 Senate AI - Topic-Based Training with AI Grading
 Uses shared wordbank for tokenization. AI-guided parameter selection.
-Strict AI grading to prevent inflated scores.
+STRICT AI grading - unrelated answers max 15, 100 reserved for perfect.
 """
 
 import torch
@@ -220,15 +220,22 @@ Question: {question}
 Correct answer: {correct_answer}
 Senator's answer: {senator_answer}
 
-Score from 0-100:
-- 0-10: Complete gibberish or irrelevant
-- 10-30: Some relevant words but no coherent meaning
-- 30-50: Partially correct but poor phrasing
-- 50-70: Mostly correct with some errors
-- 70-90: Correct and clear
-- 90-100: Excellent
+STRICT SCORING RUBRIC:
+- 0-5: Complete gibberish, no relation to question at all
+- 5-15: Uses some related words but answer doesn't address the question
+- 15-30: Attempts to answer but mostly incorrect or incoherent
+- 30-50: Partially correct with significant errors
+- 50-70: Mostly correct, minor errors
+- 70-85: Correct and clear with good phrasing
+- 85-100: Model answer quality, directly answers the question perfectly
 
-Score STRICTLY. Gibberish gets 0-10. Return ONLY a number."""
+IMPORTANT RULES:
+- If the answer doesn't directly address the question, MAX score is 15
+- Unrelated words even if they form coherent phrases = max 15
+- 100 is reserved for perfect model answers
+- Be harsh. Better to under-score than over-score.
+
+Return ONLY a number between 0 and 100."""
         
         ai_score = call_ai(grading_prompt, max_tokens=10)
         
