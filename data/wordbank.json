@@ -270575,8 +270575,542 @@
       "first_seen": "Manzoor Alam Beg",
       "has_definition": false,
       "definition": ""
+    },
+    "sierentz": {
+      "token_id": 4521,
+      "first_seen": "Sierentz station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mulhouse": {
+      "token_id": 961,
+      "first_seen": "Sierentz station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wirth": {
+      "token_id": 81,
+      "first_seen": "Nick Wirth",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cyber-security": {
+      "token_id": 1518,
+      "first_seen": "Howard Schmidt",
+      "has_definition": false,
+      "definition": ""
+    },
+    "consultancy": {
+      "token_id": 1405,
+      "first_seen": "Howard Schmidt",
+      "has_definition": true,
+      "definition": "A consultant or consulting firm."
+    },
+    "lahn": {
+      "token_id": 3541,
+      "first_seen": "Lahnstein",
+      "has_definition": false,
+      "definition": ""
+    },
+    "verband-free": {
+      "token_id": 5393,
+      "first_seen": "Lahnstein",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lahnstein": {
+      "token_id": 5742,
+      "first_seen": "Lahnstein",
+      "has_definition": false,
+      "definition": ""
+    },
+    "koblenz": {
+      "token_id": 89,
+      "first_seen": "Lahnstein",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rhein-lahn-kreis": {
+      "token_id": 2416,
+      "first_seen": "Lahnstein",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oberlahnstein": {
+      "token_id": 2478,
+      "first_seen": "Lahnstein",
+      "has_definition": false,
+      "definition": ""
+    },
+    "niederlahnstein": {
+      "token_id": 3110,
+      "first_seen": "Lahnstein",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grouse": {
+      "token_id": 3523,
+      "first_seen": "Sooty grouse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "forest-dwelling": {
+      "token_id": 1740,
+      "first_seen": "Sooty grouse",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dagger": {
+      "token_id": 6192,
+      "first_seen": "Into a Raging Blaze",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cwa": {
+      "token_id": 6182,
+      "first_seen": "Into a Raging Blaze",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rallidae": {
+      "token_id": 5099,
+      "first_seen": "Black-banded crake",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gallinules": {
+      "token_id": 1111,
+      "first_seen": "Black-banded crake",
+      "has_definition": true,
+      "definition": "A bird of one of several species in the genera Porphyrio and Gallinula of the family Rallidae."
+    },
+    "rallinae": {
+      "token_id": 7138,
+      "first_seen": "Black-banded crake",
+      "has_definition": false,
+      "definition": ""
+    },
+    "crake": {
+      "token_id": 1684,
+      "first_seen": "Black-banded crake",
+      "has_definition": false,
+      "definition": ""
+    },
+    "black-banded": {
+      "token_id": 6011,
+      "first_seen": "Black-banded crake",
+      "has_definition": false,
+      "definition": ""
+    },
+    "laterallus": {
+      "token_id": 5421,
+      "first_seen": "Black-banded crake",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mole": {
+      "token_id": 4766,
+      "first_seen": "2018 Mole Valley District Council election",
+      "has_definition": false,
+      "definition": ""
+    },
+    "conservatives": {
+      "token_id": 4702,
+      "first_seen": "2018 Mole Valley District Council election",
+      "has_definition": false,
+      "definition": ""
+    },
+    "toyland": {
+      "token_id": 4544,
+      "first_seen": "Santa Claus (1912 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "t-plan": {
+      "token_id": 7771,
+      "first_seen": "Illieston House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "broxburn": {
+      "token_id": 7013,
+      "first_seen": "Illieston House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "illieston": {
+      "token_id": 7107,
+      "first_seen": "Illieston House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tuncurry": {
+      "token_id": 3923,
+      "first_seen": "HMAS Allenwood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "allenwood": {
+      "token_id": 4873,
+      "first_seen": "HMAS Allenwood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wrecked": {
+      "token_id": 2795,
+      "first_seen": "HMAS Allenwood",
+      "has_definition": false,
+      "definition": ""
+    },
+    "scalaris": {
+      "token_id": 1244,
+      "first_seen": "Zeale scalaris",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zeale": {
+      "token_id": 6731,
+      "first_seen": "Zeale scalaris",
+      "has_definition": false,
+      "definition": ""
+    },
+    "polkinghorne": {
+      "token_id": 5888,
+      "first_seen": "Zeale scalaris",
+      "has_definition": false,
+      "definition": ""
+    },
+    "covista": {
+      "token_id": 5471,
+      "first_seen": "American University of the Caribbean",
+      "has_definition": false,
+      "definition": ""
+    },
+    "non-us": {
+      "token_id": 1918,
+      "first_seen": "American University of the Caribbean",
+      "has_definition": false,
+      "definition": ""
+    },
+    "for-profit": {
+      "token_id": 7176,
+      "first_seen": "American University of the Caribbean",
+      "has_definition": false,
+      "definition": ""
+    },
+    "maarten": {
+      "token_id": 4430,
+      "first_seen": "American University of the Caribbean",
+      "has_definition": false,
+      "definition": ""
+    },
+    "auc": {
+      "token_id": 7961,
+      "first_seen": "American University of the Caribbean",
+      "has_definition": false,
+      "definition": ""
+    },
+    "parfilova": {
+      "token_id": 4212,
+      "first_seen": "Milana Parfilova",
+      "has_definition": false,
+      "definition": ""
+    },
+    "milana": {
+      "token_id": 2951,
+      "first_seen": "Milana Parfilova",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zenkl": {
+      "token_id": 2913,
+      "first_seen": "Petr Zenkl",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ishikari": {
+      "token_id": 6647,
+      "first_seen": "Mount Hokuchin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hokuchin": {
+      "token_id": 1686,
+      "first_seen": "Mount Hokuchin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "daisetsuzan": {
+      "token_id": 3430,
+      "first_seen": "Mount Hokuchin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hormel": {
+      "token_id": 6673,
+      "first_seen": "Hormel Institute",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kugler": {
+      "token_id": 6467,
+      "first_seen": "Anuchin (crater)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anuchin": {
+      "token_id": 1387,
+      "first_seen": "Anuchin (crater)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chlo": {
+      "token_id": 382,
+      "first_seen": "Walking in the Air (Chlo\u00eb Agnew album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "agnew": {
+      "token_id": 219,
+      "first_seen": "Walking in the Air (Chlo\u00eb Agnew album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "risley": {
+      "token_id": 543,
+      "first_seen": "All Saints' Church, Risley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lieutenant-general": {
+      "token_id": 3462,
+      "first_seen": "Love Jones-Parry (British Army officer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "madryn": {
+      "token_id": 3537,
+      "first_seen": "Love Jones-Parry (British Army officer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jones-parry": {
+      "token_id": 5772,
+      "first_seen": "Love Jones-Parry (British Army officer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "monorierd": {
+      "token_id": 2018,
+      "first_seen": "Monorierd\u0151",
+      "has_definition": false,
+      "definition": ""
+    },
+    "emptying": {
+      "token_id": 4150,
+      "first_seen": "Cosumnes River",
+      "has_definition": true,
+      "definition": "The sediment of beer, cider, etc."
+    },
+    "sacramento-san": {
+      "token_id": 748,
+      "first_seen": "Cosumnes River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cosumnes": {
+      "token_id": 1850,
+      "first_seen": "Cosumnes River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mokelumne": {
+      "token_id": 4312,
+      "first_seen": "Cosumnes River",
+      "has_definition": false,
+      "definition": ""
+    },
+    "farmer's": {
+      "token_id": 3100,
+      "first_seen": "This Is the Life (Farmer's Daughter album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bowreman": {
+      "token_id": 406,
+      "first_seen": "Henry Bowreman Foote",
+      "has_definition": false,
+      "definition": ""
+    },
+    "qualifications": {
+      "token_id": 35,
+      "first_seen": "Stone Bay",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trainers": {
+      "token_id": 352,
+      "first_seen": "Stone Bay",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lejeune": {
+      "token_id": 5420,
+      "first_seen": "Stone Bay",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sniper": {
+      "token_id": 1228,
+      "first_seen": "Stone Bay",
+      "has_definition": true,
+      "definition": "A person using long-range small arms for precise attacks from a concealed position."
+    },
+    "wtbn": {
+      "token_id": 120,
+      "first_seen": "Stone Bay",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marsoc": {
+      "token_id": 445,
+      "first_seen": "Stone Bay",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marksmanship": {
+      "token_id": 2684,
+      "first_seen": "Stone Bay",
+      "has_definition": false,
+      "definition": ""
+    },
+    "black-glazed": {
+      "token_id": 7049,
+      "first_seen": "Black-glazed Ware",
+      "has_definition": false,
+      "definition": ""
+    },
+    "scanners": {
+      "token_id": 6921,
+      "first_seen": "Film scanner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flatbed": {
+      "token_id": 4327,
+      "first_seen": "Film scanner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "scratches": {
+      "token_id": 6498,
+      "first_seen": "Film scanner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "scan": {
+      "token_id": 3675,
+      "first_seen": "Film scanner",
+      "has_definition": true,
+      "definition": "Close investigation."
+    },
+    "removes": {
+      "token_id": 6953,
+      "first_seen": "Film scanner",
+      "has_definition": true,
+      "definition": "The act of removing something."
+    },
+    "unmolested": {
+      "token_id": 5939,
+      "first_seen": "Film scanner",
+      "has_definition": true,
+      "definition": "Not molested"
+    },
+    "grain": {
+      "token_id": 78,
+      "first_seen": "Film scanner",
+      "has_definition": true,
+      "definition": "The harvested seeds of various grass food crops eg: wheat, corn, barley."
+    },
+    "improves": {
+      "token_id": 6382,
+      "first_seen": "Film scanner",
+      "has_definition": true,
+      "definition": "To make (something) better; to increase the value or productivity (of something)."
+    },
+    "lendrop": {
+      "token_id": 2534,
+      "first_seen": "Margrethe Lendrop",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boeck": {
+      "token_id": 4002,
+      "first_seen": "Margrethe Lendrop",
+      "has_definition": false,
+      "definition": ""
+    },
+    "margrethe": {
+      "token_id": 6525,
+      "first_seen": "Margrethe Lendrop",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dahis": {
+      "token_id": 3258,
+      "first_seen": "Dead Cities",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ruweiha": {
+      "token_id": 3193,
+      "first_seen": "Dead Cities",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aleppo": {
+      "token_id": 6446,
+      "first_seen": "Dead Cities",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stylites": {
+      "token_id": 5827,
+      "first_seen": "Dead Cities",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pagan": {
+      "token_id": 6099,
+      "first_seen": "Dead Cities",
+      "has_definition": false,
+      "definition": ""
+    },
+    "idlib": {
+      "token_id": 590,
+      "first_seen": "Dead Cities",
+      "has_definition": false,
+      "definition": ""
+    },
+    "serjilla": {
+      "token_id": 7563,
+      "first_seen": "Dead Cities",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bathhouses": {
+      "token_id": 7071,
+      "first_seen": "Dead Cities",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cisterns": {
+      "token_id": 1414,
+      "first_seen": "Dead Cities",
+      "has_definition": true,
+      "definition": "A reservoir or tank for holding water, especially for catching and holding rainwater for later use."
     }
   },
-  "total_articles": 8847,
-  "total_words": 45096
+  "total_articles": 8877,
+  "total_words": 45185
 }
