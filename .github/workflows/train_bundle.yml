@@ -53,7 +53,7 @@ jobs:
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
       - name: Train bundle ${{ matrix.bundle }}
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005 --ai-guided
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
@@ -100,7 +100,7 @@ jobs:
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
       - name: Train bundle ${{ matrix.bundle }}
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005 --ai-guided
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
@@ -147,7 +147,7 @@ jobs:
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
       - name: Train bundle ${{ matrix.bundle }}
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005 --ai-guided
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
@@ -194,7 +194,7 @@ jobs:
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
       - name: Train bundle ${{ matrix.bundle }}
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005 --ai-guided
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
@@ -241,7 +241,7 @@ jobs:
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
       - name: Train bundle ${{ matrix.bundle }}
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005 --ai-guided
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
@@ -288,7 +288,7 @@ jobs:
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
       - name: Train bundle ${{ matrix.bundle }}
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005 --ai-guided
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
@@ -335,7 +335,7 @@ jobs:
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
       - name: Train bundle ${{ matrix.bundle }}
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005 --ai-guided
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
@@ -382,7 +382,7 @@ jobs:
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
       - name: Train bundle ${{ matrix.bundle }}
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005 --ai-guided
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
@@ -429,7 +429,7 @@ jobs:
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
       - name: Train bundle ${{ matrix.bundle }}
-        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 15 --lr 0.0005 --ai-guided
+        run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
         uses: actions/upload-artifact@v4
         with:
