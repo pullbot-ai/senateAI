@@ -16,72 +16,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
       - run: pip install torch
-      
       - name: Find overfit senators
-        run: |
-          cat > find_overfit.py << 'PYEOF'
-          import json, torch
-          from pathlib import Path
-          
-          overfit = []
-          
-          for bundle_file in sorted(Path('senate_bundles').glob('bundle_*.pt')):
-              if bundle_file.stem == 'senate_index':
-                  continue
-              
-              try:
-                  bundle_id = int(bundle_file.stem.split('_')[1])
-                  bundle = torch.load(bundle_file, map_location='cpu', weights_only=False)
-                  senators = bundle.get('senators', {})
-                  
-                  for senator_id_str, data in senators.items():
-                      try:
-                          senator_id = int(senator_id_str)
-                      except:
-                          senator_id = int(data.get('config', {}).get('model_id', 0))
-                      
-                      config = data.get('config', {})
-                      performance = config.get('performance', {})
-                      specialties = config.get('specialties', [])
-                      
-                      if performance:
-                          avg = sum(performance.values()) / len(performance) * 100
-                      else:
-                          avg = 0
-                      
-                      is_trained = abs(avg - 50.0) >= 0.01
-                      
-                      # Target: trained + grade 10-25% (likely overfit, not undertrained)
-                      if is_trained and 10 <= avg <= 25:
-                          overfit.append({
-                              'senator_id': senator_id,
-                              'bundle_id': bundle_id,
-                              'specialties': specialties,
-                              'score': avg
-                          })
-              except:
-                  pass
-          
-          overfit.sort(key=lambda x: x['score'])
-          
-          top_overfit = overfit[:${{ github.event.inputs.max_senators }}]
-          
-          with open('overfit_senators.json', 'w') as f:
-              json.dump(top_overfit, f)
-          
-          print(f'\nFound {len(overfit)} overfit senators (grade 10-25%)')
-          print(f'Selected {len(top_overfit)} for AI editing:')
-          for w in top_overfit[:15]:
-              print(f'  Senator {w["senator_id"]} (Bundle {w["bundle_id"]}): {w["score"]:.1f}% - {", ".join(w["specialties"][:2])}')
-          PYEOF
-          python find_overfit.py
-      
+        run: python src/find_overfit.py ${{ github.event.inputs.max_senators }}
       - name: Upload overfit list
         uses: actions/upload-artifact@v4
         with:
@@ -109,178 +49,27 @@ jobs:
           submodules: false
           lfs: false
           show-progress: false
-      
       - name: Download overfit list
         uses: actions/download-artifact@v4
         with:
           name: overfit-senators
-      
       - name: Download needed bundle
-        run: |
-          cat > get_bundle.py << 'PYEOF'
-          import json, subprocess, sys
-          
-          with open('overfit_senators.json') as f:
-              overfit = json.load(f)
-          
-          if ${{ matrix.index }} >= len(overfit):
-              sys.exit(0)
-          
-          senator_data = overfit[${{ matrix.index }}]
-          bundle_id = senator_data['bundle_id']
-          bundle_file = f'senate_bundles/bundle_{bundle_id:03d}.pt'
-          
-          subprocess.run(['git', 'sparse-checkout', 'add', bundle_file], check=True)
-          print(f'Downloaded {bundle_file}')
-          PYEOF
-          python get_bundle.py
-      
+        run: python src/get_overfit_bundle.py ${{ matrix.index }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: pip-${{ runner.os }}
           restore-keys: pip-${{ runner.os }}-
-      
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
-      
-      - name: AI direct edit senator ${{ matrix.index }}
-        run: |
-          cat > ai_edit.py << 'PYEOF'
-          import sys, json, torch, re
-          sys.path.insert(0, 'src')
-          from model_template import SenateBundle
-          from ai_client import call_ai
-          from wordbank import get_wordbank
-          
-          torch.set_num_threads(1)
-          
-          with open('overfit_senators.json') as f:
-              overfit = json.load(f)
-          
-          if ${{ matrix.index }} >= len(overfit):
-              print('No more senators')
-              sys.exit(0)
-          
-          senator_data = overfit[${{ matrix.index }}]
-          senator_id = senator_data['senator_id']
-          bundle_id = senator_data['bundle_id']
-          specialties = senator_data['specialties']
-          overfit_score = senator_data['score']
-          
-          bundle_path = f'senate_bundles/bundle_{bundle_id:03d}.pt'
-          bundle = SenateBundle.load(bundle_path)
-          senator = bundle.get_senator(senator_id)
-          
-          if senator is None:
-              print(f'Senator {senator_id} not found')
-              sys.exit(1)
-          
-          wordbank = get_wordbank()
-          
-          print(f'AI editing Senator {senator_id} [{", ".join(specialties[:2])}]')
-          print(f'Overfit score: {overfit_score:.1f}%')
-          print()
-          
-          def ai_direct_edit(senator, overfit_severity, specialties):
-              param_names = list(dict(senator.named_parameters()).keys())
-              
-              prompt = f"""You are directly editing a neural network to fix overfitting.
-
-Senator specialties: {', '.join(specialties[:3])}
-Overfit severity: {overfit_severity:.1f}/100 (lower = more overfit)
-
-The senator memorized training data instead of learning general patterns.
-
-Available parameter groups:
-{', '.join(param_names[:10])}
-
-Fix by:
-- ADD_NOISE: add random noise to break memorized patterns
-- REDUCE: shrink overconfident weights
-
-Return JSON:
-{{"edits": [{{"param": "lstm1", "operation": "add_noise", "magnitude": 0.15}}]}}"""
-              
-              print(f'  Asking AI to edit weights...')
-              response = call_ai(prompt, max_tokens=200)
-              
-              if response:
-                  print(f'  AI response: {response[:150]}...')
-                  try:
-                      match = re.search(r'\{.*\}', response, re.DOTALL)
-                      if match:
-                          edits = json.loads(match.group()).get('edits', [])
-                          
-                          for edit in edits:
-                              param_hint = edit.get('param', '')
-                              operation = edit.get('operation', 'add_noise')
-                              magnitude = float(edit.get('magnitude', 0.1))
-                              
-                              for name, param in senator.named_parameters():
-                                  if param_hint.lower() in name.lower():
-                                      with torch.no_grad():
-                                          if operation == 'add_noise':
-                                              std = param.data.std()
-                                              if std > 0:
-                                                  param.data += torch.randn_like(param.data) * magnitude * std
-                                              print(f'  Added noise to {name} (mag {magnitude})')
-                                          elif operation == 'reduce':
-                                              param.data *= (1 - magnitude)
-                                              print(f'  Reduced {name} by {magnitude*100:.0f}%')
-                                      break
-                          return True
-                  except Exception as e:
-                      print(f'  Edit parse error: {e}')
-              else:
-                  print(f'  AI returned None')
-              return False
-          
-          edited = ai_direct_edit(senator, overfit_score, specialties)
-          
-          if not edited:
-              print('  AI edit failed, applying scaled noise fallback...')
-              with torch.no_grad():
-                  for name, param in senator.named_parameters():
-                      if param.dim() >= 2:
-                          std = param.data.std()
-                          if std > 0:
-                              noise_strength = 0.1 * (overfit_score / 100)
-                              param.data += torch.randn_like(param.data) * std * noise_strength
-                              
-                              max_val = param.data.abs().max()
-                              if max_val > 1.0:
-                                  param.data = torch.clamp(param.data, -1.0, 1.0)
-              print('  Applied scaled noise fallback')
-          
-          from train import grade_and_update
-          print()
-          print('  Re-grading after AI edit...')
-          result = grade_and_update(senator, specialties, wordbank)
-          
-          if result:
-              new_score = result['average_score']
-              print(f'  Previous: {overfit_score:.1f}%')
-              print(f'  After AI edit: {new_score:.1f}%')
-              
-              if new_score > overfit_score:
-                  print(f'  Improvement: +{new_score - overfit_score:.1f}%')
-              else:
-                  print(f'  No improvement')
-          
-          bundle.save(bundle_path)
-          print(f'\n  Saved bundle {bundle_id}')
-          PYEOF
-          python ai_edit.py
-      
+      - name: AI edit senator
+        run: python src/ai_edit_senator.py ${{ matrix.index }}
       - name: Upload edited bundle
         uses: actions/upload-artifact@v4
         with:
@@ -291,6 +80,7 @@ Return JSON:
     needs: fix-overfit
     if: success() || failure()
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - name: Download bundles
@@ -310,10 +100,10 @@ Return JSON:
           git commit -m "AI anti-overfit weight editing" || echo "No changes"
           for attempt in $(seq 1 20); do
             if git push; then
-              echo "Pushed (attempt $attempt)!"
+              echo "Pushed"
               break
             fi
-            echo "Retry $attempt/20..."
+            echo "Retry"
             git pull --rebase origin main 2>/dev/null || true
             sleep 10
           done
