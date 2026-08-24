@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       max_senators:
-        description: 'Number of low performers to train'
+        description: 'Number of senators to train'
         required: false
         default: '10'
       epochs:
@@ -27,13 +27,13 @@ jobs:
       
       - run: pip install torch
       
-      - name: Find worst senators
+      - name: Find senators to train
         run: |
           cat > find_worst.py << 'EOF'
           import json, torch
           from pathlib import Path
           
-          worst = []
+          all_senators = []
           
           for bundle_file in sorted(Path('senate_bundles').glob('bundle_*.pt')):
               if bundle_file.stem == 'senate_index':
@@ -59,30 +59,40 @@ jobs:
                           avg = 0
                       
                       specialties = config.get('specialties', [])
-                      worst.append({
+                      all_senators.append({
                           'senator_id': senator_id,
                           'bundle_id': bundle_id,
                           'specialties': specialties,
                           'score': avg
                       })
               except Exception as e:
-                  print(f'  Error loading {bundle_file}: {e}')
+                  pass
           
-          worst.sort(key=lambda x: x['score'])
+          # Untrained senators (exactly 50% = default)
+          untrained = [s for s in all_senators if abs(s['score'] - 50.0) < 0.01]
           
-          top_worst = worst[:${{ github.event.inputs.max_senators }}]
+          # Trained but low performing
+          trained_low = [s for s in all_senators if s['score'] < 15 and abs(s['score'] - 50.0) >= 0.01]
+          
+          # Prioritize untrained first
+          combined = untrained + trained_low
+          
+          top_worst = combined[:${{ github.event.inputs.max_senators }}]
           
           with open('worst_senators.json', 'w') as f:
               json.dump(top_worst, f)
           
-          print(f'\nFound {len(worst)} senators total')
-          print(f'Lowest performers:')
+          print(f'\nTotal senators: {len(all_senators)}')
+          print(f'Untrained (50%): {len(untrained)}')
+          print(f'Trained but low: {len(trained_low)}')
+          print(f'Selected for training: {len(top_worst)}')
+          print(f'\nTraining targets:')
           for w in top_worst[:15]:
               print(f'  Senator {w["senator_id"]} (Bundle {w["bundle_id"]}): {w["score"]:.1f}% - {", ".join(w["specialties"][:2])}')
           EOF
           python find_worst.py
       
-      - name: Upload worst senators list
+      - name: Upload senators list
         uses: actions/upload-artifact@v4
         with:
           name: worst-senators
@@ -110,7 +120,7 @@ jobs:
           lfs: false
           show-progress: false
       
-      - name: Download worst senators list
+      - name: Download senators list
         uses: actions/download-artifact@v4
         with:
           name: worst-senators
@@ -152,7 +162,7 @@ jobs:
       - run: pip install torch numpy pyyaml requests
       - run: npm install @heyputer/puter.js
       
-      - name: Train worst senator ${{ matrix.index }}
+      - name: Train senator ${{ matrix.index }}
         run: |
           cat > train_one.py << 'EOF'
           import sys, json, torch
@@ -232,7 +242,7 @@ jobs:
           git pull --rebase origin main
           git stash pop || true
           git add senate_bundles/
-          git commit -m "Focused training - low performers" || echo "No changes"
+          git commit -m "Focused training - untrained and low performers" || echo "No changes"
           for attempt in $(seq 1 20); do
             if git push; then
               echo "Pushed (attempt $attempt)!"
