@@ -260129,8 +260129,566 @@
       "first_seen": "L\u0103ut\u0103reasc\u0103 music",
       "has_definition": false,
       "definition": ""
+    },
+    "reillanne": {
+      "token_id": 4130,
+      "first_seen": "Reillanne",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hitomi": {
+      "token_id": 3420,
+      "first_seen": "Hitomi Obara",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hachinohe": {
+      "token_id": 5237,
+      "first_seen": "Hitomi Obara",
+      "has_definition": false,
+      "definition": ""
+    },
+    "obara": {
+      "token_id": 3857,
+      "first_seen": "Hitomi Obara",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rupp": {
+      "token_id": 6823,
+      "first_seen": "Memorial Coliseum (University of Kentucky)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coloquailly": {
+      "token_id": 1458,
+      "first_seen": "Memorial Coliseum (University of Kentucky)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nw": {
+      "token_id": 3767,
+      "first_seen": "Georgetown Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "proto-celtic": {
+      "token_id": 7211,
+      "first_seen": "Teutates",
+      "has_definition": false,
+      "definition": ""
+    },
+    "teutates": {
+      "token_id": 2198,
+      "first_seen": "Teutates",
+      "has_definition": false,
+      "definition": ""
+    },
+    "epigraphic": {
+      "token_id": 7056,
+      "first_seen": "Teutates",
+      "has_definition": false,
+      "definition": ""
+    },
+    "caviedes": {
+      "token_id": 567,
+      "first_seen": "Le\u00f3nidas Plaza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lenidas": {
+      "token_id": 5167,
+      "first_seen": "Le\u00f3nidas Plaza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lakeview": {
+      "token_id": 4382,
+      "first_seen": "Lake Helen Historic District",
+      "has_definition": false,
+      "definition": ""
+    },
+    "euclid": {
+      "token_id": 4265,
+      "first_seen": "Lake Helen Historic District",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stabk": {
+      "token_id": 4319,
+      "first_seen": "Haris Skenderovi\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eskilstuna": {
+      "token_id": 5642,
+      "first_seen": "Haris Skenderovi\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tippeligaen": {
+      "token_id": 2294,
+      "first_seen": "Haris Skenderovi\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "haris": {
+      "token_id": 5703,
+      "first_seen": "Haris Skenderovi\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "skenderovi": {
+      "token_id": 3553,
+      "first_seen": "Haris Skenderovi\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bashung": {
+      "token_id": 1060,
+      "first_seen": "Bleu p\u00e9trole",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ptrole": {
+      "token_id": 7728,
+      "first_seen": "Bleu p\u00e9trole",
+      "has_definition": false,
+      "definition": ""
+    },
+    "em:t": {
+      "token_id": 5647,
+      "first_seen": "Woob2 4495",
+      "has_definition": false,
+      "definition": ""
+    },
+    "frankland": {
+      "token_id": 5467,
+      "first_seen": "Woob2 4495",
+      "has_definition": false,
+      "definition": ""
+    },
+    "woob": {
+      "token_id": 1745,
+      "first_seen": "Woob2 4495",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oyri": {
+      "token_id": 2491,
+      "first_seen": "Nor\u00f0sk\u00e1li",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eysturoy": {
+      "token_id": 5598,
+      "first_seen": "Nor\u00f0sk\u00e1li",
+      "has_definition": false,
+      "definition": ""
+    },
+    "norskli": {
+      "token_id": 2499,
+      "first_seen": "Nor\u00f0sk\u00e1li",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cramlington": {
+      "token_id": 3492,
+      "first_seen": "Parkside Middle School, Cramlington",
+      "has_definition": false,
+      "definition": ""
+    },
+    "parkside": {
+      "token_id": 5355,
+      "first_seen": "Parkside Middle School, Cramlington",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nishikamo": {
+      "token_id": 5964,
+      "first_seen": "Obara, Aichi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spacing": {
+      "token_id": 3443,
+      "first_seen": "Lynchet",
+      "has_definition": true,
+      "definition": "To roam, walk, wander."
+    },
+    "linchet": {
+      "token_id": 4122,
+      "first_seen": "Lynchet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lynchets": {
+      "token_id": 2441,
+      "first_seen": "Lynchet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "earthworks": {
+      "token_id": 774,
+      "first_seen": "Lynchet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "maximise": {
+      "token_id": 4756,
+      "first_seen": "Lynchet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "terrace": {
+      "token_id": 219,
+      "first_seen": "Lynchet",
+      "has_definition": true,
+      "definition": "A platform that extends outwards from a building."
+    },
+    "man-made": {
+      "token_id": 4115,
+      "first_seen": "Lynchet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lynchet": {
+      "token_id": 4355,
+      "first_seen": "Lynchet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "forts": {
+      "token_id": 5848,
+      "first_seen": "Lynchet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dug": {
+      "token_id": 5021,
+      "first_seen": "Lynchet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barrows": {
+      "token_id": 6924,
+      "first_seen": "Lynchet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sood": {
+      "token_id": 1742,
+      "first_seen": "Ek Niranjan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sonu": {
+      "token_id": 5604,
+      "first_seen": "Ek Niranjan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kangana": {
+      "token_id": 3990,
+      "first_seen": "Ek Niranjan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jagannadh": {
+      "token_id": 3775,
+      "first_seen": "Ek Niranjan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "niranjan": {
+      "token_id": 4158,
+      "first_seen": "Ek Niranjan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mukul": {
+      "token_id": 3872,
+      "first_seen": "Ek Niranjan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ranaut": {
+      "token_id": 6463,
+      "first_seen": "Ek Niranjan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "adityaram": {
+      "token_id": 5611,
+      "first_seen": "Ek Niranjan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cleland": {
+      "token_id": 2681,
+      "first_seen": "John Cleland (racing driver)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "carne": {
+      "token_id": 6673,
+      "first_seen": "Elizabeth Powell (writer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kirkcaldy": {
+      "token_id": 2996,
+      "first_seen": "Elizabeth Powell (writer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "byline": {
+      "token_id": 770,
+      "first_seen": "Elizabeth Powell (writer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sandery": {
+      "token_id": 1226,
+      "first_seen": "Elizabeth Powell (writer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "e.s": {
+      "token_id": 5299,
+      "first_seen": "Elizabeth Powell (writer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "multicomponent": {
+      "token_id": 4068,
+      "first_seen": "Saeed Balalaie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "balalaie": {
+      "token_id": 7729,
+      "first_seen": "Saeed Balalaie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "toosi": {
+      "token_id": 7862,
+      "first_seen": "Saeed Balalaie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "peptide": {
+      "token_id": 7842,
+      "first_seen": "Saeed Balalaie",
+      "has_definition": true,
+      "definition": "Any of a class of organic compounds consisting of various numbers of amino acids in which the amine of one is reacted with the carboxylic acid of the next to form an amide bond."
+    },
+    "exchanges": {
+      "token_id": 4979,
+      "first_seen": "Crypto-anarchy",
+      "has_definition": true,
+      "definition": "An act of exchanging or trading."
+    },
+    "cypherpunk": {
+      "token_id": 2816,
+      "first_seen": "Crypto-anarchy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "confidentiality": {
+      "token_id": 6855,
+      "first_seen": "Crypto-anarchy",
+      "has_definition": true,
+      "definition": "The property of being confidential."
+    },
+    "crypto": {
+      "token_id": 6235,
+      "first_seen": "Crypto-anarchy",
+      "has_definition": true,
+      "definition": "A secret supporter or follower."
+    },
+    "hacktivism": {
+      "token_id": 5457,
+      "first_seen": "Crypto-anarchy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "crypto-anarchism": {
+      "token_id": 10,
+      "first_seen": "Crypto-anarchy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anonymity": {
+      "token_id": 7551,
+      "first_seen": "Crypto-anarchy",
+      "has_definition": true,
+      "definition": "The quality or state of being anonymous; anonymousness."
+    },
+    "crypto-anarchy": {
+      "token_id": 2592,
+      "first_seen": "Crypto-anarchy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "counter-surveillance": {
+      "token_id": 5354,
+      "first_seen": "Crypto-anarchy",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anarchism": {
+      "token_id": 1566,
+      "first_seen": "Crypto-anarchy",
+      "has_definition": true,
+      "definition": "The belief that proposes the absence and abolition of hierarchy and authority in most forms."
+    },
+    "adherents": {
+      "token_id": 2432,
+      "first_seen": "Crypto-anarchy",
+      "has_definition": true,
+      "definition": "A person who has membership in some group, association or religion."
+    },
+    "binns": {
+      "token_id": 7200,
+      "first_seen": "House of the Binns",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tam": {
+      "token_id": 2901,
+      "first_seen": "House of the Binns",
+      "has_definition": true,
+      "definition": "A type of woolen hat developed in Scotland, a toorie bunnet. Originally they were worn by both genders, but now they are mostly worn by men and boys."
+    },
+    "lothian": {
+      "token_id": 2954,
+      "first_seen": "House of the Binns",
+      "has_definition": false,
+      "definition": ""
+    },
+    "baronets": {
+      "token_id": 1615,
+      "first_seen": "House of the Binns",
+      "has_definition": true,
+      "definition": "A hereditary title, below a peerage and senior to most knighthoods, entitling the bearer to the titular prefix \"Sir\" (for men) or \"Dame\" (for women) which is used in conjunction with the holder's Christian name. It is inheritable, usually by the eldest son, although a few baronetcies can also pass through the female line."
+    },
+    "dalyell": {
+      "token_id": 327,
+      "first_seen": "House of the Binns",
+      "has_definition": false,
+      "definition": ""
+    },
+    "eleanor": {
+      "token_id": 187,
+      "first_seen": "House of the Binns",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mombin": {
+      "token_id": 4558,
+      "first_seen": "Spondias mombin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anacardiaceae": {
+      "token_id": 6150,
+      "first_seen": "Spondias mombin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cajazeira": {
+      "token_id": 3849,
+      "first_seen": "Spondias mombin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hog": {
+      "token_id": 6929,
+      "first_seen": "Spondias mombin",
+      "has_definition": true,
+      "definition": "Any animal belonging to the Suidae family of mammals, especially the pig, the warthog, and the boar."
+    },
+    "amra": {
+      "token_id": 6398,
+      "first_seen": "Spondias mombin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spondias": {
+      "token_id": 5338,
+      "first_seen": "Spondias mombin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "huntsman": {
+      "token_id": 5628,
+      "first_seen": "Jon Huntsman Jr.",
+      "has_definition": true,
+      "definition": "A hunter."
+    },
+    "synagrops": {
+      "token_id": 1583,
+      "first_seen": "Synagrops bellus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blackmouth": {
+      "token_id": 6171,
+      "first_seen": "Synagrops bellus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bellus": {
+      "token_id": 6492,
+      "first_seen": "Synagrops bellus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "synagropidae": {
+      "token_id": 7325,
+      "first_seen": "Synagrops bellus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bagnres-de-bigorre": {
+      "token_id": 1596,
+      "first_seen": "SK (people mover)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "initialism": {
+      "token_id": 1488,
+      "first_seen": "SK (people mover)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mover": {
+      "token_id": 5472,
+      "first_seen": "SK (people mover)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pickering": {
+      "token_id": 3224,
+      "first_seen": "USS President (1800)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "three-masted": {
+      "token_id": 633,
+      "first_seen": "USS President (1800)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wooden-hulled": {
+      "token_id": 695,
+      "first_seen": "USS President (1800)",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 8368,
-  "total_words": 43355
+  "total_articles": 8398,
+  "total_words": 43448
 }
