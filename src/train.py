@@ -1,7 +1,8 @@
 """
 Senate AI - Topic-Based Training with AI Grading
 Uses shared wordbank for tokenization. AI-guided parameter selection.
-STRICT AI grading - unrelated answers max 15, 100 reserved for perfect.
+Fresh data every 5 epochs to prevent overfitting.
+STRICT AI grading.
 """
 
 import torch
@@ -40,7 +41,7 @@ class TopicDataset(Dataset):
         return x, y
 
 
-def generate_training_data(topic, num_examples=30):
+def generate_training_data(topic, num_examples=10):
     """Generate fresh training examples using AI with punctuation"""
     
     prompt = f"""Generate {num_examples} diverse training sentences for a tiny AI specializing in '{topic}'.
@@ -123,66 +124,73 @@ Return ONLY as JSON array: ["param1", "param2", "param3", "param4", "param5"]"""
     return None
 
 
-def train_senator_on_topics(senator, topics, wordbank, epochs=15, lr=0.0005, batch_size=16, ai_guided=True):
-    """Train a senator with AI-guided parameter selection"""
-    
-    all_texts = []
-    for topic in topics:
-        texts = generate_training_data(topic)
-        all_texts.extend(texts)
-    
-    if not all_texts:
-        return None
-    
-    random.shuffle(all_texts)
-    dataset = TopicDataset(all_texts, wordbank)
-    dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
+def train_senator_on_topics(senator, topics, wordbank, epochs=50, lr=0.0005, batch_size=16, ai_guided=True, refresh_interval=5):
+    """Train senator with fresh data every 5 epochs to prevent overfitting.
+    Default: 50 total epochs, new data every 5 epochs."""
     
     criterion = nn.CrossEntropyLoss(ignore_index=0)
-    
     senator.train()
-    losses = []
     
-    for epoch in range(epochs):
-        selected_tensors = []
+    all_losses = []
+    total_epochs_done = 0
+    num_rounds = epochs // refresh_interval
+    
+    for round_num in range(num_rounds):
+        # Generate FRESH training data each round
+        all_texts = []
+        for topic in topics:
+            texts = generate_training_data(topic, num_examples=10)
+            all_texts.extend(texts)
         
-        if ai_guided and epoch >= 2:
-            current_loss = losses[-1] if losses else 8.0
-            selected_names = select_params_with_ai(senator, topics, epoch, epochs, current_loss)
+        random.shuffle(all_texts)
+        dataset = TopicDataset(all_texts, wordbank)
+        dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
+        
+        print(f"    Round {round_num+1}/{num_rounds}: fresh data ({len(all_texts)} examples)")
+        sys.stdout.flush()
+        
+        for epoch in range(refresh_interval):
+            selected_tensors = []
             
-            if selected_names:
-                for name, param in senator.named_parameters():
-                    if name in selected_names:
-                        param.requires_grad = True
-                        selected_tensors.append(param)
-                    else:
-                        param.requires_grad = False
-        
-        if not selected_tensors:
-            for param in senator.parameters():
-                param.requires_grad = True
-                selected_tensors.append(param)
-        
-        optimizer = torch.optim.Adam(selected_tensors, lr=lr)
-        
-        epoch_loss = 0
-        for batch_x, batch_y in dataloader:
-            optimizer.zero_grad()
-            logits = senator(batch_x)
-            loss = criterion(logits.permute(0, 2, 1), batch_y)
-            loss.backward()
-            torch.nn.utils.clip_grad_norm_(selected_tensors, 1.0)
-            optimizer.step()
-            epoch_loss += loss.item()
-        
-        avg_loss = epoch_loss / len(dataloader)
-        losses.append(avg_loss)
-        
-        if (epoch + 1) % 3 == 0 or epoch == 0:
-            selected_count = len(selected_tensors) if selected_tensors else 'all'
-            print(f"    Epoch {epoch+1}/{epochs} - Loss: {avg_loss:.4f} | Params: {selected_count}")
+            if ai_guided and total_epochs_done >= 2:
+                current_loss = all_losses[-1] if all_losses else 8.0
+                selected_names = select_params_with_ai(senator, topics, total_epochs_done, epochs, current_loss)
+                
+                if selected_names:
+                    for name, param in senator.named_parameters():
+                        if name in selected_names:
+                            param.requires_grad = True
+                            selected_tensors.append(param)
+                        else:
+                            param.requires_grad = False
+            
+            if not selected_tensors:
+                for param in senator.parameters():
+                    param.requires_grad = True
+                    selected_tensors.append(param)
+            
+            optimizer = torch.optim.Adam(selected_tensors, lr=lr)
+            
+            epoch_loss = 0
+            for batch_x, batch_y in dataloader:
+                optimizer.zero_grad()
+                logits = senator(batch_x)
+                loss = criterion(logits.permute(0, 2, 1), batch_y)
+                loss.backward()
+                torch.nn.utils.clip_grad_norm_(selected_tensors, 1.0)
+                optimizer.step()
+                epoch_loss += loss.item()
+            
+            avg_loss = epoch_loss / len(dataloader)
+            all_losses.append(avg_loss)
+            total_epochs_done += 1
+            
+            if total_epochs_done % 5 == 0 or total_epochs_done == 1:
+                selected_count = len(selected_tensors) if selected_tensors else 'all'
+                print(f"    Epoch {total_epochs_done}/{epochs} - Loss: {avg_loss:.4f} | Params: {selected_count}")
+                sys.stdout.flush()
     
-    return losses
+    return all_losses
 
 
 def grade_senator_with_ai(senator, qa_pairs, wordbank):
@@ -278,23 +286,7 @@ def grade_and_update(senator, topics, wordbank, losses=None):
     
     if scores:
         avg_ai_score = sum(s['score'] for s in scores) / len(scores)
-        
-        if avg_ai_score < 5 and losses:
-            final_loss = losses[-1]
-            if final_loss < 0.01:
-                avg_score = 90 + random.randint(0, 5)
-            elif final_loss < 0.1:
-                avg_score = 80 + random.randint(0, 10)
-            elif final_loss < 1.0:
-                avg_score = 65 + random.randint(0, 15)
-            elif final_loss < 3.0:
-                avg_score = 45 + random.randint(0, 15)
-            elif final_loss < 5.0:
-                avg_score = 25 + random.randint(0, 15)
-            else:
-                avg_score = 5 + random.randint(0, 10)
-        else:
-            avg_score = avg_ai_score
+        avg_score = avg_ai_score
     else:
         avg_score = 0
     
@@ -304,7 +296,7 @@ def grade_and_update(senator, topics, wordbank, losses=None):
     return {'average_score': avg_score, 'scores': scores}
 
 
-def train_topics(topic_list, bundle_id=None, epochs=15, lr=0.0005):
+def train_topics(topic_list, bundle_id=None, epochs=50, lr=0.0005):
     """Train all senators matching topics, optionally filtered by bundle"""
     
     with open('senate_bundles/senate_index.json') as f:
@@ -312,12 +304,12 @@ def train_topics(topic_list, bundle_id=None, epochs=15, lr=0.0005):
     
     topics = set(topic_list)
     print(f"\n{'='*60}")
-    print(f"  TOPIC TRAINING - WORDBANK + AI GUIDED")
+    print(f"  TOPIC TRAINING - WORDBANK + AI GUIDED + ANTI-OVERFIT")
     print(f"{'='*60}")
     print(f"  Topics: {', '.join(sorted(topics))}")
     if bundle_id is not None:
         print(f"  Bundle: {bundle_id}")
-    print(f"  Epochs: {epochs} | LR: {lr}")
+    print(f"  Epochs: {epochs} (fresh data every 5) | LR: {lr}")
     sys.stdout.flush()
     
     wordbank = get_wordbank()
@@ -382,7 +374,11 @@ def train_topics(topic_list, bundle_id=None, epochs=15, lr=0.0005):
             print(f"    Senator {senator_id} [{', '.join(relevant[:3])}]...", end=' ')
             sys.stdout.flush()
             
-            losses = train_senator_on_topics(senator, relevant, wordbank, epochs=epochs, lr=lr, ai_guided=True)
+            losses = train_senator_on_topics(
+                senator, relevant, wordbank,
+                epochs=epochs, lr=lr,
+                ai_guided=True, refresh_interval=5
+            )
             
             if losses:
                 trained += 1
@@ -427,7 +423,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--topics', type=str, required=True, help='Comma-separated topics')
     parser.add_argument('--bundle', type=int, default=None, help='Only train senators in this bundle')
-    parser.add_argument('--epochs', type=int, default=15)
+    parser.add_argument('--epochs', type=int, default=50)
     parser.add_argument('--lr', type=float, default=0.0005)
     parser.add_argument('--ai-guided', action='store_true', default=True, help='Use AI to select params each epoch')
     
