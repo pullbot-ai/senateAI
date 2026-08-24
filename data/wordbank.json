@@ -279617,8 +279617,638 @@
       "first_seen": "Battle of Cangting",
       "has_definition": false,
       "definition": ""
+    },
+    "shurush": {
+      "token_id": 7515,
+      "first_seen": "Amir Shurush",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arab-israeli": {
+      "token_id": 7302,
+      "first_seen": "Amir Shurush",
+      "has_definition": false,
+      "definition": ""
+    },
+    "somogy": {
+      "token_id": 7465,
+      "first_seen": "Zselicszentp\u00e1l",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zselicszentpl": {
+      "token_id": 266,
+      "first_seen": "Zselicszentp\u00e1l",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lautasalo": {
+      "token_id": 20,
+      "first_seen": "Juho Lautasalo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antinpoika": {
+      "token_id": 225,
+      "first_seen": "Juho Lautasalo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "smallholder": {
+      "token_id": 5903,
+      "first_seen": "Juho Lautasalo",
+      "has_definition": true,
+      "definition": "A person who owns or runs a smallholding."
+    },
+    "karvia": {
+      "token_id": 3061,
+      "first_seen": "Juho Lautasalo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "daytona": {
+      "token_id": 7964,
+      "first_seen": "1959 Daytona 500",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nurragingy": {
+      "token_id": 7876,
+      "first_seen": "Doonside, New South Wales",
+      "has_definition": false,
+      "definition": ""
+    },
+    "featherdale": {
+      "token_id": 3228,
+      "first_seen": "Doonside, New South Wales",
+      "has_definition": false,
+      "definition": ""
+    },
+    "doonside": {
+      "token_id": 7521,
+      "first_seen": "Doonside, New South Wales",
+      "has_definition": false,
+      "definition": ""
+    },
+    "merania": {
+      "token_id": 883,
+      "first_seen": "Amy Merania Harper",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fluorescent": {
+      "token_id": 7106,
+      "first_seen": "Amy Merania Harper",
+      "has_definition": false,
+      "definition": ""
+    },
+    "annay-sur-serein": {
+      "token_id": 3113,
+      "first_seen": "Annay-sur-Serein",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bio-rad": {
+      "token_id": 3755,
+      "first_seen": "PGLO",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pglo": {
+      "token_id": 3033,
+      "first_seen": "PGLO",
+      "has_definition": false,
+      "definition": ""
+    },
+    "plasmid": {
+      "token_id": 7845,
+      "first_seen": "PGLO",
+      "has_definition": true,
+      "definition": "A loop of double-stranded DNA that is separate from and replicates independently of the chromosomes, most commonly found in bacteria, but also in archaeans and eukaryotic cells, and used in genetic engineering as a vector for gene transfer."
+    },
+    "transgenic": {
+      "token_id": 3704,
+      "first_seen": "PGLO",
+      "has_definition": true,
+      "definition": "An organism whose genome has been genetically modified."
+    },
+    "genetically": {
+      "token_id": 6257,
+      "first_seen": "PGLO",
+      "has_definition": true,
+      "definition": "In terms of origin or development."
+    },
+    "bidirectional": {
+      "token_id": 998,
+      "first_seen": "PGLO",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aequorea": {
+      "token_id": 2497,
+      "first_seen": "PGLO",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ampicillin": {
+      "token_id": 7881,
+      "first_seen": "PGLO",
+      "has_definition": true,
+      "definition": "A broad-spectrum antibiotic having a beta-lactam structure."
+    },
+    "fluorescence": {
+      "token_id": 3384,
+      "first_seen": "PGLO",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arabinose": {
+      "token_id": 6927,
+      "first_seen": "PGLO",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gfp": {
+      "token_id": 7350,
+      "first_seen": "PGLO",
+      "has_definition": false,
+      "definition": ""
+    },
+    "induced": {
+      "token_id": 6617,
+      "first_seen": "PGLO",
+      "has_definition": false,
+      "definition": ""
+    },
+    "metabolizing": {
+      "token_id": 458,
+      "first_seen": "PGLO",
+      "has_definition": false,
+      "definition": ""
+    },
+    "labronica": {
+      "token_id": 4246,
+      "first_seen": "Villa Fabbricotti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fabbricotti": {
+      "token_id": 2519,
+      "first_seen": "Villa Fabbricotti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sportkette": {
+      "token_id": 3523,
+      "first_seen": "Schweiz \u2013 Suisse \u2013 Svizzera \u2013 Svizra 4",
+      "has_definition": false,
+      "definition": ""
+    },
+    "schweiz": {
+      "token_id": 5410,
+      "first_seen": "Schweiz \u2013 Suisse \u2013 Svizzera \u2013 Svizra 4",
+      "has_definition": false,
+      "definition": ""
+    },
+    "srg": {
+      "token_id": 7100,
+      "first_seen": "Schweiz \u2013 Suisse \u2013 Svizzera \u2013 Svizra 4",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vertiginous": {
+      "token_id": 5516,
+      "first_seen": "Schweiz \u2013 Suisse \u2013 Svizzera \u2013 Svizra 4",
+      "has_definition": true,
+      "definition": "Having an aspect of great depth, drawing the eye to look downwards."
+    },
+    "roko": {
+      "token_id": 461,
+      "first_seen": "Roko Bla\u017eevi\u0107",
+      "has_definition": true,
+      "definition": "A type of protest in which transport is disrupted."
+    },
+    "blaevi": {
+      "token_id": 1273,
+      "first_seen": "Roko Bla\u017eevi\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stalan": {
+      "token_id": 2785,
+      "first_seen": "S\u00f6\u011f\u00fctalan, Mustafakemalpa\u015fa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mustafakemalpaa": {
+      "token_id": 2273,
+      "first_seen": "S\u00f6\u011f\u00fctalan, Mustafakemalpa\u015fa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bursa": {
+      "token_id": 7101,
+      "first_seen": "S\u00f6\u011f\u00fctalan, Mustafakemalpa\u015fa",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gogh": {
+      "token_id": 4127,
+      "first_seen": "No. 13 \u2013 A Dancing Van Gogh",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stefanie": {
+      "token_id": 994,
+      "first_seen": "No. 13 \u2013 A Dancing Van Gogh",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tiarnan": {
+      "token_id": 3298,
+      "first_seen": "Tiarnan Crorken",
+      "has_definition": false,
+      "definition": ""
+    },
+    "crorken": {
+      "token_id": 1649,
+      "first_seen": "Tiarnan Crorken",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gyrineum": {
+      "token_id": 5268,
+      "first_seen": "Gyrineum aculeatum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cymatiidae": {
+      "token_id": 1343,
+      "first_seen": "Gyrineum aculeatum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aculeatum": {
+      "token_id": 3703,
+      "first_seen": "Gyrineum aculeatum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jiangjin": {
+      "token_id": 4456,
+      "first_seen": "Baishatuo Yangtze River Railway Bridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "truss": {
+      "token_id": 6500,
+      "first_seen": "Baishatuo Yangtze River Railway Bridge",
+      "has_definition": true,
+      "definition": "A bandage and belt used to hold a hernia in place."
+    },
+    "dadukou": {
+      "token_id": 4251,
+      "first_seen": "Baishatuo Yangtze River Railway Bridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "baishatuo": {
+      "token_id": 5445,
+      "first_seen": "Baishatuo Yangtze River Railway Bridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hinton": {
+      "token_id": 3166,
+      "first_seen": "Nate Hinton",
+      "has_definition": false,
+      "definition": ""
+    },
+    "woolaver": {
+      "token_id": 907,
+      "first_seen": "Lance Woolaver",
+      "has_definition": false,
+      "definition": ""
+    },
+    "portia": {
+      "token_id": 2959,
+      "first_seen": "Lance Woolaver",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nord-troms": {
+      "token_id": 2469,
+      "first_seen": "Rotsund Chapel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nord-hlogaland": {
+      "token_id": 711,
+      "first_seen": "Rotsund Chapel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rotsund": {
+      "token_id": 1827,
+      "first_seen": "Rotsund Chapel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sund": {
+      "token_id": 3781,
+      "first_seen": "Rotsund Chapel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nordreisa": {
+      "token_id": 378,
+      "first_seen": "Rotsund Chapel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kr": {
+      "token_id": 4396,
+      "first_seen": "Rotsund Chapel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reprisal": {
+      "token_id": 6308,
+      "first_seen": "Le\u017e\u00e1ky",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mietice": {
+      "token_id": 7389,
+      "first_seen": "Le\u017e\u00e1ky",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reich": {
+      "token_id": 4674,
+      "first_seen": "Le\u017e\u00e1ky",
+      "has_definition": false,
+      "definition": ""
+    },
+    "heydrich's": {
+      "token_id": 6223,
+      "first_seen": "Le\u017e\u00e1ky",
+      "has_definition": false,
+      "definition": ""
+    },
+    "reinhard": {
+      "token_id": 6589,
+      "first_seen": "Le\u017e\u00e1ky",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leky": {
+      "token_id": 4473,
+      "first_seen": "Le\u017e\u00e1ky",
+      "has_definition": false,
+      "definition": ""
+    },
+    "penhallow": {
+      "token_id": 2423,
+      "first_seen": "Andrew Penhallow",
+      "has_definition": false,
+      "definition": ""
+    },
+    "volition": {
+      "token_id": 552,
+      "first_seen": "Andrew Penhallow",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pilecki": {
+      "token_id": 2687,
+      "first_seen": "Resistance movement in Auschwitz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wojskowej": {
+      "token_id": 3684,
+      "first_seen": "Resistance movement in Auschwitz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "organizacji": {
+      "token_id": 7936,
+      "first_seen": "Resistance movement in Auschwitz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zwizek": {
+      "token_id": 1902,
+      "first_seen": "Resistance movement in Auschwitz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "apanka": {
+      "token_id": 5056,
+      "first_seen": "Resistance movement in Auschwitz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zow": {
+      "token_id": 3105,
+      "first_seen": "Resistance movement in Auschwitz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "auschwitz": {
+      "token_id": 462,
+      "first_seen": "Resistance movement in Auschwitz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "witold": {
+      "token_id": 4620,
+      "first_seen": "Resistance movement in Auschwitz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pilecki's": {
+      "token_id": 173,
+      "first_seen": "Resistance movement in Auschwitz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "serafiski": {
+      "token_id": 7390,
+      "first_seen": "Resistance movement in Auschwitz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "baotou": {
+      "token_id": 7117,
+      "first_seen": "China National Highway 110",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zhangjiakou": {
+      "token_id": 1378,
+      "first_seen": "China National Highway 110",
+      "has_definition": false,
+      "definition": ""
+    },
+    "qingtongxia": {
+      "token_id": 2109,
+      "first_seen": "China National Highway 110",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yinchuan": {
+      "token_id": 5997,
+      "first_seen": "China National Highway 110",
+      "has_definition": false,
+      "definition": ""
+    },
+    "triac": {
+      "token_id": 7161,
+      "first_seen": "TRIAC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "genericized": {
+      "token_id": 511,
+      "first_seen": "TRIAC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "three-terminal": {
+      "token_id": 6384,
+      "first_seen": "TRIAC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tridens": {
+      "token_id": 5671,
+      "first_seen": "Gnephosis tridens",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cypselas": {
+      "token_id": 2313,
+      "first_seen": "Gnephosis tridens",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gnephosis": {
+      "token_id": 2939,
+      "first_seen": "Gnephosis tridens",
+      "has_definition": false,
+      "definition": ""
+    },
+    "purplish": {
+      "token_id": 3981,
+      "first_seen": "Gnephosis tridens",
+      "has_definition": false,
+      "definition": ""
+    },
+    "burlesques": {
+      "token_id": 5991,
+      "first_seen": "Arthur Roberts (comedian)",
+      "has_definition": true,
+      "definition": "A derisive art form that mocks by imitation; a parody."
+    },
+    "dames": {
+      "token_id": 4141,
+      "first_seen": "Arthur Roberts (comedian)",
+      "has_definition": true,
+      "definition": "Usually capitalized as Dame: a title equivalent to Sir for a female knight."
+    },
+    "gagging": {
+      "token_id": 4866,
+      "first_seen": "Arthur Roberts (comedian)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pantomime": {
+      "token_id": 2631,
+      "first_seen": "Arthur Roberts (comedian)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "riviera": {
+      "token_id": 2399,
+      "first_seen": "Marsh Barton railway station",
+      "has_definition": true,
+      "definition": "Any coastal area popular with tourists."
+    },
+    "exe": {
+      "token_id": 588,
+      "first_seen": "Marsh Barton railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "starcross": {
+      "token_id": 4750,
+      "first_seen": "Marsh Barton railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "davids": {
+      "token_id": 740,
+      "first_seen": "Marsh Barton railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stability": {
+      "token_id": 5711,
+      "first_seen": "Fathi Bashagha",
+      "has_definition": true,
+      "definition": "The condition of being stable or in equilibrium, and thus resistant to change."
+    },
+    "bashagha": {
+      "token_id": 2538,
+      "first_seen": "Fathi Bashagha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fathi": {
+      "token_id": 2490,
+      "first_seen": "Fathi Bashagha",
+      "has_definition": false,
+      "definition": ""
+    },
+    "softkey": {
+      "token_id": 6923,
+      "first_seen": "Under Pressure and Pressure Drop",
+      "has_definition": false,
+      "definition": ""
+    },
+    "starhill": {
+      "token_id": 4664,
+      "first_seen": "Under Pressure and Pressure Drop",
+      "has_definition": false,
+      "definition": ""
+    },
+    "itabashi": {
+      "token_id": 1764,
+      "first_seen": "Toshima",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bunkyo": {
+      "token_id": 353,
+      "first_seen": "Toshima",
+      "has_definition": false,
+      "definition": ""
+    },
+    "toshima": {
+      "token_id": 2707,
+      "first_seen": "Toshima",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nerima": {
+      "token_id": 4491,
+      "first_seen": "Toshima",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 9297,
-  "total_words": 46603
+  "total_articles": 9327,
+  "total_words": 46708
 }
