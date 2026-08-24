@@ -250631,8 +250631,572 @@
       "first_seen": "Skreia Line",
       "has_definition": false,
       "definition": ""
+    },
+    "north-south": {
+      "token_id": 3188,
+      "first_seen": "Aarey metro station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aarey": {
+      "token_id": 752,
+      "first_seen": "Aarey metro station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "helliniko": {
+      "token_id": 5398,
+      "first_seen": "Basketball at the 2004 Summer Olympics",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hellinikon": {
+      "token_id": 1705,
+      "first_seen": "Basketball at the 2004 Summer Olympics",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kenyatta": {
+      "token_id": 6780,
+      "first_seen": "Pennsylvania House of Representatives, District 181",
+      "has_definition": false,
+      "definition": ""
+    },
+    "citynampa": {
+      "token_id": 7692,
+      "first_seen": "Parma, Idaho",
+      "has_definition": false,
+      "definition": ""
+    },
+    "boise": {
+      "token_id": 6957,
+      "first_seen": "Parma, Idaho",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ocquier": {
+      "token_id": 5995,
+      "first_seen": "Church of Saint Remaclus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "clavier": {
+      "token_id": 4630,
+      "first_seen": "Church of Saint Remaclus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "remaclus": {
+      "token_id": 1314,
+      "first_seen": "Church of Saint Remaclus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "neuberger": {
+      "token_id": 5790,
+      "first_seen": "Sophia Mont\u00e9 Neuberger Loebinger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "loebinger's": {
+      "token_id": 6539,
+      "first_seen": "Sophia Mont\u00e9 Neuberger Loebinger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "predecessors": {
+      "token_id": 4678,
+      "first_seen": "Sophia Mont\u00e9 Neuberger Loebinger",
+      "has_definition": true,
+      "definition": "One who precedes; one who has preceded another in any state, position, office, etc.; one whom another follows or comes after, in any office or position."
+    },
+    "loebinger": {
+      "token_id": 1966,
+      "first_seen": "Sophia Mont\u00e9 Neuberger Loebinger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "galvanize": {
+      "token_id": 340,
+      "first_seen": "Sophia Mont\u00e9 Neuberger Loebinger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "orator": {
+      "token_id": 4510,
+      "first_seen": "Sophia Mont\u00e9 Neuberger Loebinger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "suffragists": {
+      "token_id": 7819,
+      "first_seen": "Sophia Mont\u00e9 Neuberger Loebinger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "activism": {
+      "token_id": 1955,
+      "first_seen": "Sophia Mont\u00e9 Neuberger Loebinger",
+      "has_definition": true,
+      "definition": "The practice of using action to achieve a result, such as political demonstration or a strike in support of or in opposition to an issue."
+    },
+    "pro-suffrage": {
+      "token_id": 7714,
+      "first_seen": "Sophia Mont\u00e9 Neuberger Loebinger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sophia": {
+      "token_id": 5279,
+      "first_seen": "Sophia Mont\u00e9 Neuberger Loebinger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "british-derived": {
+      "token_id": 6640,
+      "first_seen": "Sophia Mont\u00e9 Neuberger Loebinger",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sheldon": {
+      "token_id": 6202,
+      "first_seen": "Justice Society of America",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hourman": {
+      "token_id": 751,
+      "first_seen": "Justice Society of America",
+      "has_definition": false,
+      "definition": ""
+    },
+    "superheroes": {
+      "token_id": 3361,
+      "first_seen": "Justice Society of America",
+      "has_definition": true,
+      "definition": "Any kind of fantasy/science fiction crime-fighting character, often with supernatural powers or equipment, in popular children's and fantasy literature."
+    },
+    "jsa": {
+      "token_id": 2241,
+      "first_seen": "Justice Society of America",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hawkman": {
+      "token_id": 3344,
+      "first_seen": "Justice Society of America",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cyberespionage": {
+      "token_id": 5773,
+      "first_seen": "Shanghai State Security Bureau",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mss": {
+      "token_id": 1361,
+      "first_seen": "Shanghai State Security Bureau",
+      "has_definition": false,
+      "definition": ""
+    },
+    "secrecy": {
+      "token_id": 2526,
+      "first_seen": "Shanghai State Security Bureau",
+      "has_definition": true,
+      "definition": "Concealment; the condition of being secret or hidden."
+    },
+    "sarangan": {
+      "token_id": 6905,
+      "first_seen": "Sarangan, Indonesia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "plaosan": {
+      "token_id": 5235,
+      "first_seen": "Sarangan, Indonesia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "magetan": {
+      "token_id": 1483,
+      "first_seen": "Sarangan, Indonesia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barisal": {
+      "token_id": 3873,
+      "first_seen": "Pankaj Nath",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nath": {
+      "token_id": 7970,
+      "first_seen": "Pankaj Nath",
+      "has_definition": false,
+      "definition": ""
+    },
+    "five-album": {
+      "token_id": 7938,
+      "first_seen": "Cay\u00f3",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cay": {
+      "token_id": 1600,
+      "first_seen": "Cay\u00f3",
+      "has_definition": false,
+      "definition": ""
+    },
+    "omitted": {
+      "token_id": 780,
+      "first_seen": "Cay\u00f3",
+      "has_definition": false,
+      "definition": ""
+    },
+    "divaexperimental": {
+      "token_id": 6935,
+      "first_seen": "Cay\u00f3",
+      "has_definition": false,
+      "definition": ""
+    },
+    "xl": {
+      "token_id": 1213,
+      "first_seen": "Cay\u00f3",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hecker": {
+      "token_id": 6924,
+      "first_seen": "Cay\u00f3",
+      "has_definition": false,
+      "definition": ""
+    },
+    "slovene": {
+      "token_id": 3591,
+      "first_seen": "Andrej Medved",
+      "has_definition": false,
+      "definition": ""
+    },
+    "medved": {
+      "token_id": 4676,
+      "first_seen": "Andrej Medved",
+      "has_definition": false,
+      "definition": ""
+    },
+    "andrej": {
+      "token_id": 5033,
+      "first_seen": "Andrej Medved",
+      "has_definition": false,
+      "definition": ""
+    },
+    "globulus": {
+      "token_id": 510,
+      "first_seen": "Tellimagrandin I",
+      "has_definition": false,
+      "definition": ""
+    },
+    "galloyl": {
+      "token_id": 476,
+      "first_seen": "Tellimagrandin I",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tellimagrandin": {
+      "token_id": 3894,
+      "first_seen": "Tellimagrandin I",
+      "has_definition": false,
+      "definition": ""
+    },
+    "canadensis": {
+      "token_id": 5925,
+      "first_seen": "Tellimagrandin I",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pedunculagin": {
+      "token_id": 3662,
+      "first_seen": "Tellimagrandin I",
+      "has_definition": false,
+      "definition": ""
+    },
+    "styphelioides": {
+      "token_id": 3593,
+      "first_seen": "Tellimagrandin I",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hexahydroxydiphenyl": {
+      "token_id": 7483,
+      "first_seen": "Tellimagrandin I",
+      "has_definition": false,
+      "definition": ""
+    },
+    "monomers": {
+      "token_id": 1306,
+      "first_seen": "Tellimagrandin I",
+      "has_definition": false,
+      "definition": ""
+    },
+    "punigluconin": {
+      "token_id": 6572,
+      "first_seen": "Tellimagrandin I",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ellagitannin": {
+      "token_id": 610,
+      "first_seen": "Tellimagrandin I",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cornus": {
+      "token_id": 2088,
+      "first_seen": "Tellimagrandin I",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rugosa": {
+      "token_id": 7445,
+      "first_seen": "Tellimagrandin I",
+      "has_definition": true,
+      "definition": "A plant of the rose species Rosa rugosa, or of any hybrid developed from it."
+    },
+    "performance-oriented": {
+      "token_id": 5645,
+      "first_seen": "Anjali (actress)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nandi": {
+      "token_id": 4296,
+      "first_seen": "Anjali (actress)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "immigrating": {
+      "token_id": 2836,
+      "first_seen": "Drown (short story collection)",
+      "has_definition": true,
+      "definition": "To move into a foreign country to stay permanently."
+    },
+    "junot": {
+      "token_id": 4109,
+      "first_seen": "Drown (short story collection)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "drown": {
+      "token_id": 4126,
+      "first_seen": "Drown (short story collection)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "semi-autobiographical": {
+      "token_id": 2829,
+      "first_seen": "Drown (short story collection)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dominican-american": {
+      "token_id": 2111,
+      "first_seen": "Drown (short story collection)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "semblance": {
+      "token_id": 86,
+      "first_seen": "Drown (short story collection)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hker": {
+      "token_id": 7692,
+      "first_seen": "Boot!",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flaten": {
+      "token_id": 4701,
+      "first_seen": "Boot!",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nilssen-love": {
+      "token_id": 199,
+      "first_seen": "Boot!",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gustafsson": {
+      "token_id": 5346,
+      "first_seen": "Boot!",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mats": {
+      "token_id": 3685,
+      "first_seen": "Boot!",
+      "has_definition": true,
+      "definition": "A flat piece of coarse material used for wiping one\u2019s feet, or as a decorative or protective floor covering."
+    },
+    "ingebrigt": {
+      "token_id": 633,
+      "first_seen": "Boot!",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paal": {
+      "token_id": 1155,
+      "first_seen": "Boot!",
+      "has_definition": false,
+      "definition": ""
+    },
+    "christo": {
+      "token_id": 2229,
+      "first_seen": "Frei Betto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "betto": {
+      "token_id": 1566,
+      "first_seen": "Frei Betto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "libnio": {
+      "token_id": 1083,
+      "first_seen": "Frei Betto",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kindite": {
+      "token_id": 1218,
+      "first_seen": "Kingdom of Kinda",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hujrid": {
+      "token_id": 899,
+      "first_seen": "Kingdom of Kinda",
+      "has_definition": false,
+      "definition": ""
+    },
+    "durand": {
+      "token_id": 1164,
+      "first_seen": "In Search of Sunrise 11: Las Vegas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "myon": {
+      "token_id": 1345,
+      "first_seen": "In Search of Sunrise 11: Las Vegas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trance": {
+      "token_id": 978,
+      "first_seen": "In Search of Sunrise 11: Las Vegas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "colorados": {
+      "token_id": 7355,
+      "first_seen": "Sierra de Famatina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "famatina": {
+      "token_id": 4457,
+      "first_seen": "Sierra de Famatina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "antinaco-los": {
+      "token_id": 7166,
+      "first_seen": "Sierra de Famatina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sierras": {
+      "token_id": 1401,
+      "first_seen": "Sierra de Famatina",
+      "has_definition": true,
+      "definition": "A rugged range of mountains."
+    },
+    "bermejo": {
+      "token_id": 731,
+      "first_seen": "Sierra de Famatina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pampeanas": {
+      "token_id": 3555,
+      "first_seen": "Sierra de Famatina",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lanthimos": {
+      "token_id": 5791,
+      "first_seen": "Tony McNamara (writer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "deborah": {
+      "token_id": 1968,
+      "first_seen": "Tony McNamara (writer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yorgos": {
+      "token_id": 7912,
+      "first_seen": "Tony McNamara (writer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "latowicz": {
+      "token_id": 1592,
+      "first_seen": "Kamionka, Gmina Latowicz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kamionka": {
+      "token_id": 6307,
+      "first_seen": "Kamionka, Gmina Latowicz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "east-central": {
+      "token_id": 4490,
+      "first_seen": "Kamionka, Gmina Latowicz",
+      "has_definition": false,
+      "definition": ""
+    },
+    "overload": {
+      "token_id": 3242,
+      "first_seen": "Overload (EP)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "xdinary": {
+      "token_id": 6836,
+      "first_seen": "Overload (EP)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jaromr": {
+      "token_id": 676,
+      "first_seen": "Jarom\u00edr Bla\u017eek",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blaek": {
+      "token_id": 7288,
+      "first_seen": "Jarom\u00edr Bla\u017eek",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 7948,
-  "total_words": 41772
+  "total_articles": 7978,
+  "total_words": 41866
 }
