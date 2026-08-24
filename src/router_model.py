@@ -1,7 +1,7 @@
 """
 Senate AI - Router Neural Network
-Real neural network that learns which senators to activate for each question.
-Trains with backpropagation, uses Puter.js AI for data generation.
+Real neural network that learns which senators to activate.
+Uses Puter.js AI for data generation.
 """
 
 import os
@@ -10,9 +10,6 @@ import json
 import torch
 import torch.nn as nn
 import random
-import glob
-import math
-import numpy as np
 from pathlib import Path
 from ai_client import call_ai
 
@@ -115,12 +112,10 @@ def generate_training_data(num_samples=500):
     print("Generating training data with Puter.js AI...")
     
     prompt = f"""Generate {num_samples} diverse questions covering many topics.
-Each question should be about a different subject: math, science, history, programming, 
-philosophy, art, music, geography, psychology, economics, law, medicine, etc.
+Each question should be about a different subject.
 For each question, list which topics are relevant.
 
-Return as JSON array: [{{"question": "...", "topics": ["topic1", "topic2"], "grade": 1-5}}, ...]
-Grade 5 means a perfect clear question, 1 means vague."""
+Return as JSON array: [{"question": "...", "topics": ["topic1", "topic2"], "grade": 1-5}]"""
     
     response = call_ai(prompt, max_tokens=2000)
     
