@@ -286811,8 +286811,596 @@
       "first_seen": "Mike Kellerman",
       "has_definition": false,
       "definition": ""
+    },
+    "hackett": {
+      "token_id": 6263,
+      "first_seen": "Assignment to Kill",
+      "has_definition": false,
+      "definition": ""
+    },
+    "panavision": {
+      "token_id": 5941,
+      "first_seen": "Assignment to Kill",
+      "has_definition": false,
+      "definition": ""
+    },
+    "homolka": {
+      "token_id": 5739,
+      "first_seen": "Assignment to Kill",
+      "has_definition": false,
+      "definition": ""
+    },
+    "oskar": {
+      "token_id": 339,
+      "first_seen": "Assignment to Kill",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gielgud": {
+      "token_id": 1003,
+      "first_seen": "Assignment to Kill",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cann": {
+      "token_id": 1364,
+      "first_seen": "Cann River, Victoria",
+      "has_definition": false,
+      "definition": ""
+    },
+    "monaro": {
+      "token_id": 1117,
+      "first_seen": "Cann River, Victoria",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sokze": {
+      "token_id": 6682,
+      "first_seen": "Song Sokze",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mogyord": {
+      "token_id": 7592,
+      "first_seen": "1999 Hungarian Grand Prix",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hungaroring": {
+      "token_id": 6149,
+      "first_seen": "1999 Hungarian Grand Prix",
+      "has_definition": false,
+      "definition": ""
+    },
+    "heeswijk": {
+      "token_id": 3437,
+      "first_seen": "Heeswijk, Utrecht",
+      "has_definition": false,
+      "definition": ""
+    },
+    "montfoort": {
+      "token_id": 7394,
+      "first_seen": "Heeswijk, Utrecht",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ijsselstein": {
+      "token_id": 6120,
+      "first_seen": "Heeswijk, Utrecht",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gladstone": {
+      "token_id": 3409,
+      "first_seen": "Gladstone Peak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "uncompahgre": {
+      "token_id": 5036,
+      "first_seen": "Gladstone Peak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "suspect": {
+      "token_id": 1104,
+      "first_seen": "Murder book",
+      "has_definition": true,
+      "definition": "A person who is suspected of something, in particular of committing a crime."
+    },
+    "autopsy": {
+      "token_id": 5401,
+      "first_seen": "Murder book",
+      "has_definition": true,
+      "definition": "A dissection performed on a cadaver to find possible cause(s) of death."
+    },
+    "forensic": {
+      "token_id": 2581,
+      "first_seen": "Murder book",
+      "has_definition": true,
+      "definition": "Relating to the use of science and technology in the investigation and establishment of facts or evidence in a court of law."
+    },
+    "parlance": {
+      "token_id": 6482,
+      "first_seen": "Murder book",
+      "has_definition": true,
+      "definition": "A certain way of speaking, of using words, especially when it comes to those with a particular job or interest."
+    },
+    "investigators": {
+      "token_id": 4932,
+      "first_seen": "Murder book",
+      "has_definition": true,
+      "definition": "One who investigates."
+    },
+    "encapsulates": {
+      "token_id": 7203,
+      "first_seen": "Murder book",
+      "has_definition": true,
+      "definition": "To enclose something as if in a capsule."
+    },
+    "o'dowd": {
+      "token_id": 4040,
+      "first_seen": "Frequently Asked Questions About Time Travel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "faris": {
+      "token_id": 6966,
+      "first_seen": "Frequently Asked Questions About Time Travel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mathieson": {
+      "token_id": 2219,
+      "first_seen": "Frequently Asked Questions About Time Travel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "carrivick": {
+      "token_id": 6637,
+      "first_seen": "Frequently Asked Questions About Time Travel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "meghna": {
+      "token_id": 6669,
+      "first_seen": "Meghna Chakrabarti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wbur": {
+      "token_id": 600,
+      "first_seen": "Meghna Chakrabarti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chakrabarti": {
+      "token_id": 7758,
+      "first_seen": "Meghna Chakrabarti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fill-in": {
+      "token_id": 39,
+      "first_seen": "Meghna Chakrabarti",
+      "has_definition": true,
+      "definition": "A temporary replacement for another, especially at a job."
+    },
+    "oldtown": {
+      "token_id": 2629,
+      "first_seen": "Great Council State Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "optimizations": {
+      "token_id": 5192,
+      "first_seen": "Roofline model",
+      "has_definition": true,
+      "definition": "The design and operation of a system or process to make it as good as possible in some defined sense."
+    },
+    "parallelization": {
+      "token_id": 6382,
+      "first_seen": "Roofline model",
+      "has_definition": false,
+      "definition": ""
+    },
+    "percent-of-peak": {
+      "token_id": 6218,
+      "first_seen": "Roofline model",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paradigms": {
+      "token_id": 6794,
+      "first_seen": "Roofline model",
+      "has_definition": false,
+      "definition": ""
+    },
+    "compute": {
+      "token_id": 2810,
+      "first_seen": "Roofline model",
+      "has_definition": true,
+      "definition": "Computational power"
+    },
+    "intuitive": {
+      "token_id": 3046,
+      "first_seen": "Roofline model",
+      "has_definition": true,
+      "definition": "One who has (especially parapsychological) intuition."
+    },
+    "multi-core": {
+      "token_id": 1341,
+      "first_seen": "Roofline model",
+      "has_definition": false,
+      "definition": ""
+    },
+    "processor": {
+      "token_id": 5985,
+      "first_seen": "Roofline model",
+      "has_definition": true,
+      "definition": "A person or institution who processes things (foods, photos, applications, etc.)."
+    },
+    "many-core": {
+      "token_id": 6646,
+      "first_seen": "Roofline model",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nudipleura": {
+      "token_id": 1024,
+      "first_seen": "Nudipleura",
+      "has_definition": false,
+      "definition": ""
+    },
+    "heterobranchia": {
+      "token_id": 2566,
+      "first_seen": "Nudipleura",
+      "has_definition": false,
+      "definition": ""
+    },
+    "superorder": {
+      "token_id": 2764,
+      "first_seen": "Nudipleura",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anglo-portuguese": {
+      "token_id": 3897,
+      "first_seen": "5th Infantry Division (United Kingdom)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blacks": {
+      "token_id": 766,
+      "first_seen": "George Bullock-Douglas",
+      "has_definition": true,
+      "definition": "The colour/color perceived in the absence of light, but also when no light is reflected, but rather absorbed."
+    },
+    "whanganui": {
+      "token_id": 7318,
+      "first_seen": "George Bullock-Douglas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "internationals": {
+      "token_id": 1370,
+      "first_seen": "George Bullock-Douglas",
+      "has_definition": true,
+      "definition": "Someone who has represented their country in a particular sport."
+    },
+    "bullock-douglas": {
+      "token_id": 6303,
+      "first_seen": "George Bullock-Douglas",
+      "has_definition": false,
+      "definition": ""
+    },
+    "three-quarter": {
+      "token_id": 484,
+      "first_seen": "George Bullock-Douglas",
+      "has_definition": true,
+      "definition": "A player positioned between the half-backs and the full-backs (properly a three-quarter back)"
+    },
+    "intercessory": {
+      "token_id": 6147,
+      "first_seen": "Holy Spirit Adoration Sisters",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sacrament": {
+      "token_id": 2875,
+      "first_seen": "Holy Spirit Adoration Sisters",
+      "has_definition": true,
+      "definition": "A sacred act or ceremony in Christianity. In Catholic theology, a sacrament is defined as \"an outward sign instituted by Christ to give grace.\""
+    },
+    "adoration": {
+      "token_id": 2253,
+      "first_seen": "Holy Spirit Adoration Sisters",
+      "has_definition": true,
+      "definition": "An act of religious worship."
+    },
+    "rose-colored": {
+      "token_id": 1293,
+      "first_seen": "Holy Spirit Adoration Sisters",
+      "has_definition": true,
+      "definition": "Having a pink colour"
+    },
+    "tunics": {
+      "token_id": 1755,
+      "first_seen": "Holy Spirit Adoration Sisters",
+      "has_definition": false,
+      "definition": ""
+    },
+    "contemplative": {
+      "token_id": 6565,
+      "first_seen": "Holy Spirit Adoration Sisters",
+      "has_definition": true,
+      "definition": "Someone who has dedicated themselves to religious contemplation."
+    },
+    "bungalow": {
+      "token_id": 5992,
+      "first_seen": "South Wayne Historic District (Fort Wayne, Indiana)",
+      "has_definition": true,
+      "definition": "A single-storey house, typically with rooms all on one level, or sometimes also with upper rooms set into the roof space."
+    },
+    "sport's": {
+      "token_id": 1631,
+      "first_seen": "St Kilda Football Club",
+      "has_definition": false,
+      "definition": ""
+    },
+    "armida": {
+      "token_id": 3315,
+      "first_seen": "Wings of Adventure",
+      "has_definition": false,
+      "definition": ""
+    },
+    "squarethe": {
+      "token_id": 615,
+      "first_seen": "St Vincent Place",
+      "has_definition": false,
+      "definition": ""
+    },
+    "regencystyle": {
+      "token_id": 7279,
+      "first_seen": "St Vincent Place",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nineteenthcentury": {
+      "token_id": 6732,
+      "first_seen": "St Vincent Place",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gardensa": {
+      "token_id": 2644,
+      "first_seen": "St Vincent Place",
+      "has_definition": false,
+      "definition": ""
+    },
+    "landscaped": {
+      "token_id": 5444,
+      "first_seen": "St Vincent Place",
+      "has_definition": true,
+      "definition": "To create or maintain a landscape."
+    },
+    "inner-city": {
+      "token_id": 4388,
+      "first_seen": "St Vincent Place",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ymo": {
+      "token_id": 6684,
+      "first_seen": "Wild Sketch Show",
+      "has_definition": false,
+      "definition": ""
+    },
+    "keyboardists": {
+      "token_id": 5169,
+      "first_seen": "Wild Sketch Show",
+      "has_definition": true,
+      "definition": "Someone who plays a keyboard."
+    },
+    "ryuichi": {
+      "token_id": 6715,
+      "first_seen": "Wild Sketch Show",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ascomycetous": {
+      "token_id": 1549,
+      "first_seen": "Xylaria",
+      "has_definition": false,
+      "definition": ""
+    },
+    "xlon": {
+      "token_id": 372,
+      "first_seen": "Xylaria",
+      "has_definition": false,
+      "definition": ""
+    },
+    "xylaria": {
+      "token_id": 3001,
+      "first_seen": "Xylaria",
+      "has_definition": false,
+      "definition": ""
+    },
+    "daguerreotype": {
+      "token_id": 2577,
+      "first_seen": "Ambrotype",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ambrotypes": {
+      "token_id": 811,
+      "first_seen": "Ambrotype",
+      "has_definition": false,
+      "definition": ""
+    },
+    "polaroid": {
+      "token_id": 4400,
+      "first_seen": "Ambrotype",
+      "has_definition": false,
+      "definition": ""
+    },
+    "duplicated": {
+      "token_id": 7081,
+      "first_seen": "Ambrotype",
+      "has_definition": true,
+      "definition": "To make a copy of."
+    },
+    "collodion": {
+      "token_id": 990,
+      "first_seen": "Ambrotype",
+      "has_definition": true,
+      "definition": "A syrupy solution of pyroxylin in alcohol and ether that evaporates on a surface to form a clear elastic film; used in surgical dressings, photographic plates and lacquer paints."
+    },
+    "ambrotype": {
+      "token_id": 1912,
+      "first_seen": "Ambrotype",
+      "has_definition": false,
+      "definition": ""
+    },
+    "debartolo": {
+      "token_id": 69,
+      "first_seen": "Bay Park Square",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ashwaubenon": {
+      "token_id": 1133,
+      "first_seen": "Bay Park Square",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lambeau": {
+      "token_id": 3369,
+      "first_seen": "Bay Park Square",
+      "has_definition": false,
+      "definition": ""
+    },
+    "saint-cyr-sur-menthon": {
+      "token_id": 4840,
+      "first_seen": "Saint-Cyr-sur-Menthon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "habonim": {
+      "token_id": 6443,
+      "first_seen": "HaBonim, Israel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nahsholim": {
+      "token_id": 3730,
+      "first_seen": "HaBonim, Israel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hacarmel": {
+      "token_id": 5907,
+      "first_seen": "HaBonim, Israel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "atlit": {
+      "token_id": 6273,
+      "first_seen": "HaBonim, Israel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shitufi": {
+      "token_id": 41,
+      "first_seen": "HaBonim, Israel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aguas": {
+      "token_id": 5140,
+      "first_seen": "Antillanca Group",
+      "has_definition": false,
+      "definition": ""
+    },
+    "puyehue": {
+      "token_id": 1044,
+      "first_seen": "Antillanca Group",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rupanco": {
+      "token_id": 4738,
+      "first_seen": "Antillanca Group",
+      "has_definition": false,
+      "definition": ""
+    },
+    "scoria": {
+      "token_id": 1233,
+      "first_seen": "Antillanca Group",
+      "has_definition": true,
+      "definition": "The slag or dross that remains after the smelting of metal from an ore."
+    },
+    "antillanca": {
+      "token_id": 2115,
+      "first_seen": "Antillanca Group",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cones": {
+      "token_id": 3240,
+      "first_seen": "Antillanca Group",
+      "has_definition": true,
+      "definition": "A surface of revolution formed by rotating a segment of a line around another line that intersects the first line."
+    },
+    "calientes": {
+      "token_id": 930,
+      "first_seen": "Antillanca Group",
+      "has_definition": false,
+      "definition": ""
+    },
+    "play-by-mail": {
+      "token_id": 2277,
+      "first_seen": "Flagship (magazine)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pbm": {
+      "token_id": 3388,
+      "first_seen": "Flagship (magazine)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "american-appointed": {
+      "token_id": 453,
+      "first_seen": "Salvador Brau",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brau": {
+      "token_id": 513,
+      "first_seen": "Salvador Brau",
+      "has_definition": false,
+      "definition": ""
+    },
+    "asencio": {
+      "token_id": 4071,
+      "first_seen": "Salvador Brau",
+      "has_definition": false,
+      "definition": ""
+    },
+    "petties": {
+      "token_id": 3710,
+      "first_seen": "DJ Paul",
+      "has_definition": false,
+      "definition": ""
+    },
+    "half-brother": {
+      "token_id": 4753,
+      "first_seen": "DJ Paul",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 9627,
-  "total_words": 47802
+  "total_articles": 9657,
+  "total_words": 47900
 }
