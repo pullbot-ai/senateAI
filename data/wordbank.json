@@ -293675,8 +293675,596 @@
       "first_seen": "Roshan Prince",
       "has_definition": false,
       "definition": ""
+    },
+    "nls": {
+      "token_id": 4307,
+      "first_seen": "North Leamington School",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lowdell": {
+      "token_id": 1199,
+      "first_seen": "North Leamington School",
+      "has_definition": false,
+      "definition": ""
+    },
+    "featherstone": {
+      "token_id": 2908,
+      "first_seen": "Family of Cops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cops": {
+      "token_id": 2153,
+      "first_seen": "Family of Cops",
+      "has_definition": true,
+      "definition": "A spider."
+    },
+    "trimark": {
+      "token_id": 3516,
+      "first_seen": "Family of Cops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kotcheff": {
+      "token_id": 3818,
+      "first_seen": "Family of Cops",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flatfish": {
+      "token_id": 4137,
+      "first_seen": "Tephrinectes",
+      "has_definition": true,
+      "definition": "A fish of the order Pleuronectiformes, the adults of which have both eyes on one side and usually swim with the other side down, such as a flounder, a halibut, or a sole."
+    },
+    "large-tooth": {
+      "token_id": 4338,
+      "first_seen": "Tephrinectes",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tephrinectes": {
+      "token_id": 7747,
+      "first_seen": "Tephrinectes",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paralichthyidae": {
+      "token_id": 4205,
+      "first_seen": "Tephrinectes",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flounders": {
+      "token_id": 3662,
+      "first_seen": "Tephrinectes",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bingo": {
+      "token_id": 4882,
+      "first_seen": "Bingo card",
+      "has_definition": true,
+      "definition": "A game of chance for two or more players, who mark off numbers on a grid as they are announced by the caller; the game is won by the first person to call out \"bingo!\" or \"house!\" after crossing off all numbers on the grid or in one line of the grid."
+    },
+    "deleila": {
+      "token_id": 2704,
+      "first_seen": "Deleila Piasko",
+      "has_definition": false,
+      "definition": ""
+    },
+    "piasko": {
+      "token_id": 5511,
+      "first_seen": "Deleila Piasko",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fittko": {
+      "token_id": 6133,
+      "first_seen": "Deleila Piasko",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aguilera": {
+      "token_id": 863,
+      "first_seen": "Miss Independent (Kelly Clarkson song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thankful": {
+      "token_id": 1016,
+      "first_seen": "Miss Independent (Kelly Clarkson song)",
+      "has_definition": true,
+      "definition": "Showing appreciation or gratitude."
+    },
+    "aguilera's": {
+      "token_id": 4567,
+      "first_seen": "Miss Independent (Kelly Clarkson song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "half-finished": {
+      "token_id": 47,
+      "first_seen": "Miss Independent (Kelly Clarkson song)",
+      "has_definition": true,
+      "definition": "Only partially completed, being approximately at the halfway stage."
+    },
+    "graecismus": {
+      "token_id": 5501,
+      "first_seen": "Eberhard of B\u00e9thune",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bthune": {
+      "token_id": 7460,
+      "first_seen": "Eberhard of B\u00e9thune",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mahale": {
+      "token_id": 6655,
+      "first_seen": "Uvinza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kasulu": {
+      "token_id": 6352,
+      "first_seen": "Uvinza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kigoma-ujiji": {
+      "token_id": 6011,
+      "first_seen": "Uvinza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kigoma": {
+      "token_id": 2774,
+      "first_seen": "Uvinza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mpanda": {
+      "token_id": 1547,
+      "first_seen": "Uvinza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chimpanzees": {
+      "token_id": 5577,
+      "first_seen": "Uvinza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "katavi": {
+      "token_id": 2280,
+      "first_seen": "Uvinza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tabora": {
+      "token_id": 5937,
+      "first_seen": "Uvinza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kaliua": {
+      "token_id": 5261,
+      "first_seen": "Uvinza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "uvinza": {
+      "token_id": 1793,
+      "first_seen": "Uvinza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vinza": {
+      "token_id": 4061,
+      "first_seen": "Uvinza",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kuran": {
+      "token_id": 6724,
+      "first_seen": "Kuran wa Munjan District",
+      "has_definition": false,
+      "definition": ""
+    },
+    "munjan": {
+      "token_id": 6894,
+      "first_seen": "Kuran wa Munjan District",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kurn": {
+      "token_id": 957,
+      "first_seen": "Kuran wa Munjan District",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aw": {
+      "token_id": 5217,
+      "first_seen": "Kuran wa Munjan District",
+      "has_definition": true,
+      "definition": "An instance of aw."
+    },
+    "munjn": {
+      "token_id": 5260,
+      "first_seen": "Kuran wa Munjan District",
+      "has_definition": false,
+      "definition": ""
+    },
+    "adagio": {
+      "token_id": 6282,
+      "first_seen": "Adagio and Fugue in C minor (Mozart)",
+      "has_definition": true,
+      "definition": "A tempo mark directing that a passage is to be played rather slowly, leisurely and gracefully."
+    },
+    "violins": {
+      "token_id": 7988,
+      "first_seen": "Adagio and Fugue in C minor (Mozart)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "poeteditor": {
+      "token_id": 7155,
+      "first_seen": "Kana preface",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tsurayuki": {
+      "token_id": 5750,
+      "first_seen": "Kana preface",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yoshimochi's": {
+      "token_id": 4548,
+      "first_seen": "Kana preface",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kana": {
+      "token_id": 3150,
+      "first_seen": "Kana preface",
+      "has_definition": false,
+      "definition": ""
+    },
+    "karon": {
+      "token_id": 2204,
+      "first_seen": "Kana preface",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wakash": {
+      "token_id": 4637,
+      "first_seen": "Kana preface",
+      "has_definition": false,
+      "definition": ""
+    },
+    "prefaces": {
+      "token_id": 7756,
+      "first_seen": "Kana preface",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kokin": {
+      "token_id": 818,
+      "first_seen": "Kana preface",
+      "has_definition": false,
+      "definition": ""
+    },
+    "waka": {
+      "token_id": 393,
+      "first_seen": "Kana preface",
+      "has_definition": true,
+      "definition": "A kind of classical Japanese poem."
+    },
+    "mana-jo": {
+      "token_id": 2354,
+      "first_seen": "Kana preface",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cornthwaite": {
+      "token_id": 5068,
+      "first_seen": "Cornthwaite John Hector",
+      "has_definition": false,
+      "definition": ""
+    },
+    "near-coastal": {
+      "token_id": 4135,
+      "first_seen": "Styphelia margarodes",
+      "has_definition": false,
+      "definition": ""
+    },
+    "styphelia": {
+      "token_id": 112,
+      "first_seen": "Styphelia margarodes",
+      "has_definition": false,
+      "definition": ""
+    },
+    "margarodes": {
+      "token_id": 6181,
+      "first_seen": "Styphelia margarodes",
+      "has_definition": false,
+      "definition": ""
+    },
+    "narrower": {
+      "token_id": 2052,
+      "first_seen": "Styphelia margarodes",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lugar": {
+      "token_id": 3137,
+      "first_seen": "De Outro Lugar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "outro": {
+      "token_id": 5047,
+      "first_seen": "De Outro Lugar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "joana": {
+      "token_id": 6523,
+      "first_seen": "De Outro Lugar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guilhon": {
+      "token_id": 3595,
+      "first_seen": "De Outro Lugar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "far-right": {
+      "token_id": 6248,
+      "first_seen": "Anti-gender movement",
+      "has_definition": false,
+      "definition": ""
+    },
+    "right-wing": {
+      "token_id": 1051,
+      "first_seen": "Anti-gender movement",
+      "has_definition": true,
+      "definition": "Of political ideologies: opposing political and social equality; especially conservative, traditional and/or reactionary politics."
+    },
+    "norms": {
+      "token_id": 781,
+      "first_seen": "Anti-gender movement",
+      "has_definition": true,
+      "definition": "That which is normal or typical."
+    },
+    "anti-gender": {
+      "token_id": 4256,
+      "first_seen": "Anti-gender movement",
+      "has_definition": false,
+      "definition": ""
+    },
+    "progressivism": {
+      "token_id": 1308,
+      "first_seen": "Anti-gender movement",
+      "has_definition": false,
+      "definition": ""
+    },
+    "caldicott": {
+      "token_id": 5037,
+      "first_seen": "Rehobeth, Maryland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rehobeth": {
+      "token_id": 5169,
+      "first_seen": "Rehobeth, Maryland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pocomoke": {
+      "token_id": 1746,
+      "first_seen": "Rehobeth, Maryland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "forsythe": {
+      "token_id": 7747,
+      "first_seen": "George I. Forsythe",
+      "has_definition": false,
+      "definition": ""
+    },
+    "burrs": {
+      "token_id": 6410,
+      "first_seen": "Cenchrus echinatus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cenchrus": {
+      "token_id": 1624,
+      "first_seen": "Cenchrus echinatus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "clump-forming": {
+      "token_id": 1490,
+      "first_seen": "Cenchrus echinatus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barbed": {
+      "token_id": 3618,
+      "first_seen": "Cenchrus echinatus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ligule": {
+      "token_id": 6166,
+      "first_seen": "Cenchrus echinatus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sandspur": {
+      "token_id": 5411,
+      "first_seen": "Cenchrus echinatus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sandbur": {
+      "token_id": 1787,
+      "first_seen": "Cenchrus echinatus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "echinatus": {
+      "token_id": 4782,
+      "first_seen": "Cenchrus echinatus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "snowmelt": {
+      "token_id": 1327,
+      "first_seen": "Giant Springs",
+      "has_definition": true,
+      "definition": "Runoff from melting snow"
+    },
+    "first-magnitude": {
+      "token_id": 5170,
+      "first_seen": "Giant Springs",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shinsekai": {
+      "token_id": 1794,
+      "first_seen": "Festivalgate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nishinihon": {
+      "token_id": 4011,
+      "first_seen": "Festivalgate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nankai": {
+      "token_id": 6094,
+      "first_seen": "Festivalgate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shin-imamiya": {
+      "token_id": 4148,
+      "first_seen": "Festivalgate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "festivalgate": {
+      "token_id": 6991,
+      "first_seen": "Festivalgate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "naniwa": {
+      "token_id": 2094,
+      "first_seen": "Festivalgate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "roush": {
+      "token_id": 2848,
+      "first_seen": "2000 Dura Lube 300",
+      "has_definition": false,
+      "definition": ""
+    },
+    "labonte": {
+      "token_id": 5720,
+      "first_seen": "2000 Dura Lube 300",
+      "has_definition": false,
+      "definition": ""
+    },
+    "racing's": {
+      "token_id": 559,
+      "first_seen": "2000 Dura Lube 300",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dura": {
+      "token_id": 4964,
+      "first_seen": "2000 Dura Lube 300",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lube": {
+      "token_id": 3056,
+      "first_seen": "2000 Dura Lube 300",
+      "has_definition": true,
+      "definition": "Lubricant"
+    },
+    "one-offs": {
+      "token_id": 1784,
+      "first_seen": "Singles Collection Volume 3",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rarities": {
+      "token_id": 3432,
+      "first_seen": "Singles Collection Volume 3",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thee": {
+      "token_id": 4429,
+      "first_seen": "Singles Collection Volume 3",
+      "has_definition": true,
+      "definition": "To address (a person) using the pronoun thee."
+    },
+    "ulsan": {
+      "token_id": 6672,
+      "first_seen": "Ulsan Citizen FC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ninja": {
+      "token_id": 2552,
+      "first_seen": "Kawasaki Tomcat ZX-10",
+      "has_definition": true,
+      "definition": "An adult male human."
+    },
+    "cyclones": {
+      "token_id": 3080,
+      "first_seen": "Blake Buchanan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sukh": {
+      "token_id": 460,
+      "first_seen": "Shubh Sukh Chain",
+      "has_definition": false,
+      "definition": ""
+    },
+    "romanised": {
+      "token_id": 6680,
+      "first_seen": "Shubh Sukh Chain",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ubh": {
+      "token_id": 7187,
+      "first_seen": "Shubh Sukh Chain",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tzadik": {
+      "token_id": 1276,
+      "first_seen": "The Brill Building (album)",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 9957,
-  "total_words": 48946
+  "total_articles": 9987,
+  "total_words": 49044
 }
