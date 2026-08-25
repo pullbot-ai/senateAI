@@ -112,10 +112,13 @@ def generate_training_data(num_samples=500):
     print("Generating training data with Puter.js AI...")
     
     prompt = f"""Generate {num_samples} diverse questions covering many topics.
-Each question should be about a different subject.
+Each question should be about a different subject: math, science, history, programming,
+philosophy, art, music, geography, psychology, economics, law, medicine.
+
 For each question, list which topics are relevant.
 
-Return as JSON array: [{"question": "...", "topics": ["topic1", "topic2"], "grade": 1-5}]"""
+Return as JSON array where each item has question, topics, and grade fields.
+Grade 5 means perfect clear question, 1 means vague."""
     
     response = call_ai(prompt, max_tokens=2000)
     
