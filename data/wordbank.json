@@ -295967,8 +295967,626 @@
       "first_seen": "Kun\u017eak",
       "has_definition": false,
       "definition": ""
+    },
+    "ngada": {
+      "token_id": 7633,
+      "first_seen": "Ngada people",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bimasumba-speaking": {
+      "token_id": 929,
+      "first_seen": "Ngada people",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hbcrevon": {
+      "token_id": 7009,
+      "first_seen": "H\u00e9b\u00e9crevon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "threval": {
+      "token_id": 1467,
+      "first_seen": "H\u00e9b\u00e9crevon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sopranos": {
+      "token_id": 4776,
+      "first_seen": "Pine Barrens (The Sopranos)",
+      "has_definition": true,
+      "definition": "Musical part or section higher in pitch than alto and other sections."
+    },
+    "namorita": {
+      "token_id": 7457,
+      "first_seen": "Namorita",
+      "has_definition": false,
+      "definition": ""
+    },
+    "prentiss": {
+      "token_id": 4942,
+      "first_seen": "Namorita",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sub-mariner": {
+      "token_id": 7985,
+      "first_seen": "Namorita",
+      "has_definition": false,
+      "definition": ""
+    },
+    "atlanteans": {
+      "token_id": 1219,
+      "first_seen": "Namorita",
+      "has_definition": false,
+      "definition": ""
+    },
+    "superhuman": {
+      "token_id": 2393,
+      "first_seen": "Namorita",
+      "has_definition": true,
+      "definition": "A human being with remarkable abilities or superpowers."
+    },
+    "mutants": {
+      "token_id": 781,
+      "first_seen": "Namorita",
+      "has_definition": true,
+      "definition": "Something which has mutated, which has one or more new characteristics from a mutation."
+    },
+    "livia": {
+      "token_id": 2457,
+      "first_seen": "Livia Lang",
+      "has_definition": false,
+      "definition": ""
+    },
+    "solves": {
+      "token_id": 5682,
+      "first_seen": "Case Closed",
+      "has_definition": true,
+      "definition": "To find an answer or solution to a problem or question; to work out."
+    },
+    "school-age": {
+      "token_id": 7916,
+      "first_seen": "Case Closed",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kudo": {
+      "token_id": 3525,
+      "first_seen": "Case Closed",
+      "has_definition": false,
+      "definition": ""
+    },
+    "impersonating": {
+      "token_id": 6982,
+      "first_seen": "Case Closed",
+      "has_definition": true,
+      "definition": "To pretend to be (a different person); to assume the identity of."
+    },
+    "aoyama": {
+      "token_id": 3262,
+      "first_seen": "Case Closed",
+      "has_definition": false,
+      "definition": ""
+    },
+    "multitude": {
+      "token_id": 6227,
+      "first_seen": "Case Closed",
+      "has_definition": true,
+      "definition": "A great amount or number, often of people; abundance, myriad, profusion."
+    },
+    "ifis": {
+      "token_id": 3714,
+      "first_seen": "Food Science and Technology Abstracts",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fsta": {
+      "token_id": 2614,
+      "first_seen": "Food Science and Technology Abstracts",
+      "has_definition": false,
+      "definition": ""
+    },
+    "abstracts": {
+      "token_id": 6795,
+      "first_seen": "Food Science and Technology Abstracts",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gjirokastr": {
+      "token_id": 3406,
+      "first_seen": "Gjirokast\u00ebr National Folk Festival",
+      "has_definition": false,
+      "definition": ""
+    },
+    "martino": {
+      "token_id": 5257,
+      "first_seen": "Martino Pini",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pini": {
+      "token_id": 5507,
+      "first_seen": "Martino Pini",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hudson's": {
+      "token_id": 2478,
+      "first_seen": "Fort Boise",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rebuilds": {
+      "token_id": 2350,
+      "first_seen": "Fort Boise",
+      "has_definition": true,
+      "definition": "A process or result of rebuilding."
+    },
+    "hbc": {
+      "token_id": 7307,
+      "first_seen": "Fort Boise",
+      "has_definition": false,
+      "definition": ""
+    },
+    "three-spot": {
+      "token_id": 2020,
+      "first_seen": "Kaiser (card game)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kaiser": {
+      "token_id": 4930,
+      "first_seen": "Kaiser (card game)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "saki": {
+      "token_id": 2692,
+      "first_seen": "Red-backed bearded saki",
+      "has_definition": true,
+      "definition": "An alcoholic beverage made from fermenting various forms of rice, usually with an ABV similar to wine."
+    },
+    "new-world": {
+      "token_id": 5007,
+      "first_seen": "Red-backed bearded saki",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bearded": {
+      "token_id": 568,
+      "first_seen": "Red-backed bearded saki",
+      "has_definition": true,
+      "definition": "To grow hair on the chin and jaw."
+    },
+    "red-backed": {
+      "token_id": 3631,
+      "first_seen": "Red-backed bearded saki",
+      "has_definition": false,
+      "definition": ""
+    },
+    "crows": {
+      "token_id": 6995,
+      "first_seen": "Crows Fly Black",
+      "has_definition": true,
+      "definition": "A bird, usually black, of the genus Corvus, having a strong conical beak, with projecting bristles; it has a harsh, croaking call."
+    },
+    "fledged": {
+      "token_id": 745,
+      "first_seen": "Crows Fly Black",
+      "has_definition": true,
+      "definition": "To care for a young bird until it is capable of flight."
+    },
+    "acknowledge": {
+      "token_id": 4389,
+      "first_seen": "Crows Fly Black",
+      "has_definition": true,
+      "definition": "To admit the knowledge of; to recognize as a fact or truth; to declare one's belief in"
+    },
+    "tumple": {
+      "token_id": 5761,
+      "first_seen": "Crows Fly Black",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tommi": {
+      "token_id": 2809,
+      "first_seen": "Crows Fly Black",
+      "has_definition": false,
+      "definition": ""
+    },
+    "salmela": {
+      "token_id": 6442,
+      "first_seen": "Crows Fly Black",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tommi's": {
+      "token_id": 841,
+      "first_seen": "Crows Fly Black",
+      "has_definition": false,
+      "definition": ""
+    },
+    "old-new": {
+      "token_id": 1264,
+      "first_seen": "Crows Fly Black",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tarot": {
+      "token_id": 4450,
+      "first_seen": "Crows Fly Black",
+      "has_definition": true,
+      "definition": "(singular or plural) A card game played in various different variations."
+    },
+    "estanga": {
+      "token_id": 7113,
+      "first_seen": "Pedro Carmona",
+      "has_definition": false,
+      "definition": ""
+    },
+    "carmona": {
+      "token_id": 1238,
+      "first_seen": "Pedro Carmona",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fedecmaras": {
+      "token_id": 2244,
+      "first_seen": "Pedro Carmona",
+      "has_definition": false,
+      "definition": ""
+    },
+    "isre": {
+      "token_id": 1209,
+      "first_seen": "Vignieu",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vignieu": {
+      "token_id": 712,
+      "first_seen": "Vignieu",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stratford-on-avon": {
+      "token_id": 2458,
+      "first_seen": "Tidmington",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tidmington": {
+      "token_id": 6686,
+      "first_seen": "Tidmington",
+      "has_definition": false,
+      "definition": ""
+    },
+    "burmington": {
+      "token_id": 714,
+      "first_seen": "Tidmington",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stratford-upon-avon": {
+      "token_id": 171,
+      "first_seen": "Tidmington",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zemun": {
+      "token_id": 7381,
+      "first_seen": "Dimitrije Konjovi\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dimitrije": {
+      "token_id": 6855,
+      "first_seen": "Dimitrije Konjovi\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ikarus": {
+      "token_id": 229,
+      "first_seen": "Dimitrije Konjovi\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "konjovi": {
+      "token_id": 6608,
+      "first_seen": "Dimitrije Konjovi\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leaf-stems": {
+      "token_id": 6210,
+      "first_seen": "Abac\u00e1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "textilis": {
+      "token_id": 485,
+      "first_seen": "Abac\u00e1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "abac": {
+      "token_id": 6814,
+      "first_seen": "Abac\u00e1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hemp": {
+      "token_id": 3129,
+      "first_seen": "Abac\u00e1",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nesmith's": {
+      "token_id": 6080,
+      "first_seen": "Christmas Party (The Monkees album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "monkees": {
+      "token_id": 5854,
+      "first_seen": "Christmas Party (The Monkees album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "micky": {
+      "token_id": 2696,
+      "first_seen": "Christmas Party (The Monkees album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tork": {
+      "token_id": 5293,
+      "first_seen": "Christmas Party (The Monkees album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nesmith": {
+      "token_id": 5475,
+      "first_seen": "Christmas Party (The Monkees album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dolenz": {
+      "token_id": 2665,
+      "first_seen": "Christmas Party (The Monkees album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thyroid": {
+      "token_id": 4269,
+      "first_seen": "Thyroid's secretory capacity",
+      "has_definition": true,
+      "definition": "The thyroid gland."
+    },
+    "stimulated": {
+      "token_id": 5046,
+      "first_seen": "Thyroid's secretory capacity",
+      "has_definition": true,
+      "definition": "To encourage into action."
+    },
+    "time-unit": {
+      "token_id": 2381,
+      "first_seen": "Thyroid's secretory capacity",
+      "has_definition": false,
+      "definition": ""
+    },
+    "secretory": {
+      "token_id": 5382,
+      "first_seen": "Thyroid's secretory capacity",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thyroxine": {
+      "token_id": 7270,
+      "first_seen": "Thyroid's secretory capacity",
+      "has_definition": true,
+      "definition": "A hormone (an iodine derivative of tyrosine), produced by the thyroid gland, that regulates cell metabolism and growth."
+    },
+    "thyroid's": {
+      "token_id": 3962,
+      "first_seen": "Thyroid's secretory capacity",
+      "has_definition": false,
+      "definition": ""
+    },
+    "odin": {
+      "token_id": 1533,
+      "first_seen": "Odin, Illinois",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chepstow": {
+      "token_id": 6982,
+      "first_seen": "Chepstow Railway Bridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "saltash": {
+      "token_id": 5928,
+      "first_seen": "Chepstow Railway Bridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brunel": {
+      "token_id": 3403,
+      "first_seen": "Chepstow Railway Bridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "superstructure": {
+      "token_id": 5820,
+      "first_seen": "Chepstow Railway Bridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brunel's": {
+      "token_id": 4178,
+      "first_seen": "Chepstow Railway Bridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "isambard": {
+      "token_id": 5274,
+      "first_seen": "Chepstow Railway Bridge",
+      "has_definition": false,
+      "definition": ""
+    },
+    "xiuyuan": {
+      "token_id": 4134,
+      "first_seen": "Feng Xi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sandrelli": {
+      "token_id": 6133,
+      "first_seen": "We'll Really Hurt You",
+      "has_definition": false,
+      "definition": ""
+    },
+    "quartullo": {
+      "token_id": 1892,
+      "first_seen": "We'll Really Hurt You",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stefania": {
+      "token_id": 4381,
+      "first_seen": "We'll Really Hurt You",
+      "has_definition": false,
+      "definition": ""
+    },
+    "we'll": {
+      "token_id": 1567,
+      "first_seen": "We'll Really Hurt You",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pino": {
+      "token_id": 2874,
+      "first_seen": "We'll Really Hurt You",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gonchar": {
+      "token_id": 6517,
+      "first_seen": "Sergei Gonchar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "canucks": {
+      "token_id": 111,
+      "first_seen": "Sergei Gonchar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "baxter": {
+      "token_id": 1207,
+      "first_seen": "Talking Feet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stamp-taylor": {
+      "token_id": 436,
+      "first_seen": "Talking Feet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "orme": {
+      "token_id": 7496,
+      "first_seen": "Talking Feet",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ascot": {
+      "token_id": 4368,
+      "first_seen": "Talking Feet",
+      "has_definition": true,
+      "definition": "Ascot tie"
+    },
+    "myself": {
+      "token_id": 3314,
+      "first_seen": "Eyes on You (Jay Sean song)",
+      "has_definition": true,
+      "definition": "(reflexive pronoun) Me, as direct or indirect object the speaker as the object of a verb or preposition, when the speaker is also the subject."
+    },
+    "sean's": {
+      "token_id": 4422,
+      "first_seen": "Eyes on You (Jay Sean song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "champs-lyses": {
+      "token_id": 5686,
+      "first_seen": "Galeries nationales du Grand Palais",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nationaux": {
+      "token_id": 2588,
+      "first_seen": "Galeries nationales du Grand Palais",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nationales": {
+      "token_id": 7409,
+      "first_seen": "Galeries nationales du Grand Palais",
+      "has_definition": false,
+      "definition": ""
+    },
+    "galeries": {
+      "token_id": 5447,
+      "first_seen": "Galeries nationales du Grand Palais",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rmn": {
+      "token_id": 2902,
+      "first_seen": "Galeries nationales du Grand Palais",
+      "has_definition": false,
+      "definition": ""
+    },
+    "palais": {
+      "token_id": 6356,
+      "first_seen": "Galeries nationales du Grand Palais",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jeberg": {
+      "token_id": 6405,
+      "first_seen": "Marry Me (Jason Derulo song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "marlin": {
+      "token_id": 4820,
+      "first_seen": "Marry Me (Jason Derulo song)",
+      "has_definition": true,
+      "definition": "Any species of game fish belonging to either of the genera Tetrapturus or Makaira. Every such species has a pointed, spear-like projection of the upper jaw."
+    },
+    "hookman": {
+      "token_id": 385,
+      "first_seen": "Marry Me (Jason Derulo song)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tattoos": {
+      "token_id": 7880,
+      "first_seen": "Marry Me (Jason Derulo song)",
+      "has_definition": true,
+      "definition": "An image made in the skin with ink and a needle."
+    },
+    "derulo": {
+      "token_id": 6331,
+      "first_seen": "Marry Me (Jason Derulo song)",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 10077,
-  "total_words": 49328
+  "total_articles": 10107,
+  "total_words": 49431
 }
