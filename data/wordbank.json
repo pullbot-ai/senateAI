@@ -312623,8 +312623,518 @@
       "first_seen": "Live Shots",
       "has_definition": false,
       "definition": ""
+    },
+    "diagonal": {
+      "token_id": 5976,
+      "first_seen": "Pennsylvania Avenue",
+      "has_definition": true,
+      "definition": "A line joining non-adjacent vertices of a polygon."
+    },
+    "roper": {
+      "token_id": 5320,
+      "first_seen": "Pennsylvania Avenue",
+      "has_definition": false,
+      "definition": ""
+    },
+    "awamutu": {
+      "token_id": 393,
+      "first_seen": "Kihikihi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kihikihi": {
+      "token_id": 4504,
+      "first_seen": "Kihikihi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "emmendingen": {
+      "token_id": 4941,
+      "first_seen": "Riegel am Kaiserstuhl",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kaiserstuhl": {
+      "token_id": 2920,
+      "first_seen": "Riegel am Kaiserstuhl",
+      "has_definition": false,
+      "definition": ""
+    },
+    "riegel": {
+      "token_id": 2440,
+      "first_seen": "Riegel am Kaiserstuhl",
+      "has_definition": false,
+      "definition": ""
+    },
+    "physiologists": {
+      "token_id": 2271,
+      "first_seen": "Aerospace Medical Association",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hyperbaric": {
+      "token_id": 1467,
+      "first_seen": "Aerospace Medical Association",
+      "has_definition": false,
+      "definition": ""
+    },
+    "specialists": {
+      "token_id": 417,
+      "first_seen": "Aerospace Medical Association",
+      "has_definition": true,
+      "definition": "Someone who is an expert in, or devoted to, some specific branch of study or research."
+    },
+    "asma": {
+      "token_id": 1114,
+      "first_seen": "Aerospace Medical Association",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nurses": {
+      "token_id": 6368,
+      "first_seen": "Aerospace Medical Association",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nimibutr": {
+      "token_id": 5878,
+      "first_seen": "Nang Nak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nonzee": {
+      "token_id": 147,
+      "first_seen": "Nang Nak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "unsuspecting": {
+      "token_id": 4216,
+      "first_seen": "Nang Nak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nak": {
+      "token_id": 1404,
+      "first_seen": "Nang Nak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "khanong": {
+      "token_id": 2575,
+      "first_seen": "Nang Nak",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mel": {
+      "token_id": 7467,
+      "first_seen": "Sue Perkins",
+      "has_definition": false,
+      "definition": ""
+    },
+    "insert": {
+      "token_id": 7173,
+      "first_seen": "Sue Perkins",
+      "has_definition": true,
+      "definition": "An image inserted into text."
+    },
+    "progressed": {
+      "token_id": 5658,
+      "first_seen": "Sue Perkins",
+      "has_definition": false,
+      "definition": ""
+    },
+    "giedroyc": {
+      "token_id": 1169,
+      "first_seen": "Sue Perkins",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zbruch": {
+      "token_id": 2463,
+      "first_seen": "Okopy, Ternopil Oblast",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dniester": {
+      "token_id": 7302,
+      "first_seen": "Okopy, Ternopil Oblast",
+      "has_definition": false,
+      "definition": ""
+    },
+    "okopy": {
+      "token_id": 1973,
+      "first_seen": "Okopy, Ternopil Oblast",
+      "has_definition": false,
+      "definition": ""
+    },
+    "melnytsia-podilska": {
+      "token_id": 5078,
+      "first_seen": "Okopy, Ternopil Oblast",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ternopil": {
+      "token_id": 3302,
+      "first_seen": "Okopy, Ternopil Oblast",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chortkiv": {
+      "token_id": 160,
+      "first_seen": "Okopy, Ternopil Oblast",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brilliana": {
+      "token_id": 6398,
+      "first_seen": "Ethel Brilliana Tweedie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "frgs": {
+      "token_id": 809,
+      "first_seen": "Ethel Brilliana Tweedie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tweedie": {
+      "token_id": 1021,
+      "first_seen": "Ethel Brilliana Tweedie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "alec-tweedie": {
+      "token_id": 7162,
+      "first_seen": "Ethel Brilliana Tweedie",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guin": {
+      "token_id": 7046,
+      "first_seen": "The Lathe of Heaven",
+      "has_definition": false,
+      "definition": ""
+    },
+    "officinale": {
+      "token_id": 4743,
+      "first_seen": "Symphytum \u00d7 uplandicum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "comfrey": {
+      "token_id": 3554,
+      "first_seen": "Symphytum \u00d7 uplandicum",
+      "has_definition": true,
+      "definition": "Any of several species of perennial herbs of the genus Symphytum, often specifically Symphytum officinale."
+    },
+    "asperum": {
+      "token_id": 4231,
+      "first_seen": "Symphytum \u00d7 uplandicum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "symphytum": {
+      "token_id": 4163,
+      "first_seen": "Symphytum \u00d7 uplandicum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tarnow": {
+      "token_id": 5690,
+      "first_seen": "Rudolf Tarnow",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fei": {
+      "token_id": 3425,
+      "first_seen": "My Horse & Me",
+      "has_definition": false,
+      "definition": ""
+    },
+    "migrd": {
+      "token_id": 4668,
+      "first_seen": "Milicz Ponds",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barycz": {
+      "token_id": 4430,
+      "first_seen": "Milicz Ponds",
+      "has_definition": false,
+      "definition": ""
+    },
+    "milicz": {
+      "token_id": 293,
+      "first_seen": "Milicz Ponds",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dun": {
+      "token_id": 3327,
+      "first_seen": "Tirrell Mountain",
+      "has_definition": true,
+      "definition": "A brownish grey colour."
+    },
+    "east-northeast": {
+      "token_id": 910,
+      "first_seen": "Tirrell Mountain",
+      "has_definition": true,
+      "definition": "The compass bearing or compass point halfway between east and northeast, specifically 67.5\u00b0, abbreviated as ENE."
+    },
+    "tirrel": {
+      "token_id": 2810,
+      "first_seen": "Tirrell Mountain",
+      "has_definition": false,
+      "definition": ""
+    },
+    "garrisoned": {
+      "token_id": 1969,
+      "first_seen": "26th National Guard Battalion (Ukraine)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kremenchuk": {
+      "token_id": 4446,
+      "first_seen": "26th National Guard Battalion (Ukraine)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rushcliffe": {
+      "token_id": 3570,
+      "first_seen": "Gotham, Nottinghamshire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shomali": {
+      "token_id": 1459,
+      "first_seen": "Dudaran, Ardabil",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dudaran": {
+      "token_id": 6601,
+      "first_seen": "Dudaran, Ardabil",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ardabil": {
+      "token_id": 2696,
+      "first_seen": "Dudaran, Ardabil",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vilkij-e": {
+      "token_id": 359,
+      "first_seen": "Dudaran, Ardabil",
+      "has_definition": false,
+      "definition": ""
+    },
+    "namin": {
+      "token_id": 5414,
+      "first_seen": "Dudaran, Ardabil",
+      "has_definition": false,
+      "definition": ""
+    },
+    "morlay": {
+      "token_id": 6271,
+      "first_seen": "Samson (1936 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "joinville": {
+      "token_id": 1592,
+      "first_seen": "Samson (1936 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lefaur": {
+      "token_id": 5838,
+      "first_seen": "Samson (1936 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "baur": {
+      "token_id": 1520,
+      "first_seen": "Samson (1936 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gastyne": {
+      "token_id": 1662,
+      "first_seen": "Samson (1936 film)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "asier": {
+      "token_id": 6688,
+      "first_seen": "Asier Polo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "aviny": {
+      "token_id": 4543,
+      "first_seen": "Horta d'Aviny\u00f3",
+      "has_definition": false,
+      "definition": ""
+    },
+    "horta": {
+      "token_id": 2601,
+      "first_seen": "Horta d'Aviny\u00f3",
+      "has_definition": false,
+      "definition": ""
+    },
+    "d'aviny": {
+      "token_id": 2093,
+      "first_seen": "Horta d'Aviny\u00f3",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pleasures": {
+      "token_id": 6792,
+      "first_seen": "United States Post Office (Long Beach, New York)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pavilions": {
+      "token_id": 6863,
+      "first_seen": "United States Post Office (Long Beach, New York)",
+      "has_definition": true,
+      "definition": "To furnish with a pavilion."
+    },
+    "perpendicular": {
+      "token_id": 6640,
+      "first_seen": "United States Post Office (Long Beach, New York)",
+      "has_definition": true,
+      "definition": "A line or plane that is perpendicular to another."
+    },
+    "corbino": {
+      "token_id": 6409,
+      "first_seen": "United States Post Office (Long Beach, New York)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "symmetrically": {
+      "token_id": 776,
+      "first_seen": "United States Post Office (Long Beach, New York)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "massed": {
+      "token_id": 2791,
+      "first_seen": "United States Post Office (Long Beach, New York)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "office-long": {
+      "token_id": 4534,
+      "first_seen": "United States Post Office (Long Beach, New York)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barkwith": {
+      "token_id": 1534,
+      "first_seen": "East Barkwith railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "louth": {
+      "token_id": 218,
+      "first_seen": "East Barkwith railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "barden": {
+      "token_id": 4310,
+      "first_seen": "Timber Slab Cottage, Tempe",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tempe": {
+      "token_id": 925,
+      "first_seen": "Timber Slab Cottage, Tempe",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kross": {
+      "token_id": 1267,
+      "first_seen": "Kris Kross",
+      "has_definition": false,
+      "definition": ""
+    },
+    "zellner": {
+      "token_id": 2612,
+      "first_seen": "Dorothy Zellner",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chengkun": {
+      "token_id": 4484,
+      "first_seen": "Chengdu\u2013Kunming railway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "longchuan": {
+      "token_id": 114,
+      "first_seen": "Chengdu\u2013Kunming railway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chengdukunming": {
+      "token_id": 7759,
+      "first_seen": "Chengdu\u2013Kunming railway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anning": {
+      "token_id": 1104,
+      "first_seen": "Chengdu\u2013Kunming railway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dadu": {
+      "token_id": 7360,
+      "first_seen": "Chengdu\u2013Kunming railway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trunkline": {
+      "token_id": 3586,
+      "first_seen": "Chengdu\u2013Kunming railway",
+      "has_definition": false,
+      "definition": ""
+    },
+    "then-last": {
+      "token_id": 1675,
+      "first_seen": "Refused Are Fucking Dead",
+      "has_definition": false,
+      "definition": ""
+    },
+    "circlepit": {
+      "token_id": 3757,
+      "first_seen": "Refused Are Fucking Dead",
+      "has_definition": false,
+      "definition": ""
+    },
+    "steen": {
+      "token_id": 4687,
+      "first_seen": "Refused Are Fucking Dead",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kristofer": {
+      "token_id": 2043,
+      "first_seen": "Refused Are Fucking Dead",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sisson": {
+      "token_id": 4689,
+      "first_seen": "The Hidden Spring",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 10915,
-  "total_words": 52104
+  "total_articles": 10945,
+  "total_words": 52189
 }
