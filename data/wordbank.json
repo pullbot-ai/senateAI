@@ -310361,8 +310361,752 @@
       "first_seen": "The Wizards of Odd",
       "has_definition": false,
       "definition": ""
+    },
+    "goodwill": {
+      "token_id": 6627,
+      "first_seen": "Warder Park",
+      "has_definition": true,
+      "definition": "A favorably disposed attitude toward someone or something."
+    },
+    "hardtack": {
+      "token_id": 6802,
+      "first_seen": "Warder Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gesture": {
+      "token_id": 120,
+      "first_seen": "Warder Park",
+      "has_definition": true,
+      "definition": "A motion of the limbs or body, especially one made to emphasize speech."
+    },
+    "warder": {
+      "token_id": 6356,
+      "first_seen": "Warder Park",
+      "has_definition": true,
+      "definition": "A guard, especially in a prison."
+    },
+    "francs": {
+      "token_id": 642,
+      "first_seen": "Bolillo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bolillo": {
+      "token_id": 3841,
+      "first_seen": "Bolillo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "maximilian's": {
+      "token_id": 3992,
+      "first_seen": "Bolillo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "baguette": {
+      "token_id": 1013,
+      "first_seen": "Bolillo",
+      "has_definition": true,
+      "definition": "A narrow, relatively long rectangular shape."
+    },
+    "vallenar": {
+      "token_id": 1171,
+      "first_seen": "Vallenar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ballynary": {
+      "token_id": 6241,
+      "first_seen": "Vallenar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "huasco": {
+      "token_id": 6436,
+      "first_seen": "Vallenar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ambrose": {
+      "token_id": 596,
+      "first_seen": "Vallenar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sligo": {
+      "token_id": 696,
+      "first_seen": "Vallenar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ballenary": {
+      "token_id": 3047,
+      "first_seen": "Vallenar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "o'higgins": {
+      "token_id": 5526,
+      "first_seen": "Vallenar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "freirina": {
+      "token_id": 7823,
+      "first_seen": "Vallenar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ambrosio": {
+      "token_id": 2475,
+      "first_seen": "Vallenar",
+      "has_definition": false,
+      "definition": ""
+    },
+    "woking": {
+      "token_id": 1077,
+      "first_seen": "Woking F.C.",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ilija": {
+      "token_id": 284,
+      "first_seen": "Ilija Petkovi\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "petkovi": {
+      "token_id": 5439,
+      "first_seen": "Ilija Petkovi\u0107",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spins": {
+      "token_id": 5686,
+      "first_seen": "31 Comae Berenices",
+      "has_definition": false,
+      "definition": ""
+    },
+    "berenices": {
+      "token_id": 5942,
+      "first_seen": "31 Comae Berenices",
+      "has_definition": false,
+      "definition": ""
+    },
+    "starspots": {
+      "token_id": 1438,
+      "first_seen": "31 Comae Berenices",
+      "has_definition": false,
+      "definition": ""
+    },
+    "comae": {
+      "token_id": 4626,
+      "first_seen": "31 Comae Berenices",
+      "has_definition": true,
+      "definition": "A cloud of dust surrounding the nucleus of a comet."
+    },
+    "strassmeier": {
+      "token_id": 6761,
+      "first_seen": "31 Comae Berenices",
+      "has_definition": false,
+      "definition": ""
+    },
+    "giiip": {
+      "token_id": 5988,
+      "first_seen": "31 Comae Berenices",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hybomitra": {
+      "token_id": 4726,
+      "first_seen": "Hybomitra distinguenda",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tabanidae": {
+      "token_id": 5913,
+      "first_seen": "Hybomitra distinguenda",
+      "has_definition": false,
+      "definition": ""
+    },
+    "distinguenda": {
+      "token_id": 6763,
+      "first_seen": "Hybomitra distinguenda",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kidneys": {
+      "token_id": 7537,
+      "first_seen": "Renal vein",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cava": {
+      "token_id": 5895,
+      "first_seen": "Renal vein",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vein": {
+      "token_id": 4241,
+      "first_seen": "Renal vein",
+      "has_definition": true,
+      "definition": "A blood vessel that transports blood from the capillaries back to the heart."
+    },
+    "large-calibre": {
+      "token_id": 1984,
+      "first_seen": "Renal vein",
+      "has_definition": false,
+      "definition": ""
+    },
+    "inferior": {
+      "token_id": 7774,
+      "first_seen": "Renal vein",
+      "has_definition": true,
+      "definition": "A person of lower stature to another"
+    },
+    "vena": {
+      "token_id": 459,
+      "first_seen": "Renal vein",
+      "has_definition": false,
+      "definition": ""
+    },
+    "continetti": {
+      "token_id": 7004,
+      "first_seen": "Matthew Continetti",
+      "has_definition": false,
+      "definition": ""
+    },
+    "two-reelers": {
+      "token_id": 4994,
+      "first_seen": "Mack and Mabel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "normand": {
+      "token_id": 4031,
+      "first_seen": "Mack and Mabel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "beauties": {
+      "token_id": 4485,
+      "first_seen": "Mack and Mabel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mabel's": {
+      "token_id": 2906,
+      "first_seen": "Mack and Mabel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "keystone": {
+      "token_id": 5959,
+      "first_seen": "Mack and Mabel",
+      "has_definition": true,
+      "definition": "The top stone of an arch."
+    },
+    "sennett's": {
+      "token_id": 1114,
+      "first_seen": "Mack and Mabel",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flag-raising": {
+      "token_id": 4673,
+      "first_seen": "Golden Bauhinia Square",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bauhinia": {
+      "token_id": 120,
+      "first_seen": "Golden Bauhinia Square",
+      "has_definition": false,
+      "definition": ""
+    },
+    "blakeana": {
+      "token_id": 2577,
+      "first_seen": "Golden Bauhinia Square",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chai": {
+      "token_id": 5806,
+      "first_seen": "Golden Bauhinia Square",
+      "has_definition": false,
+      "definition": ""
+    },
+    "handover": {
+      "token_id": 7256,
+      "first_seen": "Golden Bauhinia Square",
+      "has_definition": true,
+      "definition": "The transference of authority, control, power or knowledge from one agency to another, or from one state to another."
+    },
+    "homeschool-based": {
+      "token_id": 2723,
+      "first_seen": "Chula Vista Christian University",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cvcu": {
+      "token_id": 4740,
+      "first_seen": "Chula Vista Christian University",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chula": {
+      "token_id": 6550,
+      "first_seen": "Chula Vista Christian University",
+      "has_definition": false,
+      "definition": ""
+    },
+    "durrs": {
+      "token_id": 3775,
+      "first_seen": "Duke of Durazzo (title)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "anjou-durazzo": {
+      "token_id": 1640,
+      "first_seen": "Duke of Durazzo (title)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "thopia": {
+      "token_id": 2038,
+      "first_seen": "Duke of Durazzo (title)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "durazzo": {
+      "token_id": 2158,
+      "first_seen": "Duke of Durazzo (title)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "megara": {
+      "token_id": 2726,
+      "first_seen": "Megara Gulf",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rhombonotus": {
+      "token_id": 7093,
+      "first_seen": "Rhombonotus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gracilis": {
+      "token_id": 4108,
+      "first_seen": "Rhombonotus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rhumbo": {
+      "token_id": 2894,
+      "first_seen": "Rhombonotus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rhombus": {
+      "token_id": 7555,
+      "first_seen": "Rhombonotus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "notos": {
+      "token_id": 1514,
+      "first_seen": "Rhombonotus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ramblin": {
+      "token_id": 2296,
+      "first_seen": "South Coast (album)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pollock-krasner": {
+      "token_id": 2045,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "springing": {
+      "token_id": 5684,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mid-century": {
+      "token_id": 3593,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "frenetic": {
+      "token_id": 1319,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": true,
+      "definition": "One who is frenetic."
+    },
+    "chadwick": {
+      "token_id": 1146,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "manners": {
+      "token_id": 4741,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": true,
+      "definition": "Mode of action; way of performing or doing anything"
+    },
+    "saisset": {
+      "token_id": 6868,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "emeryville": {
+      "token_id": 921,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "figurative": {
+      "token_id": 3150,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": true,
+      "definition": "Of use as a metaphor, simile, or metonym, as opposed to literal; using figures; as when saying that someone who eats more than they should is a pig or like a pig."
+    },
+    "adolph": {
+      "token_id": 3407,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pritikin": {
+      "token_id": 4838,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "situate": {
+      "token_id": 842,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": true,
+      "definition": "To place on or into a physical location."
+    },
+    "stanley's": {
+      "token_id": 5137,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "taboos": {
+      "token_id": 6796,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "early-s": {
+      "token_id": 4335,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "disregard": {
+      "token_id": 7486,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": true,
+      "definition": "The act or state of deliberately not paying attention or caring about; misregard."
+    },
+    "niceties": {
+      "token_id": 2389,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": true,
+      "definition": "A small detail or distinction."
+    },
+    "sfmoma": {
+      "token_id": 6717,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lampoons": {
+      "token_id": 6076,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": true,
+      "definition": "A written attack or other work ridiculing a person, group, or institution."
+    },
+    "fantasies": {
+      "token_id": 1649,
+      "first_seen": "M. Louise Stanley",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hauran": {
+      "token_id": 4956,
+      "first_seen": "Shabab Hauran SC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "al-turrah": {
+      "token_id": 3486,
+      "first_seen": "Shabab Hauran SC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jordanian": {
+      "token_id": 1357,
+      "first_seen": "Shabab Hauran SC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shabab": {
+      "token_id": 3285,
+      "first_seen": "Shabab Hauran SC",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brzostek": {
+      "token_id": 2987,
+      "first_seen": "D\u0119bica County",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rzeszw": {
+      "token_id": 3058,
+      "first_seen": "D\u0119bica County",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dbica": {
+      "token_id": 6122,
+      "first_seen": "D\u0119bica County",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pilzno": {
+      "token_id": 7662,
+      "first_seen": "D\u0119bica County",
+      "has_definition": false,
+      "definition": ""
+    },
+    "powiat": {
+      "token_id": 6200,
+      "first_seen": "D\u0119bica County",
+      "has_definition": false,
+      "definition": ""
+    },
+    "villarsia": {
+      "token_id": 3023,
+      "first_seen": "Villarsia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ornduffia": {
+      "token_id": 1556,
+      "first_seen": "Villarsia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "five-parted": {
+      "token_id": 6905,
+      "first_seen": "Villarsia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "villars": {
+      "token_id": 4840,
+      "first_seen": "Villarsia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "menyanthaceae": {
+      "token_id": 6256,
+      "first_seen": "Villarsia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "panicle": {
+      "token_id": 5500,
+      "first_seen": "Villarsia",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kopp": {
+      "token_id": 947,
+      "first_seen": "Merlin Kopp",
+      "has_definition": false,
+      "definition": ""
+    },
+    "merlin": {
+      "token_id": 853,
+      "first_seen": "Merlin Kopp",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lot-et-garonne": {
+      "token_id": 3535,
+      "first_seen": "Pailloles",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pailloles": {
+      "token_id": 1368,
+      "first_seen": "Pailloles",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spiller": {
+      "token_id": 367,
+      "first_seen": "Princess Party",
+      "has_definition": false,
+      "definition": ""
+    },
+    "artimino": {
+      "token_id": 1250,
+      "first_seen": "San Leonardo, Carmignano",
+      "has_definition": false,
+      "definition": ""
+    },
+    "carmignano": {
+      "token_id": 7369,
+      "first_seen": "San Leonardo, Carmignano",
+      "has_definition": false,
+      "definition": ""
+    },
+    "chiesa": {
+      "token_id": 5945,
+      "first_seen": "San Leonardo, Carmignano",
+      "has_definition": false,
+      "definition": ""
+    },
+    "prato": {
+      "token_id": 2477,
+      "first_seen": "San Leonardo, Carmignano",
+      "has_definition": false,
+      "definition": ""
+    },
+    "partying": {
+      "token_id": 4219,
+      "first_seen": "Murder of Martine Vik Magnussen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "abdulhak": {
+      "token_id": 6980,
+      "first_seen": "Murder of Martine Vik Magnussen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fellow-student": {
+      "token_id": 5292,
+      "first_seen": "Murder of Martine Vik Magnussen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "meantime": {
+      "token_id": 5692,
+      "first_seen": "Murder of Martine Vik Magnussen",
+      "has_definition": true,
+      "definition": "The time spent waiting for another event; time in between."
+    },
+    "yemen's": {
+      "token_id": 5607,
+      "first_seen": "Murder of Martine Vik Magnussen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vik": {
+      "token_id": 2646,
+      "first_seen": "Murder of Martine Vik Magnussen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "extradition": {
+      "token_id": 2784,
+      "first_seen": "Murder of Martine Vik Magnussen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "magnussen": {
+      "token_id": 6595,
+      "first_seen": "Murder of Martine Vik Magnussen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "end-of-term": {
+      "token_id": 5570,
+      "first_seen": "Murder of Martine Vik Magnussen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shareholders": {
+      "token_id": 1601,
+      "first_seen": "First Bank of Nigeria",
+      "has_definition": true,
+      "definition": "One who owns shares of stock in a corporation."
+    },
+    "holdco": {
+      "token_id": 1680,
+      "first_seen": "First Bank of Nigeria",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hymns": {
+      "token_id": 1658,
+      "first_seen": "Kingdom of Heaven (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "iestyn": {
+      "token_id": 6588,
+      "first_seen": "Kingdom of Heaven (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gavyn": {
+      "token_id": 3239,
+      "first_seen": "Kingdom of Heaven (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "co-orchestrated": {
+      "token_id": 5286,
+      "first_seen": "Kingdom of Heaven (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "percussions": {
+      "token_id": 7878,
+      "first_seen": "Kingdom of Heaven (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "instrumentals": {
+      "token_id": 3924,
+      "first_seen": "Kingdom of Heaven (soundtrack)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bott": {
+      "token_id": 5284,
+      "first_seen": "Kingdom of Heaven (soundtrack)",
+      "has_definition": true,
+      "definition": "The larva of a botfly, which infests the skin of various mammals, producing warbles, or the nasal passage of sheep, or the stomach of horses."
+    },
+    "secn": {
+      "token_id": 862,
+      "first_seen": "SEC Network",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 10795,
-  "total_words": 51727
+  "total_articles": 10825,
+  "total_words": 51851
 }
