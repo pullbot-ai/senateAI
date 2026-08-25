@@ -290585,8 +290585,650 @@
       "first_seen": "Siebenhirten station",
       "has_definition": false,
       "definition": ""
+    },
+    "diadem": {
+      "token_id": 3788,
+      "first_seen": "Old Head coinage",
+      "has_definition": true,
+      "definition": "An ornamental headband worn as a badge of royalty."
+    },
+    "poynter": {
+      "token_id": 2847,
+      "first_seen": "Old Head coinage",
+      "has_definition": false,
+      "definition": ""
+    },
+    "veiled": {
+      "token_id": 4173,
+      "first_seen": "Old Head coinage",
+      "has_definition": true,
+      "definition": "To dress in, or decorate with, a veil."
+    },
+    "widow's": {
+      "token_id": 3124,
+      "first_seen": "Old Head coinage",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pistrucci's": {
+      "token_id": 2734,
+      "first_seen": "Old Head coinage",
+      "has_definition": false,
+      "definition": ""
+    },
+    "denominations": {
+      "token_id": 7049,
+      "first_seen": "Old Head coinage",
+      "has_definition": true,
+      "definition": "The act of naming or designating."
+    },
+    "reverses": {
+      "token_id": 1081,
+      "first_seen": "Old Head coinage",
+      "has_definition": true,
+      "definition": "The opposite of something."
+    },
+    "five-shilling": {
+      "token_id": 2200,
+      "first_seen": "Old Head coinage",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bunodont": {
+      "token_id": 6614,
+      "first_seen": "Guangxicyon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "amphicyonid": {
+      "token_id": 2609,
+      "first_seen": "Guangxicyon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "guangxicyon": {
+      "token_id": 2707,
+      "first_seen": "Guangxicyon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dentition": {
+      "token_id": 763,
+      "first_seen": "Guangxicyon",
+      "has_definition": true,
+      "definition": "The set of natural teeth of an individual"
+    },
+    "carnivoran": {
+      "token_id": 1043,
+      "first_seen": "Guangxicyon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "monsoon": {
+      "token_id": 2113,
+      "first_seen": "Guangxicyon",
+      "has_definition": true,
+      "definition": "Any of a number of winds associated with regions where most rain falls during a particular season."
+    },
+    "sinoamericanus": {
+      "token_id": 161,
+      "first_seen": "Guangxicyon",
+      "has_definition": false,
+      "definition": ""
+    },
+    "futile": {
+      "token_id": 4012,
+      "first_seen": "Dylan & Caitlin",
+      "has_definition": true,
+      "definition": "Incapable of producing results; doomed not to be successful; not worth attempting."
+    },
+    "manic": {
+      "token_id": 2911,
+      "first_seen": "Dylan & Caitlin",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grimau": {
+      "token_id": 6283,
+      "first_seen": "Leonor Manso",
+      "has_definition": false,
+      "definition": ""
+    },
+    "manso": {
+      "token_id": 2165,
+      "first_seen": "Leonor Manso",
+      "has_definition": false,
+      "definition": ""
+    },
+    "leonor": {
+      "token_id": 5497,
+      "first_seen": "Leonor Manso",
+      "has_definition": false,
+      "definition": ""
+    },
+    "godot": {
+      "token_id": 932,
+      "first_seen": "Leonor Manso",
+      "has_definition": false,
+      "definition": ""
+    },
+    "brzozw": {
+      "token_id": 1996,
+      "first_seen": "Wydrna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "subcarpathian": {
+      "token_id": 7840,
+      "first_seen": "Wydrna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wydrna": {
+      "token_id": 2266,
+      "first_seen": "Wydrna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dydnia": {
+      "token_id": 5849,
+      "first_seen": "Wydrna",
+      "has_definition": false,
+      "definition": ""
+    },
+    "otto-wagner-spital": {
+      "token_id": 396,
+      "first_seen": "Otto-Wagner-Spital",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pulmonology": {
+      "token_id": 3914,
+      "first_seen": "Otto-Wagner-Spital",
+      "has_definition": false,
+      "definition": ""
+    },
+    "longshore": {
+      "token_id": 403,
+      "first_seen": "Cape Fear (headland)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "silty": {
+      "token_id": 4757,
+      "first_seen": "Cape Fear (headland)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "arcs": {
+      "token_id": 3825,
+      "first_seen": "Cape Fear (headland)",
+      "has_definition": true,
+      "definition": "That part of a circle which a heavenly body appears to pass through as it moves above and below the horizon."
+    },
+    "frying": {
+      "token_id": 2346,
+      "first_seen": "Cape Fear (headland)",
+      "has_definition": true,
+      "definition": "A method of cooking food."
+    },
+    "outwash": {
+      "token_id": 6980,
+      "first_seen": "Cape Fear (headland)",
+      "has_definition": true,
+      "definition": "The sediment (mostly sand and gravel) deposited by water flowing from a melting glacier"
+    },
+    "treacherous": {
+      "token_id": 4109,
+      "first_seen": "Cape Fear (headland)",
+      "has_definition": true,
+      "definition": "Exhibiting treachery."
+    },
+    "jutting": {
+      "token_id": 3339,
+      "first_seen": "Cape Fear (headland)",
+      "has_definition": true,
+      "definition": "To stick out."
+    },
+    "nedumaran": {
+      "token_id": 3810,
+      "first_seen": "Pazha Nedumara",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pazha": {
+      "token_id": 504,
+      "first_seen": "Pazha Nedumara",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ex-national": {
+      "token_id": 2072,
+      "first_seen": "Pazha Nedumara",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pazhaniyappan": {
+      "token_id": 5897,
+      "first_seen": "Pazha Nedumara",
+      "has_definition": false,
+      "definition": ""
+    },
+    "krishnan": {
+      "token_id": 7851,
+      "first_seen": "Pazha Nedumara",
+      "has_definition": false,
+      "definition": ""
+    },
+    "frontal": {
+      "token_id": 7553,
+      "first_seen": "Human wave attack",
+      "has_definition": true,
+      "definition": "The bone at the front of the skull, behind the forehead."
+    },
+    "melee": {
+      "token_id": 4997,
+      "first_seen": "Human wave attack",
+      "has_definition": true,
+      "definition": "A battle fought at close range; hand-to-hand combat; brawling."
+    },
+    "overwhelm": {
+      "token_id": 451,
+      "first_seen": "Human wave attack",
+      "has_definition": true,
+      "definition": "The state or condition of being overwhelmed."
+    },
+    "tactic": {
+      "token_id": 5266,
+      "first_seen": "Human wave attack",
+      "has_definition": true,
+      "definition": "A maneuver, or action calculated to achieve some end."
+    },
+    "overrun": {
+      "token_id": 1602,
+      "first_seen": "Human wave attack",
+      "has_definition": true,
+      "definition": "An instance of overrunning"
+    },
+    "sheer": {
+      "token_id": 7120,
+      "first_seen": "Human wave attack",
+      "has_definition": true,
+      "definition": "A sheer curtain or fabric."
+    },
+    "waysted": {
+      "token_id": 2828,
+      "first_seen": "The Good the Bad the Waysted",
+      "has_definition": false,
+      "definition": ""
+    },
+    "waysted's": {
+      "token_id": 4731,
+      "first_seen": "The Good the Bad the Waysted",
+      "has_definition": false,
+      "definition": ""
+    },
+    "limehouse": {
+      "token_id": 607,
+      "first_seen": "Meeting Street Inn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "piped": {
+      "token_id": 1802,
+      "first_seen": "Meeting Street Inn",
+      "has_definition": true,
+      "definition": "To play (music) on a pipe instrument, such as a bagpipe or a flute."
+    },
+    "kemang": {
+      "token_id": 7652,
+      "first_seen": "Depok\u2013Antasari Toll Road",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sawangan": {
+      "token_id": 2468,
+      "first_seen": "Depok\u2013Antasari Toll Road",
+      "has_definition": false,
+      "definition": ""
+    },
+    "depok": {
+      "token_id": 6594,
+      "first_seen": "Depok\u2013Antasari Toll Road",
+      "has_definition": false,
+      "definition": ""
+    },
+    "depokantasari": {
+      "token_id": 5588,
+      "first_seen": "Depok\u2013Antasari Toll Road",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bogor": {
+      "token_id": 2469,
+      "first_seen": "Depok\u2013Antasari Toll Road",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bojong": {
+      "token_id": 6080,
+      "first_seen": "Depok\u2013Antasari Toll Road",
+      "has_definition": false,
+      "definition": ""
+    },
+    "controlled-access": {
+      "token_id": 6592,
+      "first_seen": "Depok\u2013Antasari Toll Road",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gede": {
+      "token_id": 4644,
+      "first_seen": "Depok\u2013Antasari Toll Road",
+      "has_definition": false,
+      "definition": ""
+    },
+    "desari": {
+      "token_id": 3843,
+      "first_seen": "Depok\u2013Antasari Toll Road",
+      "has_definition": false,
+      "definition": ""
+    },
+    "salabenda": {
+      "token_id": 959,
+      "first_seen": "Depok\u2013Antasari Toll Road",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nerina": {
+      "token_id": 6333,
+      "first_seen": "Norma K. Hemming",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hemming": {
+      "token_id": 7031,
+      "first_seen": "Norma K. Hemming",
+      "has_definition": true,
+      "definition": "To make the sound expressed by the word hem; to hesitate in speaking."
+    },
+    "boon": {
+      "token_id": 3255,
+      "first_seen": "Norma K. Hemming",
+      "has_definition": true,
+      "definition": "A prayer; petition."
+    },
+    "british-australian": {
+      "token_id": 5319,
+      "first_seen": "Norma K. Hemming",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hilliard": {
+      "token_id": 3475,
+      "first_seen": "Norma K. Hemming",
+      "has_definition": false,
+      "definition": ""
+    },
+    "austerlitz": {
+      "token_id": 3474,
+      "first_seen": "Cairn of Peace Memorial",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cairn": {
+      "token_id": 7694,
+      "first_seen": "Cairn of Peace Memorial",
+      "has_definition": true,
+      "definition": "A rounded or conical heap of stones erected by early inhabitants of the British Isles, apparently as a sepulchral monument."
+    },
+    "prace": {
+      "token_id": 1026,
+      "first_seen": "Cairn of Peace Memorial",
+      "has_definition": false,
+      "definition": ""
+    },
+    "buttes": {
+      "token_id": 6053,
+      "first_seen": "Awatubi Crest",
+      "has_definition": true,
+      "definition": "An isolated hill with steep sides and a flat top."
+    },
+    "sedimentary": {
+      "token_id": 6899,
+      "first_seen": "Awatubi Crest",
+      "has_definition": true,
+      "definition": "A rock of this kind."
+    },
+    "kwagunt": {
+      "token_id": 2028,
+      "first_seen": "Awatubi Crest",
+      "has_definition": false,
+      "definition": ""
+    },
+    "uplift": {
+      "token_id": 1672,
+      "first_seen": "Awatubi Crest",
+      "has_definition": true,
+      "definition": "The act or result of being uplifted."
+    },
+    "wisp": {
+      "token_id": 893,
+      "first_seen": "Agriocnemis rubricauda",
+      "has_definition": true,
+      "definition": "A small bundle, as of straw or other like substance; any slender, flexible structure or group."
+    },
+    "seepages": {
+      "token_id": 1331,
+      "first_seen": "Agriocnemis rubricauda",
+      "has_definition": false,
+      "definition": ""
+    },
+    "agriocnemis": {
+      "token_id": 840,
+      "first_seen": "Agriocnemis rubricauda",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coenagrionidae": {
+      "token_id": 1724,
+      "first_seen": "Agriocnemis rubricauda",
+      "has_definition": false,
+      "definition": ""
+    },
+    "red-rumped": {
+      "token_id": 7035,
+      "first_seen": "Agriocnemis rubricauda",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rubricauda": {
+      "token_id": 7799,
+      "first_seen": "Agriocnemis rubricauda",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pakistanis": {
+      "token_id": 1816,
+      "first_seen": "Bengalis in Pakistan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "seven-piece": {
+      "token_id": 7584,
+      "first_seen": "Roddy Hart & the Lonesome Fire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "roddy": {
+      "token_id": 5410,
+      "first_seen": "Roddy Hart & the Lonesome Fire",
+      "has_definition": false,
+      "definition": ""
+    },
+    "teagarden": {
+      "token_id": 7064,
+      "first_seen": "Mis'ry and the Blues",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mis'ry": {
+      "token_id": 535,
+      "first_seen": "Mis'ry and the Blues",
+      "has_definition": false,
+      "definition": ""
+    },
+    "trombonistvocalist": {
+      "token_id": 1212,
+      "first_seen": "Mis'ry and the Blues",
+      "has_definition": false,
+      "definition": ""
+    },
+    "newly-established": {
+      "token_id": 5235,
+      "first_seen": "Chartered Bank Building, Singapore",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gian": {
+      "token_id": 4019,
+      "first_seen": "Chartered Bank Building, Singapore",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lawmaker": {
+      "token_id": 3127,
+      "first_seen": "Maria Bird-Browne",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bird-browne": {
+      "token_id": 462,
+      "first_seen": "Maria Bird-Browne",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lupu": {
+      "token_id": 2671,
+      "first_seen": "Lupu, Yuhuan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "taizhou": {
+      "token_id": 3888,
+      "first_seen": "Lupu, Yuhuan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "yuhuan": {
+      "token_id": 2391,
+      "first_seen": "Lupu, Yuhuan",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kocielny": {
+      "token_id": 2191,
+      "first_seen": "Gmina Juchnowiec Ko\u015bcielny",
+      "has_definition": false,
+      "definition": ""
+    },
+    "juchnowiec": {
+      "token_id": 3985,
+      "first_seen": "Gmina Juchnowiec Ko\u015bcielny",
+      "has_definition": false,
+      "definition": ""
+    },
+    "biaystok": {
+      "token_id": 7693,
+      "first_seen": "Gmina Juchnowiec Ko\u015bcielny",
+      "has_definition": false,
+      "definition": ""
+    },
+    "optimist": {
+      "token_id": 4079,
+      "first_seen": "Revolt (The Dreams album)",
+      "has_definition": true,
+      "definition": "A person who expects a favourable outcome"
+    },
+    "wikstrm": {
+      "token_id": 5398,
+      "first_seen": "Funny Little World",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rybak": {
+      "token_id": 2405,
+      "first_seen": "Funny Little World",
+      "has_definition": false,
+      "definition": ""
+    },
+    "clotworthy": {
+      "token_id": 2493,
+      "first_seen": "Clotworthy Skeffington, 1st Earl of Massereene",
+      "has_definition": false,
+      "definition": ""
+    },
+    "endicott": {
+      "token_id": 2811,
+      "first_seen": "In Praise of Older Women... and Other Crimes",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coconuts": {
+      "token_id": 7575,
+      "first_seen": "In Praise of Older Women... and Other Crimes",
+      "has_definition": true,
+      "definition": "A fruit of the coconut palm (not a true nut), Cocos nucifera, having a fibrous husk surrounding a large seed."
+    },
+    "drop-out": {
+      "token_id": 7838,
+      "first_seen": "In Praise of Older Women... and Other Crimes",
+      "has_definition": true,
+      "definition": "Someone who has left an educational institution without completing the course"
+    },
+    "morosini": {
+      "token_id": 2208,
+      "first_seen": "Italian ironclad Francesco Morosini",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lauria": {
+      "token_id": 2112,
+      "first_seen": "Italian ironclad Francesco Morosini",
+      "has_definition": false,
+      "definition": ""
+    },
+    "doge": {
+      "token_id": 1403,
+      "first_seen": "Italian ironclad Francesco Morosini",
+      "has_definition": true,
+      "definition": "The chief magistrate in the republics of Venice and Genoa."
+    },
+    "ruggiero": {
+      "token_id": 2013,
+      "first_seen": "Italian ironclad Francesco Morosini",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ironclad": {
+      "token_id": 6888,
+      "first_seen": "Italian ironclad Francesco Morosini",
+      "has_definition": true,
+      "definition": "A metal-plated ship, vessel, or vehicle."
+    },
+    "bikramjit": {
+      "token_id": 679,
+      "first_seen": "Bikramjit Singh",
+      "has_definition": false,
+      "definition": ""
+    },
+    "i-league": {
+      "token_id": 6747,
+      "first_seen": "Bikramjit Singh",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 9807,
-  "total_words": 48431
+  "total_articles": 9837,
+  "total_words": 48538
 }
