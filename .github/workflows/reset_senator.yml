@@ -1,0 +1,96 @@
+name: Reset Senator
+
+on:
+  workflow_dispatch:
+    inputs:
+      senator_id:
+        description: 'Senator ID to reset'
+        required: true
+        type: number
+
+permissions:
+  contents: write
+
+jobs:
+  reset:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            src/
+            senate_bundles/senate_index.json
+            data/wordbank.json
+            config.yaml
+          sparse-checkout-cone-mode: false
+          submodules: false
+          lfs: false
+          show-progress: false
+      
+      - name: Download needed bundle
+        run: |
+          BUNDLE=$(( ${{ github.event.inputs.senator_id }} / 10 ))
+          BUNDLE_PADDED=$(printf "%03d" $BUNDLE)
+          git sparse-checkout add senate_bundles/bundle_${BUNDLE_PADDED}.pt
+          echo "Downloaded bundle $BUNDLE_PADDED"
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - run: pip install torch
+      
+      - name: Reset senator weights
+        run: |
+          python -c "
+import sys, torch
+sys.path.insert(0, 'src')
+from model_template import SenateBundle
+
+senator_id = ${{ github.event.inputs.senator_id }}
+bundle_id = senator_id // 10
+bundle_path = f'senate_bundles/bundle_{bundle_id:03d}.pt'
+
+bundle = SenateBundle.load(bundle_path)
+senator = bundle.get_senator(senator_id)
+
+if senator is None:
+    print(f'Senator {senator_id} not found')
+    sys.exit(1)
+
+print(f'Resetting Senator {senator_id}...')
+
+for name, param in senator.named_parameters():
+    if param.dim() >= 2:
+        nn.init.xavier_uniform_(param)
+    elif param.dim() == 1:
+        nn.init.zeros_(param)
+
+senator.performance = {spec: 0.5 for spec in senator.specialties}
+
+bundle.save(bundle_path)
+print(f'Senator {senator_id} reset successfully')
+"
+      
+      - name: Push reset bundle
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          BUNDLE=$(( ${{ github.event.inputs.senator_id }} / 10 ))
+          BUNDLE_PADDED=$(printf "%03d" $BUNDLE)
+          git stash
+          git pull --rebase origin main
+          git stash pop || true
+          git add senate_bundles/bundle_${BUNDLE_PADDED}.pt
+          git commit -m "Reset senator ${{ github.event.inputs.senator_id }}" || echo "No changes"
+          for attempt in $(seq 1 20); do
+            if git push; then
+              echo "Pushed"
+              break
+            fi
+            echo "Retry"
+            git pull --rebase origin main 2>/dev/null || true
+            sleep 10
+          done
