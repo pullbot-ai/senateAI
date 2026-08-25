@@ -293129,8 +293129,554 @@
       "first_seen": "Appula Appa Rao",
       "has_definition": true,
       "definition": "A high-explosive bomb used for the purposes of demolishing extensive areas, such as a city block."
+    },
+    "arenacup": {
+      "token_id": 7647,
+      "first_seen": "AF2",
+      "has_definition": false,
+      "definition": ""
+    },
+    "af": {
+      "token_id": 4773,
+      "first_seen": "AF2",
+      "has_definition": true,
+      "definition": "To a great extent or degree; very."
+    },
+    "garrity": {
+      "token_id": 170,
+      "first_seen": "Steven Pasquale",
+      "has_definition": false,
+      "definition": ""
+    },
+    "firefighteremergency": {
+      "token_id": 7558,
+      "first_seen": "Steven Pasquale",
+      "has_definition": false,
+      "definition": ""
+    },
+    "predator": {
+      "token_id": 4617,
+      "first_seen": "Steven Pasquale",
+      "has_definition": true,
+      "definition": "Any animal or other organism that hunts and kills other organisms (their prey), primarily for food."
+    },
+    "technician": {
+      "token_id": 6774,
+      "first_seen": "Steven Pasquale",
+      "has_definition": true,
+      "definition": "A person who studies or practises technology."
+    },
+    "paygrade": {
+      "token_id": 6990,
+      "first_seen": "Distinguished Flying Cross (United States)",
+      "has_definition": true,
+      "definition": "A level indicating a base salary (in the US applying to military and government employees)."
+    },
+    "rinn": {
+      "token_id": 2838,
+      "first_seen": "Joseph F. Rinn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "skeptic": {
+      "token_id": 6433,
+      "first_seen": "Joseph F. Rinn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "magician": {
+      "token_id": 7977,
+      "first_seen": "Joseph F. Rinn",
+      "has_definition": true,
+      "definition": "A person who plays with or practices allegedly supernatural magic."
+    },
+    "winkles": {
+      "token_id": 479,
+      "first_seen": "Echinolittorina peruviana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "littorinidae": {
+      "token_id": 4022,
+      "first_seen": "Echinolittorina peruviana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "peruviana": {
+      "token_id": 5781,
+      "first_seen": "Echinolittorina peruviana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "periwinkles": {
+      "token_id": 3481,
+      "first_seen": "Echinolittorina peruviana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "echinolittorina": {
+      "token_id": 3024,
+      "first_seen": "Echinolittorina peruviana",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tatler": {
+      "token_id": 5723,
+      "first_seen": "James Deakin (host, born 1972)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "filipino-british": {
+      "token_id": 5760,
+      "first_seen": "James Deakin (host, born 1972)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cnn": {
+      "token_id": 2350,
+      "first_seen": "James Deakin (host, born 1972)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "deakin": {
+      "token_id": 2972,
+      "first_seen": "James Deakin (host, born 1972)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dubin": {
+      "token_id": 6985,
+      "first_seen": "Henry Dubin House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "architecturally-significant": {
+      "token_id": 2033,
+      "first_seen": "Henry Dubin House",
+      "has_definition": false,
+      "definition": ""
+    },
+    "largemouth": {
+      "token_id": 5887,
+      "first_seen": "Round Lake (Saratoga County, New York)",
+      "has_definition": true,
+      "definition": "A creature of this kind."
+    },
+    "bullhead": {
+      "token_id": 7284,
+      "first_seen": "Round Lake (Saratoga County, New York)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sunfish": {
+      "token_id": 483,
+      "first_seen": "Round Lake (Saratoga County, New York)",
+      "has_definition": true,
+      "definition": "Any of various small freshwater fishes of the family Centrarchidae, often with iridescent colours and having a laterally compressed body."
+    },
+    "muskie": {
+      "token_id": 639,
+      "first_seen": "Round Lake (Saratoga County, New York)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pumpkinseed": {
+      "token_id": 3169,
+      "first_seen": "Round Lake (Saratoga County, New York)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cl": {
+      "token_id": 4269,
+      "first_seen": "Canadair CL-44",
+      "has_definition": false,
+      "definition": ""
+    },
+    "canadair": {
+      "token_id": 11,
+      "first_seen": "Canadair CL-44",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rcaf": {
+      "token_id": 6674,
+      "first_seen": "Canadair CL-44",
+      "has_definition": false,
+      "definition": ""
+    },
+    "soekarwo": {
+      "token_id": 961,
+      "first_seen": "Soekarwo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "karwo": {
+      "token_id": 7502,
+      "first_seen": "Soekarwo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "golkar": {
+      "token_id": 614,
+      "first_seen": "Soekarwo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jatim": {
+      "token_id": 3095,
+      "first_seen": "Soekarwo",
+      "has_definition": false,
+      "definition": ""
+    },
+    "professionalize": {
+      "token_id": 7412,
+      "first_seen": "Regional Guard Brigades",
+      "has_definition": false,
+      "definition": ""
+    },
+    "krg": {
+      "token_id": 2639,
+      "first_seen": "Regional Guard Brigades",
+      "has_definition": false,
+      "definition": ""
+    },
+    "centralized": {
+      "token_id": 3653,
+      "first_seen": "Regional Guard Brigades",
+      "has_definition": false,
+      "definition": ""
+    },
+    "puk": {
+      "token_id": 3711,
+      "first_seen": "Regional Guard Brigades",
+      "has_definition": false,
+      "definition": ""
+    },
+    "peshmerga": {
+      "token_id": 2837,
+      "first_seen": "Regional Guard Brigades",
+      "has_definition": false,
+      "definition": ""
+    },
+    "unify": {
+      "token_id": 903,
+      "first_seen": "Regional Guard Brigades",
+      "has_definition": false,
+      "definition": ""
+    },
+    "party-based": {
+      "token_id": 1790,
+      "first_seen": "Regional Guard Brigades",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kdp": {
+      "token_id": 3076,
+      "first_seen": "Regional Guard Brigades",
+      "has_definition": false,
+      "definition": ""
+    },
+    "depoliticize": {
+      "token_id": 1314,
+      "first_seen": "Regional Guard Brigades",
+      "has_definition": false,
+      "definition": ""
+    },
+    "party-affiliated": {
+      "token_id": 7692,
+      "first_seen": "Regional Guard Brigades",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mopa": {
+      "token_id": 4520,
+      "first_seen": "Regional Guard Brigades",
+      "has_definition": false,
+      "definition": ""
+    },
+    "padilla": {
+      "token_id": 2192,
+      "first_seen": "Frederick M. Padilla",
+      "has_definition": false,
+      "definition": ""
+    },
+    "woo-jin": {
+      "token_id": 5363,
+      "first_seen": "Jo Woo-jin (actor)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shin-je": {
+      "token_id": 2319,
+      "first_seen": "Jo Woo-jin (actor)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ajahn": {
+      "token_id": 6092,
+      "first_seen": "Wat Pa Ban Tat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "udon": {
+      "token_id": 2454,
+      "first_seen": "Wat Pa Ban Tat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "taad": {
+      "token_id": 4377,
+      "first_seen": "Wat Pa Ban Tat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "theravada": {
+      "token_id": 4497,
+      "first_seen": "Wat Pa Ban Tat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bhikkhu": {
+      "token_id": 2359,
+      "first_seen": "Wat Pa Ban Tat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "baan": {
+      "token_id": 1354,
+      "first_seen": "Wat Pa Ban Tat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bua": {
+      "token_id": 2113,
+      "first_seen": "Wat Pa Ban Tat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "meditator": {
+      "token_id": 7441,
+      "first_seen": "Wat Pa Ban Tat",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pentium-branded": {
+      "token_id": 1390,
+      "first_seen": "Pentium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "workstationserver": {
+      "token_id": 1411,
+      "first_seen": "Pentium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "xeon": {
+      "token_id": 7428,
+      "first_seen": "Pentium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "processors": {
+      "token_id": 3028,
+      "first_seen": "Pentium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pentium": {
+      "token_id": 4566,
+      "first_seen": "Pentium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "celeron": {
+      "token_id": 580,
+      "first_seen": "Pentium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "intel's": {
+      "token_id": 2257,
+      "first_seen": "Pentium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "architecture-compatible": {
+      "token_id": 5526,
+      "first_seen": "Pentium",
+      "has_definition": false,
+      "definition": ""
+    },
+    "panduwasnuwara": {
+      "token_id": 3642,
+      "first_seen": "Panduwasnuwara Polling Division",
+      "has_definition": false,
+      "definition": ""
+    },
+    "merd": {
+      "token_id": 615,
+      "first_seen": "Meredydd Evans",
+      "has_definition": false,
+      "definition": ""
+    },
+    "influencing": {
+      "token_id": 7343,
+      "first_seen": "Meredydd Evans",
+      "has_definition": true,
+      "definition": "To have an effect on by using gentle or subtle action; to exert an influence upon; to modify, bias, or sway; to persuade or induce."
+    },
+    "meredydd": {
+      "token_id": 3365,
+      "first_seen": "Meredydd Evans",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kargo": {
+      "token_id": 816,
+      "first_seen": "Harry Kargman",
+      "has_definition": false,
+      "definition": ""
+    },
+    "vox": {
+      "token_id": 797,
+      "first_seen": "Harry Kargman",
+      "has_definition": true,
+      "definition": "The voice, especially one's singing voice."
+    },
+    "council's": {
+      "token_id": 492,
+      "first_seen": "Harry Kargman",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hearst": {
+      "token_id": 3292,
+      "first_seen": "Harry Kargman",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kargman": {
+      "token_id": 1822,
+      "first_seen": "Harry Kargman",
+      "has_definition": false,
+      "definition": ""
+    },
+    "poulter": {
+      "token_id": 7686,
+      "first_seen": "Luca (The Bear)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "poulter's": {
+      "token_id": 491,
+      "first_seen": "Luca (The Bear)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gilliland": {
+      "token_id": 1537,
+      "first_seen": "David Gilliland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tricon": {
+      "token_id": 2929,
+      "first_seen": "David Gilliland",
+      "has_definition": false,
+      "definition": ""
+    },
+    "citoyen": {
+      "token_id": 6603,
+      "first_seen": "Didier Mathus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "divers": {
+      "token_id": 2935,
+      "first_seen": "Didier Mathus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "socialiste": {
+      "token_id": 5800,
+      "first_seen": "Didier Mathus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gauche": {
+      "token_id": 4682,
+      "first_seen": "Didier Mathus",
+      "has_definition": true,
+      "definition": "Awkward or lacking in social graces; bumbling."
+    },
+    "mathus": {
+      "token_id": 1998,
+      "first_seen": "Didier Mathus",
+      "has_definition": false,
+      "definition": ""
+    },
+    "huttleston": {
+      "token_id": 7014,
+      "first_seen": "Urban Huttleston Broughton, 1st Baron Fairhaven",
+      "has_definition": false,
+      "definition": ""
+    },
+    "broughton": {
+      "token_id": 5721,
+      "first_seen": "Urban Huttleston Broughton, 1st Baron Fairhaven",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fairhaven": {
+      "token_id": 5554,
+      "first_seen": "Urban Huttleston Broughton, 1st Baron Fairhaven",
+      "has_definition": false,
+      "definition": ""
+    },
+    "equerry": {
+      "token_id": 6015,
+      "first_seen": "George Ashley Maude",
+      "has_definition": true,
+      "definition": "An officer responsible for the care and supervision of the horses of a person of rank."
+    },
+    "belvoir": {
+      "token_id": 6587,
+      "first_seen": "Virginia State Route 235",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hybla": {
+      "token_id": 7829,
+      "first_seen": "Virginia State Route 235",
+      "has_definition": false,
+      "definition": ""
+    },
+    "erlend": {
+      "token_id": 6441,
+      "first_seen": "Erlend Fuglum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fuglum": {
+      "token_id": 4311,
+      "first_seen": "Erlend Fuglum",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bhangra": {
+      "token_id": 7562,
+      "first_seen": "Roshan Prince",
+      "has_definition": false,
+      "definition": ""
+    },
+    "punjabi-language": {
+      "token_id": 4271,
+      "first_seen": "Roshan Prince",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 9927,
-  "total_words": 48855
+  "total_articles": 9957,
+  "total_words": 48946
 }
