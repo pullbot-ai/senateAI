@@ -297983,8 +297983,728 @@
       "first_seen": "Stre\u017eevo",
       "has_definition": false,
       "definition": ""
+    },
+    "koa": {
+      "token_id": 89,
+      "first_seen": "299th Cavalry Regiment",
+      "has_definition": true,
+      "definition": "Acacia koa, a species of large tree in the family Fabaceae which is endemic to and common on the islands of Hawaii; or the wood of this tree."
+    },
+    "re-flagged": {
+      "token_id": 4333,
+      "first_seen": "299th Cavalry Regiment",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paleo-balkan": {
+      "token_id": 386,
+      "first_seen": "Albanian\u2013Eastern Romance linguistic parallels",
+      "has_definition": false,
+      "definition": ""
+    },
+    "calques": {
+      "token_id": 3934,
+      "first_seen": "Albanian\u2013Eastern Romance linguistic parallels",
+      "has_definition": true,
+      "definition": "A word or phrase in a language formed by word-for-word or morpheme-by-morpheme translation of a word in another language."
+    },
+    "phonetic": {
+      "token_id": 1392,
+      "first_seen": "Albanian\u2013Eastern Romance linguistic parallels",
+      "has_definition": true,
+      "definition": "In such writing systems as the Chinese writing system, the portion of a phono-semantic character that provides an indication of its pronunciation; contrasted with semantic (which is usually the radical)."
+    },
+    "phonological": {
+      "token_id": 189,
+      "first_seen": "Albanian\u2013Eastern Romance linguistic parallels",
+      "has_definition": true,
+      "definition": "Of or relating to phonology."
+    },
+    "syntactical": {
+      "token_id": 2710,
+      "first_seen": "Albanian\u2013Eastern Romance linguistic parallels",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tosk": {
+      "token_id": 6106,
+      "first_seen": "Albanian\u2013Eastern Romance linguistic parallels",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lexical": {
+      "token_id": 7239,
+      "first_seen": "Albanian\u2013Eastern Romance linguistic parallels",
+      "has_definition": true,
+      "definition": "Concerning the vocabulary, words, sentences or morphemes of a language"
+    },
+    "sprachbund": {
+      "token_id": 4964,
+      "first_seen": "Albanian\u2013Eastern Romance linguistic parallels",
+      "has_definition": false,
+      "definition": ""
+    },
+    "albanianeastern": {
+      "token_id": 197,
+      "first_seen": "Albanian\u2013Eastern Romance linguistic parallels",
+      "has_definition": false,
+      "definition": ""
+    },
+    "secundrabad": {
+      "token_id": 2821,
+      "first_seen": "Falaknuma\u2013Jangaon MEMU",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jangaon": {
+      "token_id": 3668,
+      "first_seen": "Falaknuma\u2013Jangaon MEMU",
+      "has_definition": false,
+      "definition": ""
+    },
+    "memu": {
+      "token_id": 1873,
+      "first_seen": "Falaknuma\u2013Jangaon MEMU",
+      "has_definition": false,
+      "definition": ""
+    },
+    "falaknuma": {
+      "token_id": 5240,
+      "first_seen": "Falaknuma\u2013Jangaon MEMU",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rennenberg": {
+      "token_id": 2295,
+      "first_seen": "Battle of Noordhorn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "lalaing": {
+      "token_id": 4445,
+      "first_seen": "Battle of Noordhorn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "spaniard": {
+      "token_id": 3106,
+      "first_seen": "Battle of Noordhorn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "verdugo": {
+      "token_id": 3480,
+      "first_seen": "Battle of Noordhorn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "noordhorn": {
+      "token_id": 5641,
+      "first_seen": "Battle of Noordhorn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stadtholder": {
+      "token_id": 4226,
+      "first_seen": "Battle of Noordhorn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "states-general": {
+      "token_id": 2563,
+      "first_seen": "Battle of Noordhorn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "forcing": {
+      "token_id": 2568,
+      "first_seen": "Battle of Noordhorn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "steenwijk": {
+      "token_id": 788,
+      "first_seen": "Battle of Noordhorn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "allegiance": {
+      "token_id": 7788,
+      "first_seen": "Battle of Noordhorn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "attrition": {
+      "token_id": 2677,
+      "first_seen": "Battle of Noordhorn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "relieving": {
+      "token_id": 325,
+      "first_seen": "Battle of Noordhorn",
+      "has_definition": false,
+      "definition": ""
+    },
+    "multiplexing": {
+      "token_id": 2126,
+      "first_seen": "Orthogonal frequency-division multiplexing",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wideband": {
+      "token_id": 6950,
+      "first_seen": "Orthogonal frequency-division multiplexing",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ofdm": {
+      "token_id": 6217,
+      "first_seen": "Orthogonal frequency-division multiplexing",
+      "has_definition": false,
+      "definition": ""
+    },
+    "frequency-division": {
+      "token_id": 2033,
+      "first_seen": "Orthogonal frequency-division multiplexing",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dsl": {
+      "token_id": 5769,
+      "first_seen": "Orthogonal frequency-division multiplexing",
+      "has_definition": false,
+      "definition": ""
+    },
+    "orthogonal": {
+      "token_id": 1769,
+      "first_seen": "Orthogonal frequency-division multiplexing",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coloring": {
+      "token_id": 2271,
+      "first_seen": "Geophilus easoni",
+      "has_definition": false,
+      "definition": ""
+    },
+    "carpophagus": {
+      "token_id": 626,
+      "first_seen": "Geophilus easoni",
+      "has_definition": false,
+      "definition": ""
+    },
+    "labrum": {
+      "token_id": 1479,
+      "first_seen": "Geophilus easoni",
+      "has_definition": false,
+      "definition": ""
+    },
+    "centipede": {
+      "token_id": 5612,
+      "first_seen": "Geophilus easoni",
+      "has_definition": false,
+      "definition": ""
+    },
+    "geophilus": {
+      "token_id": 3501,
+      "first_seen": "Geophilus easoni",
+      "has_definition": false,
+      "definition": ""
+    },
+    "coxal": {
+      "token_id": 5827,
+      "first_seen": "Geophilus easoni",
+      "has_definition": false,
+      "definition": ""
+    },
+    "geophilidae": {
+      "token_id": 6225,
+      "first_seen": "Geophilus easoni",
+      "has_definition": false,
+      "definition": ""
+    },
+    "easoni": {
+      "token_id": 431,
+      "first_seen": "Geophilus easoni",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mid-piece": {
+      "token_id": 675,
+      "first_seen": "Geophilus easoni",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tanchestnut": {
+      "token_id": 2077,
+      "first_seen": "Geophilus easoni",
+      "has_definition": false,
+      "definition": ""
+    },
+    "phoenician": {
+      "token_id": 7024,
+      "first_seen": "Archaeological interest of Pedra da G\u00e1vea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "azevedo": {
+      "token_id": 591,
+      "first_seen": "Archaeological interest of Pedra da G\u00e1vea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "pre-columbian": {
+      "token_id": 2060,
+      "first_seen": "Archaeological interest of Pedra da G\u00e1vea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "gvea": {
+      "token_id": 2529,
+      "first_seen": "Archaeological interest of Pedra da G\u00e1vea",
+      "has_definition": false,
+      "definition": ""
+    },
+    "grado": {
+      "token_id": 967,
+      "first_seen": "Grado (parish)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bustumoku-ji": {
+      "token_id": 2039,
+      "first_seen": "Butsumoku-ji",
+      "has_definition": false,
+      "definition": ""
+    },
+    "birushanain": {
+      "token_id": 7149,
+      "first_seen": "Butsumoku-ji",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ichika-zan": {
+      "token_id": 3848,
+      "first_seen": "Butsumoku-ji",
+      "has_definition": false,
+      "definition": ""
+    },
+    "omuro": {
+      "token_id": 1196,
+      "first_seen": "Butsumoku-ji",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dainichi": {
+      "token_id": 5959,
+      "first_seen": "Butsumoku-ji",
+      "has_definition": false,
+      "definition": ""
+    },
+    "shingon": {
+      "token_id": 6127,
+      "first_seen": "Butsumoku-ji",
+      "has_definition": false,
+      "definition": ""
+    },
+    "nyorai": {
+      "token_id": 344,
+      "first_seen": "Butsumoku-ji",
+      "has_definition": false,
+      "definition": ""
+    },
+    "novoanninsky": {
+      "token_id": 6961,
+      "first_seen": "Novoanninsky District",
+      "has_definition": false,
+      "definition": ""
+    },
+    "volgograd": {
+      "token_id": 5608,
+      "first_seen": "Novoanninsky District",
+      "has_definition": false,
+      "definition": ""
+    },
+    "taeniaptera": {
+      "token_id": 6370,
+      "first_seen": "Taeniaptera",
+      "has_definition": false,
+      "definition": ""
+    },
+    "stilt-legged": {
+      "token_id": 803,
+      "first_seen": "Taeniaptera",
+      "has_definition": false,
+      "definition": ""
+    },
+    "micropezidae": {
+      "token_id": 4159,
+      "first_seen": "Taeniaptera",
+      "has_definition": false,
+      "definition": ""
+    },
+    "paulding-class": {
+      "token_id": 1334,
+      "first_seen": "USS Roe (DD-24)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "asbury": {
+      "token_id": 3152,
+      "first_seen": "USS Roe (DD-24)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cg": {
+      "token_id": 2062,
+      "first_seen": "USS Roe (DD-24)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "roe": {
+      "token_id": 4789,
+      "first_seen": "USS Roe (DD-24)",
+      "has_definition": true,
+      "definition": "The eggs of fish."
+    },
+    "bibi": {
+      "token_id": 1535,
+      "first_seen": "Stranger at the Gate",
+      "has_definition": true,
+      "definition": "Grandmother"
+    },
+    "seftel": {
+      "token_id": 1870,
+      "first_seen": "Stranger at the Gate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "smartypants": {
+      "token_id": 75,
+      "first_seen": "Stranger at the Gate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "unexpected": {
+      "token_id": 7086,
+      "first_seen": "Stranger at the Gate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bahrami": {
+      "token_id": 5241,
+      "first_seen": "Stranger at the Gate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mckinney's": {
+      "token_id": 6338,
+      "first_seen": "Stranger at the Gate",
+      "has_definition": false,
+      "definition": ""
+    },
+    "wazirabadnarowal": {
+      "token_id": 556,
+      "first_seen": "Sialkot Junction railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sialkot": {
+      "token_id": 5406,
+      "first_seen": "Sialkot Junction railway station",
+      "has_definition": false,
+      "definition": ""
+    },
+    "odali": {
+      "token_id": 2421,
+      "first_seen": "Afar people",
+      "has_definition": false,
+      "definition": ""
+    },
+    "danakil": {
+      "token_id": 2594,
+      "first_seen": "Afar people",
+      "has_definition": false,
+      "definition": ""
+    },
+    "adali": {
+      "token_id": 228,
+      "first_seen": "Afar people",
+      "has_definition": false,
+      "definition": ""
+    },
+    "afroasiatic": {
+      "token_id": 6204,
+      "first_seen": "Afar people",
+      "has_definition": false,
+      "definition": ""
+    },
+    "afars": {
+      "token_id": 1371,
+      "first_seen": "Afar people",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cushitic": {
+      "token_id": 5916,
+      "first_seen": "Afar people",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mlaga": {
+      "token_id": 4801,
+      "first_seen": "Museo Picasso M\u00e1laga",
+      "has_definition": false,
+      "definition": ""
+    },
+    "legado": {
+      "token_id": 5040,
+      "first_seen": "Museo Picasso M\u00e1laga",
+      "has_definition": false,
+      "definition": ""
+    },
+    "fundacin": {
+      "token_id": 2467,
+      "first_seen": "Museo Picasso M\u00e1laga",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mlaga's": {
+      "token_id": 53,
+      "first_seen": "Museo Picasso M\u00e1laga",
+      "has_definition": false,
+      "definition": ""
+    },
+    "ruiz-picasso": {
+      "token_id": 627,
+      "first_seen": "Museo Picasso M\u00e1laga",
+      "has_definition": false,
+      "definition": ""
+    },
+    "buenavista": {
+      "token_id": 4580,
+      "first_seen": "Museo Picasso M\u00e1laga",
+      "has_definition": false,
+      "definition": ""
+    },
+    "picasso's": {
+      "token_id": 1802,
+      "first_seen": "Museo Picasso M\u00e1laga",
+      "has_definition": false,
+      "definition": ""
+    },
+    "german-canadian": {
+      "token_id": 980,
+      "first_seen": "B\u00fclow (singer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "beyonc's": {
+      "token_id": 287,
+      "first_seen": "B\u00fclow (singer)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "jepsen": {
+      "token_id": 6770,
+      "first_seen": "George Jepsen",
+      "has_definition": false,
+      "definition": ""
+    },
+    "onchestus": {
+      "token_id": 5020,
+      "first_seen": "Onchestus rentzi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rentz": {
+      "token_id": 6976,
+      "first_seen": "Onchestus rentzi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "orthopterist": {
+      "token_id": 5444,
+      "first_seen": "Onchestus rentzi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "rentzi": {
+      "token_id": 5436,
+      "first_seen": "Onchestus rentzi",
+      "has_definition": false,
+      "definition": ""
+    },
+    "quasi-national": {
+      "token_id": 673,
+      "first_seen": "Kitaky\u016bsh\u016b Quasi-National Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "kitakysh": {
+      "token_id": 2568,
+      "first_seen": "Kitaky\u016bsh\u016b Quasi-National Park",
+      "has_definition": false,
+      "definition": ""
+    },
+    "editors-in-chief": {
+      "token_id": 925,
+      "first_seen": "Organization Studies (journal)",
+      "has_definition": true,
+      "definition": "The highest ranking editor on an editorial staff."
+    },
+    "egos": {
+      "token_id": 1986,
+      "first_seen": "Organization Studies (journal)",
+      "has_definition": true,
+      "definition": "The self, especially with a sense of self-importance."
+    },
+    "renate": {
+      "token_id": 5213,
+      "first_seen": "Organization Studies (journal)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "quattrone": {
+      "token_id": 7108,
+      "first_seen": "Organization Studies (journal)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "cohousing": {
+      "token_id": 738,
+      "first_seen": "Village Hearth",
+      "has_definition": false,
+      "definition": ""
+    },
+    "koan": {
+      "token_id": 620,
+      "first_seen": "Phoa Keng Hek",
+      "has_definition": true,
+      "definition": "A story about a Zen master and his student, sometimes like a riddle, other times like a fable, which has become an object of Zen study, and which, when meditated upon, may unlock mechanisms in the Zen student\u2019s mind leading to satori."
+    },
+    "keng": {
+      "token_id": 2093,
+      "first_seen": "Phoa Keng Hek",
+      "has_definition": false,
+      "definition": ""
+    },
+    "landlord": {
+      "token_id": 1310,
+      "first_seen": "Phoa Keng Hek",
+      "has_definition": true,
+      "definition": "A person who owns and rents land such as a house, apartment, or condo."
+    },
+    "landheer": {
+      "token_id": 2835,
+      "first_seen": "Phoa Keng Hek",
+      "has_definition": false,
+      "definition": ""
+    },
+    "tiong": {
+      "token_id": 7980,
+      "first_seen": "Phoa Keng Hek",
+      "has_definition": false,
+      "definition": ""
+    },
+    "bandung": {
+      "token_id": 612,
+      "first_seen": "Phoa Keng Hek",
+      "has_definition": false,
+      "definition": ""
+    },
+    "phoa": {
+      "token_id": 4462,
+      "first_seen": "Phoa Keng Hek",
+      "has_definition": false,
+      "definition": ""
+    },
+    "hwe": {
+      "token_id": 7256,
+      "first_seen": "Phoa Keng Hek",
+      "has_definition": false,
+      "definition": ""
+    },
+    "krivokrasov": {
+      "token_id": 2174,
+      "first_seen": "Sergei Krivokrasov",
+      "has_definition": false,
+      "definition": ""
+    },
+    "catabolized": {
+      "token_id": 1364,
+      "first_seen": "Glycogenolysis",
+      "has_definition": true,
+      "definition": "To undergo catabolism."
+    },
+    "glucose--phosphate": {
+      "token_id": 4454,
+      "first_seen": "Glycogenolysis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "sequential": {
+      "token_id": 6631,
+      "first_seen": "Glycogenolysis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "glycogenolysis": {
+      "token_id": 5394,
+      "first_seen": "Glycogenolysis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "phosphorolysis": {
+      "token_id": 2435,
+      "first_seen": "Glycogenolysis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "glycogen": {
+      "token_id": 595,
+      "first_seen": "Glycogenolysis",
+      "has_definition": false,
+      "definition": ""
+    },
+    "dartmouth": {
+      "token_id": 1182,
+      "first_seen": "Twenty-Six (novel)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "twenty-six": {
+      "token_id": 2227,
+      "first_seen": "Twenty-Six (novel)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "mckay": {
+      "token_id": 7246,
+      "first_seen": "Twenty-Six (novel)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "saint-sans": {
+      "token_id": 2032,
+      "first_seen": "Romance, Op. 37 (Saint-Sa\u00ebns)",
+      "has_definition": false,
+      "definition": ""
+    },
+    "flute": {
+      "token_id": 4086,
+      "first_seen": "Romance, Op. 37 (Saint-Sa\u00ebns)",
+      "has_definition": true,
+      "definition": "A woodwind instrument consisting of a tube with a row of holes that produce sound through vibrations caused by air blown across the edge of the holes, often tuned by plugging one or more holes with a finger; the Western concert flute, a transverse side-blown flute of European origin."
+    },
+    "broome": {
+      "token_id": 5151,
+      "first_seen": "Cyclone Rosita",
+      "has_definition": false,
+      "definition": ""
     }
   },
-  "total_articles": 10166,
-  "total_words": 49664
+  "total_articles": 10196,
+  "total_words": 49784
 }
