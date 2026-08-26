@@ -2,7 +2,6 @@
 Senate AI - Wikipedia Word Extractor + Auto-Definer
 Scrapes Wikipedia articles, extracts words, defines new ones.
 Builds the shared wordbank for all senators.
-Includes punctuation tokens.
 """
 
 import os
@@ -37,7 +36,6 @@ def load_wordbank():
         try:
             with open(WORD_BANK_PATH, 'r') as f:
                 bank = json.load(f)
-                # Ensure punctuation tokens exist
                 for punct, tid in PUNCTUATION_TOKENS.items():
                     if punct not in bank['words']:
                         bank['words'][punct] = {
@@ -55,7 +53,6 @@ def load_wordbank():
             except:
                 pass
     
-    # Create fresh wordbank with punctuation
     bank = {"words": {}, "total_articles": 0, "total_words": 0}
     for punct, tid in PUNCTUATION_TOKENS.items():
         bank['words'][punct] = {
@@ -79,7 +76,6 @@ def load_definitions():
             with open(DEFINITIONS_PATH, 'r') as f:
                 return json.load(f)
         except (json.JSONDecodeError, UnicodeDecodeError):
-            print("   Definitions corrupted, starting fresh")
             return []
     return []
 
@@ -91,7 +87,6 @@ def save_definitions(defs):
 
 
 def extract_words(text):
-    """Extract clean English words from text, keeping punctuation"""
     text = re.sub(r'[^a-zA-Z\s.,!?;:\'\"-]', '', text)
     words = []
     for w in text.split():
@@ -99,7 +94,6 @@ def extract_words(text):
         if len(w) > 0:
             words.append(w)
     
-    # Also extract standalone punctuation
     for punct in PUNCTUATION_TOKENS.keys():
         words.append(punct)
     
@@ -107,12 +101,12 @@ def extract_words(text):
 
 
 def scrape_article():
-    """Scrape one random Wikipedia article"""
+    """Scrape one random Wikipedia article with timeout"""
     try:
         r = requests.get(
             "https://en.wikipedia.org/api/rest_v1/page/random/summary",
-            timeout=15,
-            headers={'User-Agent': 'SenateAI/1.0 (https://github.com/pullbot-ai/senateAI)'}
+            timeout=8,
+            headers={'User-Agent': 'SenateAI/1.0'}
         )
         if r.status_code == 200:
             data = r.json()
@@ -123,10 +117,10 @@ def scrape_article():
 
 
 def lookup_definition(word):
-    """Look up definition for a single word"""
+    """Look up definition with timeout"""
     try:
         url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{word}"
-        r = requests.get(url, timeout=10)
+        r = requests.get(url, timeout=5)
         if r.status_code == 200:
             data = r.json()
             for entry in data[:1]:
@@ -139,7 +133,6 @@ def lookup_definition(word):
 
 
 def get_token_id(word, vocab_size=8000):
-    """Map a word to a token ID using stable hash"""
     if word in PUNCTUATION_TOKENS:
         return PUNCTUATION_TOKENS[word]
     
@@ -149,18 +142,14 @@ def get_token_id(word, vocab_size=8000):
 
 
 def process_article(text, title, bank, definitions, article_num):
-    """Process one article: extract words, add new ones, define them"""
-    
     all_words = extract_words(text)
     
     new_words = []
     skipped = 0
     
     for word in all_words:
-        # Clean punctuation from word
         clean_word = word.strip('.,!?;:"\'()-')
         if not clean_word:
-            # It's pure punctuation
             if word in PUNCTUATION_TOKENS and word not in bank['words']:
                 bank['words'][word] = {
                     'token_id': PUNCTUATION_TOKENS[word],
@@ -184,7 +173,7 @@ def process_article(text, title, bank, definitions, article_num):
             skipped += 1
     
     defined_count = 0
-    for word in new_words[:20]:
+    for word in new_words[:10]:
         if word in PUNCTUATION_TOKENS:
             continue
         definition = lookup_definition(word)
@@ -198,13 +187,13 @@ def process_article(text, title, bank, definitions, article_num):
                 'first_seen': title
             })
             defined_count += 1
-        time.sleep(0.2)
+        time.sleep(0.1)
     
     return new_words, skipped, defined_count
 
 
-def run_mass_scrape(num_articles=30):
-    """Scrape articles, extract words, define new ones"""
+def run_mass_scrape(num_articles=10):
+    """Scrape articles with tight timeouts"""
     print("=" * 50)
     print(f"SENATE AI - WORD SCRAPER")
     print(f"   Target: {num_articles} articles")
@@ -215,7 +204,6 @@ def run_mass_scrape(num_articles=30):
     
     starting_words = len(bank['words'])
     total_new = 0
-    total_skipped = 0
     total_defined = 0
     errors = 0
     
@@ -229,34 +217,27 @@ def run_mass_scrape(num_articles=30):
         new_words, skipped, defined = process_article(text, title, bank, definitions, i)
         
         total_new += len(new_words)
-        total_skipped += skipped
         total_defined += defined
         bank['total_articles'] += 1
         
-        if (i + 1) % 5 == 0:
+        if (i + 1) % 3 == 0:
             total = len(bank['words'])
             print(f"   {i+1}/{num_articles} | {total:,} words | +{total_new} new | {total_defined} defined | {errors} err")
         
-        time.sleep(0.3)
+        time.sleep(0.2)
     
     bank['total_words'] = len(bank['words'])
     save_wordbank(bank)
     save_definitions(definitions)
     
     print(f"\nDone!")
-    print(f"   Articles: {num_articles}")
     print(f"   Words before: {starting_words:,}")
     print(f"   Words after: {len(bank['words']):,}")
-    print(f"   New words added: {total_new:,}")
-    print(f"   Words already known: {total_skipped:,}")
+    print(f"   New words: {total_new:,}")
     print(f"   New definitions: {total_defined:,}")
     print(f"   Errors: {errors}")
-    
-    all_words = list(bank['words'].keys())
-    if all_words:
-        print(f"\n   Latest words: {all_words[-20:]}")
 
 
 if __name__ == '__main__':
-    num = int(sys.argv[1]) if len(sys.argv) > 1 else 30
+    num = int(sys.argv[1]) if len(sys.argv) > 1 else 10
     run_mass_scrape(num)
