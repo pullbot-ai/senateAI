@@ -2,7 +2,7 @@
 Senate AI - Topic-Based Training with AI Grading
 Uses shared wordbank for tokenization. AI-guided parameter selection.
 Fresh data every 5 epochs to prevent overfitting.
-STRICT AI grading.
+STRICT AI grading. Empty answers auto-score 0.
 """
 
 import torch
@@ -61,7 +61,6 @@ Return as JSON array of strings: ["sentence1.", "sentence2?", "sentence3!"]"""
         except:
             pass
     
-    # Fallback with multiple examples
     return [
         f"{topic} is an important field of study involving key principles and concepts.",
         f"The study of {topic} requires analytical thinking and practical application.",
@@ -142,7 +141,6 @@ def train_senator_on_topics(senator, topics, wordbank, epochs=50, lr=0.0005, bat
     num_rounds = epochs // refresh_interval
     
     for round_num in range(num_rounds):
-        # Generate FRESH training data each round
         all_texts = []
         for topic in topics:
             texts = generate_training_data(topic, num_examples=30)
@@ -200,7 +198,7 @@ def train_senator_on_topics(senator, topics, wordbank, epochs=50, lr=0.0005, bat
 
 
 def grade_senator_with_ai(senator, qa_pairs, wordbank):
-    """Grade senator using STRICT AI judge"""
+    """Grade senator using STRICT AI judge. Empty answers auto-score 0."""
     senator.eval()
     scores = []
     
@@ -227,6 +225,18 @@ def grade_senator_with_ai(senator, qa_pairs, wordbank):
                 current = torch.cat([current, torch.tensor([[next_token]])], dim=1)
         
         senator_answer = wordbank.decode(torch.tensor(generated))
+        
+        # Auto-score 0 for empty or "..." answers
+        cleaned_answer = senator_answer.replace('[', '').replace(']', '').strip()
+        if not cleaned_answer or cleaned_answer == '...' or cleaned_answer == '.' or len(cleaned_answer) < 3:
+            scores.append({
+                'topic': topic,
+                'question': question,
+                'correct_answer': correct_answer,
+                'senator_answer': senator_answer,
+                'score': 0
+            })
+            continue
         
         grading_prompt = f"""You are a STRICT grader evaluating an AI senator's answer.
 
