@@ -44,35 +44,37 @@ jobs:
       
       - name: Reset senator weights
         run: |
-          python -c "
-import sys, torch
-sys.path.insert(0, 'src')
-from model_template import SenateBundle
+          cat > reset_one.py << 'EOF'
+          import sys, torch
+          import torch.nn as nn
+          sys.path.insert(0, 'src')
+          from model_template import SenateBundle
 
-senator_id = ${{ github.event.inputs.senator_id }}
-bundle_id = senator_id // 10
-bundle_path = f'senate_bundles/bundle_{bundle_id:03d}.pt'
+          senator_id = ${{ github.event.inputs.senator_id }}
+          bundle_id = senator_id // 10
+          bundle_path = f'senate_bundles/bundle_{bundle_id:03d}.pt'
 
-bundle = SenateBundle.load(bundle_path)
-senator = bundle.get_senator(senator_id)
+          bundle = SenateBundle.load(bundle_path)
+          senator = bundle.get_senator(senator_id)
 
-if senator is None:
-    print(f'Senator {senator_id} not found')
-    sys.exit(1)
+          if senator is None:
+              print(f'Senator {senator_id} not found')
+              sys.exit(1)
 
-print(f'Resetting Senator {senator_id}...')
+          print(f'Resetting Senator {senator_id}...')
 
-for name, param in senator.named_parameters():
-    if param.dim() >= 2:
-        nn.init.xavier_uniform_(param)
-    elif param.dim() == 1:
-        nn.init.zeros_(param)
+          for name, param in senator.named_parameters():
+              if param.dim() >= 2:
+                  nn.init.xavier_uniform_(param)
+              elif param.dim() == 1:
+                  nn.init.zeros_(param)
 
-senator.performance = {spec: 0.5 for spec in senator.specialties}
+          senator.performance = {spec: 0.5 for spec in senator.specialties}
 
-bundle.save(bundle_path)
-print(f'Senator {senator_id} reset successfully')
-"
+          bundle.save(bundle_path)
+          print(f'Senator {senator_id} reset successfully')
+          EOF
+          python reset_one.py
       
       - name: Push reset bundle
         run: |
