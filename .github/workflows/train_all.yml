@@ -31,7 +31,6 @@ jobs:
             "music_theory" "art_history" "environmental_science"
           )
           
-          # Randomly pick 5 unique topics
           SELECTED=()
           while [ ${#SELECTED[@]} -lt 5 ]; do
             RANDOM_TOPIC=${ALL_TOPICS[$RANDOM % ${#ALL_TOPICS[@]}]}
@@ -56,6 +55,14 @@ jobs:
             -H "Accept: application/vnd.github.v3+json" \
             "https://api.github.com/repos/${{ github.repository }}/actions/workflows/focused_training.yml/dispatches" \
             -d "{\"ref\":\"${{ github.ref_name }}\",\"inputs\":{\"max_senators\":\"10\",\"epochs\":\"50\"}}"
+      
+      - name: Trigger anti-overfit training
+        run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${{ github.token }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/anti_overfit.yml/dispatches" \
+            -d "{\"ref\":\"${{ github.ref_name }}\",\"inputs\":{\"max_senators\":\"10\"}}"
       
       - name: Trigger router training
         run: |
