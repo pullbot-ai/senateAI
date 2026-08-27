@@ -20,24 +20,33 @@ def ai_direct_edit(senator, overfit_severity, specialties):
     
     param_names = list(dict(senator.named_parameters()).keys())
     
-    prompt = f"""Edit a neural network to fix overfitting.
+    # Test Puter.js connection first
+    print('Testing Puter.js connection...')
+    test_response = call_ai("Say hello", max_tokens=10)
+    
+    if test_response:
+        print(f'Puter.js works: {test_response[:30]}')
+    else:
+        print('Puter.js is DOWN or unreachable')
+        return False
+    
+    # If Puter.js works, try the edit prompt
+    edit_prompt = f"""Edit neural network weights to fix overfitting.
 
 Specialties: {', '.join(specialties[:3])}
-Severity: {overfit_severity:.1f} percent
+Severity: {overfit_severity:.1f}
 
-Available params: {', '.join(param_names[:8])}
+Available params: {', '.join(param_names[:6])}
 
-For each param, say ADD_NOISE or REDUCE and a number from 0.05 to 0.3.
-
-Return JSON array with param, action, and amount fields."""
+Return JSON array with param, action (ADD_NOISE or REDUCE), and amount (0.05 to 0.3)."""
     
     print('Asking AI to edit weights...')
     
     for attempt in range(3):
-        response = call_ai(prompt, max_tokens=150)
+        response = call_ai(edit_prompt, max_tokens=100)
         
         if response:
-            print(f'AI response received (attempt {attempt+1})')
+            print(f'Got response (attempt {attempt+1}): {response[:100]}')
             try:
                 match = re.search(r'\[.*\]', response, re.DOTALL)
                 if match:
@@ -64,7 +73,7 @@ Return JSON array with param, action, and amount fields."""
             except Exception as e:
                 print(f'Parse error: {e}')
         else:
-            print(f'AI returned None (attempt {attempt+1})')
+            print(f'None on attempt {attempt+1}')
     
     return False
 
