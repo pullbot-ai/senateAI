@@ -19,54 +19,52 @@ def ai_direct_edit(senator, overfit_severity, specialties):
     """AI directly modifies weights to fix overfitting"""
     
     param_names = list(dict(senator.named_parameters()).keys())
-    severity_text = f'{overfit_severity:.1f}'
     
-    prompt = f"""You are directly editing a neural network to fix overfitting.
+    prompt = f"""Edit a neural network to fix overfitting.
 
-Senator specialties: {', '.join(specialties[:3])}
-Overfit severity: {severity_text} percent
+Specialties: {', '.join(specialties[:3])}
+Severity: {overfit_severity:.1f} percent
 
-The senator memorized training data instead of learning general patterns.
+Available params: {', '.join(param_names[:8])}
 
-Available parameter groups:
-{', '.join(param_names[:10])}
+For each param, say ADD_NOISE or REDUCE and a number from 0.05 to 0.3.
 
-Fix by adding noise to break memorized patterns or reducing overconfident weights.
-
-Return JSON with edits array."""
+Return JSON array with param, action, and amount fields."""
     
     print('Asking AI to edit weights...')
-    response = call_ai(prompt, max_tokens=200)
     
-    if response:
-        print('AI response received')
-        try:
-            match = re.search(r'\{.*\}', response, re.DOTALL)
-            if match:
-                edits = json.loads(match.group()).get('edits', [])
-                
-                for edit in edits:
-                    param_hint = edit.get('param', '')
-                    operation = edit.get('operation', 'add_noise')
-                    magnitude = float(edit.get('magnitude', 0.1))
-                    
-                    for name, param in senator.named_parameters():
-                        if param_hint.lower() in name.lower():
-                            with torch.no_grad():
-                                if operation == 'add_noise':
-                                    std = param.data.std()
-                                    if std > 0:
-                                        param.data += torch.randn_like(param.data) * magnitude * std
-                                    print(f'Added noise to {name}')
-                                elif operation == 'reduce':
-                                    param.data *= (1 - magnitude)
-                                    print(f'Reduced {name}')
-                            break
-                return True
-        except Exception as e:
-            print(f'Edit parse error: {e}')
-    else:
-        print('AI returned None')
+    for attempt in range(3):
+        response = call_ai(prompt, max_tokens=150)
+        
+        if response:
+            print(f'AI response received (attempt {attempt+1})')
+            try:
+                match = re.search(r'\[.*\]', response, re.DOTALL)
+                if match:
+                    edits = json.loads(match.group())
+                    if isinstance(edits, list):
+                        for edit in edits:
+                            param_hint = edit.get('param', '')
+                            action = edit.get('action', edit.get('operation', 'ADD_NOISE'))
+                            amount = float(edit.get('amount', edit.get('magnitude', 0.1)))
+                            
+                            for name, param in senator.named_parameters():
+                                if param_hint.lower() in name.lower():
+                                    with torch.no_grad():
+                                        if 'NOISE' in action.upper():
+                                            std = param.data.std()
+                                            if std > 0:
+                                                param.data += torch.randn_like(param.data) * amount * std
+                                            print(f'Added noise to {name}')
+                                        elif 'REDUCE' in action.upper():
+                                            param.data *= (1 - amount)
+                                            print(f'Reduced {name}')
+                                    break
+                        return True
+            except Exception as e:
+                print(f'Parse error: {e}')
+        else:
+            print(f'AI returned None (attempt {attempt+1})')
     
     return False
 
@@ -108,19 +106,19 @@ def edit_senator(index):
     edited = ai_direct_edit(senator, overfit_score, specialties)
     
     if not edited:
-        print('AI edit failed, applying scaled noise fallback...')
+        print('AI edit failed, applying weight clipping fallback...')
         with torch.no_grad():
             for name, param in senator.named_parameters():
                 if param.dim() >= 2:
+                    mean = param.data.mean()
                     std = param.data.std()
                     if std > 0:
-                        noise_strength = 0.1 * (overfit_score / 100)
-                        param.data += torch.randn_like(param.data) * std * noise_strength
-                        
-                        max_val = param.data.abs().max()
-                        if max_val > 1.0:
-                            param.data = torch.clamp(param.data, -1.0, 1.0)
-        print('Applied scaled noise fallback')
+                        mask = param.data.abs() > (mean.abs() + 2 * std)
+                        param.data[mask] = mean
+                        clipped = mask.sum().item()
+                        if clipped > 0:
+                            print(f'Clipped {clipped} extreme weights in {name}')
+        print('Applied weight clipping')
     
     from train import grade_and_update
     print('Re-grading...')
