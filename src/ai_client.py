@@ -1,31 +1,57 @@
 """
-Senate AI - AI Client (Python wrapper)
-Calls Node.js/Puter.js for AI - no API key needed.
+Senate AI - AI Client
+Uses deployed Puter Worker for AI calls.
 """
 
-import subprocess
-import json
-import tempfile
+import requests
 import os
 
-def call_ai(prompt, max_tokens=500, model="gpt-4o-mini"):
-    """Call Puter.js AI through Node.js"""
+PUTER_WORKER_URL = os.environ.get('PUTER_WORKER_URL', 'https://senate-ai-worker.puter.site')
+
+def call_ai(prompt, max_tokens=500, purpose='training', **kwargs):
+    """Call Puter worker for AI tasks"""
     
     try:
-        result = subprocess.run(
-            ['node', 'src/ai_client.js'],
-            input=prompt,
-            capture_output=True,
-            text=True,
-            timeout=60,
-            cwd=os.getcwd()
-        )
+        if purpose == 'training':
+            response = requests.post(
+                f'{PUTER_WORKER_URL}/generate-training-data',
+                json={
+                    'topic': kwargs.get('topic', 'general'),
+                    'num_examples': kwargs.get('num_examples', 30)
+                },
+                timeout=30
+            )
+            if response.status_code == 200:
+                return response.json().get('data', '')
         
-        if result.returncode == 0:
-            return result.stdout.strip()
+        elif purpose == 'grading':
+            response = requests.post(
+                f'{PUTER_WORKER_URL}/grade-answer',
+                json={
+                    'question': kwargs.get('question', ''),
+                    'correct_answer': kwargs.get('correct_answer', ''),
+                    'senator_answer': kwargs.get('senator_answer', '')
+                },
+                timeout=20
+            )
+            if response.status_code == 200:
+                return response.json().get('score', '')
         
-        return None
+        elif purpose == 'params':
+            response = requests.post(
+                f'{PUTER_WORKER_URL}/select-params',
+                json={
+                    'topics': kwargs.get('topics', []),
+                    'epoch': kwargs.get('epoch', 0),
+                    'loss': kwargs.get('loss', 8.0),
+                    'param_names': kwargs.get('param_names', [])
+                },
+                timeout=20
+            )
+            if response.status_code == 200:
+                return response.json().get('params', '')
     
     except Exception as e:
-        print(f"   AI call failed: {e}")
-        return None
+        print(f'   Worker call failed: {e}')
+    
+    return None
