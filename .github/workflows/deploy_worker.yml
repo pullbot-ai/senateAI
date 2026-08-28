@@ -1,0 +1,26 @@
+name: Deploy Puter Worker
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'src/worker.js'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install Puter CLI
+        run: npm install -g @heyputer/cli
+      
+      - name: Deploy worker
+        env:
+          PUTER_AUTH_TOKEN: ${{ secrets.PUTER_AUTH_TOKEN }}
+        run: puter worker deploy ./src/worker.js senate-ai-worker
