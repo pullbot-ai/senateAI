@@ -1,57 +1,51 @@
 """
 Senate AI - AI Client
-Uses deployed Puter Worker for AI calls.
+Uses HuggingFace free inference API. No API key needed.
 """
 
 import requests
-import os
+import json
+import re
 
-PUTER_WORKER_URL = os.environ.get('PUTER_WORKER_URL', 'https://senate-ai-worker.puter.site')
+HF_API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2"
 
-def call_ai(prompt, max_tokens=500, purpose='training', **kwargs):
-    """Call Puter worker for AI tasks"""
+
+def call_ai(prompt, max_tokens=500, model="mistralai/Mistral-7B-Instruct-v0.2"):
+    """Call HuggingFace free inference API - no key required"""
     
     try:
-        if purpose == 'training':
-            response = requests.post(
-                f'{PUTER_WORKER_URL}/generate-training-data',
-                json={
-                    'topic': kwargs.get('topic', 'general'),
-                    'num_examples': kwargs.get('num_examples', 30)
-                },
-                timeout=30
-            )
-            if response.status_code == 200:
-                return response.json().get('data', '')
+        headers = {
+            "Content-Type": "application/json"
+        }
         
-        elif purpose == 'grading':
-            response = requests.post(
-                f'{PUTER_WORKER_URL}/grade-answer',
-                json={
-                    'question': kwargs.get('question', ''),
-                    'correct_answer': kwargs.get('correct_answer', ''),
-                    'senator_answer': kwargs.get('senator_answer', '')
-                },
-                timeout=20
-            )
-            if response.status_code == 200:
-                return response.json().get('score', '')
+        payload = {
+            "inputs": prompt,
+            "parameters": {
+                "max_new_tokens": max_tokens,
+                "temperature": 0.7,
+                "return_full_text": False
+            }
+        }
         
-        elif purpose == 'params':
-            response = requests.post(
-                f'{PUTER_WORKER_URL}/select-params',
-                json={
-                    'topics': kwargs.get('topics', []),
-                    'epoch': kwargs.get('epoch', 0),
-                    'loss': kwargs.get('loss', 8.0),
-                    'param_names': kwargs.get('param_names', [])
-                },
-                timeout=20
-            )
-            if response.status_code == 200:
-                return response.json().get('params', '')
+        r = requests.post(
+            HF_API_URL,
+            headers=headers,
+            json=payload,
+            timeout=30
+        )
+        
+        if r.status_code == 200:
+            data = r.json()
+            if isinstance(data, list) and data:
+                return data[0].get('generated_text', '')
+            elif isinstance(data, dict):
+                return data.get('generated_text', '')
+            else:
+                return str(data)
+        else:
+            print(f'   HF API {r.status_code}: {r.text[:100]}')
     
     except Exception as e:
-        print(f'   Worker call failed: {e}')
+        print(f'   HF call failed: {e}')
     
     return None
