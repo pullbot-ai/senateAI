@@ -154,6 +154,10 @@ def train_senator_on_topics(senator, topics, wordbank, epochs=50, lr=0.0005, bat
         sys.stdout.flush()
         
         for epoch in range(refresh_interval):
+            # ALWAYS reset all params to trainable first
+            for param in senator.parameters():
+                param.requires_grad = True
+            
             selected_tensors = []
             
             if ai_guided and total_epochs_done >= 2:
@@ -161,6 +165,7 @@ def train_senator_on_topics(senator, topics, wordbank, epochs=50, lr=0.0005, bat
                 selected_names = select_params_with_ai(senator, topics, total_epochs_done, epochs, current_loss)
                 
                 if selected_names:
+                    selected_tensors = []
                     for name, param in senator.named_parameters():
                         if name in selected_names:
                             param.requires_grad = True
@@ -168,6 +173,7 @@ def train_senator_on_topics(senator, topics, wordbank, epochs=50, lr=0.0005, bat
                         else:
                             param.requires_grad = False
             
+            # Fallback: if no tensors selected, use all
             if not selected_tensors:
                 for param in senator.parameters():
                     param.requires_grad = True
