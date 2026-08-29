@@ -234,7 +234,8 @@ def grade_senator_with_ai(senator, qa_pairs, wordbank):
         
         # Auto-score 0 for empty or "..." answers
         cleaned_answer = senator_answer.replace('[', '').replace(']', '').strip()
-        if not cleaned_answer or cleaned_answer == '...' or cleaned_answer == '.' or len(cleaned_answer) < 3:
+        if (not cleaned_answer or cleaned_answer == '...' or cleaned_answer == '.' 
+            or cleaned_answer == '..' or len(cleaned_answer) <= 3):
             scores.append({
                 'topic': topic,
                 'question': question,
@@ -272,6 +273,12 @@ Return ONLY a number between 0 and 100."""
         if ai_score:
             try:
                 score = float(''.join(c for c in ai_score if c.isdigit() or c == '.'))
+                
+                # Qwen returns scores on 0-10 scale (e.g., "5.7")
+                # Convert to 0-100 if score is 10 or less
+                if score <= 10:
+                    score = score * 10
+                
                 score = min(100, max(0, score))
             except:
                 similarity = SequenceMatcher(None, correct_answer.lower(), senator_answer.lower()).ratio()
