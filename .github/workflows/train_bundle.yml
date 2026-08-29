@@ -42,16 +42,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: pip-${{ runner.os }}
+          key: pip-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
           restore-keys: pip-${{ runner.os }}-
-      - run: pip install torch numpy pyyaml requests
-      - run: npm install @heyputer/puter.js
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-${{ runner.os }}-qwen-0.5b
+          restore-keys: hf-${{ runner.os }}-
+      - run: pip install torch numpy pyyaml requests transformers
       - name: Train bundle ${{ matrix.bundle }}
         run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
@@ -89,16 +90,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: pip-${{ runner.os }}
+          key: pip-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
           restore-keys: pip-${{ runner.os }}-
-      - run: pip install torch numpy pyyaml requests
-      - run: npm install @heyputer/puter.js
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-${{ runner.os }}-qwen-0.5b
+          restore-keys: hf-${{ runner.os }}-
+      - run: pip install torch numpy pyyaml requests transformers
       - name: Train bundle ${{ matrix.bundle }}
         run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
@@ -136,16 +138,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: pip-${{ runner.os }}
+          key: pip-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
           restore-keys: pip-${{ runner.os }}-
-      - run: pip install torch numpy pyyaml requests
-      - run: npm install @heyputer/puter.js
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-${{ runner.os }}-qwen-0.5b
+          restore-keys: hf-${{ runner.os }}-
+      - run: pip install torch numpy pyyaml requests transformers
       - name: Train bundle ${{ matrix.bundle }}
         run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
@@ -183,16 +186,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: pip-${{ runner.os }}
+          key: pip-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
           restore-keys: pip-${{ runner.os }}-
-      - run: pip install torch numpy pyyaml requests
-      - run: npm install @heyputer/puter.js
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-${{ runner.os }}-qwen-0.5b
+          restore-keys: hf-${{ runner.os }}-
+      - run: pip install torch numpy pyyaml requests transformers
       - name: Train bundle ${{ matrix.bundle }}
         run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
@@ -230,16 +234,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: pip-${{ runner.os }}
+          key: pip-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
           restore-keys: pip-${{ runner.os }}-
-      - run: pip install torch numpy pyyaml requests
-      - run: npm install @heyputer/puter.js
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-${{ runner.os }}-qwen-0.5b
+          restore-keys: hf-${{ runner.os }}-
+      - run: pip install torch numpy pyyaml requests transformers
       - name: Train bundle ${{ matrix.bundle }}
         run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
@@ -277,16 +282,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: pip-${{ runner.os }}
+          key: pip-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
           restore-keys: pip-${{ runner.os }}-
-      - run: pip install torch numpy pyyaml requests
-      - run: npm install @heyputer/puter.js
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-${{ runner.os }}-qwen-0.5b
+          restore-keys: hf-${{ runner.os }}-
+      - run: pip install torch numpy pyyaml requests transformers
       - name: Train bundle ${{ matrix.bundle }}
         run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
@@ -324,16 +330,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: pip-${{ runner.os }}
+          key: pip-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
           restore-keys: pip-${{ runner.os }}-
-      - run: pip install torch numpy pyyaml requests
-      - run: npm install @heyputer/puter.js
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-${{ runner.os }}-qwen-0.5b
+          restore-keys: hf-${{ runner.os }}-
+      - run: pip install torch numpy pyyaml requests transformers
       - name: Train bundle ${{ matrix.bundle }}
         run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
@@ -371,16 +378,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: pip-${{ runner.os }}
+          key: pip-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
           restore-keys: pip-${{ runner.os }}-
-      - run: pip install torch numpy pyyaml requests
-      - run: npm install @heyputer/puter.js
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-${{ runner.os }}-qwen-0.5b
+          restore-keys: hf-${{ runner.os }}-
+      - run: pip install torch numpy pyyaml requests transformers
       - name: Train bundle ${{ matrix.bundle }}
         run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
@@ -418,16 +426,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: pip-${{ runner.os }}
+          key: pip-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
           restore-keys: pip-${{ runner.os }}-
-      - run: pip install torch numpy pyyaml requests
-      - run: npm install @heyputer/puter.js
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-${{ runner.os }}-qwen-0.5b
+          restore-keys: hf-${{ runner.os }}-
+      - run: pip install torch numpy pyyaml requests transformers
       - name: Train bundle ${{ matrix.bundle }}
         run: python src/train.py --topics ${{ github.event.inputs.topics }} --bundle ${{ matrix.bundle }} --epochs 50 --lr 0.0005 --ai-guided
       - name: Upload bundle ${{ matrix.bundle }}
@@ -461,13 +470,12 @@ jobs:
               padded=$(printf "%03d" $j)
               git add senate_bundles/bundle_${padded}.pt 2>/dev/null || true
             done
-            git commit -m "Train priority bundles $(printf '%03d' $i)-$(printf '%03d' $end)" 2>/dev/null || echo "No changes"
+            git commit -m "Train priority bundles" 2>/dev/null || echo "No changes"
             for attempt in $(seq 1 20); do
               if git push; then
-                echo "Batch $i-$end pushed (attempt $attempt)!"
+                echo "Pushed"
                 break
               fi
-              echo "Retry $attempt/20..."
               git pull --rebase origin main 2>/dev/null || true
               sleep 15
             done
@@ -499,13 +507,12 @@ jobs:
               padded=$(printf "%03d" $j)
               git add senate_bundles/bundle_${padded}.pt 2>/dev/null || true
             done
-            git commit -m "Train bundles $(printf '%03d' $i)-$(printf '%03d' $end)" 2>/dev/null || echo "No changes"
+            git commit -m "Train bundles" 2>/dev/null || echo "No changes"
             for attempt in $(seq 1 20); do
               if git push; then
-                echo "Batch $i-$end pushed (attempt $attempt)!"
+                echo "Pushed"
                 break
               fi
-              echo "Retry $attempt/20..."
               git pull --rebase origin main 2>/dev/null || true
               sleep 15
             done
