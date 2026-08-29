@@ -9,7 +9,7 @@ permissions:
 jobs:
   train:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       
@@ -20,10 +20,16 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: pip-${{ runner.os }}
+          key: pip-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
           restore-keys: pip-${{ runner.os }}-
       
-      - run: pip install torch numpy pyyaml requests
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-${{ runner.os }}-qwen-0.5b
+          restore-keys: hf-${{ runner.os }}-
+      
+      - run: pip install torch numpy pyyaml requests transformers
       
       - name: Train router
         run: python src/router_model.py
@@ -37,4 +43,9 @@ jobs:
           git stash pop || true
           git add -f models/router.pt
           git commit -m "Train router model" || echo "No changes"
-          git push
+          git push || {
+            git pull --rebase origin main
+            git add -f models/router.pt
+            git commit -m "Train router retry" || echo "No changes"
+            git push
+          }
