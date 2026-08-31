@@ -2,323 +2,307 @@
   "difficulty": 1,
   "examples": [
     {
-      "question": "What is a key concept in microbiology?",
-      "good_answer": "microbiology involves fundamental principles and their practical applications.",
-      "flawed_answer": "microbiology is only about memorizing facts.",
+      "question": "What is a key concept in economics?",
+      "good_answer": "economics involves fundamental principles and their practical applications.",
+      "flawed_answer": "economics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of microbiology.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of economics.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in microbiology?",
-      "good_answer": "microbiology involves fundamental principles and their practical applications.",
-      "flawed_answer": "microbiology is only about memorizing facts.",
+      "question": "What is a key concept in economics?",
+      "good_answer": "economics involves fundamental principles and their practical applications.",
+      "flawed_answer": "economics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of microbiology.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of economics.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in microbiology?",
-      "good_answer": "microbiology involves fundamental principles and their practical applications.",
-      "flawed_answer": "microbiology is only about memorizing facts.",
+      "question": "What is a key concept in economics?",
+      "good_answer": "economics involves fundamental principles and their practical applications.",
+      "flawed_answer": "economics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of microbiology.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of economics.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in microbiology?",
-      "good_answer": "microbiology involves fundamental principles and their practical applications.",
-      "flawed_answer": "microbiology is only about memorizing facts.",
+      "question": "What is a key concept in economics?",
+      "good_answer": "economics involves fundamental principles and their practical applications.",
+      "flawed_answer": "economics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of microbiology.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of economics.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in microbiology?",
-      "good_answer": "microbiology involves fundamental principles and their practical applications.",
-      "flawed_answer": "microbiology is only about memorizing facts.",
+      "question": "What is a key concept in economics?",
+      "good_answer": "economics involves fundamental principles and their practical applications.",
+      "flawed_answer": "economics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of microbiology.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of economics.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in world_wars?",
-      "good_answer": "world_wars involves fundamental principles and their practical applications.",
-      "flawed_answer": "world_wars is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of world_wars.",
+      "question": "What is the main theme of 'Pride and Prejudice'?",
+      "good_answer": "The theme is about social class and the pursuit of happiness.",
+      "flawed_answer": "The theme is about love and marriage.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer is that the theme is about social class and the pursuit of happiness.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in world_wars?",
-      "good_answer": "world_wars involves fundamental principles and their practical applications.",
-      "flawed_answer": "world_wars is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of world_wars.",
+      "question": "Who is the protagonist in 'To Kill a Mockingbird'?",
+      "good_answer": "Atticus Finch is the protagonist.",
+      "flawed_answer": "The protagonist is Scout Finch.",
+      "flaw_type": "misleading",
+      "feedback": "The correct answer is Atticus Finch.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in world_wars?",
-      "good_answer": "world_wars involves fundamental principles and their practical applications.",
-      "flawed_answer": "world_wars is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of world_wars.",
+      "question": "What is the significance of the 'Twilight Saga' series in literature?",
+      "good_answer": "It emphasizes themes such as power, control, and manipulation.",
+      "flawed_answer": "It focuses on the romance between the characters.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer is it emphasizes themes like power, control, and manipulation.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in world_wars?",
-      "good_answer": "world_wars involves fundamental principles and their practical applications.",
-      "flawed_answer": "world_wars is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of world_wars.",
+      "question": "How does the character of 'Moby Dick' by Herman Melville differ from his other works?",
+      "good_answer": "It follows the same plot structure as Moby Dick but uses different writing styles.",
+      "flawed_answer": "It uses different writing styles than Moby Dick.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer is that it follows the same plot structure as Moby Dick but uses different writing styles.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in world_wars?",
-      "good_answer": "world_wars involves fundamental principles and their practical applications.",
-      "flawed_answer": "world_wars is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of world_wars.",
+      "question": "What is the moral lesson of 'Brave New World'?",
+      "good_answer": "It teaches that human beings can be controlled and manipulated without realizing it.",
+      "flawed_answer": "It promotes the idea that humans are inherently good and can be transformed into anything they want.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer is that it teaches that human beings can be controlled and manipulated without realizing it.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in quantum_mechanics?",
-      "good_answer": "quantum_mechanics involves fundamental principles and their practical applications.",
-      "flawed_answer": "quantum_mechanics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of quantum_mechanics.",
+      "question": "In 'The Great Gatsby', why is Daisy Buchanan considered the epitome of American exceptionalism?",
+      "good_answer": "She represents the values of the American Dream and her wealth is used to help others.",
+      "flawed_answer": "She is portrayed as a symbol of American decadence and corruption.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer is that she represents the values of the American Dream and her wealth is used to help others.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in quantum_mechanics?",
-      "good_answer": "quantum_mechanics involves fundamental principles and their practical applications.",
-      "flawed_answer": "quantum_mechanics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of quantum_mechanics.",
+      "question": "What is the purpose of 'The Catcher in the Rye' by J.D. Salinger?",
+      "good_answer": "It explores themes of alienation, innocence, and loss of identity.",
+      "flawed_answer": "It primarily deals with the lives of teenage boys.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer is that it explores themes of alienation, innocence, and loss of identity.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in quantum_mechanics?",
-      "good_answer": "quantum_mechanics involves fundamental principles and their practical applications.",
-      "flawed_answer": "quantum_mechanics is only about memorizing facts.",
+      "question": "What is the primary greenhouse gas causing global warming?",
+      "good_answer": "Carbon dioxide (CO2)",
+      "flawed_answer": "Water vapor (H2O) or methane (CH4)",
+      "flaw_type": "Incomplete",
+      "feedback": "The correct answer should be CO2, as it is the main driver of global warming.",
+      "difficulty": 3
+    },
+    {
+      "question": "How does deforestation affect biodiversity?",
+      "good_answer": "It leads to habitat loss and decreases ecosystem resilience.",
+      "flawed_answer": "It increases biodiversity by providing more food sources.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly assumes that deforestation increases biodiversity.",
+      "difficulty": 2
+    },
+    {
+      "question": "Which of these is not a renewable energy source?",
+      "good_answer": "Coal",
+      "flawed_answer": "Solar power",
+      "flaw_type": "Misleading",
+      "feedback": "This answer misrepresents solar power as a renewable source.",
+      "difficulty": 3
+    },
+    {
+      "question": "What is the most significant cause of ocean acidification?",
+      "good_answer": "Increased carbon dioxide levels in the atmosphere",
+      "flawed_answer": "Decreased pH level due to ocean water absorption of carbon dioxide from the air",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly attributes increased carbon dioxide levels to ocean acidification.",
+      "difficulty": 2
+    },
+    {
+      "question": "Why do we need to reduce our use of fossil fuels?",
+      "good_answer": "To mitigate climate change",
+      "flawed_answer": "To improve economic growth",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly states reducing fossil fuel use is only beneficial for economic growth.",
+      "difficulty": 2
+    },
+    {
+      "question": "How can we decrease our carbon footprint at home?",
+      "good_answer": "Reduce meat consumption and increase physical activity",
+      "flawed_answer": "Buy less environmentally friendly products",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly suggests buying less environmentally friendly products reduces one\u2019s carbon footprint.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the current state of global temperatures compared to pre-industrial times?",
+      "good_answer": "Lower than pre-industrial times",
+      "flawed_answer": "Higher than pre-industrial times",
+      "flaw_type": "Misleading",
+      "feedback": "This answer incorrectly states higher temperatures compared to pre-industrial times.",
+      "difficulty": 3
+    },
+    {
+      "question": "Which of the following is not a renewable resource?",
+      "good_answer": "Natural gas",
+      "flawed_answer": "Coal",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly states coal as a non-renewable resource.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the relationship between global warming and sea-level rise?",
+      "good_answer": "They are caused by similar mechanisms",
+      "flawed_answer": "Sea-level rise causes global warming",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly attributes global warming to sea-level rise.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in art_history?",
+      "good_answer": "art_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "art_history is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of quantum_mechanics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in quantum_mechanics?",
-      "good_answer": "quantum_mechanics involves fundamental principles and their practical applications.",
-      "flawed_answer": "quantum_mechanics is only about memorizing facts.",
+      "question": "What is a key concept in art_history?",
+      "good_answer": "art_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "art_history is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of quantum_mechanics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in quantum_mechanics?",
-      "good_answer": "quantum_mechanics involves fundamental principles and their practical applications.",
-      "flawed_answer": "quantum_mechanics is only about memorizing facts.",
+      "question": "What is a key concept in art_history?",
+      "good_answer": "art_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "art_history is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of quantum_mechanics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in environmental_science?",
-      "good_answer": "environmental_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "environmental_science is only about memorizing facts.",
+      "question": "What is a key concept in art_history?",
+      "good_answer": "art_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "art_history is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of environmental_science.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in environmental_science?",
-      "good_answer": "environmental_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "environmental_science is only about memorizing facts.",
+      "question": "What is a key concept in art_history?",
+      "good_answer": "art_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "art_history is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of environmental_science.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in environmental_science?",
-      "good_answer": "environmental_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "environmental_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of environmental_science.",
+      "question": "What is the expected return on investment (ROI) when using a stock market index as a benchmark?",
+      "good_answer": "The expected return on investment (ROI) in a stock market index is generally lower than in the broader market.",
+      "flawed_answer": "The expected ROI of a stock market index can vary depending on various factors such as the index's composition, volatility, and investor sentiment.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly assumes that the entire stock market will have similar returns, which is not necessarily true.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in environmental_science?",
-      "good_answer": "environmental_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "environmental_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of environmental_science.",
+      "question": "How does the concept of diminishing marginal utility apply to a consumer's choice between two goods?",
+      "good_answer": "Diminishing marginal utility means that as more of one good is consumed, the additional satisfaction or utility gained from consuming it decreases.",
+      "flawed_answer": "In reality, consumers often experience diminishing marginal utility due to limited resources and time, rather than just the consumption of one good.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly states that consumers do not experience diminishing marginal utility, which is actually the opposite of the correct explanation.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in environmental_science?",
-      "good_answer": "environmental_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "environmental_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of environmental_science.",
+      "question": "Why is it important for investors to diversify their investments across different asset classes?",
+      "good_answer": "Diversification helps reduce risk by spreading investments across various assets like stocks, bonds, real estate, commodities, etc., thereby reducing the impact of any single factor that could negatively affect the overall performance of an investment portfolio.",
+      "flawed_answer": "It is unnecessary to diversify because diversification is only necessary if there is no correlation between the underlying assets.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly suggests that diversifying alone is sufficient, which overlooks other forms of diversification such as sector and industry diversification.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in political_science?",
-      "good_answer": "political_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "political_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of political_science.",
+      "question": "What role does psychological pricing play in determining the price at which a product is sold?",
+      "good_answer": "Psychological pricing refers to the practice of setting prices based on perceived value, scarcity, and other psychological factors.",
+      "flawed_answer": "Psychological pricing is typically applied to products with high demand and low supply, but it may not be applicable to all types of products or markets.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly attributes the effectiveness of psychological pricing solely to high demand and low supply conditions.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in political_science?",
-      "good_answer": "political_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "political_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of political_science.",
+      "question": "How does the concept of opportunity cost influence an individual's decision-making process?",
+      "good_answer": "Opportunity cost is the value of the next best alternative that is forgone in making a decision. It affects decisions by weighing the benefits against the costs associated with each option.",
+      "flawed_answer": "An individual should avoid taking risks entirely and instead focus on maximizing potential gains without considering opportunities lost.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly suggests that taking risks is always beneficial, which is not always the case.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in political_science?",
-      "good_answer": "political_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "political_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of political_science.",
+      "question": "What is the difference between short-term and long-term memory?",
+      "good_answer": "Short-term memory allows us to store information for a few seconds to a minute, while long-term memory holds information over longer periods.",
+      "flawed_answer": "Long-term memory is only used for storing information for extended periods, whereas short-term memory can be stored for shorter durations.",
+      "flaw_type": "incomplete",
+      "feedback": "This answer provides incomplete information about the duration of long-term vs. short-term memory.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in political_science?",
-      "good_answer": "political_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "political_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of political_science.",
+      "question": "What is the primary purpose of financial reporting in business?",
+      "good_answer": "Financial reporting serves to provide stakeholders with clear, relevant, and timely information about a company's financial position, performance, and prospects.",
+      "flawed_answer": "Financial reporting primarily aims to maximize shareholder value, but this can lead to misleading financial statements.",
+      "flaw_type": "misleading",
+      "feedback": "This answer misrepresents the primary goal of financial reporting.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in political_science?",
-      "good_answer": "political_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "political_science is only about memorizing facts.",
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of political_science.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in history?",
-      "good_answer": "history involves fundamental principles and their practical applications.",
-      "flawed_answer": "history is only about memorizing facts.",
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of history.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in history?",
-      "good_answer": "history involves fundamental principles and their practical applications.",
-      "flawed_answer": "history is only about memorizing facts.",
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of history.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in history?",
-      "good_answer": "history involves fundamental principles and their practical applications.",
-      "flawed_answer": "history is only about memorizing facts.",
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of history.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in history?",
-      "good_answer": "history involves fundamental principles and their practical applications.",
-      "flawed_answer": "history is only about memorizing facts.",
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of history.",
-      "difficulty": 1
-    },
-    {
-      "question": "What is a key concept in history?",
-      "good_answer": "history involves fundamental principles and their practical applications.",
-      "flawed_answer": "history is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of history.",
-      "difficulty": 1
-    },
-    {
-      "question": "What is a key concept in networking?",
-      "good_answer": "networking involves fundamental principles and their practical applications.",
-      "flawed_answer": "networking is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of networking.",
-      "difficulty": 1
-    },
-    {
-      "question": "What is a key concept in networking?",
-      "good_answer": "networking involves fundamental principles and their practical applications.",
-      "flawed_answer": "networking is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of networking.",
-      "difficulty": 1
-    },
-    {
-      "question": "What is a key concept in networking?",
-      "good_answer": "networking involves fundamental principles and their practical applications.",
-      "flawed_answer": "networking is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of networking.",
-      "difficulty": 1
-    },
-    {
-      "question": "What is a key concept in networking?",
-      "good_answer": "networking involves fundamental principles and their practical applications.",
-      "flawed_answer": "networking is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of networking.",
-      "difficulty": 1
-    },
-    {
-      "question": "What is a key concept in networking?",
-      "good_answer": "networking involves fundamental principles and their practical applications.",
-      "flawed_answer": "networking is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of networking.",
-      "difficulty": 1
-    },
-    {
-      "question": "What is a key concept in statistics?",
-      "good_answer": "statistics involves fundamental principles and their practical applications.",
-      "flawed_answer": "statistics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of statistics.",
-      "difficulty": 1
-    },
-    {
-      "question": "What is a key concept in statistics?",
-      "good_answer": "statistics involves fundamental principles and their practical applications.",
-      "flawed_answer": "statistics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of statistics.",
-      "difficulty": 1
-    },
-    {
-      "question": "What is a key concept in statistics?",
-      "good_answer": "statistics involves fundamental principles and their practical applications.",
-      "flawed_answer": "statistics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of statistics.",
-      "difficulty": 1
-    },
-    {
-      "question": "What is a key concept in statistics?",
-      "good_answer": "statistics involves fundamental principles and their practical applications.",
-      "flawed_answer": "statistics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of statistics.",
-      "difficulty": 1
-    },
-    {
-      "question": "What is a key concept in statistics?",
-      "good_answer": "statistics involves fundamental principles and their practical applications.",
-      "flawed_answer": "statistics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of statistics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
       "difficulty": 1
     },
     {
@@ -362,323 +346,1161 @@
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "question": "What is the difference between aerobic and anaerobic respiration?",
+      "good_answer": "Aerobic respiration involves oxygen, while anaerobic respiration does not.",
+      "flawed_answer": "Some organisms can perform both aerobic and anaerobic respiration.",
+      "flaw_type": "incomplete",
+      "feedback": "The question should be revised to include that some organisms can perform both aerobic and anaerobic respiration.",
+      "difficulty": 2
+    },
+    {
+      "question": "Why do plants have chlorophyll in their leaves?",
+      "good_answer": "Chlorophyll helps them absorb sunlight for photosynthesis.",
+      "flawed_answer": "It also protects the plant from predators.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer is incorrect because chlorophyll is essential for photosynthesis but does not protect the plant.",
+      "difficulty": 3
+    },
+    {
+      "question": "How does cellular respiration differ in different types of cells?",
+      "good_answer": "Cellular respiration occurs at the same rate regardless of cell type.",
+      "flawed_answer": "It varies based on the type of cell and its function.",
+      "flaw_type": "incomplete",
+      "feedback": "The question should mention that cellular respiration rates vary by cell type and function.",
+      "difficulty": 4
+    },
+    {
+      "question": "Which of the following is NOT a method of genetic engineering?",
+      "good_answer": "It includes transgenic animals and microorganisms.",
+      "flawed_answer": "It only applies to plants and animals.",
+      "flaw_type": "misleading",
+      "feedback": "The correct answer should be 'it includes DNA manipulation and gene editing' which refers to methods like CRISPR.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the role of proteins in cellular functions?",
+      "good_answer": "Proteins are involved in energy production, signaling, and many other cellular processes.",
+      "flawed_answer": "They play a role in immune response and neurotransmitter synthesis.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer is incorrect as it misrepresents the protein roles in various cellular processes.",
+      "difficulty": 6
+    },
+    {
+      "question": "What is the significance of RNA in the human genome?",
+      "good_answer": "RNA plays a crucial role in regulating gene expression and is essential for cell communication.",
+      "flawed_answer": "It mainly serves as a storage form for genes and instructions.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer is incorrect as RNA is not primarily responsible for regulation of gene expression.",
+      "difficulty": 7
+    },
+    {
+      "question": "What is the purpose of DNA replication during mitosis?",
+      "good_answer": "DNA replication ensures that daughter chromosomes contain all the information necessary for proper cell division.",
+      "flawed_answer": "It allows for genetic recombination during meiosis.",
+      "flaw_type": "incomplete",
+      "feedback": "The question should mention that DNA replication occurs during prophase I of meiosis.",
+      "difficulty": 8
+    },
+    {
+      "question": "What is the relationship between epigenetics and chromatin structure?",
+      "good_answer": "Epigenetic changes affect gene expression without changing the DNA sequence.",
+      "flawed_answer": "It involves changes in the accessibility or methylation of DNA bases.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer is incorrect as it describes epigenetics using terms like 'accessibility' rather than 'chromatin structure'.",
+      "difficulty": 9
+    },
+    {
+      "question": "What is the most reliable method to determine if something is true?",
+      "good_answer": "The most reliable method to determine if something is true is through empirical evidence.",
+      "flawed_answer": "Empirical evidence is not always reliable, as it can be influenced by factors such as bias or confirmation bias.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly states that empirical evidence alone is sufficient for determining truth. Empirical evidence should also consider the context and potential biases of the individual making the assessment.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "question": "How does knowledge differ from belief in epistemology?",
+      "good_answer": "Knowledge is based on observable facts, while belief is based on subjective opinions or expectations.",
+      "flawed_answer": "Belief is not necessarily related to knowledge; beliefs may be formed without knowing anything.",
+      "flaw_type": "misleading",
+      "feedback": "This answer misinterprets knowledge as being solely about observation and lack of doubt, which is incorrect.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "question": "In epistemology, how do we know that our understanding of reality is complete?",
+      "good_answer": "We have reason to believe that our understanding of reality is complete because it has been validated by scientific research and observations.",
+      "flawed_answer": "Our understanding of reality is incomplete due to the limitations of human perception and knowledge.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly states that we cannot know our understanding is complete until we observe it firsthand.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "question": "Epistemologists argue that knowledge is not absolute but relative. How does this relate to epistemological questions?",
+      "good_answer": "Epistemologists argue that knowledge is not absolute but relative because different individuals may interpret and apply knowledge differently.",
+      "flawed_answer": "Different people may interpret and apply knowledge differently depending on their background, culture, and personal experiences.",
+      "flaw_type": "misleading",
+      "feedback": "This answer fails to clarify that epistemology deals with the nature of knowledge itself, rather than its application.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "question": "What role does experience play in epistemology?",
+      "good_answer": "Experience plays a crucial role in epistemology as it provides direct evidence for the truth of certain propositions.",
+      "flawed_answer": "Experience is only one source of knowledge and does not provide absolute proof.",
+      "flaw_type": "misleading",
+      "feedback": "This answer incorrectly suggests that experience is the sole basis for knowledge, which is not supported by epistemology.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in genetics?",
-      "good_answer": "genetics involves fundamental principles and their practical applications.",
-      "flawed_answer": "genetics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of genetics.",
+      "question": "How can epistemology address the issue of knowledge gaps?",
+      "good_answer": "Epistemology addresses knowledge gaps by proposing theories and hypotheses that attempt to fill these gaps.",
+      "flawed_answer": "Epistemology attempts to address knowledge gaps by providing alternative explanations and theories, but these are ultimately still subject to revision and critique.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly claims that epistemology aims to completely resolve knowledge gaps, which is not the case.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in genetics?",
-      "good_answer": "genetics involves fundamental principles and their practical applications.",
-      "flawed_answer": "genetics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of genetics.",
+      "question": "In epistemology, how does the concept of truth influence our understanding of the world?",
+      "good_answer": "Truth influences our understanding of the world by shaping our beliefs and interpretations of the world around us.",
+      "flawed_answer": "Truth does not inherently influence our understanding of the world; it is more a result of our cognitive processes and beliefs.",
+      "flaw_type": "misleading",
+      "feedback": "This answer fails to acknowledge that truth is an essential aspect of our understanding of the world, even when we hold different beliefs or interpretations.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in genetics?",
-      "good_answer": "genetics involves fundamental principles and their practical applications.",
-      "flawed_answer": "genetics is only about memorizing facts.",
+      "question": "What is a key concept in philosophy?",
+      "good_answer": "philosophy involves fundamental principles and their practical applications.",
+      "flawed_answer": "philosophy is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of genetics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of philosophy.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in genetics?",
-      "good_answer": "genetics involves fundamental principles and their practical applications.",
-      "flawed_answer": "genetics is only about memorizing facts.",
+      "question": "What is a key concept in philosophy?",
+      "good_answer": "philosophy involves fundamental principles and their practical applications.",
+      "flawed_answer": "philosophy is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of genetics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of philosophy.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in genetics?",
-      "good_answer": "genetics involves fundamental principles and their practical applications.",
-      "flawed_answer": "genetics is only about memorizing facts.",
+      "question": "What is a key concept in philosophy?",
+      "good_answer": "philosophy involves fundamental principles and their practical applications.",
+      "flawed_answer": "philosophy is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of genetics.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of philosophy.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
+      "question": "What is a key concept in philosophy?",
+      "good_answer": "philosophy involves fundamental principles and their practical applications.",
+      "flawed_answer": "philosophy is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of philosophy.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
+      "question": "What is a key concept in philosophy?",
+      "good_answer": "philosophy involves fundamental principles and their practical applications.",
+      "flawed_answer": "philosophy is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of philosophy.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "question": "What is the purpose of a Turing machine?",
+      "good_answer": "A Turing machine is a theoretical model of computation that can simulate any computer program.",
+      "flawed_answer": "A Turing machine is just a name for a specific type of computing device, not its purpose.",
+      "flaw_type": "incomplete",
+      "feedback": "This answer is incomplete because it doesn't mention the other purposes of a Turing machine such as being able to solve problems faster than humans.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "question": "What is the difference between a finite state machine and a register-based machine?",
+      "good_answer": "A finite state machine has a limited number of states, while a register-based machine uses registers to store intermediate results.",
+      "flawed_answer": "The correct answer would be 'a finite state machine has a fixed number of states, while a register-based machine uses registers to store intermediate results.' This is incorrect.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer contains a logical fallacy by incorrectly stating that a finite state machine has a fixed number of states when in fact they do have a maximum capacity.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the main advantage of using a register-based machine over a finite state machine?",
+      "good_answer": "A register-based machine allows for more complex computations and greater flexibility compared to a finite state machine.",
+      "flawed_answer": "The correct answer would be 'A register-based machine does not allow for more complex computations or greater flexibility compared to a finite state machine.' This is incorrect.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer contains a logical fallacy by incorrectly stating that a register-based machine does not allow for more complex computations or greater flexibility.",
+      "difficulty": 3
+    },
+    {
+      "question": "What is the role of the input/output unit in a register-based machine?",
+      "good_answer": "In a register-based machine, the input/output unit is responsible for reading and writing data from/to registers.",
+      "flawed_answer": "The correct answer would be 'In a register-based machine, the input/output unit is responsible for storing and retrieving data from/to memory units.' This is incorrect.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer contains a logical fallacy by incorrectly stating that the input/output unit stores and retrieves data from/to memory units instead of registers.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the significance of the stack in a register-based machine?",
+      "good_answer": "In a register-based machine, the stack acts as a data structure used for managing the execution flow and control of the program.",
+      "flawed_answer": "The correct answer would be 'In a register-based machine, the stack serves no significant purpose beyond keeping track of variables and their values during execution.' This is incorrect.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer contains a logical fallacy by incorrectly stating that the stack serves no significant purpose except for tracking variable values.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the correct definition of 'logic'?",
+      "good_answer": "The science that studies the principles, methods, and theories of reasoning",
+      "flawed_answer": "The art of making arguments or persuading others to agree with one\u2019s point of view",
+      "flaw_type": "factual_error",
+      "feedback": "This answer includes incorrect definitions such as 'the study of logical forms', which is not the primary focus of logic.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "question": "Which statement is true according to logic?",
+      "good_answer": "All statements are true in all contexts.",
+      "flawed_answer": "A true statement can be false under certain conditions.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer introduces the concept of 'fallacies' in logic, which is not appropriate given its complexity.",
+      "difficulty": 2
+    },
+    {
+      "question": "In formal logic, what does it mean for a statement to be valid?",
+      "good_answer": "A statement is considered valid if it always leads to a true conclusion regardless of any assumptions made.",
+      "flawed_answer": "A statement is valid only when it is true in every possible context.",
+      "flaw_type": "factual_error",
+      "feedback": "This answer incorrectly defines validity by only considering truth in all cases without specifying the condition necessary for a statement to be considered valid.",
+      "difficulty": 3
+    },
+    {
+      "question": "Why is it important to consider the context in logic?",
+      "good_answer": "When applying logic, we must take into account the context in which we're using it, as different contexts may lead to different conclusions.",
+      "flawed_answer": "Logic should only be applied in a way that makes sense in the context in which it is used.",
+      "flaw_type": "misleading",
+      "feedback": "This answer misrepresents the importance of context in logic, suggesting that it should only apply within specified contexts.",
+      "difficulty": 4
+    },
+    {
+      "question": "How does the principle of non-contradiction relate to logic?",
+      "good_answer": "If two propositions p and q are logically connected, then they cannot both be true simultaneously.",
+      "flawed_answer": "Logical contradiction is defined as a proposition being both true and false at the same time.",
+      "flaw_type": "factual_error",
+      "feedback": "This answer incorrectly states that non-contradiction implies contradiction, which is not a requirement for logical contradiction.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the difference between an argument and a proof?",
+      "good_answer": "An argument presents evidence supporting a claim, while a proof provides a logical justification for a conclusion.",
+      "flawed_answer": "Proving something is justifying the existence of a particular conclusion.",
+      "flaw_type": "factual_error",
+      "feedback": "This answer incorrectly categorizes proofs as justifications, which is not their function.",
+      "difficulty": 6
+    },
+    {
+      "question": "What is the role of logic in scientific inquiry?",
+      "good_answer": "Logics play a crucial role in scientific inquiry, helping scientists make logical predictions based on available evidence.",
+      "flawed_answer": "Scientific inquiry requires no use of logic beyond basic observation and experimentation.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly suggests that logic is unnecessary for scientific inquiry, leading to a misunderstanding of its purpose.",
+      "difficulty": 7
+    },
+    {
+      "question": "What is the significance of deductive reasoning in logic?",
+      "good_answer": "Deductive reasoning uses general rules to draw specific conclusions from premises.",
+      "flawed_answer": "Deductive reasoning involves drawing conclusions from premises, but doesn't necessarily require the assumption of universal applicability.",
+      "flaw_type": "factual_error",
+      "feedback": "This answer misinterprets the nature of deductive reasoning, suggesting that it only works with universally applicable rules.",
+      "difficulty": 8
+    },
+    {
+      "question": "What is the purpose of an algorithm?",
+      "good_answer": "An algorithm is a set of instructions used to solve problems.",
+      "flawed_answer": "A flawed answer might state that algorithms are only useful in solving simple problems.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer is logically flawed as it assumes all algorithms can be solved by humans.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in psychology?",
-      "good_answer": "psychology involves fundamental principles and their practical applications.",
-      "flawed_answer": "psychology is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of psychology.",
+      "question": "How does an algorithm work?",
+      "good_answer": "An algorithm consists of steps that follow a predefined sequence of operations to achieve a particular goal.",
+      "flawed_answer": "A flaw might suggest that algorithms require complex human intelligence.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer is logical fallacious because it suggests that every algorithm requires complex human intelligence.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in psychology?",
-      "good_answer": "psychology involves fundamental principles and their practical applications.",
-      "flawed_answer": "psychology is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of psychology.",
+      "question": "Which of these is not an algorithm?",
+      "good_answer": "All programming languages have algorithms.",
+      "flawed_answer": "Some programming languages may not include algorithms.",
+      "flaw_type": "Incomplete",
+      "feedback": "Incomplete answer states that all programming languages have algorithms without providing examples.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in psychology?",
-      "good_answer": "psychology involves fundamental principles and their practical applications.",
-      "flawed_answer": "psychology is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of psychology.",
+      "question": "What are some common types of algorithms?",
+      "good_answer": "Common algorithms include sorting algorithms (e.g., bubble sort), searching algorithms (e.g., binary search), and decision-making algorithms (e.g., decision trees).",
+      "flawed_answer": "A flawed answer might mention algorithms like random number generation but doesn't provide examples.",
+      "flaw_type": "Misleading",
+      "feedback": "The answer is misleading as it mentions random number generation but fails to provide examples.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in psychology?",
-      "good_answer": "psychology involves fundamental principles and their practical applications.",
-      "flawed_answer": "psychology is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of psychology.",
+      "question": "Why do we need algorithms?",
+      "good_answer": "Algorithms allow us to automate repetitive tasks, which increases efficiency and reduces errors.",
+      "flawed_answer": "A flawed answer might claim that algorithms make our lives easier but doesn't address why they're necessary.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer is logical fallacy since it suggests that algorithms are beneficial for automation.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in psychology?",
-      "good_answer": "psychology involves fundamental principles and their practical applications.",
-      "flawed_answer": "psychology is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of psychology.",
+      "question": "What are the three main phases of an algorithm?",
+      "good_answer": "Three main phases of an algorithm are input processing, execution, and output presentation.",
+      "flawed_answer": "A flawed answer might state that there are four phases but doesn't specify them clearly.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer is logical fallacy as it specifies more than three phases.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in neuroscience?",
-      "good_answer": "neuroscience involves fundamental principles and their practical applications.",
-      "flawed_answer": "neuroscience is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of neuroscience.",
+      "question": "What is the difference between an algorithm and a program?",
+      "good_answer": "An algorithm defines the steps to perform a task, while a program is a collection of code written in a programming language.",
+      "flawed_answer": "A flawed answer might say an algorithm is a separate concept from programs.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer is logical fallacy since it incorrectly distinguishes between algorithms and programs.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in neuroscience?",
-      "good_answer": "neuroscience involves fundamental principles and their practical applications.",
-      "flawed_answer": "neuroscience is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of neuroscience.",
+      "question": "How do you identify a recursive algorithm?",
+      "good_answer": "Identifying a recursive algorithm involves checking if its structure follows a loop structure.",
+      "flawed_answer": "A flawed answer might suggest using mathematical induction to prove correctness, which isn't always applicable.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer is logical fallacy as it suggests a method that isn't always applicable.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in neuroscience?",
-      "good_answer": "neuroscience involves fundamental principles and their practical applications.",
-      "flawed_answer": "neuroscience is only about memorizing facts.",
+      "question": "What is a key concept in linguistics?",
+      "good_answer": "linguistics involves fundamental principles and their practical applications.",
+      "flawed_answer": "linguistics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of neuroscience.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of linguistics.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in neuroscience?",
-      "good_answer": "neuroscience involves fundamental principles and their practical applications.",
-      "flawed_answer": "neuroscience is only about memorizing facts.",
+      "question": "What is a key concept in linguistics?",
+      "good_answer": "linguistics involves fundamental principles and their practical applications.",
+      "flawed_answer": "linguistics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of neuroscience.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of linguistics.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in neuroscience?",
-      "good_answer": "neuroscience involves fundamental principles and their practical applications.",
-      "flawed_answer": "neuroscience is only about memorizing facts.",
+      "question": "What is a key concept in linguistics?",
+      "good_answer": "linguistics involves fundamental principles and their practical applications.",
+      "flawed_answer": "linguistics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of neuroscience.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of linguistics.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in machine_learning?",
-      "good_answer": "machine_learning involves fundamental principles and their practical applications.",
-      "flawed_answer": "machine_learning is only about memorizing facts.",
+      "question": "What is a key concept in linguistics?",
+      "good_answer": "linguistics involves fundamental principles and their practical applications.",
+      "flawed_answer": "linguistics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of machine_learning.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of linguistics.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in machine_learning?",
-      "good_answer": "machine_learning involves fundamental principles and their practical applications.",
-      "flawed_answer": "machine_learning is only about memorizing facts.",
+      "question": "What is a key concept in linguistics?",
+      "good_answer": "linguistics involves fundamental principles and their practical applications.",
+      "flawed_answer": "linguistics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of machine_learning.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of linguistics.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in machine_learning?",
-      "good_answer": "machine_learning involves fundamental principles and their practical applications.",
-      "flawed_answer": "machine_learning is only about memorizing facts.",
+      "question": "What is a key concept in chemistry?",
+      "good_answer": "chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "chemistry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of machine_learning.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in machine_learning?",
-      "good_answer": "machine_learning involves fundamental principles and their practical applications.",
-      "flawed_answer": "machine_learning is only about memorizing facts.",
+      "question": "What is a key concept in chemistry?",
+      "good_answer": "chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "chemistry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of machine_learning.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
       "difficulty": 1
     },
     {
-      "question": "What is a key concept in machine_learning?",
-      "good_answer": "machine_learning involves fundamental principles and their practical applications.",
-      "flawed_answer": "machine_learning is only about memorizing facts.",
+      "question": "What is a key concept in chemistry?",
+      "good_answer": "chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "chemistry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of machine_learning.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
+      "difficulty": 1
+    },
+    {
+      "question": "What is a key concept in chemistry?",
+      "good_answer": "chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "chemistry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
+      "difficulty": 1
+    },
+    {
+      "question": "What is a key concept in chemistry?",
+      "good_answer": "chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "chemistry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
       "difficulty": 1
     }
   ],
   "questions": [
     {
-      "question": "Explain the key concepts of microbiology.",
-      "topic": "microbiology",
+      "question": "What is the definition of supply and demand in economics?",
+      "topic": "economics",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of world_wars.",
-      "topic": "world_wars",
+      "question": "How does the concept of opportunity cost influence economic decisions?",
+      "topic": "economics",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of quantum_mechanics.",
-      "topic": "quantum_mechanics",
+      "question": "Describe the difference between fixed and flexible prices in economics.",
+      "topic": "economics",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of environmental_science.",
-      "topic": "environmental_science",
+      "question": "In what ways can consumer behavior be influenced by factors such as income, education level, and employment status?",
+      "topic": "economics",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of political_science.",
-      "topic": "political_science",
+      "question": "What role do taxes play in the allocation of resources within an economy?",
+      "topic": "economics",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of history.",
-      "topic": "history",
+      "question": "How does the government use fiscal policy to manage the national debt?",
+      "topic": "economics",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of networking.",
-      "topic": "networking",
+      "question": "Define inflation and discuss its causes and potential impacts on the economy.",
+      "topic": "economics",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of statistics.",
-      "topic": "statistics",
+      "question": "Discuss the relationship between technology and economic growth, including examples from history and present-day trends.",
+      "topic": "economics",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of anatomy.",
-      "topic": "anatomy",
+      "question": "In what ways can international trade affect domestic economies?",
+      "topic": "economics",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of computer_science.",
-      "topic": "computer_science",
+      "question": "Describe the principles of comparative advantage and how they relate to global trade agreements.",
+      "topic": "economics",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of genetics.",
-      "topic": "genetics",
-      "difficulty": 1
-    },
-    {
-      "question": "Explain the key concepts of literature.",
+      "question": "What is the main theme or motif in 'The Great Gatsby' by F. Scott Fitzgerald?",
       "topic": "literature",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of psychology.",
-      "topic": "psychology",
+      "question": "How does the character of Tom Buchanan in 'Gone with the Wind' reflect the values and social norms of the time period?",
+      "topic": "literature",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of neuroscience.",
-      "topic": "neuroscience",
+      "question": "Describe the symbolism used in 'Pride and Prejudice' to represent societal expectations and prejudices.",
+      "topic": "literature",
       "difficulty": 1
     },
     {
-      "question": "Explain the key concepts of machine_learning.",
-      "topic": "machine_learning",
+      "question": "In 'Brave New World', what does the term 'genius' symbolize, and how does it contrast with the traditional view of human potential?",
+      "topic": "literature",
+      "difficulty": 1
+    },
+    {
+      "question": "How do the characters in 'The Catcher in the Rye' contribute to the themes of teenage rebellion and alienation?",
+      "topic": "literature",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the concept of 'the American Dream' in 'The Great Gatsby' and its impact on the protagonist's life choices.",
+      "topic": "literature",
+      "difficulty": 1
+    },
+    {
+      "question": "Compare and contrast the political ideologies represented in 'The Scarlet Letter' and 'The Waste Land.'",
+      "topic": "literature",
+      "difficulty": 1
+    },
+    {
+      "question": "What literary device is employed in 'To Kill a Mockingbird' to create a sense of realism and emotional depth?",
+      "topic": "literature",
+      "difficulty": 1
+    },
+    {
+      "question": "Discuss the role of gender roles in 'Les Mis\u00e9rables' and how they affect the characters and their relationships.",
+      "topic": "literature",
+      "difficulty": 1
+    },
+    {
+      "question": "How does the portrayal of 'slavery' in 'Uncle Tom's Cabin' reflect the broader cultural attitudes towards slavery in the United States?",
+      "topic": "literature",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the current state of global climate change and how does it affect ecosystems?",
+      "topic": "environmental_science",
+      "difficulty": 1
+    },
+    {
+      "question": "How has technology and artificial intelligence been used to improve environmental science and conservation efforts?",
+      "topic": "environmental_science",
+      "difficulty": 1
+    },
+    {
+      "question": "What are the most pressing issues related to air pollution, including its sources and impacts on human health?",
+      "topic": "environmental_science",
+      "difficulty": 1
+    },
+    {
+      "question": "Discuss the role of renewable energy sources in reducing carbon emissions and their potential future impact on society.",
+      "topic": "environmental_science",
+      "difficulty": 1
+    },
+    {
+      "question": "Describe the importance of sustainable agriculture practices for food security and environmental protection.",
+      "topic": "environmental_science",
+      "difficulty": 1
+    },
+    {
+      "question": "How do we mitigate the effects of ocean acidification caused by increased CO2 levels in seawater?",
+      "topic": "environmental_science",
+      "difficulty": 1
+    },
+    {
+      "question": "What are the challenges and solutions facing the fight against deforestation and biodiversity loss?",
+      "topic": "environmental_science",
+      "difficulty": 1
+    },
+    {
+      "question": "Explore the impact of urbanization on natural habitats and discuss strategies for sustainable development in this context.",
+      "topic": "environmental_science",
+      "difficulty": 1
+    },
+    {
+      "question": "How can public awareness campaigns be effectively used to promote environmental stewardship and reduce waste?",
+      "topic": "environmental_science",
+      "difficulty": 1
+    },
+    {
+      "question": "What are the latest developments in biotechnology and how might they contribute to solving environmental problems such as climate change?",
+      "topic": "environmental_science",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the most famous work of Renaissance art and who created it?",
+      "topic": "art_history",
+      "difficulty": 1
+    },
+    {
+      "question": "How did the Industrial Revolution impact art and design in Europe?",
+      "topic": "art_history",
+      "difficulty": 1
+    },
+    {
+      "question": "Describe the historical development of impressionism and its significance.",
+      "topic": "art_history",
+      "difficulty": 1
+    },
+    {
+      "question": "What was the significance of the Mona Lisa in European art history?",
+      "topic": "art_history",
+      "difficulty": 1
+    },
+    {
+      "question": "Compare and contrast the styles of Baroque and Rococo art movements.",
+      "topic": "art_history",
+      "difficulty": 1
+    },
+    {
+      "question": "How does the concept of 'sculptural realism' evolve over time?",
+      "topic": "art_history",
+      "difficulty": 1
+    },
+    {
+      "question": "Discuss the relationship between art and religion during the Middle Ages.",
+      "topic": "art_history",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the optimal price for a product to maximize sales? How does price elasticity affect this relationship?",
+      "topic": "behavioral_economics",
+      "difficulty": 1
+    },
+    {
+      "question": "How do consumers typically respond to price changes in terms of quantity demanded and purchase decisions?",
+      "topic": "behavioral_economics",
+      "difficulty": 1
+    },
+    {
+      "question": "What role does consumer surplus play in determining whether an economy is experiencing inflation or deflation?",
+      "topic": "behavioral_economics",
+      "difficulty": 1
+    },
+    {
+      "question": "In what ways can behavioral economics be applied to understanding consumer behavior, such as brand loyalty and discount incentives?",
+      "topic": "behavioral_economics",
+      "difficulty": 1
+    },
+    {
+      "question": "How does the concept of anchoring affect our decision-making process when making comparisons between two options?",
+      "topic": "behavioral_economics",
+      "difficulty": 1
+    },
+    {
+      "question": "What insights can behavioral economics provide on how people make choices based on their current state of mind?",
+      "topic": "behavioral_economics",
+      "difficulty": 1
+    },
+    {
+      "question": "How does social proof influence individual purchasing decisions, particularly regarding products that are not immediately available?",
+      "topic": "behavioral_economics",
+      "difficulty": 1
+    },
+    {
+      "question": "What factors contribute to the effectiveness of advertising campaigns in influencing consumer behavior?",
+      "topic": "behavioral_economics",
+      "difficulty": 1
+    },
+    {
+      "question": "Can behavioral economics help explain why some individuals are more likely than others to engage in risky behaviors despite knowing the risks involved?",
+      "topic": "behavioral_economics",
+      "difficulty": 1
+    },
+    {
+      "question": "How might marketers use behavioral economics to create effective marketing strategies that resonate with different demographic groups?",
+      "topic": "behavioral_economics",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the role of pitch in music theory? What are some common intervals and their musical significance?",
+      "topic": "music_theory",
+      "difficulty": 1
+    },
+    {
+      "question": "Describe the concept of harmony and its various types, including major and minor scales.",
+      "topic": "music_theory",
+      "difficulty": 1
+    },
+    {
+      "question": "What does modulation refer to in music theory? How can it be used to create different moods or expressions in a piece of music?",
+      "topic": "music_theory",
+      "difficulty": 1
+    },
+    {
+      "question": "How do enharmonic relationships work within the Western system of music notation? Provide examples with explanations.",
+      "topic": "music_theory",
+      "difficulty": 1
+    },
+    {
+      "question": "What is counterpoint? Explain how it differs from harmony and how it influences musical composition?",
+      "topic": "music_theory",
+      "difficulty": 1
+    },
+    {
+      "question": "How do the elements of melody (scales, chords, motifs) interact to create a cohesive musical structure?",
+      "topic": "music_theory",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the difference between tonal and atonal music? Discuss how these concepts impact the development of a piece of music.",
+      "topic": "music_theory",
+      "difficulty": 1
+    },
+    {
+      "question": "How does rhythm contribute to the overall sound of a piece of music? Describe the relationship between beats and measures in music theory.",
+      "topic": "music_theory",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the role of articulation in music theory? How does it relate to the performance of musical instruments?",
+      "topic": "music_theory",
+      "difficulty": 1
+    },
+    {
+      "question": "How does the use of dynamics affect the perceived intensity of a piece of music? Provide examples to illustrate your point.",
+      "topic": "music_theory",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the primary function of the heart in the circulatory system?",
+      "topic": "anatomy",
+      "difficulty": 1
+    },
+    {
+      "question": "How does the liver contribute to the process of detoxification in the body?",
+      "topic": "anatomy",
+      "difficulty": 1
+    },
+    {
+      "question": "Describe the structure and function of the skeletal muscles.",
+      "topic": "anatomy",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the role of blood vessels in regulating temperature within the body?",
+      "topic": "anatomy",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the significance of the spleen in immune system function?",
+      "topic": "anatomy",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the role of lymph nodes in the immune response.",
+      "topic": "anatomy",
+      "difficulty": 1
+    },
+    {
+      "question": "How do the kidneys regulate water balance in the body?",
+      "topic": "anatomy",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the main difference between exocrine and endocrine glands?",
+      "topic": "anatomy",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the importance of the thymus gland in early development of the immune system?",
+      "topic": "anatomy",
+      "difficulty": 1
+    },
+    {
+      "question": "Discuss the function of sweat glands in thermoregulation.",
+      "topic": "anatomy",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the difference between an organism and its environment?",
+      "topic": "biology",
+      "difficulty": 1
+    },
+    {
+      "question": "How does photosynthesis work in plants? ",
+      "topic": "biology",
+      "difficulty": 1
+    },
+    {
+      "question": "What are the five major kingdoms of life, and which one has the most species?",
+      "topic": "biology",
+      "difficulty": 1
+    },
+    {
+      "question": "Describe the structure of the human body from the cellular level to the organ level.",
+      "topic": "biology",
+      "difficulty": 1
+    },
+    {
+      "question": "How do viruses replicate within host cells? ",
+      "topic": "biology",
+      "difficulty": 1
+    },
+    {
+      "question": "What are the three stages of mitosis, and what happens at each stage?",
+      "topic": "biology",
+      "difficulty": 1
+    },
+    {
+      "question": "What are the two types of blood vessels, and how do they contribute to circulation?",
+      "topic": "biology",
+      "difficulty": 1
+    },
+    {
+      "question": "What are the main components of a plant cell, and how do they function together?",
+      "topic": "biology",
+      "difficulty": 1
+    },
+    {
+      "question": "How does the circulatory system work to deliver oxygen and nutrients to all tissues of the body?",
+      "topic": "biology",
+      "difficulty": 1
+    },
+    {
+      "question": "What are some common causes of cancer, and what can be done to prevent or manage it?",
+      "topic": "biology",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the nature of knowledge and belief?",
+      "topic": "epistemology",
+      "difficulty": 1
+    },
+    {
+      "question": "How does epistemology study the criteria for truth in human beliefs?",
+      "topic": "epistemology",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the role of skepticism in epistemological inquiry?",
+      "topic": "epistemology",
+      "difficulty": 1
+    },
+    {
+      "question": "In what ways can epistemology be applied to understand the origins of scientific knowledge?",
+      "topic": "epistemology",
+      "difficulty": 1
+    },
+    {
+      "question": "How do different theories of knowledge differ from each other, and how might they interact within an epistemological framework?",
+      "topic": "epistemology",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the relationship between epistemology and metaphysics, and how might this influence our understanding of reality?",
+      "topic": "epistemology",
+      "difficulty": 1
+    },
+    {
+      "question": "How does epistemology address the problem of induction, particularly in relation to empirical evidence?",
+      "topic": "epistemology",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the role of epistemological theory in guiding the development of new scientific concepts and theories?",
+      "topic": "epistemology",
+      "difficulty": 1
+    },
+    {
+      "question": "How does epistemology relate to ethical considerations in the pursuit of knowledge and truth?",
+      "topic": "epistemology",
+      "difficulty": 1
+    },
+    {
+      "question": "What are some key debates in epistemology, and how have these been resolved over time?",
+      "topic": "epistemology",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the core philosophical question that drives modern philosophy?",
+      "topic": "philosophy",
+      "difficulty": 1
+    },
+    {
+      "question": "How does the concept of reality differ between different philosophical traditions?",
+      "topic": "philosophy",
+      "difficulty": 1
+    },
+    {
+      "question": "In what ways can human experience and knowledge be considered true or false?",
+      "topic": "philosophy",
+      "difficulty": 1
+    },
+    {
+      "question": "What role do emotions play in our understanding of the world and ourselves?",
+      "topic": "philosophy",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the relationship between reason, intuition, and faith in different philosophical schools?",
+      "topic": "philosophy",
+      "difficulty": 1
+    },
+    {
+      "question": "How do metaphysical concepts like existence, identity, and freedom influence philosophical inquiry?",
+      "topic": "philosophy",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the nature of knowledge and its limitations according to various philosophical perspectives?",
+      "topic": "philosophy",
+      "difficulty": 1
+    },
+    {
+      "question": "How does the concept of ethics relate to moral behavior and societal norms?",
+      "topic": "philosophy",
+      "difficulty": 1
+    },
+    {
+      "question": "What are some common debates within contemporary ethical frameworks regarding justice, rights, and morality?",
+      "topic": "philosophy",
+      "difficulty": 1
+    },
+    {
+      "question": "How does the idea of infinity challenge traditional notions of causality and the infinite universe?",
+      "topic": "philosophy",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the primary goal of computer science?",
+      "topic": "computer_science",
+      "difficulty": 1
+    },
+    {
+      "question": "Describe the difference between object-oriented and procedural programming paradigms.",
+      "topic": "computer_science",
+      "difficulty": 1
+    },
+    {
+      "question": "How does parallel computing work in modern computing?",
+      "topic": "computer_science",
+      "difficulty": 1
+    },
+    {
+      "question": "What is a data structure, and why is it important in computer science?",
+      "topic": "computer_science",
+      "difficulty": 1
+    },
+    {
+      "question": "In what ways can artificial intelligence be used to solve complex problems?",
+      "topic": "computer_science",
+      "difficulty": 1
+    },
+    {
+      "question": "Compare and contrast virtual reality and augmented reality technologies.",
+      "topic": "computer_science",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the significance of machine learning in today's digital world?",
+      "topic": "computer_science",
+      "difficulty": 1
+    },
+    {
+      "question": "How do databases store and manage large amounts of data efficiently?",
+      "topic": "computer_science",
+      "difficulty": 1
+    },
+    {
+      "question": "What are some common challenges faced by software developers when building applications?",
+      "topic": "computer_science",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the concept of a cloud-based system in detail.",
+      "topic": "computer_science",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the difference between a universal quantifier and an existential quantifier?",
+      "topic": "logic",
+      "difficulty": 1
+    },
+    {
+      "question": "Can you provide examples of logical connectives in English grammar?",
+      "topic": "logic",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the concept of negation in logic, using a simple example.",
+      "topic": "logic",
+      "difficulty": 1
+    },
+    {
+      "question": "How do you use modus ponens to prove a statement?",
+      "topic": "logic",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the contrapositive of a conditional statement?",
+      "topic": "logic",
+      "difficulty": 1
+    },
+    {
+      "question": "How does a truth table help understand the relationship between different logical statements?",
+      "topic": "logic",
+      "difficulty": 1
+    },
+    {
+      "question": "What is a syllogism and how does it work?",
+      "topic": "logic",
+      "difficulty": 1
+    },
+    {
+      "question": "How can you identify the major premise, minor premise, and conclusion in a logical argument?",
+      "topic": "logic",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the role of variables in formal logic?",
+      "topic": "logic",
+      "difficulty": 1
+    },
+    {
+      "question": "How do you determine the truth value of a complex statement involving multiple conditions?",
+      "topic": "logic",
+      "difficulty": 1
+    },
+    {
+      "question": "What is a paradox in formal logic?",
+      "topic": "logic",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the time complexity of an algorithm?",
+      "topic": "algorithms",
+      "difficulty": 1
+    },
+    {
+      "question": "How do you determine if an algorithm has a time complexity?",
+      "topic": "algorithms",
+      "difficulty": 1
+    },
+    {
+      "question": "What is an example of a divide-and-conquer algorithm?",
+      "topic": "algorithms",
+      "difficulty": 1
+    },
+    {
+      "question": "Describe a recursive function and its time complexity.",
+      "topic": "algorithms",
+      "difficulty": 1
+    },
+    {
+      "question": "Why might an algorithm have a worst-case time complexity?",
+      "topic": "algorithms",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the Big O notation for linear search?",
+      "topic": "algorithms",
+      "difficulty": 1
+    },
+    {
+      "question": "How does dynamic programming work in solving problems?",
+      "topic": "algorithms",
+      "difficulty": 1
+    },
+    {
+      "question": "Explain the difference between space complexity and time complexity.",
+      "topic": "algorithms",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the importance of understanding time and space complexity in algorithm analysis?",
+      "topic": "algorithms",
+      "difficulty": 1
+    },
+    {
+      "question": "How do you find the shortest path in a graph using Dijkstra's algorithm?",
+      "topic": "algorithms",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the difference between natural and artificial languages?",
+      "topic": "linguistics",
+      "difficulty": 1
+    },
+    {
+      "question": "How does morphology function in language development?",
+      "topic": "linguistics",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the role of syntax in communication systems?",
+      "topic": "linguistics",
+      "difficulty": 1
+    },
+    {
+      "question": "Can you explain the concept of phonology in relation to speech sounds?",
+      "topic": "linguistics",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the relationship between semantics and pragmatics?",
+      "topic": "linguistics",
+      "difficulty": 1
+    },
+    {
+      "question": "How do grammatical structures influence meaning in languages?",
+      "topic": "linguistics",
+      "difficulty": 1
+    },
+    {
+      "question": "What are the differences between register and dialects in language use?",
+      "topic": "linguistics",
+      "difficulty": 1
+    },
+    {
+      "question": "How does syntax contribute to the structure of sentences in languages?",
+      "topic": "linguistics",
+      "difficulty": 1
+    },
+    {
+      "question": "In what ways can linguistic evolution be studied through comparative linguistics?",
+      "topic": "linguistics",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the significance of context in understanding the meaning of words?",
+      "topic": "linguistics",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the difference between a monomer and a polymer?",
+      "topic": "chemistry",
+      "difficulty": 1
+    },
+    {
+      "question": "How does the polarity of an atom's electron cloud affect its reactivity in chemical reactions?",
+      "topic": "chemistry",
+      "difficulty": 1
+    },
+    {
+      "question": "Describe the process of electrophilic substitution, including examples.",
+      "topic": "chemistry",
+      "difficulty": 1
+    },
+    {
+      "question": "What are the key factors to consider when determining the oxidation state of atoms in a molecule?",
+      "topic": "chemistry",
+      "difficulty": 1
+    },
+    {
+      "question": "How do covalent bonds differ from ionic bonds in terms of electronegativity differences?",
+      "topic": "chemistry",
+      "difficulty": 1
+    },
+    {
+      "question": "In what ways can molecular geometry influence the properties of a substance?",
+      "topic": "chemistry",
+      "difficulty": 1
+    },
+    {
+      "question": "What are the three main types of chemical bonding (covalent, ionic, metallic), and how do they affect material properties?",
+      "topic": "chemistry",
+      "difficulty": 1
+    },
+    {
+      "question": "How does the presence of hydrogen atoms impact the stability of molecules compared to those without them?",
+      "topic": "chemistry",
+      "difficulty": 1
+    },
+    {
+      "question": "What is the relationship between pH and ionization energy in chemical reactions?",
+      "topic": "chemistry",
+      "difficulty": 1
+    },
+    {
+      "question": "How do halogen atoms form stable compounds through pi-electron pair formation?",
+      "topic": "chemistry",
+      "difficulty": 1
+    },
+    {
+      "question": "Describe the concept of electronic delocalization in organic molecules.",
+      "topic": "chemistry",
       "difficulty": 1
     }
   ],
-  "example_count": 75,
-  "question_count": 15
+  "example_count": 94,
+  "question_count": 149
 }

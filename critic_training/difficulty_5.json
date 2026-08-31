@@ -2,523 +2,59 @@
   "difficulty": 5,
   "examples": [
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "question": "What is the difference between supply and demand in economics?",
+      "good_answer": "Supply refers to the amount of goods or services available at a given price, while demand refers to the quantity of goods or services that consumers want to buy at a certain price.",
+      "flawed_answer": "Demand refers to the amount of goods or services that producers want to sell at a certain price, not necessarily the quantity that consumers want to buy.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer should mention both the supply and demand sides of the market.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "question": "Which of the following best describes the role of government in regulating the economy?",
+      "good_answer": "Government regulates the economy by providing public goods such as roads, schools, and healthcare.",
+      "flawed_answer": "Governments regulate the economy by creating private monopolies and enforcing regulations on businesses.",
+      "flaw_type": "misleading",
+      "feedback": "This answer incorrectly states that governments provide public goods instead of regulating the economy.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "question": "What is the relationship between unemployment and inflation in the short term?",
+      "good_answer": "Unemployment often leads to inflation because workers who lose their jobs may have less money to spend, leading to higher prices.",
+      "flawed_answer": "Inflation occurs when there is too much money chasing too few goods, which can lead to higher prices.",
+      "flaw_type": "misleading",
+      "feedback": "This answer suggests that high unemployment causes inflation, but this is incorrect.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "question": "How does the concept of 'free markets' relate to economic policies?",
+      "good_answer": "Free markets promote competition and efficiency through the free flow of information and resources.",
+      "flawed_answer": "Many economists argue that free markets undermine property rights and limit government intervention.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer correctly identifies the contradiction between free markets and the idea of limited government intervention.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "question": "What is the primary goal of monetary policy in the context of the Federal Reserve?",
+      "good_answer": "The Federal Reserve aims to maintain full employment by controlling the money supply and interest rates.",
+      "flawed_answer": "Monetary policy focuses solely on increasing aggregate demand without considering other factors like inflation and economic stability.",
+      "flaw_type": "misleading",
+      "feedback": "This answer incorrectly claims that monetary policy alone achieves full employment.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in engineering?",
-      "good_answer": "engineering involves fundamental principles and their practical applications.",
-      "flawed_answer": "engineering is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of engineering.",
+      "question": "How does consumer spending contribute to the overall economy?",
+      "good_answer": "Consumer spending directly affects the purchasing power of individuals, stimulating consumption and investment.",
+      "flawed_answer": "Consumers also indirectly influence the economy through tax revenue, business investments, and government purchases.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer misinterprets consumer spending as the sole driver of economic growth.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in engineering?",
-      "good_answer": "engineering involves fundamental principles and their practical applications.",
-      "flawed_answer": "engineering is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of engineering.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in engineering?",
-      "good_answer": "engineering involves fundamental principles and their practical applications.",
-      "flawed_answer": "engineering is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of engineering.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in engineering?",
-      "good_answer": "engineering involves fundamental principles and their practical applications.",
-      "flawed_answer": "engineering is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of engineering.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in engineering?",
-      "good_answer": "engineering involves fundamental principles and their practical applications.",
-      "flawed_answer": "engineering is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of engineering.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in thermodynamics?",
-      "good_answer": "thermodynamics involves fundamental principles and their practical applications.",
-      "flawed_answer": "thermodynamics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of thermodynamics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in thermodynamics?",
-      "good_answer": "thermodynamics involves fundamental principles and their practical applications.",
-      "flawed_answer": "thermodynamics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of thermodynamics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in thermodynamics?",
-      "good_answer": "thermodynamics involves fundamental principles and their practical applications.",
-      "flawed_answer": "thermodynamics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of thermodynamics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in thermodynamics?",
-      "good_answer": "thermodynamics involves fundamental principles and their practical applications.",
-      "flawed_answer": "thermodynamics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of thermodynamics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in thermodynamics?",
-      "good_answer": "thermodynamics involves fundamental principles and their practical applications.",
-      "flawed_answer": "thermodynamics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of thermodynamics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in climate_science?",
-      "good_answer": "climate_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "climate_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of climate_science.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in climate_science?",
-      "good_answer": "climate_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "climate_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of climate_science.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in climate_science?",
-      "good_answer": "climate_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "climate_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of climate_science.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in climate_science?",
-      "good_answer": "climate_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "climate_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of climate_science.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in climate_science?",
-      "good_answer": "climate_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "climate_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of climate_science.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in constitutional_law?",
-      "good_answer": "constitutional_law involves fundamental principles and their practical applications.",
-      "flawed_answer": "constitutional_law is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of constitutional_law.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in constitutional_law?",
-      "good_answer": "constitutional_law involves fundamental principles and their practical applications.",
-      "flawed_answer": "constitutional_law is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of constitutional_law.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in constitutional_law?",
-      "good_answer": "constitutional_law involves fundamental principles and their practical applications.",
-      "flawed_answer": "constitutional_law is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of constitutional_law.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in constitutional_law?",
-      "good_answer": "constitutional_law involves fundamental principles and their practical applications.",
-      "flawed_answer": "constitutional_law is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of constitutional_law.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in constitutional_law?",
-      "good_answer": "constitutional_law involves fundamental principles and their practical applications.",
-      "flawed_answer": "constitutional_law is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of constitutional_law.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in law?",
-      "good_answer": "law involves fundamental principles and their practical applications.",
-      "flawed_answer": "law is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of law.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in law?",
-      "good_answer": "law involves fundamental principles and their practical applications.",
-      "flawed_answer": "law is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of law.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in law?",
-      "good_answer": "law involves fundamental principles and their practical applications.",
-      "flawed_answer": "law is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of law.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in law?",
-      "good_answer": "law involves fundamental principles and their practical applications.",
-      "flawed_answer": "law is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of law.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in law?",
-      "good_answer": "law involves fundamental principles and their practical applications.",
-      "flawed_answer": "law is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of law.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in philosophy?",
-      "good_answer": "philosophy involves fundamental principles and their practical applications.",
-      "flawed_answer": "philosophy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of philosophy.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in philosophy?",
-      "good_answer": "philosophy involves fundamental principles and their practical applications.",
-      "flawed_answer": "philosophy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of philosophy.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in philosophy?",
-      "good_answer": "philosophy involves fundamental principles and their practical applications.",
-      "flawed_answer": "philosophy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of philosophy.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in philosophy?",
-      "good_answer": "philosophy involves fundamental principles and their practical applications.",
-      "flawed_answer": "philosophy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of philosophy.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in philosophy?",
-      "good_answer": "philosophy involves fundamental principles and their practical applications.",
-      "flawed_answer": "philosophy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of philosophy.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in biochemistry?",
-      "good_answer": "biochemistry involves fundamental principles and their practical applications.",
-      "flawed_answer": "biochemistry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of biochemistry.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in biochemistry?",
-      "good_answer": "biochemistry involves fundamental principles and their practical applications.",
-      "flawed_answer": "biochemistry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of biochemistry.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in biochemistry?",
-      "good_answer": "biochemistry involves fundamental principles and their practical applications.",
-      "flawed_answer": "biochemistry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of biochemistry.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in biochemistry?",
-      "good_answer": "biochemistry involves fundamental principles and their practical applications.",
-      "flawed_answer": "biochemistry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of biochemistry.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in biochemistry?",
-      "good_answer": "biochemistry involves fundamental principles and their practical applications.",
-      "flawed_answer": "biochemistry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of biochemistry.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in anatomy?",
-      "good_answer": "anatomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "anatomy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of anatomy.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in anatomy?",
-      "good_answer": "anatomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "anatomy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of anatomy.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in anatomy?",
-      "good_answer": "anatomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "anatomy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of anatomy.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in anatomy?",
-      "good_answer": "anatomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "anatomy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of anatomy.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in anatomy?",
-      "good_answer": "anatomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "anatomy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of anatomy.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in world_wars?",
-      "good_answer": "world_wars involves fundamental principles and their practical applications.",
-      "flawed_answer": "world_wars is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of world_wars.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in world_wars?",
-      "good_answer": "world_wars involves fundamental principles and their practical applications.",
-      "flawed_answer": "world_wars is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of world_wars.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in world_wars?",
-      "good_answer": "world_wars involves fundamental principles and their practical applications.",
-      "flawed_answer": "world_wars is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of world_wars.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in world_wars?",
-      "good_answer": "world_wars involves fundamental principles and their practical applications.",
-      "flawed_answer": "world_wars is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of world_wars.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in world_wars?",
-      "good_answer": "world_wars involves fundamental principles and their practical applications.",
-      "flawed_answer": "world_wars is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of world_wars.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in chemistry?",
-      "good_answer": "chemistry involves fundamental principles and their practical applications.",
-      "flawed_answer": "chemistry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in chemistry?",
-      "good_answer": "chemistry involves fundamental principles and their practical applications.",
-      "flawed_answer": "chemistry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in chemistry?",
-      "good_answer": "chemistry involves fundamental principles and their practical applications.",
-      "flawed_answer": "chemistry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in chemistry?",
-      "good_answer": "chemistry involves fundamental principles and their practical applications.",
-      "flawed_answer": "chemistry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in chemistry?",
-      "good_answer": "chemistry involves fundamental principles and their practical applications.",
-      "flawed_answer": "chemistry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in ethics?",
-      "good_answer": "ethics involves fundamental principles and their practical applications.",
-      "flawed_answer": "ethics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in ethics?",
-      "good_answer": "ethics involves fundamental principles and their practical applications.",
-      "flawed_answer": "ethics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in ethics?",
-      "good_answer": "ethics involves fundamental principles and their practical applications.",
-      "flawed_answer": "ethics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in ethics?",
-      "good_answer": "ethics involves fundamental principles and their practical applications.",
-      "flawed_answer": "ethics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in ethics?",
-      "good_answer": "ethics involves fundamental principles and their practical applications.",
-      "flawed_answer": "ethics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in physics?",
-      "good_answer": "physics involves fundamental principles and their practical applications.",
-      "flawed_answer": "physics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in physics?",
-      "good_answer": "physics involves fundamental principles and their practical applications.",
-      "flawed_answer": "physics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in physics?",
-      "good_answer": "physics involves fundamental principles and their practical applications.",
-      "flawed_answer": "physics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in physics?",
-      "good_answer": "physics involves fundamental principles and their practical applications.",
-      "flawed_answer": "physics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in physics?",
-      "good_answer": "physics involves fundamental principles and their practical applications.",
-      "flawed_answer": "physics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
+      "question": "What is the significance of GDP (Gross Domestic Product) in assessing economic performance?",
+      "good_answer": "GDP measures the total value of all goods and services produced within a country over a specific period.",
+      "flawed_answer": "While GDP is important, it doesn't capture the diversity of economic activities beyond just production.",
+      "flaw_type": "misleading",
+      "feedback": "This answer incorrectly attributes GDP solely to production, ignoring non-market activities.",
       "difficulty": 5
     },
     {
@@ -562,70 +98,863 @@
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in algebra?",
-      "good_answer": "algebra involves fundamental principles and their practical applications.",
-      "flawed_answer": "algebra is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of algebra.",
+      "question": "What was the primary reason for the decline in trade between ancient civilizations?",
+      "good_answer": "The decline in trade was due to overproduction and underconsumption.",
+      "flawed_answer": "This answer contains logical fallacies by suggesting that there were no reasons for decline.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly attributes the decline solely to production versus consumption issues.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in algebra?",
-      "good_answer": "algebra involves fundamental principles and their practical applications.",
-      "flawed_answer": "algebra is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of algebra.",
+      "question": "How did the exchange of goods and services among ancient civilizations impact their economies?",
+      "good_answer": "The exchange of goods and services led to economic growth and development.",
+      "flawed_answer": "This answer incorrectly states that the exchange only had positive impacts on economic development.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer contains a misconception about the benefits of trade.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in algebra?",
-      "good_answer": "algebra involves fundamental principles and their practical applications.",
-      "flawed_answer": "algebra is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of algebra.",
+      "question": "Which ancient civilization is considered the first step towards the formation of early forms of government?",
+      "good_answer": "The Sumerians were one of the earliest known societies to establish governmental structures.",
+      "flawed_answer": "This answer suggests that all early civilizations were ruled by kings or queens.",
+      "flaw_type": "incorrect_inference",
+      "feedback": "The Sumerians' achievements suggest they were indeed the first society to form governmental systems.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in algebra?",
-      "good_answer": "algebra involves fundamental principles and their practical applications.",
-      "flawed_answer": "algebra is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of algebra.",
+      "question": "What was the significance of the Great Wall of China in ancient times?",
+      "good_answer": "The Great Wall of China was primarily built as a military defense against invaders.",
+      "flawed_answer": "This answer incorrectly attributes its construction solely to defensive purposes.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer contains a factual error regarding the wall's purpose.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in algebra?",
-      "good_answer": "algebra involves fundamental principles and their practical applications.",
-      "flawed_answer": "algebra is only about memorizing facts.",
+      "question": "What role did agriculture play in the development of ancient civilizations?",
+      "good_answer": "Agriculture was crucial for food security and provided a steady source of income for many civilizations.",
+      "flawed_answer": "This answer incorrectly associates agriculture with economic stability rather than just food supply.",
+      "flaw_type": "misleading",
+      "feedback": "The statement misrepresents the importance of agriculture in ancient civilizations.",
+      "difficulty": 5
+    },
+    {
+      "question": "What significant achievement marked the transition from nomadic lifestyles to settled agricultural communities?",
+      "good_answer": "The rise of city-states around the Mediterranean region marks the beginning of the transition from nomadic lifestyles to settled agricultural communities.",
+      "flawed_answer": "This answer incorrectly states that the rise of city-states represents the end of nomadic lifestyles.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer contains a factual error in identifying the shift from nomadism to urban settlement.",
+      "difficulty": 5
+    },
+    {
+      "question": "How did the concept of 'democracy' evolve in ancient civilizations?",
+      "good_answer": "The concept of democracy evolved gradually, becoming more widespread as social norms improved.",
+      "flawed_answer": "This answer incorrectly states that democracy originated immediately after the collapse of the pyramids.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer contains a logical fallacy by suggesting that democracy arose before the pyramid-building period.",
+      "difficulty": 5
+    },
+    {
+      "question": "What was the impact of the Silk Road on the global economy during the Han Dynasty?",
+      "good_answer": "The Silk Road facilitated the exchange of goods and ideas, contributing significantly to the economic prosperity of ancient China.",
+      "flawed_answer": "This answer incorrectly attributes the Silk Road's impact exclusively to Chinese economic growth.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The Silk Road's economic impact is not solely attributed to Chinese contributions.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in chemistry?",
+      "good_answer": "chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "chemistry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of algebra.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in chemistry?",
+      "good_answer": "chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "chemistry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in chemistry?",
+      "good_answer": "chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "chemistry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in chemistry?",
+      "good_answer": "chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "chemistry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in chemistry?",
+      "good_answer": "chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "chemistry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of chemistry.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the primary purpose of law in society?",
+      "good_answer": "To ensure the protection and maintenance of individual rights and freedoms.",
+      "flawed_answer": "To enforce governmental policies and laws.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly attributes the main goal of law to enforcing government policies instead of protecting individual rights.",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the concept of 'justice' differ between different legal systems?",
+      "good_answer": "In civil law systems, justice is about fairness and equality; in common law systems, it\u2019s more about adherence to precedents.",
+      "flawed_answer": "In both systems, justice means equal treatment under the law.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer makes a false comparison between different legal systems regarding the concept of justice.",
+      "difficulty": 5
+    },
+    {
+      "question": "What role do courts play in resolving disputes according to the rules of law?",
+      "good_answer": "Courts interpret and apply the law to make decisions that align with the public interest and constitutional values.",
+      "flawed_answer": "Courts only resolve private disputes and cannot influence the application of laws.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly states that courts can only resolve private disputes without considering broader societal implications.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the significance of judicial review in the context of legal systems?",
+      "good_answer": "It allows judges to examine the constitutionality of laws passed by legislatures and determine whether they violate the Constitution.",
+      "flawed_answer": "Judicial review merely checks the constitutionality of existing laws, not new ones.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly equates judicial review with checking the constitutionality of new laws.",
+      "difficulty": 5
+    },
+    {
+      "question": "In which legal system would you expect evidence to be admissible in court proceedings?",
+      "good_answer": "Civil law systems typically require evidence to prove a crime or breach of contract before a trial.",
+      "flawed_answer": "Evidence is not required in all legal systems but varies depending on jurisdiction.",
+      "flaw_type": "Misleading",
+      "feedback": "The answer misinterprets the requirement for evidence in various legal systems.",
+      "difficulty": 5
+    },
+    {
+      "question": "Which of these statements best describes the nature of criminal law compared to civil law?",
+      "good_answer": "Criminal law focuses on punishment, while civil law deals with dispute resolution.",
+      "flawed_answer": "Both focus on providing remedies for harm.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly classifies criminal law as primarily concerned with punishment, while civil law involves dispute resolution.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the role of the judiciary in the process of interpreting the law?",
+      "good_answer": "Judges interpret statutes, regulations, and case law to determine the meaning of the law and its application in practice.",
+      "flawed_answer": "Judges may interpret statutes unilaterally rather than based on precedent.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly suggests judges often interpret statutes unilaterally.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in electromagnetism?",
+      "good_answer": "electromagnetism involves fundamental principles and their practical applications.",
+      "flawed_answer": "electromagnetism is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of electromagnetism.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in electromagnetism?",
+      "good_answer": "electromagnetism involves fundamental principles and their practical applications.",
+      "flawed_answer": "electromagnetism is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of electromagnetism.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in electromagnetism?",
+      "good_answer": "electromagnetism involves fundamental principles and their practical applications.",
+      "flawed_answer": "electromagnetism is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of electromagnetism.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in electromagnetism?",
+      "good_answer": "electromagnetism involves fundamental principles and their practical applications.",
+      "flawed_answer": "electromagnetism is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of electromagnetism.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in electromagnetism?",
+      "good_answer": "electromagnetism involves fundamental principles and their practical applications.",
+      "flawed_answer": "electromagnetism is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of electromagnetism.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in medieval_history?",
+      "good_answer": "medieval_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "medieval_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of medieval_history.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in medieval_history?",
+      "good_answer": "medieval_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "medieval_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of medieval_history.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in medieval_history?",
+      "good_answer": "medieval_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "medieval_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of medieval_history.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in medieval_history?",
+      "good_answer": "medieval_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "medieval_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of medieval_history.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in medieval_history?",
+      "good_answer": "medieval_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "medieval_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of medieval_history.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in calculus?",
+      "good_answer": "calculus involves fundamental principles and their practical applications.",
+      "flawed_answer": "calculus is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of calculus.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in calculus?",
+      "good_answer": "calculus involves fundamental principles and their practical applications.",
+      "flawed_answer": "calculus is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of calculus.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in calculus?",
+      "good_answer": "calculus involves fundamental principles and their practical applications.",
+      "flawed_answer": "calculus is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of calculus.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in calculus?",
+      "good_answer": "calculus involves fundamental principles and their practical applications.",
+      "flawed_answer": "calculus is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of calculus.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in calculus?",
+      "good_answer": "calculus involves fundamental principles and their practical applications.",
+      "flawed_answer": "calculus is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of calculus.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the primary genetic basis of human intelligence?",
+      "good_answer": "Genetics plays no significant role in determining intelligence.",
+      "flawed_answer": "The intelligence quotient (IQ) score is based on brain function rather than genetics.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly equates IQ with intelligence, which is not true.",
+      "difficulty": 5
+    },
+    {
+      "question": "How does DNA contribute to the expression of genes?",
+      "good_answer": "DNA is primarily involved in regulating gene expression through epigenetic mechanisms.",
+      "flawed_answer": "While DNA can influence gene expression indirectly through epigenetic changes, it is not the sole or primary factor.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly attributes gene regulation solely to DNA, ignoring other factors such as environmental influences.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the most common type of chromosomal abnormality associated with intellectual disability?",
+      "good_answer": "Down syndrome is the most common chromosomal abnormality associated with intellectual disability.",
+      "flawed_answer": "Other types of chromosomal abnormalities can also cause intellectual disability.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly states that Down syndrome is the only form of intellectual disability, which is incorrect.",
+      "difficulty": 5
+    },
+    {
+      "question": "Which of the following statements about Mendelian inheritance is true?",
+      "good_answer": "Mendelian inheritance describes how traits are passed down from parents to offspring through alleles.",
+      "flawed_answer": "Mendelian inheritance includes both autosomal and sex-linked recessive traits.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly states that all traits pass down through Mendelian inheritance, which is false.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the significance of epigenetics in the context of genetic disorders?",
+      "good_answer": "Epigenetics refers to heritable modifications in gene activity without altering the underlying DNA sequence.",
+      "flawed_answer": "Epigenetics affects gene expression but does not change the DNA sequence itself.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly attributes epigenetics to changes in the DNA sequence itself, instead attributing them to gene activity.",
+      "difficulty": 5
+    },
+    {
+      "question": "Which of the following scenarios best exemplifies a case of non-random mating?",
+      "good_answer": "A person inherits a dominant allele from one parent while inheriting a recessive allele from another.",
+      "flawed_answer": "Inbreeding is the process of mating individuals within a species where there is a high probability of passing on recessive alleles.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly states that inbreeding increases the likelihood of passing on recessive alleles, which is not true.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the difference between dominant and recessive traits?",
+      "good_answer": "Dominant traits are expressed when the allele is present, while recessive traits are expressed when the allele is missing.",
+      "flawed_answer": "Recessive traits do not express when the allele is present, while dominant traits do.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly states that recessive traits do not express when the allele is present, which is correct.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in logic?",
+      "good_answer": "logic involves fundamental principles and their practical applications.",
+      "flawed_answer": "logic is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of logic.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in logic?",
+      "good_answer": "logic involves fundamental principles and their practical applications.",
+      "flawed_answer": "logic is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of logic.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in logic?",
+      "good_answer": "logic involves fundamental principles and their practical applications.",
+      "flawed_answer": "logic is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of logic.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in logic?",
+      "good_answer": "logic involves fundamental principles and their practical applications.",
+      "flawed_answer": "logic is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of logic.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in logic?",
+      "good_answer": "logic involves fundamental principles and their practical applications.",
+      "flawed_answer": "logic is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of logic.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the purpose of the Bill of Rights in the United States Constitution?",
+      "good_answer": "It protects individual freedoms and rights such as freedom of speech, religion, and assembly.",
+      "flawed_answer": "It does not protect individual freedoms and rights like freedom of speech, religion, and assembly.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer should include the protection of individual freedoms and rights under the Bill of Rights.",
+      "difficulty": 5
+    },
+    {
+      "question": "In which year did the U.S. Supreme Court first declare the First Amendment to the Constitution unconstitutional?",
+      "good_answer": "1963",
+      "flawed_answer": "1789",
+      "flaw_type": "factual_error",
+      "feedback": "This information was incorrect and needs to be corrected.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the role of the National Security Agency (NSA) in the United States government?",
+      "good_answer": "The NSA collects and shares data on foreign intelligence operations with foreign governments.",
+      "flawed_answer": "The NSA only monitors American citizens without access to their personal information.",
+      "flaw_type": "misleading",
+      "feedback": "The information provided is misleading and inaccurate.",
+      "difficulty": 5
+    },
+    {
+      "question": "How many states are there in the United States?",
+      "good_answer": "32",
+      "flawed_answer": "48",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The information provided is incorrect and needs to be corrected.",
+      "difficulty": 5
+    },
+    {
+      "question": "Which president signed the 22nd Amendment into law?",
+      "good_answer": "John Adams",
+      "flawed_answer": "Abraham Lincoln",
+      "flaw_type": "factual_error",
+      "feedback": "This information was incorrect and needs to be corrected.",
+      "difficulty": 5
+    },
+    {
+      "question": "Who wrote the Declaration of Independence?",
+      "good_answer": "Thomas Jefferson",
+      "flawed_answer": "George Washington",
+      "flaw_type": "misleading",
+      "feedback": "The information provided is misleading and incorrect.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the main purpose of the Electoral College in the United States presidential election system?",
+      "good_answer": "To elect the President and Vice President of the United States from the popular vote of electors in each state.",
+      "flawed_answer": "To elect the President and Vice President of the United States based on the results of the primary elections.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The information provided is incorrect and needs to be corrected.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the name of the oldest known living animal?",
+      "good_answer": "Hippopotamus",
+      "flawed_answer": "Lion",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This information was incorrect and needs to be corrected.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the relationship between the two lines in the diagram?",
+      "good_answer": "Parallel",
+      "flawed_answer": "Perpendicular",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The diagrams show that the lines intersect at one point, which implies they are parallel.",
+      "difficulty": 5
+    },
+    {
+      "question": "Which of the following statements about the properties of triangles is true?",
+      "good_answer": "All sides are equal",
+      "flawed_answer": "One side is not necessarily equal to the other",
+      "flaw_type": "misleading",
+      "feedback": "This statement incorrectly suggests all sides must be equal when only one side is provided.",
+      "difficulty": 5
+    },
+    {
+      "question": "How many angles does a triangle have?",
+      "good_answer": "3",
+      "flawed_answer": "4 or more",
+      "flaw_type": "incomplete",
+      "feedback": "The problem statement specifies three angles, but it could also mean four if one angle is missing.",
+      "difficulty": 5
+    },
+    {
+      "question": "If line AB is perpendicular to line CD, what can we conclude about line AD?",
+      "good_answer": "Line AD is parallel to line BC",
+      "flawed_answer": "Line AD is perpendicular to line BC",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The given information contradicts the conclusion that line AD is perpendicular to line BC.",
+      "difficulty": 5
+    },
+    {
+      "question": "In a right triangle, what is the measure of the angle opposite the hypotenuse?",
+      "good_answer": "90 degrees",
+      "flawed_answer": "60 degrees",
+      "flaw_type": "incomplete",
+      "feedback": "The problem statement mentions the angle opposite the hypotenuse but doesn't specify its measure.",
+      "difficulty": 5
+    },
+    {
+      "question": "Why do we say that the sum of the interior angles of a triangle equals 180 degrees?",
+      "good_answer": "It's based on the concept of supplementary angles",
+      "flawed_answer": "It's because the sum of the exterior angles is always 360 degrees",
+      "flaw_type": "misleading",
+      "feedback": "This statement misrepresents the mathematical principle behind the sum of the interior angles of a triangle.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the purpose of using the Pythagorean theorem in geometry?",
+      "good_answer": "To find the length of the hypotenuse",
+      "flawed_answer": "To determine the area of a rectangle",
+      "flaw_type": "incomplete",
+      "feedback": "The Pythagorean theorem is used to find the length of the hypotenuse, not the area of a rectangle.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the difference between congruent and similar figures?",
+      "good_answer": "Congruent figures have exactly the same shape and size",
+      "flawed_answer": "Similar figures have proportional sides but different shapes",
+      "flaw_type": "misleading",
+      "feedback": "This statement incorrectly describes similarity as having proportional sides.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the capital of France?",
+      "good_answer": "Paris",
+      "flawed_answer": "Berlin",
+      "flaw_type": "misleading",
+      "feedback": "The capital of France is Paris, not Berlin.",
+      "difficulty": 5
+    },
+    {
+      "question": "Which composer wrote 'Ode to Joy'? ",
+      "good_answer": "Pablo Picasso",
+      "flawed_answer": "Antonio Vivaldi",
+      "flaw_type": "logical_fallacy",
+      "feedback": "Pablo Picasso was a famous painter, but he did not write 'Ode to Joy'. Antonio Vivaldi was a famous violinist who composed many pieces.",
+      "difficulty": 5
+    },
+    {
+      "question": "What does the phrase 'A stitch in time saves nine' mean? (Hint: It means to avoid unnecessary work)",
+      "good_answer": "To save money on future expenses",
+      "flawed_answer": "To save time on future expenses",
+      "flaw_type": "misleading",
+      "feedback": "The correct answer is to avoid unnecessary work, not to save money.",
+      "difficulty": 5
+    },
+    {
+      "question": "Who created the Mona Lisa painting?",
+      "good_answer": "Leonardo da Vinci",
+      "flawed_answer": "Vincent van Gogh",
+      "flaw_type": "logical_fallacy",
+      "feedback": "Leonardo da Vinci was a Renaissance artist known for his depictions of human figures, including the Mona Lisa.",
+      "difficulty": 5
+    },
+    {
+      "question": "In Shakespeare's play 'Hamlet', who kills Polonius? (Hint: The character Polonius is related to the king)",
+      "good_answer": " Claudius",
+      "flawed_answer": "Hamlet himself",
+      "flaw_type": "misleading",
+      "feedback": "Hamlet killed Polonius through treachery rather than murder.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the full name of the founder of the United States?",
+      "good_answer": "George Washington",
+      "flawed_answer": "Thomas Jefferson",
+      "flaw_type": "logical_fallacy",
+      "feedback": "George Washington was the first president of the United States, not Thomas Jefferson.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the purpose of the musical scale in Western music theory?",
+      "good_answer": "The primary purpose of the musical scale is to provide a means of identifying intervals between notes.",
+      "flawed_answer": "A common misconception is that the scale serves as a guide for improvisation or performance, but it does not.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly identifies the role of the scale as providing guidance for improvisation, which is incorrect.",
+      "difficulty": 5
+    },
+    {
+      "question": "How many semitones are there in the chromatic scale of the western music system?",
+      "good_answer": "There are 12 semitones in the chromatic scale.",
+      "flawed_answer": "A common misconception is that there are only 12 semitones in the chromatic scale, but this is incorrect.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly states there are only 12 semitones, which is incorrect.",
+      "difficulty": 5
+    },
+    {
+      "question": "Which of the following statements about the relationship between pitch and note number is true?",
+      "good_answer": "Pitch and note number have no direct relationship.",
+      "flawed_answer": "Some people believe that there is a linear relationship between pitch and note number, while others think there is no such relationship.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly suggests a linear relationship between pitch and note number, which is incorrect.",
+      "difficulty": 5
+    },
+    {
+      "question": "In Western music theory, how many degrees do the major scales have?",
+      "good_answer": "The major scales have 7 degrees.",
+      "flawed_answer": "While the major scales often appear with 7 degrees, they can also have more or fewer degrees depending on their configuration.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly specifies that the major scales have 7 degrees, which is incorrect.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the significance of the interval between two adjacent notes in the chromatic scale?",
+      "good_answer": "The interval between two adjacent notes in the chromatic scale determines the distance between them.",
+      "flawed_answer": "An incorrect assumption might be made that the interval between two adjacent notes determines the distance between them, when it actually depends on the position of the notes within the scale.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly assumes that the interval between two adjacent notes determines the distance between them, which is incorrect.",
+      "difficulty": 5
+    },
+    {
+      "question": "Which of the following statements about the frequency ratio of the fundamental note to its harmonic note is correct?",
+      "good_answer": "The frequency ratio of the fundamental note to its harmonic note is always equal to the frequency ratio of the harmonic note to itself.",
+      "flawed_answer": "An incorrect assumption might be made that the frequency ratio of the fundamental note to its harmonic note is always equal to the frequency ratio of the harmonic note to itself, which is incorrect.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly assumes that the frequency ratio of the fundamental note to its harmonic note is always equal to the frequency ratio of the harmonic note to itself, which is incorrect.",
+      "difficulty": 5
+    },
+    {
+      "question": "In Western music theory, how many octaves do the major scales have?",
+      "good_answer": "The major scales have 8 octaves.",
+      "flawed_answer": "An incorrect assumption might be made that the major scales have 8 octaves, when they do not.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly states that the major scales have 8 octaves, which is incorrect.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in astronomy?",
+      "good_answer": "astronomy involves fundamental principles and their practical applications.",
+      "flawed_answer": "astronomy is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in astronomy?",
+      "good_answer": "astronomy involves fundamental principles and their practical applications.",
+      "flawed_answer": "astronomy is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in astronomy?",
+      "good_answer": "astronomy involves fundamental principles and their practical applications.",
+      "flawed_answer": "astronomy is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in astronomy?",
+      "good_answer": "astronomy involves fundamental principles and their practical applications.",
+      "flawed_answer": "astronomy is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in astronomy?",
+      "good_answer": "astronomy involves fundamental principles and their practical applications.",
+      "flawed_answer": "astronomy is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
       "difficulty": 5
     }
   ],
   "questions": [
     {
-      "question": "Explain the key concepts of computer_science.",
-      "topic": "computer_science",
+      "question": "What is the primary goal of economic policy? ",
+      "topic": "economics",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of engineering.",
-      "topic": "engineering",
+      "question": "How does supply and demand influence market prices in an economy?",
+      "topic": "economics",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of thermodynamics.",
-      "topic": "thermodynamics",
+      "question": "What factors contribute to inflation, and how can it be managed effectively?",
+      "topic": "economics",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of climate_science.",
-      "topic": "climate_science",
+      "question": "How do interest rates affect borrowing and saving decisions in the financial sector?",
+      "topic": "economics",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of constitutional_law.",
-      "topic": "constitutional_law",
+      "question": "What is the difference between fixed and variable costs in production?",
+      "topic": "economics",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the concept of opportunity cost apply to economic decision-making?",
+      "topic": "economics",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the role of government intervention in regulating the economy?",
+      "topic": "economics",
+      "difficulty": 5
+    },
+    {
+      "question": "What are the potential consequences of high unemployment on a country's GDP?",
+      "topic": "economics",
+      "difficulty": 5
+    },
+    {
+      "question": "How does technology impact the supply chain and lead to changes in economic structures?",
+      "topic": "economics",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the relationship between international trade and national economies?",
+      "topic": "economics",
+      "difficulty": 5
+    },
+    {
+      "question": "How do taxes and subsidies influence consumer behavior and investment decisions in markets?",
+      "topic": "economics",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the basic principle that allows particles to exist in multiple states at once?",
+      "topic": "quantum_mechanics",
+      "difficulty": 5
+    },
+    {
+      "question": "How does quantum entanglement occur between two particles?",
+      "topic": "quantum_mechanics",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the phenomenon of superposition and its implications for measurement.",
+      "topic": "quantum_mechanics",
+      "difficulty": 5
+    },
+    {
+      "question": "What are the key differences between classical and quantum mechanics?",
+      "topic": "quantum_mechanics",
+      "difficulty": 5
+    },
+    {
+      "question": "How do quantum systems behave when subjected to external perturbations, such as light or magnetic fields?",
+      "topic": "quantum_mechanics",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the concept of wave-particle duality and its significance in understanding quantum physics.",
+      "topic": "quantum_mechanics",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the role of coherence in maintaining the integrity of quantum systems over long periods?",
+      "topic": "quantum_mechanics",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the uncertainty principle relate to the properties of quantum systems?",
+      "topic": "quantum_mechanics",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the difference between quantum tunneling and tunneling through a potential barrier?",
+      "topic": "quantum_mechanics",
+      "difficulty": 5
+    },
+    {
+      "question": "How does quantum computing leverage the principles of superposition and entanglement to perform calculations efficiently?",
+      "topic": "quantum_mechanics",
+      "difficulty": 5
+    },
+    {
+      "question": "What were the primary social structures and political systems of ancient civilizations?",
+      "topic": "ancient_civilizations",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the economic systems and trade networks that enabled these societies to function effectively?",
+      "topic": "ancient_civilizations",
+      "difficulty": 5
+    },
+    {
+      "question": "How did religion influence the daily lives, beliefs, and rituals of ancient peoples?",
+      "topic": "ancient_civilizations",
+      "difficulty": 5
+    },
+    {
+      "question": "Compare and contrast the architectural styles and urban planning techniques of different ancient cultures.",
+      "topic": "ancient_civilizations",
+      "difficulty": 5
+    },
+    {
+      "question": "What role did agriculture play in the economies and societal structures of ancient civilizations?",
+      "topic": "ancient_civilizations",
+      "difficulty": 5
+    },
+    {
+      "question": "Discuss the impact of slavery on ancient societies and how it was managed or abolished?",
+      "topic": "ancient_civilizations",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the cultural exchanges between different ancient civilizations and their lasting effects?",
+      "topic": "ancient_civilizations",
+      "difficulty": 5
+    },
+    {
+      "question": "What technological advancements were made by ancient civilizations and how did they shape human life and society?",
+      "topic": "ancient_civilizations",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the importance of art and culture in the artistic expression of ancient civilizations and its significance for understanding them.",
+      "topic": "ancient_civilizations",
+      "difficulty": 5
+    },
+    {
+      "question": "How did climate change affect the development and spread of ancient civilizations, and what adaptations did they make to survive?",
+      "topic": "ancient_civilizations",
+      "difficulty": 5
+    },
+    {
+      "question": "What strategies did ancient civilizations use to manage and adapt to environmental challenges such as droughts and famines?",
+      "topic": "ancient_civilizations",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the difference between an acid and an base in chemical reactions?",
+      "topic": "chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the polarity of water molecules affect its properties?",
+      "topic": "chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the process of electrophilic substitution in organic chemistry.",
+      "topic": "chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the role of catalysts in the reaction of metals with acids?",
+      "topic": "chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "Why do we use pH indicators to determine the acidity or basicity of solutions?",
+      "topic": "chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "How can we predict the products of a reaction using Lewis structures?",
+      "topic": "chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the difference between a covalent bond and an ionic bond?",
+      "topic": "chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the solubility of salts change when heated or cooled?",
+      "topic": "chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the concept of molecular weight and how it relates to chemical bonds?",
+      "topic": "chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "Discuss the mechanism of a photochemical reaction involving a metal-organic framework.",
+      "topic": "chemistry",
       "difficulty": 5
     },
     {
@@ -634,51 +963,466 @@
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of philosophy.",
-      "topic": "philosophy",
+      "question": "What is the definition of an electromagnetic wave?",
+      "topic": "electromagnetism",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of biochemistry.",
-      "topic": "biochemistry",
+      "question": "How does the speed of light in a vacuum compare to that in other materials?",
+      "topic": "electromagnetism",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of anatomy.",
-      "topic": "anatomy",
+      "question": "Describe the relationship between magnetic fields and electric currents.",
+      "topic": "electromagnetism",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of world_wars.",
-      "topic": "world_wars",
+      "question": "Why do we use the term 'magnetic field' when referring to the presence of a magnetic field?",
+      "topic": "electromagnetism",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of chemistry.",
-      "topic": "chemistry",
+      "question": "What is the difference between a static electric field and a time-varying electric field?",
+      "topic": "electromagnetism",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of ethics.",
-      "topic": "ethics",
+      "question": "How can you measure the strength of an electric field using a voltmeter?",
+      "topic": "electromagnetism",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of physics.",
-      "topic": "physics",
+      "question": "What is the relationship between electric current and voltage in an electrical circuit?",
+      "topic": "electromagnetism",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of quantum_mechanics.",
-      "topic": "quantum_mechanics",
+      "question": "Can a conductor be used as both a source and a sink of electrons, and if so, how?",
+      "topic": "electromagnetism",
       "difficulty": 5
     },
     {
-      "question": "Explain the key concepts of algebra.",
-      "topic": "algebra",
+      "question": "In which direction would you expect the force on a charged particle moving perpendicular to a magnetic field to act?",
+      "topic": "electromagnetism",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the permittivity of free space relate to the properties of electromagnetic waves?",
+      "topic": "electromagnetism",
+      "difficulty": 5
+    },
+    {
+      "question": "What were the primary forms of transportation in medieval Europe?",
+      "topic": "medieval_history",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the economic systems and trade networks that developed during this period.",
+      "topic": "medieval_history",
+      "difficulty": 5
+    },
+    {
+      "question": "How did the concept of feudalism shape land ownership and resource distribution in society?",
+      "topic": "medieval_history",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the role of knights and their military training in medieval warfare.",
+      "topic": "medieval_history",
+      "difficulty": 5
+    },
+    {
+      "question": "What was the impact of the Black Death on societal structures, including religious practices and family life?",
+      "topic": "medieval_history",
+      "difficulty": 5
+    },
+    {
+      "question": "Discuss the political power dynamics between different kingdoms during this era.",
+      "topic": "medieval_history",
+      "difficulty": 5
+    },
+    {
+      "question": "What innovations did the Islamic world bring to European civilization through trade and technology?",
+      "topic": "medieval_history",
+      "difficulty": 5
+    },
+    {
+      "question": "How did the rise of the Renaissance influence art, literature, and science during this time?",
+      "topic": "medieval_history",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the social and cultural norms of women during this historical period.",
+      "topic": "medieval_history",
+      "difficulty": 5
+    },
+    {
+      "question": "What technological advancements led to the development of gunpowder weapons and firearms?",
+      "topic": "medieval_history",
+      "difficulty": 5
+    },
+    {
+      "question": "How did the Crusades contribute to the spread of Christianity across Europe?",
+      "topic": "medieval_history",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the fundamental theorem of calculus and its significance in understanding integration?",
+      "topic": "calculus",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the concept of limits apply to calculating derivatives and integrals, and what implications do these concepts have for the behavior of functions?",
+      "topic": "calculus",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the difference between continuity and uniform continuity in the context of real analysis.",
+      "topic": "calculus",
+      "difficulty": 5
+    },
+    {
+      "question": "What are some common types of improper integrals and how can their evaluation be approached?",
+      "topic": "calculus",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the Mean Value Theorem relate to finding critical points of functions and understanding local extrema?",
+      "topic": "calculus",
+      "difficulty": 5
+    },
+    {
+      "question": "What are the applications of the Fundamental Theorem of Calculus in physics, engineering, economics, and other fields?",
+      "topic": "calculus",
+      "difficulty": 5
+    },
+    {
+      "question": "Discuss the role of differentiation in solving optimization problems and illustrate with examples.",
+      "topic": "calculus",
+      "difficulty": 5
+    },
+    {
+      "question": "Compare and contrast different types of integrals (Riemann sums vs. Riemann-Stieltjes integrals) and provide an example where this distinction matters.",
+      "topic": "calculus",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the relationship between the derivative and the tangent line at a point on a curve, and why is it important?",
+      "topic": "calculus",
+      "difficulty": 5
+    },
+    {
+      "question": "How does Taylor's Theorem and Lagrange Multipliers differ in their application to optimizing functions subject to constraints?",
+      "topic": "calculus",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the process of integration by parts and when it might not be applicable.",
+      "topic": "calculus",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of genetics.",
+      "topic": "genetics",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the definition of logical reasoning?",
+      "topic": "logic",
+      "difficulty": 5
+    },
+    {
+      "question": "How does deductive reasoning work in mathematics and science?",
+      "topic": "logic",
+      "difficulty": 5
+    },
+    {
+      "question": "In what ways can logical fallacies be identified?",
+      "topic": "logic",
+      "difficulty": 5
+    },
+    {
+      "question": "What are examples of syllogistic arguments?",
+      "topic": "logic",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the process of formulating a conditional statement in logic.",
+      "topic": "logic",
+      "difficulty": 5
+    },
+    {
+      "question": "How do you apply the concept of contradiction to determine the truth value of statements?",
+      "topic": "logic",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the difference between propositional and predicate logic?",
+      "topic": "logic",
+      "difficulty": 5
+    },
+    {
+      "question": "Why might someone use modus ponens incorrectly?",
+      "topic": "logic",
+      "difficulty": 5
+    },
+    {
+      "question": "Define the term 'categorical' in logic and provide an example.",
+      "topic": "logic",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the principle of identity help in formalizing mathematical proofs?",
+      "topic": "logic",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the primary purpose of the U.S. Constitution?",
+      "topic": "constitutional_law",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the separation of powers in the U.S. Constitution work?",
+      "topic": "constitutional_law",
+      "difficulty": 5
+    },
+    {
+      "question": "In what ways can the Supreme Court interpret the Constitution?",
+      "topic": "constitutional_law",
+      "difficulty": 5
+    },
+    {
+      "question": "What role do the states play within the federal system of government?",
+      "topic": "constitutional_law",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the concept of checks and balances fit into the U.S. Constitution?",
+      "topic": "constitutional_law",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the difference between an amendment to the Constitution and a bill of rights?",
+      "topic": "constitutional_law",
+      "difficulty": 5
+    },
+    {
+      "question": "In what ways can the President exercise executive power under the Constitution?",
+      "topic": "constitutional_law",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the principle of judicial review relate to the U.S. Constitution?",
+      "topic": "constitutional_law",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the relationship between the Bill of Rights and the Constitution's other protections?",
+      "topic": "constitutional_law",
+      "difficulty": 5
+    },
+    {
+      "question": "What are some key principles that guide the interpretation of the Constitution by courts?",
+      "topic": "constitutional_law",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the definition of a point in geometry?",
+      "topic": "geometry",
+      "difficulty": 5
+    },
+    {
+      "question": "How many dimensions does Euclidean geometry have?",
+      "topic": "geometry",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe a line segment and its properties.",
+      "topic": "geometry",
+      "difficulty": 5
+    },
+    {
+      "question": "Why is it important to know that two lines intersect if they form four right angles?",
+      "topic": "geometry",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the formula for calculating the area of a triangle?",
+      "topic": "geometry",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the concept of parallel lines and why they maintain equal distance apart.",
+      "topic": "geometry",
+      "difficulty": 5
+    },
+    {
+      "question": "How do you determine if two shapes are congruent or similar in geometry?",
+      "topic": "geometry",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the difference between a plane and a three-dimensional space?",
+      "topic": "geometry",
+      "difficulty": 5
+    },
+    {
+      "question": "In what scenarios would you use a compass and straightedge in geometry?",
+      "topic": "geometry",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the Pythagorean theorem, and how can it be applied in real-world geometric problems?",
+      "topic": "geometry",
+      "difficulty": 5
+    },
+    {
+      "question": "What was the role of the Renaissance in the development of Western art?",
+      "topic": "art_history",
+      "difficulty": 5
+    },
+    {
+      "question": "How did the Baroque period influence European painting and sculpture?",
+      "topic": "art_history",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the characteristics of Impressionism and its impact on artistic techniques.",
+      "topic": "art_history",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the significance of the French Impressionists' use of color in their works?",
+      "topic": "art_history",
+      "difficulty": 5
+    },
+    {
+      "question": "How did the Romantic movement affect the relationship between artists and their subjects?",
+      "topic": "art_history",
+      "difficulty": 5
+    },
+    {
+      "question": "Discuss the evolution of modernist movements such as Dadaism and Surrealism.",
+      "topic": "art_history",
+      "difficulty": 5
+    },
+    {
+      "question": "What were some key features of the Bauhaus school of design during the early 20th century?",
+      "topic": "art_history",
+      "difficulty": 5
+    },
+    {
+      "question": "Compare and contrast the styles of Art Nouveau and Art Deco art movements.",
+      "topic": "art_history",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the role of music theory in understanding musical structures?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the concept of tonality influence the structure and harmony of a piece of music?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the difference between melody, harmony, and rhythm in music theory?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "In what ways do scales and modes contribute to the emotional and expressive qualities of a piece of music?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the use of counterpoint help to develop complex musical ideas within a piece?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "What are some common techniques used in improvisation to explore new melodic lines or harmonic textures?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the process of identifying key signatures in music theory.",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the relationship between melody and harmony affect the overall mood and energy of a piece?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the significance of intervallic ratios in the development of chord progressions?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the study of rhythm in music theory relate to the physical movement of musicians?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "What are some key differences between popular songs and classical compositions in terms of instrumentation and vocal styles?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the primary method used to observe celestial bodies like planets and stars?",
+      "topic": "astronomy",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the study of astronomy contribute to our understanding of the universe's structure and evolution?",
+      "topic": "astronomy",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe at least three different types of astronomical telescopes and their applications.",
+      "topic": "astronomy",
+      "difficulty": 5
+    },
+    {
+      "question": "Why is it important for astronomers to consider the effects of light pollution when observing distant galaxies?",
+      "topic": "astronomy",
+      "difficulty": 5
+    },
+    {
+      "question": "How do we determine the position and movement of celestial objects in the sky, including constellations?",
+      "topic": "astronomy",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the concept of stellar classification based on spectral lines observed by telescopes.",
+      "topic": "astronomy",
+      "difficulty": 5
+    },
+    {
+      "question": "What role do meteor showers play in the history of human civilization and science?",
+      "topic": "astronomy",
+      "difficulty": 5
+    },
+    {
+      "question": "How can the study of exoplanets help us understand the conditions necessary for life on other planets?",
+      "topic": "astronomy",
+      "difficulty": 5
+    },
+    {
+      "question": "Discuss the importance of using multiple telescopes or instruments together to gather more precise data from space.",
+      "topic": "astronomy",
+      "difficulty": 5
+    },
+    {
+      "question": "What are some common misconceptions about the nature of black holes and how they affect our understanding of the cosmos?",
+      "topic": "astronomy",
       "difficulty": 5
     }
   ],
-  "example_count": 75,
-  "question_count": 15
+  "example_count": 93,
+  "question_count": 135
 }
