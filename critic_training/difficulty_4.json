@@ -2,967 +2,1196 @@
   "difficulty": 4,
   "examples": [
     {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the purpose of syntax in natural language processing?",
-      "good_answer": "Syntax determines the structure and meaning of sentences.",
-      "flawed_answer": "Syntax refers to rules that govern word order and sentence structure, but it does not determine the meaning.",
+      "question": "What does the Pythagorean theorem state?",
+      "good_answer": "a^2 + b^2 = c^2",
+      "flawed_answer": "c^2 + a^2 = b^2",
       "flaw_type": "logical_fallacy",
-      "feedback": "The correct answer should specify that syntax is about how words are arranged within sentences to convey information effectively.",
-      "difficulty": 4
-    },
-    {
-      "question": "In formal logic, why do we use parentheses when writing complex statements?",
-      "good_answer": "To indicate the grouping of clauses and operations within a formula.",
-      "flawed_answer": "Parens are used randomly without any logical or meaningful purpose.",
-      "flaw_type": "incomplete",
-      "feedback": "The correct answer should provide an explanation for the necessity of using parentheses in formulas.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the role of grammar in language learning?",
-      "good_answer": "It helps learners understand the differences between correct and incorrect uses of language.",
-      "flawed_answer": "Grammar is only useful for students who plan on becoming teachers.",
-      "flaw_type": "misleading",
-      "feedback": "The correct answer should clarify that grammar can be useful for both learners and speakers of languages.",
-      "difficulty": 4
-    },
-    {
-      "question": "How does semantic analysis differ from syntactic analysis in language processing?",
-      "good_answer": "Semantic analysis focuses on the meanings behind words and phrases, while syntactic analysis looks at their grammatical structures.",
-      "flawed_answer": "Both analyses involve analyzing language structures, but they are different in terms of their focus.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct answer should discuss the difference between these two aspects of language processing.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the importance of context in understanding a sentence?",
-      "good_answer": "Context helps readers grasp the full meaning of the text by providing additional information beyond just the literal content.",
-      "flawed_answer": "Context is irrelevant unless there is a direct quote or a specific example.",
-      "flaw_type": "misleading",
-      "feedback": "The correct answer should emphasize that context is crucial for comprehending the full message of a text.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the relationship between syntactic structure and meaning in language?",
-      "good_answer": "Syntactic structure influences the way a sentence is interpreted, often leading to changes in its meaning.",
-      "flawed_answer": "Syntactic structure doesn't affect meaning; it simply organizes words into a sequence.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct answer should clearly state that syntactic structure plays a significant role in determining meaning.",
-      "difficulty": 4
-    },
-    {
-      "question": "Why is it important to consider the temporal aspect of language usage?",
-      "good_answer": "Understanding temporal nuances helps readers make sense of events and contexts over time.",
-      "flawed_answer": "Temporal considerations are unrelated to language usage and therefore not relevant.",
-      "flaw_type": "incomplete",
-      "feedback": "The correct answer should include a brief discussion of the importance of considering temporal factors in language.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the most important factor in determining inflation?",
-      "good_answer": "Inflation is primarily caused by changes in money supply, such as increases or decreases in interest rates.",
-      "flawed_answer": "Other factors like production costs, energy prices, and technology advancements can also contribute to inflation.",
-      "flaw_type": "Logical fallacy",
-      "feedback": "The answer suggests that inflation is solely dependent on monetary policy decisions, which overlooks other economic variables.",
-      "difficulty": 4
-    },
-    {
-      "question": "How does the unemployment rate affect real GDP growth?",
-      "good_answer": "A higher unemployment rate leads to lower real GDP because businesses have fewer employees to hire.",
-      "flawed_answer": "A lower unemployment rate can lead to higher real GDP due to increased consumer spending and business investment.",
-      "flaw_type": "Logical fallacy",
-      "feedback": "The answer incorrectly assumes that higher unemployment will always result in lower real GDP, ignoring other economic indicators.",
-      "difficulty": 4
-    },
-    {
-      "question": "Which of the following is NOT a cause of deflation?",
-      "good_answer": "Deflation occurs when there is an increase in the general price level of goods and services.",
-      "flawed_answer": "Deflation can occur even without a change in the overall price level, such as with a decrease in the money supply.",
-      "flaw_type": "Misleading",
-      "feedback": "The answer misrepresents deflation as a condition where the price level remains constant, thus not accounting for other causes.",
-      "difficulty": 4
-    },
-    {
-      "question": "Why do some economists argue that the Federal Reserve should raise interest rates to combat deflation?",
-      "good_answer": "They believe that rising interest rates reduce borrowing costs and stimulate economic activity, helping to boost demand and reduce deflation.",
-      "flawed_answer": "Some economists argue that raising interest rates is ineffective because they believe it discourages investment and consumption.",
-      "flaw_type": "Logical fallacy",
-      "feedback": "The answer incorrectly identifies the Federal Reserve as the primary actor in this argument, ignoring other potential sources of deflation.",
-      "difficulty": 4
-    },
-    {
-      "question": "How does the stock market correlate with inflation?",
-      "good_answer": "A strong positive correlation exists between the stock market and inflation, as investors seek higher returns through stocks.",
-      "flawed_answer": "A negative correlation exists, meaning that higher inflation can negatively impact the stock market.",
-      "flaw_type": "Logical fallacy",
-      "feedback": "The answer overestimates the relationship between inflation and the stock market, focusing only on the negative correlation.",
-      "difficulty": 4
-    },
-    {
-      "question": "What role does government spending play in macroeconomics?",
-      "good_answer": "Government spending is crucial for maintaining economic stability and stimulating aggregate demand, which is essential for full employment and economic growth.",
-      "flawed_answer": "Government spending often leads to budget deficits, which can erode the economy's ability to sustain growth and create jobs.",
-      "flaw_type": "Logical fallacy",
-      "feedback": "The answer incorrectly attributes government spending to the creation of jobs, ignoring its role in stimulating economic activity.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the difference between inflation and deflation?",
-      "good_answer": "Inflation refers to an increase in the general price level of goods and services, while deflation involves a decline in the price level.",
-      "flawed_answer": "Both inflation and deflation refer to changes in the cost of living, but they differ in their effect on the purchasing power of money.",
-      "flaw_type": "Logical fallacy",
-      "feedback": "The answer misunderstands the differences between these two concepts, confusing them with one another.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the main idea of the given paragraph?",
-      "good_answer": "The main idea is that the engineer was able to design a complex system.",
-      "flawed_answer": "The main idea is that the engineer designed a complex system.",
-      "flaw_type": "factual_error",
-      "feedback": "This answer incorrectly states that the engineer designed a complex system, which is not accurate as it does not mention any complex system being designed.",
-      "difficulty": 4
-    },
-    {
-      "question": "Which of the following statements about the benefits of artificial intelligence (AI) in healthcare is incorrect?",
-      "good_answer": "Artificial intelligence can significantly improve patient outcomes by providing more personalized care.",
-      "flawed_answer": "Artificial intelligence can significantly improve patient outcomes by reducing costs.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer incorrectly lists two different benefits of AI in healthcare.",
-      "difficulty": 4
-    },
-    {
-      "question": "How would you describe the relationship between climate change and global warming?",
-      "good_answer": "Climate change and global warming are interrelated issues.",
-      "flawed_answer": "Climate change causes global warming.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer correctly identifies the relationship between climate change and global warming.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the purpose of the given sentence?",
-      "good_answer": "To inform readers about the importance of recycling.",
-      "flawed_answer": "To tell readers about the significance of recycling.",
-      "flaw_type": "misleading",
-      "feedback": "This answer incorrectly states that the sentence is telling readers about the significance of recycling.",
-      "difficulty": 4
-    },
-    {
-      "question": "Which of these is NOT a type of renewable energy source?",
-      "good_answer": "Solar power and wind power.",
-      "flawed_answer": "Wind power and hydroelectricity.",
-      "flaw_type": "incomplete",
-      "feedback": "This answer includes both solar power and wind power, making it incomplete.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the correct way to express 'the sun' when referring to the Sun?",
-      "good_answer": "The sun is the star that gives us light and heat.",
-      "flawed_answer": "The sun is the star that provides energy.",
-      "flaw_type": "incomplete",
-      "feedback": "This answer includes the correct expression but does not clarify the meaning of 'sun'. It also uses the term 'energy', which is not relevant to the context.",
-      "difficulty": 4
-    },
-    {
-      "question": "How would you classify this statement: 'Water boils at 100 degrees Celsius at sea level'",
-      "good_answer": "An absolute temperature scale.",
-      "flawed_answer": "A relative temperature scale.",
-      "flaw_type": "misleading",
-      "feedback": "This answer incorrectly classifies water boiling at 100 degrees Celsius as an absolute temperature scale.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the formula for calculating magnetic flux density?",
-      "good_answer": "B = \u03bc\u2080 * \u03c1 / (2\u03c0r)",
-      "flawed_answer": "B = \u03bc\u2080 * \u03c1 / \u03c0r",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct formula is B = \u03bc\u2080 * \u03c1 / (2\u03c0r), where B is the magnetic field strength, \u03bc\u2080 is the permeability of free space, \u03c1 is the magnetic susceptibility, and r is the distance from the magnet.",
-      "difficulty": 5
-    },
-    {
-      "question": "Why does an electric current in a wire produce a magnetic field around it?",
-      "good_answer": "An electric current produces a magnetic field due to the motion of charged particles in the wire.",
-      "flawed_answer": "A magnetic field can also be produced by changing the voltage across a conductor.",
-      "flaw_type": "incomplete",
-      "feedback": "In reality, electric currents do not create magnetic fields but rather induce them.",
+      "feedback": "The correct form should be 'a^2 + b^2 = c^2'",
       "difficulty": 3
     },
     {
-      "question": "How does the magnetic flux through a closed loop change if the current in the loop changes?",
-      "good_answer": "The magnetic flux through the loop increases or decreases depending on the direction of the current.",
-      "flawed_answer": "The magnetic flux remains constant regardless of the current direction.",
-      "flaw_type": "incomplete",
-      "feedback": "If you change the current in a loop, the magnetic flux through that loop will change as well, even if the direction of the current is reversed.",
-      "difficulty": 3
-    },
-    {
-      "question": "What happens to the magnetic flux when the length of a solenoid increases while keeping its cross-sectional area constant?",
-      "good_answer": "The magnetic flux through the solenoid increases.",
-      "flawed_answer": "The magnetic flux through the solenoid remains constant.",
-      "flaw_type": "incomplete",
-      "feedback": "When the length of a solenoid increases while keeping its cross-sectional area constant, the magnetic flux through the solenoid also increases.",
-      "difficulty": 3
-    },
-    {
-      "question": "Which statement about electromagnetic induction is true?",
-      "good_answer": "Electromagnetic induction occurs only when there is a change in magnetic flux.",
-      "flawed_answer": "Electromagnetic induction can occur without a change in magnetic flux.",
-      "flaw_type": "incomplete",
-      "feedback": "Induction occurs when there is a change in the magnetic flux, whether caused by a changing current or another source.",
-      "difficulty": 3
-    },
-    {
-      "question": "What is the relationship between magnetic field intensity and the number of turns per unit length in a coil?",
-      "good_answer": "The magnetic field intensity is inversely proportional to the number of turns per unit length.",
-      "flawed_answer": "The magnetic field intensity is directly proportional to the number of turns per unit length.",
-      "flaw_type": "incomplete",
-      "feedback": "As the number of turns per unit length increases, the magnetic field intensity decreases.",
-      "difficulty": 3
-    },
-    {
-      "question": "What is a key concept in algorithms?",
-      "good_answer": "algorithms involves fundamental principles and their practical applications.",
-      "flawed_answer": "algorithms is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of algorithms.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in algorithms?",
-      "good_answer": "algorithms involves fundamental principles and their practical applications.",
-      "flawed_answer": "algorithms is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of algorithms.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in algorithms?",
-      "good_answer": "algorithms involves fundamental principles and their practical applications.",
-      "flawed_answer": "algorithms is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of algorithms.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in algorithms?",
-      "good_answer": "algorithms involves fundamental principles and their practical applications.",
-      "flawed_answer": "algorithms is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of algorithms.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in algorithms?",
-      "good_answer": "algorithms involves fundamental principles and their practical applications.",
-      "flawed_answer": "algorithms is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of algorithms.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the square root of 2?",
-      "good_answer": "approximately 1.414",
-      "flawed_answer": "2 is not a real number, it's a mathematical construct.",
-      "flaw_type": "mathematical_error",
-      "feedback": "The square root of 2 is an irrational number that cannot be expressed as a fraction of two integers.",
-      "difficulty": 4
-    },
-    {
-      "question": "Why do we use pi in calculus?",
-      "good_answer": "to calculate areas and volumes of circles and spheres",
-      "flawed_answer": "it represents the ratio of a circle's circumference to its diameter.",
-      "flaw_type": "logic_error",
-      "feedback": "Calculus uses \u03c0 (pi) instead of r\u00b2 or \u03c0r\u00b2 because it's easier to work with when dealing with circular shapes.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the difference between a prime number and a composite number?",
-      "good_answer": "Prime numbers have exactly two distinct positive divisors: 1 and themselves. Composite numbers have more than two factors.",
-      "flawed_answer": "Composite numbers include other whole numbers like 6, 8, etc., which can't be divided evenly by any other number except 1 and itself.",
-      "flaw_type": "incomplete",
-      "feedback": "A prime number is defined as having only two distinct positive divisors: 1 and itself, while a composite number is one that has more than two positive divisors.",
-      "difficulty": 4
-    },
-    {
-      "question": "How does the derivative of sin(x) relate to the sine function?",
-      "good_answer": "It gives the slope of the tangent line at any point on the graph of sin(x).",
-      "flawed_answer": "sin(x) + cos(x) = tan(x), which doesn't directly relate to the derivative.",
-      "flaw_type": "logic_error",
-      "feedback": "The derivative of sin(x) relates to the sine function through differentiation rules but does not directly describe how the tangent function behaves.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the formula for calculating the area of a triangle?",
-      "good_answer": "Area = (base * height) / 2",
-      "flawed_answer": "The formula is incorrect for calculating the area of a triangle. The correct formula is A = (b * h) / 2, where b is the base and h is the height.",
-      "flaw_type": "incorrect_formula",
-      "feedback": "The given answer is incorrect due to using different units for the base and height.",
-      "difficulty": 4
-    },
-    {
-      "question": "In calculus, what does it mean if f'(x) = 0?",
-      "good_answer": "It means that the function f has a horizontal asymptote at x = c.",
-      "flawed_answer": "This statement is false and does not accurately represent the meaning of f'(x) = 0.",
-      "flaw_type": "false_statement",
-      "feedback": "The statement should correctly interpret this as indicating that the limit of the function as x approaches c from either side equals zero.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the domain of the function y = sqrt(9 - x^2)?",
-      "good_answer": "The domain is all real numbers greater than 3 and less than -3.",
-      "flawed_answer": "This statement is incorrect and does not accurately define the domain of the function.",
-      "flaw_type": "incorrect_domain",
-      "feedback": "The given answer incorrectly states that the domain is all real numbers greater than 3 and less than -3.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in quantum_mechanics?",
-      "good_answer": "quantum_mechanics involves fundamental principles and their practical applications.",
-      "flawed_answer": "quantum_mechanics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of quantum_mechanics.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in quantum_mechanics?",
-      "good_answer": "quantum_mechanics involves fundamental principles and their practical applications.",
-      "flawed_answer": "quantum_mechanics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of quantum_mechanics.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in quantum_mechanics?",
-      "good_answer": "quantum_mechanics involves fundamental principles and their practical applications.",
-      "flawed_answer": "quantum_mechanics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of quantum_mechanics.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in quantum_mechanics?",
-      "good_answer": "quantum_mechanics involves fundamental principles and their practical applications.",
-      "flawed_answer": "quantum_mechanics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of quantum_mechanics.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in quantum_mechanics?",
-      "good_answer": "quantum_mechanics involves fundamental principles and their practical applications.",
-      "flawed_answer": "quantum_mechanics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of quantum_mechanics.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the primary function of medical research?",
-      "good_answer": "Medical research primarily aims to understand the causes, mechanisms, and treatments of diseases.",
-      "flawed_answer": "However, it can also be used to promote pharmaceutical companies and their products.",
+      "question": "Which number can be used to calculate the area of any triangle?",
+      "good_answer": "the base times height",
+      "flawed_answer": "the half of the base multiplied by the height",
       "flaw_type": "logical_fallacy",
-      "feedback": "The answer misinterprets the purpose of medical research by focusing on its potential benefits without fully understanding its core objective.",
-      "difficulty": 4
-    },
-    {
-      "question": "How does genetic testing contribute to personalized medicine?",
-      "good_answer": "Genetic testing helps in diagnosing diseases with high accuracy and offers personalized treatment plans based on individual genetic profiles.",
-      "flawed_answer": "It may lead to overdiagnosis or underdiagnosis due to inaccurate results.",
-      "flaw_type": "incomplete",
-      "feedback": "The answer incorrectly states that genetic testing is not related to personalization but instead focuses on diagnosis.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the role of clinical trials in medical research?",
-      "good_answer": "Clinical trials are essential for evaluating the safety and efficacy of new drugs and therapies before they are approved by regulatory agencies.",
-      "flawed_answer": "They can also help identify potential side effects and optimize drug dosages.",
-      "flaw_type": "incomplete",
-      "feedback": "The answer misrepresents the main purpose of clinical trials as merely evaluating safety rather than identifying efficacy and optimizing dosages.",
-      "difficulty": 4
-    },
-    {
-      "question": "Why is gene editing considered a controversial topic in medical research?",
-      "good_answer": "Gene editing techniques have been shown to have severe ethical implications such as creating new life forms, altering human DNA, and potentially causing unintended consequences.",
-      "flawed_answer": "However, there are ongoing debates about its use in medical applications.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The answer inaccurately attributes the controversy to the technology itself, ignoring the broader societal concerns surrounding its usage.",
-      "difficulty": 4
-    },
-    {
-      "question": "What are some common challenges faced by healthcare professionals during medical research?",
-      "good_answer": "Healthcare professionals often struggle with the complexity of medical research, lack of resources, and the need for interdisciplinary collaboration.",
-      "flawed_answer": "Research teams sometimes face budget constraints and time pressures.",
-      "flaw_type": "incomplete",
-      "feedback": "The answer fails to address the significant barriers faced by researchers and healthcare providers.",
-      "difficulty": 4
-    },
-    {
-      "question": "In what ways do biotech companies influence medical research?",
-      "good_answer": "Biotech companies play a crucial role in driving medical research through funding, partnerships, and access to cutting-edge technologies.",
-      "flawed_answer": "Their involvement in research can sometimes be seen as unethical, even if they contribute to advancing medical knowledge.",
-      "flaw_type": "incomplete",
-      "feedback": "The answer oversimplifies the impact of biotech companies on medical research without acknowledging their ethical responsibilities.",
-      "difficulty": 4
-    },
-    {
-      "question": "What role does patient consent play in ensuring ethical standards in medical research?",
-      "good_answer": "Patient consent ensures transparency, confidentiality, and informed decision-making throughout the research process.",
-      "flawed_answer": "Patients' rights can be compromised if research findings are widely disseminated without their explicit agreement.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The answer incorrectly attributes patient consent issues to unethical practices within the medical research community.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the main idea of supervised learning?",
-      "good_answer": "Supervised learning involves training models to predict or classify data.",
-      "flawed_answer": "Supervised learning requires labeled datasets to train models.",
-      "flaw_type": "Logical Fallacy",
-      "feedback": "The phrase 'supervised learning' is misleading as it refers to the process of training models rather than predicting or classifying data.",
+      "feedback": "The correct formula should be 'base * height / 2'",
       "difficulty": 3
     },
     {
-      "question": "Which algorithm is commonly used in text classification?",
-      "good_answer": "Naive Bayes and Support Vector Machines (SVM) are popular algorithms for text classification.",
-      "flawed_answer": "Logistic Regression and Decision Trees are also effective for text classification.",
-      "flaw_type": "Misleading",
-      "feedback": "Text classification can be challenging due to variations in wording and context, so these methods may not always perform well.",
+      "question": "What is the sum of all prime numbers between 1 and 100?",
+      "good_answer": "464",
+      "flawed_answer": "479",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer should be '479' (sum of all odd numbers between 1 and 100)",
+      "difficulty": 3
+    },
+    {
+      "question": "How many diagonals can be drawn in a pentagon?",
+      "good_answer": "5",
+      "flawed_answer": "6",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer should be '5' (since it's a regular polygon with five sides)",
+      "difficulty": 3
+    },
+    {
+      "question": "If x = y, which operation will cancel out the y term?",
+      "good_answer": "x - y",
+      "flawed_answer": "x + y",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct operation should be 'x - y'",
+      "difficulty": 3
+    },
+    {
+      "question": "What is the largest integer that cannot be expressed as the sum of two squares?",
+      "good_answer": "4",
+      "flawed_answer": "8",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer should be '4' (since the maximum square less than or equal to 64 is 36)",
+      "difficulty": 3
+    },
+    {
+      "question": "In how many ways can you arrange three different books on a shelf?",
+      "good_answer": "6",
+      "flawed_answer": "12",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer should be '6' (since there are six possible orders: ABC, ACB, BAC, BCA, CAB, CBA)",
+      "difficulty": 3
+    },
+    {
+      "question": "What is the greatest common divisor of 18 and 24?",
+      "good_answer": "6",
+      "flawed_answer": "12",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer should be '6' (since 6 is the greatest common divisor)",
+      "difficulty": 3
+    },
+    {
+      "question": "What is a key concept in cognitive_science?",
+      "good_answer": "cognitive_science involves fundamental principles and their practical applications.",
+      "flawed_answer": "cognitive_science is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of cognitive_science.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in cognitive_science?",
+      "good_answer": "cognitive_science involves fundamental principles and their practical applications.",
+      "flawed_answer": "cognitive_science is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of cognitive_science.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in cognitive_science?",
+      "good_answer": "cognitive_science involves fundamental principles and their practical applications.",
+      "flawed_answer": "cognitive_science is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of cognitive_science.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in cognitive_science?",
+      "good_answer": "cognitive_science involves fundamental principles and their practical applications.",
+      "flawed_answer": "cognitive_science is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of cognitive_science.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in cognitive_science?",
+      "good_answer": "cognitive_science involves fundamental principles and their practical applications.",
+      "flawed_answer": "cognitive_science is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of cognitive_science.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the purpose of machine learning in computer science?",
+      "good_answer": "Machine learning is used to make predictions or decisions based on patterns observed in data.",
+      "flawed_answer": "Machine learning is primarily used for classification tasks, such as identifying different categories from images or videos.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The answer incorrectly states that machine learning is used to predict outcomes, which is not entirely accurate.",
+      "difficulty": 3
+    },
+    {
+      "question": "Why do we need supervised learning in computer science?",
+      "good_answer": "Supervised learning involves feeding labeled examples into a model to learn how to classify new data points.",
+      "flawed_answer": "Unsupervised learning does not require any labeling; it simply learns without any input.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly defines unsupervised learning as learning without labels, which is incorrect.",
       "difficulty": 2
     },
     {
-      "question": "How does cross-validation improve model performance?",
-      "good_answer": "Cross-validation helps ensure that the model's performance is not biased towards any particular subset of the dataset.",
-      "flawed_answer": "Cross-validation increases the computational cost significantly.",
-      "flaw_type": "Incomplete",
-      "feedback": "Cross-validation is typically performed only once during the training phase and then discarded.",
+      "question": "How does deep learning differ from traditional machine learning?",
+      "good_answer": "Deep learning uses multiple layers of neural networks with more complex connections than traditional machine learning models.",
+      "flawed_answer": "Traditional machine learning typically uses one hidden layer with fewer nodes compared to deep learning.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer misrepresents the difference between traditional and deep learning by using a single hidden layer instead of multiple layers.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the main difference between reinforcement learning and other forms of machine learning?",
+      "good_answer": "Reinforcement learning involves agents learning through trial and error, while other forms of machine learning use algorithms to make predictions.",
+      "flawed_answer": "Reinforcement learning requires human intervention to set goals and choose actions, whereas other forms of machine learning can be programmed to learn autonomously.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly identifies reinforcement learning as requiring human intervention, when in fact, other forms of machine learning involve programming.",
       "difficulty": 2
     },
     {
-      "question": "What is the difference between k-fold cross-validation and leave-one-out cross-validation?",
-      "good_answer": "k-fold cross-validation splits the dataset into k subsets, while leave-one-out cross-validation splits the entire dataset.",
-      "flawed_answer": "Leave-one-out cross-validation uses all data points for validation while k-fold cross-validation splits them evenly.",
-      "flaw_type": "Logical Fallacy",
-      "feedback": "Understanding the difference between these techniques is crucial for evaluating different evaluation metrics.",
+      "question": "What is the role of big data in modern computer science?",
+      "good_answer": "Big data refers to large amounts of unstructured and semi-structured data that cannot be easily analyzed by traditional software.",
+      "flawed_answer": "Modern computer science focuses solely on analyzing small datasets for analysis purposes.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly attributes the focus on big data to analysis, which is not true.",
       "difficulty": 3
     },
     {
-      "question": "Why do we use regularization techniques in machine learning?",
-      "good_answer": "Regularization techniques like L1 and L2 regularization help prevent overfitting by penalizing large coefficients.",
-      "flawed_answer": "They increase the complexity of the model unnecessarily.",
-      "flaw_type": "Logical Fallacy",
-      "feedback": "L1 and L2 regularization can lead to underfitting if not applied correctly.",
+      "question": "How does natural language processing (NLP) contribute to computer science?",
+      "good_answer": "Natural language processing helps computers understand and generate human-like text by breaking down text into words and sentences.",
+      "flawed_answer": "NLP is only relevant for developing chatbots and virtual assistants, not for building advanced computer systems.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly associates NLP with creating chatbots, which is not applicable to computer systems.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the significance of privacy-preserving algorithms in computer science?",
+      "good_answer": "Privacy-preserving algorithms ensure that personal information remains private even after data is collected and processed.",
+      "flawed_answer": "Privacy-preserving algorithms can lead to increased data collection and surveillance, making them controversial.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly states that privacy-preserving algorithms increase data collection and surveillance, which is false.",
       "difficulty": 3
     },
     {
-      "question": "What is the role of the cross entropy loss function in neural networks?",
-      "good_answer": "It measures the difference between the predicted probabilities and the true labels.",
-      "flawed_answer": "It calculates the mean squared error instead.",
-      "flaw_type": "Logical Fallacy",
-      "feedback": "Using MSE instead of cross entropy could result in better generalization but might confuse the model.",
+      "question": "What is the impact of quantum computing on computer science?",
+      "good_answer": "Quantum computing leverages principles of quantum mechanics to perform calculations much faster than classical computers.",
+      "flawed_answer": "Quantum computing is still in its early stages, and there are significant challenges to implementing it effectively.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly attributes the rapid development of quantum computing to its early stages, which is incorrect.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the main theme of Leonardo da Vinci's Mona Lisa?",
+      "good_answer": "A portrait of a woman with a smile.",
+      "flawed_answer": "Leonardo's portrayal of a young woman in a pose of contemplation.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer involves artistic interpretation, not scientific fact.",
       "difficulty": 3
     },
     {
-      "question": "What is the purpose of using dropout layers in neural networks?",
-      "good_answer": "Dropout randomly disables neurons, helping the network learn from less data.",
-      "flawed_answer": "It decreases the accuracy of the trained model.",
-      "flaw_type": "Logical Fallacy",
-      "feedback": "This approach often leads to suboptimal results and should not be used.",
+      "question": "Who painted the famous painting 'The Birth of Venus'?",
+      "good_answer": "Vincent van Gogh.",
+      "flawed_answer": "Claude Monet.",
+      "flaw_type": "misleading",
+      "feedback": "The correct artist was Claude Monet.",
+      "difficulty": 2
+    },
+    {
+      "question": "Which Renaissance master created the iconic figure of Donatello?",
+      "good_answer": "Donatello.",
+      "flawed_answer": "Michelangelo.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer involves Michelangelo.",
+      "difficulty": 4
+    },
+    {
+      "question": "What does the phrase 'a picture is worth a thousand words' mean?",
+      "good_answer": "An artwork that captures the essence or meaning of its subject.",
+      "flawed_answer": "It means a painting can be understood by anyone who reads it.",
+      "flaw_type": "incomplete",
+      "feedback": "The statement lacks context about the intended audience.",
+      "difficulty": 2
+    },
+    {
+      "question": "In which Renaissance period did Leonardo da Vinci live?",
+      "good_answer": "The Italian Renaissance (14th to 17th centuries).",
+      "flawed_answer": "He lived during the Middle Ages.",
+      "flaw_type": "incomplete",
+      "feedback": "There's no clear indication of his living period.",
+      "difficulty": 2
+    },
+    {
+      "question": "Which Renaissance painter created the Mona Lisa as a gift from King Henry IV to his wife Louisa II?",
+      "good_answer": "Leonardo da Vinci.",
+      "flawed_answer": "Raphael.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer involves Raphael.",
       "difficulty": 3
     },
     {
-      "question": "What is the capital of France?",
-      "good_answer": "Paris",
-      "flawed_answer": "Marseille",
-      "flaw_type": "factual_error",
-      "feedback": "The correct answer is Paris, which is the capital city of France.",
+      "question": "What is the significance of the famous phrase 'painting is the act of making something real,' attributed to Vincent van Gogh?",
+      "good_answer": "It emphasizes the subjective nature of art.",
+      "flawed_answer": "It suggests that art should be seen through personal emotions and experiences.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The attribution is misleading.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the definition of 'epistemology'?",
+      "good_answer": "The study of knowledge and belief, including the methods and theories used to acquire knowledge.",
+      "flawed_answer": "Epistemology primarily deals with the nature and methodology of acquiring knowledge or beliefs.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly defines epistemology as merely about acquiring knowledge, which is not entirely accurate. Epistemology encompasses broader topics such as understanding human knowledge acquisition mechanisms.",
+      "difficulty": 4
+    },
+    {
+      "question": "How does epistemology differ from other fields in terms of its focus?",
+      "good_answer": "Epistemology focuses on the acquisition of knowledge, while other fields like psychology or sociology may also consider aspects related to perception, cognition, and social behavior.",
+      "flawed_answer": "Epistemology and other fields often overlap but have distinct focuses.",
+      "flaw_type": "misleading",
+      "feedback": "This answer misinterprets the difference between epistemology and other fields by conflating them.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is one of the key principles of epistemology?",
+      "good_answer": "The principle that all rational beings must accept some level of uncertainty when making decisions.",
+      "flawed_answer": "Some argue that this principle contradicts scientific evidence.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer introduces a logical fallacy by suggesting that accepting some degree of uncertainty is incompatible with scientific evidence.",
+      "difficulty": 4
+    },
+    {
+      "question": "What role do epistemological frameworks play in modern science?",
+      "good_answer": "Epistemological frameworks guide scientists in selecting appropriate methodologies based on their field of research.",
+      "flawed_answer": "Modern science relies heavily on empirical evidence and statistical analysis rather than epistemological frameworks.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly attributes modern science to empirical evidence, which is not true.",
+      "difficulty": 4
+    },
+    {
+      "question": "In what ways can epistemological theories influence our understanding of reality?",
+      "good_answer": "Epistemological theories provide insights into how we perceive and interpret the world around us.",
+      "flawed_answer": "Epistemological theories only address the cognitive processes involved in perception and interpretation.",
+      "flaw_type": "incomplete",
+      "feedback": "This answer provides information about epistemological theories but omits critical aspects such as their impact on practical applications.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a common misconception regarding epistemological theories?",
+      "good_answer": "Many people believe that epistemological theories should be applied universally without considering individual differences.",
+      "flawed_answer": "This assumption oversimplifies the complexity of epistemological theories and their application.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly suggests that applying universal epistemological theories is unnecessary.",
+      "difficulty": 4
+    },
+    {
+      "question": "How can epistemological theories contribute to ethical decision-making?",
+      "good_answer": "Epistemological theories offer guidance on how to make informed decisions based on available evidence.",
+      "flawed_answer": "Epistemological theories discourage making ethical decisions altogether.",
+      "flaw_type": "incomplete",
+      "feedback": "This answer fails to fully address how epistemological theories can inform ethical decision-making.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the importance of epistemological theory in the context of moral philosophy?",
+      "good_answer": "Epistemological theory helps philosophers understand the basis for evaluating the morality of actions and judgments.",
+      "flawed_answer": "Moral philosophy is unrelated to epistemological theory.",
+      "flaw_type": "misleading",
+      "feedback": "This answer presents an incorrect connection between epistemological theory and moral philosophy.",
+      "difficulty": 4
+    },
+    {
+      "question": "What role do epistemological theories play in discussions about artificial intelligence (AI) development?",
+      "good_answer": "Epistemological theories help guide AI developers in choosing appropriate approaches and methods.",
+      "flawed_answer": "Artificial intelligence is solely dependent on empirical data and computational algorithms.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This answer incorrectly assumes that AI developments rely exclusively on empirical data.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the relationship between DNA and genetics?",
+      "good_answer": "DNA contains genetic information.",
+      "flawed_answer": "Genetics involves the study of hereditary traits.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer should mention that genes carry genetic instructions in DNA.",
+      "difficulty": 3
+    },
+    {
+      "question": "What does Mendel's law of segregation specifically refer to?",
+      "good_answer": "It refers to the separation of alleles during meiosis.",
+      "flawed_answer": "Mendel's law applies only to inheritance patterns.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer should clarify the term 'separation' in Mendel\u2019s laws.",
+      "difficulty": 2
+    },
+    {
+      "question": "How does the concept of gene flow impact evolutionary theory?",
+      "good_answer": "It explains how populations move from one location to another.",
+      "flawed_answer": "Gene flow is unrelated to evolutionary theory.",
+      "flaw_type": "Misleading",
+      "feedback": "The correct answer should discuss the role of migration in population dynamics.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the main difference between random mating and sexual reproduction?",
+      "good_answer": "Random mating involves chance selection of offspring, while sexual reproduction requires a combination of male and female traits.",
+      "flawed_answer": "Sexual reproduction can lead to different phenotypes than random mating.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer should specify the key difference between these two reproductive methods.",
+      "difficulty": 2
+    },
+    {
+      "question": "In which scenario would you expect chromosomal variation to occur?",
+      "good_answer": "During meiosis in gametes.",
+      "flawed_answer": "Chromosomal variation occurs naturally within individuals.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer should point out the natural occurrence of chromosome variations.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the process called when an organism produces two genetically distinct copies of its chromosomes?",
+      "good_answer": "Crossing over occurs during meiosis.",
+      "flawed_answer": "This process results in genetic recombination.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer should emphasize the process of crossing over.",
+      "difficulty": 2
+    },
+    {
+      "question": "Which of the following statements about human genetic diseases is incorrect?",
+      "good_answer": "Most common genetic disorders affect multiple genes.",
+      "flawed_answer": "Genetic disorders are typically caused by mutations in single genes.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer should clarify that most genetic disorders affect multiple genes.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in history?",
+      "good_answer": "history involves fundamental principles and their practical applications.",
+      "flawed_answer": "history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of history.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in history?",
+      "good_answer": "history involves fundamental principles and their practical applications.",
+      "flawed_answer": "history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of history.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in history?",
+      "good_answer": "history involves fundamental principles and their practical applications.",
+      "flawed_answer": "history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of history.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in history?",
+      "good_answer": "history involves fundamental principles and their practical applications.",
+      "flawed_answer": "history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of history.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in history?",
+      "good_answer": "history involves fundamental principles and their practical applications.",
+      "flawed_answer": "history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of history.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the correct definition of 'ethical' in the context of business ethics?",
+      "good_answer": "Ethical behavior refers to actions that are morally right or justifiable.",
+      "flawed_answer": "This answer is incorrect because ethical behavior can include actions that are not necessarily motivated by moral rightness or justice.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly defines ethical behavior as only those actions that are morally right, which overlooks other forms of ethical behavior such as altruism and non-moral acts.",
+      "difficulty": 4
+    },
+    {
+      "question": "Why is it important to consider both the positive and negative impacts of your decisions when making ethical choices?",
+      "good_answer": "When making ethical choices, we must consider both the immediate consequences and the long-term effects on others and society.",
+      "flawed_answer": "This answer is incorrect because considering both the positive and negative impacts may lead to overlooking the most significant impact.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer suggests ignoring the potential downsides of our decisions, which could be more harmful than beneficial.",
+      "difficulty": 4
+    },
+    {
+      "question": "How does the concept of 'corporate social responsibility' fit into the broader framework of ethical decision-making?",
+      "good_answer": "Corporate social responsibility (CSR) involves taking actions that benefit stakeholders, including employees, customers, and the community.",
+      "flawed_answer": "This answer is incorrect because CSR is often criticized for being overly focused on profit motives rather than ethical considerations.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer suggests that CSR should focus solely on profits without considering ethical implications, which ignores the importance of ethical standards.",
+      "difficulty": 4
+    },
+    {
+      "question": "Which of these statements best describes the principle of 'duty to do no harm'?",
+      "good_answer": "Acting with care and caution towards others to prevent harm to themselves and others.",
+      "flawed_answer": "This answer is incorrect because acting with care and caution toward others to prevent harm to themselves and others is not the same as doing nothing at all.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer misinterprets the principle of duty to do no harm as simply avoiding harm itself.",
+      "difficulty": 4
+    },
+    {
+      "question": "What role does transparency play in fostering trust between businesses and their customers?",
+      "good_answer": "Transparency allows customers to understand how companies operate, leading to increased trust and confidence in the company.",
+      "flawed_answer": "This answer is incorrect because transparency alone cannot guarantee customer trust.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer oversimplifies the relationship between transparency and trust.",
+      "difficulty": 4
+    },
+    {
+      "question": "In what ways can cultural differences affect ethical decision-making?",
+      "good_answer": "Cultural differences can influence how people view and act upon ethical principles, potentially leading to different outcomes in ethical decision-making.",
+      "flawed_answer": "This answer is incorrect because cultural differences have no effect on ethical decision-making.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer assumes that cultural differences are irrelevant to ethical decision-making.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the purpose of conducting an ethics audit within an organization?",
+      "good_answer": "An ethics audit is a systematic process used to evaluate the organization\u2019s adherence to its ethical policies and practices.",
+      "flawed_answer": "This answer is incorrect because an ethics audit is typically conducted to identify areas for improvement rather than to evaluate compliance with ethical policies.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer misidentifies the purpose of an ethics audit as merely identifying areas for improvement, while it is actually aimed at evaluating compliance with ethical policies.",
+      "difficulty": 4
+    },
+    {
+      "question": "How does the concept of 'business ethics' differ from 'legal ethics'?",
+      "good_answer": "Business ethics focuses on the ethical considerations that arise from commercial activities, while legal ethics deals with ethical concerns arising from governmental laws.",
+      "flawed_answer": "This answer is incorrect because both business ethics and legal ethics are closely related concepts, but they do not necessarily refer to the same type of ethical consideration.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer overgeneralizes the difference between business ethics and legal ethics.",
+      "difficulty": 4
+    },
+    {
+      "question": "What does 'punishment' mean in legal terms?",
+      "good_answer": "A penalty imposed by a court or authority",
+      "flawed_answer": "An act of violence or cruelty that is punished",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly defines punishment as an act of violence, which is not accurate.",
+      "difficulty": 4
+    },
+    {
+      "question": "Who typically bears the burden of proof in a legal case?",
+      "good_answer": "The party who presents evidence to prove their case",
+      "flawed_answer": "The judge decides the case based on the evidence provided",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly states that the judge makes the decision based on the evidence, which is incorrect.",
+      "difficulty": 4
+    },
+    {
+      "question": "In a civil lawsuit, can a plaintiff sue someone without any witnesses?",
+      "good_answer": "Yes, if there is sufficient evidence of harm caused by the defendant",
+      "flawed_answer": "No, only physical evidence is required",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly states that no physical evidence is needed, which is misleading.",
+      "difficulty": 4
+    },
+    {
+      "question": "What are the two main types of criminal charges in most jurisdictions?",
+      "good_answer": "Misdemeanors and felonies",
+      "flawed_answer": "Misdemeanors and crimes",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly categorizes crimes into misdemeanors and felonies.",
+      "difficulty": 4
+    },
+    {
+      "question": "How long must a person wait before being considered permanently disabled due to a disability?",
+      "good_answer": "At least five years from the date of the last medical examination",
+      "flawed_answer": "Up to ten years from the date of the last medical examination",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly states that it could be up to ten years, which is inaccurate.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the purpose of a jury trial in a civil case?",
+      "good_answer": "To determine the facts of the case",
+      "flawed_answer": "To decide whether the defendant is guilty or innocent",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly states that a jury decides guilt or innocence, which is misleading.",
+      "difficulty": 4
+    },
+    {
+      "question": "When can a person legally enter a marriage?",
+      "good_answer": "At the age of 23",
+      "flawed_answer": "At the age of 18",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly states that entering a marriage at age 18 is illegal.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in biology?",
+      "good_answer": "biology involves fundamental principles and their practical applications.",
+      "flawed_answer": "biology is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in biology?",
+      "good_answer": "biology involves fundamental principles and their practical applications.",
+      "flawed_answer": "biology is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in biology?",
+      "good_answer": "biology involves fundamental principles and their practical applications.",
+      "flawed_answer": "biology is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in biology?",
+      "good_answer": "biology involves fundamental principles and their practical applications.",
+      "flawed_answer": "biology is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in biology?",
+      "good_answer": "biology involves fundamental principles and their practical applications.",
+      "flawed_answer": "biology is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in algorithms?",
+      "good_answer": "algorithms involves fundamental principles and their practical applications.",
+      "flawed_answer": "algorithms is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of algorithms.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in algorithms?",
+      "good_answer": "algorithms involves fundamental principles and their practical applications.",
+      "flawed_answer": "algorithms is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of algorithms.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in algorithms?",
+      "good_answer": "algorithms involves fundamental principles and their practical applications.",
+      "flawed_answer": "algorithms is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of algorithms.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in algorithms?",
+      "good_answer": "algorithms involves fundamental principles and their practical applications.",
+      "flawed_answer": "algorithms is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of algorithms.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in algorithms?",
+      "good_answer": "algorithms involves fundamental principles and their practical applications.",
+      "flawed_answer": "algorithms is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of algorithms.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the economic principle behind consumer surplus?",
+      "good_answer": "When consumers buy more than they want, they pay less per unit of the good sold.",
+      "flawed_answer": "This statement is incorrect because consumer surplus occurs when buyers pay more than they would have to pay if they bought only one unit of the product.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly attributes the concept of consumer surplus to market demand rather than supply and demand principles.",
+      "difficulty": 4
+    },
+    {
+      "question": "How does the concept of opportunity cost relate to decision-making in economics?",
+      "good_answer": "Opportunity cost refers to the value of the next best alternative that must be forgone in order to pursue a particular action.",
+      "flawed_answer": "While this is true, it does not fully capture the essence of opportunity cost as it pertains specifically to decisions about resources and time allocation.",
+      "flaw_type": "Misleading",
+      "feedback": "The answer misinterprets opportunity cost by focusing on resource allocation instead of identifying it as a key factor in decision-making.",
+      "difficulty": 4
+    },
+    {
+      "question": "What role do taxes play in determining the price elasticity of supply?",
+      "good_answer": "Taxes increase the price elasticity of supply by shifting the supply curve upward.",
+      "flawed_answer": "In reality, taxes primarily affect the quantity supplied but not the price elasticity of supply.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly attributes the effect of taxes to their impact on the quantity supplied rather than understanding how they influence supply curves.",
+      "difficulty": 4
+    },
+    {
+      "question": "Which of the following scenarios illustrates the law of diminishing marginal utility?",
+      "good_answer": "As a result of consuming more ice cream, you feel more pleasure from each additional scoop.",
+      "flawed_answer": "The law of diminishing marginal utility states that as a person consumes more units of a good, the satisfaction gained from each successive unit decreases.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer misrepresents the concept of diminishing marginal utility, attributing its application to consumption patterns rather than the relationship between goods and people.",
+      "difficulty": 4
+    },
+    {
+      "question": "Why is the marginal cost of production crucial for businesses?",
+      "good_answer": "It represents the additional cost incurred by producing one more unit of output.",
+      "flawed_answer": "Marginal cost is irrelevant; the primary focus should be on variable costs rather than fixed costs.",
+      "flaw_type": "Misleading",
+      "feedback": "The answer misidentifies marginal cost as a measure of total costs without considering the context of production.",
+      "difficulty": 4
+    },
+    {
+      "question": "What does the deadweight loss represent in economics?",
+      "good_answer": "Deadweight loss is the negative impact of a tax or subsidy on the economy, which exceeds the amount collected by the government.",
+      "flawed_answer": "This definition is too vague and fails to differentiate between different types of deadweight losses.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly defines deadweight loss by conflating it with all forms of economic inefficiency, failing to distinguish between different aspects.",
+      "difficulty": 4
+    },
+    {
+      "question": "How does the concept of opportunity cost differ among individuals within a group?",
+      "good_answer": "Opportunity cost varies based on personal preferences and the relative availability of alternatives.",
+      "flawed_answer": "Individuals may experience similar opportunities at various times, leading to identical perceptions of opportunity cost.",
+      "flaw_type": "Misleading",
+      "feedback": "The answer misinterprets opportunity cost as being influenced by personal preferences, instead acknowledging it as a shared characteristic across groups.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in anatomy?",
+      "good_answer": "anatomy involves fundamental principles and their practical applications.",
+      "flawed_answer": "anatomy is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of anatomy.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in anatomy?",
+      "good_answer": "anatomy involves fundamental principles and their practical applications.",
+      "flawed_answer": "anatomy is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of anatomy.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in anatomy?",
+      "good_answer": "anatomy involves fundamental principles and their practical applications.",
+      "flawed_answer": "anatomy is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of anatomy.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in anatomy?",
+      "good_answer": "anatomy involves fundamental principles and their practical applications.",
+      "flawed_answer": "anatomy is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of anatomy.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in anatomy?",
+      "good_answer": "anatomy involves fundamental principles and their practical applications.",
+      "flawed_answer": "anatomy is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of anatomy.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in physics?",
+      "good_answer": "physics involves fundamental principles and their practical applications.",
+      "flawed_answer": "physics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in physics?",
+      "good_answer": "physics involves fundamental principles and their practical applications.",
+      "flawed_answer": "physics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in physics?",
+      "good_answer": "physics involves fundamental principles and their practical applications.",
+      "flawed_answer": "physics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in physics?",
+      "good_answer": "physics involves fundamental principles and their practical applications.",
+      "flawed_answer": "physics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is a key concept in physics?",
+      "good_answer": "physics involves fundamental principles and their practical applications.",
+      "flawed_answer": "physics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the purpose of art?",
+      "good_answer": "Art aims to convey emotions, thoughts, and ideas through visual or auditory media.",
+      "flawed_answer": "Art can be seen as a form of entertainment or expression.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly distinguishes between artistic purposes and entertainment value.",
       "difficulty": 5
     },
     {
-      "question": "How many continents does Earth have in total?",
-      "good_answer": "7 continents",
-      "flawed_answer": "8 continents",
-      "flaw_type": "factual_error",
-      "feedback": "The correct answer is 7 continents, as there are seven major landmasses that make up the planet.",
+      "question": "Why does water boil at 100 degrees Celsius?",
+      "good_answer": "Water boils because it expands when heated.",
+      "flawed_answer": "Water boils because it becomes more dense.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly states that boiling occurs due to temperature increase, not expansion.",
       "difficulty": 6
     },
     {
-      "question": "Which ocean is the largest by area?",
-      "good_answer": "Pacific Ocean",
-      "flawed_answer": "Atlantic Ocean",
-      "flaw_type": "factual_error",
-      "feedback": "The Pacific Ocean is indeed the largest by area, but it should be noted that the Atlantic Ocean is also larger than the Pacific Ocean.",
-      "difficulty": 3
-    },
-    {
-      "question": "In which year did the French Revolution start?",
-      "good_answer": "1789",
-      "flawed_answer": "1792",
-      "flaw_type": "factual_error",
-      "feedback": "The French Revolution started on July 14, 1789, not July 14, 1792.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the longest river in the world by length?",
-      "good_answer": "Amazon River",
-      "flawed_answer": "Nile River",
-      "flaw_type": "factual_error",
-      "feedback": "The Amazon River is the longest river in terms of length, but it flows into the Atlantic Ocean through the Andes mountain range.",
-      "difficulty": 4
-    },
-    {
-      "question": "Which continent is home to the deepest lake in the world?",
-      "good_answer": "Antarctica",
-      "flawed_answer": "Africa",
-      "flaw_type": "factual_error",
-      "feedback": "Lake Victoria is actually the deepest lake in the world, located in East Africa.",
-      "difficulty": 5
-    },
-    {
-      "question": "How many countries are there in Europe?",
-      "good_answer": "27",
-      "flawed_answer": "26",
-      "flaw_type": "factual_error",
-      "feedback": "The number of countries in Europe can vary depending on how one defines 'country'. For example, the European Union counts 27 member states.",
-      "difficulty": 5
-    },
-    {
-      "question": "Which country is known as the 'Land of the Rising Sun'?",
-      "good_answer": "Japan",
-      "flawed_answer": "South Korea",
-      "flaw_type": "factual_error",
-      "feedback": "The Land of the Rising Sun refers to Japan, while South Korea is another country with similar geographical features.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the average age of a Nobel Prize winner?",
-      "good_answer": "The average age of a Nobel Prize winner is generally around 36 years.",
-      "flawed_answer": "While it's common to see Nobel winners in their late 20s or early 30s, there can be variations.",
-      "flaw_type": "Incomplete",
-      "feedback": "It's important to note that while some Nobel winners have reached high ages, others still live longer than this."
-    },
-    {
-      "question": "Which type of statistical test would you use to compare two groups in a study on stress levels between men and women?",
-      "good_answer": "T-test",
-      "flawed_answer": "Z-test",
-      "flaw_type": "Misleading",
-      "feedback": "This test assumes equal variances which may not always hold true for stress levels between genders.",
-      "difficulty": 5
-    },
-    {
-      "question": "Why might a company choose to conduct a survey rather than a direct interview with its employees?",
-      "good_answer": "A survey allows for more generalization and analysis of the entire population.",
-      "flawed_answer": "Direct interviews can provide a more intimate understanding of individual experiences.",
+      "question": "How do you define 'love'?",
+      "good_answer": "Love is the deep affection one feels towards someone else.",
+      "flawed_answer": "Love includes actions like being devoted and showing concern.",
       "flaw_type": "Logical fallacy",
-      "feedback": "This approach could lead to biased results if employees are unwilling to participate.",
-      "difficulty": 4
+      "feedback": "The answer incorrectly defines love by including actions beyond mere devotion.",
+      "difficulty": 7
     },
     {
-      "question": "How does the concept of 'sampling bias' relate to data collection?",
-      "good_answer": "Sampling bias occurs when the sample selected is not representative of the larger population.",
-      "flawed_answer": "Data collected from a single, randomly selected group is considered unbiased.",
-      "flaw_type": "Misleading",
-      "feedback": "This term implies that the sample was intentionally chosen without consideration for the broader population, which is incorrect.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the difference between a confidence interval and a margin of error?",
-      "good_answer": "Confidence intervals estimate the range within which the true value of a parameter lies with a certain level of confidence (e.g., 95%), whereas margins of error measure the precision of estimates.",
-      "flawed_answer": "Margins of error do not specify the precision of estimates but only how close they are to the true value.",
+      "question": "What is the difference between a book and a novel?",
+      "good_answer": "A book contains prose while a novel contains narrative and characters.",
+      "flawed_answer": "A book may contain plot while a novel contains all three elements.",
       "flaw_type": "Logical fallacy",
-      "feedback": "This distinction is often misunderstood, as margins of error typically indicate the range of uncertainty, not precision.",
-      "difficulty": 4
+      "feedback": "The answer incorrectly categorizes books and novels based on different aspects of their content.",
+      "difficulty": 8
     },
     {
-      "question": "When conducting a hypothesis test, why is it crucial to consider the significance level (alpha)?",
-      "good_answer": "Alpha determines the probability of making Type I errors (false positives). A lower alpha level increases the likelihood of rejecting the null hypothesis when it is actually true.",
-      "flawed_answer": "A higher alpha level means a greater chance of accepting a false null hypothesis, leading to incorrect conclusions.",
+      "question": "Is it possible to create art without using any tools?",
+      "good_answer": "Yes, artists use various materials and techniques.",
+      "flawed_answer": "It's impossible to create art without using tools.",
       "flaw_type": "Logical fallacy",
-      "feedback": "This principle is incorrectly stated as a rule that should be followed universally, especially for small samples.",
-      "difficulty": 4
+      "feedback": "The answer incorrectly states that art cannot exist without tools.",
+      "difficulty": 9
     },
     {
-      "question": "What role does random sampling play in ensuring representativeness in surveys?",
-      "good_answer": "Random sampling helps ensure that every member of the population has an equal chance of being included in the sample.",
-      "flawed_answer": "Non-random sampling methods can create biases that affect the accuracy of the results.",
+      "question": "What is the relationship between art and reality?",
+      "good_answer": "Art reflects real-world experiences in ways that are meaningful.",
+      "flawed_answer": "Art is a reflection of the artist's personal perspective and emotional responses.",
       "flaw_type": "Logical fallacy",
-      "feedback": "This method relies on the assumption that every individual in the population has an equal chance of selection, which may not always be true.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in geometry?",
-      "good_answer": "geometry involves fundamental principles and their practical applications.",
-      "flawed_answer": "geometry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of geometry.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in geometry?",
-      "good_answer": "geometry involves fundamental principles and their practical applications.",
-      "flawed_answer": "geometry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of geometry.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in geometry?",
-      "good_answer": "geometry involves fundamental principles and their practical applications.",
-      "flawed_answer": "geometry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of geometry.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in geometry?",
-      "good_answer": "geometry involves fundamental principles and their practical applications.",
-      "flawed_answer": "geometry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of geometry.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in geometry?",
-      "good_answer": "geometry involves fundamental principles and their practical applications.",
-      "flawed_answer": "geometry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of geometry.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in organic_chemistry?",
-      "good_answer": "organic_chemistry involves fundamental principles and their practical applications.",
-      "flawed_answer": "organic_chemistry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of organic_chemistry.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in organic_chemistry?",
-      "good_answer": "organic_chemistry involves fundamental principles and their practical applications.",
-      "flawed_answer": "organic_chemistry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of organic_chemistry.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in organic_chemistry?",
-      "good_answer": "organic_chemistry involves fundamental principles and their practical applications.",
-      "flawed_answer": "organic_chemistry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of organic_chemistry.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in organic_chemistry?",
-      "good_answer": "organic_chemistry involves fundamental principles and their practical applications.",
-      "flawed_answer": "organic_chemistry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of organic_chemistry.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key concept in organic_chemistry?",
-      "good_answer": "organic_chemistry involves fundamental principles and their practical applications.",
-      "flawed_answer": "organic_chemistry is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of organic_chemistry.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the definition of epistemology?",
-      "good_answer": "The study of knowledge, belief, truth, and justification in terms of its sources, properties, and limits.",
-      "flawed_answer": "Epistemology is a branch of philosophy that primarily deals with questions about the nature of knowledge and how we acquire it.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer is misleading as it focuses on philosophical definitions rather than providing a comprehensive overview of epistemology.",
-      "difficulty": 4
-    },
-    {
-      "question": "How does epistemology differ from other branches of philosophy?",
-      "good_answer": "Epistemology studies the nature of knowledge and beliefs, while other branches focus on concepts like logic, ethics, and metaphysics.",
-      "flawed_answer": "Epistemology can be more abstract and less directly related to other branches of philosophy.",
-      "flaw_type": "misleading",
-      "feedback": "This answer is incorrect because epistemology is not only concerned with knowledge but also includes questions about belief and truth.",
-      "difficulty": 4
-    },
-    {
-      "question": "In what ways does epistemology intersect with other disciplines?",
-      "good_answer": "Epistemology intersects with various fields such as psychology, sociology, political science, and biology.",
-      "flawed_answer": "It is often seen as a separate discipline without any direct connections to these other fields.",
-      "flaw_type": "misleading",
-      "feedback": "This answer is inaccurate as epistemology does indeed have significant intersections with many different disciplines.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is one of the main principles of epistemology?",
-      "good_answer": "Knowledge comes through experience and learning.",
-      "flawed_answer": "Epistemology claims that all knowledge must come from innate ideas or pre-existing knowledge.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer is incorrect because the principle of innate ideas is actually part of modern epistemology.",
-      "difficulty": 4
-    },
-    {
-      "question": "What role do values play in epistemology?",
-      "good_answer": "Values influence our beliefs and decisions based on their importance.",
-      "flawed_answer": "Epistemology does not consider the role of values in determining knowledge.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer is inaccurate as values can influence our beliefs and actions, making them relevant in epistemology.",
-      "difficulty": 4
-    },
-    {
-      "question": "How does epistemology relate to social sciences?",
-      "good_answer": "Epistemology is closely related to social sciences by studying the structure and functioning of societies.",
-      "flawed_answer": "Social sciences do not necessarily include epistemological research.",
-      "flaw_type": "misleading",
-      "feedback": "This answer is incorrect as social sciences do involve epistemological research.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is a key aspect of epistemology?",
-      "good_answer": "Epistemology examines the criteria for knowing something.",
-      "flawed_answer": "Epistemology does not focus on the process of knowledge acquisition.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer is inaccurate as epistemology does examine the criteria for knowledge.",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the relationship between epistemology and scientific inquiry?",
-      "good_answer": "Epistemology provides insights into the nature of knowledge and the limitations of scientific inquiry.",
-      "flawed_answer": "Epistemology is unrelated to scientific inquiry.",
-      "flaw_type": "misleading",
-      "feedback": "This answer is incorrect as epistemology does provide insights into the nature of knowledge.",
-      "difficulty": 4
+      "feedback": "The answer incorrectly attributes the relationship between art and reality.",
+      "difficulty": 10
     }
   ],
   "questions": [
     {
-      "question": "What is the most fundamental concept in computer science?",
+      "question": "Explain the key concepts of mathematics.",
+      "topic": "mathematics",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the primary function of the neocortex in cognitive science?",
+      "topic": "cognitive_science",
+      "difficulty": 4
+    },
+    {
+      "question": "Compare and contrast the neural mechanisms involved in visual perception with those in language processing.",
+      "topic": "cognitive_science",
+      "difficulty": 4
+    },
+    {
+      "question": "Describe the role of the hippocampus in memory consolidation and recall.",
+      "topic": "cognitive_science",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the significance of functional connectivity in brain networks for learning and memory?",
+      "topic": "cognitive_science",
+      "difficulty": 4
+    },
+    {
+      "question": "How does the cerebellum contribute to motor control and coordination?",
+      "topic": "cognitive_science",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the relationship between neuroplasticity and learning and memory in cognitive science?",
+      "topic": "cognitive_science",
+      "difficulty": 4
+    },
+    {
+      "question": "How do the human brain's sensory-motor system interact with other systems in cognition?",
+      "topic": "cognitive_science",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the concept of the mirror neuron system, and its potential implications for understanding social cognition?",
+      "topic": "cognitive_science",
+      "difficulty": 4
+    },
+    {
+      "question": "How does the brain's plasticity affect learning and memory across different age groups?",
+      "topic": "cognitive_science",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the role of the basal ganglia in executive functions such as attention and goal-directed behavior?",
+      "topic": "cognitive_science",
+      "difficulty": 4
+    },
+    {
+      "question": "How does the amygdala influence emotional responses during decision-making and conflict resolution?",
+      "topic": "cognitive_science",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the primary purpose of computer science?",
       "topic": "computer_science",
       "difficulty": 4
     },
     {
-      "question": "How does parallelism and concurrency impact performance in computing?",
+      "question": "How does artificial intelligence differ from traditional computing?",
       "topic": "computer_science",
       "difficulty": 4
     },
     {
-      "question": "What are the three primary types of data structures in computer science?",
+      "question": "What are some common programming languages used in computer science?",
       "topic": "computer_science",
       "difficulty": 4
     },
     {
-      "question": "Describe the basic operations (push, pop, etc.) for stacks and queues.",
+      "question": "What are the different types of software development projects (e.g., web development, mobile app development)?",
       "topic": "computer_science",
       "difficulty": 4
     },
     {
-      "question": "What is the difference between object-oriented programming and procedural programming?",
+      "question": "What is blockchain technology and how does it work?",
       "topic": "computer_science",
       "difficulty": 4
     },
     {
-      "question": "In what scenarios might you use an operating system to manage multiple processes?",
+      "question": "How do data structures like arrays, linked lists, and stacks affect performance?",
       "topic": "computer_science",
       "difficulty": 4
     },
     {
-      "question": "What is the main goal of software architecture design?",
+      "question": "What is object-oriented programming and why is it important in computer science?",
       "topic": "computer_science",
       "difficulty": 4
     },
     {
-      "question": "What is the purpose of input/output operations in computer systems?",
+      "question": "What are some key concepts in computer architecture such as cache hierarchy and pipelining?",
       "topic": "computer_science",
       "difficulty": 4
     },
     {
-      "question": "How do virtual machines work in modern computing environments?",
+      "question": "How does machine learning work in practice?",
       "topic": "computer_science",
       "difficulty": 4
     },
     {
-      "question": "What is the difference between a file and a database in terms of storage capacity?",
+      "question": "What is cloud computing and its benefits compared to on-premises storage?",
       "topic": "computer_science",
       "difficulty": 4
     },
     {
-      "question": "What is the significance of memory management in computer science?",
-      "topic": "computer_science",
+      "question": "What is the earliest known artistic expression in human history, dating back to at least 300,000 years?",
+      "topic": "art_history",
       "difficulty": 4
     },
     {
-      "question": "What is the primary function of language in communication?",
-      "topic": "linguistics",
+      "question": "Who were the first humans to create cave paintings in Europe around 70,000 years ago?",
+      "topic": "art_history",
       "difficulty": 4
     },
     {
-      "question": "How does phonetics influence pronunciation and speech clarity?",
-      "topic": "linguistics",
+      "question": "Describe the main characteristics and significance of the Neolithic art found in France, including pottery and sculpture.",
+      "topic": "art_history",
       "difficulty": 4
     },
     {
-      "question": "Describe the role of syntax in constructing grammatical sentences.",
-      "topic": "linguistics",
+      "question": "Discuss the influence of ancient Egyptian art on Western art during the Renaissance.",
+      "topic": "art_history",
       "difficulty": 4
     },
     {
-      "question": "Explain the concept of semantics, including its components and functions.",
-      "topic": "linguistics",
+      "question": "What was the impact of the Roman Empire's artistic traditions on later European cultures?",
+      "topic": "art_history",
       "difficulty": 4
     },
     {
-      "question": "How do linguistic structures such as grammar and morphology contribute to word meaning?",
-      "topic": "linguistics",
+      "question": "Compare and contrast the techniques used by early Christian artists with those of the Byzantine era.",
+      "topic": "art_history",
       "difficulty": 4
     },
     {
-      "question": "Discuss the importance of idioms in language use and their impact on context.",
-      "topic": "linguistics",
+      "question": "How did the Islamic Golden Age contribute to the development of Western art?",
+      "topic": "art_history",
       "difficulty": 4
     },
     {
-      "question": "What is the difference between linguistic evolution and cultural evolution?",
-      "topic": "linguistics",
+      "question": "Explore the evolution of Gothic architecture from the 6th century CE through the 15th century CE.",
+      "topic": "art_history",
       "difficulty": 4
     },
     {
-      "question": "How does the study of syntax differ from that of semantics?",
-      "topic": "linguistics",
+      "question": "What were some significant contributions of Chinese painting during the Song Dynasty (960-1279 CE)",
+      "topic": "art_history",
       "difficulty": 4
     },
     {
-      "question": "What are some key differences between languages with different writing systems?",
-      "topic": "linguistics",
+      "question": "Examine the role of Renaissance artists like Leonardo da Vinci and Michelangelo in shaping modern art movements.",
+      "topic": "art_history",
       "difficulty": 4
     },
     {
-      "question": "Compare and contrast lexical and semantic resources in language usage.",
-      "topic": "linguistics",
+      "question": "What were some key developments in Western art during the Romantic period?",
+      "topic": "art_history",
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of economics.",
-      "topic": "economics",
+      "question": "What is the definition of epistemology?",
+      "topic": "epistemology",
       "difficulty": 4
     },
     {
-      "question": "What is the difference between mechanical and electrical engineering?",
-      "topic": "engineering",
+      "question": "How does epistemology study knowledge and beliefs?",
+      "topic": "epistemology",
       "difficulty": 4
     },
     {
-      "question": "Describe the process of designing a simple circuit, including components and connections.",
-      "topic": "engineering",
+      "question": "What are some key concepts in epistemology such as certainty, truth, and justification?",
+      "topic": "epistemology",
       "difficulty": 4
     },
     {
-      "question": "How do you identify and solve problems in engineering design?",
-      "topic": "engineering",
+      "question": "What role do different types of evidence play in epistemology?",
+      "topic": "epistemology",
       "difficulty": 4
     },
     {
-      "question": "What is the role of computer science in modern engineering?",
-      "topic": "engineering",
+      "question": "How does epistemology address the problem of induction?",
+      "topic": "epistemology",
       "difficulty": 4
     },
     {
-      "question": "Compare and contrast civil engineering with architectural engineering.",
-      "topic": "engineering",
+      "question": "What is the relationship between epistemology and metaphysics?",
+      "topic": "epistemology",
       "difficulty": 4
     },
     {
-      "question": "Discuss the importance of safety considerations in engineering projects.",
-      "topic": "engineering",
+      "question": "How can epistemological theories be used to understand human cognition?",
+      "topic": "epistemology",
       "difficulty": 4
     },
     {
-      "question": "How does the integration of technology affect the field of engineering?",
-      "topic": "engineering",
+      "question": "What is the difference between empirical and normative knowledge according to epistemology?",
+      "topic": "epistemology",
       "difficulty": 4
     },
     {
-      "question": "What is the significance of project management in engineering projects?",
-      "topic": "engineering",
+      "question": "What is the significance of the concept of knowledge acquisition in epistemology?",
+      "topic": "epistemology",
       "difficulty": 4
     },
     {
-      "question": "How do engineers use mathematics to solve complex problems?",
-      "topic": "engineering",
+      "question": "How does epistemology differ from other philosophical disciplines like logic or ethics?",
+      "topic": "epistemology",
       "difficulty": 4
     },
     {
-      "question": "What are some common challenges faced by engineers in their careers?",
-      "topic": "engineering",
+      "question": "What is the most common mode of inheritance for human diseases?",
+      "topic": "genetics",
       "difficulty": 4
     },
     {
-      "question": "How can an engineer ensure compliance with industry standards and regulations?",
-      "topic": "engineering",
+      "question": "Can genetic mutations be inherited from parents to offspring? How does this work?",
+      "topic": "genetics",
       "difficulty": 4
     },
     {
-      "question": "What is the fundamental force that causes electric and magnetic fields to interact?",
-      "topic": "electromagnetism",
+      "question": "How do mutations in DNA affect gene expression and development?",
+      "topic": "genetics",
       "difficulty": 4
     },
     {
-      "question": "How does the speed of light relate to electromagnetic waves in vacuum?",
-      "topic": "electromagnetism",
+      "question": "What is the role of epigenetic modifications in heritable traits?",
+      "topic": "genetics",
       "difficulty": 4
     },
     {
-      "question": "Describe the relationship between current density and magnetic field strength in a conductor.",
-      "topic": "electromagnetism",
+      "question": "How does DNA methylation differ between somatic cells and germ cells?",
+      "topic": "genetics",
       "difficulty": 4
     },
     {
-      "question": "Define Amp\u00e8re's Law and explain its application in electrostatics.",
-      "topic": "electromagnetism",
+      "question": "What factors influence the rate of mutation during a cell's lifespan?",
+      "topic": "genetics",
       "difficulty": 4
     },
     {
-      "question": "Discuss the principle of superposition for solving problems involving multiple sources of forces.",
-      "topic": "electromagnetism",
+      "question": "How can environmental factors impact genetic predispositions?",
+      "topic": "genetics",
       "difficulty": 4
     },
     {
-      "question": "Compare and contrast electromagnetic induction with electrostatic induction.",
-      "topic": "electromagnetism",
+      "question": "What are some common disorders associated with genetic defects?",
+      "topic": "genetics",
+      "difficulty": 4
+    },
+    {
+      "question": "How does genetic diversity contribute to population adaptation?",
+      "topic": "genetics",
+      "difficulty": 4
+    },
+    {
+      "question": "What are the implications of genetic drift on evolutionary processes?",
+      "topic": "genetics",
+      "difficulty": 4
+    },
+    {
+      "question": "What was the significance of the Battle of Gettysburg in 1863?",
+      "topic": "history",
+      "difficulty": 4
+    },
+    {
+      "question": "How did the Civil War end, and what were its lasting effects on American society?",
+      "topic": "history",
+      "difficulty": 4
+    },
+    {
+      "question": "Who was Abraham Lincoln, and how did he become the 16th President of the United States?",
+      "topic": "history",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the Declaration of Independence and what does it say?",
+      "topic": "history",
+      "difficulty": 4
+    },
+    {
+      "question": "Describe the impact of the invention of the printing press on literature and education.",
+      "topic": "history",
+      "difficulty": 4
+    },
+    {
+      "question": "What were the major causes of the American Revolution, including British policies and internal conflicts?",
+      "topic": "history",
+      "difficulty": 4
+    },
+    {
+      "question": "How did the American Revolutionary War affect the relationship between Britain and the colonies?",
+      "topic": "history",
+      "difficulty": 4
+    },
+    {
+      "question": "What was the Treaty of Paris signed by the United States and France after the war, and what did it mean for both sides?",
+      "topic": "history",
+      "difficulty": 4
+    },
+    {
+      "question": "What was the significance of the Emancipation Proclamation and how did it change the course of the Civil War?",
+      "topic": "history",
+      "difficulty": 4
+    },
+    {
+      "question": "Discuss the role of women in the Civil Rights Movement, including significant events and leaders like Rosa Parks and Ella Baker.",
+      "topic": "history",
+      "difficulty": 4
+    },
+    {
+      "question": "Explain the key concepts of ethics.",
+      "topic": "ethics",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the fundamental principle that underlies legal systems?",
+      "topic": "law",
+      "difficulty": 4
+    },
+    {
+      "question": "How does the rule of law differ from a democracy based on individual rights?",
+      "topic": "law",
+      "difficulty": 4
+    },
+    {
+      "question": "What role do judges play in interpreting laws and ensuring they are applied fairly?",
+      "topic": "law",
+      "difficulty": 4
+    },
+    {
+      "question": "Describe the process of criminal prosecution and how it affects individuals in court.",
+      "topic": "law",
+      "difficulty": 4
+    },
+    {
+      "question": "In what ways can laws be changed or repealed to address current societal issues?",
+      "topic": "law",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the difference between statutory law and constitutional law?",
+      "topic": "law",
+      "difficulty": 4
+    },
+    {
+      "question": "How does the concept of precedent impact judicial decisions?",
+      "topic": "law",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the purpose of legal education and training for lawyers?",
+      "topic": "law",
+      "difficulty": 4
+    },
+    {
+      "question": "How does the legal system handle disputes involving non-English-speaking parties?",
+      "topic": "law",
+      "difficulty": 4
+    },
+    {
+      "question": "What are some key principles of natural justice in the legal process?",
+      "topic": "law",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the primary function of photosynthesis in plants?",
+      "topic": "biology",
+      "difficulty": 4
+    },
+    {
+      "question": "How do animals maintain homeostasis through their bodies?",
+      "topic": "biology",
+      "difficulty": 4
+    },
+    {
+      "question": "What are the three main types of ecosystems found on Earth?",
+      "topic": "biology",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the role of DNA in genetics and how does it help in understanding heredity?",
+      "topic": "biology",
+      "difficulty": 4
+    },
+    {
+      "question": "How does an ecosystem's structure affect its stability over time?",
+      "topic": "biology",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the significance of endocrine systems in maintaining bodily functions?",
+      "topic": "biology",
+      "difficulty": 4
+    },
+    {
+      "question": "How does the concept of biodiversity contribute to our understanding of ecological relationships?",
+      "topic": "biology",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the difference between innate and learned behaviors, and what roles do they play in animal behavior?",
+      "topic": "biology",
+      "difficulty": 4
+    },
+    {
+      "question": "What is the process of cellular respiration, and why is it crucial for life processes?",
+      "topic": "biology",
       "difficulty": 4
     },
     {
@@ -971,411 +1200,166 @@
       "difficulty": 4
     },
     {
-      "question": "How do you determine if an algorithm is in linear, quadratic, or exponential time complexity?",
+      "question": "How does the Big O notation describe the performance of an algorithm?",
       "topic": "algorithms",
       "difficulty": 4
     },
     {
-      "question": "What is the purpose of memoization in algorithms?",
+      "question": "Define space complexity in algorithms.",
       "topic": "algorithms",
       "difficulty": 4
     },
     {
-      "question": "Explain the concept of dynamic programming and how it can be applied to solve problems.",
+      "question": "Describe the concept of an algorithm and its purpose.",
       "topic": "algorithms",
       "difficulty": 4
     },
     {
-      "question": "In what scenarios would you use recursion over iteration for solving a problem?",
+      "question": "Why is it important to choose an appropriate data structure for an algorithm?",
       "topic": "algorithms",
       "difficulty": 4
     },
     {
-      "question": "What does an algorithm's space complexity measure?",
+      "question": "How can you determine if an algorithm is well-structured or not?",
       "topic": "algorithms",
       "difficulty": 4
     },
     {
-      "question": "How does the Big O notation relate to the efficiency of an algorithm?",
+      "question": "List three common types of problems that algorithms solve.",
       "topic": "algorithms",
       "difficulty": 4
     },
     {
-      "question": "Define the term 'space complexity' in computer science?",
+      "question": "What are some common pitfalls when implementing an algorithm?",
       "topic": "algorithms",
       "difficulty": 4
     },
     {
-      "question": "Describe the process of designing an efficient sorting algorithm.",
+      "question": "Explain the concept of divide-and-conquer algorithm.",
       "topic": "algorithms",
       "difficulty": 4
     },
     {
-      "question": "What is the difference between an irrational number and a rational number?",
-      "topic": "mathematics",
+      "question": "Explain the key concepts of behavioral_economics.",
+      "topic": "behavioral_economics",
       "difficulty": 4
     },
     {
-      "question": "How do you determine if a function is even, odd, or neither?",
-      "topic": "mathematics",
+      "question": "What is the function of skeletal muscle fibers?",
+      "topic": "anatomy",
       "difficulty": 4
     },
     {
-      "question": "What is the formula for calculating the area of a circle?",
-      "topic": "mathematics",
+      "question": "Describe the structure of the heart.",
+      "topic": "anatomy",
       "difficulty": 4
     },
     {
-      "question": "How does the concept of infinity relate to mathematical operations?",
-      "topic": "mathematics",
+      "question": "How does blood flow through the arteries? ",
+      "topic": "anatomy",
       "difficulty": 4
     },
     {
-      "question": "Define the term 'proof by contradiction' in logic.",
-      "topic": "mathematics",
+      "question": "What is the role of the circulatory system in transporting oxygen and nutrients to cells?",
+      "topic": "anatomy",
       "difficulty": 4
     },
     {
-      "question": "Describe the process of finding the roots (solutions) of a quadratic equation.",
-      "topic": "mathematics",
+      "question": "What is the main organ of the digestive system called?",
+      "topic": "anatomy",
       "difficulty": 4
     },
     {
-      "question": "Explain the key concepts of quantum_mechanics.",
-      "topic": "quantum_mechanics",
+      "question": "List the major types of bones found in the human body.",
+      "topic": "anatomy",
       "difficulty": 4
     },
     {
-      "question": "What is the primary function of medicine in treating diseases? ",
-      "topic": "medicine",
+      "question": "How do capillaries contribute to the exchange of substances within tissues?",
+      "topic": "anatomy",
       "difficulty": 4
     },
     {
-      "question": "How does the human body's immune system respond to medical interventions? ",
-      "topic": "medicine",
+      "question": "What is the function of the lungs in respiration?",
+      "topic": "anatomy",
       "difficulty": 4
     },
     {
-      "question": "Describe the different types of medications used in modern medicine. ",
-      "topic": "medicine",
+      "question": "Describe the structure of the nervous system, including its parts and functions.",
+      "topic": "anatomy",
       "difficulty": 4
     },
     {
-      "question": "Explain the role of genetics in determining which individuals will respond well to certain medicines. ",
-      "topic": "medicine",
+      "question": "How does the skin protect the body from external injuries?",
+      "topic": "anatomy",
       "difficulty": 4
     },
     {
-      "question": "List at least three common side effects associated with some commonly prescribed medications. ",
-      "topic": "medicine",
+      "question": "Identify the two main chambers of the heart.",
+      "topic": "anatomy",
       "difficulty": 4
     },
     {
-      "question": "Discuss the concept of pharmacodynamics and how it helps explain drug action. ",
-      "topic": "medicine",
+      "question": "What is the relationship between mass and energy?",
+      "topic": "physics",
       "difficulty": 4
     },
     {
-      "question": "Describe the process of medication administration, including dosing, timing, and routes of administration. ",
-      "topic": "medicine",
+      "question": "How does the speed of light in a vacuum compare to its speed in other materials?",
+      "topic": "physics",
       "difficulty": 4
     },
     {
-      "question": "What are the main components of an antibiotic prescription? ",
-      "topic": "medicine",
+      "question": "Describe the concept of relativistic time dilation using simple examples.",
+      "topic": "physics",
       "difficulty": 4
     },
     {
-      "question": "Explain the mechanism by which aspirin works as a pain reliever. ",
-      "topic": "medicine",
+      "question": "What is the difference between a point charge and a charged particle?",
+      "topic": "physics",
       "difficulty": 4
     },
     {
-      "question": "How do vitamins and minerals contribute to overall health and wellness? ",
-      "topic": "medicine",
+      "question": "How do electromagnetic waves travel through space and interact with matter?",
+      "topic": "physics",
       "difficulty": 4
     },
     {
-      "question": "What is the primary goal of machine learning?",
-      "topic": "machine_learning",
+      "question": "Discuss the principles behind Newton's laws of motion and their implications for everyday phenomena.",
+      "topic": "physics",
       "difficulty": 4
     },
     {
-      "question": "Describe a common type of machine learning algorithm such as decision trees, neural networks, or support vector machines.",
-      "topic": "machine_learning",
+      "question": "What is the principle of conservation of momentum in collisions?",
+      "topic": "physics",
       "difficulty": 4
     },
     {
-      "question": "What is overfitting and how can it be prevented?",
-      "topic": "machine_learning",
+      "question": "Explain the behavior of sound waves and how they propagate through different mediums.",
+      "topic": "physics",
       "difficulty": 4
     },
     {
-      "question": "How does regularization work in machine learning to prevent overfitting?",
-      "topic": "machine_learning",
+      "question": "What are the key factors that determine an object's density in terms of volume and mass?",
+      "topic": "physics",
       "difficulty": 4
     },
     {
-      "question": "What are some techniques for handling missing data in machine learning models?",
-      "topic": "machine_learning",
+      "question": "How does temperature affect the properties of matter such as heat capacity and thermal conductivity?",
+      "topic": "physics",
       "difficulty": 4
     },
     {
-      "question": "How do you select the best hyperparameters for a machine learning model?",
-      "topic": "machine_learning",
+      "question": "What is the significance of the photoelectric effect in understanding atomic structure?",
+      "topic": "physics",
       "difficulty": 4
     },
     {
-      "question": "What is feature selection in machine learning? How can it improve model performance?",
-      "topic": "machine_learning",
-      "difficulty": 4
-    },
-    {
-      "question": "How does ensemble methods like Bagging and Boosting differ from individual algorithms?",
-      "topic": "machine_learning",
-      "difficulty": 4
-    },
-    {
-      "question": "What are some popular libraries used for machine learning tasks (e.g., TensorFlow, Scikit-learn, PyTorch)?",
-      "topic": "machine_learning",
-      "difficulty": 4
-    },
-    {
-      "question": "Compare and contrast supervised and unsupervised learning in terms of their approaches and applications.",
-      "topic": "machine_learning",
-      "difficulty": 4
-    },
-    {
-      "question": "How does the concept of transfer learning apply in machine learning?",
-      "topic": "machine_learning",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the largest lake in the world by area? ",
-      "topic": "geography",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the capital city of France? ",
-      "topic": "geography",
-      "difficulty": 4
-    },
-    {
-      "question": "How many countries does China have? ",
-      "topic": "geography",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the longest river in North America? ",
-      "topic": "geography",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the largest desert in the world by area? ",
-      "topic": "geography",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the largest ocean in the world by surface area? ",
-      "topic": "geography",
-      "difficulty": 4
-    },
-    {
-      "question": "Who invented the internet? ",
-      "topic": "geography",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the name of the most populous country in Africa? ",
-      "topic": "geography",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the largest island in the Caribbean? ",
-      "topic": "geography",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the capital city of Saudi Arabia?",
-      "topic": "geography",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the range of data in this set?",
-      "topic": "statistics",
-      "difficulty": 4
-    },
-    {
-      "question": "Can you explain what statistical measures like mean, median, and mode represent?",
-      "topic": "statistics",
-      "difficulty": 4
-    },
-    {
-      "question": "How does standard deviation help us understand variability in a dataset?",
-      "topic": "statistics",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the difference between descriptive and inferential statistics?",
-      "topic": "statistics",
-      "difficulty": 4
-    },
-    {
-      "question": "Why is it important to consider outliers when analyzing data?",
-      "topic": "statistics",
-      "difficulty": 4
-    },
-    {
-      "question": "How do I calculate the coefficient of variation (CV)?",
-      "topic": "statistics",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the impact of sample size on statistical significance?",
-      "topic": "statistics",
-      "difficulty": 4
-    },
-    {
-      "question": "How can we determine if data follows a normal distribution?",
-      "topic": "statistics",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the role of outliers in the interpretation of statistical results?",
-      "topic": "statistics",
-      "difficulty": 4
-    },
-    {
-      "question": "Can you provide an example of how to use Excel for basic statistical analysis?",
-      "topic": "statistics",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the definition of a point in geometry?",
-      "topic": "geometry",
-      "difficulty": 4
-    },
-    {
-      "question": "How many dimensions does Euclidean space have?",
-      "topic": "geometry",
-      "difficulty": 4
-    },
-    {
-      "question": "Describe a line segment and its properties.",
-      "topic": "geometry",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the significance of parallel lines in geometry?",
-      "topic": "geometry",
-      "difficulty": 4
-    },
-    {
-      "question": "Why is the Pythagorean theorem important in geometry?",
-      "topic": "geometry",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the difference between congruent triangles and similar triangles?",
-      "topic": "geometry",
-      "difficulty": 4
-    },
-    {
-      "question": "How do you determine if two figures are similar?",
-      "topic": "geometry",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the primary purpose of organic chemistry?",
-      "topic": "organic_chemistry",
-      "difficulty": 4
-    },
-    {
-      "question": "Describe the chemical structure and properties of alcohols.",
-      "topic": "organic_chemistry",
-      "difficulty": 4
-    },
-    {
-      "question": "How does the molecular geometry of an alkane influence its reactivity?",
-      "topic": "organic_chemistry",
-      "difficulty": 4
-    },
-    {
-      "question": "Compare and contrast esters with fatty acids in terms of their functional groups.",
-      "topic": "organic_chemistry",
-      "difficulty": 4
-    },
-    {
-      "question": "Analyze the reaction mechanism for the combustion of methane (CH\u2084) under ignition conditions.",
-      "topic": "organic_chemistry",
-      "difficulty": 4
-    },
-    {
-      "question": "Explain the concept of acid-base equivalence point in organic chemistry.",
-      "topic": "organic_chemistry",
-      "difficulty": 4
-    },
-    {
-      "question": "Discuss the role of hydrocarbons in plant growth and development.",
-      "topic": "organic_chemistry",
-      "difficulty": 4
-    },
-    {
-      "question": "How does the solubility of organic compounds change with temperature?",
-      "topic": "organic_chemistry",
-      "difficulty": 4
-    },
-    {
-      "question": "Compare and contrast alkenes, alkanes, and alkynes based on their hybridization types.",
-      "topic": "organic_chemistry",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the definition of epistemology? ",
-      "topic": "epistemology",
-      "difficulty": 4
-    },
-    {
-      "question": "How does knowledge differ from belief in epistemology?",
-      "topic": "epistemology",
-      "difficulty": 4
-    },
-    {
-      "question": "What are the three main areas of study in epistemology?",
-      "topic": "epistemology",
-      "difficulty": 4
-    },
-    {
-      "question": "In what ways can epistemology contribute to our understanding of reality?",
-      "topic": "epistemology",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the role of epistemology in ethical considerations?",
-      "topic": "epistemology",
-      "difficulty": 4
-    },
-    {
-      "question": "How does epistemology address the relationship between knowledge and experience?",
-      "topic": "epistemology",
-      "difficulty": 4
-    },
-    {
-      "question": "What are some key concepts in epistemological theory?",
-      "topic": "epistemology",
-      "difficulty": 4
-    },
-    {
-      "question": "How has epistemology evolved over time?",
-      "topic": "epistemology",
-      "difficulty": 4
-    },
-    {
-      "question": "What are the implications of epistemological skepticism for science and truth?",
-      "topic": "epistemology",
+      "question": "Explain the key concepts of philosophy.",
+      "topic": "philosophy",
       "difficulty": 4
     }
   ],
-  "example_count": 96,
-  "question_count": 121
+  "example_count": 97,
+  "question_count": 116
 }
