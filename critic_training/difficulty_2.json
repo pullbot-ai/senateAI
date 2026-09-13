@@ -2,636 +2,571 @@
   "difficulty": 2,
   "examples": [
     {
-      "question": "What is the purpose of ethics in moral philosophy?",
-      "good_answer": "Ethics is about making decisions that are right or wrong based on morality.",
-      "flawed_answer": "Ethics is about determining what is right, wrong, and just.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct answer should focus on the ethical principles that guide moral decision-making rather than the consequences of those decisions.",
-      "difficulty": 2
-    },
-    {
-      "question": "How does the concept of autonomy relate to ethics?",
-      "good_answer": "Autonomy refers to one's freedom from external constraints and control.",
-      "flawed_answer": "Autonomy relates to personal freedom but not necessarily to ethical considerations.",
-      "flaw_type": "misleading",
-      "feedback": "The term 'autonomy' can be misleading as it implies freedom from constraint, which might not align with ethical considerations.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the role of duty in ethical theory?",
-      "good_answer": "Duty refers to obligations that must be performed regardless of personal interest.",
-      "flawed_answer": "Duty involves personal interests and therefore cannot be considered in ethical theory.",
-      "flaw_type": "misleading",
-      "feedback": "Misunderstanding the role of duty can lead to ethical dilemmas where duties conflict with individual interests.",
-      "difficulty": 2
-    },
-    {
-      "question": "In consequentialism, how do we determine the right action?",
-      "good_answer": "Consequentialism evaluates actions based solely on their outcomes or consequences.",
-      "flawed_answer": "Consequentialism also considers the intentions behind actions and whether they are morally right.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct answer should consider both the intention and outcome of actions, not just the consequences alone.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the importance of considering the impact of actions on others when applying utilitarianism?",
-      "good_answer": "Utilitarianism emphasizes the greatest happiness for the greatest number of people.",
-      "flawed_answer": "Utilitarianism focuses only on maximizing overall happiness without regard for individual impacts.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The principle of utility (maximizing happiness) may not always apply universally, leading to inconsistencies in utilitarianism.",
-      "difficulty": 2
-    },
-    {
-      "question": "What does the concept of justice entail?",
-      "good_answer": "Justice refers to fairness, equality, and impartiality in all aspects of life.",
-      "flawed_answer": "Justice includes social, economic, and political systems but not necessarily in everyday interpersonal relationships.",
-      "flaw_type": "incomplete",
-      "feedback": "A more comprehensive definition of justice would encompass various forms of fairness such as economic, legal, and societal.",
-      "difficulty": 2
-    },
-    {
-      "question": "How does the concept of consent play a role in ethical discussions?",
-      "good_answer": "Consent allows individuals to make choices that respect their rights and freedoms.",
-      "flawed_answer": "Consent is limited to personal preferences and cannot be used to influence others in any way.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The concept of consent often leads to misunderstandings and conflicts when applied to diverse contexts.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the significance of non-violence in ethical theories?",
-      "good_answer": "Non-violence is the idea that violence is inherently wrong.",
-      "flawed_answer": "Non-violence is a form of violence and thus irrelevant to ethical discussions.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer incorrectly equates non-violence with violence, undermining its importance in ethical discourse.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in psychology?",
-      "good_answer": "psychology involves fundamental principles and their practical applications.",
-      "flawed_answer": "psychology is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of psychology.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in psychology?",
-      "good_answer": "psychology involves fundamental principles and their practical applications.",
-      "flawed_answer": "psychology is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of psychology.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in psychology?",
-      "good_answer": "psychology involves fundamental principles and their practical applications.",
-      "flawed_answer": "psychology is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of psychology.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in psychology?",
-      "good_answer": "psychology involves fundamental principles and their practical applications.",
-      "flawed_answer": "psychology is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of psychology.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in psychology?",
-      "good_answer": "psychology involves fundamental principles and their practical applications.",
-      "flawed_answer": "psychology is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of psychology.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the standard deviation in statistics?",
-      "good_answer": "The standard deviation is the square root of the variance.",
-      "flawed_answer": "It should be 'the average distance from the mean' or 'the squared difference from the mean.'",
+      "question": "What is the difference between linear and non-linear functions?",
+      "good_answer": "Linear functions have a constant rate of change, while non-linear functions do not.",
+      "flawed_answer": "A straight line can be considered both linear and non-linear if it follows a quadratic relationship.",
       "flaw_type": "factual_error",
-      "feedback": "This answer is misleading as it incorrectly defines standard deviation using a different calculation method.",
+      "feedback": "This answer incorrectly states that all linear functions have a constant rate of change.",
       "difficulty": 3
     },
     {
-      "question": "Which statistical test is used to determine if there is a significant difference between two groups?",
-      "good_answer": "T-test (or independent samples t-test)",
-      "flawed_answer": "ANOVA (Analysis of Variance).",
+      "question": "How does the derivative of a function at a point represent instantaneous rate of change?",
+      "good_answer": "The derivative measures the slope of the tangent line to the curve at that point.",
+      "flawed_answer": "The derivative also represents the average rate of change over an interval around the point.",
       "flaw_type": "logical_fallacy",
-      "feedback": "This answer is incorrect because ANOVA is used for comparing means across multiple groups instead of testing for differences between two groups.",
+      "feedback": "This answer uses incorrect terminology (slope vs. average rate)",
       "difficulty": 4
     },
     {
-      "question": "In statistics, what does it mean when we say 'a sample size of n'?",
-      "good_answer": "A sample size of n refers to the number of observations in the sample.",
-      "flawed_answer": "It could also refer to the number of data points in the entire population.",
-      "flaw_type": "misleading",
-      "feedback": "This answer is confusing and doesn't accurately define what 'n' represents.",
-      "difficulty": 1
-    },
-    {
-      "question": "How do you calculate the z-score for a given score in a normal distribution?",
-      "good_answer": "z = (score - mean) / std_dev.",
-      "flawed_answer": "z = (score - mean) / std_err.",
-      "flaw_type": "factual_error",
-      "feedback": "This answer is incorrect because the correct formula uses the standard deviation instead of the standard error.",
-      "difficulty": 5
-    },
-    {
-      "question": "When conducting a hypothesis test, why must the null hypothesis always be true?",
-      "good_answer": "Because a null hypothesis states that there is no effect or relationship.",
-      "flawed_answer": "A null hypothesis can only state that there is no effect or relationship, not that it exists.",
+      "question": "What is the formula for finding the area under a curve using integration?",
+      "good_answer": "Area = \u222b from x1 to x2 f(x) dx where f(x) is the height of the curve at any given x-value.",
+      "flawed_answer": "It should be Area = \u222b from x1 to x2 f(x) dx where f(x) is the base of the triangle or rectangle at any given x-value.",
       "flaw_type": "logical_fallacy",
-      "feedback": "This answer contradicts common understanding of hypothesis tests and null hypotheses.",
-      "difficulty": 6
-    },
-    {
-      "question": "What is the purpose of randomization in statistical experiments?",
-      "good_answer": "Randomization ensures that participants are evenly distributed across all groups.",
-      "flawed_answer": "Randomization simply means assigning participants randomly without any bias.",
-      "flaw_type": "misleading",
-      "feedback": "This answer is unclear and potentially misleading.",
+      "feedback": "This answer incorrectly specifies the base as the width of the rectangle, leading to an incorrect calculation.",
       "difficulty": 3
     },
     {
-      "question": "How many degrees of freedom are associated with a t-test?",
-      "good_answer": "The degrees of freedom are calculated as n - 1.",
-      "flawed_answer": "Degrees of freedom are typically defined as the total number of observations minus one.",
-      "flaw_type": "factual_error",
-      "feedback": "This answer is incorrect because degrees of freedom represent the number of parameters estimated in the model rather than the number of observations.",
-      "difficulty": 7
-    },
-    {
-      "question": "What is the chemical formula for water?",
-      "good_answer": "H\u2082O",
-      "flawed_answer": "H\u2082N-O",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct chemical formula for water is H\u2082O.",
-      "difficulty": 2
-    },
-    {
-      "question": "Which of these elements does not have a standard name in English?",
-      "good_answer": "Boron",
-      "flawed_answer": "Nitrogen",
+      "question": "Why is the concept of limits important in calculus?",
+      "good_answer": "Limits allow us to understand the behavior of functions as input approaches a certain value.",
+      "flawed_answer": "They are used to define derivatives and integrals but are not essential for understanding basic concepts.",
       "flaw_type": "misleading",
-      "feedback": "Boron should be called boron, but it is often incorrectly spelled as nitrogen.",
-      "difficulty": 2
+      "feedback": "This answer misrepresents the role of limits in calculus.",
+      "difficulty": 4
     },
     {
-      "question": "How many electrons do atoms typically have in their outermost shell?",
-      "good_answer": "8",
-      "flawed_answer": "9",
-      "flaw_type": "logical_fallacy",
-      "feedback": "In general, there are only eight electrons in an atom's outermost shell.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the difference between a neutral molecule and a charged ion?",
-      "good_answer": "Neutral molecules don't carry any net charge, while charged ions carry a net positive or negative charge.",
-      "flawed_answer": "Charged ions can also be neutral if they contain no protons.",
+      "question": "In physics, why is it important to use units when working with physical quantities?",
+      "good_answer": "Units ensure consistency across different systems of measurement.",
+      "flawed_answer": "Using units makes calculations easier without needing precision.",
       "flaw_type": "incomplete",
-      "feedback": "A charged ion must contain at least one proton to have a net charge.",
+      "feedback": "This answer fails to provide a complete explanation about the importance of units in physics.",
       "difficulty": 2
     },
     {
-      "question": "What is the empirical formula of glucose?",
-      "good_answer": "C\u2086H\u2081\u2082O\u2086",
-      "flawed_answer": "C\u2084H\u2088O\u2085",
+      "question": "What is the mathematical principle behind Newton's Law of Universal Gravitation?",
+      "good_answer": "G = m * c^2 where G is the gravitational constant, m is mass, and c is the speed of light.",
+      "flawed_answer": "It applies only to the Earth-Moon system and does not account for other planets.",
+      "flaw_type": "incomplete",
+      "feedback": "This answer omits the fact that the law applies to all masses in the universe.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the acceleration due to gravity on Earth?",
+      "good_answer": "9.8 m/s\u00b2",
+      "flawed_answer": "The value of g varies depending on location, altitude, and atmospheric conditions.",
+      "flaw_type": "incomplete",
+      "feedback": "I have included the correct formula for calculating g (g = 9.8 m/s\u00b2) in my response.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the relationship between the force of friction and the normal force?",
+      "good_answer": "Friction is directly proportional to the normal force.",
+      "flawed_answer": "In some cases, friction can be less than or equal to the normal force.",
       "flaw_type": "logical_fallacy",
-      "feedback": "Glucose's empirical formula is C\u2086H\u2081\u2082O\u2086.",
+      "feedback": "I provided the correct explanation that friction is not always greater than the normal force.",
+      "difficulty": 2
+    },
+    {
+      "question": "How does the mass of an object affect its weight?",
+      "good_answer": "Weight depends only on the mass of the object and is independent of its location.",
+      "flawed_answer": "Mass affects both the gravitational pull on objects and their weight.",
+      "flaw_type": "incomplete",
+      "feedback": "I added more context by explaining that mass also influences the gravitational force acting on objects.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the maximum safe speed for cars according to car safety standards?",
+      "good_answer": "The maximum safe speed for cars is 110 km/h.",
+      "flawed_answer": "Speed limits are set at different levels based on road conditions, traffic volume, and other factors.",
+      "flaw_type": "misleading",
+      "feedback": "I explained that the maximum speed limit applies to all types of vehicles regardless of their design or performance.",
+      "difficulty": 2
+    },
+    {
+      "question": "What happens to an object when it falls freely from a height?",
+      "good_answer": "An object will fall under gravity until it reaches the ground.",
+      "flawed_answer": "An object continues to fall after reaching the ground because there is no air resistance.",
+      "flaw_type": "logic_error",
+      "feedback": "I corrected the misunderstanding about air resistance in the final answer.",
+      "difficulty": 2
+    },
+    {
+      "question": "Why do we use centripetal force instead of just gravity when describing circular motion?",
+      "good_answer": "Centripetal force is necessary to keep an object moving in a curved path while gravity keeps it moving straight.",
+      "flawed_answer": "We can ignore centripetal force as it is much weaker than gravity.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "I clarified that centripetal force is required to maintain the circular motion without ignoring gravity.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in art_history?",
+      "good_answer": "art_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "art_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in art_history?",
+      "good_answer": "art_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "art_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in art_history?",
+      "good_answer": "art_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "art_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in art_history?",
+      "good_answer": "art_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "art_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in art_history?",
+      "good_answer": "art_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "art_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the purpose of human memory?",
+      "good_answer": "To store information indefinitely.",
+      "flawed_answer": "To retrieve information from long-term storage.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer should state that human memory serves to encode, store, and retrieve information.",
+      "difficulty": 2
+    },
+    {
+      "question": "How does the brain process visual information?",
+      "good_answer": "By forming mental images in the left hemisphere of the brain.",
+      "flawed_answer": "By using the right hemisphere exclusively.",
+      "flaw_type": "misleading",
+      "feedback": "The correct answer should mention both hemispheres of the brain working together.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the role of dopamine in motivation?",
+      "good_answer": "It primarily regulates reward-seeking behavior.",
+      "flawed_answer": "It directly influences decision-making processes.",
+      "flaw_type": "incomplete",
+      "feedback": "The provided answer includes additional factors not mentioned in the question.",
+      "difficulty": 2
+    },
+    {
+      "question": "What are the stages of sleep?",
+      "good_answer": "Rest, dreaming, and waking up.",
+      "flawed_answer": "Sleeping patterns can vary greatly between individuals.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer should describe the typical phases of sleep.",
+      "difficulty": 2
+    },
+    {
+      "question": "Which neurotransmitter is responsible for regulating mood?",
+      "good_answer": "GABA, which works by inhibiting the activity of neurons.",
+      "flawed_answer": "GAD, which affects the regulation of anxiety.",
+      "flaw_type": "misleading",
+      "feedback": "The provided answer incorrectly identifies GABA as a neurotransmitter.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the function of the hippocampus in memory formation?",
+      "good_answer": "It stores new memories formed during sleep.",
+      "flawed_answer": "It helps consolidate memories after sleep.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer should link the hippocampus to consolidation mechanisms.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the effect of stress on cognitive functions?",
+      "good_answer": "Stress leads to decreased attention and memory.",
+      "flawed_answer": "Stress causes immediate cognitive impairment without affecting long-term memory.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer should acknowledge that stress impacts various cognitive domains.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in electromagnetism?",
+      "good_answer": "electromagnetism involves fundamental principles and their practical applications.",
+      "flawed_answer": "electromagnetism is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of electromagnetism.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in electromagnetism?",
+      "good_answer": "electromagnetism involves fundamental principles and their practical applications.",
+      "flawed_answer": "electromagnetism is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of electromagnetism.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in electromagnetism?",
+      "good_answer": "electromagnetism involves fundamental principles and their practical applications.",
+      "flawed_answer": "electromagnetism is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of electromagnetism.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in electromagnetism?",
+      "good_answer": "electromagnetism involves fundamental principles and their practical applications.",
+      "flawed_answer": "electromagnetism is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of electromagnetism.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in electromagnetism?",
+      "good_answer": "electromagnetism involves fundamental principles and their practical applications.",
+      "flawed_answer": "electromagnetism is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of electromagnetism.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in literature?",
+      "good_answer": "literature involves fundamental principles and their practical applications.",
+      "flawed_answer": "literature is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in literature?",
+      "good_answer": "literature involves fundamental principles and their practical applications.",
+      "flawed_answer": "literature is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in literature?",
+      "good_answer": "literature involves fundamental principles and their practical applications.",
+      "flawed_answer": "literature is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in literature?",
+      "good_answer": "literature involves fundamental principles and their practical applications.",
+      "flawed_answer": "literature is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in literature?",
+      "good_answer": "literature involves fundamental principles and their practical applications.",
+      "flawed_answer": "literature is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in computer_science?",
+      "good_answer": "computer_science involves fundamental principles and their practical applications.",
+      "flawed_answer": "computer_science is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in computer_science?",
+      "good_answer": "computer_science involves fundamental principles and their practical applications.",
+      "flawed_answer": "computer_science is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in computer_science?",
+      "good_answer": "computer_science involves fundamental principles and their practical applications.",
+      "flawed_answer": "computer_science is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in computer_science?",
+      "good_answer": "computer_science involves fundamental principles and their practical applications.",
+      "flawed_answer": "computer_science is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in computer_science?",
+      "good_answer": "computer_science involves fundamental principles and their practical applications.",
+      "flawed_answer": "computer_science is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in ancient_civilizations?",
+      "good_answer": "ancient_civilizations involves fundamental principles and their practical applications.",
+      "flawed_answer": "ancient_civilizations is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of ancient_civilizations.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in ancient_civilizations?",
+      "good_answer": "ancient_civilizations involves fundamental principles and their practical applications.",
+      "flawed_answer": "ancient_civilizations is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of ancient_civilizations.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in ancient_civilizations?",
+      "good_answer": "ancient_civilizations involves fundamental principles and their practical applications.",
+      "flawed_answer": "ancient_civilizations is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of ancient_civilizations.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in ancient_civilizations?",
+      "good_answer": "ancient_civilizations involves fundamental principles and their practical applications.",
+      "flawed_answer": "ancient_civilizations is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of ancient_civilizations.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in ancient_civilizations?",
+      "good_answer": "ancient_civilizations involves fundamental principles and their practical applications.",
+      "flawed_answer": "ancient_civilizations is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of ancient_civilizations.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in astronomy?",
+      "good_answer": "astronomy involves fundamental principles and their practical applications.",
+      "flawed_answer": "astronomy is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in astronomy?",
+      "good_answer": "astronomy involves fundamental principles and their practical applications.",
+      "flawed_answer": "astronomy is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in astronomy?",
+      "good_answer": "astronomy involves fundamental principles and their practical applications.",
+      "flawed_answer": "astronomy is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in astronomy?",
+      "good_answer": "astronomy involves fundamental principles and their practical applications.",
+      "flawed_answer": "astronomy is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in astronomy?",
+      "good_answer": "astronomy involves fundamental principles and their practical applications.",
+      "flawed_answer": "astronomy is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in cybersecurity?",
+      "good_answer": "cybersecurity involves fundamental principles and their practical applications.",
+      "flawed_answer": "cybersecurity is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of cybersecurity.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in cybersecurity?",
+      "good_answer": "cybersecurity involves fundamental principles and their practical applications.",
+      "flawed_answer": "cybersecurity is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of cybersecurity.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in cybersecurity?",
+      "good_answer": "cybersecurity involves fundamental principles and their practical applications.",
+      "flawed_answer": "cybersecurity is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of cybersecurity.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in cybersecurity?",
+      "good_answer": "cybersecurity involves fundamental principles and their practical applications.",
+      "flawed_answer": "cybersecurity is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of cybersecurity.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in cybersecurity?",
+      "good_answer": "cybersecurity involves fundamental principles and their practical applications.",
+      "flawed_answer": "cybersecurity is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of cybersecurity.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the formula for water?",
+      "good_answer": "H2O",
+      "flawed_answer": "HO2",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct formula for water is H2O.",
       "difficulty": 2
     },
     {
       "question": "Which element has the highest atomic number?",
       "good_answer": "Helium",
-      "flawed_answer": "Sodium",
+      "flawed_answer": "Iron",
       "flaw_type": "logical_fallacy",
-      "feedback": "Helium has atomic numbers ranging from 4 to 12, while sodium has an atomic number of 11.",
+      "feedback": "Iron has a higher atomic number than Helium.",
       "difficulty": 2
     },
     {
-      "question": "Why is carbon considered the most important element in organic compounds?",
-      "good_answer": "Carbon forms the backbone of all organic compounds through its role in forming double bonds with other atoms.",
-      "flawed_answer": "Carbon is just the most abundant element on Earth.",
-      "flaw_type": "misleading",
-      "feedback": "While carbon is indeed the most abundant element on Earth, this statement is misleading because it overestimates the importance of carbon in organic compounds.",
+      "question": "How many electrons does an oxygen atom have?",
+      "good_answer": "8",
+      "flawed_answer": "7",
+      "flaw_type": "incomplete",
+      "feedback": "An oxygen atom should have 8 electrons, not 7.",
       "difficulty": 2
     },
     {
-      "question": "What does the law typically require in terms of evidence?",
-      "good_answer": "The law generally requires evidence to be presented.",
+      "question": "What is the difference between pH and pOH in aqueous solutions?",
+      "good_answer": "pH measures the acidity or basicity of a solution, while pOH measures the concentration of hydrogen ions.",
+      "flawed_answer": "It is possible to have both pH and pOH values greater than 14.",
       "flaw_type": "logical_fallacy",
-      "feedback": "This answer incorrectly assumes that all evidence must be presented, which is not always required by law.",
+      "feedback": "In reality, it is not possible to have both pH and pOH values greater than 14.",
       "difficulty": 2
     },
     {
-      "question": "In legal proceedings, can evidence be used as proof without being admissible?",
-      "good_answer": "Yes, evidence can often be used as proof even if it is not admissible in court.",
+      "question": "What is the name of the main group in Group 3A of the periodic table?",
+      "good_answer": "Boron",
+      "flawed_answer": "Carbon",
       "flaw_type": "misleading",
-      "feedback": "The answer may mislead by suggesting that only certain types of evidence (like DNA) need to be admissible, when in fact any type of evidence can be used as proof.",
-      "difficulty": 3
+      "feedback": "The correct answer is boron.",
+      "difficulty": 2
     },
     {
-      "question": "How does the concept of 'evidence' differ from 'proof' in legal proceedings?",
-      "good_answer": "Evidence refers to physical objects or documents that are directly related to the case, while proof involves logical reasoning and presentation of facts.",
-      "flaw_type": "misleading",
-      "feedback": "The answer suggests that both evidence and proof are essentially the same, which is incorrect.",
-      "difficulty": 4
-    },
-    {
-      "question": "Which of the following scenarios would likely result in evidence being considered irrelevant in legal proceedings?",
-      "good_answer": "Evidentiary value diminishes significantly with each new piece of evidence added.",
+      "question": "Which of the following elements is located in Group 16 of the periodic table?",
+      "good_answer": "Sodium",
+      "flawed_answer": "Potassium",
       "flaw_type": "logical_fallacy",
-      "feedback": "This answer incorrectly attributes the weakening of evidentiary value to the number of pieces of evidence added, which is not true.",
-      "difficulty": 3
-    },
-    {
-      "question": "Can the defense ever present evidence against a defendant who has already been convicted?",
-      "good_answer": "Yes, the defense can argue for the validity of the conviction based on available evidence.",
-      "flaw_type": "misleading",
-      "feedback": "The answer suggests that the defense cannot present evidence against a convicted person, which is false.",
-      "difficulty": 4
-    },
-    {
-      "question": "What role does 'admissibility' play in determining whether evidence is legally sufficient?",
-      "good_answer": "Admissibility determines whether evidence meets the legal requirements for its use in court.",
-      "flaw_type": "misleading",
-      "feedback": "The answer incorrectly states that admissibility is irrelevant to the legality of evidence, which is misleading.",
-      "difficulty": 4
-    },
-    {
-      "question": "How does the concept of 'evidence' relate to the prosecution in legal proceedings?",
-      "good_answer": "The prosecution relies on evidence to prove the guilt of the defendant.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer incorrectly attributes the focus on proving guilt to the prosecution, which is not true.",
-      "difficulty": 3
-    },
-    {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "feedback": "Sodium and potassium are located in different groups in the periodic table.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the purpose of supervised learning in machine learning?",
-      "good_answer": "To train a model on labeled data to make predictions or classifications.",
-      "flawed_answer": "To classify unseen data using unsupervised learning algorithms.",
-      "flaw_type": "misleading",
-      "feedback": "The term 'supervised' can be misleading as it implies a direct connection between the input features and the target labels, which is not always the case in machine learning.",
-      "difficulty": 2
-    },
-    {
-      "question": "Which algorithm is commonly used for regression tasks in machine learning?",
-      "good_answer": "Linear Regression, Decision Trees, Random Forests, Support Vector Machines (SVM), and Neural Networks.",
-      "flawed_answer": "Logistic Regression is often considered more suitable for classification problems.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "Logistic Regression may overfit if the dataset is small, making it less effective for large datasets.",
-      "difficulty": 2
-    },
-    {
-      "question": "How does cross-validation help in evaluating the performance of a machine learning model?",
-      "good_answer": "It helps ensure that the model performs consistently across different subsets of the data.",
-      "flawed_answer": "Cross-validation only ensures that the model will perform well on new data.",
+      "question": "What is the boiling point of water at standard temperature and pressure (STP)?",
+      "good_answer": "100\u00b0C",
+      "flawed_answer": "120\u00b0C",
       "flaw_type": "incomplete",
-      "feedback": "Cross-validation involves splitting the dataset into multiple folds, typically 5-fold, which is crucial for assessing the generalization ability of the model.",
+      "feedback": "Water boils at 100\u00b0C under standard conditions.",
       "difficulty": 2
     },
     {
-      "question": "What is the role of regularization techniques in machine learning?",
-      "good_answer": "Regularization helps prevent overfitting by adding a penalty to the loss function.",
-      "flawed_answer": "Regularization techniques should be applied after all other models have been trained.",
-      "flaw_type": "misleading",
-      "feedback": "Regularization can lead to underfitting, where the model learns too much from the training data.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the difference between supervised and unsupervised learning in machine learning?",
-      "good_answer": "Supervised learning uses labeled data to learn a mapping from inputs to outputs, while unsupervised learning finds patterns in unlabeled data.",
-      "flawed_answer": "Unsupervised learning is used for clustering and dimensionality reduction, not classification.",
-      "flaw_type": "incomplete",
-      "feedback": "Labeled data is required for supervised learning, but unsupervised methods do not require any labeled data.",
-      "difficulty": 2
-    },
-    {
-      "question": "Why is it important to choose appropriate evaluation metrics for machine learning models?",
-      "good_answer": "Choosing the right metric ensures that the model achieves its best possible performance.",
-      "flawed_answer": "Evaluating metrics can be time-consuming and subjective.",
-      "flaw_type": "incomplete",
-      "feedback": "Different metrics may work better for different types of problems and models.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the concept of bias-variance trade-off in machine learning?",
-      "good_answer": "Bias refers to the tendency of the model to predict high values, while variance refers to the spread of the predicted probabilities.",
-      "flawed_answer": "Variance is irrelevant to the model's prediction accuracy.",
-      "flaw_type": "logic_fallacy",
-      "feedback": "Variance measures how far the predictions vary from their true values, which is related to the model's complexity.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in biology?",
-      "good_answer": "biology involves fundamental principles and their practical applications.",
-      "flawed_answer": "biology is only about memorizing facts.",
+      "question": "What is a key concept in constitutional_law?",
+      "good_answer": "constitutional_law involves fundamental principles and their practical applications.",
+      "flawed_answer": "constitutional_law is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of constitutional_law.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in biology?",
-      "good_answer": "biology involves fundamental principles and their practical applications.",
-      "flawed_answer": "biology is only about memorizing facts.",
+      "question": "What is a key concept in constitutional_law?",
+      "good_answer": "constitutional_law involves fundamental principles and their practical applications.",
+      "flawed_answer": "constitutional_law is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of constitutional_law.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in biology?",
-      "good_answer": "biology involves fundamental principles and their practical applications.",
-      "flawed_answer": "biology is only about memorizing facts.",
+      "question": "What is a key concept in constitutional_law?",
+      "good_answer": "constitutional_law involves fundamental principles and their practical applications.",
+      "flawed_answer": "constitutional_law is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of constitutional_law.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in biology?",
-      "good_answer": "biology involves fundamental principles and their practical applications.",
-      "flawed_answer": "biology is only about memorizing facts.",
+      "question": "What is a key concept in constitutional_law?",
+      "good_answer": "constitutional_law involves fundamental principles and their practical applications.",
+      "flawed_answer": "constitutional_law is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of constitutional_law.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in biology?",
-      "good_answer": "biology involves fundamental principles and their practical applications.",
-      "flawed_answer": "biology is only about memorizing facts.",
+      "question": "What is a key concept in constitutional_law?",
+      "good_answer": "constitutional_law involves fundamental principles and their practical applications.",
+      "flawed_answer": "constitutional_law is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of constitutional_law.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in world_wars?",
-      "good_answer": "world_wars involves fundamental principles and their practical applications.",
-      "flawed_answer": "world_wars is only about memorizing facts.",
+      "question": "What is a key concept in ethics?",
+      "good_answer": "ethics involves fundamental principles and their practical applications.",
+      "flawed_answer": "ethics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of world_wars.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in world_wars?",
-      "good_answer": "world_wars involves fundamental principles and their practical applications.",
-      "flawed_answer": "world_wars is only about memorizing facts.",
+      "question": "What is a key concept in ethics?",
+      "good_answer": "ethics involves fundamental principles and their practical applications.",
+      "flawed_answer": "ethics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of world_wars.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in world_wars?",
-      "good_answer": "world_wars involves fundamental principles and their practical applications.",
-      "flawed_answer": "world_wars is only about memorizing facts.",
+      "question": "What is a key concept in ethics?",
+      "good_answer": "ethics involves fundamental principles and their practical applications.",
+      "flawed_answer": "ethics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of world_wars.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in world_wars?",
-      "good_answer": "world_wars involves fundamental principles and their practical applications.",
-      "flawed_answer": "world_wars is only about memorizing facts.",
+      "question": "What is a key concept in ethics?",
+      "good_answer": "ethics involves fundamental principles and their practical applications.",
+      "flawed_answer": "ethics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of world_wars.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in world_wars?",
-      "good_answer": "world_wars involves fundamental principles and their practical applications.",
-      "flawed_answer": "world_wars is only about memorizing facts.",
+      "question": "What is a key concept in ethics?",
+      "good_answer": "ethics involves fundamental principles and their practical applications.",
+      "flawed_answer": "ethics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of world_wars.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the purpose of the Constitution?",
-      "good_answer": "The Constitution outlines the fundamental laws, rights, and principles that govern the government of the United States.",
-      "flawed_answer": "While the Constitution does outline these fundamental principles, it is not the only source of law in the U.S., and other federal laws also exist.",
-      "flaw_type": "misleading",
-      "feedback": "This answer misrepresents the role of the Constitution by suggesting that it alone establishes the legal framework.",
-      "difficulty": 2
-    },
-    {
-      "question": "Who wrote the Constitution?",
-      "good_answer": "The Constitution was written by James Madison and Alexander Hamilton during their tenure as members of the Constitutional Convention.",
-      "flawed_answer": "Many people believe that Thomas Jefferson wrote the Constitution, but this is incorrect. The actual authorship is still debated among historians.",
-      "flaw_type": "incomplete",
-      "feedback": "This answer includes extraneous information about Thomas Jefferson, which reduces its usefulness.",
-      "difficulty": 2
-    },
-    {
-      "question": "How many articles make up the U.S. Constitution?",
-      "good_answer": "There are seven original articles in the U.S. Constitution, divided into three branches.",
-      "flawed_answer": "The Constitution has ten articles, divided into three branches (Article I, Article II, Article III, etc.), making it longer than originally intended.",
-      "flaw_type": "misleading",
-      "feedback": "This answer overstates the number of articles and underestimates the complexity.",
-      "difficulty": 2
-    },
-    {
-      "question": "Which branch of government do the Supreme Court and the Electoral College belong to?",
-      "good_answer": "Both the Supreme Court and the Electoral College are part of the executive branch.",
-      "flawed_answer": "The Supreme Court and the Electoral College are both part of the legislative branch, not the executive branch.",
-      "flaw_type": "incomplete",
-      "feedback": "This answer incorrectly categorizes the two bodies as separate from the executive branch.",
-      "difficulty": 2
-    },
-    {
-      "question": "Who signed the Declaration of Independence on July 4th, 1776?",
-      "good_answer": "John Adams signed the Declaration of Independence on July 4th, 1776.",
-      "flawed_answer": "The Declaration of Independence was signed on July 4th, 1776 by Thomas Jefferson, who served as the second President of the United States.",
-      "flaw_type": "misleading",
-      "feedback": "This answer is incorrect due to a lack of context regarding the signer(s).",
-      "difficulty": 2
-    },
-    {
-      "question": "What are some key features of the U.S. Constitution?",
-      "good_answer": "The Constitution establishes the structure and powers of government, including the separation of powers between the three branches of government, the right to bear arms, and the Bill of Rights.",
-      "flawed_answer": "Some key features of the Constitution include the separation of powers between the three branches of government, the right to bear arms, and the Bill of Rights, but they may not be considered all-inclusive.",
-      "flaw_type": "misleading",
-      "feedback": "This answer oversimplifies or inaccurately lists the key features of the Constitution.",
-      "difficulty": 2
-    },
-    {
-      "question": "Who were the Founding Fathers of the United States?",
-      "good_answer": "The Founding Fathers included John Adams, Benjamin Franklin, George Washington, Thomas Jefferson, and Aaron Burr.",
-      "flawed_answer": "Not all Founding Fathers were present at the drafting of the Constitution. While several individuals were involved, the majority of those who drafted the Constitution were not present.",
-      "flaw_type": "incomplete",
-      "feedback": "This answer fails to mention any of the Founding Fathers, reducing its usefulness.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the concept of 'checks and balances' in the U.S. Constitution?",
-      "good_answer": "Checks and balances ensure that no single branch of government becomes too powerful, thus preventing tyranny.",
-      "flawed_answer": "Checks and balances refer to different types of checks and balances, such as judicial review and the Electoral College, rather than the idea of allowing multiple branches to act independently.",
-      "flaw_type": "incomplete",
-      "feedback": "This answer omits the specific concept of checks and balances within the Constitution.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in history?",
-      "good_answer": "history involves fundamental principles and their practical applications.",
-      "flawed_answer": "history is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of history.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in history?",
-      "good_answer": "history involves fundamental principles and their practical applications.",
-      "flawed_answer": "history is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of history.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in history?",
-      "good_answer": "history involves fundamental principles and their practical applications.",
-      "flawed_answer": "history is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of history.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in history?",
-      "good_answer": "history involves fundamental principles and their practical applications.",
-      "flawed_answer": "history is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of history.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in history?",
-      "good_answer": "history involves fundamental principles and their practical applications.",
-      "flawed_answer": "history is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of history.",
-      "difficulty": 2
-    },
-    {
-      "question": "What was the main argument in the article?",
-      "good_answer": "The article argued that",
-      "flawed_answer": "The article claimed that",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The answer incorrectly states the main argument without referencing the actual text.",
-      "difficulty": 3
-    },
-    {
-      "question": "Why did the author conclude this conclusion?",
-      "good_answer": "The author concluded this conclusion by stating that",
-      "flawed_answer": "The author inferred that",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The answer does not correctly state why the author concluded the conclusion.",
-      "difficulty": 4
-    },
-    {
-      "question": "What were the two major issues discussed in the article?",
-      "good_answer": "The article addressed the following two issues:",
-      "flawed_answer": "The article focused on the following two problems:",
-      "flaw_type": "incomplete",
-      "feedback": "The answer lists three issues but does not provide them clearly.",
-      "difficulty": 1
-    },
-    {
-      "question": "Who was the target of the criticism in the article?",
-      "good_answer": "The target of the criticism was the following person or group:",
-      "flawed_answer": "The target of the criticism was the following party or organization:",
-      "flaw_type": "misleading",
-      "feedback": "The answer misrepresents who the target is.",
-      "difficulty": 2
-    },
-    {
-      "question": "What was the purpose of the critique in the article?",
-      "good_answer": "The purpose of the critique was to clarify the following points:",
-      "flawed_answer": "The purpose of the critique was to discuss the following aspects:",
-      "flaw_type": "misleading",
-      "feedback": "The answer incorrectly states the purpose of the critique.",
-      "difficulty": 3
-    },
-    {
-      "question": "How many pages did the article have in total?",
-      "good_answer": "The article had a total of the following number of pages:",
-      "flawed_answer": "The article spanned the following range of pages:",
-      "flaw_type": "incomplete",
-      "feedback": "The answer provides the correct number of pages but includes additional information.",
-      "difficulty": 1
-    },
-    {
-      "question": "What is a key concept in anatomy?",
-      "good_answer": "anatomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "anatomy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of anatomy.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in anatomy?",
-      "good_answer": "anatomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "anatomy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of anatomy.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in anatomy?",
-      "good_answer": "anatomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "anatomy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of anatomy.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in anatomy?",
-      "good_answer": "anatomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "anatomy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of anatomy.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in anatomy?",
-      "good_answer": "anatomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "anatomy is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of anatomy.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
       "difficulty": 2
     },
     {
@@ -675,772 +610,551 @@
       "difficulty": 2
     },
     {
-      "question": "What is the main cause of climate change?",
-      "good_answer": "Induction from scientific studies",
-      "flawed_answer": "Insufficient evidence to support this claim",
+      "question": "What is the chromatic scale?",
+      "good_answer": "A scale of seven notes in the musical alphabet.",
+      "flawed_answer": "A scale consisting of twelve notes in the musical alphabet.",
       "flaw_type": "logical_fallacy",
-      "feedback": "The lack of reliable scientific evidence supports this claim.",
+      "feedback": "The correct answer should be 'a scale of seven notes in the musical alphabet'. The answer provided contains a logical fallacy, as it incorrectly states that there are only twelve notes in the scale.",
       "difficulty": 2
     },
     {
-      "question": "How does carbon dioxide affect global temperatures?",
-      "good_answer": "Directly increases global temperature by trapping heat in the atmosphere",
-      "flawed_answer": "Incorrect assumption that all CO2 causes global warming",
-      "flaw_type": "incomplete",
-      "feedback": "Incomplete explanation missing the indirect effect of CO2 on global warming.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the significance of the Arctic ice cap in global weather patterns?",
-      "good_answer": "A crucial factor in regulating Earth\u2019s energy balance",
-      "flawed_answer": "Overestimation of its importance due to limited data",
-      "flaw_type": "misleading",
-      "feedback": "Lack of sufficient data to accurately assess its role in global weather patterns.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the difference between renewable and non-renewable energy sources?",
-      "good_answer": "Renewable energy sources can be replenished naturally without depleting resources",
-      "flawed_answer": "Non-renewable energy sources are finite and cannot be replaced easily",
-      "flaw_type": "incomplete",
-      "feedback": "Inadequate explanation of the distinction between renewable and non-renewable energy sources.",
-      "difficulty": 2
-    },
-    {
-      "question": "What impact do forests have on biodiversity?",
-      "good_answer": "Protects species diversity and contributes to carbon sequestration",
-      "flawed_answer": "Overemphasis on ecological benefits at the expense of economic growth",
+      "question": "Which degree in the piano triad corresponds to B flat (Bb)?",
+      "good_answer": "The degree in the piano triad corresponding to B flat (Bb) is C major.",
+      "flawed_answer": "There is no degree in the piano triad that corresponds to B flat (Bb). In fact, B flat (Bb) is not a note on the piano.",
       "flaw_type": "logical_fallacy",
-      "feedback": "Misalignment of ecological impacts with economic benefits.",
+      "feedback": "The correct answer should be 'C major', which is the fifth degree in the piano triad.",
       "difficulty": 2
     },
     {
-      "question": "What is the relationship between deforestation and water cycles?",
-      "good_answer": "Reduces water infiltration into soil, leading to decreased precipitation",
-      "flawed_answer": "Overlooking the negative effects of deforestation on water quality",
-      "flaw_type": "incomplete",
-      "feedback": "Lack of detailed information about the direct consequences of deforestation on water cycles.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the primary goal of reducing carbon emissions in environmental science?",
-      "good_answer": "Stabilize global temperatures and mitigate climate change",
-      "flawed_answer": "Focusing solely on short-term economic gains",
+      "question": "How many sharps or flats does the key of G major have? ",
+      "good_answer": "The key of G major has one sharp (#) and one flat(b) in its scale.",
+      "flawed_answer": "G major has two sharps (#) and one flat(b), but this is incorrect.",
       "flaw_type": "logical_fallacy",
-      "feedback": "Misinterpretation of the long-term goal of reducing emissions as primarily economic benefit.",
+      "feedback": "The correct answer should be 'the key of G major has one sharp (#) and one flat(b)', which accurately reflects the structure of the key.",
       "difficulty": 2
     },
     {
-      "question": "What is the significance of urbanization in terms of environmental sustainability?",
-      "good_answer": "Promotes green spaces and reduces reliance on fossil fuels",
-      "flawed_answer": "Ignoring the potential negative impacts on local ecosystems",
-      "flaw_type": "incomplete",
-      "feedback": "Failure to account for the multifaceted nature of urban development.",
+      "question": "What is the difference between a major and minor scale?",
+      "good_answer": "In a major scale, all notes are in step with each other, while in a minor scale, some notes are in step with others.",
+      "flawed_answer": "In a minor scale, all notes are in step with each other, while in a major scale, some notes are in step with others.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer should be 'In a major scale, all notes are in step with each other, while in a minor scale, some notes are in step with others.'",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the name of the interval between the first and second degree in the piano triad?",
+      "good_answer": "The name of the interval between the first and second degree in the piano triad is major third.",
+      "flawed_answer": "The name of the interval between the first and second degree in the piano triad is fourth.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer should be 'The name of the interval between the first and second degree in the piano triad is major third'.",
+      "difficulty": 2
+    },
+    {
+      "question": "Which of these scales is typically used for jazz music?",
+      "good_answer": "The blues scale is typically used for jazz music.",
+      "flawed_answer": "The blues scale is not commonly used for jazz music.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The correct answer should be 'The blues scale is typically used for jazz music.', which accurately describes the typical use of the blues scale in jazz music.",
       "difficulty": 2
     }
   ],
   "questions": [
     {
-      "question": "What is the definition of ethics? ",
-      "topic": "ethics",
+      "question": "Explain the key concepts of mathematics.",
+      "topic": "mathematics",
       "difficulty": 2
     },
     {
-      "question": "How does ethical behavior differ from unethical behavior? ",
-      "topic": "ethics",
+      "question": "What is the fundamental law of motion?",
+      "topic": "physics",
       "difficulty": 2
     },
     {
-      "question": "In what contexts do you believe it is important to consider ethical considerations in decision-making? ",
-      "topic": "ethics",
+      "question": "What is the historical context for the development of Western painting?",
+      "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "What role do moral values play in shaping our beliefs and actions? ",
-      "topic": "ethics",
+      "question": "How does the concept of realism in European art evolve over time?",
+      "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "How can we apply ethical reasoning when faced with complex dilemmas or conflicts? ",
-      "topic": "ethics",
+      "question": "Describe the significance of the Renaissance in terms of artistic movements and styles.",
+      "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "What principles should guide the development of human rights laws? ",
-      "topic": "ethics",
+      "question": "Discuss the impact of Impressionism on early modern art and its influence on modernism.",
+      "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "In what ways can technology contribute to enhancing ethical practices in business? ",
-      "topic": "ethics",
+      "question": "Explain how the Cubist movement transformed traditional representational art by breaking it down into geometric shapes.",
+      "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "Which ethical theories or frameworks have been most influential in shaping modern ethical discourse? ",
-      "topic": "ethics",
+      "question": "What role did the Symbolists play in challenging the established norms of Western art during the late 19th century?",
+      "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "How can we promote fairness, equality, and justice within organizations and communities? ",
-      "topic": "ethics",
+      "question": "Analyse the evolution of Surrealism from its early experimental phase to its more complex post-war manifestations.",
+      "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "What are some common pitfalls in applying ethical standards in various professional settings? ",
-      "topic": "ethics",
+      "question": "Compare and contrast the influences of Modernism (post-World War II) and Postmodernism on the aesthetic principles of art.",
+      "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "In what ways has globalization affected the practice of ethics across different cultures and societies? ",
-      "topic": "ethics",
+      "question": "What were the key developments in Abstract Expressionism and their impact on contemporary art?",
+      "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "What is the difference between sensation and perception? How do they relate to human behavior?",
+      "question": "What is the definition of psychology and how has it evolved over time? ",
       "topic": "psychology",
       "difficulty": 2
     },
     {
-      "question": "How does the brain process information from sensory input, and what role does memory play in our understanding of reality?",
+      "question": "How does the study of personality differ from other psychological fields such as neuroscience or developmental psychology? ",
       "topic": "psychology",
       "difficulty": 2
     },
     {
-      "question": "In what ways can emotions influence decision-making processes? What psychological theories explain these effects?",
+      "question": "Describe at least three key concepts in psychology, including but not limited to the concept of addiction and its effects on mental health.",
       "topic": "psychology",
       "difficulty": 2
     },
     {
-      "question": "Describe the stages of the cognitive process, including perception, attention, processing, storage, and recall.",
+      "question": "How does social influence affect individual behavior and decision-making processes? ",
       "topic": "psychology",
       "difficulty": 2
     },
     {
-      "question": "How does the concept of self-awareness impact our understanding of ourselves and others?",
+      "question": "What role do cultural factors play in shaping human behavior and attitudes? ",
       "topic": "psychology",
       "difficulty": 2
     },
     {
-      "question": "What are some common psychological disorders, and how are they diagnosed and treated?",
+      "question": "Explain the difference between primary and secondary memory and provide examples.",
       "topic": "psychology",
       "difficulty": 2
     },
     {
-      "question": "How does the environment shape our personality development, and what role does genetics play?",
+      "question": "How does the brain's structure and function contribute to our understanding of cognitive functions like attention and learning?",
       "topic": "psychology",
       "difficulty": 2
     },
     {
-      "question": "How does social interaction affect emotional regulation, and what factors influence this process?",
+      "question": "Discuss the importance of emotional intelligence in personal and professional relationships.",
       "topic": "psychology",
       "difficulty": 2
     },
     {
-      "question": "What are some examples of unconscious biases and how might we identify and mitigate them?",
+      "question": "How does the field of psychology incorporate research methods and data analysis techniques in contemporary practice?",
       "topic": "psychology",
       "difficulty": 2
     },
     {
-      "question": "How does the concept of addiction manifest in different populations, and what psychological approaches are used to understand this phenomenon?",
+      "question": "What are some common issues faced by individuals with mental health disorders and how can they be effectively managed through therapy?",
       "topic": "psychology",
       "difficulty": 2
     },
     {
-      "question": "What is the difference between descriptive and inferential statistics?",
-      "topic": "statistics",
+      "question": "Explain the key concepts of electromagnetism.",
+      "topic": "electromagnetism",
       "difficulty": 2
     },
     {
-      "question": "How do you calculate the mean, median, mode, and standard deviation for a set of data?",
-      "topic": "statistics",
+      "question": "What is the author's primary goal or central theme in their work?",
+      "topic": "literature",
       "difficulty": 2
     },
     {
-      "question": "What is the purpose of hypothesis testing in statistical analysis?",
-      "topic": "statistics",
+      "question": "How does the narrative structure and plot contribute to the story's development?",
+      "topic": "literature",
       "difficulty": 2
     },
     {
-      "question": "Describe the process of sampling in statistics.",
-      "topic": "statistics",
+      "question": "Which literary devices do you find most effective in your reading experience?",
+      "topic": "literature",
       "difficulty": 2
     },
     {
-      "question": "Explain the difference between parametric and non-parametric tests in hypothesis testing.",
-      "topic": "statistics",
+      "question": "How does the use of language, symbolism, and imagery enhance the reader's understanding of the text?",
+      "topic": "literature",
       "difficulty": 2
     },
     {
-      "question": "What is the role of outliers in the interpretation of statistical data?",
-      "topic": "statistics",
+      "question": "What aspect of the world does your book explore? How does it impact the themes of your work?",
+      "topic": "literature",
       "difficulty": 2
     },
     {
-      "question": "What are the three main types of variables used in statistical analysis?",
-      "topic": "statistics",
+      "question": "In what ways do the characters' actions and decisions reflect societal norms and values?",
+      "topic": "literature",
       "difficulty": 2
     },
     {
-      "question": "How does the Central Limit Theorem apply to sample means?",
-      "topic": "statistics",
+      "question": "How does the setting contribute to the overall atmosphere of the novel?",
+      "topic": "literature",
       "difficulty": 2
     },
     {
-      "question": "Discuss the concept of confidence intervals in statistical inference.",
-      "topic": "statistics",
+      "question": "What role do the author's personal experiences play in shaping the story?",
+      "topic": "literature",
       "difficulty": 2
     },
     {
-      "question": "Describe the role of regression analysis in predicting outcomes from categorical variables.",
-      "topic": "statistics",
+      "question": "How has your reading influenced your perspective on literature and its impact on society?",
+      "topic": "literature",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of chemistry.",
+      "question": "What is your favorite literary device used in this work, and why?",
+      "topic": "literature",
+      "difficulty": 2
+    },
+    {
+      "question": "How would you describe the tone and mood of the book?",
+      "topic": "literature",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the purpose and significance of computer science?",
+      "topic": "computer_science",
+      "difficulty": 2
+    },
+    {
+      "question": "How does computer science differ from other fields like mathematics, engineering, or business?",
+      "topic": "computer_science",
+      "difficulty": 2
+    },
+    {
+      "question": "What are some key concepts in computer science such as algorithms, data structures, and programming languages?",
+      "topic": "computer_science",
+      "difficulty": 2
+    },
+    {
+      "question": "Describe the different types of software development processes commonly used in computer science.",
+      "topic": "computer_science",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the difference between object-oriented and functional programming paradigms in computer science.",
+      "topic": "computer_science",
+      "difficulty": 2
+    },
+    {
+      "question": "How do computers process information and what are common ways to store and retrieve data in databases?",
+      "topic": "computer_science",
+      "difficulty": 2
+    },
+    {
+      "question": "What is an algorithm? What are its main components?",
+      "topic": "computer_science",
+      "difficulty": 2
+    },
+    {
+      "question": "Compare and contrast machine learning and artificial intelligence in terms of their applications and technologies.",
+      "topic": "computer_science",
+      "difficulty": 2
+    },
+    {
+      "question": "How can I improve my problem-solving skills using computer science techniques?",
+      "topic": "computer_science",
+      "difficulty": 2
+    },
+    {
+      "question": "Discuss the ethical considerations and responsibilities associated with the use of computers in various domains.",
+      "topic": "computer_science",
+      "difficulty": 2
+    },
+    {
+      "question": "What were the major religious beliefs and practices of ancient civilizations? ",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "How did agriculture and farming systems differ across different regions? ",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "Describe the social structures and roles in ancient societies, including gender roles and kinship ties.",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "How did trade networks affect economic activities in ancient times? ",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "What were the technological advancements that allowed for early urbanization? ",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "What was the role of women in ancient societies, both in personal life and societal roles? ",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "Discuss the impact of migration on ancient civilizations, including how it affected population growth and cultural exchange.",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "How did ancient civilizations use their knowledge of astronomy to predict solar and lunar eclipses?",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "Describe the impact of slavery and its abolition on ancient civilizations' economies and social structures.",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "What were some key factors that contributed to the development of advanced engineering technologies in ancient times?",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the largest known planet in our solar system? ",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "How many moons does Jupiter have compared to Saturn?",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the current temperature on the hottest point on Earth? ",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "Why do we see stars moving across the sky from east to west? ",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the name of the most distant object in the universe? ",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "Describe the basic structure of an atom and how it works.",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the average surface temperature of the sun, in Kelvin? ",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "Which is the closest star to Earth, Proxima Centauri or Alpha Centauri A?",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the main difference between a star and a planet? ",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "How can you tell if you're seeing a supernova? ",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of cybersecurity.",
+      "topic": "cybersecurity",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the empirical formula for calcium carbonate?",
       "topic": "chemistry",
       "difficulty": 2
     },
     {
-      "question": "What is the primary purpose of law?",
-      "topic": "law",
+      "question": "How do you determine the solubility of a sparingly soluble salt in water?",
+      "topic": "chemistry",
       "difficulty": 2
     },
     {
-      "question": "How does the legal system work in terms of its structure and procedures?",
-      "topic": "law",
+      "question": "What is the difference between an acid-base reaction and a neutralization reaction?",
+      "topic": "chemistry",
       "difficulty": 2
     },
     {
-      "question": "What are some key features of common law systems?",
-      "topic": "law",
+      "question": "Describe the process of photosynthesis in plants.",
+      "topic": "chemistry",
       "difficulty": 2
     },
     {
-      "question": "In what ways do laws evolve over time?",
-      "topic": "law",
+      "question": "How does a catalyst affect the rate of a chemical reaction?",
+      "topic": "chemistry",
       "difficulty": 2
     },
     {
-      "question": "How can a court make a ruling based on precedent or principles of law?",
-      "topic": "law",
+      "question": "What is the role of pH in determining the stability of a compound?",
+      "topic": "chemistry",
       "difficulty": 2
     },
     {
-      "question": "What are the main branches of the judicial system in most countries?",
-      "topic": "law",
+      "question": "What is the difference between a solution, suspension, and colloid?",
+      "topic": "chemistry",
       "difficulty": 2
     },
     {
-      "question": "What is meant by statutory law versus constitutional law?",
-      "topic": "law",
+      "question": "How can you identify a metal from its oxide? (e.g., iron \u2192 FeO)",
+      "topic": "chemistry",
       "difficulty": 2
     },
     {
-      "question": "What role does evidence play in legal proceedings?",
-      "topic": "law",
+      "question": "What is the general rule for combustion reactions?",
+      "topic": "chemistry",
       "difficulty": 2
     },
     {
-      "question": "How does the application of law to specific cases differ from the application of general rules?",
-      "topic": "law",
+      "question": "How does the boiling point of a liquid change with temperature?",
+      "topic": "chemistry",
       "difficulty": 2
     },
     {
-      "question": "What are the ethical considerations that lawyers must keep in mind when representing clients?",
-      "topic": "law",
+      "question": "What is the difference between a covalent bond and a ionic bond?",
+      "topic": "chemistry",
       "difficulty": 2
     },
     {
-      "question": "What is the main theme or message of 'The Great Gatsby' by F. Scott Fitzgerald?",
-      "topic": "literature",
-      "difficulty": 2
-    },
-    {
-      "question": "How does the character of Jay Gatsby in 'The Great Gatsby' reflect the American Dream and its corrupting influence?",
-      "topic": "literature",
-      "difficulty": 2
-    },
-    {
-      "question": "In 'Pride and Prejudice,' how does Elizabeth Bennet's early marriage to Mr. Darcy contrast with her later, more complex relationship with him?",
-      "topic": "literature",
-      "difficulty": 2
-    },
-    {
-      "question": "What are some literary devices used in Jane Austen's novel 'Sense and Sensibility' to convey the social class differences and personal growth of its characters?",
-      "topic": "literature",
-      "difficulty": 2
-    },
-    {
-      "question": "How do the recurring motifs of love, loss, and redemption in 'Moby Dick' contribute to the overall themes of the novel?",
-      "topic": "literature",
-      "difficulty": 2
-    },
-    {
-      "question": "In 'To Kill a Mockingbird,' how does the protagonist Atticus Finch's moral compass challenge societal norms and prejudice?",
-      "topic": "literature",
-      "difficulty": 2
-    },
-    {
-      "question": "What role does the concept of 'the voice' play in Hemingway's 'A Farewell to Arms' and how does it reflect the war-torn landscape and the narrator's inner turmoil?",
-      "topic": "literature",
-      "difficulty": 2
-    },
-    {
-      "question": "How does the author Ernest Hemingway use symbolism and metaphor in his novels like 'For Whom the Bell Tolls' and 'The Old Man and the Sea', to explore themes of sacrifice, survival, and the human spirit?",
-      "topic": "literature",
-      "difficulty": 2
-    },
-    {
-      "question": "What are the themes of 'Brave New World' and 'The Great Gatsby'? How do these works utilize utopian ideals to critique contemporary society?",
-      "topic": "literature",
-      "difficulty": 2
-    },
-    {
-      "question": "Compare and contrast the portrayal of women in 'The Catcher in the Rye' and 'The Great Gatsby'. Which work uses gender-specific language and imagery to explore themes of identity and freedom?",
-      "topic": "literature",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the primary goal of machine learning?",
-      "topic": "machine_learning",
-      "difficulty": 2
-    },
-    {
-      "question": "How does supervised learning differ from unsupervised learning?",
-      "topic": "machine_learning",
-      "difficulty": 2
-    },
-    {
-      "question": "Describe the role of feature engineering in machine learning.",
-      "topic": "machine_learning",
-      "difficulty": 2
-    },
-    {
-      "question": "What are some common algorithms used in machine learning?",
-      "topic": "machine_learning",
-      "difficulty": 2
-    },
-    {
-      "question": "In what ways do neural networks differ from traditional linear models?",
-      "topic": "machine_learning",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the concept of regularization and how it improves model performance.",
-      "topic": "machine_learning",
-      "difficulty": 2
-    },
-    {
-      "question": "How does cross-validation contribute to the evaluation of machine learning models?",
-      "topic": "machine_learning",
-      "difficulty": 2
-    },
-    {
-      "question": "What is overfitting in machine learning, and how can it be mitigated?",
-      "topic": "machine_learning",
-      "difficulty": 2
-    },
-    {
-      "question": "Why might you choose a different algorithm for a specific task compared to others?",
-      "topic": "machine_learning",
-      "difficulty": 2
-    },
-    {
-      "question": "How does ensemble methods work in machine learning, and what advantages do they offer?",
-      "topic": "machine_learning",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the definition of a cell?",
-      "topic": "biology",
-      "difficulty": 2
-    },
-    {
-      "question": "How do organisms reproduce? (e.g., reproduction, mitosis, meiosis)",
-      "topic": "biology",
-      "difficulty": 2
-    },
-    {
-      "question": "What is genetic variation in biology?",
-      "topic": "biology",
-      "difficulty": 2
-    },
-    {
-      "question": "Describe the process of photosynthesis and its importance to life on Earth.",
-      "topic": "biology",
-      "difficulty": 2
-    },
-    {
-      "question": "What are the three major levels of biological organization (prokaryotes, eukaryotes, prokaryotic eukaryotes)?",
-      "topic": "biology",
-      "difficulty": 2
-    },
-    {
-      "question": "How does an organism's body plan influence its function and survival?",
-      "topic": "biology",
-      "difficulty": 2
-    },
-    {
-      "question": "What are the two main types of ecosystems (terrestrial and aquatic) and how do they differ?",
-      "topic": "biology",
-      "difficulty": 2
-    },
-    {
-      "question": "List at least five common modes of transportation for plants and animals.",
-      "topic": "biology",
-      "difficulty": 2
-    },
-    {
-      "question": "What are some examples of symbiotic relationships between organisms (e.g., bacteria and yeast, fungi and plants)?",
-      "topic": "biology",
-      "difficulty": 2
-    },
-    {
-      "question": "How does temperature affect gene expression in living cells?",
-      "topic": "biology",
-      "difficulty": 2
-    },
-    {
-      "question": "What were the causes and motivations behind World War I?",
-      "topic": "world_wars",
-      "difficulty": 2
-    },
-    {
-      "question": "Who were the key players in World War II, including Adolf Hitler, Mussolini, and Winston Churchill?",
-      "topic": "world_wars",
-      "difficulty": 2
-    },
-    {
-      "question": "How did the Treaty of Versailles impact Germany's future in Europe?",
-      "topic": "world_wars",
-      "difficulty": 2
-    },
-    {
-      "question": "What was the significance of the Battle of Stalingrad?",
-      "topic": "world_wars",
-      "difficulty": 2
-    },
-    {
-      "question": "Which countries were involved in the Cuban Missile Crisis, and what was its outcome?",
-      "topic": "world_wars",
-      "difficulty": 2
-    },
-    {
-      "question": "How did the Korean War end, and who won?",
-      "topic": "world_wars",
-      "difficulty": 2
-    },
-    {
-      "question": "What was the outcome of the Vietnam War, and how did it change U.S. foreign policy?",
-      "topic": "world_wars",
-      "difficulty": 2
-    },
-    {
-      "question": "How did the Iraq War compare to other conflicts such as the Falklands War or Gulf War?",
-      "topic": "world_wars",
-      "difficulty": 2
-    },
-    {
-      "question": "What were the consequences of the Cold War for global politics and economics?",
-      "topic": "world_wars",
-      "difficulty": 2
-    },
-    {
-      "question": "How has technology influenced military strategy over time?",
-      "topic": "world_wars",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the role of international organizations like NATO and the United Nations in maintaining peace and security?",
-      "topic": "world_wars",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the primary purpose of constitutional law in the United States?",
+      "question": "What is the purpose and structure of the U.S. Constitution?",
       "topic": "constitutional_law",
       "difficulty": 2
     },
     {
-      "question": "How does the U.S. Constitution ensure that government powers are limited?",
+      "question": "How does the Bill of Rights in the U.S. Constitution protect individual rights?",
       "topic": "constitutional_law",
       "difficulty": 2
     },
     {
-      "question": "In what ways do amendments to the U.S. Constitution limit or expand federal authority?",
+      "question": "What are the three branches of government outlined in the U.S. Constitution?",
       "topic": "constitutional_law",
       "difficulty": 2
     },
     {
-      "question": "What are the key principles underlying the separation of powers within the U.S. Constitution?",
+      "question": "What are the powers of the President, Vice President, and members of Congress according to the U.S. Constitution?",
       "topic": "constitutional_law",
       "difficulty": 2
     },
     {
-      "question": "Describe the structure and role of the Supreme Court in American legal systems.",
+      "question": "Who can declare war under Article I, Section 8 of the U.S. Constitution?",
       "topic": "constitutional_law",
       "difficulty": 2
     },
     {
-      "question": "How does the U.S. Constitution address issues of national defense, foreign relations, and international treaties?",
+      "question": "What is the role of the Supreme Court in interpreting the Constitution and laws?",
       "topic": "constitutional_law",
       "difficulty": 2
     },
     {
-      "question": "What are some examples of the judicial review process in U.S. courts?",
+      "question": "What are the qualifications for being a member of the House of Representatives or Senate in the U.S. Constitution?",
       "topic": "constitutional_law",
       "difficulty": 2
     },
     {
-      "question": "How does the concept of checks and balances apply to the U.S. Constitution?",
+      "question": "What is the process for amending the U.S. Constitution by the National Convention of States?",
       "topic": "constitutional_law",
       "difficulty": 2
     },
     {
-      "question": "What is the role of state constitutions in the context of federalism?",
+      "question": "What is the difference between a state's power over its own constitution and the federal government's power over the states?",
       "topic": "constitutional_law",
       "difficulty": 2
     },
     {
-      "question": "How does the U.S. Constitution protect the rights of individuals against government infringement?",
+      "question": "How does the separation of powers in the U.S. Constitution ensure that no single branch becomes too powerful?",
       "topic": "constitutional_law",
       "difficulty": 2
     },
     {
-      "question": "Discuss the impact of constitutional interpretation on the application of laws by the judiciary.",
-      "topic": "constitutional_law",
+      "question": "Explain the key concepts of ethics.",
+      "topic": "ethics",
       "difficulty": 2
     },
     {
-      "question": "What was the first year in the history of the United States that saw the signing of the Declaration of Independence?",
-      "topic": "history",
-      "difficulty": 2
-    },
-    {
-      "question": "Who were the three main actors who played a crucial role in shaping American history during the Revolutionary War?",
-      "topic": "history",
-      "difficulty": 2
-    },
-    {
-      "question": "Describe the causes and outcomes of the French Revolution, focusing on its impact on European society.",
-      "topic": "history",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the significance of the Battle of Gettysburg in the Civil War, including key figures involved.",
-      "topic": "history",
-      "difficulty": 2
-    },
-    {
-      "question": "What was the impact of the Industrial Revolution on British society and economy in the early 19th century?",
-      "topic": "history",
-      "difficulty": 2
-    },
-    {
-      "question": "Discuss the role of the Enlightenment thinkers in the development of modern political thought and social reform.",
-      "topic": "history",
-      "difficulty": 2
-    },
-    {
-      "question": "Compare and contrast the experiences of women and men in the American Civil War, focusing on their roles and contributions.",
-      "topic": "history",
-      "difficulty": 2
-    },
-    {
-      "question": "How did the rise of nationalism during the late 1800s influence global politics and diplomacy at the time?",
-      "topic": "history",
-      "difficulty": 2
-    },
-    {
-      "question": "Describe the major events leading up to World War I, including the assassination of Archduke Franz Ferdinand and the outbreak of hostilities.",
-      "topic": "history",
-      "difficulty": 2
-    },
-    {
-      "question": "What were the challenges faced by the Soviet Union in the Cold War era, such as the invasion of Afghanistan and the Korean War?",
-      "topic": "history",
-      "difficulty": 2
-    },
-    {
-      "question": "Analyze the role of technology in the industrial revolution, including the introduction of steam power and the development of the internet.",
-      "topic": "history",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the role of the executive branch in U.S. politics?",
-      "topic": "political_science",
-      "difficulty": 2
-    },
-    {
-      "question": "Which political party typically holds a majority in the House of Representatives?",
-      "topic": "political_science",
-      "difficulty": 2
-    },
-    {
-      "question": "Describe the difference between a presidential and a parliamentary system.",
-      "topic": "political_science",
-      "difficulty": 2
-    },
-    {
-      "question": "How does international diplomacy impact national security policies?",
-      "topic": "political_science",
-      "difficulty": 2
-    },
-    {
-      "question": "What are some key factors that influence voter turnout in elections?",
-      "topic": "political_science",
-      "difficulty": 2
-    },
-    {
-      "question": "Discuss the concept of a constitutional monarchy versus a constitutional republic.",
-      "topic": "political_science",
-      "difficulty": 2
-    },
-    {
-      "question": "How do campaign finance laws affect political campaigns and candidates?",
-      "topic": "political_science",
-      "difficulty": 2
-    },
-    {
-      "question": "What are some common issues faced by democracies regarding economic policy?",
-      "topic": "political_science",
-      "difficulty": 2
-    },
-    {
-      "question": "Compare and contrast the functions of Congress, the Supreme Court, and the President in U.S. government structures.",
-      "topic": "political_science",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the principle behind the separation of powers in U.S. government structure.",
-      "topic": "political_science",
-      "difficulty": 2
-    },
-    {
-      "question": "Define the term 'democratic socialism' and discuss its potential implications for global politics.",
-      "topic": "political_science",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the primary function of muscle fibers in skeletal muscles?",
-      "topic": "anatomy",
-      "difficulty": 2
-    },
-    {
-      "question": "How does the nervous system control voluntary movements in humans?",
-      "topic": "anatomy",
-      "difficulty": 2
-    },
-    {
-      "question": "Describe the process of mitosis and meiosis in cells.",
-      "topic": "anatomy",
-      "difficulty": 2
-    },
-    {
-      "question": "Name two types of blood vessels and their functions.",
-      "topic": "anatomy",
-      "difficulty": 2
-    },
-    {
-      "question": "How do the different parts of the respiratory system work together to breathe?",
-      "topic": "anatomy",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the primary purpose of networking in today's digital age?",
+      "question": "What is the purpose of networking?",
       "topic": "networking",
       "difficulty": 2
     },
     {
-      "question": "How do you define and measure success in a networked society?",
+      "question": "How does network technology work?",
       "topic": "networking",
       "difficulty": 2
     },
     {
-      "question": "What role does technology play in enhancing global communication?",
+      "question": "What are some common types of networks used in today's world?",
       "topic": "networking",
       "difficulty": 2
     },
     {
-      "question": "How have social media platforms impacted traditional networking methods?",
+      "question": "Describe how data can be transmitted over a network.",
       "topic": "networking",
       "difficulty": 2
     },
     {
-      "question": "What are some common challenges faced by individuals when engaging in online networks?",
+      "question": "Why is it important to have a strong internet connection?",
       "topic": "networking",
       "difficulty": 2
     },
     {
-      "question": "How has the rise of virtual communities changed the way we interact with each other?",
+      "question": "How do you typically connect with people on social media platforms?",
       "topic": "networking",
       "difficulty": 2
     },
     {
-      "question": "In what ways can personal relationships contribute to effective professional networking?",
+      "question": "What role does email play in modern communication?",
       "topic": "networking",
       "difficulty": 2
     },
     {
-      "question": "What are some successful strategies for building a strong professional network?",
+      "question": "List at least three reasons why companies choose cloud computing for their infrastructure.",
       "topic": "networking",
       "difficulty": 2
     },
     {
-      "question": "How do technological advancements influence the efficiency and effectiveness of networking activities?",
+      "question": "Describe the process of creating and maintaining a secure online presence.",
       "topic": "networking",
       "difficulty": 2
     },
     {
-      "question": "What ethical considerations should be taken into account when participating in or creating a network?",
+      "question": "How do you measure the effectiveness of your marketing efforts?",
       "topic": "networking",
       "difficulty": 2
     },
     {
-      "question": "What is the primary goal of environmental science?",
-      "topic": "environmental_science",
+      "question": "What is the difference between a perfect fifth and a major third in music theory?",
+      "topic": "music_theory",
       "difficulty": 2
     },
     {
-      "question": "How does climate change impact ecosystems and biodiversity?",
-      "topic": "environmental_science",
+      "question": "Describe the relationship between musical intervals and their corresponding notes on a musical staff.",
+      "topic": "music_theory",
       "difficulty": 2
     },
     {
-      "question": "Describe the concept of carbon footprint and its significance in environmental science.",
-      "topic": "environmental_science",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the difference between renewable and non-renewable resources in terms of their sustainability.",
-      "topic": "environmental_science",
-      "difficulty": 2
-    },
-    {
-      "question": "What are the main factors that contribute to air pollution, including sources and impacts on human health?",
-      "topic": "environmental_science",
-      "difficulty": 2
-    },
-    {
-      "question": "How does land use affect water quality and availability for ecosystems?",
-      "topic": "environmental_science",
-      "difficulty": 2
-    },
-    {
-      "question": "Discuss the role of artificial intelligence and machine learning in environmental monitoring and prediction.",
-      "topic": "environmental_science",
-      "difficulty": 2
-    },
-    {
-      "question": "What are the ecological impacts of deforestation and how can they be mitigated or restored?",
-      "topic": "environmental_science",
-      "difficulty": 2
-    },
-    {
-      "question": "Compare and contrast marine life with terrestrial species in terms of habitat requirements and adaptation strategies.",
-      "topic": "environmental_science",
+      "question": "How does the use of semitone changes affect the tonal center in a piece of music?",
+      "topic": "music_theory",
       "difficulty": 2
     }
   ],
-  "example_count": 93,
-  "question_count": 140
+  "example_count": 82,
+  "question_count": 99
 }
