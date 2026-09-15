@@ -42,1507 +42,1315 @@
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in calculus?",
-      "good_answer": "calculus involves fundamental principles and their practical applications.",
-      "flawed_answer": "calculus is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of calculus.",
+      "question": "What is the fundamental force that drives most stars to form?",
+      "good_answer": "Gravitational Force",
+      "flawed_answer": "Electromagnetic Force",
+      "flaw_type": "mismatch between scientific understanding and popular culture",
+      "feedback": "This answer contradicts known physics principles, such as Newton's law of universal gravitation.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in calculus?",
-      "good_answer": "calculus involves fundamental principles and their practical applications.",
-      "flawed_answer": "calculus is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of calculus.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in calculus?",
-      "good_answer": "calculus involves fundamental principles and their practical applications.",
-      "flawed_answer": "calculus is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of calculus.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in calculus?",
-      "good_answer": "calculus involves fundamental principles and their practical applications.",
-      "flawed_answer": "calculus is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of calculus.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in calculus?",
-      "good_answer": "calculus involves fundamental principles and their practical applications.",
-      "flawed_answer": "calculus is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of calculus.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the most abundant element in the human body?",
-      "good_answer": "Water",
-      "flawed_answer": "Carbon",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The most abundant element in the human body is water.",
-      "difficulty": 5
-    },
-    {
-      "question": "Which of the following is not a component of DNA?",
-      "good_answer": "Protein",
-      "flawed_answer": "RNA",
+      "question": "Which star in our galaxy is closest to Earth?",
+      "good_answer": "Proxima Centauri",
+      "flawed_answer": "Alpha Centauri A",
       "flaw_type": "misleading",
-      "feedback": "DNA is made up of four types of nucleotides, which include sugar, phosphate, nitrogenous bases (adenine, guanine, cytosine, thymine), and deoxyribose.",
+      "feedback": "The term 'closest' could be misleading as it refers to stellar parallax rather than physical proximity.",
       "difficulty": 5
     },
     {
-      "question": "How many hydrogen atoms are present in one molecule of glucose?",
-      "good_answer": "6",
-      "flawed_answer": "7",
-      "flaw_type": "logical_fallacy",
-      "feedback": "One molecule of glucose contains six hydrogen atoms.",
+      "question": "How does the Sun generate its energy?",
+      "good_answer": "Fusion of hydrogen in the core",
+      "flawed_answer": "Photons from the black hole at the center",
+      "flaw_type": "mismisial",
+      "feedback": "Incorrectly attributing energy generation to nuclear fusion.",
       "difficulty": 5
     },
     {
-      "question": "What is the primary function of hemoglobin in blood?",
-      "good_answer": "Transporting oxygen to cells",
-      "flawed_answer": "Regulating blood pressure",
-      "flaw_type": "misleading",
-      "feedback": "Hemoglobin primarily transports oxygen in the lungs and then releases it throughout the body via red blood cells.",
+      "question": "What is the main component of a black hole?",
+      "good_answer": "Dark matter",
+      "flawed_answer": "Dark energy",
+      "flaw_type": "mismatch between scientific knowledge and common belief",
+      "feedback": "Misidentification of dark matter with dark energy.",
       "difficulty": 5
     },
     {
-      "question": "Why do humans have two X chromosomes in their somatic cells?",
-      "good_answer": "To ensure genetic diversity",
-      "flawed_answer": "To allow for more genes",
-      "flaw_type": "logical_fallacy",
-      "feedback": "Humans typically have only one X chromosome due to sex-linked inheritance.",
+      "question": "Which planet in our solar system has the longest day?",
+      "good_answer": "Mercury",
+      "flawed_answer": "Venus",
+      "flaw_type": "mismatch between scientific understanding and popular culture",
+      "feedback": "The planet Venus has the longest day due to its tilt on its axis.",
       "difficulty": 5
     },
     {
-      "question": "What is the primary role of carbon dioxide in cellular respiration?",
-      "good_answer": "Release energy as heat",
-      "flawed_answer": "Absorb carbon dioxide from the air",
-      "flaw_type": "logical_fallacy",
-      "feedback": "Cellular respiration uses oxygen to produce energy by breaking down glucose or other organic molecules.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the difference between a protein and a nucleotide?",
-      "good_answer": "A protein contains amino acids, while a nucleotide consists of ribonucleotide or deoxyribonucleotide chains.",
-      "flawed_answer": "Nucleotides are composed of sugars, while proteins contain amino acids.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "Proteins are formed through the condensation of amino acid chains, while nucleotides form the backbone of RNA.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the process called when a cell divides into two daughter cells?",
-      "good_answer": "Mitosis",
-      "flawed_answer": "Meiosis",
-      "flaw_type": "logical_fallacy",
-      "feedback": "Meiosis is the process that produces gametes (sperm and egg cells) rather than dividing cells.",
-      "difficulty": 5
-    },
-    {
-      "question": "What was the main cause of the Black Death in the Middle Ages?",
-      "good_answer": "Infection by the plague bacillus.",
-      "flawed_answer": "The bubonic plague, which spread through fleas.",
-      "flaw_type": "factual_error",
-      "feedback": "Incorrectly identified as the bubonic plague.",
-      "difficulty": 5
-    },
-    {
-      "question": "How did the Crusades affect medieval European society?",
-      "good_answer": "Encouraged religious conversions and strengthened alliances with Muslim states.",
-      "flawed_answer": "Reduced the power of the Catholic Church, weakening its influence.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "Misinterpreted the Crusades as a purely religious event.",
-      "difficulty": 5
-    },
-    {
-      "question": "Which city-state is known as the 'City of Confucius'?",
-      "good_answer": "Ctesiphon.",
-      "flawed_answer": "Cairo.",
-      "flaw_type": "factual_error",
-      "feedback": "Incorrectly stated it as being located in Syria.",
-      "difficulty": 5
-    },
-    {
-      "question": "Describe the impact of the Black Death on agriculture during the Middle Ages.",
-      "good_answer": "Farmers lost their livelihoods due to food shortages and pest infestations.",
-      "flawed_answer": "The disease caused significant crop failures that led to famine and economic collapse.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "Misinterpreted the impact of the disease as primarily affecting animals.",
-      "difficulty": 5
-    },
-    {
-      "question": "What role did the Black Death play in the decline of feudalism in Western Europe?",
-      "good_answer": "It weakened the power of the nobility, leading to the rise of the bourgeoisie.",
-      "flawed_answer": "It had no real effect on the decline of feudalism.",
-      "flaw_type": "misleading",
-      "feedback": "Failed to distinguish between the effects of the Black Death and the broader social changes.",
-      "difficulty": 5
-    },
-    {
-      "question": "How did the Black Death contribute to the formation of the Renaissance?",
-      "good_answer": "It inspired scholars and scientists to explore new ideas about human nature and society.",
-      "flawed_answer": "It discouraged scientific inquiry and hindered cultural development.",
+      "question": "What is the largest star in the Milky Way Galaxy?",
+      "good_answer": "Pulsar",
+      "flawed_answer": "Giant elliptical galaxies",
       "flaw_type": "incomplete",
-      "feedback": "Failed to address the complex interplay between the Black Death and other factors.",
+      "feedback": "There are no giant elliptical galaxies in the Milky Way.",
       "difficulty": 5
     },
     {
-      "question": "Who was the first person to die from the Black Death in 1348?",
-      "good_answer": "King Louis IX of France.",
-      "flawed_answer": "Queen Elizabeth I of England.",
-      "flaw_type": "miscalculated date",
-      "feedback": "Failed to identify the correct individual.",
+      "question": "What causes the seasons on Earth?",
+      "good_answer": "Tidal locking effect",
+      "flawed_answer": "Seasonal changes due to Earth's axial rotation",
+      "flaw_type": "misleading",
+      "feedback": "Incorrectly attributing seasonal changes to Earth's axial rotation.",
       "difficulty": 5
     },
     {
-      "question": "What is the most effective treatment for a common cold?",
-      "good_answer": "Resting until symptoms resolve on their own.",
-      "flawed_answer": "Taking over-the-counter medications like ibuprofen or acetaminophen can help shorten the duration of symptoms.",
+      "question": "Which star in the Andromeda Galaxy is closest to Earth?",
+      "good_answer": "M43",
+      "flawed_answer": "M42",
+      "flaw_type": "misleading",
+      "feedback": "The term 'closest' could be misleading as it refers to stellar parallax rather than physical proximity.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the primary function of a neutron star?",
+      "good_answer": "Explosive collapse",
+      "flawed_answer": "Burning hydrogen in its core",
+      "flaw_type": "logical fallacy",
+      "feedback": "Incorrectly attributing nuclear fusion to neutron star explosions.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in macroeconomics?",
+      "good_answer": "macroeconomics involves fundamental principles and their practical applications.",
+      "flawed_answer": "macroeconomics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of macroeconomics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in macroeconomics?",
+      "good_answer": "macroeconomics involves fundamental principles and their practical applications.",
+      "flawed_answer": "macroeconomics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of macroeconomics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in macroeconomics?",
+      "good_answer": "macroeconomics involves fundamental principles and their practical applications.",
+      "flawed_answer": "macroeconomics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of macroeconomics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in macroeconomics?",
+      "good_answer": "macroeconomics involves fundamental principles and their practical applications.",
+      "flawed_answer": "macroeconomics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of macroeconomics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in macroeconomics?",
+      "good_answer": "macroeconomics involves fundamental principles and their practical applications.",
+      "flawed_answer": "macroeconomics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of macroeconomics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the output of the following Python code?",
+      "good_answer": "It will raise an error.",
+      "flawed_answer": "The code does not produce any output, only prints 'Error'.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This is a logical fallacy because it doesn't explicitly state that the code will produce an output.",
+      "difficulty": 5
+    },
+    {
+      "question": "Which algorithm is used in machine learning?",
+      "good_answer": "Gradient descent algorithm",
+      "flawed_answer": "Linear regression algorithm",
+      "flaw_type": "misleading",
+      "feedback": "This is a misleading statement as it refers to different algorithms without context.",
+      "difficulty": 5
+    },
+    {
+      "question": "How many states are there in a Markov chain?",
+      "good_answer": "2^n",
+      "flawed_answer": "n^2",
+      "flaw_type": "incomplete",
+      "feedback": "This is incomplete because it uses n instead of k (the number of states)",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the purpose of the bubble sort algorithm?",
+      "good_answer": "To sort an array of numbers",
+      "flawed_answer": "To sort files on a disk",
+      "flaw_type": "incomplete",
+      "feedback": "This is incomplete because it provides no information about sorting purposes",
+      "difficulty": 5
+    },
+    {
+      "question": "In linear algebra, what does Ax = b represent?",
+      "good_answer": "The system of equations represented by the matrix A and vector b",
+      "flawed_answer": "The result of multiplying matrix A with vector b",
+      "flaw_type": "misleading",
+      "feedback": "This is misleading because it incorrectly interprets the equation as multiplication rather than addition or subtraction",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the main difference between a classifier and a regressor?",
+      "good_answer": "A classifier predicts class labels while a regressor predicts continuous values",
+      "flawed_answer": "Classifiers use statistical models, whereas regressors use mathematical functions",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This is a logical fallacy because it incorrectly assumes that classifiers use statistical models when they actually use mathematical functions",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the name of the algorithm used in the K-means clustering algorithm?",
+      "good_answer": "K-means algorithm",
+      "flawed_answer": "Centroid algorithm",
+      "flaw_type": "incomplete",
+      "feedback": "This is incomplete because it mentions two algorithms but fails to provide the correct one",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in physics?",
+      "good_answer": "physics involves fundamental principles and their practical applications.",
+      "flawed_answer": "physics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in physics?",
+      "good_answer": "physics involves fundamental principles and their practical applications.",
+      "flawed_answer": "physics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in physics?",
+      "good_answer": "physics involves fundamental principles and their practical applications.",
+      "flawed_answer": "physics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in physics?",
+      "good_answer": "physics involves fundamental principles and their practical applications.",
+      "flawed_answer": "physics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in physics?",
+      "good_answer": "physics involves fundamental principles and their practical applications.",
+      "flawed_answer": "physics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
+      "difficulty": 5
+    },
+    {
+      "question": "What does it mean to be objective in epistemology?",
+      "good_answer": "Being objective means having a clear and consistent stance on all knowledge claims.",
+      "flawed_answer": "Some people argue that being objective requires neutrality or impartiality.",
       "flaw_type": "Logical fallacy",
-      "feedback": "The answer incorrectly attributes the cure to the body's natural healing process without considering that the cold is caused by viruses.",
+      "feedback": "The distinction between being objective and being neutral can sometimes lead to confusion.",
       "difficulty": 5
     },
     {
-      "question": "How does exercise improve cardiovascular health?",
-      "good_answer": "Exercise increases heart rate and blood flow, improving oxygen delivery to tissues.",
-      "flawed_answer": "Exercising only increases your heart rate but doesn't necessarily mean it improves cardiovascular health.",
+      "question": "How do you define the concept of 'epistemic certainty'?",
+      "good_answer": "Epistemic certainty refers to a belief that one knows something with high probability based on evidence.",
+      "flawed_answer": "Some definitions of epistemic certainty include certainty without any need for evidence.",
       "flaw_type": "Misleading",
-      "feedback": "The answer incorrectly states that exercise alone will improve cardiovascular health without mentioning other factors such as diet and stress management.",
+      "feedback": "This definition might not fully capture the nuanced nature of certainty in epistemology.",
       "difficulty": 5
     },
     {
-      "question": "What is the recommended daily intake of vitamin C for maintaining immune function?",
-      "good_answer": "A balanced diet rich in fruits and vegetables provides adequate amounts of vitamin C.",
-      "flawed_answer": "Vitamin C supplements are often recommended to boost immunity when there isn\u2019t enough dietary sources.",
+      "question": "In epistemology, how would you classify skepticism as a form of epistemological inquiry?",
+      "good_answer": "Skepticism is often seen as a challenge to our beliefs, which aligns with critical thinking principles in epistemology.",
+      "flawed_answer": "Criticism from skeptics is typically dismissed as unscientific and therefore irrelevant.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "There may be cases where skepticism could be viewed as a valid form of inquiry within certain contexts.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the difference between DNA and RNA?",
+      "good_answer": "DNA contains genetic information while RNA does not.",
+      "flawed_answer": "RNA can be used to store genetic information but DNA cannot.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The answer incorrectly identifies DNA as containing genetic information and RNA as storing it.",
+      "difficulty": 5
+    },
+    {
+      "question": "How many nucleotides make up one base pair in DNA?",
+      "good_answer": "One base pair consists of three nucleotides.",
+      "flawed_answer": "Base pairs consist of four nucleotides.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The answer incorrectly states that base pairs consist of four nucleotides.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the role of RNA in protein synthesis?",
+      "good_answer": "RNA serves as a template for protein synthesis.",
+      "flawed_answer": "RNA is involved in gene regulation but not protein synthesis.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The answer incorrectly states that RNA is involved in gene regulation but not protein synthesis.",
+      "difficulty": 5
+    },
+    {
+      "question": "Which of the following statements about DNA replication is true?",
+      "good_answer": "DNA replication occurs during cell division.",
+      "flawed_answer": "DNA replication only occurs once before cell division starts.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The answer incorrectly states that DNA replication occurs during cell division.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the process of DNA repair called?",
+      "good_answer": "DNA repair involves the removal of damaged DNA strands.",
+      "flawed_answer": "DNA repair refers to the synthesis of new DNA strands after damage.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The answer incorrectly states that DNA repair involves the removal of damaged DNA strands.",
+      "difficulty": 5
+    },
+    {
+      "question": "How do genes contribute to biological diversity?",
+      "good_answer": "Genes control the traits expressed by organisms.",
+      "flawed_answer": "Genes determine the traits of an organism but not their diversity.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The answer incorrectly states that genes determine the traits of an organism but not their diversity.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the relationship between chromosomes and genes?",
+      "good_answer": "Chromosomes contain genes that determine an organism\u2019s traits.",
+      "flawed_answer": "Chromosomes carry genes but don't determine them.",
+      "flaw_type": "logical_fallacy",
+      "feedback": "The answer incorrectly states that chromosomes contain genes that determine an organism\u2019s traits.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the most common cause of inflation?",
+      "good_answer": "High prices in the economy",
+      "flawed_answer": "Low production costs",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer is that high prices in the economy lead to inflation.",
+      "difficulty": 5
+    },
+    {
+      "question": "Why does a country need to import more than it exports?",
+      "good_answer": "To reduce its own unemployment rate",
+      "flawed_answer": "To increase its GDP",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer is that importing more goods leads to higher demand, which can drive up prices.",
+      "difficulty": 5
+    },
+    {
+      "question": "What does government spending typically do when it increases?",
+      "good_answer": "It causes inflation",
+      "flawed_answer": "It decreases unemployment",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer is that increased government spending often results in higher taxes or reduced consumer spending, leading to higher prices.",
+      "difficulty": 5
+    },
+    {
+      "question": "How does increasing interest rates affect the money supply in the economy?",
+      "good_answer": "It reduces the money supply",
+      "flawed_answer": "It increases the money supply",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer is that higher interest rates make borrowing more expensive, reducing the amount of money available to banks to lend out.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the impact of a decrease in consumer confidence on economic activity?",
+      "good_answer": "It leads to lower employment",
+      "flawed_answer": "It leads to higher unemployment",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer is that a decrease in consumer confidence may cause businesses to cut back on hiring, resulting in fewer jobs being created.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the effect of a significant decrease in global trade on domestic industries?",
+      "good_answer": "It can lead to job losses and decreased innovation",
+      "flawed_answer": "It can lead to increased productivity",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer is that a significant decrease in global trade can result in reduced access to international markets, which can negatively impact domestic industries.",
+      "difficulty": 5
+    },
+    {
+      "question": "When economists say 'the price level is stable,' what do they mean?",
+      "good_answer": "It means the general level of prices remains constant over time",
+      "flawed_answer": "It means the total quantity of goods and services traded remains constant over time",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer is that a stable price level refers to a relatively unchanged average price level across all goods and services sold in an economy over time.",
+      "difficulty": 5
+    },
+    {
+      "question": "In macroeconomics, how might a recession be caused by changes in government policy?",
+      "good_answer": "Government policies causing a decline in investment",
+      "flawed_answer": "Government policies causing a surge in investment",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer is that government policies affecting investment (such as taxation or regulations) can lead to a decline in overall economic activity.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in neuroscience?",
+      "good_answer": "neuroscience involves fundamental principles and their practical applications.",
+      "flawed_answer": "neuroscience is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of neuroscience.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in neuroscience?",
+      "good_answer": "neuroscience involves fundamental principles and their practical applications.",
+      "flawed_answer": "neuroscience is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of neuroscience.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in neuroscience?",
+      "good_answer": "neuroscience involves fundamental principles and their practical applications.",
+      "flawed_answer": "neuroscience is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of neuroscience.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in neuroscience?",
+      "good_answer": "neuroscience involves fundamental principles and their practical applications.",
+      "flawed_answer": "neuroscience is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of neuroscience.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in neuroscience?",
+      "good_answer": "neuroscience involves fundamental principles and their practical applications.",
+      "flawed_answer": "neuroscience is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of neuroscience.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in literature?",
+      "good_answer": "literature involves fundamental principles and their practical applications.",
+      "flawed_answer": "literature is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in literature?",
+      "good_answer": "literature involves fundamental principles and their practical applications.",
+      "flawed_answer": "literature is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in literature?",
+      "good_answer": "literature involves fundamental principles and their practical applications.",
+      "flawed_answer": "literature is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in literature?",
+      "good_answer": "literature involves fundamental principles and their practical applications.",
+      "flawed_answer": "literature is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in literature?",
+      "good_answer": "literature involves fundamental principles and their practical applications.",
+      "flawed_answer": "literature is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the primary function of bacteria in ecosystems?",
+      "good_answer": "Bacteria primarily serve as decomposers, breaking down dead organic matter into nutrients.",
+      "flawed_answer": "Bacteria play a crucial role in breaking down organic matter into simpler forms, which can then be used by other organisms.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer should mention that bacteria break down complex organic molecules rather than just simple ones.",
+      "difficulty": 5
+    },
+    {
+      "question": "Which type of microorganism is known for producing antibiotics?",
+      "good_answer": "Escherichia coli (E. coli) is a bacterium that produces several types of antibiotics.",
+      "flawed_answer": "While E. coli does produce antibiotics, it is not one of them.",
+      "flaw_type": "Misleading",
+      "feedback": "The term 'antibiotics' refers to substances produced by certain bacterial species, such as E. coli, but it is not a single bacterium.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the process called when two or more bacteria interact and form a colony?",
+      "good_answer": "Bacterial symbiosis occurs when two or more bacteria form a colony together.",
+      "flawed_answer": "Symbiosis is only defined between two separate bacteria, not within a colony.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The correct answer should specify that symbiosis involves multiple bacteria forming a colony.",
+      "difficulty": 5
+    },
+    {
+      "question": "Which group of animals is most likely to carry a pathogen?",
+      "good_answer": "Most animals do not carry pathogens, as they have evolved to avoid them.",
+      "flawed_answer": "Some animals may carry pathogens if they are infected with bacteria.",
       "flaw_type": "Incomplete",
-      "feedback": "The answer partially addresses the importance of diet but fails to mention the necessity of supplements.",
+      "feedback": "This answer needs clarification on whether some animals actually carry pathogens.",
       "difficulty": 5
     },
     {
-      "question": "Which of these is NOT a symptom of diabetes?",
-      "good_answer": "Having high blood pressure.",
-      "flawed_answer": "Feeling hungry all the time may be a sign of diabetes.",
+      "question": "How many types of viruses are there?",
+      "good_answer": "There are four main virus families: Retroviridae, Paramyxoviridae, Filoviridae, and Herpesvirus family.",
+      "flawed_answer": "The number of virus families is not always fixed, as viruses can change over time.",
       "flaw_type": "Logical fallacy",
-      "feedback": "The answer incorrectly identifies hunger as a symptom of diabetes without accounting for other conditions.",
+      "feedback": "The correct answer should specify that the number of virus families varies.",
       "difficulty": 5
     },
     {
-      "question": "What percentage of adults use social media every day?",
-      "good_answer": "Most people use social media regularly.",
-      "flawed_answer": "Social media usage varies greatly among individuals and cannot be generalized.",
-      "flaw_type": "Misleading",
-      "feedback": "The answer suggests a broad generalization about everyone using social media, which is incorrect.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the primary cause of Alzheimer\u2019s disease?",
-      "good_answer": "Genetic factors contribute significantly to the development of Alzheimer\u2019s.",
-      "flawed_answer": "Other environmental factors play a role in Alzheimer\u2019s progression.",
+      "question": "What is the primary purpose of genetic engineering in biotechnology?",
+      "good_answer": "Genetic engineering is primarily used for modifying genes within living organisms for specific traits.",
+      "flawed_answer": "Genetic engineering can also be applied to create new plant varieties or enhance animal traits.",
       "flaw_type": "Logical fallacy",
-      "feedback": "The answer incorrectly attributes Alzheimer\u2019s primarily to genetic factors without addressing environmental influences.",
+      "feedback": "The incorrect answer states that genetic engineering is limited to altering genes, ignoring its potential applications.",
       "difficulty": 5
     },
     {
-      "question": "What is the recommended amount of sleep per night for optimal brain function?",
-      "good_answer": "Getting at least seven hours of sleep per night is crucial for cognitive health.",
-      "flawed_answer": "Sleeping less than six hours per night can lead to decreased cognitive performance.",
+      "question": "What is the role of mycorrhizal fungi in soil health?",
+      "good_answer": "Mycorrhizal fungi play a crucial role in soil health by increasing nutrient uptake and reducing water loss through their root structures.",
+      "flawed_answer": "A mycorrhizal fungus is a type of plant that helps plants grow better in soil by improving nutrient absorption.",
       "flaw_type": "Logical fallacy",
-      "feedback": "The answer incorrectly associates too much sleep with better cognitive function without acknowledging the importance of rest.",
+      "feedback": "The incorrect answer mentions a different type of fungal relationship, which is not related to soil health.",
       "difficulty": 5
     },
     {
-      "question": "How many days should you avoid alcohol if you have been diagnosed with a chronic illness?",
-      "good_answer": "Avoiding alcohol altogether is necessary for managing your condition.",
-      "flawed_answer": "If you don\u2019t drink alcohol, you won\u2019t need to avoid it.",
+      "question": "What is the difference between asexual reproduction and sexual reproduction in biology?",
+      "good_answer": "Sexual reproduction involves two parents exchanging genetic material, while asexual reproduction involves the same parent producing offspring without requiring a mate.",
+      "flawed_answer": "Asexual reproduction involves the production of offspring from a single parent, whereas sexual reproduction involves the fusion of gametes from two parents.",
       "flaw_type": "Logical fallacy",
-      "feedback": "The answer incorrectly assumes that abstaining from alcohol means avoiding the illness entirely.",
+      "feedback": "The incorrect answer incorrectly states that sexual reproduction requires a mate, instead suggesting that both parents must provide genetic material.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in biology?",
-      "good_answer": "biology involves fundamental principles and their practical applications.",
-      "flawed_answer": "biology is only about memorizing facts.",
+      "question": "What is a key concept in organic_chemistry?",
+      "good_answer": "organic_chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "organic_chemistry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of organic_chemistry.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in biology?",
-      "good_answer": "biology involves fundamental principles and their practical applications.",
-      "flawed_answer": "biology is only about memorizing facts.",
+      "question": "What is a key concept in organic_chemistry?",
+      "good_answer": "organic_chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "organic_chemistry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of organic_chemistry.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in biology?",
-      "good_answer": "biology involves fundamental principles and their practical applications.",
-      "flawed_answer": "biology is only about memorizing facts.",
+      "question": "What is a key concept in organic_chemistry?",
+      "good_answer": "organic_chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "organic_chemistry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of organic_chemistry.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in biology?",
-      "good_answer": "biology involves fundamental principles and their practical applications.",
-      "flawed_answer": "biology is only about memorizing facts.",
+      "question": "What is a key concept in organic_chemistry?",
+      "good_answer": "organic_chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "organic_chemistry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of organic_chemistry.",
       "difficulty": 5
     },
     {
-      "question": "What is a key concept in biology?",
-      "good_answer": "biology involves fundamental principles and their practical applications.",
-      "flawed_answer": "biology is only about memorizing facts.",
+      "question": "What is a key concept in organic_chemistry?",
+      "good_answer": "organic_chemistry involves fundamental principles and their practical applications.",
+      "flawed_answer": "organic_chemistry is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in physics?",
-      "good_answer": "physics involves fundamental principles and their practical applications.",
-      "flawed_answer": "physics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in physics?",
-      "good_answer": "physics involves fundamental principles and their practical applications.",
-      "flawed_answer": "physics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in physics?",
-      "good_answer": "physics involves fundamental principles and their practical applications.",
-      "flawed_answer": "physics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in physics?",
-      "good_answer": "physics involves fundamental principles and their practical applications.",
-      "flawed_answer": "physics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in physics?",
-      "good_answer": "physics involves fundamental principles and their practical applications.",
-      "flawed_answer": "physics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of physics.",
-      "difficulty": 5
-    },
-    {
-      "question": "What does the theory of opportunity cost suggest?",
-      "good_answer": "It suggests that people try to maximize their utility by choosing the option with the highest net benefit.",
-      "flawed_answer": "Opportunity cost is about trade-offs between different options rather than maximizing utility.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The concept of opportunity cost can be misleading because it often implies that one must give up something in order to get another, which may not always be true.",
-      "difficulty": 5
-    },
-    {
-      "question": "Why might consumers choose to buy items at a lower price when they know the full value?",
-      "good_answer": "They might be willing to pay less as a sign of trust or confidence in the seller.",
-      "flawed_answer": "Consumers typically don't care about the price if they know the item's value.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer overlooks the fact that consumers may feel cheated if they pay more than they should due to higher prices.",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the principle of diminishing returns apply to consumer behavior?",
-      "good_answer": "As a consumer increases consumption of a product, the marginal increase in quantity consumed decreases.",
-      "flawed_answer": "Diminishing returns only apply to increasing quantities of a single good.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer assumes that diminishing returns would occur regardless of how much a consumer consumes, which is incorrect.",
-      "difficulty": 5
-    },
-    {
-      "question": "What role do psychological pricing mechanisms play in economic decision-making?",
-      "good_answer": "Psychological pricing involves leveraging emotional responses to influence purchase decisions.",
-      "flawed_answer": "Psychology alone doesn't determine whether a price is too high or too low.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer misrepresents the role of psychological pricing mechanisms in economic decision-making.",
-      "difficulty": 5
-    },
-    {
-      "question": "In what way does the concept of scarcity affect consumer choices?",
-      "good_answer": "Scarcity influences purchasing decisions by making products scarce, thus reducing their availability.",
-      "flawed_answer": "Scarcity only affects buying decisions within the same category of goods.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer incorrectly attributes scarcity to a lack of supply, which isn't accurate.",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the concept of brand loyalty impact consumer behavior?",
-      "good_answer": "Brand loyalty enhances customer satisfaction and preference for certain brands over others.",
-      "flawed_answer": "Loyalty only affects preferences within the same brand family.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer fails to consider the broader impact of brand loyalty on consumer choice across various brands.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the purpose of the algorithm?",
-      "good_answer": "The purpose of the algorithm is to process data, identify patterns, and make decisions based on those patterns.",
-      "flawed_answer": "An algorithm's primary purpose is to solve problems or complete tasks by following predefined rules.",
-      "flaw_type": "factual_error",
-      "feedback": "This answer is incorrect because an algorithm's main goal is not just to solve problems but also to learn from experiences and improve over time.",
-      "difficulty": 5
-    },
-    {
-      "question": "How does an algorithm work?",
-      "good_answer": "An algorithm works by systematically breaking down complex problems into smaller subproblems, solving these subproblems using predefined steps, and combining the results to produce the final solution.",
-      "flawed_answer": "An algorithm can be simple or complex depending on its complexity level.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer is correct as it correctly identifies that algorithms can have different levels of complexity.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the difference between an algorithm and a program?",
-      "good_answer": "An algorithm is a set of instructions that describes how to perform a task, while a program is a collection of code written in a programming language that defines a function or a procedure to accomplish a specific task.",
-      "flawed_answer": "There is no clear distinction between an algorithm and a program.",
-      "flaw_type": "incomplete",
-      "feedback": "This answer is incorrect as there isn't one.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the role of input in an algorithm?",
-      "good_answer": "Input is used to provide initial data or information needed by the algorithm to perform calculations or processes.",
-      "flawed_answer": "An algorithm requires all inputs to be numerical values.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer is incorrect as an algorithm doesn't need inputs at all; it only needs inputs to begin processing.",
-      "difficulty": 5
-    },
-    {
-      "question": "How do you implement an algorithm in Python?",
-      "good_answer": "To implement an algorithm in Python, follow these steps: define the problem (or algorithm) using variables, create a loop structure if necessary, write the algorithm logic, and run the algorithm.",
-      "flawed_answer": "Python does not support algorithms directly like some other languages.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer is incorrect as Python is not designed for implementing algorithms, it is primarily used for scripting.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the significance of the algorithmic thinking in decision-making?",
-      "good_answer": "Algorithmic thinking involves understanding how to break down complex problems into simpler components and then reassembling them to arrive at a solution.",
-      "flawed_answer": "Decision-making without considering algorithms is a form of irrational behavior.",
-      "flaw_type": "incomplete",
-      "feedback": "This answer is incorrect as decision-making should involve algorithms to make informed choices.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the importance of debugging in algorithm development?",
-      "good_answer": "Debugging helps find errors or inconsistencies in the algorithm's logic, ensuring that it accurately solves the problem.",
-      "flawed_answer": "Debugging is irrelevant to algorithm development.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer is incorrect as debugging is crucial for improving algorithms rather than being unrelated.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the difference between supply and demand in microeconomics?",
-      "good_answer": "Supply refers to the quantity of a good that producers are willing to sell at a given price, while demand indicates how much consumers are willing to buy at different prices.",
-      "flawed_answer": "Demand can be influenced by factors other than just price changes, such as consumer preferences or expectations about future prices.",
-      "flaw_type": "Logical fallacy",
-      "feedback": "The answer incorrectly identifies demand as being solely influenced by price changes without considering other factors.",
-      "difficulty": 5
-    },
-    {
-      "question": "Which economic concept explains why people prefer one type of housing over another?",
-      "good_answer": "Income elasticity of demand measures the responsiveness of the quantity demanded to a change in income.",
-      "flawed_answer": "This concept does not account for the impact of other factors like location, amenities, or perceived value on housing preferences.",
-      "flaw_type": "Logical fallacy",
-      "feedback": "The answer incorrectly attributes income elasticity exclusively to price changes without including other variables.",
-      "difficulty": 5
-    },
-    {
-      "question": "How would you classify a product with a negative net present value (NPV) if it were to be sold?",
-      "good_answer": "It represents a loss in value due to its current market position.",
-      "flawed_answer": "A negative NPV implies a potential loss, which contradicts the idea that all products should have positive values.",
-      "flaw_type": "Logical fallacy",
-      "feedback": "The answer incorrectly equates a negative NPV with a loss rather than recognizing its potential benefits.",
-      "difficulty": 5
-    },
-    {
-      "question": "In the context of microeconomics, what role do taxes play in determining consumer spending?",
-      "good_answer": "Taxes encourage individuals to spend more because they reduce their disposable income.",
-      "flawed_answer": "This statement misrepresents the relationship between taxes and consumer spending as merely reducing income levels.",
-      "flaw_type": "Logical fallacy",
-      "feedback": "The answer incorrectly links taxes directly to reduced income instead of understanding them as influencing discretionary spending.",
-      "difficulty": 5
-    },
-    {
-      "question": "How does government intervention typically affect the market equilibrium in terms of price and quantity?",
-      "good_answer": "Government policies can influence market prices through regulations and subsidies, but these actions often lead to temporary adjustments rather than permanent shifts.",
-      "flawed_answer": "There is no guarantee that interventions will always achieve long-term equilibrium outcomes.",
-      "flaw_type": "Logical fallacy",
-      "feedback": "The answer overlooks the possibility that interventions may not always result in the desired long-run balance.",
-      "difficulty": 5
-    },
-    {
-      "question": "What factor primarily influences the elasticity of supply in response to changes in input costs?",
-      "good_answer": "The elasticity of supply is determined by the proportion of the increase in cost to the corresponding increase in output.",
-      "flawed_answer": "Elasticity is not affected by changes in input costs; it remains constant regardless of changes in inputs.",
-      "flaw_type": "Logical fallacy",
-      "feedback": "The answer incorrectly states that elasticity depends only on changes in input costs, ignoring other relevant factors.",
-      "difficulty": 5
-    },
-    {
-      "question": "If a company's sales revenue decreases by $2 million, and this decrease is due entirely to a rise in raw material prices, how would this affect the company's profit margin?",
-      "good_answer": "Profit margins would likely remain unchanged since raw material prices do not affect the core business operations.",
-      "flawed_answer": "A decrease in sales revenue could indicate issues with production efficiency or quality, leading to higher costs that offset any reduction in revenue.",
-      "flaw_type": "Logical fallacy",
-      "feedback": "The answer incorrectly suggests that a decrease in sales revenue alone is sufficient to maintain profitability, missing the broader implications.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the definition of 'cognitive science'?",
-      "good_answer": "The study of the mind and its functions",
-      "flawed_answer": "The field that studies human cognition (thinking, learning, memory)",
-      "flaw_type": "misleading",
-      "feedback": "This answer incorrectly defines cognitive science as merely studying human thinking.",
-      "difficulty": 5
-    },
-    {
-      "question": "Which philosopher is credited with developing the concept of 'Cogito ergo sum'?",
-      "good_answer": "Ren\u00e9 Descartes",
-      "flawed_answer": "Immanuel Kant",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This statement uses a false dichotomy between Cartesian and Kantian views.",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the brain process information in terms of neurons?",
-      "good_answer": "Neurons receive signals from sensory inputs and transmit these signals to other neurons via synapses",
-      "flawed_answer": "Neurons directly connect to muscles without any signal processing",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer misrepresents the neural pathway where information travels.",
-      "difficulty": 5
-    },
-    {
-      "question": "What role do neurotransmitters play in the nervous system?",
-      "good_answer": "Transmit chemical signals between neurons",
-      "flawed_answer": "Regulate the activity of other cells within the nervous system",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer conflates neurotransmitter function with neuron regulation.",
-      "difficulty": 5
-    },
-    {
-      "question": "Why is it important for the brain to have a healthy balance of neurotransmitters?",
-      "good_answer": "To facilitate communication between different parts of the brain and maintain overall brain health",
-      "flawed_answer": "It helps regulate mood and behavior by balancing hormones",
-      "flaw_type": "misleading",
-      "feedback": "This answer overgeneralizes the importance of neurotransmitters.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the difference between synaptic plasticity and neuroplasticity?",
-      "good_answer": "Synaptic plasticity refers to changes in the strength or connections between neurons during learning and memory formation, while neuroplasticity involves the entire brain being able to adapt and change over time",
-      "flawed_answer": "Both refer to the same thing \u2013 changes in brain structure and function",
-      "flaw_type": "incomplete",
-      "feedback": "This answer fails to distinguish between the two concepts.",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the brain use short-term and long-term memory?",
-      "good_answer": "Short-term memory stores facts and experiences, while long-term memory holds memories formed through experience",
-      "flawed_answer": "Long-term memory only contains learned information, not personal experiences",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer incorrectly categorizes long-term memory into learned versus personal experiences.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the purpose of the hippocampus in the brain?",
-      "good_answer": "Facilitates the consolidation of new memories and spatial orientation",
-      "flawed_answer": "Receives and processes sensory input, which is irrelevant to memory formation",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer misinterprets the primary role of the hippocampus.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the capital of France?",
-      "good_answer": "Paris",
-      "flawed_answer": "Berlin",
-      "flaw_type": "incorrect_fact",
-      "feedback": "The capital of France is Paris, not Berlin.",
-      "difficulty": 5
-    },
-    {
-      "question": "Which scientist was awarded the Nobel Prize in Physiology or Medicine in 2020?",
-      "good_answer": "Sally Ride",
-      "flawed_answer": "Einstein",
-      "flaw_type": "incorrect_name",
-      "feedback": "Sally Ride received the Nobel Prize in Physics in 2013, not in 2020.",
-      "difficulty": 5
-    },
-    {
-      "question": "Who wrote 'To Kill a Mockingbird'?",
-      "good_answer": "Harper Lee",
-      "flawed_answer": "J.D. Salinger",
-      "flaw_type": "incorrect_author",
-      "feedback": "Harper Lee wrote this novel in 1960, while J.D. Salinger published it in 1957.",
-      "difficulty": 5
-    },
-    {
-      "question": "In which year did the first Moon landing occur?",
-      "good_answer": "1969",
-      "flawed_answer": "1986",
-      "flaw_type": "incorrect_date",
-      "feedback": "The first moon landing occurred on July 20, 1969.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the official language of the United States?",
-      "good_answer": "English",
-      "flawed_answer": "Spanish",
-      "flaw_type": "incorrect_language",
-      "feedback": "English is the only official language of the United States.",
-      "difficulty": 5
-    },
-    {
-      "question": "Which American actor starred in the movie 'Coco'?",
-      "good_answer": "Tom Cruise",
-      "flawed_answer": "Leonardo DiCaprio",
-      "flaw_type": "incorrect_actor",
-      "feedback": "Tom Cruise played the role of Miguel in 'Coco,' not Leonardo DiCaprio.",
-      "difficulty": 5
-    },
-    {
-      "question": "Who is the current President of the United States?",
-      "good_answer": "Joe Biden",
-      "flawed_answer": "Donald Trump",
-      "flaw_type": "incorrect_president",
-      "feedback": "President Joe Biden took office on January 20, 2021, while Donald Trump served from 2017 to 2021.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of organic_chemistry.",
       "difficulty": 5
     },
     {
       "question": "What is the primary cause of global warming?",
-      "good_answer": "Human activities such as burning fossil fuels, deforestation, and industrial processes.",
-      "flawed_answer": "Natural disasters like hurricanes and floods contribute to it.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer includes some logical fallacies, but it incorrectly attributes human activities to causing global warming.",
+      "good_answer": "Human activities, primarily burning fossil fuels, lead to increased greenhouse gas emissions.",
+      "flawed_answer": "Other factors such as deforestation and industrial processes contribute to climate change.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer includes an incorrect factor that leads to global warming (deforestation). The correct explanation should include multiple causes including human activity.",
       "difficulty": 5
     },
     {
-      "question": "How does air pollution affect water quality in lakes?",
-      "good_answer": "It decreases the pH level of the lake by reducing dissolved oxygen levels.",
-      "flawed_answer": "Pollution increases water temperature which can lead to algal blooms that harm aquatic life.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The answer is incorrect because it uses a causative relationship between pollution and algal blooms rather than the reverse.",
+      "question": "Which planet is known for having the most extensive ice caps?",
+      "good_answer": "Mars, due to its thick atmosphere which traps water vapor from the sun.",
+      "flawed_answer": "Earth has the largest ice caps because it receives more sunlight than any other planet.",
+      "flaw_type": "Incomplete",
+      "feedback": "The answer fails to mention Earth's moon, which also has significant ice caps.",
       "difficulty": 5
     },
     {
-      "question": "Which of the following is NOT a renewable energy source?",
-      "good_answer": "Wind power",
-      "flawed_answer": "Coal mining",
-      "flaw_type": "misleading",
-      "feedback": "This answer contains a misleading statement about coal mining, stating it is not a renewable energy source when in fact, wind power is.",
+      "question": "What is the current state of renewable energy sources in terms of installed capacity?",
+      "good_answer": "Renewable energy sources have surpassed coal and nuclear power as the world's largest source of electricity production.",
+      "flawed_answer": "While renewables have significantly increased their share, they still account for only about 20% of total electricity generation worldwide.",
+      "flaw_type": "Misleading",
+      "feedback": "The answer suggests that renewables are now the dominant source of electricity, but this is not entirely true given the global trend towards increased reliance on non-renewable resources.",
       "difficulty": 5
     },
     {
-      "question": "What is the most common type of marine life in coral reefs?",
-      "good_answer": "Fish and crustaceans",
-      "flawed_answer": "Most marine life forms are insects.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The answer is flawed due to using the word 'most' instead of identifying all species present in the reef ecosystem.",
+      "question": "How does carbon dioxide concentration in the atmosphere affect weather patterns?",
+      "good_answer": "Increasing atmospheric CO\u2082 levels can lead to more extreme weather events like heatwaves and droughts.",
+      "flawed_answer": "There are many ways CO\u2082 affects weather, such as through cloud formation and precipitation.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly attributes the effect of CO\u2082 to weather patterns instead of directly addressing how CO\u2082 impacts weather.",
       "difficulty": 5
     },
     {
-      "question": "Why do plants use sunlight to produce food?",
-      "good_answer": "To synthesize carbohydrates from carbon dioxide and water through photosynthesis.",
-      "flawed_answer": "Plants only use sunlight for respiration, not for photosynthesis.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The answer is correct since plants do indeed use sunlight for photosynthesis.",
+      "question": "What is the average annual rainfall in the Amazon rainforest?",
+      "good_answer": "The average annual rainfall in the Amazon rainforest ranges from approximately 870 mm to 1,490 mm per year.",
+      "flawed_answer": "Rainfall data for the Amazon rainforest is unreliable and varies widely over time.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer provides an estimate based on a single year's data without considering long-term trends or variability.",
       "difficulty": 5
     },
     {
-      "question": "What is the role of oceans in regulating the Earth\u2019s climate?",
-      "good_answer": "Oceans absorb about half of the CO2 emitted into the atmosphere.",
-      "flawed_answer": "Oceans release more CO2 into the atmosphere than they absorb.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The answer is incorrect because it misrepresents the role of oceans in climate regulation.",
+      "question": "What is the estimated amount of water lost to evaporation annually in the Amazon rainforest?",
+      "good_answer": "According to some estimates, up to 60% of the water loss to evaporation occurs in the Amazon rainforest.",
+      "flawed_answer": "This figure is based on historical data and may be subject to changes in recent years.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer misinterprets the proportion of water loss to evaporation in the Amazon rainforest.",
       "difficulty": 5
     },
     {
-      "question": "Which of these is not a living organism?",
-      "good_answer": "A computer program running on a supercomputer",
-      "flawed_answer": "A bacteria colony growing on a plate",
-      "flaw_type": "incomplete",
-      "feedback": "The answer is incomplete as it fails to distinguish between a bacterial colony and a computer program.",
+      "question": "What is the impact of deforestation on local ecosystems?",
+      "good_answer": "Deforestation often leads to soil erosion, habitat destruction, and reduced biodiversity.",
+      "flawed_answer": "Some argue that deforestation improves air quality by absorbing pollutants.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly attributes the benefits of deforestation to improved air quality rather than its negative effects.",
       "difficulty": 5
     },
     {
-      "question": "What is the relationship between brain activity and emotions?",
-      "good_answer": "Emotions can be triggered by changes in brain activity.",
-      "flawed_answer": "Emotions may be influenced by other factors, such as neurotransmitters and physiological states.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The answer incorrectly attributes the connection between brain activity and emotions to emotional triggers.",
+      "question": "What is a key concept in poetry?",
+      "good_answer": "poetry involves fundamental principles and their practical applications.",
+      "flawed_answer": "poetry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of poetry.",
       "difficulty": 5
     },
     {
-      "question": "How does the brain process information about the environment?",
-      "good_answer": "Information from the environment is processed through sensory input before being interpreted.",
-      "flawed_answer": "Information processing happens only after it has been interpreted.",
-      "flaw_type": "misleading",
-      "feedback": "The answer misinterprets the role of sensory input in processing environmental information.",
+      "question": "What is a key concept in poetry?",
+      "good_answer": "poetry involves fundamental principles and their practical applications.",
+      "flawed_answer": "poetry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of poetry.",
       "difficulty": 5
     },
     {
-      "question": "Which part of the brain is primarily responsible for regulating emotion?",
-      "good_answer": "The amygdala is primarily involved in regulating emotion.",
-      "flawed_answer": "Other parts of the brain also play a role in regulating emotion.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The answer incorrectly assigns different roles to different parts of the brain.",
+      "question": "What is a key concept in poetry?",
+      "good_answer": "poetry involves fundamental principles and their practical applications.",
+      "flawed_answer": "poetry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of poetry.",
       "difficulty": 5
     },
     {
-      "question": "What is the difference between conscious and unconscious cognition?",
-      "good_answer": "Conscious cognition involves deliberate thought, while unconscious cognition involves automatic processes.",
-      "flawed_answer": "Both types of cognition involve thinking, but they operate at different levels.",
-      "flaw_type": "incomplete",
-      "feedback": "The answer fails to distinguish between conscious and unconscious cognitive processes.",
+      "question": "What is a key concept in poetry?",
+      "good_answer": "poetry involves fundamental principles and their practical applications.",
+      "flawed_answer": "poetry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of poetry.",
       "difficulty": 5
     },
     {
-      "question": "What is the neural basis of memory formation?",
-      "good_answer": "Memory formation involves the consolidation of long-term memories.",
-      "flawed_answer": "Short-term memory is sufficient for all forms of memory formation.",
-      "flaw_type": "misleading",
-      "feedback": "The answer incorrectly suggests that short-term memory is enough for all forms of memory formation.",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the human brain adapt to changing environments?",
-      "good_answer": "The brain adapts to changes by strengthening connections between neurons.",
-      "flawed_answer": "The brain adapts by creating new pathways or strengthening existing ones.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The answer incorrectly attributes adaptation to new pathways rather than strengthening old connections.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the primary function of the thalamus?",
-      "good_answer": "The thalamus serves as a relay station for sensory inputs and secondary output.",
-      "flawed_answer": "It is primarily responsible for regulating attention and arousal.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The answer incorrectly associates the thalamus with primary functions like regulation of attention and arousal.",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the role of the hippocampus in spatial memory?",
-      "good_answer": "The hippocampus plays a crucial role in forming spatial memories.",
-      "flawed_answer": "While important, its role in spatial memory is less critical compared to other regions.",
-      "flaw_type": "incomplete",
-      "feedback": "The answer fails to provide a clear statement on the role of the hippocampus in spatial memory.",
+      "question": "What is a key concept in poetry?",
+      "good_answer": "poetry involves fundamental principles and their practical applications.",
+      "flawed_answer": "poetry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of poetry.",
       "difficulty": 5
     }
   ],
   "questions": [
     {
-      "question": "What is the primary purpose of law?",
+      "question": "Explain the key concepts of law.",
       "topic": "law",
       "difficulty": 5
     },
     {
-      "question": "How does the concept of law differ from other forms of authority in society?",
-      "topic": "law",
+      "question": "What is the difference between black holes and white dwarfs?",
+      "topic": "astrophysics",
       "difficulty": 5
     },
     {
-      "question": "In what ways can laws be influenced by societal values and beliefs?",
-      "topic": "law",
+      "question": "How do astronomers determine the age of stars using stellar evolution models?",
+      "topic": "astrophysics",
       "difficulty": 5
     },
     {
-      "question": "Describe the role of legal systems in maintaining social order and protecting individuals and groups.",
-      "topic": "law",
+      "question": "What are the main processes involved in the formation of galaxies, including mergers and interactions with other galaxies?",
+      "topic": "astrophysics",
       "difficulty": 5
     },
     {
-      "question": "Explain the process of judicial review, including its importance for maintaining legal consistency and fairness.",
-      "topic": "law",
+      "question": "Can gravitational waves be detected by current telescopes? If so, how does this relate to the study of dark matter?",
+      "topic": "astrophysics",
       "difficulty": 5
     },
     {
-      "question": "How do international agreements and treaties impact domestic legal systems?",
-      "topic": "law",
+      "question": "Describe the structure of a solar system, focusing on planets, moons, and their orbits.",
+      "topic": "astrophysics",
       "difficulty": 5
     },
     {
-      "question": "What is the difference between statutory law and common law, and how do they affect legal proceedings and decision-making processes?",
-      "topic": "law",
+      "question": "What is the significance of the cosmic microwave background radiation (CMB) in our understanding of the Big Bang and the early universe?",
+      "topic": "astrophysics",
       "difficulty": 5
     },
     {
-      "question": "Discuss the relationship between law enforcement and criminal justice systems.",
-      "topic": "law",
+      "question": "Why is it important for scientists to understand the relationship between different types of energy in the universe, such as light, heat, and nuclear fusion?",
+      "topic": "astrophysics",
       "difficulty": 5
     },
     {
-      "question": "What is the concept of precedent in the context of legal procedures and why it is important?",
-      "topic": "law",
+      "question": "How do we interpret the results of the Planck satellite's measurements, which provide a detailed description of the universe at its earliest stages?",
+      "topic": "astrophysics",
       "difficulty": 5
     },
     {
-      "question": "How does the principle of stare decisis influence the development of law over time?",
-      "topic": "law",
+      "question": "What are some common methods used in space missions like Mars rovers or lunar probes to collect data about the Martian surface and explore potential future habitable areas?",
+      "topic": "astrophysics",
       "difficulty": 5
     },
     {
-      "question": "What is the definition of continuity in calculus?",
-      "topic": "calculus",
+      "question": "How can we predict the behavior of stars and galaxies based on their observed properties over time?",
+      "topic": "astrophysics",
       "difficulty": 5
     },
     {
-      "question": "How does the concept of limits apply to functions and derivatives?",
-      "topic": "calculus",
+      "question": "What is the primary goal of macroeconomic policy?",
+      "topic": "macroeconomics",
       "difficulty": 5
     },
     {
-      "question": "What is the role of the derivative in calculus, and how is it used?",
-      "topic": "calculus",
+      "question": "How does aggregate demand and supply affect economic growth?",
+      "topic": "macroeconomics",
       "difficulty": 5
     },
     {
-      "question": "In what ways do integrals represent areas under curves?",
-      "topic": "calculus",
+      "question": "What factors influence inflation rates in different countries?",
+      "topic": "macroeconomics",
       "difficulty": 5
     },
     {
-      "question": "How is the Fundamental Theorem of Calculus related to differentiation?",
-      "topic": "calculus",
+      "question": "How do interest rates impact investment and savings decisions?",
+      "topic": "macroeconomics",
       "difficulty": 5
     },
     {
-      "question": "What are some important properties of integrals that help in solving problems?",
-      "topic": "calculus",
+      "question": "What role does government spending play in the economy, and how can it be regulated?",
+      "topic": "macroeconomics",
       "difficulty": 5
     },
     {
-      "question": "How does the method of integration relate to the area between two curves?",
-      "topic": "calculus",
+      "question": "What are the effects of changes in the exchange rate on international trade balances?",
+      "topic": "macroeconomics",
       "difficulty": 5
     },
     {
-      "question": "What is the relationship between differential equations and calculus?",
-      "topic": "calculus",
+      "question": "How do monetary policies like interest rates and fiscal policies like taxes affect economic stability?",
+      "topic": "macroeconomics",
       "difficulty": 5
     },
     {
-      "question": "In calculus, why might we use implicit differentiation?",
-      "topic": "calculus",
+      "question": "What are the implications of global imbalances for national economies?",
+      "topic": "macroeconomics",
       "difficulty": 5
     },
     {
-      "question": "What is the primary function of enzymes in biochemical reactions?",
-      "topic": "biochemistry",
+      "question": "How do financial institutions contribute to economic stability through regulation and oversight?",
+      "topic": "macroeconomics",
       "difficulty": 5
     },
     {
-      "question": "Describe the process of photosynthesis and its role in energy transfer.",
-      "topic": "biochemistry",
+      "question": "What are the challenges faced by central banks when trying to control inflation?",
+      "topic": "macroeconomics",
       "difficulty": 5
     },
     {
-      "question": "How does the molecular structure of DNA affect its functions within cells?",
-      "topic": "biochemistry",
-      "difficulty": 5
-    },
-    {
-      "question": "What is meant by the term 'enzyme kinetics' and how do they relate to enzyme activity?",
-      "topic": "biochemistry",
-      "difficulty": 5
-    },
-    {
-      "question": "Why is it important for organisms to maintain proper pH levels in their environments?",
-      "topic": "biochemistry",
-      "difficulty": 5
-    },
-    {
-      "question": "Discuss the concept of allosteric regulation and its significance in biological systems.",
-      "topic": "biochemistry",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the role of nucleotides in protein synthesis and how this affects genetic information storage.",
-      "topic": "biochemistry",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the relationship between metabolism, cellular respiration, and oxygen consumption?",
-      "topic": "biochemistry",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the mechanism of translation contribute to the folding and assembly of proteins?",
-      "topic": "biochemistry",
-      "difficulty": 5
-    },
-    {
-      "question": "Describe the mechanisms involved in signal transduction pathways in cells and their importance in various physiological processes.",
-      "topic": "biochemistry",
-      "difficulty": 5
-    },
-    {
-      "question": "What were the main causes and consequences of the Black Death in medieval Europe?",
-      "topic": "medieval_history",
-      "difficulty": 5
-    },
-    {
-      "question": "Describe the layout of medieval castles, including their defensive features and functions.",
-      "topic": "medieval_history",
-      "difficulty": 5
-    },
-    {
-      "question": "How did the Crusades influence the development of Christianity in Western Europe?",
-      "topic": "medieval_history",
-      "difficulty": 5
-    },
-    {
-      "question": "Discuss the role of feudalism in medieval society, focusing on its economic benefits and drawbacks.",
-      "topic": "medieval_history",
-      "difficulty": 5
-    },
-    {
-      "question": "Compare and contrast the social structures of early medieval England with those of later medieval England.",
-      "topic": "medieval_history",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the impact of the Hundred Years' War on European politics and trade networks.",
-      "topic": "medieval_history",
-      "difficulty": 5
-    },
-    {
-      "question": "What were the key factors that led to the rise of the Renaissance in Europe?",
-      "topic": "medieval_history",
-      "difficulty": 5
-    },
-    {
-      "question": "Describe the life expectancy and mortality rates during the Middle Ages, and how they influenced religious beliefs and practices.",
-      "topic": "medieval_history",
-      "difficulty": 5
-    },
-    {
-      "question": "How did the invention of gunpowder change warfare tactics in medieval times?",
-      "topic": "medieval_history",
-      "difficulty": 5
-    },
-    {
-      "question": "Analyze the relationship between religion and governance in medieval Europe, including the roles of bishops and kings.",
-      "topic": "medieval_history",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the primary function of vitamins in the human body? ",
-      "topic": "medicine",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the body regulate blood sugar levels during fasting or exercise? ",
-      "topic": "medicine",
-      "difficulty": 5
-    },
-    {
-      "question": "In what way do antibiotics work to kill bacteria? ",
-      "topic": "medicine",
-      "difficulty": 5
-    },
-    {
-      "question": "Describe the process of photosynthesis and its importance in plant life support.",
-      "topic": "medicine",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the role of hormones in regulating bodily functions, such as temperature control and mood? ",
-      "topic": "medicine",
-      "difficulty": 5
-    },
-    {
-      "question": "How do vaccines work to protect against diseases? ",
-      "topic": "medicine",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the difference between a medication and an over-the-counter (OTC) drug? ",
-      "topic": "medicine",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the mechanism behind the effects of aspirin on reducing pain and inflammation? ",
-      "topic": "medicine",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the human immune system recognize and respond to pathogens? ",
-      "topic": "medicine",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the purpose of antioxidants in preventing oxidative damage to cells? ",
-      "topic": "medicine",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the difference between plant and animal cells?",
-      "topic": "biology",
-      "difficulty": 5
-    },
-    {
-      "question": "How do organisms reproduce? (e.g., sexual reproduction or asexual reproduction)",
-      "topic": "biology",
-      "difficulty": 5
-    },
-    {
-      "question": "What are the two main types of energy sources used by plants, animals, and microorganisms?",
-      "topic": "biology",
-      "difficulty": 5
-    },
-    {
-      "question": "Describe the structure of chloroplasts in plant cells.",
-      "topic": "biology",
-      "difficulty": 5
-    },
-    {
-      "question": "Why is it important for plants to have root hairs?",
-      "topic": "biology",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the role of DNA replication in cell division?",
-      "topic": "biology",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the difference between endosymbiosis and phagocytosis?",
-      "topic": "biology",
-      "difficulty": 5
-    },
-    {
-      "question": "What are the three major levels of organization in biological systems?",
-      "topic": "biology",
-      "difficulty": 5
-    },
-    {
-      "question": "What are some common pathogens that affect humans?",
-      "topic": "biology",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the significance of photosynthesis in ecosystems?",
-      "topic": "biology",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the nervous system contribute to an organism's survival and function?",
-      "topic": "biology",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the fundamental law of motion and how does it explain the behavior of objects in motion? ",
-      "topic": "physics",
-      "difficulty": 5
-    },
-    {
-      "question": "How does gravity exert its gravitational force on celestial bodies like planets and stars? ",
-      "topic": "physics",
-      "difficulty": 5
-    },
-    {
-      "question": "Describe the concept of inertia and why it's important for understanding motion. ",
-      "topic": "physics",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the principle behind Newton's First Law of Motion, and how does it relate to free-fall? ",
-      "topic": "physics",
-      "difficulty": 5
-    },
-    {
-      "question": "Explain the relationship between mass, weight, and acceleration due to gravity. ",
-      "topic": "physics",
-      "difficulty": 5
-    },
-    {
-      "question": "How do waves propagate through matter, and what are some examples of wave phenomena? ",
-      "topic": "physics",
-      "difficulty": 5
-    },
-    {
-      "question": "What is electromagnetic induction, and how does it work? ",
-      "topic": "physics",
-      "difficulty": 5
-    },
-    {
-      "question": "Discuss the concept of centripetal force and its importance in circular motion. ",
-      "topic": "physics",
-      "difficulty": 5
-    },
-    {
-      "question": "Describe the motion of a projectile using Newton's Second Law. ",
-      "topic": "physics",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the Doppler effect affect sound waves, and how can this be used to determine the speed of an object moving away from or towards you? ",
-      "topic": "physics",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the impact of cognitive dissonance on consumer behavior in different markets?",
-      "topic": "behavioral_economics",
-      "difficulty": 5
-    },
-    {
-      "question": "Can behavioral economics explain why people tend to make decisions based on emotional rather than rational considerations?",
-      "topic": "behavioral_economics",
-      "difficulty": 5
-    },
-    {
-      "question": "How does social proof influence consumer choices and what role do peer recommendations play?",
-      "topic": "behavioral_economics",
-      "difficulty": 5
-    },
-    {
-      "question": "Behavioral economics explains how consumers perceive and act upon information, including media consumption.",
-      "topic": "behavioral_economics",
-      "difficulty": 5
-    },
-    {
-      "question": "What factors contribute to the variation in decision-making processes between individuals?",
-      "topic": "behavioral_economics",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the availability heuristic affect our decision-making when faced with ambiguous or complex situations?",
-      "topic": "behavioral_economics",
-      "difficulty": 5
-    },
-    {
-      "question": "Is there any empirical evidence that suggests the use of technology has an impact on consumer behavior? If so, what specific technologies have been most influential?",
-      "topic": "behavioral_economics",
-      "difficulty": 5
-    },
-    {
-      "question": "Behavioral economics examines the ways in which we form beliefs and attitudes towards ourselves and others.",
-      "topic": "behavioral_economics",
-      "difficulty": 5
-    },
-    {
-      "question": "Which economic theories might be relevant for understanding consumer behavior in a competitive market?",
-      "topic": "behavioral_economics",
-      "difficulty": 5
-    },
-    {
-      "question": "Can behavioral economics account for why some products may perform well despite low demand?",
-      "topic": "behavioral_economics",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the historical context in which 'The Great Gatsby' was written?",
-      "topic": "literature",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the use of symbolism in 'The Great Gatsby' contribute to its themes?",
-      "topic": "literature",
-      "difficulty": 5
-    },
-    {
-      "question": "Describe the structure and tone of 'The Great Gatsby', focusing on the opening scenes.",
-      "topic": "literature",
-      "difficulty": 5
-    },
-    {
-      "question": "What literary devices do you think enhance the thematic depth of 'The Great Gatsby'? (e.g., foreshadowing, imagery, metaphor)",
-      "topic": "literature",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the character of Jay Gatsby's wife, Daisy Buchanan, impact the narrative of 'The Great Gatsby'",
-      "topic": "literature",
-      "difficulty": 5
-    },
-    {
-      "question": "In what ways does the setting of 1920s New York influence the portrayal of characters like Tom and Nick in 'The Great Gatsby'",
-      "topic": "literature",
-      "difficulty": 5
-    },
-    {
-      "question": "What role does the protagonist, F. Scott Fitzgerald, play in shaping the novel's themes and style?",
-      "topic": "literature",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the contrast between the wealthy elite of 1920s America and the lower classes reflect the broader social and economic changes of the era?",
-      "topic": "literature",
-      "difficulty": 5
-    },
-    {
-      "question": "What literary techniques does 'The Great Gatsby' employ to create tension and suspense throughout the story?",
-      "topic": "literature",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the novel's ending reflect the moral and psychological complexities it explores?",
-      "topic": "literature",
-      "difficulty": 5
-    },
-    {
-      "question": "What significant events or figures from the early 20th century shape the narrative of 'The Great Gatsby'?",
-      "topic": "literature",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the time complexity of the quicksort algorithm?",
+      "question": "What is the purpose of an algorithm?",
       "topic": "algorithms",
       "difficulty": 5
     },
     {
-      "question": "How does the space complexity of dynamic programming differ from that of recursion?",
+      "question": "How does an algorithm work?",
       "topic": "algorithms",
       "difficulty": 5
     },
     {
-      "question": "Define and explain the concept of divide-and-conquer in algorithms.",
+      "question": "What are the types of algorithms?",
       "topic": "algorithms",
       "difficulty": 5
     },
     {
-      "question": "Describe the process of sorting an array using bubble sort and discuss its advantages and disadvantages.",
+      "question": "What are some common data structures in algorithms?",
       "topic": "algorithms",
       "difficulty": 5
     },
     {
-      "question": "How can you efficiently find the maximum element in an unsorted list without modifying the original list?",
+      "question": "What are the basic operations in algorithms (e.g., sorting, searching)?",
       "topic": "algorithms",
       "difficulty": 5
     },
     {
-      "question": "Discuss the use of memoization in algorithms to optimize recursive functions.",
+      "question": "How do you design an algorithm for a given problem?",
       "topic": "algorithms",
       "difficulty": 5
     },
     {
-      "question": "What is the difference between backtracking and brute force search methods for solving problems?",
+      "question": "What is the difference between deterministic and randomized algorithms?",
       "topic": "algorithms",
       "difficulty": 5
     },
     {
-      "question": "Compare and contrast iterative and recursive approaches to solving linear equations.",
+      "question": "How can I optimize an algorithm's performance?",
       "topic": "algorithms",
       "difficulty": 5
     },
     {
-      "question": "What is the definition of supply and demand in economics?",
+      "question": "What is divide-and-conquer approach in algorithms?",
+      "topic": "algorithms",
+      "difficulty": 5
+    },
+    {
+      "question": "How would you implement a binary search algorithm on a sorted list?",
+      "topic": "algorithms",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the fundamental law of motion that describes how objects interact with each other? ",
+      "topic": "physics",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the concept of energy relate to the movement and change of matter in physics? ",
+      "topic": "physics",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the principles behind Newton's first law of motion, which states an object at rest stays at rest and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force.",
+      "topic": "physics",
+      "difficulty": 5
+    },
+    {
+      "question": "Why do we say that gravity is a force? What causes it? ",
+      "topic": "physics",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the difference between kinetic and potential energy? ",
+      "topic": "physics",
+      "difficulty": 5
+    },
+    {
+      "question": "How can you measure the speed of an object using a velocity meter? ",
+      "topic": "physics",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the relationship between temperature and thermal energy? How does this affect heat transfer?",
+      "topic": "physics",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the speed of sound in air compare to its speed in water? ",
+      "topic": "physics",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the formula for calculating the momentum of an object? ",
+      "topic": "physics",
+      "difficulty": 5
+    },
+    {
+      "question": "In what ways do electromagnetic waves propagate through space? ",
+      "topic": "physics",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the difference between scientific and philosophical knowledge?",
+      "topic": "epistemology",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the concept of induction relate to epistemological debates?",
+      "topic": "epistemology",
+      "difficulty": 5
+    },
+    {
+      "question": "What role do theories of belief in epistemology play in understanding our beliefs?",
+      "topic": "epistemology",
+      "difficulty": 5
+    },
+    {
+      "question": "How can we reconcile epistemological skepticism with rationalist views on knowledge?",
+      "topic": "epistemology",
+      "difficulty": 5
+    },
+    {
+      "question": "In what ways does the idea of human ignorance contribute to epistemological debates?",
+      "topic": "epistemology",
+      "difficulty": 5
+    },
+    {
+      "question": "What implications does the concept of epistemic freedom have for ethical decision-making?",
+      "topic": "epistemology",
+      "difficulty": 5
+    },
+    {
+      "question": "How might the notion of cognitive dissonance impact epistemological reasoning?",
+      "topic": "epistemology",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the relationship between epistemology and the nature of reality?",
+      "topic": "epistemology",
+      "difficulty": 5
+    },
+    {
+      "question": "Can we define epistemology without necessarily relying on empirical evidence?",
+      "topic": "epistemology",
+      "difficulty": 5
+    },
+    {
+      "question": "How should epistemologists address the issue of self-knowledge?",
+      "topic": "epistemology",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of genetics.",
+      "topic": "genetics",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the difference between supply and demand in microeconomics?",
       "topic": "microeconomics",
       "difficulty": 5
     },
     {
-      "question": "How does price determination work in a market economy?",
+      "question": "How does aggregate supply (AS) affect price levels in an economy?",
       "topic": "microeconomics",
       "difficulty": 5
     },
     {
-      "question": "Describe the concept of opportunity cost in economic decision-making.",
+      "question": "Describe the concept of market equilibrium and its importance in macroeconomic analysis.",
       "topic": "microeconomics",
       "difficulty": 5
     },
     {
-      "question": "What role do consumers play in setting prices for goods or services?",
+      "question": "What role do government regulations play in microeconomic policy-making?",
       "topic": "microeconomics",
       "difficulty": 5
     },
     {
-      "question": "Why is government intervention often necessary in an economy?",
+      "question": "Explain the relationship between inflation and unemployment through the Phillips curve framework.",
       "topic": "microeconomics",
       "difficulty": 5
     },
     {
-      "question": "How does the marginal utility theory explain consumer behavior?",
+      "question": "How can changes in production costs impact the cost structure of firms, leading to shifts in the labor market?",
       "topic": "microeconomics",
       "difficulty": 5
     },
     {
-      "question": "What is the difference between fixed and variable costs in production?",
+      "question": "Define the term 'output gap' and discuss its significance in economic policy decisions.",
       "topic": "microeconomics",
       "difficulty": 5
     },
     {
-      "question": "In what ways can inflation affect economic growth?",
+      "question": "Discuss the effects of tax policies on consumer behavior and aggregate demand in the short run.",
       "topic": "microeconomics",
       "difficulty": 5
     },
     {
-      "question": "What is the principle of diminishing returns in production?",
+      "question": "In microeconomics, what is meant by 'rent-seeking' and how does it influence resource allocation?",
       "topic": "microeconomics",
       "difficulty": 5
     },
     {
-      "question": "How do taxes influence consumer spending decisions?",
+      "question": "How does the availability of information in markets affect individual decision-making processes?",
       "topic": "microeconomics",
       "difficulty": 5
     },
     {
-      "question": "What is the relationship between aggregate supply and output in macroeconomics?",
+      "question": "Compare and contrast the concepts of marginal utility and marginal cost in the context of microeconomics.",
       "topic": "microeconomics",
       "difficulty": 5
     },
     {
-      "question": "What is the primary function of the brain in processing information?",
-      "topic": "cognitive_science",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the brain's neural networks enable learning and memory?",
-      "topic": "cognitive_science",
-      "difficulty": 5
-    },
-    {
-      "question": "Describe the role of the neocortex in higher-order functions such as language and emotion regulation.",
-      "topic": "cognitive_science",
-      "difficulty": 5
-    },
-    {
-      "question": "Why do some people have more left hemisphere dominance than others when it comes to spatial reasoning?",
-      "topic": "cognitive_science",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the hippocampus contribute to episodic memory formation?",
-      "topic": "cognitive_science",
-      "difficulty": 5
-    },
-    {
-      "question": "Discuss the relationship between creativity and brain structure, including areas like the prefrontal cortex.",
-      "topic": "cognitive_science",
-      "difficulty": 5
-    },
-    {
-      "question": "What evidence supports the view that the human brain has evolved over time through natural selection?",
-      "topic": "cognitive_science",
-      "difficulty": 5
-    },
-    {
-      "question": "How might neuroplasticity explain the ability for humans to learn new languages quickly and fluently?",
-      "topic": "cognitive_science",
-      "difficulty": 5
-    },
-    {
-      "question": "In what ways can the study of cognitive neuroscience inform our understanding of mental health disorders?",
-      "topic": "cognitive_science",
-      "difficulty": 5
-    },
-    {
-      "question": "How does the brain process visual information differently compared to auditory or tactile inputs?",
-      "topic": "cognitive_science",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the significance of the lateralization of brain activity during tasks requiring different types of attention (e.g., reading vs. driving)?",
-      "topic": "cognitive_science",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the earliest known written record of human existence?",
-      "topic": "history",
-      "difficulty": 5
-    },
-    {
-      "question": "Who was the first emperor in recorded history?",
-      "topic": "history",
-      "difficulty": 5
-    },
-    {
-      "question": "What significant event marked the beginning of the Roman Republic?",
-      "topic": "history",
-      "difficulty": 5
-    },
-    {
-      "question": "How many years did the United States have before its founding?",
-      "topic": "history",
-      "difficulty": 5
-    },
-    {
-      "question": "What was the first major scientific discovery made by Galileo Galilei?",
-      "topic": "history",
-      "difficulty": 5
-    },
-    {
-      "question": "In what year did the First World War begin?",
-      "topic": "history",
-      "difficulty": 5
-    },
-    {
-      "question": "What was the first recorded use of electricity for lighting?",
-      "topic": "history",
-      "difficulty": 5
-    },
-    {
-      "question": "Who wrote the first book to be published anonymously, 'The Divine Comedy'?",
-      "topic": "history",
-      "difficulty": 5
-    },
-    {
-      "question": "What was the first large-scale public works project in Europe?",
-      "topic": "history",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the current state of global climate change, and what are some key factors contributing to this issue?",
-      "topic": "environmental_science",
-      "difficulty": 5
-    },
-    {
-      "question": "Describe at least three major sources of air pollution in our urban areas, including their impacts on public health.",
-      "topic": "environmental_science",
-      "difficulty": 5
-    },
-    {
-      "question": "What role do forests play in carbon sequestration and how can they be restored or protected for future environmental benefits?",
-      "topic": "environmental_science",
-      "difficulty": 5
-    },
-    {
-      "question": "How does deforestation affect biodiversity and ecosystems, and what measures can we take to prevent its irreversible destruction?",
-      "topic": "environmental_science",
-      "difficulty": 5
-    },
-    {
-      "question": "What are the primary sources of water pollution in our rivers, lakes, and oceans, and how can these be addressed to protect aquatic life?",
-      "topic": "environmental_science",
-      "difficulty": 5
-    },
-    {
-      "question": "How has technological advancements influenced environmental science, and what implications might these have for sustainable development?",
-      "topic": "environmental_science",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the significance of biodiversity in maintaining ecological balance and ecosystem services?",
-      "topic": "environmental_science",
-      "difficulty": 5
-    },
-    {
-      "question": "How can we reduce plastic waste in our daily lives, both individually and collectively?",
-      "topic": "environmental_science",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the impact of ocean acidification on marine life, and what steps can we take to mitigate this effect?",
-      "topic": "environmental_science",
-      "difficulty": 5
-    },
-    {
-      "question": "What are the most pressing issues related to renewable energy production and consumption today, and how can we address them?",
-      "topic": "environmental_science",
-      "difficulty": 5
-    },
-    {
-      "question": "How does human activity contribute to soil erosion and what are the potential solutions to mitigate this problem?",
-      "topic": "environmental_science",
-      "difficulty": 5
-    },
-    {
-      "question": "What is the current understanding of the brain's neural circuitry and its role in cognitive functions?",
+      "question": "What is the primary function of neurons in the brain?",
       "topic": "neuroscience",
       "difficulty": 5
     },
     {
-      "question": "How does neuroplasticity explain how humans can learn new skills or adapt to changing environments?",
+      "question": "How does neurotransmission work within the nervous system?",
       "topic": "neuroscience",
       "difficulty": 5
     },
     {
-      "question": "What is the relationship between genetics and behavior, and how does this influence neurodevelopment and disease?",
+      "question": "Describe the process of synaptic plasticity and its implications for learning and memory.",
       "topic": "neuroscience",
       "difficulty": 5
     },
     {
-      "question": "Describe the process of synaptic plasticity and how it contributes to learning and memory formation.",
+      "question": "What role do glial cells play in neurodevelopment and function?",
       "topic": "neuroscience",
       "difficulty": 5
     },
     {
-      "question": "How does the concept of homeostasis relate to the nervous system and its ability to maintain internal stability?",
+      "question": "How does the concept of neural networks relate to information processing in the brain?",
       "topic": "neuroscience",
       "difficulty": 5
     },
     {
-      "question": "What are some key mechanisms by which neurotransmitters interact with neurons, and how do these interactions affect behavior?",
+      "question": "What is the difference between sensory input, cognitive processing, and executive functions in the brain?",
       "topic": "neuroscience",
       "difficulty": 5
     },
     {
-      "question": "How does the cerebellum play a role in motor control and coordination, and what specific tasks does it perform?",
+      "question": "What are the key differences between synapses and dendrites in terms of their structural components?",
       "topic": "neuroscience",
       "difficulty": 5
     },
     {
-      "question": "Explain the role of dopamine in reward processing and how it influences mood and motivation.",
+      "question": "How do changes in gene expression affect the structure and function of neurons in the brain?",
       "topic": "neuroscience",
       "difficulty": 5
     },
     {
-      "question": "How does the hippocampus contribute to spatial navigation and memory consolidation, and what role does it play during sleep?",
+      "question": "What is the relationship between brain development and cognitive function?",
       "topic": "neuroscience",
       "difficulty": 5
     },
     {
-      "question": "What are the different types of sensory information processed by the cortex, and how do they support higher-level cognitive functions?",
+      "question": "How does the experience of pain influence neuronal activity in the brain?",
       "topic": "neuroscience",
+      "difficulty": 5
+    },
+    {
+      "question": "What are the physiological mechanisms behind the generation and modulation of emotions in the brain?",
+      "topic": "neuroscience",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the central theme or motif in Edgar Allan Poe's 'The Tell-Tale Heart'?",
+      "topic": "literature",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the protagonist's journey from innocence to madness in 'The Kite Runner'",
+      "topic": "literature",
+      "difficulty": 5
+    },
+    {
+      "question": "Investigate the symbolism of the Great Wall of China in J.K. Rowling's 'Harry Potter and the Philosopher's Stone'",
+      "topic": "literature",
+      "difficulty": 5
+    },
+    {
+      "question": "What literary devices does Anton Chekhov use in his play 'The Chameleon'? ",
+      "topic": "literature",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the author use imagery in 'Romeo and Juliet' by Shakespeare?",
+      "topic": "literature",
+      "difficulty": 5
+    },
+    {
+      "question": "Discuss the theme of family unity and betrayal in William Shakespeare's 'Hamlet'",
+      "topic": "literature",
+      "difficulty": 5
+    },
+    {
+      "question": "Investigate the use of foreshadowing in Jane Austen's 'Pride and Prejudice'",
+      "topic": "literature",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the significance of the 'shadowy' character in 'The Picture of Dorian Gray'",
+      "topic": "literature",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the structure of 'Brave New World' differ from traditional literature?",
+      "topic": "literature",
+      "difficulty": 5
+    },
+    {
+      "question": "Examine the use of irony in 'The Catcher in the Rye' by J.D. Salinger.",
+      "topic": "literature",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the fundamental frequency of a string instrument?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the pitch of a note change with increased tension in an instrument?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the difference between overtone and harmonic notes.",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the role of resonance in musical instruments, and how does it affect sound production?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "How can one determine if a chord is major or minor based on its intervals?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the concept of consonance and how does it relate to harmony in music?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "How do chromatic scales work in relation to musical composition?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "What is meant by the term 'melodic' in music theory, and why is this important?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the concept of tonality influence the structure of Western classical music?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the significance of the interval of fourths in the relationship between two pitches?",
+      "topic": "music_theory",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the difference between prokaryotic and eukaryotic cells?",
+      "topic": "microbiology",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the basic structure of a bacterial cell, including its membrane system.",
+      "topic": "microbiology",
+      "difficulty": 5
+    },
+    {
+      "question": "Compare and contrast the genetic material in prokaryotes with that in eukaryotes.",
+      "topic": "microbiology",
+      "difficulty": 5
+    },
+    {
+      "question": "What are the main types of viruses? How do they infect host cells?",
+      "topic": "microbiology",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the process of antibiotic resistance work?",
+      "topic": "microbiology",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the role of mitochondria in cellular respiration in both prokaryotes and eukaryotes.",
+      "topic": "microbiology",
+      "difficulty": 5
+    },
+    {
+      "question": "What are some common microorganisms found in human body?",
+      "topic": "microbiology",
+      "difficulty": 5
+    },
+    {
+      "question": "How do pathogens spread from one organism to another?",
+      "topic": "microbiology",
+      "difficulty": 5
+    },
+    {
+      "question": "Compare and contrast the roles of plasmids and chromosomes in bacterial genetics.",
+      "topic": "microbiology",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the significance of the cytoskeleton in animal cells compared to plant cells?",
+      "topic": "microbiology",
+      "difficulty": 5
+    },
+    {
+      "question": "Discuss the mechanisms by which bacteria produce toxins and enzymes for their own survival or for pathogenicity.",
+      "topic": "microbiology",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the primary function of water in organic chemistry?",
+      "topic": "organic_chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the difference between an aldehyde and an alcohol.",
+      "topic": "organic_chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "Why is it important to include water in chemical reactions?",
+      "topic": "organic_chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the concept of acid-base equilibrium in organic molecules.",
+      "topic": "organic_chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "How does the presence of water affect the stability of esters formed from alcohols?",
+      "topic": "organic_chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the role of hydroxyl groups in organic compounds?",
+      "topic": "organic_chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "Discuss the impact of water on the reactivity of organic compounds with other molecules.",
+      "topic": "organic_chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "Compare and contrast aldehydes and ketones in terms of their functional groups.",
+      "topic": "organic_chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "How can the presence of water influence the formation of carbocations or carbocation derivatives?",
+      "topic": "organic_chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "What happens to the structure of a molecule when water is added to it during a reaction?",
+      "topic": "organic_chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "Analyze the mechanism for the formation of hydrogen bonds in organic molecules.",
+      "topic": "organic_chemistry",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the primary goal of environmental science?",
+      "topic": "environmental_science",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the basic principles and methods used in studying ecosystems.",
+      "topic": "environmental_science",
+      "difficulty": 5
+    },
+    {
+      "question": "How does climate change affect biodiversity and ecosystem stability?",
+      "topic": "environmental_science",
+      "difficulty": 5
+    },
+    {
+      "question": "Discuss the role of carbon capture and storage in reducing greenhouse gas emissions.",
+      "topic": "environmental_science",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the concept of renewable energy sources and their importance for sustainability.",
+      "topic": "environmental_science",
+      "difficulty": 5
+    },
+    {
+      "question": "Compare and contrast different types of pollution, including air, water, and land pollution.",
+      "topic": "environmental_science",
+      "difficulty": 5
+    },
+    {
+      "question": "How do pollutants impact human health and how can we mitigate their effects?",
+      "topic": "environmental_science",
+      "difficulty": 5
+    },
+    {
+      "question": "Describe the scientific evidence supporting the need for sustainable agriculture practices.",
+      "topic": "environmental_science",
+      "difficulty": 5
+    },
+    {
+      "question": "Analyze the impacts of urbanization on local ecosystems and propose solutions.",
+      "topic": "environmental_science",
+      "difficulty": 5
+    },
+    {
+      "question": "Identify the key factors affecting global food security and discuss potential strategies to address these issues.",
+      "topic": "environmental_science",
+      "difficulty": 5
+    },
+    {
+      "question": "Explain the key concepts of poetry.",
+      "topic": "poetry",
       "difficulty": 5
     }
   ],
-  "example_count": 98,
-  "question_count": 151
+  "example_count": 89,
+  "question_count": 127
 }

@@ -2,315 +2,123 @@
   "difficulty": 2,
   "examples": [
     {
-      "question": "What is the difference between linear and non-linear functions?",
-      "good_answer": "Linear functions have a constant rate of change, while non-linear functions do not.",
-      "flawed_answer": "A straight line can be considered both linear and non-linear if it follows a quadratic relationship.",
-      "flaw_type": "factual_error",
-      "feedback": "This answer incorrectly states that all linear functions have a constant rate of change.",
-      "difficulty": 3
-    },
-    {
-      "question": "How does the derivative of a function at a point represent instantaneous rate of change?",
-      "good_answer": "The derivative measures the slope of the tangent line to the curve at that point.",
-      "flawed_answer": "The derivative also represents the average rate of change over an interval around the point.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer uses incorrect terminology (slope vs. average rate)",
-      "difficulty": 4
-    },
-    {
-      "question": "What is the formula for finding the area under a curve using integration?",
-      "good_answer": "Area = \u222b from x1 to x2 f(x) dx where f(x) is the height of the curve at any given x-value.",
-      "flawed_answer": "It should be Area = \u222b from x1 to x2 f(x) dx where f(x) is the base of the triangle or rectangle at any given x-value.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "This answer incorrectly specifies the base as the width of the rectangle, leading to an incorrect calculation.",
-      "difficulty": 3
-    },
-    {
-      "question": "Why is the concept of limits important in calculus?",
-      "good_answer": "Limits allow us to understand the behavior of functions as input approaches a certain value.",
-      "flawed_answer": "They are used to define derivatives and integrals but are not essential for understanding basic concepts.",
-      "flaw_type": "misleading",
-      "feedback": "This answer misrepresents the role of limits in calculus.",
-      "difficulty": 4
-    },
-    {
-      "question": "In physics, why is it important to use units when working with physical quantities?",
-      "good_answer": "Units ensure consistency across different systems of measurement.",
-      "flawed_answer": "Using units makes calculations easier without needing precision.",
-      "flaw_type": "incomplete",
-      "feedback": "This answer fails to provide a complete explanation about the importance of units in physics.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the mathematical principle behind Newton's Law of Universal Gravitation?",
-      "good_answer": "G = m * c^2 where G is the gravitational constant, m is mass, and c is the speed of light.",
-      "flawed_answer": "It applies only to the Earth-Moon system and does not account for other planets.",
-      "flaw_type": "incomplete",
-      "feedback": "This answer omits the fact that the law applies to all masses in the universe.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the acceleration due to gravity on Earth?",
-      "good_answer": "9.8 m/s\u00b2",
-      "flawed_answer": "The value of g varies depending on location, altitude, and atmospheric conditions.",
-      "flaw_type": "incomplete",
-      "feedback": "I have included the correct formula for calculating g (g = 9.8 m/s\u00b2) in my response.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the relationship between the force of friction and the normal force?",
-      "good_answer": "Friction is directly proportional to the normal force.",
-      "flawed_answer": "In some cases, friction can be less than or equal to the normal force.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "I provided the correct explanation that friction is not always greater than the normal force.",
-      "difficulty": 2
-    },
-    {
-      "question": "How does the mass of an object affect its weight?",
-      "good_answer": "Weight depends only on the mass of the object and is independent of its location.",
-      "flawed_answer": "Mass affects both the gravitational pull on objects and their weight.",
-      "flaw_type": "incomplete",
-      "feedback": "I added more context by explaining that mass also influences the gravitational force acting on objects.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the maximum safe speed for cars according to car safety standards?",
-      "good_answer": "The maximum safe speed for cars is 110 km/h.",
-      "flawed_answer": "Speed limits are set at different levels based on road conditions, traffic volume, and other factors.",
-      "flaw_type": "misleading",
-      "feedback": "I explained that the maximum speed limit applies to all types of vehicles regardless of their design or performance.",
-      "difficulty": 2
-    },
-    {
-      "question": "What happens to an object when it falls freely from a height?",
-      "good_answer": "An object will fall under gravity until it reaches the ground.",
-      "flawed_answer": "An object continues to fall after reaching the ground because there is no air resistance.",
-      "flaw_type": "logic_error",
-      "feedback": "I corrected the misunderstanding about air resistance in the final answer.",
-      "difficulty": 2
-    },
-    {
-      "question": "Why do we use centripetal force instead of just gravity when describing circular motion?",
-      "good_answer": "Centripetal force is necessary to keep an object moving in a curved path while gravity keeps it moving straight.",
-      "flawed_answer": "We can ignore centripetal force as it is much weaker than gravity.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "I clarified that centripetal force is required to maintain the circular motion without ignoring gravity.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in art_history?",
-      "good_answer": "art_history involves fundamental principles and their practical applications.",
-      "flawed_answer": "art_history is only about memorizing facts.",
+      "question": "What is a key concept in calculus?",
+      "good_answer": "calculus involves fundamental principles and their practical applications.",
+      "flawed_answer": "calculus is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of calculus.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in art_history?",
-      "good_answer": "art_history involves fundamental principles and their practical applications.",
-      "flawed_answer": "art_history is only about memorizing facts.",
+      "question": "What is a key concept in calculus?",
+      "good_answer": "calculus involves fundamental principles and their practical applications.",
+      "flawed_answer": "calculus is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of calculus.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in art_history?",
-      "good_answer": "art_history involves fundamental principles and their practical applications.",
-      "flawed_answer": "art_history is only about memorizing facts.",
+      "question": "What is a key concept in calculus?",
+      "good_answer": "calculus involves fundamental principles and their practical applications.",
+      "flawed_answer": "calculus is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of calculus.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in art_history?",
-      "good_answer": "art_history involves fundamental principles and their practical applications.",
-      "flawed_answer": "art_history is only about memorizing facts.",
+      "question": "What is a key concept in calculus?",
+      "good_answer": "calculus involves fundamental principles and their practical applications.",
+      "flawed_answer": "calculus is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of calculus.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in art_history?",
-      "good_answer": "art_history involves fundamental principles and their practical applications.",
-      "flawed_answer": "art_history is only about memorizing facts.",
+      "question": "What is a key concept in calculus?",
+      "good_answer": "calculus involves fundamental principles and their practical applications.",
+      "flawed_answer": "calculus is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of calculus.",
       "difficulty": 2
     },
     {
-      "question": "What is the purpose of human memory?",
-      "good_answer": "To store information indefinitely.",
-      "flawed_answer": "To retrieve information from long-term storage.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct answer should state that human memory serves to encode, store, and retrieve information.",
-      "difficulty": 2
-    },
-    {
-      "question": "How does the brain process visual information?",
-      "good_answer": "By forming mental images in the left hemisphere of the brain.",
-      "flawed_answer": "By using the right hemisphere exclusively.",
-      "flaw_type": "misleading",
-      "feedback": "The correct answer should mention both hemispheres of the brain working together.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the role of dopamine in motivation?",
-      "good_answer": "It primarily regulates reward-seeking behavior.",
-      "flawed_answer": "It directly influences decision-making processes.",
-      "flaw_type": "incomplete",
-      "feedback": "The provided answer includes additional factors not mentioned in the question.",
-      "difficulty": 2
-    },
-    {
-      "question": "What are the stages of sleep?",
-      "good_answer": "Rest, dreaming, and waking up.",
-      "flawed_answer": "Sleeping patterns can vary greatly between individuals.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct answer should describe the typical phases of sleep.",
-      "difficulty": 2
-    },
-    {
-      "question": "Which neurotransmitter is responsible for regulating mood?",
-      "good_answer": "GABA, which works by inhibiting the activity of neurons.",
-      "flawed_answer": "GAD, which affects the regulation of anxiety.",
-      "flaw_type": "misleading",
-      "feedback": "The provided answer incorrectly identifies GABA as a neurotransmitter.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the function of the hippocampus in memory formation?",
-      "good_answer": "It stores new memories formed during sleep.",
-      "flawed_answer": "It helps consolidate memories after sleep.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct answer should link the hippocampus to consolidation mechanisms.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the effect of stress on cognitive functions?",
-      "good_answer": "Stress leads to decreased attention and memory.",
-      "flawed_answer": "Stress causes immediate cognitive impairment without affecting long-term memory.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct answer should acknowledge that stress impacts various cognitive domains.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in electromagnetism?",
-      "good_answer": "electromagnetism involves fundamental principles and their practical applications.",
-      "flawed_answer": "electromagnetism is only about memorizing facts.",
+      "question": "What is a key concept in economics?",
+      "good_answer": "economics involves fundamental principles and their practical applications.",
+      "flawed_answer": "economics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of electromagnetism.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of economics.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in electromagnetism?",
-      "good_answer": "electromagnetism involves fundamental principles and their practical applications.",
-      "flawed_answer": "electromagnetism is only about memorizing facts.",
+      "question": "What is a key concept in economics?",
+      "good_answer": "economics involves fundamental principles and their practical applications.",
+      "flawed_answer": "economics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of electromagnetism.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of economics.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in electromagnetism?",
-      "good_answer": "electromagnetism involves fundamental principles and their practical applications.",
-      "flawed_answer": "electromagnetism is only about memorizing facts.",
+      "question": "What is a key concept in economics?",
+      "good_answer": "economics involves fundamental principles and their practical applications.",
+      "flawed_answer": "economics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of electromagnetism.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of economics.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in electromagnetism?",
-      "good_answer": "electromagnetism involves fundamental principles and their practical applications.",
-      "flawed_answer": "electromagnetism is only about memorizing facts.",
+      "question": "What is a key concept in economics?",
+      "good_answer": "economics involves fundamental principles and their practical applications.",
+      "flawed_answer": "economics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of electromagnetism.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of economics.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in electromagnetism?",
-      "good_answer": "electromagnetism involves fundamental principles and their practical applications.",
-      "flawed_answer": "electromagnetism is only about memorizing facts.",
+      "question": "What is a key concept in economics?",
+      "good_answer": "economics involves fundamental principles and their practical applications.",
+      "flawed_answer": "economics is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of electromagnetism.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of economics.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in literature?",
-      "good_answer": "literature involves fundamental principles and their practical applications.",
-      "flawed_answer": "literature is only about memorizing facts.",
+      "question": "What is a key concept in music_theory?",
+      "good_answer": "music_theory involves fundamental principles and their practical applications.",
+      "flawed_answer": "music_theory is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of literature.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in computer_science?",
-      "good_answer": "computer_science involves fundamental principles and their practical applications.",
-      "flawed_answer": "computer_science is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of computer_science.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of music_theory.",
       "difficulty": 2
     },
     {
@@ -354,139 +162,515 @@
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in astronomy?",
-      "good_answer": "astronomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "astronomy is only about memorizing facts.",
+      "question": "What is a key concept in engineering?",
+      "good_answer": "engineering involves fundamental principles and their practical applications.",
+      "flawed_answer": "engineering is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of engineering.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in astronomy?",
-      "good_answer": "astronomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "astronomy is only about memorizing facts.",
+      "question": "What is a key concept in engineering?",
+      "good_answer": "engineering involves fundamental principles and their practical applications.",
+      "flawed_answer": "engineering is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of engineering.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in astronomy?",
-      "good_answer": "astronomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "astronomy is only about memorizing facts.",
+      "question": "What is a key concept in engineering?",
+      "good_answer": "engineering involves fundamental principles and their practical applications.",
+      "flawed_answer": "engineering is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of engineering.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in astronomy?",
-      "good_answer": "astronomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "astronomy is only about memorizing facts.",
+      "question": "What is a key concept in engineering?",
+      "good_answer": "engineering involves fundamental principles and their practical applications.",
+      "flawed_answer": "engineering is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of engineering.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in astronomy?",
-      "good_answer": "astronomy involves fundamental principles and their practical applications.",
-      "flawed_answer": "astronomy is only about memorizing facts.",
+      "question": "What is a key concept in engineering?",
+      "good_answer": "engineering involves fundamental principles and their practical applications.",
+      "flawed_answer": "engineering is only about memorizing facts.",
       "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of astronomy.",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of engineering.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in cybersecurity?",
-      "good_answer": "cybersecurity involves fundamental principles and their practical applications.",
-      "flawed_answer": "cybersecurity is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of cybersecurity.",
+      "question": "What is the capital of France?",
+      "good_answer": "Paris",
+      "flawed_answer": "London, Madrid, Rome, Tokyo",
+      "flaw_type": "mislabeled",
+      "feedback": "The correct answer is Paris.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in cybersecurity?",
-      "good_answer": "cybersecurity involves fundamental principles and their practical applications.",
-      "flawed_answer": "cybersecurity is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of cybersecurity.",
+      "question": "In which year did the Industrial Revolution start?",
+      "good_answer": "1764",
+      "flawed_answer": "1840s",
+      "flaw_type": "incorrect_date",
+      "feedback": "The correct date was 1764.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in cybersecurity?",
-      "good_answer": "cybersecurity involves fundamental principles and their practical applications.",
-      "flawed_answer": "cybersecurity is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of cybersecurity.",
+      "question": "Which ocean separates Africa from Asia?",
+      "good_answer": "Indian Ocean",
+      "flawed_answer": "Pacific Ocean",
+      "flaw_type": "confusing_two_oceans",
+      "feedback": "The Indian Ocean is actually the second largest body of water after the Pacific Ocean.",
       "difficulty": 2
     },
     {
-      "question": "What is a key concept in cybersecurity?",
-      "good_answer": "cybersecurity involves fundamental principles and their practical applications.",
-      "flawed_answer": "cybersecurity is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of cybersecurity.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in cybersecurity?",
-      "good_answer": "cybersecurity involves fundamental principles and their practical applications.",
-      "flawed_answer": "cybersecurity is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of cybersecurity.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the formula for water?",
-      "good_answer": "H2O",
-      "flawed_answer": "HO2",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct formula for water is H2O.",
-      "difficulty": 2
-    },
-    {
-      "question": "Which element has the highest atomic number?",
-      "good_answer": "Helium",
-      "flawed_answer": "Iron",
-      "flaw_type": "logical_fallacy",
-      "feedback": "Iron has a higher atomic number than Helium.",
-      "difficulty": 2
-    },
-    {
-      "question": "How many electrons does an oxygen atom have?",
-      "good_answer": "8",
+      "question": "How many continents does the Earth have?",
+      "good_answer": "5",
       "flawed_answer": "7",
-      "flaw_type": "incomplete",
-      "feedback": "An oxygen atom should have 8 electrons, not 7.",
+      "flaw_type": "mistaken_count",
+      "feedback": "There are five major landmasses on the Earth\u2019s surface.",
       "difficulty": 2
     },
     {
-      "question": "What is the difference between pH and pOH in aqueous solutions?",
-      "good_answer": "pH measures the acidity or basicity of a solution, while pOH measures the concentration of hydrogen ions.",
-      "flawed_answer": "It is possible to have both pH and pOH values greater than 14.",
+      "question": "Where does the Nile River originate in Egypt?",
+      "good_answer": "Egypt",
+      "flawed_answer": "Nile flows into the Atlantic Ocean",
+      "flaw_type": "incorrect_location",
+      "feedback": "The Nile originates in Egypt.",
+      "difficulty": 2
+    },
+    {
+      "question": "Which country is known as the 'Land of the Rising Sun' due to its tropical climate?",
+      "good_answer": "Japan",
+      "flawed_answer": "Australia",
+      "flaw_type": "misplaced_country",
+      "feedback": "Japan is not known for having a tropical climate.",
+      "difficulty": 2
+    },
+    {
+      "question": "Which mountain range runs through the United States from east to west?",
+      "good_answer": "Andes Mountains",
+      "flawed_answer": " Rockies Mountains",
+      "flaw_type": "confusing_two_mountains",
+      "feedback": "The Andes Mountains run from north to south.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the official language of Saudi Arabia?",
+      "good_answer": "Arabic",
+      "flawed_answer": "English",
+      "flaw_type": "mistaken_language",
+      "feedback": "Saudi Arabia uses Arabic as their official language.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the purpose of machine learning?",
+      "good_answer": "Machine learning is used to teach computers how to learn from data.",
+      "flawed_answer": "Machine learning is used to create new algorithms that can perform tasks without human intervention.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly states that machines learn from data rather than creating new algorithms.",
+      "difficulty": 2
+    },
+    {
+      "question": "How does artificial intelligence (AI) work?",
+      "good_answer": "Artificial intelligence involves using computer programs to mimic human intelligence processes.",
+      "flawed_answer": "Artificial intelligence refers to the ability of computers to think like humans.",
+      "flaw_type": "Misleading",
+      "feedback": "The answer incorrectly states that it mimics human intelligence instead of thinking like humans.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the main difference between natural language processing (NLP) and machine translation?",
+      "good_answer": "Natural language processing focuses on understanding and generating human language, while machine translation aims to convert one language into another.",
+      "flawed_answer": "It's difficult to distinguish between NLP and machine translation because they both involve text processing.",
+      "flaw_type": "Incomplete",
+      "feedback": "The answer provides a general comparison but doesn't mention the differences in focus or application.",
+      "difficulty": 2
+    },
+    {
+      "question": "Why is deep learning considered more powerful than traditional neural networks?",
+      "good_answer": "Deep learning uses multiple layers of interconnected nodes to analyze complex patterns in data.",
+      "flawed_answer": "Traditional neural networks use fewer layers and rely on simple rules.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly states that deeper layers have no effect on power.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the role of reinforcement learning in artificial intelligence?",
+      "good_answer": "Reinforcement learning is used to make decisions based on rewards and punishments.",
+      "flawed_answer": "Reinforcement learning is about making choices based on external rewards.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly states that reinforcement learning makes decisions based on rewards.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the primary goal of bioinformatics?",
+      "good_answer": "Bioinformatics aims to understand biological systems and functions.",
+      "flawed_answer": "It focuses on the study of life forms and genetic information.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer incorrectly states that bioinformatics studies life forms.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the main difference between supervised learning and unsupervised learning?",
+      "good_answer": "Supervised learning uses labeled data to train models, while unsupervised learning uses unlabeled data.",
+      "flawed_answer": "There isn't much difference; both methods require labeling.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The answer suggests there is no significant difference.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in poetry?",
+      "good_answer": "poetry involves fundamental principles and their practical applications.",
+      "flawed_answer": "poetry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of poetry.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in poetry?",
+      "good_answer": "poetry involves fundamental principles and their practical applications.",
+      "flawed_answer": "poetry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of poetry.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in poetry?",
+      "good_answer": "poetry involves fundamental principles and their practical applications.",
+      "flawed_answer": "poetry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of poetry.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in poetry?",
+      "good_answer": "poetry involves fundamental principles and their practical applications.",
+      "flawed_answer": "poetry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of poetry.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in poetry?",
+      "good_answer": "poetry involves fundamental principles and their practical applications.",
+      "flawed_answer": "poetry is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of poetry.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in art_history?",
+      "good_answer": "art_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "art_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in art_history?",
+      "good_answer": "art_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "art_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in art_history?",
+      "good_answer": "art_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "art_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in art_history?",
+      "good_answer": "art_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "art_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in art_history?",
+      "good_answer": "art_history involves fundamental principles and their practical applications.",
+      "flawed_answer": "art_history is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of art_history.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the primary goal of renewable energy research?",
+      "good_answer": "To increase the use of fossil fuels as soon as possible.",
+      "flawed_answer": "The goal should be to transition away from fossil fuels entirely.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer misinterprets the goals of renewable energy research.",
+      "difficulty": 3
+    },
+    {
+      "question": "Why does the global temperature rise in response to greenhouse gas emissions?",
+      "good_answer": "It's caused by natural variability rather than human activity.",
+      "flawed_answer": "Greenhouse gases trap heat in the atmosphere, leading to warming.",
+      "flaw_type": "Incomplete",
+      "feedback": "This answer lacks context about the sources of the greenhouse effect.",
+      "difficulty": 4
+    },
+    {
+      "question": "How do microorganisms contribute to carbon sequestration in ecosystems?",
+      "good_answer": "They convert CO\u2082 into organic compounds that can be stored underground.",
+      "flawed_answer": "Microorganisms primarily store CO\u2082 in their cells, not soil.",
+      "flaw_type": "Misleading",
+      "feedback": "This answer incorrectly states that all microbes store CO\u2082.",
+      "difficulty": 5
+    },
+    {
+      "question": "What role do forests play in carbon storage and regulation?",
+      "good_answer": "Forests act as carbon sinks, absorbing CO\u2082 from the atmosphere.",
+      "flawed_answer": "Forests only absorb CO\u2082 during photosynthesis, not during respiration.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly attributes the absorption of CO\u2082 solely to photosynthesis.",
+      "difficulty": 6
+    },
+    {
+      "question": "Which method is commonly used to measure the amount of CO\u2082 released into the atmosphere?",
+      "good_answer": "Direct measurements of atmospheric CO\u2082 concentrations.",
+      "flawed_answer": "Estimates based on tree growth models.",
+      "flaw_type": "Incomplete",
+      "feedback": "This answer provides insufficient data to estimate CO\u2082 release accurately.",
+      "difficulty": 7
+    },
+    {
+      "question": "What impact does deforestation have on local climate patterns?",
+      "good_answer": "Local climates remain stable regardless of deforestation rates.",
+      "flawed_answer": "Deforestation can lead to changes in local precipitation patterns and temperature variations.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly attributes climate stability to deforestation.",
+      "difficulty": 8
+    },
+    {
+      "question": "How does urbanization affect local air quality?",
+      "good_answer": "Air quality improves due to increased public transportation.",
+      "flawed_answer": "Urban areas often suffer from poor air quality due to higher emissions from vehicles and industrial activities.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly attributes improved air quality to more efficient public transport.",
+      "difficulty": 9
+    },
+    {
+      "question": "What role do agricultural practices play in carbon footprint reduction?",
+      "good_answer": "Crops and livestock produce significant amounts of CO\u2082 through their production processes.",
+      "flawed_answer": "Reducing food waste can help lower agricultural emissions but is not directly related to reducing carbon footprints.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "This answer incorrectly attributes reduced food waste to lowering emissions.",
+      "difficulty": 10
+    },
+    {
+      "question": "What is a key concept in microeconomics?",
+      "good_answer": "microeconomics involves fundamental principles and their practical applications.",
+      "flawed_answer": "microeconomics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of microeconomics.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in microeconomics?",
+      "good_answer": "microeconomics involves fundamental principles and their practical applications.",
+      "flawed_answer": "microeconomics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of microeconomics.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in microeconomics?",
+      "good_answer": "microeconomics involves fundamental principles and their practical applications.",
+      "flawed_answer": "microeconomics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of microeconomics.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in microeconomics?",
+      "good_answer": "microeconomics involves fundamental principles and their practical applications.",
+      "flawed_answer": "microeconomics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of microeconomics.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in microeconomics?",
+      "good_answer": "microeconomics involves fundamental principles and their practical applications.",
+      "flawed_answer": "microeconomics is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of microeconomics.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the primary purpose of ethical criticism?",
+      "good_answer": "To provide guidance on how to behave ethically in various situations.",
+      "flawed_answer": "To criticize someone or something based solely on their actions without considering the context or consequences.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "The criticism should be informed by ethical principles rather than focusing solely on personal conduct.",
+      "difficulty": 2
+    },
+    {
+      "question": "How can one demonstrate ethical behavior in everyday life?",
+      "good_answer": "By consistently acting with integrity and treating others with respect.",
+      "flawed_answer": "By constantly seeking praise and approval from authority figures.",
+      "flaw_type": "Incomplete",
+      "feedback": "Demonstrating ethical behavior requires consistency and self-awareness over time.",
+      "difficulty": 3
+    },
+    {
+      "question": "What role does empathy play in ethical decision-making?",
+      "good_answer": "Empathy helps individuals understand and relate to the feelings of others, fostering mutual respect.",
+      "flawed_answer": "Empathy can lead to unrealistic expectations and unnecessary conflicts.",
+      "flaw_type": "Misleading",
+      "feedback": "Empathetic responses often come at the expense of others' dignity and autonomy.",
+      "difficulty": 4
+    },
+    {
+      "question": "Which scenario exemplifies the concept of moral relativism?",
+      "good_answer": "Tribal customs vary widely among different cultures.",
+      "flawed_answer": "Ethical standards are universally applicable across all societies.",
+      "flaw_type": "Misleading",
+      "feedback": "Relativist views ignore the universal nature of ethical principles.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the importance of ethical standards in modern society?",
+      "good_answer": "They ensure that people act fairly and justly towards themselves and others.",
+      "flawed_answer": "They serve as guidelines for personal behavior but lack real-world application.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "Ethics should be applied consistently across different contexts and situations.",
+      "difficulty": 6
+    },
+    {
+      "question": "How can we apply ethical reasoning to avoid unethical behavior?",
+      "good_answer": "By identifying the underlying values and principles guiding our actions.",
+      "flawed_answer": "By relying solely on empirical evidence and avoiding ethical considerations.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "Understanding the root causes of unethical behavior enhances ethical decision-making.",
+      "difficulty": 7
+    },
+    {
+      "question": "What is the difference between ethical norms and ethical rules?",
+      "good_answer": "Ethical norms are general guidelines that apply to most situations, while ethical rules specify concrete actions.",
+      "flawed_answer": "Ethical rules only apply when they conflict with personal beliefs.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "Ethical norms cover broad areas like honesty and fairness, while ethical rules limit individual freedom.",
+      "difficulty": 8
+    },
+    {
+      "question": "How do societal expectations influence ethical behavior?",
+      "good_answer": "Societal expectations shape how people perceive and act within their communities.",
+      "flawed_answer": "Societal expectations have no impact on personal ethical decisions.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "Ethical behaviors align with societal norms, not the other way around.",
+      "difficulty": 9
+    },
+    {
+      "question": "What is the significance of ethical decision-making in professional settings?",
+      "good_answer": "It ensures that professionals follow legal and moral standards, maintaining trust and credibility.",
+      "flawed_answer": "It is merely about adhering to company policies without regard for personal ethics.",
+      "flaw_type": "Logical fallacy",
+      "feedback": "Ethical decision-making is crucial for building strong relationships and achieving career success.",
+      "difficulty": 10
+    },
+    {
+      "question": "What is the largest known planet in our solar system?",
+      "good_answer": "Jupiter",
+      "flawed_answer": "Mars",
+      "flaw_type": "factual_error",
+      "feedback": "The largest known planet in our solar system is not Jupiter but Saturn.",
+      "difficulty": 2
+    },
+    {
+      "question": "Which of the following stars is located at the center of the Milky Way galaxy?",
+      "good_answer": "Proxima Centauri",
+      "flawed_answer": "Alpha Centauri A",
+      "flaw_type": "factual_error",
+      "feedback": "Alpha Centauri B is actually Alpha Centauri C, located at the outer edge of the Milky Way.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the approximate diameter of Earth compared to the sun?",
+      "good_answer": "87%",
+      "flawed_answer": "93%",
+      "flaw_type": "factual_error",
+      "feedback": "Earth is about 40 times larger than the sun.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the primary function of light in the universe according to astrophysics?",
+      "good_answer": "Guiding and communication",
+      "flawed_answer": "Receiving energy from stars",
       "flaw_type": "logical_fallacy",
-      "feedback": "In reality, it is not possible to have both pH and pOH values greater than 14.",
+      "feedback": "This statement is incorrect as it does not accurately describe the role of light in the universe.",
       "difficulty": 2
     },
     {
-      "question": "What is the name of the main group in Group 3A of the periodic table?",
-      "good_answer": "Boron",
-      "flawed_answer": "Carbon",
-      "flaw_type": "misleading",
-      "feedback": "The correct answer is boron.",
+      "question": "How many moons does Pluto have according to the Hubble Space Telescope data?",
+      "good_answer": "15",
+      "flawed_answer": "No data available",
+      "flaw_type": "missing_data",
+      "feedback": "According to NASA's data, there is currently no definitive information on Pluto's number of moons.",
       "difficulty": 2
     },
     {
-      "question": "Which of the following elements is located in Group 16 of the periodic table?",
-      "good_answer": "Sodium",
-      "flawed_answer": "Potassium",
+      "question": "What is the current estimated age of the universe based on current cosmological models?",
+      "good_answer": "4.6 billion years",
+      "flawed_answer": "4.5 billion years",
       "flaw_type": "logical_fallacy",
-      "feedback": "Sodium and potassium are located in different groups in the periodic table.",
+      "feedback": "This statement is logically incorrect because it assumes that the universe is finite or that its age can be determined.",
       "difficulty": 2
     },
     {
-      "question": "What is the boiling point of water at standard temperature and pressure (STP)?",
-      "good_answer": "100\u00b0C",
-      "flawed_answer": "120\u00b0C",
-      "flaw_type": "incomplete",
-      "feedback": "Water boils at 100\u00b0C under standard conditions.",
+      "question": "What is the average temperature of the surface of the sun according to scientific measurements?",
+      "good_answer": "7,000 degrees Celsius",
+      "flawed_answer": "10,000 degrees Celsius",
+      "flaw_type": "logical_fallacy",
+      "feedback": "This statement is logically incorrect because it suggests a significantly higher temperature than what we observe.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in biology?",
+      "good_answer": "biology involves fundamental principles and their practical applications.",
+      "flawed_answer": "biology is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in biology?",
+      "good_answer": "biology involves fundamental principles and their practical applications.",
+      "flawed_answer": "biology is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in biology?",
+      "good_answer": "biology involves fundamental principles and their practical applications.",
+      "flawed_answer": "biology is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in biology?",
+      "good_answer": "biology involves fundamental principles and their practical applications.",
+      "flawed_answer": "biology is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is a key concept in biology?",
+      "good_answer": "biology involves fundamental principles and their practical applications.",
+      "flawed_answer": "biology is only about memorizing facts.",
+      "flaw_type": "oversimplified",
+      "feedback": "The flawed answer ignores the analytical and applied aspects of biology.",
       "difficulty": 2
     },
     {
@@ -527,634 +711,716 @@
       "flawed_answer": "constitutional_law is only about memorizing facts.",
       "flaw_type": "oversimplified",
       "feedback": "The flawed answer ignores the analytical and applied aspects of constitutional_law.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in ethics?",
-      "good_answer": "ethics involves fundamental principles and their practical applications.",
-      "flawed_answer": "ethics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in ethics?",
-      "good_answer": "ethics involves fundamental principles and their practical applications.",
-      "flawed_answer": "ethics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in ethics?",
-      "good_answer": "ethics involves fundamental principles and their practical applications.",
-      "flawed_answer": "ethics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in ethics?",
-      "good_answer": "ethics involves fundamental principles and their practical applications.",
-      "flawed_answer": "ethics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in ethics?",
-      "good_answer": "ethics involves fundamental principles and their practical applications.",
-      "flawed_answer": "ethics is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of ethics.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in networking?",
-      "good_answer": "networking involves fundamental principles and their practical applications.",
-      "flawed_answer": "networking is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of networking.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in networking?",
-      "good_answer": "networking involves fundamental principles and their practical applications.",
-      "flawed_answer": "networking is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of networking.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in networking?",
-      "good_answer": "networking involves fundamental principles and their practical applications.",
-      "flawed_answer": "networking is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of networking.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in networking?",
-      "good_answer": "networking involves fundamental principles and their practical applications.",
-      "flawed_answer": "networking is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of networking.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is a key concept in networking?",
-      "good_answer": "networking involves fundamental principles and their practical applications.",
-      "flawed_answer": "networking is only about memorizing facts.",
-      "flaw_type": "oversimplified",
-      "feedback": "The flawed answer ignores the analytical and applied aspects of networking.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the chromatic scale?",
-      "good_answer": "A scale of seven notes in the musical alphabet.",
-      "flawed_answer": "A scale consisting of twelve notes in the musical alphabet.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct answer should be 'a scale of seven notes in the musical alphabet'. The answer provided contains a logical fallacy, as it incorrectly states that there are only twelve notes in the scale.",
-      "difficulty": 2
-    },
-    {
-      "question": "Which degree in the piano triad corresponds to B flat (Bb)?",
-      "good_answer": "The degree in the piano triad corresponding to B flat (Bb) is C major.",
-      "flawed_answer": "There is no degree in the piano triad that corresponds to B flat (Bb). In fact, B flat (Bb) is not a note on the piano.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct answer should be 'C major', which is the fifth degree in the piano triad.",
-      "difficulty": 2
-    },
-    {
-      "question": "How many sharps or flats does the key of G major have? ",
-      "good_answer": "The key of G major has one sharp (#) and one flat(b) in its scale.",
-      "flawed_answer": "G major has two sharps (#) and one flat(b), but this is incorrect.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct answer should be 'the key of G major has one sharp (#) and one flat(b)', which accurately reflects the structure of the key.",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the difference between a major and minor scale?",
-      "good_answer": "In a major scale, all notes are in step with each other, while in a minor scale, some notes are in step with others.",
-      "flawed_answer": "In a minor scale, all notes are in step with each other, while in a major scale, some notes are in step with others.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct answer should be 'In a major scale, all notes are in step with each other, while in a minor scale, some notes are in step with others.'",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the name of the interval between the first and second degree in the piano triad?",
-      "good_answer": "The name of the interval between the first and second degree in the piano triad is major third.",
-      "flawed_answer": "The name of the interval between the first and second degree in the piano triad is fourth.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct answer should be 'The name of the interval between the first and second degree in the piano triad is major third'.",
-      "difficulty": 2
-    },
-    {
-      "question": "Which of these scales is typically used for jazz music?",
-      "good_answer": "The blues scale is typically used for jazz music.",
-      "flawed_answer": "The blues scale is not commonly used for jazz music.",
-      "flaw_type": "logical_fallacy",
-      "feedback": "The correct answer should be 'The blues scale is typically used for jazz music.', which accurately describes the typical use of the blues scale in jazz music.",
       "difficulty": 2
     }
   ],
   "questions": [
     {
-      "question": "Explain the key concepts of mathematics.",
-      "topic": "mathematics",
+      "question": "What is the definition of the derivative of a function at a point? ",
+      "topic": "calculus",
       "difficulty": 2
     },
     {
-      "question": "What is the fundamental law of motion?",
-      "topic": "physics",
+      "question": "How does the concept of continuity in calculus relate to limits and derivatives? ",
+      "topic": "calculus",
       "difficulty": 2
     },
     {
-      "question": "What is the historical context for the development of Western painting?",
+      "question": "Describe the process of finding an antiderivative (integral) for a given function. ",
+      "topic": "calculus",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the role of integration in calculus, and how does it relate to areas under curves? ",
+      "topic": "calculus",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the difference between continuous and discontinuous functions, and their implications on integrals.",
+      "topic": "calculus",
+      "difficulty": 2
+    },
+    {
+      "question": "How do you find critical points or local extrema of a function using calculus techniques?",
+      "topic": "calculus",
+      "difficulty": 2
+    },
+    {
+      "question": "Define the limit of a sequence, and provide examples to illustrate its importance in sequences and series.",
+      "topic": "calculus",
+      "difficulty": 2
+    },
+    {
+      "question": "Discuss the Mean Value Theorem and its applications in proving the existence of solutions to differential equations.",
+      "topic": "calculus",
+      "difficulty": 2
+    },
+    {
+      "question": "How can we use derivatives to solve optimization problems in economics, physics, engineering, etc.?",
+      "topic": "calculus",
+      "difficulty": 2
+    },
+    {
+      "question": "Compare and contrast different types of integrals (definite vs indefinite), including their properties and uses.",
+      "topic": "calculus",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the definition of economic growth?",
+      "topic": "economics",
+      "difficulty": 2
+    },
+    {
+      "question": "How does inflation affect consumers' purchasing power?",
+      "topic": "economics",
+      "difficulty": 2
+    },
+    {
+      "question": "What role do government regulations play in the economy?",
+      "topic": "economics",
+      "difficulty": 2
+    },
+    {
+      "question": "Why is money considered a basic necessity for human survival?",
+      "topic": "economics",
+      "difficulty": 2
+    },
+    {
+      "question": "How does supply and demand influence prices in the market?",
+      "topic": "economics",
+      "difficulty": 2
+    },
+    {
+      "question": "What are some key factors that contribute to unemployment?",
+      "topic": "economics",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the difference between a stock and a bond investment?",
+      "topic": "economics",
+      "difficulty": 2
+    },
+    {
+      "question": "How does the stock market impact individual financial decisions?",
+      "topic": "economics",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the relationship between GDP and employment?",
+      "topic": "economics",
+      "difficulty": 2
+    },
+    {
+      "question": "How can trade deficits impact an economy's overall health?",
+      "topic": "economics",
+      "difficulty": 2
+    },
+    {
+      "question": "What are the primary causes of inflation?",
+      "topic": "economics",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the key concepts of music_theory.",
+      "topic": "music_theory",
+      "difficulty": 2
+    },
+    {
+      "question": "What were the primary social structures in ancient civilizations?",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "Describe the role of trade and commerce in ancient societies.",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "How did agriculture contribute to economic development in ancient times?",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "Explain the concept of hierarchies within ancient civilizations.",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "Discuss the impact of religion on daily life and societal organization.",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "Compare and contrast the technological advancements of different ancient cultures.",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "What was the significance of education in ancient civilizations?",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "How did the concept of slavery manifest in various ancient societies?",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "Describe the relationship between art, culture, and politics in ancient civilizations.",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "Discuss the role of women in ancient civilizations, including their roles in society and marriage.",
+      "topic": "ancient_civilizations",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the difference between a microcontroller and an embedded system?",
+      "topic": "engineering",
+      "difficulty": 2
+    },
+    {
+      "question": "How do you determine the performance requirements for a new software application in terms of resource consumption and processing speed?",
+      "topic": "engineering",
+      "difficulty": 2
+    },
+    {
+      "question": "In civil engineering, what are some common types of structures that can be analyzed using finite element analysis (FEA)?",
+      "topic": "engineering",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the primary goal of energy efficiency in modern building design?",
+      "topic": "engineering",
+      "difficulty": 2
+    },
+    {
+      "question": "Describe the process of designing a pipeline network to transport fluids safely and efficiently.",
+      "topic": "engineering",
+      "difficulty": 2
+    },
+    {
+      "question": "What are the key factors to consider when selecting materials for construction purposes such as durability, cost-effectiveness, and environmental impact?",
+      "topic": "engineering",
+      "difficulty": 2
+    },
+    {
+      "question": "How does a computer vision system work, and what kind of applications might it be used for in various industries?",
+      "topic": "engineering",
+      "difficulty": 2
+    },
+    {
+      "question": "Analyze the advantages and disadvantages of different types of renewable energy sources like solar, wind, and hydroelectric power.",
+      "topic": "engineering",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the role of structural engineers in determining the stability and integrity of buildings and bridges?",
+      "topic": "engineering",
+      "difficulty": 2
+    },
+    {
+      "question": "How do soil mechanics principles apply to the design of roads and infrastructure?",
+      "topic": "engineering",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the most populous city in China?",
+      "topic": "geography",
+      "difficulty": 2
+    },
+    {
+      "question": "Which mountain range separates Asia and Europe?",
+      "topic": "geography",
+      "difficulty": 2
+    },
+    {
+      "question": "How many continents are there in total?",
+      "topic": "geography",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the largest desert in the world?",
+      "topic": "geography",
+      "difficulty": 2
+    },
+    {
+      "question": "Where is the Amazon rainforest located?",
+      "topic": "geography",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the capital city of Saudi Arabia?",
+      "topic": "geography",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the longest river in the world by length?",
+      "topic": "geography",
+      "difficulty": 2
+    },
+    {
+      "question": "Which ocean does the Great Lakes lie in?",
+      "topic": "geography",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the highest peak in the Alps?",
+      "topic": "geography",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the difference between classical and quantum mechanics?",
+      "topic": "cognitive_science",
+      "difficulty": 2
+    },
+    {
+      "question": "How does the brain process information in the context of learning and memory?",
+      "topic": "cognitive_science",
+      "difficulty": 2
+    },
+    {
+      "question": "What are some examples of artificial intelligence applications in cognitive science?",
+      "topic": "cognitive_science",
+      "difficulty": 2
+    },
+    {
+      "question": "Can you explain the concept of neural plasticity in neuroscience?",
+      "topic": "cognitive_science",
+      "difficulty": 2
+    },
+    {
+      "question": "How do neuroimaging techniques like fMRI and PET help us understand brain function?",
+      "topic": "cognitive_science",
+      "difficulty": 2
+    },
+    {
+      "question": "What role does the human genome play in cognitive development?",
+      "topic": "cognitive_science",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the relationship between emotional regulation and the brain?",
+      "topic": "cognitive_science",
+      "difficulty": 2
+    },
+    {
+      "question": "How does attention work at the level of individual neurons?",
+      "topic": "cognitive_science",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the significance of neuropsychological testing in clinical settings?",
+      "topic": "cognitive_science",
+      "difficulty": 2
+    },
+    {
+      "question": "How do cultural differences influence cognitive processes in different populations?",
+      "topic": "cognitive_science",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the most striking feature of the poem you have read?",
+      "topic": "poetry",
+      "difficulty": 2
+    },
+    {
+      "question": "How does the poet use repetition to create a sense of rhythm and structure in their work?",
+      "topic": "poetry",
+      "difficulty": 2
+    },
+    {
+      "question": "Describe the imagery and sensory details used in this poem, and how they contribute to the overall mood or theme?",
+      "topic": "poetry",
+      "difficulty": 2
+    },
+    {
+      "question": "What literary devices do you think make this poem stand out from others you've read?",
+      "topic": "poetry",
+      "difficulty": 2
+    },
+    {
+      "question": "How does the poet's voice or tone influence the meaning conveyed in this poem?",
+      "topic": "poetry",
+      "difficulty": 2
+    },
+    {
+      "question": "Compare and contrast the style of this poem with another you have read.",
+      "topic": "poetry",
+      "difficulty": 2
+    },
+    {
+      "question": "Discuss the role of symbolism in this poem, and its significance to the speaker or subject?",
+      "topic": "poetry",
+      "difficulty": 2
+    },
+    {
+      "question": "How does the poet use metaphor to convey deeper meanings or ideas in this poem?",
+      "topic": "poetry",
+      "difficulty": 2
+    },
+    {
+      "question": "What themes or emotions are explored through this poem, and how do they relate to the speaker or audience?",
+      "topic": "poetry",
+      "difficulty": 2
+    },
+    {
+      "question": "Think about the impact of the poem on you personally or culturally, and what lessons it may impart.",
+      "topic": "poetry",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the significance of the Mona Lisa in art history? ",
       "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "How does the concept of realism in European art evolve over time?",
+      "question": "How has Impressionism influenced modern art styles? ",
       "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "Describe the significance of the Renaissance in terms of artistic movements and styles.",
+      "question": "Describe the impact of Leonardo da Vinci's 'The Last Supper' on Christian art traditions.",
       "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "Discuss the impact of Impressionism on early modern art and its influence on modernism.",
+      "question": "What were some key features of the Baroque period and how did it influence painting techniques? ",
       "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "Explain how the Cubist movement transformed traditional representational art by breaking it down into geometric shapes.",
+      "question": "Explain the role of the 'Cathedral of Saint Peter' in medieval architecture and its impact on Western European art.",
       "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "What role did the Symbolists play in challenging the established norms of Western art during the late 19th century?",
+      "question": "Compare and contrast the Renaissance with the Baroque periods in terms of artistic styles, themes, and their cultural influences. ",
       "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "Analyse the evolution of Surrealism from its early experimental phase to its more complex post-war manifestations.",
+      "question": "Discuss the relationship between the Enlightenment and the development of scientific thought in the early 18th century. ",
       "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "Compare and contrast the influences of Modernism (post-World War II) and Postmodernism on the aesthetic principles of art.",
+      "question": "How did the invention of the printing press during the Industrial Revolution change the way information was disseminated in Europe and beyond? ",
       "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "What were the key developments in Abstract Expressionism and their impact on contemporary art?",
+      "question": "What is the significance of the 'Mona Lisa' in Italian art and how does it relate to the concept of historical memory?",
       "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "What is the definition of psychology and how has it evolved over time? ",
-      "topic": "psychology",
+      "question": "Analyze the evolution of Gothic architecture from the 13th to the 19th centuries and discuss how it reflected changing social norms and technological advancements.",
+      "topic": "art_history",
       "difficulty": 2
     },
     {
-      "question": "How does the study of personality differ from other psychological fields such as neuroscience or developmental psychology? ",
-      "topic": "psychology",
+      "question": "What is the main goal of environmental science?",
+      "topic": "environmental_science",
       "difficulty": 2
     },
     {
-      "question": "Describe at least three key concepts in psychology, including but not limited to the concept of addiction and its effects on mental health.",
-      "topic": "psychology",
+      "question": "How does climate change impact ecosystems?",
+      "topic": "environmental_science",
       "difficulty": 2
     },
     {
-      "question": "How does social influence affect individual behavior and decision-making processes? ",
-      "topic": "psychology",
+      "question": "What are the impacts of deforestation on biodiversity?",
+      "topic": "environmental_science",
       "difficulty": 2
     },
     {
-      "question": "What role do cultural factors play in shaping human behavior and attitudes? ",
-      "topic": "psychology",
+      "question": "How can we reduce our carbon footprint in everyday life?",
+      "topic": "environmental_science",
       "difficulty": 2
     },
     {
-      "question": "Explain the difference between primary and secondary memory and provide examples.",
-      "topic": "psychology",
+      "question": "What is the role of renewable energy sources like solar and wind?",
+      "topic": "environmental_science",
       "difficulty": 2
     },
     {
-      "question": "How does the brain's structure and function contribute to our understanding of cognitive functions like attention and learning?",
-      "topic": "psychology",
+      "question": "What are the consequences of urbanization on water quality?",
+      "topic": "environmental_science",
       "difficulty": 2
     },
     {
-      "question": "Discuss the importance of emotional intelligence in personal and professional relationships.",
-      "topic": "psychology",
+      "question": "How do pollutants affect air quality in cities?",
+      "topic": "environmental_science",
       "difficulty": 2
     },
     {
-      "question": "How does the field of psychology incorporate research methods and data analysis techniques in contemporary practice?",
-      "topic": "psychology",
+      "question": "What is the significance of ecosystem services in human well-being?",
+      "topic": "environmental_science",
       "difficulty": 2
     },
     {
-      "question": "What are some common issues faced by individuals with mental health disorders and how can they be effectively managed through therapy?",
-      "topic": "psychology",
+      "question": "How can we mitigate the effects of pollution on wildlife?",
+      "topic": "environmental_science",
       "difficulty": 2
     },
     {
-      "question": "Explain the key concepts of electromagnetism.",
-      "topic": "electromagnetism",
+      "question": "What are the challenges associated with climate adaptation strategies for different regions?",
+      "topic": "environmental_science",
       "difficulty": 2
     },
     {
-      "question": "What is the author's primary goal or central theme in their work?",
-      "topic": "literature",
+      "question": "What is the definition of microeconomics?",
+      "topic": "microeconomics",
       "difficulty": 2
     },
     {
-      "question": "How does the narrative structure and plot contribute to the story's development?",
-      "topic": "literature",
+      "question": "How does supply and demand influence market equilibrium?",
+      "topic": "microeconomics",
       "difficulty": 2
     },
     {
-      "question": "Which literary devices do you find most effective in your reading experience?",
-      "topic": "literature",
+      "question": "Describe the concept of elasticity in economics.",
+      "topic": "microeconomics",
       "difficulty": 2
     },
     {
-      "question": "How does the use of language, symbolism, and imagery enhance the reader's understanding of the text?",
-      "topic": "literature",
+      "question": "What are the three main components of an economic model?: production, consumption, and exchange.",
+      "topic": "microeconomics",
       "difficulty": 2
     },
     {
-      "question": "What aspect of the world does your book explore? How does it impact the themes of your work?",
-      "topic": "literature",
+      "question": "How does government intervention affect microeconomic policy decisions?",
+      "topic": "microeconomics",
       "difficulty": 2
     },
     {
-      "question": "In what ways do the characters' actions and decisions reflect societal norms and values?",
-      "topic": "literature",
+      "question": "Explain the difference between absolute advantage and comparative advantage.",
+      "topic": "microeconomics",
       "difficulty": 2
     },
     {
-      "question": "How does the setting contribute to the overall atmosphere of the novel?",
-      "topic": "literature",
+      "question": "What is opportunity cost in microeconomics?",
+      "topic": "microeconomics",
       "difficulty": 2
     },
     {
-      "question": "What role do the author's personal experiences play in shaping the story?",
-      "topic": "literature",
+      "question": "What role do consumer behavior play in market dynamics?",
+      "topic": "microeconomics",
       "difficulty": 2
     },
     {
-      "question": "How has your reading influenced your perspective on literature and its impact on society?",
-      "topic": "literature",
+      "question": "Discuss the importance of price elasticity for firms in determining optimal prices.",
+      "topic": "microeconomics",
       "difficulty": 2
     },
     {
-      "question": "What is your favorite literary device used in this work, and why?",
-      "topic": "literature",
-      "difficulty": 2
-    },
-    {
-      "question": "How would you describe the tone and mood of the book?",
-      "topic": "literature",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the purpose and significance of computer science?",
-      "topic": "computer_science",
-      "difficulty": 2
-    },
-    {
-      "question": "How does computer science differ from other fields like mathematics, engineering, or business?",
-      "topic": "computer_science",
-      "difficulty": 2
-    },
-    {
-      "question": "What are some key concepts in computer science such as algorithms, data structures, and programming languages?",
-      "topic": "computer_science",
-      "difficulty": 2
-    },
-    {
-      "question": "Describe the different types of software development processes commonly used in computer science.",
-      "topic": "computer_science",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the difference between object-oriented and functional programming paradigms in computer science.",
-      "topic": "computer_science",
-      "difficulty": 2
-    },
-    {
-      "question": "How do computers process information and what are common ways to store and retrieve data in databases?",
-      "topic": "computer_science",
-      "difficulty": 2
-    },
-    {
-      "question": "What is an algorithm? What are its main components?",
-      "topic": "computer_science",
-      "difficulty": 2
-    },
-    {
-      "question": "Compare and contrast machine learning and artificial intelligence in terms of their applications and technologies.",
-      "topic": "computer_science",
-      "difficulty": 2
-    },
-    {
-      "question": "How can I improve my problem-solving skills using computer science techniques?",
-      "topic": "computer_science",
-      "difficulty": 2
-    },
-    {
-      "question": "Discuss the ethical considerations and responsibilities associated with the use of computers in various domains.",
-      "topic": "computer_science",
-      "difficulty": 2
-    },
-    {
-      "question": "What were the major religious beliefs and practices of ancient civilizations? ",
-      "topic": "ancient_civilizations",
-      "difficulty": 2
-    },
-    {
-      "question": "How did agriculture and farming systems differ across different regions? ",
-      "topic": "ancient_civilizations",
-      "difficulty": 2
-    },
-    {
-      "question": "Describe the social structures and roles in ancient societies, including gender roles and kinship ties.",
-      "topic": "ancient_civilizations",
-      "difficulty": 2
-    },
-    {
-      "question": "How did trade networks affect economic activities in ancient times? ",
-      "topic": "ancient_civilizations",
-      "difficulty": 2
-    },
-    {
-      "question": "What were the technological advancements that allowed for early urbanization? ",
-      "topic": "ancient_civilizations",
-      "difficulty": 2
-    },
-    {
-      "question": "What was the role of women in ancient societies, both in personal life and societal roles? ",
-      "topic": "ancient_civilizations",
-      "difficulty": 2
-    },
-    {
-      "question": "Discuss the impact of migration on ancient civilizations, including how it affected population growth and cultural exchange.",
-      "topic": "ancient_civilizations",
-      "difficulty": 2
-    },
-    {
-      "question": "How did ancient civilizations use their knowledge of astronomy to predict solar and lunar eclipses?",
-      "topic": "ancient_civilizations",
-      "difficulty": 2
-    },
-    {
-      "question": "Describe the impact of slavery and its abolition on ancient civilizations' economies and social structures.",
-      "topic": "ancient_civilizations",
-      "difficulty": 2
-    },
-    {
-      "question": "What were some key factors that contributed to the development of advanced engineering technologies in ancient times?",
-      "topic": "ancient_civilizations",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the largest known planet in our solar system? ",
-      "topic": "astronomy",
-      "difficulty": 2
-    },
-    {
-      "question": "How many moons does Jupiter have compared to Saturn?",
-      "topic": "astronomy",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the current temperature on the hottest point on Earth? ",
-      "topic": "astronomy",
-      "difficulty": 2
-    },
-    {
-      "question": "Why do we see stars moving across the sky from east to west? ",
-      "topic": "astronomy",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the name of the most distant object in the universe? ",
-      "topic": "astronomy",
-      "difficulty": 2
-    },
-    {
-      "question": "Describe the basic structure of an atom and how it works.",
-      "topic": "astronomy",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the average surface temperature of the sun, in Kelvin? ",
-      "topic": "astronomy",
-      "difficulty": 2
-    },
-    {
-      "question": "Which is the closest star to Earth, Proxima Centauri or Alpha Centauri A?",
-      "topic": "astronomy",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the main difference between a star and a planet? ",
-      "topic": "astronomy",
-      "difficulty": 2
-    },
-    {
-      "question": "How can you tell if you're seeing a supernova? ",
-      "topic": "astronomy",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of cybersecurity.",
-      "topic": "cybersecurity",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the empirical formula for calcium carbonate?",
-      "topic": "chemistry",
-      "difficulty": 2
-    },
-    {
-      "question": "How do you determine the solubility of a sparingly soluble salt in water?",
-      "topic": "chemistry",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the difference between an acid-base reaction and a neutralization reaction?",
-      "topic": "chemistry",
-      "difficulty": 2
-    },
-    {
-      "question": "Describe the process of photosynthesis in plants.",
-      "topic": "chemistry",
-      "difficulty": 2
-    },
-    {
-      "question": "How does a catalyst affect the rate of a chemical reaction?",
-      "topic": "chemistry",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the role of pH in determining the stability of a compound?",
-      "topic": "chemistry",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the difference between a solution, suspension, and colloid?",
-      "topic": "chemistry",
-      "difficulty": 2
-    },
-    {
-      "question": "How can you identify a metal from its oxide? (e.g., iron \u2192 FeO)",
-      "topic": "chemistry",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the general rule for combustion reactions?",
-      "topic": "chemistry",
-      "difficulty": 2
-    },
-    {
-      "question": "How does the boiling point of a liquid change with temperature?",
-      "topic": "chemistry",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the difference between a covalent bond and a ionic bond?",
-      "topic": "chemistry",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the purpose and structure of the U.S. Constitution?",
-      "topic": "constitutional_law",
-      "difficulty": 2
-    },
-    {
-      "question": "How does the Bill of Rights in the U.S. Constitution protect individual rights?",
-      "topic": "constitutional_law",
-      "difficulty": 2
-    },
-    {
-      "question": "What are the three branches of government outlined in the U.S. Constitution?",
-      "topic": "constitutional_law",
-      "difficulty": 2
-    },
-    {
-      "question": "What are the powers of the President, Vice President, and members of Congress according to the U.S. Constitution?",
-      "topic": "constitutional_law",
-      "difficulty": 2
-    },
-    {
-      "question": "Who can declare war under Article I, Section 8 of the U.S. Constitution?",
-      "topic": "constitutional_law",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the role of the Supreme Court in interpreting the Constitution and laws?",
-      "topic": "constitutional_law",
-      "difficulty": 2
-    },
-    {
-      "question": "What are the qualifications for being a member of the House of Representatives or Senate in the U.S. Constitution?",
-      "topic": "constitutional_law",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the process for amending the U.S. Constitution by the National Convention of States?",
-      "topic": "constitutional_law",
-      "difficulty": 2
-    },
-    {
-      "question": "What is the difference between a state's power over its own constitution and the federal government's power over the states?",
-      "topic": "constitutional_law",
-      "difficulty": 2
-    },
-    {
-      "question": "How does the separation of powers in the U.S. Constitution ensure that no single branch becomes too powerful?",
-      "topic": "constitutional_law",
-      "difficulty": 2
-    },
-    {
-      "question": "Explain the key concepts of ethics.",
+      "question": "What is the definition of ethical behavior?",
       "topic": "ethics",
       "difficulty": 2
     },
     {
-      "question": "What is the purpose of networking?",
-      "topic": "networking",
+      "question": "How does the concept of moral responsibility influence our actions?",
+      "topic": "ethics",
       "difficulty": 2
     },
     {
-      "question": "How does network technology work?",
-      "topic": "networking",
+      "question": "In what ways can we define and measure ethical standards in society?",
+      "topic": "ethics",
       "difficulty": 2
     },
     {
-      "question": "What are some common types of networks used in today's world?",
-      "topic": "networking",
+      "question": "What role do cultural norms play in shaping ethical considerations?",
+      "topic": "ethics",
       "difficulty": 2
     },
     {
-      "question": "Describe how data can be transmitted over a network.",
-      "topic": "networking",
+      "question": "How does the balance between personal autonomy and societal obligations relate to ethics?",
+      "topic": "ethics",
       "difficulty": 2
     },
     {
-      "question": "Why is it important to have a strong internet connection?",
-      "topic": "networking",
+      "question": "Describe an example of an unethical action and explain why it might be considered so.",
+      "topic": "ethics",
       "difficulty": 2
     },
     {
-      "question": "How do you typically connect with people on social media platforms?",
-      "topic": "networking",
+      "question": "How do different cultures interpret and apply ethical principles within their societies?",
+      "topic": "ethics",
       "difficulty": 2
     },
     {
-      "question": "What role does email play in modern communication?",
-      "topic": "networking",
+      "question": "What is the importance of considering the potential consequences when making decisions?",
+      "topic": "ethics",
       "difficulty": 2
     },
     {
-      "question": "List at least three reasons why companies choose cloud computing for their infrastructure.",
-      "topic": "networking",
+      "question": "How can individuals ensure they are acting ethically in their daily lives?",
+      "topic": "ethics",
       "difficulty": 2
     },
     {
-      "question": "Describe the process of creating and maintaining a secure online presence.",
-      "topic": "networking",
+      "question": "What are some common examples of ethical dilemmas faced by individuals or communities?",
+      "topic": "ethics",
       "difficulty": 2
     },
     {
-      "question": "How do you measure the effectiveness of your marketing efforts?",
-      "topic": "networking",
+      "question": "How can we foster a culture that values and respects diverse ethical perspectives?",
+      "topic": "ethics",
       "difficulty": 2
     },
     {
-      "question": "What is the difference between a perfect fifth and a major third in music theory?",
-      "topic": "music_theory",
+      "question": "What is the primary purpose of studying celestial bodies and their movements?",
+      "topic": "astronomy",
       "difficulty": 2
     },
     {
-      "question": "Describe the relationship between musical intervals and their corresponding notes on a musical staff.",
-      "topic": "music_theory",
+      "question": "How do astronomers use telescopes to observe distant stars and planets?",
+      "topic": "astronomy",
       "difficulty": 2
     },
     {
-      "question": "How does the use of semitone changes affect the tonal center in a piece of music?",
-      "topic": "music_theory",
+      "question": "What does the term 'star' refer to in astronomy? (e.g., main sequence, red dwarf)",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "Why is the Milky Way considered one of the most massive galaxies?",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "Describe the key components of a star's lifecycle from formation to death.",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "What are some common methods used by astronomers to study exoplanets?",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "How does the brightness of a star relate to its age and temperature?",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "What role do supernovae play in the evolution of stars?",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "What are the two types of nebulae observed in space?",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "What can be inferred about a planet's atmosphere based on its light spectrum?",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "How does the concept of 'stellar lifespans' differ between different types of stars?",
+      "topic": "astronomy",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the definition of an organism?",
+      "topic": "biology",
+      "difficulty": 2
+    },
+    {
+      "question": "How do cells divide and reproduce in organisms?",
+      "topic": "biology",
+      "difficulty": 2
+    },
+    {
+      "question": "Describe the structure of a cell from the inside out.",
+      "topic": "biology",
+      "difficulty": 2
+    },
+    {
+      "question": "What are the main components of an animal's circulatory system?",
+      "topic": "biology",
+      "difficulty": 2
+    },
+    {
+      "question": "Why does the human body have multiple organs with different functions?",
+      "topic": "biology",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the role of enzymes in biochemical reactions within cells?",
+      "topic": "biology",
+      "difficulty": 2
+    },
+    {
+      "question": "How does DNA replication occur in eukaryotic cells?",
+      "topic": "biology",
+      "difficulty": 2
+    },
+    {
+      "question": "Define cellular respiration and describe its key steps.",
+      "topic": "biology",
+      "difficulty": 2
+    },
+    {
+      "question": "What are the basic types of energy stored in organic molecules?",
+      "topic": "biology",
+      "difficulty": 2
+    },
+    {
+      "question": "Compare and contrast endosymbiosis and evolution by natural selection.",
+      "topic": "biology",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the main purpose of constitutional law?",
+      "topic": "constitutional_law",
+      "difficulty": 2
+    },
+    {
+      "question": "How does the U.S. Constitution differ from other constitutions in terms of its structure and content?",
+      "topic": "constitutional_law",
+      "difficulty": 2
+    },
+    {
+      "question": "What are some key principles that guide the interpretation of the U.S. Constitution?",
+      "topic": "constitutional_law",
+      "difficulty": 2
+    },
+    {
+      "question": "How does the concept of judicial review relate to the role of courts in interpreting the U.S. Constitution?",
+      "topic": "constitutional_law",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the role of state governments in the context of federalism?",
+      "topic": "constitutional_law",
+      "difficulty": 2
+    },
+    {
+      "question": "How do amendments to the U.S. Constitution affect its legal framework?",
+      "topic": "constitutional_law",
+      "difficulty": 2
+    },
+    {
+      "question": "What is the difference between originalism and textualism when it comes to constitutional interpretation?",
+      "topic": "constitutional_law",
+      "difficulty": 2
+    },
+    {
+      "question": "What are some examples of constitutional amendments passed by Congress?",
+      "topic": "constitutional_law",
+      "difficulty": 2
+    },
+    {
+      "question": "How does the doctrine of stare decisis impact the interpretation of the U.S. Constitution?",
+      "topic": "constitutional_law",
       "difficulty": 2
     }
   ],
-  "example_count": 82,
-  "question_count": 99
+  "example_count": 89,
+  "question_count": 141
 }
