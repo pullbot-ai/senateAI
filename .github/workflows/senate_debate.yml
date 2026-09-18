@@ -45,7 +45,13 @@ jobs:
           key: pip-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
           restore-keys: pip-${{ runner.os }}-
       
-      - run: pip install torch numpy pyyaml
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-${{ runner.os }}-qwen-0.5b
+          restore-keys: hf-${{ runner.os }}-
+      
+      - run: pip install torch numpy pyyaml transformers
       
       - name: Write router script
         run: |
@@ -92,7 +98,6 @@ jobs:
               else:
                   print(f'  Failed bundle {bid:03d}: {result.stderr[:100]}')
           
-          # Verify bundles exist
           from pathlib import Path
           for bid in data['bundle_ids']:
               bundle_file = Path(f'senate_bundles/bundle_{bid:03d}.pt')
